@@ -1,0 +1,19 @@
+tags status 200
+TAG 'Skip morning edition': found, id sub_tag_2jse3cx3v98fkam3ngsaksdb4e, subscriber_editable=False
+TAG 'Skip evening edition': found, id sub_tag_3pm5z392rt9sd9qakwrknjg8ef, subscriber_editable=True
+TAG 'Skip Sunday weekend review': found, id sub_tag_6s2mk6hvbh9s9bmtv91rkaa1tm, subscriber_editable=True
+TAG 'Skip breaking alerts': found, id sub_tag_1zkgar12cq9aysqg6x8ne51bkd, subscriber_editable=True
+all tag names: ['Skip Sunday weekend review', 'Skip breaking alerts', 'Skip evening edition', 'Skip morning edition']
+RAW {"color": "#475569", "creation_date": "2026-09-29T21:02:52.041133Z", "description": "", "id": "sub_tag_2jse3cx3v98fkam3ngsaksdb4e", "name": "Skip morning edition", "public_description": "", "secondary_id": 1, "subscriber_editable": false}
+RAW {"color": "#f59e0b", "creation_date": "2026-09-29T21:03:23.058203Z", "description": "", "id": "sub_tag_3pm5z392rt9sd9qakwrknjg8ef", "name": "Skip evening edition", "public_description": "", "secondary_id": 2, "subscriber_editable": true}
+RAW {"color": "#eab308", "creation_date": "2026-09-29T21:03:49.968677Z", "description": "", "id": "sub_tag_6s2mk6hvbh9s9bmtv91rkaa1tm", "name": "Skip Sunday weekend review", "public_description": "", "secondary_id": 3, "subscriber_editable": true}
+RAW {"color": "#22c55e", "creation_date": "2026-09-29T21:04:10.794634Z", "description": "", "id": "sub_tag_1zkgar12cq9aysqg6x8ne51bkd", "name": "Skip breaking alerts", "public_description": "", "secondary_id": 4, "subscriber_editable": true}
+FILTER morning: draft create status 201
+   draft deleted: status 204
+FILTER evening: draft create status 201
+   draft deleted: status 204
+FILTER weekend: draft create status 201
+   draft deleted: status 204
+FILTER breaking: draft create status 201
+   draft deleted: status 204
+subscriber count: 2

@@ -181,6 +181,8 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .fl-mark{position:relative;width:min(312px,82%);margin:12px auto 0}
 .fl-mark .fl-head{width:100%;margin:0;-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20250%2024%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cg%20transform%3D%22translate%2810%200%29%22%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28240%200%29%20scale%28-1%201%29%22%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20250%2024%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cg%20transform%3D%22translate%2810%200%29%22%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28240%200%29%20scale%28-1%201%29%22%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E")}
 .fl-mark .fl-bars{position:absolute;left:50%;top:50%;height:19px;width:auto;transform:translate(-50%,-50%)}
+.pp-date{margin-top:-6px!important;font:400 14px var(--sans);color:var(--muted)}
+.su-fine a{color:inherit}
 </style>
 </head><body>
 <div class="wrap">
@@ -233,17 +235,56 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
       <input type="hidden" name="embed" value="1">
       <button type="submit">Subscribe</button>
     </form>
-    <p class="su-fine">Free. No ads in your inbox. Unsubscribe any time.</p>
+    <p class="su-fine">Free. No ads in your inbox. Unsubscribe any time. We never sell your email. <a href="#privacy">Privacy policy</a></p>
   </section>
 
   <div class="key">
     <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
   </div>
-  <p class="pastlink"><a href="#about">About</a><span aria-hidden="true"> · </span><a href="#archive">Past editions</a><span aria-hidden="true"> · </span><a href="#subscribe">Get it by email</a></p>
+  <p class="pastlink"><a href="#about">About</a><span aria-hidden="true"> · </span><a href="#archive">Past editions</a><span aria-hidden="true"> · </span><a href="#subscribe">Get it by email</a><span aria-hidden="true"> · </span><a href="#privacy">Privacy</a></p>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
   <div class="colophon" aria-hidden="true">— 30 —</div>
 </div>
 
+<template id="privacyTpl">
+  <article class="about">
+    <p class="ab-kicker">Privacy policy</p>
+    <h2 class="ab-title">Your privacy, in plain English.</h2>
+    <p class="ab-lede">We collect as little as possible, we never sell it, and you can leave any time.</p>
+    <p class="pp-date">Effective September 29, 2026</p>
+
+    <h3>If you subscribe by email</h3>
+    <p>We collect your email address, and nothing else is required. We use it only to send you the High Impact News Daily editions and, rarely, an important note about the service.</p>
+    <p>Our email service, Buttondown, stores the subscriber list and sends the emails for us. Like most email services, it may record basic delivery information, such as whether an email was delivered or opened and which links were clicked. We use that only to see what’s working and to keep the list healthy. Buttondown’s own privacy policy covers how it handles that data.</p>
+
+    <h3>If you just visit the site</h3>
+    <ul class="ab-promises">
+      <li>There are no accounts, no ads and no tracking or analytics tools on this site.</li>
+      <li>The site remembers two small settings in your own browser (the last tab you opened and the impact level you chose) so it looks the same next time. They never leave your device, and clearing your browser data removes them.</li>
+      <li>The site is hosted by GitHub Pages, and its fonts are loaded from Google Fonts. As with any website, those services receive your device’s IP address and basic browser details when the page loads, and handle them under their own privacy policies.</li>
+      <li>Story links take you to other websites, such as government sites and news outlets. Their own privacy policies apply once you’re there.</li>
+    </ul>
+
+    <h3>What we will never do</h3>
+    <ul class="ab-promises">
+      <li>Sell, rent or trade your email address or any information about you.</li>
+      <li>Share your information with advertisers or sponsors. If we ever have sponsors, they get no information about our readers except overall numbers, like how many subscribers we have.</li>
+    </ul>
+
+    <h3>Your choices</h3>
+    <ul class="ab-promises">
+      <li><b>Unsubscribe:</b> every email has an unsubscribe link at the bottom. One click and you’re off the list.</li>
+      <li><b>Delete your information:</b> email us and we’ll remove your address from our list and ask our email service to delete it too.</li>
+      <li><b>Questions:</b> write to <a href="mailto:hello@highimpactnewsdaily.com">hello@highimpactnewsdaily.com</a>.</li>
+    </ul>
+
+    <h3>Children</h3>
+    <p>This site is meant for adults. We don’t knowingly collect information from children under 13. If you believe a child has subscribed, email us and we’ll remove the address.</p>
+
+    <h3>Changes</h3>
+    <p>If we change this policy, we’ll post the new version here and update the date above. If a change affects how we use your email address, we’ll tell subscribers by email first.</p>
+  </article>
+</template>
 <template id="aboutTpl">
   <article class="about">
     <p class="ab-kicker">About</p>
@@ -307,7 +348,7 @@ function syncButtons(){
   document.querySelectorAll("#regions button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.r===region)));
   const st=document.getElementById("subtabs"); st.replaceChildren();
   if(SUBS[region]){ for(const [k,l] of SUBS[region]){const b=el("button",null,l); b.dataset.s=k; b.setAttribute("aria-pressed",String(k===sub)); st.append(b);} st.hidden=false; } else st.hidden=true;
-  document.getElementById("impactRow").hidden=(region==="today"||region==="archive"||region==="about");
+  document.getElementById("impactRow").hidden=(region==="today"||region==="archive"||region==="about"||region==="privacy");
 }
 document.getElementById("seg").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min; try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();});
 document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; archKey=null; setHash(region==="archive"?"#archive":""); try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
@@ -398,7 +439,7 @@ function render(){
   const feed=document.getElementById("feed"); feed.replaceChildren();
   if(region==="history"){renderHistory(feed);return;}
   if(region==="archive"){renderArchive(feed);return;}
-  if(region==="about"){setIntro(""); feed.append(document.getElementById("aboutTpl").content.cloneNode(true)); return;}
+  if(region==="about"||region==="privacy"){setIntro(""); feed.append(document.getElementById(region+"Tpl").content.cloneNode(true)); return;}
   if(!loaded){feed.append(el("div","empty","Loading today’s edition…"));return;}
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
@@ -418,7 +459,7 @@ syncButtons(); render();
 
 /* Archive: every published edition, saved by the edition tasks in archive/ */
 function setHash(h){try{window.history.replaceState(null,"",h||location.pathname+location.search);}catch(e){}}
-function readHash(){if(location.hash==="#about"){region="about";archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
+function readHash(){if(location.hash==="#about"||location.hash==="#privacy"){region=location.hash.slice(1);archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
 window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render();window.scrollTo({top:0});}});
 async function loadArchIdx(){try{const r=await fetch("archive/index.json?t="+Date.now(),{cache:"no-store"}); archIdx=await r.json();}catch(e){archIdx={editions:[]};} if(region==="archive")render();}
 async function loadArch(k){try{const r=await fetch("archive/"+k+".json",{cache:"no-store"}); archCache[k]=r.ok?await r.json():{missing:true};}catch(e){archCache[k]={missing:true};} if(region==="archive"&&archKey===k)render();}

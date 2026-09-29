@@ -150,6 +150,31 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .arch-lead{margin:8px 0 0;font:400 15px/1.45 var(--serif);color:var(--muted)}
 .arch-nav{display:flex;justify-content:space-between;gap:12px;margin-top:32px;font:500 14px var(--sans)}
 @media (max-width:480px){.arch-day{grid-template-columns:1fr;gap:6px}}
+
+/* About */
+.ed-about{color:var(--accent);text-decoration:none;font-weight:500}
+.ed-about:hover{text-decoration:underline}
+.about{max-width:38em;margin:36px auto 0;font:400 18px/1.65 var(--serif);color:var(--fg)}
+.about p{margin:0 0 18px;text-wrap:pretty}
+.ab-kicker{margin:0 0 8px!important;font:600 13px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.ab-title{margin:0 0 22px;font:600 clamp(28px,5vw,38px)/1.15 var(--serif);text-wrap:balance}
+.ab-lede{font-size:20px}
+.ab-pull{margin:30px 0!important;padding:4px 0 4px 20px;border-left:3px solid var(--accent);font:italic 400 22px/1.5 var(--serif)}
+.about .flourish{margin:40px auto}
+.about h3{margin:36px 0 14px;font:600 13px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.ab-list{margin:0}
+.ab-list dt{margin-top:16px;font:600 17px var(--sans)}
+.ab-list dd{margin:4px 0 0;color:var(--fg)}
+.ab-promises{margin:0;padding-left:1.2em}
+.ab-promises li{margin:0 0 10px;padding-left:4px}
+.ab-promises li::marker{color:var(--accent)}
+.about a{color:var(--accent)}
+.ab-cta{margin:40px 0 0;padding:24px;text-align:center;background:var(--surface);border:1px solid var(--faint);border-radius:14px}
+.ab-cta p{margin:0 0 14px;font-size:17px;color:var(--muted)}
+.ab-btn{display:inline-block;padding:12px 22px;font:600 15px var(--sans);color:#fff!important;background:var(--accent);border-radius:10px;text-decoration:none}
+:root[data-theme="dark"] .ab-btn{color:#15130f!important}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .ab-btn{color:#15130f!important}}
+@media (max-width:480px){.about{font-size:17px}.ab-lede{font-size:18px}.ab-pull{font-size:19px}}
 </style>
 </head><body>
 <div class="wrap">
@@ -159,7 +184,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
     <div class="flourish fl-head" aria-hidden="true"></div>
     <p class="tagline">The day’s most important news · five minutes · no spin</p>
     <p class="motto">✦ Break free from the 24-hour news cycle ✦</p>
-    <div class="edition"><span id="edDate"></span><span class="status" id="status">Connecting…</span></div>
+    <div class="edition"><span id="edDate"></span><span class="status" id="status">Connecting…</span><a class="ed-about" href="#about">About</a></div>
   </header>
 
   <div class="bar">
@@ -208,11 +233,43 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   <div class="key">
     <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
   </div>
-  <p class="pastlink"><a href="#archive">Past editions</a></p>
+  <p class="pastlink"><a href="#about">About</a><span aria-hidden="true"> · </span><a href="#archive">Past editions</a><span aria-hidden="true"> · </span><a href="#subscribe">Get it by email</a></p>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
   <div class="colophon" aria-hidden="true">— 30 —</div>
 </div>
 
+<template id="aboutTpl">
+  <article class="about">
+    <p class="ab-kicker">About</p>
+    <h2 class="ab-title">News is important. So is your time.</h2>
+    <p class="ab-lede">Most of us are on our phones all day long, and a lot of that time goes to news: alerts, feeds and headlines that refresh every few minutes. It’s built to keep you scrolling. But most news doesn’t change anything about your day. If a committee votes at 11:00, you don’t need to know at 11:01.</p>
+    <p>High Impact News Daily is the other way to do it. Twice a day, we gather what actually happened, rank it by how much it matters, and write it down plainly. Read it in five minutes on your commute. Then put the phone down and get back to your life.</p>
+    <p class="ab-pull">Slow down. Live a little more like Mayberry. We’ll bring the news to you twice a day, so you’re never left out.</p>
+
+    <div class="flourish" aria-hidden="true"></div>
+
+    <h3>How it works</h3>
+    <dl class="ab-list">
+      <dt>Twice a day</dt><dd>A morning edition at 6:00 a.m. and an evening edition at 5:00 p.m. Eastern, one for each commute. If something truly critical happens in between, it goes on the site right away. Everything else can wait.</dd>
+      <dt>Ranked by impact</dt><dd>Every story gets a rating from 1 to 5 based on its consequences: how many people it affects, whether it’s binding or just talk, and whether it can be undone. Not on how loudly it’s being covered.</dd>
+      <dt>Just what happened</dt><dd>Who did what, when, and the numbers that matter. Then a few sentences of context and one line on why it earned its rating. No adjectives, no opinions, no predictions.</dd>
+      <dt>Always a source</dt><dd>Every story links to where it came from, usually the official record itself, so you can check it for yourself.</dd>
+    </dl>
+
+    <h3>Our promises</h3>
+    <ul class="ab-promises">
+      <li>The same standard for every party, every politician and every country.</li>
+      <li>No spin, no outrage and no clickbait. Ever.</li>
+      <li>If we ever have sponsors, there will be at most one per edition, clearly labeled and kept separate from the news. Sponsors never influence which stories run or how they’re rated. No sponsored stories and no political advertising.</li>
+      <li>We will never sell or share your email address.</li>
+      <li>When we get something wrong, we fix it.</li>
+    </ul>
+
+    <h3>How it’s made</h3>
+    <p>Stories are gathered from official government sources and news reports, then summarized and rated with the help of AI, following the standards above. AI can make mistakes, which is one more reason every story links to its source. If you spot an error, please tell us at <a href="mailto:hello@highimpactnewsdaily.com">hello@highimpactnewsdaily.com</a>.</p>
+
+  </article>
+</template>
 <script>
 const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V56M46 70V56M58 70V56M70 70V56M82 70V56M94 70V56M16 56H104M30 56V48H90V56M36 48C36 26 84 26 84 48M60 31V20M55 20H65M60 20V12\"/>", "court": "<path d=\"M10 82H110M16 76H104M22 70H98M28 70V40M40 70V40M52 70V40M68 70V40M80 70V40M92 70V40M22 40H98M18 36L60 12L102 36Z\"/><circle cx=\"60\" cy=\"27\" r=\"4\"/>", "whitehouse": "<path d=\"M8 80H112M14 80V46H106V80M40 80V54M50 80V54M70 80V54M80 80V54M34 46C34 34 86 34 86 46M60 36V14M60 14H74V22H60M22 56H30V66H22ZM90 56H98V66H90Z\"/>", "globe": "<circle cx=\"60\" cy=\"45\" r=\"32\"/><ellipse cx=\"60\" cy=\"45\" rx=\"14\" ry=\"32\"/><path d=\"M28 45H92M33 29H87M33 61H87\"/>", "factory": "<path d=\"M8 80H112M14 80V50L34 38V50L54 38V50L74 38V80M74 80V56H106V80M84 56V20H92V56M96 56V28H102V56M22 62H28M38 62H44M54 62H60\"/><circle cx=\"90\" cy=\"12\" r=\"4\"/><circle cx=\"99\" cy=\"8\" r=\"3\"/>", "ship": "<path d=\"M12 56H108L98 70H22ZM28 56V46H54V56M34 46V38H46V46M62 56V50H98V56M8 82C16 76 24 76 32 82S48 88 56 82 72 76 80 82 96 88 104 82 112 78 116 80\"/>", "ballot": "<path d=\"M24 46H96V82H24ZM42 54H78M46 46L50 14H76L72 46M56 24H68M55 32H66\"/>", "gavel": "<path d=\"M20 82H76M26 82V74H70V82M52 18L80 46M42 28L70 56M47 23L75 51M62 42L98 78\"/>", "sports": "<path d=\"M60 84V54M34 54H86M34 54V14M86 54V14\"/><ellipse cx=\"60\" cy=\"30\" rx=\"13\" ry=\"8\" transform=\"rotate(-25 60 30)\"/><path d=\"M55 31L65 27M57 27L58 30M60 26L61 29M63 25L64 28\"/>", "trade": "<path d=\"M8 80H112M16 80V58H48V80M16 69H48M32 58V80M50 80V58H82V80M50 69H82M66 58V80M33 58V36H65V58M33 47H65M49 36V58M84 80V64H104V80\"/>", "tech": "<path d=\"M38 24H82V66H38ZM48 34H72V56H48ZM46 24V14M60 24V14M74 24V14M46 66V76M60 66V76M74 66V76M38 32H28M38 45H28M38 58H28M82 32H92M82 45H92M82 58H92\"/>", "nuclear": "<ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(60 60 45)\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(120 60 45)\"/><circle cx=\"60\" cy=\"45\" r=\"5\"/>", "conflict": "<path d=\"M26 16L90 76M94 16L30 76M76 72L90 58M44 72L30 58M22 20L30 12M98 20L90 12M84 68L96 80M36 68L24 80\"/>", "mining": "<path d=\"M6 82L38 42L54 60L72 36L114 82ZM30 30L62 62M22 38C24 26 34 18 46 20\"/>", "coin": "<ellipse cx=\"50\" cy=\"26\" rx=\"30\" ry=\"9\"/><path d=\"M20 26V62C20 67 80 67 80 62V26M20 38C20 43 80 43 80 38M20 50C20 55 80 55 80 50\"/><circle cx=\"88\" cy=\"58\" r=\"20\"/><circle cx=\"88\" cy=\"58\" r=\"14\"/><path d=\"M82 52L94 64M94 52L82 64\"/>", "lungs": "<path d=\"M60 8V38M60 38L50 48M60 38L70 48M46 24C30 24 16 48 16 66C16 80 30 84 42 76C50 70 52 60 52 50M74 24C90 24 104 48 104 66C104 80 90 84 78 76C70 70 68 60 68 50M30 58L40 52M90 58L80 52\"/>", "pulse": "<rect x=\"10\" y=\"14\" width=\"100\" height=\"62\" rx=\"4\"/><path d=\"M14 48H38L46 30L56 66L66 22L74 48H106\"/>"};
 TOPIC_ART.rocket='<path d="M60 8C72 20 76 40 72 62H48C44 40 48 20 60 8ZM48 50L36 66V72L48 66M72 50L84 66V72L72 66M54 62L52 76M60 62V82M66 62L68 76"/><circle cx="60" cy="34" r="6"/>';
@@ -238,7 +295,7 @@ function syncButtons(){
   document.querySelectorAll("#regions button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.r===region)));
   const st=document.getElementById("subtabs"); st.replaceChildren();
   if(SUBS[region]){ for(const [k,l] of SUBS[region]){const b=el("button",null,l); b.dataset.s=k; b.setAttribute("aria-pressed",String(k===sub)); st.append(b);} st.hidden=false; } else st.hidden=true;
-  document.getElementById("impactRow").hidden=(region==="today"||region==="archive");
+  document.getElementById("impactRow").hidden=(region==="today"||region==="archive"||region==="about");
 }
 document.getElementById("seg").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min; try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();});
 document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; archKey=null; setHash(region==="archive"?"#archive":""); try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
@@ -329,6 +386,7 @@ function render(){
   const feed=document.getElementById("feed"); feed.replaceChildren();
   if(region==="history"){renderHistory(feed);return;}
   if(region==="archive"){renderArchive(feed);return;}
+  if(region==="about"){setIntro(""); feed.append(document.getElementById("aboutTpl").content.cloneNode(true)); return;}
   if(!loaded){feed.append(el("div","empty","Loading today’s edition…"));return;}
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
@@ -349,7 +407,7 @@ syncButtons(); render();
 /* Archive: every published edition, saved by the edition tasks in archive/ */
 let archIdx=null, archKey=null; const archCache={};
 function setHash(h){try{window.history.replaceState(null,"",h||location.pathname+location.search);}catch(e){}}
-function readHash(){const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
+function readHash(){if(location.hash==="#about"){region="about";archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
 window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render();window.scrollTo({top:0});}});
 async function loadArchIdx(){try{const r=await fetch("archive/index.json?t="+Date.now(),{cache:"no-store"}); archIdx=await r.json();}catch(e){archIdx={editions:[]};} if(region==="archive")render();}
 async function loadArch(k){try{const r=await fetch("archive/"+k+".json",{cache:"no-store"}); archCache[k]=r.ok?await r.json():{missing:true};}catch(e){archCache[k]={missing:true};} if(region==="archive"&&archKey===k)render();}

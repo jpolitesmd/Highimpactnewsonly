@@ -19,7 +19,8 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--serif);font
 [hidden]{display:none!important}
 .wrap{max-width:720px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
 header.masthead{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
-.logo{display:flex;align-items:baseline;gap:.26em;font-size:clamp(22px,6.2vw,34px);font-weight:400;line-height:1;margin:0;white-space:nowrap}
+.logo{display:flex;width:max-content;max-width:none;align-items:baseline;gap:.26em;font-size:clamp(22px,6.2vw,34px);font-weight:400;line-height:1;margin:0 auto;white-space:nowrap}
+header.masthead{width:100%}
 .logo .lp{font-family:"IM Fell English",Georgia,serif;letter-spacing:.04em}
 .logo .ls{font-family:"Pinyon Script",cursive;font-size:1.22em;color:var(--accent)}
 .logo .lp.gap{margin-left:.25em}
@@ -274,6 +275,9 @@ async function load(){
     status.textContent=j.updated?"Updated "+fmtTime.format(new Date(j.updated))+" ET":"Live"; render();
   }catch(e){ status.textContent="Couldn't load updates. Refresh to try again."; }
 }
+function fitLogo(){const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
+  l.style.fontSize='100px'; const w=l.getBoundingClientRect().width; if(w>0) l.style.fontSize=(100*box/w*0.99).toFixed(2)+'px';}
+fitLogo(); addEventListener('resize',fitLogo); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitLogo);
 load(); setInterval(load,5*60*1000);
 </script>
 </body></html>

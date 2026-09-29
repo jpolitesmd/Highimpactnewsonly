@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T07:41:16-04:00",
+ "updated": "2026-09-29T08:15:54-04:00",
  "items": [
   {
    "id": "2026-09-28-treasury-yield-oil",
@@ -160,6 +160,23 @@
    "source": "TechCrunch",
    "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
    "added_at": "2026-09-28T23:05:00-04:00"
+  },
+  {
+   "id": "2026-09-28-student-loan-earnings-test",
+   "branch": [
+    "executive"
+   ],
+   "topic": "whitehouse",
+   "region": "US",
+   "text": "The Education Department said on Sept. 28 that its new earnings rule does not ban any college majors, after posts claimed the Trump administration was ending student loans for low-earning degrees.",
+   "detail": "The rule, finalized June 29, cuts off federal Direct Loans to college programs whose graduates earn less than typical high school graduates four years after finishing (for graduate programs, less than bachelor's degree holders). Programs lose eligibility only after failing in two of three years. First results come in early 2027; the earliest loss of loans is the 2028-29 school year. Programs in social work, counseling, education and the arts are projected to be most affected.",
+   "why": "A binding federal rule that can end loan access for entire programs nationwide, but it applies to programs rather than majors and takes effect no earlier than 2028.",
+   "impact": 3,
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "IBTimes",
+   "url": "https://www.ibtimes.co.uk/trump-rule-low-earning-college-programmes-federal-loans-1822325",
+   "added_at": "2026-09-29T08:15:54-04:00"
   },
   {
    "id": "2026-09-28-starship-first-orbit",

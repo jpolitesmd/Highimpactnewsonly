@@ -101,6 +101,9 @@ li.item{grid-template-columns:minmax(0,1fr) 128px}
 /* No images: text uses the full width */
 li.item{grid-template-columns:minmax(0,1fr)!important;grid-template-areas:"txt" "meta"!important}
 .plate{display:none!important}
+/* Double rule between stories */
+li.item{border-bottom:3px double var(--rule)!important;padding:26px 0!important}
+ol>li.item:last-child{border-bottom:0!important}
 </style>
 </head><body>
 <div class="wrap">

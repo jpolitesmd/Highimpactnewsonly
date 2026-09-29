@@ -271,8 +271,8 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   </div>
 
   <figure class="tj">
-    <img src="assets/jefferson-phone.jpg" width="740" height="497" loading="lazy" decoding="async" alt="A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone.">
-    <figcaption><span class="tj-title">News for your daily commute.</span></figcaption>
+    <img id="tjImg" src="assets/jefferson-phone.jpg" width="740" height="497" loading="lazy" decoding="async" alt="A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone.">
+    <figcaption><span class="tj-title" id="tjCap">News for your daily commute.</span></figcaption>
   </figure>
 
   <section class="signup" id="subscribe" aria-labelledby="suTitle">
@@ -586,6 +586,18 @@ applyTheme();
 
 
 
+
+/* Commute illustration: rotates with each edition (morning, evening, next morning...) */
+async function loadCommuteArt(){try{
+  const r=await fetch("assets/commute.json",{cache:"no-cache"}); const list=(await r.json()).items||[]; if(!list.length)return;
+  const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"numeric",hourCycle:"h23"}).formatToParts(new Date());
+  const mins=(+p.find(x=>x.type==="hour").value)*60+(+p.find(x=>x.type==="minute").value);
+  const day=Math.floor(Date.parse(fmtKey.format(new Date())+"T12:00:00Z")/864e5);
+  const a=list[(day*2+(mins>=1020?1:0))%list.length];
+  const img=document.getElementById("tjImg"); img.src=a.file; img.width=a.w; img.height=a.h; img.alt=a.alt;
+  document.getElementById("tjCap").textContent=a.caption;
+}catch(e){}}
+
 async function load(){
   const status=document.getElementById("status");
   try{
@@ -598,7 +610,7 @@ function sizeBars(){try{const lp=document.querySelector('.logo .lp'), bars=docum
 function fitLogo(){sizeBars(); const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
   l.style.fontSize='100px'; const w=l.getBoundingClientRect().width; if(w>0) l.style.fontSize=(100*box/w*0.99).toFixed(2)+'px';}
 fitLogo(); addEventListener('resize',fitLogo); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitLogo);
-updateFolio(); loadArchIdx(); addEventListener("resize",updateFolio);
+updateFolio(); loadArchIdx(); loadCommuteArt(); addEventListener("resize",updateFolio);
 load(); setInterval(()=>{load(); loadArchIdx();},5*60*1000);
 </script>
 </body></html>

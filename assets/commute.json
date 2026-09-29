@@ -1,0 +1,18 @@
+{
+ "items": [
+  {
+   "file": "assets/jefferson-phone.jpg",
+   "w": 740,
+   "h": 497,
+   "caption": "News for your daily commute.",
+   "alt": "A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone."
+  },
+  {
+   "file": "assets/delaware-phone.jpg",
+   "w": 1100,
+   "h": 740,
+   "caption": "News for your daily commute, even across the Delaware.",
+   "alt": "An engraving-style take on Washington Crossing the Delaware, with Thomas Jefferson in the boat reading news on a smartphone."
+  }
+ ]
+}

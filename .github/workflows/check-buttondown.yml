@@ -1,6 +1,6 @@
 # One-off safety check (never sends anything): lists Buttondown tags, confirms the four "Skip ..." tags exist,
 # and creates a DRAFT email using the same audience filter the sender uses, then deletes the draft.
-# Writes the result to email/buttondown-check.txt (run 2: filters use tag IDs). Runs when this file is pushed, or by hand.
+# Writes the result to email/buttondown-check.txt (run 3: confirm Portal settings). Runs when this file is pushed, or by hand.
 name: Check Buttondown setup
 on:
   push:

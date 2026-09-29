@@ -8,7 +8,8 @@ Usage (run from the repo root):
 
 Morning edition: the front-page selection (top 10 of the last 36 h, widening to 72 h / 168 h).
 Evening edition: today's stories (Eastern), top 8.
-Every edition is saved to archive/YYYY-MM-DD-<edition>.json and listed in archive/index.json.
+Every edition is saved to archive/YYYY-MM-DD-<edition>.json and listed in archive/index.json,
+then tools/pages.py rebuilds the permanent web pages in editions/ and sitemap.xml.
 """
 import json, os, sys, datetime
 from zoneinfo import ZoneInfo
@@ -89,10 +90,15 @@ def main():
             d = datetime.date.fromisoformat(e["date"])
             lines.append(f"- {d.strftime('%b')} {d.day}: {e['text']}")
         lines.append("")
+    key = f"{date}-{edition}"
     lines += ["That's the news. Put the phone down and enjoy your day." if edition == "morning"
               else "That's the day. Put the phone down and enjoy your evening.", "",
-              f"[Read the full edition at hinewsdaily.com]({SITE}) · "
-              f"[Past editions]({SITE}/#archive)"]
+              "---", "",
+              f"**Know someone who'd like this?** Forward this email, or send them "
+              f"[a link to this edition]({SITE}/editions/{key}/).", "",
+              f"*Forwarded this? [Subscribe free]({SITE}/#subscribe) to get it twice a day.*", "",
+              f"[Read it on the web]({SITE}/editions/{key}/) · "
+              f"[Past editions]({SITE}/editions/)"]
     body = "\n".join(lines)
 
     send_at = datetime.datetime.combine(now.date(), datetime.time(6 if edition == "morning" else 17), ET)
@@ -102,7 +108,6 @@ def main():
                    "subject": subject, "body": body}, open("email/today.json", "w"), indent=1, ensure_ascii=False)
 
     os.makedirs("archive", exist_ok=True)
-    key = f"{date}-{edition}"
     keep = ("id", "section", "text", "detail", "why", "impact", "topic", "branch", "judicial", "court",
             "region", "time", "time_known", "source", "url")
     json.dump({"date": date, "edition": edition, "subject": subject, "published": send_at.isoformat(),
@@ -119,6 +124,13 @@ def main():
     idx["updated"] = now.isoformat(timespec="seconds")
     json.dump(idx, open(idx_path, "w"), indent=1, ensure_ascii=False)
     print(f"{key}: {len(top)} stories, {len(also)} also-today; subject: {subject}")
+    # Permanent web pages for every edition, plus the sitemap (see tools/pages.py).
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import pages
+        pages.main()
+    except Exception as err:  # never let page building block the email
+        print(f"PROBLEM: edition pages not rebuilt: {err}")
 
 
 if __name__ == "__main__":

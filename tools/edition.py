@@ -11,7 +11,7 @@ Evening edition: today's stories (Eastern), top 8.
 Every edition is saved to archive/YYYY-MM-DD-<edition>.json and listed in archive/index.json,
 then tools/pages.py rebuilds the permanent web pages in editions/ and sitemap.xml.
 """
-import json, os, sys, datetime
+import html, json, os, sys, datetime
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
@@ -110,6 +110,8 @@ def main():
     subject = f"{head}: {shorten(lead, max(20, 90 - len(head)))}" if top else head
 
     img = f"{SITE}/assets/email"
+    HEAD_CSS = ("font-family:Georgia,'Times New Roman',Times,serif;font-size:21px;line-height:1.3;"
+                "font-weight:bold;color:#1d1a16;margin:28px 0 8px")
     lines = [f'<a href="{SITE}/"><img src="{img}/masthead.png" alt="High Impact News Daily" width="560" '
              f'style="display:block;width:100%;max-width:560px;height:auto;border:0"></a>', "",
              f"**{label}, {now.strftime('%A, %B')} {now.day}**", "",
@@ -118,7 +120,7 @@ def main():
     for n, i in enumerate(top):
         if split and n == 0: lines += ["**New since the last edition**", ""]
         if split and n == split: lines += ["---", "", "**Earlier, still the most important**", ""]
-        lines += ["### " + i.get("text", ""), ""]
+        lines += [f'<h3 style="{HEAD_CSS}">{html.escape(i.get("text", ""), quote=False)}</h3>', ""]
         if i.get("detail"): lines += [i["detail"], ""]
         src = f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else ""
         meter = (f'<img src="{img}/impact-{lv(i)}.png" alt="" width="50" height="16" '

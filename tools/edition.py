@@ -185,7 +185,7 @@ def main():
                          else "That's the day. Put the phone down and enjoy your evening."),
               es.share_box(ed_url),
               es.footer(f'{es.link("Read it on the web", ed_url)} · {es.link("Past editions", SITE + "/editions/")} · '
-                        '<a href="{{ manage_subscription_url }}" style="color:' + es.ACCENT + ';text-decoration:none;'
+                        '<a class="hd-accent" href="{{ manage_subscription_url }}" style="color:' + es.ACCENT + ';text-decoration:none;'
                         'font-weight:600">Choose which emails you get</a>',
                         "You get every weekday morning and evening edition, plus a Sunday weekend review. "
                         "Summaries are written with the help of AI and can contain errors; every story links to its source. "

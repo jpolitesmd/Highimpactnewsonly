@@ -31,7 +31,7 @@ def main():
              es.story(it, 5, first=True, size=20),
              es.note(f"We'll post confirmed updates at {es.link('hinewsdaily.com', SITE + '/')} and cover it in full "
                      f"in the next edition, {es.e(when)} ET."),
-             es.footer('<a href="{{ manage_subscription_url }}" style="color:' + es.ACCENT + ';text-decoration:none;'
+             es.footer('<a class="hd-accent" href="{{ manage_subscription_url }}" style="color:' + es.ACCENT + ';text-decoration:none;'
                        'font-weight:600">Choose which emails you get</a>',
                        "You get a breaking alert only for events we rate 5 out of 5, which is rare."),
              es.close_paper()]

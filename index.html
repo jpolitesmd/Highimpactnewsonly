@@ -216,21 +216,9 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .folio-line .fc{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:15px;letter-spacing:.02em;text-transform:none;font-style:italic;color:var(--accent);white-space:nowrap}
 @media (max-width:480px){.folio-line{gap:6px;font-size:8.5px;letter-spacing:.1em;padding:6px 0}.folio-line .fc{font-size:12.5px}}
 
-/* From the Archives: a small dessert at the end of the page */
-.dessert{margin:56px auto 0;max-width:420px;text-align:center}
-.ds-head{display:flex;align-items:center;gap:12px;margin-bottom:18px}
-.ds-rule{flex:1;height:0;border-top:1px solid var(--rule)}
-.dessert h2{margin:0;font:600 12px var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
-.ds-frame{display:block;padding:8px;background:var(--surface);border:1px solid var(--rule);box-shadow:0 1px 0 var(--faint),0 6px 18px rgba(60,40,20,.08)}
-.ds-frame img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;background:#fff}
-:root[data-theme="dark"] .ds-frame img{filter:brightness(.9)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]):not([data-theme="sepia"]) .ds-frame img{filter:brightness(.9)}}
-.ds-title{margin:14px 0 0;font:italic 400 19px/1.3 "IM Fell English",Georgia,serif;color:var(--fg)}
-.ds-credit{margin:4px 0 0;font:500 12px var(--sans);letter-spacing:.06em;color:var(--muted)}
-.ds-note{margin:10px auto 0;max-width:34em;font:400 15px/1.5 var(--serif);color:var(--muted);text-wrap:pretty}
 
 /* Closing illustration */
-.tj{margin:44px auto 0;max-width:520px;text-align:center}
+.tj{margin:56px auto 0;max-width:520px;text-align:center}
 .tj img{display:block;width:100%;height:auto;border:1px solid var(--rule);padding:6px;background:var(--surface);box-shadow:0 6px 18px rgba(60,40,20,.08)}
 :root[data-theme="dark"] .tj img{filter:brightness(.9)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]):not([data-theme="sepia"]) .tj img{filter:brightness(.9)}}
@@ -282,13 +270,10 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
     <div class="empty">Loading the latest items…</div>
   </div>
 
-  <section class="dessert" id="dessert" hidden aria-labelledby="dsTitle">
-    <div class="ds-head"><span class="ds-rule"></span><h2 id="dsTitle">From the Archives</h2><span class="ds-rule"></span></div>
-    <a class="ds-frame" id="dsLink" target="_blank" rel="noopener"><img id="dsImg" alt="" loading="lazy" decoding="async"></a>
-    <p class="ds-title" id="dsTitleLine"></p>
-    <p class="ds-credit" id="dsCredit"></p>
-    <p class="ds-note" id="dsNote"></p>
-  </section>
+  <figure class="tj">
+    <img src="assets/jefferson-phone.jpg" width="740" height="497" loading="lazy" decoding="async" alt="A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone.">
+    <figcaption><span class="tj-title">News for your daily commute.</span></figcaption>
+  </figure>
 
   <section class="signup" id="subscribe" aria-labelledby="suTitle">
     <div class="flourish" aria-hidden="true"></div>
@@ -309,10 +294,6 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   <p class="pastlink"><a href="#about">About</a><span aria-hidden="true"> · </span><a href="#archive">Past editions</a><span aria-hidden="true"> · </span><a href="#subscribe">Get it by email</a><span aria-hidden="true"> · </span><a href="#privacy">Privacy</a></p>
   <div class="appearance" role="group" aria-label="Appearance"><span>Appearance</span><button type="button" data-t="auto">Auto</button><button type="button" data-t="light">Light</button><button type="button" data-t="sepia">Sepia</button><button type="button" data-t="dark">Dark</button></div>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
-  <figure class="tj">
-    <img src="assets/jefferson-phone.jpg" width="740" height="497" loading="lazy" decoding="async" alt="A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone.">
-    <figcaption><span class="tj-title">Jefferson’s choice for AI-gathered news.</span><span class="tj-sub">Five minutes on the carriage ride, then the phone goes back in his waistcoat.</span></figcaption>
-  </figure>
   <div class="colophon" aria-hidden="true">— 30 —</div>
 </div>
 
@@ -604,19 +585,6 @@ if(mqDark){const f=()=>{if(themePref()==="auto")applyTheme();}; mqDark.addEventL
 applyTheme();
 
 
-/* From the Archives: one public-domain cartoon a day, the same for everyone that day */
-async function loadDessert(){try{
-  const r=await fetch("archive-art/index.json",{cache:"no-cache"}); const list=(await r.json()).items||[]; if(!list.length)return;
-  const key=fmtKey.format(new Date()); const day=Math.floor(Date.parse(key+"T12:00:00Z")/864e5);
-  const a=list[((day%list.length)+list.length)%list.length];
-  const img=document.getElementById("dsImg"); img.src=a.file; img.width=a.w; img.height=a.h;
-  img.alt=a.title+", a cartoon by "+a.artist+" from "+a.publication+", "+a.year+". "+a.note;
-  const link=document.getElementById("dsLink"); link.href=a.source; link.setAttribute("aria-label","View "+a.title+" at its public-domain source");
-  document.getElementById("dsTitleLine").textContent=a.title;
-  document.getElementById("dsCredit").textContent=a.artist+" · "+a.publication+", "+a.year;
-  document.getElementById("dsNote").textContent=a.note;
-  document.getElementById("dessert").hidden=false;
-}catch(e){}}
 
 async function load(){
   const status=document.getElementById("status");
@@ -630,7 +598,7 @@ function sizeBars(){try{const lp=document.querySelector('.logo .lp'), bars=docum
 function fitLogo(){sizeBars(); const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
   l.style.fontSize='100px'; const w=l.getBoundingClientRect().width; if(w>0) l.style.fontSize=(100*box/w*0.99).toFixed(2)+'px';}
 fitLogo(); addEventListener('resize',fitLogo); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitLogo);
-updateFolio(); loadArchIdx(); loadDessert(); addEventListener("resize",updateFolio);
+updateFolio(); loadArchIdx(); addEventListener("resize",updateFolio);
 load(); setInterval(()=>{load(); loadArchIdx();},5*60*1000);
 </script>
 </body></html>

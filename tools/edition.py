@@ -109,7 +109,11 @@ def main():
     lead = rank(top)[0]["text"] if top else ""  # subject and archive lead: the most important story
     subject = f"{head}: {shorten(lead, max(20, 90 - len(head)))}" if top else head
 
-    lines = ["*The day's most important news. Five minutes. No spin.*" if edition == "morning"
+    img = f"{SITE}/assets/email"
+    lines = [f'<a href="{SITE}/"><img src="{img}/masthead.png" alt="High Impact News Daily" width="560" '
+             f'style="display:block;width:100%;max-width:560px;height:auto;border:0"></a>', "",
+             f"**{label}, {now.strftime('%A, %B')} {now.day}**", "",
+             "*The day's most important news. Five minutes. No spin.*" if edition == "morning"
              else "*What happened today. Five minutes. No spin.*", ""]
     for n, i in enumerate(top):
         if split and n == 0: lines += ["**New since the last edition**", ""]
@@ -117,7 +121,9 @@ def main():
         lines += ["### " + i.get("text", ""), ""]
         if i.get("detail"): lines += [i["detail"], ""]
         src = f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else ""
-        lines += [f"**Impact {lv(i)}/5.** {i.get('why', '')}{src}".strip(), ""]
+        meter = (f'<img src="{img}/impact-{lv(i)}.png" alt="" width="50" height="16" '
+                 f'style="width:50px;height:16px;vertical-align:middle;border:0"> ')
+        lines += [f"{meter}**Impact {lv(i)}/5.** {i.get('why', '')}{src}".strip(), ""]
     if also:
         lines += ["---", "", "**Also today**", ""]
         lines += [f"- **{SEC_LABEL[sec(i)]}:** {i.get('text', '')}" for i in also] + [""]

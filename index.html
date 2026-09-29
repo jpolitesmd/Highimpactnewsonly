@@ -146,6 +146,13 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .su-form button{color:#15130f}}
 .su-form button:hover{filter:brightness(1.08)}
 .su-fine{margin:12px 0 0;font:400 13px var(--sans);color:var(--muted)}
+.su-prefs{max-width:440px;margin:14px auto 0;padding:0;border:0;text-align:left}
+.su-prefs legend{padding:0;margin:0 0 6px;font:600 13px var(--sans);color:var(--fg)}
+.su-prefs label{display:flex;gap:10px;align-items:baseline;padding:5px 0;font:400 14.5px/1.4 var(--sans);color:var(--fg);cursor:pointer}
+.su-prefs input{accent-color:var(--accent);width:16px;height:16px;flex:none;transform:translateY(2px)}
+.su-prefs small{color:var(--muted);font-size:13px}
+.su-prefs .su-note{margin:8px 0 0;font:400 13px/1.45 var(--sans);color:var(--muted)}
+.su-prefs .su-err{color:var(--accent);font:600 13px var(--sans);margin:4px 0 0}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:480px){.su-form{flex-direction:column}.su-form button{width:100%}}
 
@@ -318,12 +325,22 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   <section class="signup" id="subscribe" aria-labelledby="suTitle">
     <div class="flourish" aria-hidden="true"></div>
     <h2 id="suTitle">Get each edition by email</h2>
-    <p class="su-sub">The morning edition at 6:00 a.m. and the evening edition at 5:00 p.m. Eastern on weekdays, one for each commute, and one weekend review on Sunday at 5:00 p.m. Read it in five minutes, then get on with your day.</p>
-    <form class="su-form" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank">
+    <p class="su-sub">The morning edition at 6:00 a.m. and the evening edition at 5:00 p.m. Eastern on weekdays, one for each commute, one weekend review on Sunday at 5:00 p.m., and a breaking alert only when something rated 5 out of 5 happens. Get all of them or just the ones you want. Read it in five minutes, then get on with your day.</p>
+    <form class="su-wrap" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank">
+      <div class="su-form">
       <label class="sr" for="suEmail">Email address</label>
       <input id="suEmail" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
       <input type="hidden" name="embed" value="1">
       <button type="submit">Subscribe</button>
+      </div>
+      <fieldset class="su-prefs"><legend>Choose your emails</legend>
+<label><input type="checkbox" checked data-skip="Skip morning edition"> <span>Morning edition <small>· weekdays, 6 a.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip evening edition"> <span>Evening edition <small>· weekdays, 5 p.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip Sunday weekend review"> <span>Weekend review <small>· Sundays, 5 p.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip breaking alerts"> <span>Breaking alerts <small>· only for 5-out-of-5 events, which are rare</small></span></label>
+<p class="su-err" hidden>Pick at least one email.</p>
+<p class="su-note">Change these any time with the “Choose which emails you get” link at the bottom of every email.</p>
+</fieldset>
     </form>
     <p class="su-fine">Free. Unsubscribe any time. We never sell your email. Then confirm using the email from hello@news.hinewsdaily.com; if you don’t see it, check junk or spam, and add that address to your contacts. <a href="#privacy">Privacy policy</a> · <a href="#terms">Terms</a></p>
     <div class="share" id="share" aria-label="Share">
@@ -827,4 +844,11 @@ document.getElementById("shareCopy").addEventListener("click",()=>{const u=share
   if(navigator.clipboard) navigator.clipboard.writeText(u).then(ok,()=>prompt("Copy this link:",u)); else prompt("Copy this link:",u);});
 if(navigator.share){const n=document.getElementById("shareNative"); n.hidden=false; n.addEventListener("click",()=>{const i=shareInfo(); navigator.share({title:i.title,text:i.lead||"The day's most important news in five minutes. No spin.",url:i.url}).catch(()=>{});});}
 </script>
+<script>/* Email choices: each unticked box adds a Buttondown "Skip ..." tag to the sign-up */
+document.querySelectorAll("form.su-wrap").forEach(function(f){f.addEventListener("submit",function(ev){
+  f.querySelectorAll("input[data-added]").forEach(function(x){x.remove();});
+  var boxes=f.querySelectorAll("input[data-skip]"), on=0, err=f.querySelector(".su-err");
+  boxes.forEach(function(b){if(b.checked){on++;return;} var h=document.createElement("input"); h.type="hidden"; h.name="tag"; h.value=b.getAttribute("data-skip"); h.setAttribute("data-added","1"); f.appendChild(h);});
+  if(boxes.length&&!on){ev.preventDefault(); if(err)err.hidden=false; return;} if(err)err.hidden=true;
+});});</script>
 </body></html>

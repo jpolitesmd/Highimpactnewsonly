@@ -195,7 +195,8 @@ def main():
               f"[a link to this edition]({SITE}/editions/{key}/).", "",
               f"*Forwarded this? [Subscribe free]({SITE}/#subscribe) to get it every weekday morning and evening, plus a Sunday weekend review.*", "",
               f"[Read it on the web]({SITE}/editions/{key}/) · "
-              f"[Past editions]({SITE}/editions/)"]
+              f"[Past editions]({SITE}/editions/) · "
+              "[Choose which emails you get]({{ manage_subscription_url }})"]
     body = "\n".join(lines)
 
     send_at = datetime.datetime.combine(now.date(), datetime.time(6 if edition == "morning" else 17), ET)

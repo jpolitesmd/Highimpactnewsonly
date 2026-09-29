@@ -51,6 +51,13 @@ ol{list-style:none;margin:0;padding:0}
 .su-form input{flex:1;min-width:0;padding:12px 14px;font:400 16px var(--sans);color:var(--fg);background:var(--bg);border:1px solid var(--rule);border-radius:10px}
 .su-form button{padding:12px 20px;font:600 15px var(--sans);color:#fff;background:var(--accent);border:0;border-radius:10px;cursor:pointer}
 @media (max-width:480px){.su-form{flex-direction:column}}
+.su-prefs{max-width:440px;margin:14px auto 0;padding:0;border:0;text-align:left}
+.su-prefs legend{padding:0;margin:0 0 6px;font:600 13px var(--sans);color:var(--fg)}
+.su-prefs label{display:flex;gap:10px;align-items:baseline;padding:5px 0;font:400 14.5px/1.4 var(--sans);color:var(--fg);cursor:pointer}
+.su-prefs input{accent-color:var(--accent);width:16px;height:16px;flex:none;transform:translateY(2px)}
+.su-prefs small{color:var(--muted);font-size:13px}
+.su-prefs .su-note{margin:8px 0 0;font:400 13px/1.45 var(--sans);color:var(--muted)}
+.su-prefs .su-err{color:var(--accent);font:600 13px var(--sans);margin:4px 0 0}
 .pn{display:flex;justify-content:space-between;gap:12px;margin-top:32px;font:500 14px var(--sans)}.pn a{text-decoration:none}
 .foot{margin-top:40px;text-align:center;font:500 13px var(--sans);color:var(--muted)}.foot a{color:var(--muted)}
 .fine{margin-top:14px;font:400 13px/1.5 var(--sans);color:var(--muted);text-align:center}
@@ -67,10 +74,24 @@ ol{list-style:none;margin:0;padding:0}
 <nav class="nav-top"><a href="/">Today’s edition</a><a href="/editions/">All editions</a><a href="/#about">About</a></nav>
 </header>
 <main><h1>All editions</h1><p class="count">Every edition we’ve published, exactly as it went out.</p><ul class="list"><li><span class="d">Tue, Sep 29</span><div><a class="ed" href="/editions/2026-09-29-morning/">Morning · 5 stories</a><a class="ed" href="/editions/2026-09-29-evening/">Evening · 3 stories</a><p>President Trump rejected Iran&#x27;s latest proposal to reopen the Strait of Hormuz and end the war.</p></div></li><li><span class="d">Mon, Sep 28</span><div><a class="ed" href="/editions/2026-09-28-evening/">Evening · 4 stories</a><p>President Trump rejected Iran&#x27;s latest proposal to reopen the Strait of Hormuz and end the war.</p></div></li></ul></main><section class="signup" aria-labelledby="suT"><h2 id="suT">Get each edition by email</h2>
-<p>The morning edition at 6:00 a.m. and the evening edition at 5:00 p.m. Eastern on weekdays, plus a weekend review Sunday at 5:00 p.m. Read it in five minutes, then get on with your day.</p>
-<form class="su-form" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank">
+<p>The morning edition at 6:00 a.m. and the evening edition at 5:00 p.m. Eastern on weekdays, plus a weekend review Sunday at 5:00 p.m. and rare breaking alerts for 5-out-of-5 events. Pick the ones you want. Read it in five minutes, then get on with your day.</p>
+<form class="su-wrap" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank"><div class="su-form">
 <label class="sr" for="suE">Email address</label><input id="suE" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
-<input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></form>
+<input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></div>
+<fieldset class="su-prefs"><legend>Choose your emails</legend>
+<label><input type="checkbox" checked data-skip="Skip morning edition"> <span>Morning edition <small>· weekdays, 6 a.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip evening edition"> <span>Evening edition <small>· weekdays, 5 p.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip Sunday weekend review"> <span>Weekend review <small>· Sundays, 5 p.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip breaking alerts"> <span>Breaking alerts <small>· only for 5-out-of-5 events, which are rare</small></span></label>
+<p class="su-err" hidden>Pick at least one email.</p>
+<p class="su-note">Change these any time with the “Choose which emails you get” link at the bottom of every email.</p>
+</fieldset></form><script>/* Email choices: each unticked box adds a Buttondown "Skip ..." tag to the sign-up */
+document.querySelectorAll("form.su-wrap").forEach(function(f){f.addEventListener("submit",function(ev){
+  f.querySelectorAll("input[data-added]").forEach(function(x){x.remove();});
+  var boxes=f.querySelectorAll("input[data-skip]"), on=0, err=f.querySelector(".su-err");
+  boxes.forEach(function(b){if(b.checked){on++;return;} var h=document.createElement("input"); h.type="hidden"; h.name="tag"; h.value=b.getAttribute("data-skip"); h.setAttribute("data-added","1"); f.appendChild(h);});
+  if(boxes.length&&!on){ev.preventDefault(); if(err)err.hidden=false; return;} if(err)err.hidden=true;
+});});</script>
 <p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. Then confirm using the email from hello@news.hinewsdaily.com; if you don’t see it, check junk or spam, and add that address to your contacts. <a href="/#privacy">Privacy</a></p><div class="share" aria-label="Share"><p>Know someone who’d like this?</p><div class="share-row"><a href="mailto:?subject=High%20Impact%20News%20Daily&amp;body=I%20thought%20you%27d%20find%20this%20useful%3A%20the%20day%27s%20most%20important%20news%20in%20five%20minutes%2C%20no%20spin.%0A%0AThe%20day%27s%20most%20important%20news%20in%20five%20minutes.%20No%20spin.%0A%0Ahttps%3A//hinewsdaily.com/">Forward to a friend</a><button type="button" id="copyBtn" data-url="https://hinewsdaily.com/">Copy link</button><button type="button" id="shareBtn" data-url="https://hinewsdaily.com/" hidden>Share…</button></div></div></section><p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a> · <a href="mailto:hello@hinewsdaily.com">Contact</a></p>
 <p class="fine">Summaries and impact ratings are written with the help of AI and can contain errors. Always check the linked source. Not investment or medical advice.</p>
 <div class="thirty" aria-hidden="true">— 30 —</div>

@@ -14,7 +14,7 @@ import json, os, sys, datetime
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
-SITE = "https://highimpactnewsdaily.com"
+SITE = "https://hinewsdaily.com"
 SEC_LABEL = {"health": "Health", "sports": "Sports", "tech": "Tech & Space", "finance": "ISO20022"}
 
 
@@ -91,7 +91,7 @@ def main():
         lines.append("")
     lines += ["That's the news. Put the phone down and enjoy your day." if edition == "morning"
               else "That's the day. Put the phone down and enjoy your evening.", "",
-              f"[Read the full edition at highimpactnewsdaily.com]({SITE}) · "
+              f"[Read the full edition at hinewsdaily.com]({SITE}) · "
               f"[Past editions]({SITE}/#archive)"]
     body = "\n".join(lines)
 

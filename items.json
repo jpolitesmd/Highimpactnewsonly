@@ -10,7 +10,9 @@
    "time": "2026-09-28T14:00:00-04:00",
    "time_known": true,
    "url": "https://www.mprnews.org/story/2026/09/28/ore-from-mesabi-metallics-mine-will-be-used-for-15-billion-steel-mill-planed-for-iowa",
-   "id": "2026-09-28-steel-mill-iowa"
+   "id": "2026-09-28-steel-mill-iowa",
+   "detail": "The mill would use iron ore from Mesabi Metallics' mine on Minnesota's Iron Range, which opened this month and plans 350 full-time jobs. No construction timeline or mill job count was given.",
+   "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -21,7 +23,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-contempt-deportation"
+   "id": "2026-09-28-contempt-deportation",
+   "detail": "A contempt finding means the court concluded the government violated its orders. The asylum seeker was deported while those orders were in place.",
+   "why": "A federal court finding that the executive branch defied court orders bears on the limits of executive power."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -32,7 +36,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-us-china-ai-channel"
+   "id": "2026-09-28-us-china-ai-channel",
+   "detail": "The channel lets the two governments communicate directly to defuse incidents involving artificial intelligence.",
+   "why": "A formal U.S.-China line on AI incidents between the two leading AI powers; it creates no binding rules."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -43,7 +49,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-ukraine-aid"
+   "id": "2026-09-28-ukraine-aid",
+   "detail": "Congress approved $400 million. $307 million had been committed as of the latest report, with a September 30 deadline.",
+   "why": "Concerns money already approved; the practical question is whether the remaining $93 million is committed by the deadline."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -54,7 +62,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-russia-strikes"
+   "id": "2026-09-28-russia-strikes",
+   "detail": "Seven of those killed, including a child, were in Kyiv. Russian drones also hit the headquarters of Kyivstar, a Ukrainian telecom company.",
+   "why": "Deadly attacks in an ongoing war. Rated 3 because they continue an existing pattern rather than marking a new phase."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -65,7 +75,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-iran-proposal-rejected"
+   "id": "2026-09-28-iran-proposal-rejected",
+   "detail": "Iran had offered terms to reopen the Strait of Hormuz, a major route for global oil shipments, and end the U.S.-Israel war with Iran, now in its seventh month.",
+   "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -76,7 +88,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-iran-response"
+   "id": "2026-09-28-iran-response",
+   "detail": "The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
+   "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -87,7 +101,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-scotus-missouri-map"
+   "id": "2026-09-28-scotus-missouri-map",
+   "detail": "The dispute concerns how Missouri's U.S. House districts are drawn. The Court declined the request from state Republicans.",
+   "why": "District maps set the boundaries for U.S. House races in the state, but the decision is limited to Missouri."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -98,7 +114,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-scotus-voter-verification"
+   "id": "2026-09-28-scotus-voter-verification",
+   "detail": "The ruling allows the federal government's citizenship verification system to be used when checking whether registered voters are eligible.",
+   "why": "A Supreme Court decision that applies nationwide to voter eligibility checks ahead of the midterm elections."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -109,7 +127,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-withhold-800m"
+   "id": "2026-09-28-withhold-800m",
+   "detail": "The money had already been approved by Congress for programs related to immigration, race and education.",
+   "why": "Affects $800 million in approved federal spending and Congress's control over how funds are spent."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -120,7 +140,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-saudi-nuclear"
+   "id": "2026-09-28-saudi-nuclear",
+   "detail": "The finding comes from a classified U.S. intelligence assessment reported this week.",
+   "why": "Bears on the risk of nuclear weapons spreading in the Middle East during an active regional war."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -131,7 +153,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
-   "id": "2026-09-28-swiss-vote"
+   "id": "2026-09-28-swiss-vote",
+   "detail": "The proposal, which Russia supported, would have tightened Switzerland's neutrality rules.",
+   "why": "Leaves Switzerland's existing policy unchanged."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -142,7 +166,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.whitehouse.gov/news/",
-   "id": "2026-09-28-mining-policy"
+   "id": "2026-09-28-mining-policy",
+   "detail": "The White House said the change reverses earlier federal restrictions on domestic mining.",
+   "why": "A policy change for the mining sector. Rated 2 because the specific rule changes and their scope were not detailed."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -153,7 +179,9 @@
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.whitehouse.gov/news/",
-   "id": "2026-09-28-college-sports"
+   "id": "2026-09-28-college-sports",
+   "detail": "The President asked Congress to pass legislation governing college sports.",
+   "why": "A request to Congress, not a law or an order."
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -164,7 +192,9 @@
    "time": "2026-09-27T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.whitehouse.gov/news/",
-   "id": "2026-09-27-us-china-tariffs"
+   "id": "2026-09-27-us-china-tariffs",
+   "detail": "The U.S.-China Board of Trade announced the cuts on September 27. Soybeans, a major U.S. export to China, are not included.",
+   "why": "$60 billion in tariff changes between the world's two largest economies affects prices, importers and exporters."
   }
  ]
 }

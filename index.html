@@ -84,6 +84,9 @@ li.item{background:rgba(19,58,112,.62);border:1px solid rgba(169,200,242,.12);-w
 li.lv5{background:rgba(23,69,127,.8);border-color:var(--i5)}
 .key{margin-top:36px;padding:16px 18px;border:3px double rgba(169,200,242,.35);background:rgba(8,29,61,.55);border-radius:2px}
 .colophon{margin-top:28px;text-align:center;font-family:"IM Fell English",Georgia,serif;font-size:15px;letter-spacing:.3em;color:#8ea6c8}
+.txt p.more{margin-top:6px;font-size:15px;line-height:1.45;color:#c9d8ee}
+.txt p.why{margin-top:6px;font-size:14px;line-height:1.4;font-style:italic;color:#a9bcd8}
+.why-k{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#8fb4ea}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230c2a55%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%238fb4ea%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23f2c14e%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23ff9147%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23ff5f5f%22/%3E%3C/svg%3E">
 </head><body>
@@ -177,6 +180,8 @@ function render(){
       meta.append(pips);
       const txt=el("div","txt");
       txt.append(el("p",null,it.text||""));
+      if(it.detail) txt.append(el("p","more",it.detail));
+      if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
       const src=el("div","src");
       src.append(el("span","tag",it.region==="World"?"World":"U.S."));
       if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);}

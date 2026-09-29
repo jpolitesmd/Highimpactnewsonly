@@ -31,12 +31,39 @@ def eligible(it):
 def rank(lst): return sorted(lst, key=lambda i: (-lv(i), -(t(i).timestamp() if t(i) else 0)))
 
 
+FRESH = datetime.timedelta(hours=12)  # "new" = happened or was added in the last 12 hours
+FRESH_SLOTS, TOP_N = 4, 10
+
+
+def seen(it):
+    """Latest of when it happened and when it was added, so overnight additions count as new."""
+    ts = [x for x in (t(it),) if x]
+    try: ts.append(datetime.datetime.fromisoformat(it["added_at"]).astimezone(ET))
+    except Exception: pass
+    return max(ts) if ts else None
+def fresh(it, now): return seen(it) is not None and now - seen(it) <= FRESH
+def fresh_ok(it): return lv(it) >= (2 if sec(it) in ("news", "money", "finance", "tech") else 3)
+
+
 def select(items, edition, now):
     if edition == "morning":
+        # Same rule as the Today tab: the 10 most important stories of the last 36 hours, but up to 4
+        # spots always go to the most important new stories, so each edition has what's new.
         for hours in (36, 72, 168):
             pool = [i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=hours) and eligible(i)]
             if len(pool) >= 5: break
-        return rank(pool)[:10], datetime.timedelta(hours=36)
+        main, pick, ids = rank(pool), [], set()
+        def add(i):
+            if i["id"] not in ids: ids.add(i["id"]); pick.append(i)
+        for i in main[:TOP_N]:
+            if fresh(i, now): add(i)
+        for i in rank([i for i in items if fresh(i, now) and fresh_ok(i)]):
+            if len(pick) >= FRESH_SLOTS: break
+            add(i)
+        for i in main:
+            if len(pick) >= TOP_N: break
+            add(i)
+        return rank(pick), datetime.timedelta(hours=36)
     today = now.date()
     pool = [i for i in items if t(i) and t(i).date() == today and eligible(i)]
     if len(pool) < 3:

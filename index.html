@@ -469,7 +469,8 @@ async function load(){
     status.textContent=j.updated?"Updated "+fmtTime.format(new Date(j.updated))+" ET":"Live"; render();
   }catch(e){ status.textContent="Couldn't load updates. Refresh to try again."; }
 }
-function fitLogo(){const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
+function sizeBars(){try{const lp=document.querySelector('.logo .lp'), bars=document.querySelector('.logo .lbars'); if(!lp||!bars)return; const cs=getComputedStyle(lp), fs=parseFloat(cs.fontSize); const c=document.createElement('canvas').getContext('2d'); c.font=fs+'px '+cs.fontFamily; const cap=c.measureText('H').actualBoundingBoxAscent; if(cap>0) bars.style.height=(cap/fs*138/134).toFixed(4)+'em';}catch(e){}}
+function fitLogo(){sizeBars(); const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
   l.style.fontSize='100px'; const w=l.getBoundingClientRect().width; if(w>0) l.style.fontSize=(100*box/w*0.99).toFixed(2)+'px';}
 fitLogo(); addEventListener('resize',fitLogo); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitLogo);
 load(); setInterval(load,5*60*1000);

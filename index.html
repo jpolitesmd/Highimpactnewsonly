@@ -198,7 +198,7 @@ function render(){
     return region==="all"||it.region===region;
   });
   if(branchTab) shown=shown.slice().sort((a,b)=>(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1));
-  if(special){ const k=t=>fmtKey.format(new Date(t)); shown=shown.slice().sort((a,b)=>k(b.time).localeCompare(k(a.time))||(+b.impact||1)-(+a.impact||1)); }
+  if(!branchTab){ const k=t=>{const d=new Date(t);return isNaN(d)?"":fmtKey.format(d)}; shown=shown.slice().sort((a,b)=>k(b.time).localeCompare(k(a.time))||(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1)); }
   const intro=document.getElementById("tabIntro");
   intro.textContent=region==="finance"?"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Facts only, not financial advice.":region==="health"?"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.":region==="sports"?"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions.":region==="judicial"?"Supreme Court and federal court decisions, highest impact first.":region==="legislative"?"Congress: votes, bills, funding and hearings, highest impact first.":region==="executive"?"The President and federal agencies: orders, announcements and actions, highest impact first.":"";
   intro.hidden=!intro.textContent;

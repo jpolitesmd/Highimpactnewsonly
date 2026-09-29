@@ -12,7 +12,8 @@
    "url": "https://www.mprnews.org/story/2026/09/28/ore-from-mesabi-metallics-mine-will-be-used-for-15-billion-steel-mill-planed-for-iowa",
    "id": "2026-09-28-steel-mill-iowa",
    "detail": "The mill would use iron ore from Mesabi Metallics' new mine near Nashwauk on Minnesota's Iron Range, which opened this month; the mine has hired over 200 of a planned 350 workers. Mesabi Metallics is owned by India-based Essar Group. No construction start date or mill job count was given.",
-   "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction."
+   "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction.",
+   "topic": "factory"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -25,7 +26,8 @@
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
    "id": "2026-09-28-ukraine-aid",
    "detail": "Congress approved $400 million. $307 million had been committed as of the latest report, with a September 30 deadline.",
-   "why": "Concerns money already approved; the practical question is whether the remaining $93 million is committed by the deadline."
+   "why": "Concerns money already approved; the practical question is whether the remaining $93 million is committed by the deadline.",
+   "topic": "capitol"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -38,7 +40,8 @@
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
    "id": "2026-09-28-iran-proposal-rejected",
    "detail": "Iran had offered terms to reopen the Strait of Hormuz, the route for about a fifth of the world's oil shipments, and end the U.S.-Israel war with Iran, now in its seventh month. Iran's foreign minister said Iran will wait for a formal U.S. response before abandoning ceasefire talks. Eight U.S. Marines were injured by an Iranian missile in the strait on Sept. 14.",
-   "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens."
+   "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens.",
+   "topic": "ship"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -51,7 +54,8 @@
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
    "id": "2026-09-28-iran-response",
    "detail": "The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
-   "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action."
+   "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action.",
+   "topic": "globe"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -64,7 +68,8 @@
    "url": "https://www.whitehouse.gov/news/",
    "id": "2026-09-28-mining-policy",
    "detail": "They include lifting a 20-year mining ban on 225,504 acres of Minnesota's Superior National Forest, restoring leases for the Twin Metals copper-nickel project, approving a 211-mile road to an Alaska copper and cobalt district, and rolling back 2024 rules for taconite iron-ore processing and coke ovens.",
-   "why": "Opens federal land to copper, nickel and cobalt mining. Rated 2 because it mostly summarizes earlier actions rather than announcing new ones."
+   "why": "Opens federal land to copper, nickel and cobalt mining. Rated 2 because it mostly summarizes earlier actions rather than announcing new ones.",
+   "topic": "mining"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -77,7 +82,8 @@
    "url": "https://www.whitehouse.gov/news/",
    "id": "2026-09-28-college-sports",
    "detail": "The bill would set one national set of rules for college athletes' name, image and likeness (NIL) pay, eligibility, transfers and revenue sharing. It limits transfers, caps eligibility at five years, bars former professional athletes from returning to college sports, and shields schools and conferences from current lawsuits. The administration has formally said the President would sign it.",
-   "why": "Would replace a patchwork of state laws and court rulings affecting over 500,000 college athletes, but it is a request; Congress has not passed it."
+   "why": "Would replace a patchwork of state laws and court rulings affecting over 500,000 college athletes, but it is a request; Congress has not passed it.",
+   "topic": "sports"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -90,7 +96,8 @@
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
    "id": "2026-09-28-russia-strikes",
    "detail": "Seven of those killed, including a child, were in Kyiv. Russian drones also hit the headquarters of Kyivstar, Ukraine's largest mobile carrier, and a guided bomb injured 22 people in Kharkiv. Ukraine's army said it retook 176 square kilometers in northern Donetsk.",
-   "why": "Deadly attacks in an ongoing war. Rated 3 because they continue an existing pattern rather than marking a new phase."
+   "why": "Deadly attacks in an ongoing war. Rated 3 because they continue an existing pattern rather than marking a new phase.",
+   "topic": "conflict"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -103,7 +110,8 @@
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
    "id": "2026-09-28-swiss-vote",
    "detail": "The proposal, which Russia backed, would have written stricter neutrality rules into Switzerland's constitution, limiting its ability to join sanctions or defense cooperation.",
-   "why": "Leaves Switzerland's current policy, including its participation in sanctions, unchanged."
+   "why": "Leaves Switzerland's current policy, including its participation in sanctions, unchanged.",
+   "topic": "ballot"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -116,7 +124,8 @@
    "url": "https://tradersagency.com/blog/us-and-china-publish-30-for-30-tariff-cut-lists-covering-dollar60-billion-in-trade-soybeans-left-off-chinas-list",
    "id": "2026-09-27-us-china-tariffs",
    "detail": "The U.S. list has 77 consumer items such as toys, sports gear and household goods. China's list has 1,619 items, mostly farm products like corn, wheat, meat and dairy. Whole soybeans are not included. No start date or tariff rates were given. It follows the Trump-Xi summit, which extended the trade truce to Jan. 10, 2027.",
-   "why": "Covers about 30% of U.S. exports to China, per the U.S. Trade Representative, but the cuts are not yet in effect."
+   "why": "Covers about 30% of U.S. exports to China, per the U.S. Trade Representative, but the cuts are not yet in effect.",
+   "topic": "trade"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -129,7 +138,8 @@
    "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says",
    "id": "2026-09-28-us-china-ai-channel",
    "detail": "The agreement came out of President Trump's summit with Chinese President Xi Jinping in Washington. The two also agreed China will import at least 10 million tonnes of U.S. coal in 2027-28, and plan to meet again at APEC in November and the G20 in December. China had not commented on the AI channel.",
-   "why": "First formal U.S.-China line for AI incidents between the two leading AI powers; it creates no binding rules."
+   "why": "First formal U.S.-China line for AI incidents between the two leading AI powers; it creates no binding rules.",
+   "topic": "tech"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -142,7 +152,8 @@
    "url": "https://time.com/article/2026/09/26/what-is-a-pocket-rescission-inside-trump-s-move-to-cancel-810-million-in-federal-funding/",
    "id": "2026-09-28-withhold-800m",
    "detail": "The largest cut is $567 million for refugee resettlement and services for unaccompanied minors. Smaller amounts come from Education Department migrant-student programs, a Justice Department office on racial tensions, the Minority Business Development Agency and HUD housing counseling. The Government Accountability Office says this timing, called a pocket rescission, violates the 1974 Impoundment Control Act.",
-   "why": "Affects $810 million in approved funding and tests Congress's control over spending; the legal dispute is unresolved."
+   "why": "Affects $810 million in approved funding and tests Congress's control over spending; the legal dispute is unresolved.",
+   "topic": "capitol"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -155,7 +166,8 @@
    "url": "https://abcnews.com/US/judge-finds-trump-administration-contempt-deporting-asylum-seeker/story?id=136765172",
    "id": "2026-09-28-contempt-deportation",
    "detail": "The man, identified as E.L.A., was protected by orders from a 2019 class-action case covering immigrants who arrived as unaccompanied minors. He returned to the U.S. on Aug. 7 after the first removal. The judge ordered the government to bring him back and report by Oct. 2. Court filings say at least 107 protected people were removed before their asylum cases were decided.",
-   "why": "A court finding that the executive branch defied court orders; it affects one case directly but bears on at least 107 others."
+   "why": "A court finding that the executive branch defied court orders; it affects one case directly but bears on at least 107 others.",
+   "topic": "gavel"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -168,7 +180,8 @@
    "url": "https://www.scotusblog.com/2026/09/for-the-third-time-supreme-court-declines-to-allow-missouri-to-use-congressional-map-expected-to/",
    "id": "2026-09-28-scotus-missouri-map",
    "detail": "The 2025 map redrew the 3rd and 5th districts in a way expected to give Republicans one more U.S. House seat. Missouri's Supreme Court ruled on Sept. 3 that a voter referendum petition with over 300,000 signatures must be decided first. The 2022 map will be used in November.",
-   "why": "Settles which district lines apply for Missouri's eight House seats in the midterms; limited to one state."
+   "why": "Settles which district lines apply for Missouri's eight House seats in the midterms; limited to one state.",
+   "topic": "court"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -181,7 +194,8 @@
    "url": "https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/",
    "id": "2026-09-28-scotus-voter-verification",
    "detail": "SAVE is a Homeland Security database originally built to check immigration status; it was expanded to include U.S.-born citizens' records and Social Security numbers. A federal judge had blocked it in June over privacy-law violations. Justices Sotomayor, Kagan and Jackson dissented. Federal law still bars systematic voter-roll purges within 90 days of an election.",
-   "why": "Applies nationwide to voter-eligibility checks before the November midterms and involves citizens' personal data; a final ruling on the case is still pending."
+   "why": "Applies nationwide to voter-eligibility checks before the November midterms and involves citizens' personal data; a final ruling on the case is still pending.",
+   "topic": "ballot"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -194,7 +208,8 @@
    "url": "https://www.spokesman.com/stories/2026/sep/25/saudis-have-not-ruled-out-developing-nuclear-weapo/",
    "id": "2026-09-28-saudi-nuclear",
    "detail": "The administration recently approved a civilian nuclear cooperation deal with Saudi Arabia worth tens of billions of dollars. It allows uranium enrichment starting below 5%, with possible increases to 20%, and does not require the IAEA inspection terms known as the Additional Protocol. Saudi Crown Prince Mohammed bin Salman said in 2018 the kingdom would build a bomb if Iran did.",
-   "why": "Bears on nuclear-weapons risk in the Middle East during an active regional war; it is an assessment, not a Saudi decision."
+   "why": "Bears on nuclear-weapons risk in the Middle East during an active regional war; it is an assessment, not a Saudi decision.",
+   "topic": "nuclear"
   }
  ]
 }

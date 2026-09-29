@@ -284,6 +284,7 @@ const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis 
 const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
 const TABS=["today","government","world","money","tech","health","sports","history","archive"];
 let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
+let archIdx=null, archKey=null; const archCache={};
 try{minLevel=+localStorage.getItem("pw_min")||1; const r=localStorage.getItem("pw_tab"); if(TABS.includes(r)) region=r;}catch(e){}
 
 const fmtDay=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"short",day:"numeric"});
@@ -411,7 +412,6 @@ function render(){
 syncButtons(); render();
 
 /* Archive: every published edition, saved by the edition tasks in archive/ */
-let archIdx=null, archKey=null; const archCache={};
 function setHash(h){try{window.history.replaceState(null,"",h||location.pathname+location.search);}catch(e){}}
 function readHash(){if(location.hash==="#about"){region="about";archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
 window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render();window.scrollTo({top:0});}});

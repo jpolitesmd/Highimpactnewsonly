@@ -1,6 +1,21 @@
 {
- "updated": "2026-09-28T22:45:00-04:00",
+ "updated": "2026-09-29T07:41:16-04:00",
  "items": [
+  {
+   "id": "2026-09-28-treasury-yield-oil",
+   "section": "money",
+   "topic": "chart",
+   "region": "US",
+   "text": "The 10-year Treasury yield rose to 5.2% on Sept. 28, its highest level in 19 years, and U.S. crude oil rose 4.2% to $96.31 a barrel after President Trump rejected Iran's proposal to reopen the Strait of Hormuz.",
+   "detail": "All three major stock indexes closed lower: the S&P 500 fell 0.77% to 7,683.69, the Dow 0.67% and the Nasdaq 0.92%. Brent crude briefly traded above $108 before settling near $98. The 10-year yield is a benchmark for mortgage and other long-term loan rates.",
+   "why": "A 19-year high in the 10-year yield pushes up mortgage and loan rates nationwide; oil prices feed directly into gas prices.",
+   "impact": 3,
+   "time": "2026-09-28T16:00:00-04:00",
+   "time_known": true,
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-28-2026",
+   "added_at": "2026-09-29T07:41:16-04:00"
+  },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
    "impact": 3,

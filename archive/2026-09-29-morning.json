@@ -1,0 +1,125 @@
+{
+ "date": "2026-09-29",
+ "edition": "morning",
+ "subject": "Morning edition, Tuesday, Sep 29: President Trump rejected Iran's latest proposal to reopen…",
+ "published": "2026-09-29T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-09-28-iran-proposal-rejected",
+   "text": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war.",
+   "detail": "Iran had offered terms to reopen the Strait of Hormuz, the route for about a fifth of the world's oil shipments, and end the U.S.-Israel war with Iran, now in its seventh month. Iran's foreign minister said Iran will wait for a formal U.S. response before abandoning ceasefire talks. Eight U.S. Marines were injured by an Iranian missile in the strait on Sept. 14.",
+   "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens.",
+   "impact": 4,
+   "topic": "ship",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Just Security roundup",
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/"
+  },
+  {
+   "id": "2026-09-28-treasury-yield-oil",
+   "section": "money",
+   "text": "The 10-year Treasury yield rose to 5.2% on Sept. 28, its highest level in 19 years, and U.S. crude oil rose 4.2% to $96.31 a barrel after President Trump rejected Iran's proposal to reopen the Strait of Hormuz.",
+   "detail": "All three major stock indexes closed lower: the S&P 500 fell 0.77% to 7,683.69, the Dow 0.67% and the Nasdaq 0.92%. Brent crude briefly traded above $108 before settling near $98. The 10-year yield is a benchmark for mortgage and other long-term loan rates.",
+   "why": "A 19-year high in the 10-year yield pushes up mortgage and loan rates nationwide; oil prices feed directly into gas prices.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-09-28T16:00:00-04:00",
+   "time_known": true,
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-28-2026"
+  },
+  {
+   "id": "2026-09-28-steel-mill-iowa",
+   "text": "President Trump announced at 2:00 p.m. that Mesabi Metallics, owned by India-based Essar Group, plans a $15 billion steel mill in eastern Iowa, using ore from its mine near Nashwauk, Minnesota.",
+   "detail": "The mill would use iron ore from Mesabi Metallics' new mine near Nashwauk on Minnesota's Iron Range, which opened this month; the mine has hired over 200 of a planned 350 workers. Mesabi Metallics is owned by India-based Essar Group. No construction start date or mill job count was given.",
+   "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction.",
+   "impact": 3,
+   "topic": "factory",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-28T14:00:00-04:00",
+   "time_known": true,
+   "source": "MPR News",
+   "url": "https://www.mprnews.org/story/2026/09/28/ore-from-mesabi-metallics-mine-will-be-used-for-15-billion-steel-mill-planed-for-iowa"
+  },
+  {
+   "id": "2026-09-28-iran-response",
+   "text": "Iranian Foreign Minister Araghchi said Iran is waiting for an official U.S. response before ending ceasefire talks; an Iranian official said Iran will not change its position on its nuclear program.",
+   "detail": "The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
+   "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Just Security roundup",
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/"
+  },
+  {
+   "id": "2026-09-28-starship-first-orbit",
+   "section": "tech",
+   "text": "SpaceX's Starship reached orbit for the first time on its 14th test flight Monday, deploying 26 Starlink V3 satellites.",
+   "detail": "The ship completed about six orbits over roughly 10 hours before splashing down in the Pacific west of Chile; the Super Heavy booster splashed down in the Gulf shortly after launch. SpaceX changed the booster after ice buildup caused problems on the previous flight. NASA plans to use a modified Starship as the moon lander for its Artemis program.",
+   "why": "A first for the largest rocket built and a step required before NASA's planned Artemis moon landings; still a test program.",
+   "impact": 3,
+   "topic": "rocket",
+   "region": "US",
+   "time": "2026-09-28T08:55:00-04:00",
+   "time_known": false,
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/09/28/spacex-starship-orbital-flight"
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-09-27-mlb-playoff-field",
+   "section": "sports",
+   "text": "The MLB regular season ended Sunday with the 12-team playoff field set. The Wild Card Series start Tuesday, Sept. 29.",
+   "detail": "Top seeds with byes: Rays (AL East, 98-64) and Guardians (AL Central) in the AL; Brewers (NL Central, 103-59) and defending champion Dodgers (NL West, 100-62) in the NL. Best-of-three matchups: Astros vs. White Sox, Yankees vs. Red Sox, Braves vs. Phillies, Padres vs. Cubs, with any deciding games by Oct. 1.",
+   "why": "Sets the postseason bracket for Major League Baseball.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-09-27T20:00:00-04:00",
+   "time_known": false,
+   "source": "NewsOn6 / AP",
+   "url": "https://www.newson6.com/sports/2026-mlb-playoffs-set-wild-card-series-matchups-schedule-and-tv-times"
+  },
+  {
+   "id": "2026-09-28-amd-world-labs",
+   "section": "tech",
+   "text": "AMD agreed to buy World Labs, the AI startup founded by Stanford professor Fei-Fei Li, for $8.2 billion.",
+   "detail": "World Labs builds AI models of the physical world; its first product, Marble, generates simulated environments for entertainment and robot training. Li will become AMD's executive vice president and chief scientist. The deal is expected to close by year-end, subject to regulatory approval.",
+   "why": "A large AI acquisition by a major chipmaker; it still needs regulatory approval.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-09-29",
+   "text": "MLB Wild Card Series begin (best of three)."
+  },
+  {
+   "date": "2026-09-30",
+   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
+  },
+  {
+   "date": "2026-10-02",
+   "text": "September jobs report, 8:30 a.m. ET."
+  }
+ ]
+}

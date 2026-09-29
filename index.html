@@ -107,6 +107,16 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
 .tab-intro{margin:18px 0 0;text-align:center;font-style:italic;font-size:15px;color:var(--muted)}
 .masthead .motto{margin:-2px 0 2px;font-family:"IM Fell English SC","IM Fell English",Georgia,serif;font-size:clamp(14px,3.8vw,17px);letter-spacing:.1em;color:#7a2e1c}
 .signoff{margin:34px 0 0;text-align:center;font-family:"IM Fell English",Georgia,serif;font-style:italic;font-size:18px;color:var(--fg)}
+.timeline{gap:0;border-left:2px solid rgba(239,228,204,.25);margin-left:8px;padding-left:18px}
+.tl-item{position:relative;display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;padding:10px 0 12px}
+.tl-item::before{content:"";position:absolute;left:-25px;top:16px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--accent)}
+li.tl-item.lv5{padding:10px 12px 12px;border:1px solid var(--i5);border-radius:8px}
+.tl-item.lv5::before{background:var(--i5);border-color:var(--i5)}
+.tl-item.lv4::before{border-color:var(--i4)}
+.tl-when{display:flex;flex-direction:column;gap:6px}
+.tl-body p{margin:0;font-size:17px;line-height:1.42}
+.tl-item.lv5 .tl-body p,.tl-item.lv4 .tl-body p{font-weight:500}
+.tl-src{font:14px var(--mono);color:var(--accent);text-decoration:none}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%232b1d12%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%23c9b48f%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23d9a441%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23d47a42%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23c2453a%22/%3E%3C/svg%3E">
 </head><body>
@@ -139,6 +149,7 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
       <button id="rFin" data-r="finance">ISO20022 News</button>
       <button id="rHealth" data-r="health">Health</button>
       <button id="rSports" data-r="sports">Sports</button>
+      <button id="rHist" data-r="history">Impactful History</button>
     </div>
   </div>
 
@@ -181,8 +192,40 @@ document.getElementById("regions").addEventListener("click",e=>{
 
 function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
 
+let history=null;
+async function loadHistory(){try{const r=await fetch("history.json?t="+Date.now(),{cache:"no-store"});history=await r.json();}catch(e){history={events:[]};} if(region==="history")render();}
+function renderHistory(feed){
+  const intro=document.getElementById("tabIntro");
+  intro.textContent="The year so far: the most consequential events of each month, in order.";intro.hidden=false;
+  feed.replaceChildren();
+  if(!history){feed.append(el("div","empty","Loading the timeline…"));loadHistory();return;}
+  const ev=(history.events||[]).filter(e=>(+e.impact||1)>=minLevel).sort((a,b)=>a.date<b.date?-1:1);
+  if(!ev.length){feed.append(el("div","empty","No events at this level. Lower the impact level to see more."));return;}
+  const fmtMonth=new Intl.DateTimeFormat("en-US",{month:"long",year:"numeric",timeZone:"UTC"});
+  const fmtDD=new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",timeZone:"UTC"});
+  const months=new Map();
+  for(const e of ev){const k=e.date.slice(0,7);if(!months.has(k))months.set(k,[]);months.get(k).push(e);}
+  for(const [k,list] of months){
+    const sec=el("section","day hist-month");
+    const dl=el("div","dateline");dl.append(el("span",null,fmtMonth.format(new Date(k+"-01T12:00:00Z"))));sec.append(dl);
+    const ol=el("ol","timeline");
+    for(const e of list){
+      const lv=Math.min(5,Math.max(1,+e.impact||1));
+      const li=el("li","tl-item lv"+lv);
+      const when=el("div","tl-when");when.append(el("span","time",fmtDD.format(new Date(e.date+"T12:00:00Z"))));
+      const pips=el("span","pips");const H=[0,4,7,10,13,17];
+      for(let i=1;i<=5;i++){const p=el("i");p.style.height=H[i]+"px";if(i<=lv)p.style.background="var("+LEVEL_COLOR[i]+")";pips.append(p);}
+      when.append(pips);
+      const body=el("div","tl-body");body.append(el("p",null,e.text||""));
+      if(e.url&&/^https:\/\//.test(e.url)){const a=el("a","tl-src","Source ↗");a.href=e.url;a.target="_blank";a.rel="noopener";body.append(a);}
+      li.append(when,body);ol.append(li);
+    }
+    sec.append(ol);feed.append(sec);
+  }
+}
 function render(){
   const feed=document.getElementById("feed");
+  if(region==="history"){renderHistory(feed);return;}
   if(!loaded)return;
   const br=it=>Array.isArray(it.branch)?it.branch:(it.branch?[it.branch]:[]);
   const inBranch={judicial:it=>it.judicial===true||br(it).includes("judicial")||it.topic==="court"||it.topic==="gavel",

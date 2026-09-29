@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Political news with no spin: one plain line per event, rated by impact.">
+<title>High Impact News Only</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Pinyon+Script&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+[hidden]{display:none!important}
+/* Layout: one column on a deep newsroom blue; items sit on lighter blue cards, filters stick to the top. Single deliberate blue theme. */
+:root{
+  --bg:#33251a; --bg2:#271b12; --card:#44311f; --card-hi:#503926; --fg:#f1e7d1; --muted:#c2ae8c; --rule:#6c563a; --accent:#d9a77a;
+  --i1:#8c7c62; --i2:#c9b48f; --i3:#d9a441; --i4:#d47a42; --i5:#c2453a;
+  --display:"DM Serif Display",Georgia,serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+  --mono:"IM Fell English SC","IM Fell English",Georgia,serif;
+  color-scheme:dark;
+}
+html{background:var(--bg2)}
+body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%) fixed,var(--bg2);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.45;min-height:100vh}
+.wrap{max-width:920px;margin:0 auto;padding-inline:16px;padding-block:24px 56px}
+header{display:flex;flex-direction:column;gap:6px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,8vw,40px);letter-spacing:.005em;margin:0;line-height:1.05;text-wrap:balance}
+.status{font-family:var(--mono);font-size:14px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.status::before{display:none;content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:none}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:14px 12px;margin-top:14px;border-bottom:1px solid var(--rule)}
+.bar-label{font-family:var(--mono);font-size:15px;letter-spacing:.08em;color:var(--muted);margin-bottom:8px}
+.seg{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}
+.seg button{font:400 17px var(--mono);padding:9px 0 8px;border:1px solid var(--rule);background:var(--card);color:var(--fg);border-radius:8px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;transition:background .15s}
+.seg button span{font:400 13px var(--mono);letter-spacing:.04em;color:var(--muted)}
+.seg button:hover{background:var(--card-hi)}
+.seg button[aria-pressed="true"]{background:var(--fg);color:#22170e;border-color:var(--fg)}
+.seg button[aria-pressed="true"] span{color:#5a4630}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.regions{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.regions button{font:400 15px var(--mono);padding:5px 12px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:99px;cursor:pointer}
+.regions button[aria-pressed="true"]{color:#22170e;background:var(--accent);border-color:var(--accent)}
+.day{margin-top:26px}
+.dateline{font-family:var(--display);font-size:22px;display:flex;justify-content:space-between;align-items:baseline;padding-bottom:8px}
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+li.item{display:grid;grid-template-columns:48px minmax(0,1fr) 150px;gap:12px;padding:14px 14px 12px;background:var(--card);border-radius:10px}
+li.lv5{background:var(--card-hi);box-shadow:inset 0 0 0 1px var(--i5)}
+.meta{display:flex;flex-direction:column;gap:7px;align-items:flex-start;padding-top:3px}
+.time{font:400 14px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.pips{display:flex;align-items:flex-end;gap:2px;height:17px}
+.pips i{width:5px;border-radius:1px;background:var(--rule)}
+.txt{min-width:0}
+.txt p{margin:0;font-size:17px;line-height:1.42}
+.lv5 .txt p,.lv4 .txt p{font-weight:500}
+.src{font:14px var(--mono);color:var(--muted);margin-top:6px;display:flex;gap:10px;flex-wrap:wrap}
+.src a{color:var(--accent);text-decoration:none}
+.src a:hover{text-decoration:underline}
+.tag{letter-spacing:.06em}
+.empty{margin-top:28px;padding:20px;border:1px dashed var(--rule);border-radius:10px;color:var(--muted);font-size:16px}
+.key{margin-top:32px;font:15px/1.6 var(--body);color:var(--muted)}
+.key b{font-weight:500;color:var(--fg)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.logo{display:flex;align-items:baseline;flex-wrap:nowrap;gap:.28em;font-size:clamp(21px,6.4vw,40px);font-weight:400;line-height:1;margin:0;white-space:nowrap}
+.logo .lp{font-family:"IM Fell English",Georgia,serif;letter-spacing:.04em;color:var(--fg)}
+.logo .ls{font-family:"Pinyon Script","Snell Roundhand",cursive;font-size:1.22em;color:#d9a77a}
+.logo .lp.gap{margin-left:.25em}
+.logo .lbars{height:.72em;width:auto;margin-left:.05em}
+.tagline{margin:2px 0 4px;font-family:"IM Fell English",Georgia,serif;font-style:italic;font-size:clamp(15px,4.2vw,19px);line-height:1.35;color:#d8c7a6;text-wrap:balance}
+
+/* ---- Newsprint styling ---- */
+body{background:radial-gradient(120% 80% at 50% 0%,#43301f 0%,var(--bg) 45%,var(--bg2) 100%) fixed,var(--bg2);position:relative;isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22180%22%20height%3D%22180%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%22.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20values%3D%220%200%200%200%201%20%200%200%200%200%20.9%20%200%200%200%200%20.8%20%200%200%200%20.05%200%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E"),url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22420%22%20height%3D%22300%22%20viewBox%3D%220%200%20420%20300%22%3E%3Cg%20fill%3D%22%23efe4cc%22%20fill-opacity%3D%220.04%22%3E%3Crect%20x%3D%2224%22%20y%3D%2218%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2225%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2232%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2239%22%20width%3D%2262%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2246%22%20width%3D%2256%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2253%22%20width%3D%2257%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2269%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2276%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2283%22%20width%3D%2267%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%2290%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22106%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22113%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22120%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22127%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22134%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22141%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22148%22%20width%3D%2243%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22155%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22162%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22169%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22176%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22183%22%20width%3D%2249%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22190%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22197%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22204%22%20width%3D%2256%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22211%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22218%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22225%22%20width%3D%2265%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22232%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22239%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22246%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22253%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22260%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22267%22%20width%3D%2274%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22274%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%2224%22%20y%3D%22281%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2218%22%20width%3D%2294%22%20height%3D%227%22%20rx%3D%221%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2230%22%20width%3D%2262%22%20height%3D%227%22%20rx%3D%221%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2250%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2257%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2264%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2271%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2278%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2285%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2292%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%2299%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22106%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22113%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22120%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22127%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22134%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22141%22%20width%3D%2267%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22148%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22155%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22162%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22169%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22176%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22183%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22190%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22197%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22204%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22211%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22218%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22225%22%20width%3D%2268%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22241%22%20width%3D%2239%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22248%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22255%22%20width%3D%2243%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22262%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22269%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22276%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22150%22%20y%3D%22283%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2218%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2225%22%20width%3D%2251%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2232%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2239%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2246%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2253%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2260%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2267%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2274%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2281%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2288%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%2295%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22102%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22109%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22116%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22123%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22130%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22137%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22144%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22151%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22158%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22165%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22172%22%20width%3D%2236%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22179%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22186%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22193%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22200%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22207%22%20width%3D%2272%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22214%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22221%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22228%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22235%22%20width%3D%2276%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22242%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22249%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22256%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22263%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22270%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22277%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22276%22%20y%3D%22284%22%20width%3D%22102%22%20height%3D%222%22/%3E%3Crect%20x%3D%22138%22%20y%3D%2214%22%20width%3D%220.6%22%20height%3D%22276%22/%3E%3Crect%20x%3D%22264%22%20y%3D%2214%22%20width%3D%220.6%22%20height%3D%22276%22/%3E%3C/g%3E%3C/svg%3E");background-size:180px 180px,420px 300px;-webkit-mask-image:radial-gradient(ellipse 75% 70% at 50% 45%,rgba(0,0,0,.35) 0%,#000 75%);mask-image:radial-gradient(ellipse 75% 70% at 50% 45%,rgba(0,0,0,.35) 0%,#000 75%)}
+header.masthead{align-items:center;text-align:center;gap:10px;padding-top:6px}
+.rule-top,.rule-bot{width:100%;display:flex;flex-direction:column;gap:3px}
+.rule-top i,.rule-bot i{display:block;background:rgba(239,228,204,.8)}
+.rule-top i:first-child,.rule-bot i:last-child{height:3px}
+.rule-top i:last-child,.rule-bot i:first-child{height:1px}
+.masthead .logo{justify-content:center;margin-top:4px}
+.masthead .tagline{margin:0}
+.edition{width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding-block:6px;border-top:1px solid rgba(239,228,204,.3);border-bottom:1px solid rgba(239,228,204,.3);font-family:"IM Fell English",Georgia,serif;font-variant:small-caps;letter-spacing:.08em;font-size:14px;color:#d8c7a6}
+.edition .status{font-family:"IM Fell English",Georgia,serif;font-size:14px;color:#d8c7a6}
+.bar{background:rgba(45,32,21,.9);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid rgba(239,228,204,.16);margin-inline:-16px;padding-inline:16px}
+.dateline{font-family:"IM Fell English",Georgia,serif;font-style:italic;font-size:20px;justify-content:center;align-items:center;gap:14px;color:#e8dcc2;padding-bottom:12px}
+.dateline::before,.dateline::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(239,228,204,.35))}
+.dateline::after{background:linear-gradient(90deg,rgba(239,228,204,.35),transparent)}
+li.item{background:rgba(70,50,32,.72);border:1px solid rgba(239,228,204,.12);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 8px 20px -12px rgba(0,0,0,.7)}
+li.lv5{background:rgba(82,54,34,.88);border-color:var(--i5)}
+.key{margin-top:36px;padding:16px 18px;border:3px double rgba(239,228,204,.28);background:rgba(32,22,14,.42);border-radius:2px}
+.colophon{margin-top:28px;text-align:center;font-family:"IM Fell English",Georgia,serif;font-size:15px;letter-spacing:.3em;color:#a8926f}
+.txt p.more{margin-top:6px;font-size:15px;line-height:1.45;color:#d8c7a6}
+.txt p.why{margin-top:6px;font-size:14px;line-height:1.4;font-style:italic;color:#b8a483}
+.why-k{font-style:normal;font-family:var(--mono);font-size:14px;letter-spacing:.04em;color:#d9a77a}
+.plate{margin:0;align-self:start;aspect-ratio:4/3;width:100%;border:3px double rgba(239,228,204,.28);background:repeating-linear-gradient(135deg,rgba(239,228,204,.04) 0 1px,transparent 1px 5px),rgba(32,22,14,.45);display:flex;align-items:center;justify-content:center;color:#d9b98c}
+.plate svg{width:78%;height:78%;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+li.lv5 .plate{color:#e8836f;border-color:rgba(194,69,58,.6)}
+li.lv4 .plate{color:#e3a06e}
+@media (max-width:600px){li.item{grid-template-columns:40px minmax(0,1fr) 76px;gap:10px;padding:12px 12px 10px}.plate{border-width:3px}}
+@media (max-width:600px){.seg button span{font-size:11px;letter-spacing:0}}
+/* Reversed masthead: parchment lettering on an iron-gall ink band */
+.wrap{padding-block:0 56px}
+header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:inset(0 -100vmax);padding-block:22px 14px;
+ --i1:#b3a386;--i2:#7d6b52;--i3:#b8862b;--i4:#a8521e;--i5:#8b1e1e}
+.masthead .logo .lp{color:#2b1d12}
+.masthead .logo .ls{color:#7a2e1c}
+.masthead .rule-top i{background:rgba(43,29,18,.85)}
+.masthead .tagline{color:#5a4632}
+.masthead .edition,.masthead .edition .status{color:#6e5a44}
+.masthead .edition{border-color:rgba(43,29,18,.3)}
+.bar{margin-top:0}
+.tab-intro{margin:18px 0 0;text-align:center;font-style:italic;font-size:15px;color:var(--muted)}
+.masthead .motto{margin:-2px 0 2px;font-family:"IM Fell English SC","IM Fell English",Georgia,serif;font-size:clamp(14px,3.8vw,17px);letter-spacing:.1em;color:#7a2e1c}
+.signoff{margin:34px 0 0;text-align:center;font-family:"IM Fell English",Georgia,serif;font-style:italic;font-size:18px;color:var(--fg)}
+.timeline{gap:0;border-left:2px solid rgba(239,228,204,.25);margin-left:8px;padding-left:18px}
+.tl-item{position:relative;display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;padding:10px 0 12px}
+.tl-item::before{content:"";position:absolute;left:-25px;top:16px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--accent)}
+li.tl-item.lv5{padding:10px 12px 12px;border:1px solid var(--i5);border-radius:8px}
+.tl-item.lv5::before{background:var(--i5);border-color:var(--i5)}
+.tl-item.lv4::before{border-color:var(--i4)}
+.tl-when{display:flex;flex-direction:column;gap:6px}
+.tl-body p{margin:0;font-size:17px;line-height:1.42}
+.tl-item.lv5 .tl-body p,.tl-item.lv4 .tl-body p{font-weight:500}
+.tl-src{font:14px var(--mono);color:var(--accent);text-decoration:none}
+/* Edition layout */
+.tabs{margin-top:0;gap:6px}
+.tabs button{font:400 17px var(--mono);padding:7px 14px}
+.subtabs{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.subtabs button{font:400 14px var(--mono);padding:4px 11px;border:1px dashed var(--rule);background:transparent;color:var(--muted);border-radius:99px;cursor:pointer}
+.subtabs button[aria-pressed="true"]{border-style:solid;border-color:var(--accent);color:var(--fg)}
+#impactRow{margin-top:12px}
+.edition-count{margin:-4px 0 14px;text-align:center;font-family:var(--mono);font-size:15px;color:var(--muted)}
+.caughtup{margin-top:30px;padding:22px 18px;text-align:center;border-top:3px double rgba(239,228,204,.3);border-bottom:3px double rgba(239,228,204,.3)}
+.cu-big{margin:0;font-family:"IM Fell English",Georgia,serif;font-size:clamp(24px,6vw,32px);color:var(--fg)}
+.cu-small{margin:6px 0 0;font-style:italic;color:var(--muted)}
+.upcoming{margin-top:30px}
+.up-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.up-list li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px;padding:9px 4px;border-bottom:1px solid rgba(239,228,204,.12)}
+.up-date{font-family:var(--mono);font-size:15px;color:var(--accent)}
+.up-text{font-size:16px}
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%232b1d12%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%23c9b48f%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23d9a441%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23d47a42%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23c2453a%22/%3E%3C/svg%3E">
+</head><body>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="rule-top" aria-hidden="true"><i></i><i></i></div>
+    <h1 class="logo" aria-label="High Impact News Only"><span class="lp">HIGH</span><span class="ls">impact</span><span class="lp gap">NEWS</span><span class="ls">only</span><svg class="lbars" viewBox="0 0 76 138" aria-hidden="true"><rect x="0" y="106" width="11" height="32" rx="2" fill="var(--i1)"/><rect x="16" y="82" width="11" height="56" rx="2" fill="var(--i2)"/><rect x="32" y="58" width="11" height="80" rx="2" fill="var(--i3)"/><rect x="48" y="32" width="11" height="106" rx="2" fill="var(--i4)"/><rect x="64" y="4" width="11" height="134" rx="2" fill="var(--i5)"/></svg></h1>
+    <p class="tagline">Easily digestible news, the way it used to be</p>
+    <p class="motto">✦ Break free from the 24-hour news cycle ✦</p>
+    <div class="edition"><span id="edDate"></span><span class="status" id="status">Connecting…</span></div>
+  </header>
+
+  <div class="bar">
+    <div class="regions tabs" id="regions" role="group" aria-label="Sections">
+      <button data-r="today">Today</button>
+      <button data-r="government">Government</button>
+      <button data-r="world">World</button>
+      <button data-r="money">Money</button>
+      <button data-r="health">Health</button>
+      <button data-r="sports">Sports</button>
+      <button data-r="history">History</button>
+    </div>
+    <div class="subtabs" id="subtabs" role="group" aria-label="Filter" hidden></div>
+    <div id="impactRow">
+      <div class="bar-label">Show impact level</div>
+      <div class="seg" id="seg" role="group" aria-label="Minimum impact">
+        <button id="lvl1" data-min="1">1+<span>All</span></button>
+        <button id="lvl2" data-min="2">2+<span>Notable</span></button>
+        <button id="lvl3" data-min="3">3+<span>Significant</span></button>
+        <button id="lvl4" data-min="4">4+<span>Major</span></button>
+        <button id="lvl5" data-min="5">5<span>Critical</span></button>
+      </div>
+    </div>
+  </div>
+
+  <p class="tab-intro" id="tabIntro" hidden></p>
+  <div id="feed">
+    <div class="empty">Loading the latest items…</div>
+  </div>
+
+  <div class="key">
+    <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
+  </div>
+  <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
+  <div class="colophon" aria-hidden="true">— 30 —</div>
+</div>
+
+<script>
+const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V56M46 70V56M58 70V56M70 70V56M82 70V56M94 70V56M16 56H104M30 56V48H90V56M36 48C36 26 84 26 84 48M60 31V20M55 20H65M60 20V12\"/>", "court": "<path d=\"M10 82H110M16 76H104M22 70H98M28 70V40M40 70V40M52 70V40M68 70V40M80 70V40M92 70V40M22 40H98M18 36L60 12L102 36Z\"/><circle cx=\"60\" cy=\"27\" r=\"4\"/>", "whitehouse": "<path d=\"M8 80H112M14 80V46H106V80M40 80V54M50 80V54M70 80V54M80 80V54M34 46C34 34 86 34 86 46M60 36V14M60 14H74V22H60M22 56H30V66H22ZM90 56H98V66H90Z\"/>", "globe": "<circle cx=\"60\" cy=\"45\" r=\"32\"/><ellipse cx=\"60\" cy=\"45\" rx=\"14\" ry=\"32\"/><path d=\"M28 45H92M33 29H87M33 61H87\"/>", "factory": "<path d=\"M8 80H112M14 80V50L34 38V50L54 38V50L74 38V80M74 80V56H106V80M84 56V20H92V56M96 56V28H102V56M22 62H28M38 62H44M54 62H60\"/><circle cx=\"90\" cy=\"12\" r=\"4\"/><circle cx=\"99\" cy=\"8\" r=\"3\"/>", "ship": "<path d=\"M12 56H108L98 70H22ZM28 56V46H54V56M34 46V38H46V46M62 56V50H98V56M8 82C16 76 24 76 32 82S48 88 56 82 72 76 80 82 96 88 104 82 112 78 116 80\"/>", "ballot": "<path d=\"M24 46H96V82H24ZM42 54H78M46 46L50 14H76L72 46M56 24H68M55 32H66\"/>", "gavel": "<path d=\"M20 82H76M26 82V74H70V82M52 18L80 46M42 28L70 56M47 23L75 51M62 42L98 78\"/>", "sports": "<path d=\"M60 84V54M34 54H86M34 54V14M86 54V14\"/><ellipse cx=\"60\" cy=\"30\" rx=\"13\" ry=\"8\" transform=\"rotate(-25 60 30)\"/><path d=\"M55 31L65 27M57 27L58 30M60 26L61 29M63 25L64 28\"/>", "trade": "<path d=\"M8 80H112M16 80V58H48V80M16 69H48M32 58V80M50 80V58H82V80M50 69H82M66 58V80M33 58V36H65V58M33 47H65M49 36V58M84 80V64H104V80\"/>", "tech": "<path d=\"M38 24H82V66H38ZM48 34H72V56H48ZM46 24V14M60 24V14M74 24V14M46 66V76M60 66V76M74 66V76M38 32H28M38 45H28M38 58H28M82 32H92M82 45H92M82 58H92\"/>", "nuclear": "<ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(60 60 45)\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(120 60 45)\"/><circle cx=\"60\" cy=\"45\" r=\"5\"/>", "conflict": "<path d=\"M26 16L90 76M94 16L30 76M76 72L90 58M44 72L30 58M22 20L30 12M98 20L90 12M84 68L96 80M36 68L24 80\"/>", "mining": "<path d=\"M6 82L38 42L54 60L72 36L114 82ZM30 30L62 62M22 38C24 26 34 18 46 20\"/>", "coin": "<ellipse cx=\"50\" cy=\"26\" rx=\"30\" ry=\"9\"/><path d=\"M20 26V62C20 67 80 67 80 62V26M20 38C20 43 80 43 80 38M20 50C20 55 80 55 80 50\"/><circle cx=\"88\" cy=\"58\" r=\"20\"/><circle cx=\"88\" cy=\"58\" r=\"14\"/><path d=\"M82 52L94 64M94 52L82 64\"/>", "lungs": "<path d=\"M60 8V38M60 38L50 48M60 38L70 48M46 24C30 24 16 48 16 66C16 80 30 84 42 76C50 70 52 60 52 50M74 24C90 24 104 48 104 66C104 80 90 84 78 76C70 70 68 60 68 50M30 58L40 52M90 58L80 52\"/>", "pulse": "<rect x=\"10\" y=\"14\" width=\"100\" height=\"62\" rx=\"4\"/><path d=\"M14 48H38L46 30L56 66L66 22L74 48H106\"/>"};
+TOPIC_ART.chart='<path d="M14 80H108M14 80V12M24 66L44 50L60 58L82 30L100 22M88 20L100 22L96 34"/><path d="M28 80V72M44 80V64M60 80V68M76 80V56M92 80V48"/>';
+const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
+const TABS=["today","government","world","money","health","sports","history"];
+let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
+try{minLevel=+localStorage.getItem("pw_min")||1; const r=localStorage.getItem("pw_tab"); if(TABS.includes(r)) region=r;}catch(e){}
+
+const fmtDay=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"short",day:"numeric"});
+const fmtKey=new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"});
+const fmtShort=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",month:"short",day:"numeric"});
+const fmtTime=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit"});
+const fmtWD=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"short",month:"short",day:"numeric"});
+try{document.getElementById("edDate").textContent=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"long",day:"numeric",year:"numeric"}).format(new Date());}catch(e){}
+
+const SUBS={government:[["all","All branches"],["executive","Executive"],["legislative","Legislative"],["judicial","Judicial"]],
+            money:[["all","All"],["economy","Economy"],["finance","ISO20022"]]};
+function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
+function syncButtons(){
+  document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.min===minLevel)));
+  document.querySelectorAll("#regions button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.r===region)));
+  const st=document.getElementById("subtabs"); st.replaceChildren();
+  if(SUBS[region]){ for(const [k,l] of SUBS[region]){const b=el("button",null,l); b.dataset.s=k; b.setAttribute("aria-pressed",String(k===sub)); st.append(b);} st.hidden=false; } else st.hidden=true;
+  document.getElementById("impactRow").hidden=(region==="today");
+}
+document.getElementById("seg").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min; try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();});
+document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
+document.getElementById("subtabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; sub=b.dataset.s; syncButtons(); render();});
+
+const br=it=>Array.isArray(it.branch)?it.branch:(it.branch?[it.branch]:[]);
+const inBranch={judicial:it=>it.judicial===true||br(it).includes("judicial")||it.topic==="court"||it.topic==="gavel",
+  legislative:it=>br(it).includes("legislative")||it.topic==="capitol",
+  executive:it=>br(it).includes("executive")||it.topic==="whitehouse"};
+const secOf=it=>it.section||"news";
+const lvOf=it=>Math.min(5,Math.max(1,+it.impact||1));
+const dayKey=t=>{const d=new Date(t);return isNaN(d)?"":fmtKey.format(d)};
+const byDayThenImpact=(a,b)=>dayKey(b.time).localeCompare(dayKey(a.time))||lvOf(b)-lvOf(a)||(a.time<b.time?1:-1);
+const byImpact=(a,b)=>lvOf(b)-lvOf(a)||(a.time<b.time?1:-1);
+
+function pipsFor(lv){const pips=el("span","pips"); pips.setAttribute("aria-label","Impact "+lv+" of 5"); const H=[0,4,7,10,13,17];
+  for(let i=1;i<=5;i++){const p=el("i"); p.style.height=H[i]+"px"; if(i<=lv)p.style.background="var("+LEVEL_COLOR[i]+")"; pips.append(p);} return pips;}
+function card(it,dateMode){
+  const lv=lvOf(it), li=el("li","item lv"+lv), meta=el("div","meta"), t=new Date(it.time);
+  const isToday=dayKey(it.time)===fmtKey.format(new Date());
+  let when; if(isNaN(t)) when="—"; else if(dateMode&&!isToday) when=fmtShort.format(t); else when=(it.time_known===false?(dateMode?"Today":"—"):fmtTime.format(t));
+  meta.append(el("span","time",when), pipsFor(lv));
+  const txt=el("div","txt"); txt.append(el("p",null,it.text||""));
+  if(it.detail) txt.append(el("p","more",it.detail));
+  if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
+  const src=el("div","src");
+  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"ISO20022":it.section==="money"?"Money":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
+  if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);} else if(it.source) src.append(el("span",null,it.source));
+  txt.append(src); li.append(meta,txt);
+  const fig=el("figure","plate"); fig.setAttribute("aria-hidden","true");
+  fig.innerHTML='<svg viewBox="0 0 120 90">'+(TOPIC_ART[it.topic]||TOPIC_ART[it.region==="World"?"globe":"capitol"])+'</svg>';
+  li.append(fig); return li;
+}
+function section(title,list,dateMode){const s=el("section","day"); const dl=el("div","dateline"); dl.append(el("span",null,title)); s.append(dl); const ol=el("ol"); for(const it of list) ol.append(card(it,dateMode)); s.append(ol); return s;}
+function byDays(feed,list){const days=new Map(); for(const it of list){const k=dayKey(it.time)||"unknown"; if(!days.has(k))days.set(k,[]); days.get(k).push(it);}
+  for(const [k,l] of days){const d=new Date(l[0].time); feed.append(section(isNaN(d)?"Undated":fmtDay.format(d),l,false));}}
+function setIntro(t){const i=document.getElementById("tabIntro"); i.textContent=t||""; i.hidden=!t;}
+
+async function loadUpcoming(){try{const r=await fetch("upcoming.json?t="+Date.now(),{cache:"no-store"}); upcoming=await r.json();}catch(e){upcoming={events:[]};} if(region==="today")render();}
+function renderToday(feed){
+  setIntro("");
+  const now=Date.now(), H=3600e3;
+  const eligible=it=>{const s=secOf(it), lv=lvOf(it); return (s==="news"||s==="money"||s==="finance")?lv>=3:lv>=4;};
+  let pool=[];
+  for(const win of [36,72,168]){ pool=items.filter(it=>{const t=new Date(it.time).getTime(); return !isNaN(t)&&now-t<=win*H&&eligible(it);}); if(pool.length>=5)break; }
+  const top=pool.sort(byImpact).slice(0,10);
+  const words=top.reduce((n,it)=>n+((it.text||"")+" "+(it.detail||"")+" "+(it.why||"")).split(/\s+/).length,0);
+  const mins=Math.max(1,Math.round(words/220));
+  const s=el("section","day"); const dl=el("div","dateline"); dl.append(el("span",null,"Today’s Edition")); s.append(dl);
+  s.append(el("p","edition-count",top.length+(top.length===1?" story":" stories")+" · "+mins+"-minute read · most important first"));
+  const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); feed.append(s);
+  const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."), el("p","cu-small","Browse the tabs above for more, or enjoy your day.")); feed.append(done);
+  if(!upcoming){loadUpcoming();return;}
+  const today=fmtKey.format(new Date());
+  const ev=(upcoming.events||[]).filter(e=>e.date>=today).sort((a,b)=>a.date<b.date?-1:1).slice(0,6);
+  if(ev.length){const c=el("section","upcoming"); const d2=el("div","dateline"); d2.append(el("span",null,"Coming Up")); c.append(d2);
+    const ul=el("ul","up-list"); for(const e of ev){const li=el("li"); li.append(el("span","up-date",fmtWD.format(new Date(e.date+"T12:00:00Z"))), el("span","up-text",e.text)); ul.append(li);} c.append(ul); feed.append(c);}
+}
+
+let history=null;
+async function loadHistory(){try{const r=await fetch("history.json?t="+Date.now(),{cache:"no-store"});history=await r.json();}catch(e){history={events:[]};} if(region==="history")render();}
+function renderHistory(feed){
+  setIntro("The year so far: the most consequential events of each month, in order.");
+  if(!history){feed.append(el("div","empty","Loading the timeline…"));loadHistory();return;}
+  const ev=(history.events||[]).filter(e=>(+e.impact||1)>=minLevel).sort((a,b)=>a.date<b.date?-1:1);
+  if(!ev.length){feed.append(el("div","empty","No events at this level. Lower the impact level to see more."));return;}
+  const fmtMonth=new Intl.DateTimeFormat("en-US",{month:"long",year:"numeric",timeZone:"UTC"});
+  const fmtDD=new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",timeZone:"UTC"});
+  const months=new Map(); for(const e of ev){const k=e.date.slice(0,7);if(!months.has(k))months.set(k,[]);months.get(k).push(e);}
+  for(const [k,list] of months){
+    const sec=el("section","day hist-month"); const dl=el("div","dateline"); dl.append(el("span",null,fmtMonth.format(new Date(k+"-01T12:00:00Z")))); sec.append(dl);
+    const ol=el("ol","timeline");
+    for(const e of list){const lv=Math.min(5,Math.max(1,+e.impact||1)); const li=el("li","tl-item lv"+lv);
+      const when=el("div","tl-when"); when.append(el("span","time",fmtDD.format(new Date(e.date+"T12:00:00Z"))), pipsFor(lv));
+      const body=el("div","tl-body"); body.append(el("p",null,e.text||""));
+      if(e.url&&/^https:\/\//.test(e.url)){const a=el("a","tl-src","Source ↗");a.href=e.url;a.target="_blank";a.rel="noopener";body.append(a);}
+      li.append(when,body); ol.append(li);}
+    sec.append(ol); feed.append(sec);
+  }
+}
+
+const INTROS={government:{all:"U.S. government: the President and agencies, Congress, and the courts.",executive:"The President and federal agencies, highest impact first.",legislative:"Congress: votes, bills and funding, highest impact first.",judicial:"Supreme Court and federal court decisions, highest impact first."},
+  world:"Major events outside the United States.",
+  money:{all:"The economy, rates, jobs, prices and markets, plus ISO20022 crypto news. Facts only, not financial advice.",economy:"Interest rates, jobs, inflation, markets, taxes and housing. Facts only, not financial advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
+  health:"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.",
+  sports:"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions."};
+
+function render(){
+  const feed=document.getElementById("feed"); feed.replaceChildren();
+  if(region==="history"){renderHistory(feed);return;}
+  if(!loaded){feed.append(el("div","empty","Loading today’s edition…"));return;}
+  if(region==="today"){renderToday(feed);return;}
+  const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
+  let shown=items.filter(it=>{
+    if(lvOf(it)<minLevel) return false; const s=secOf(it);
+    if(region==="government") return s==="news"&&it.region!=="World"&&(sub==="all"||inBranch[sub](it));
+    if(region==="world") return s==="news"&&it.region==="World";
+    if(region==="money") return sub==="all"?(s==="money"||s==="finance"):sub==="economy"?s==="money":s==="finance";
+    return s===region;
+  });
+  if(!shown.length){feed.append(el("div","empty","Nothing at this level yet. Lower the impact level to see more."));return;}
+  if(region==="government"&&sub!=="all"){ shown.sort(byImpact); feed.append(section({judicial:"Court decisions",legislative:"Congressional action",executive:"Executive action"}[sub]+", by impact",shown,true)); return; }
+  shown.sort(byDayThenImpact); byDays(feed,shown);
+}
+
+syncButtons(); render();
+async function load(){
+  const status=document.getElementById("status");
+  try{
+    const r=await fetch("items.json?t="+Date.now(),{cache:"no-store"}); const j=await r.json();
+    items=(j.items||[]).slice().sort((a,b)=>a.time<b.time?1:-1); loaded=true;
+    status.textContent=j.updated?"Updated "+fmtTime.format(new Date(j.updated))+" ET":"Live"; render();
+  }catch(e){ status.textContent="Couldn't load updates. Refresh to try again."; }
+}
+load(); setInterval(load,5*60*1000);
+</script>
+
+</body></html>

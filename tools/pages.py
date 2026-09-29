@@ -81,8 +81,8 @@ ol{list-style:none;margin:0;padding:0}
 .why{margin:8px 0 0;font:400 14px/1.5 var(--sans);color:var(--muted)}.why b{color:var(--fg);font-weight:600}
 .src{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px;font:500 13px var(--sans);color:var(--muted)}.src a{text-decoration:none}
 .up{list-style:none;margin:8px 0 0;padding:0}.up li{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--faint);font:400 15px/1.45 var(--sans)}.up b{color:var(--accent);font-weight:600}
-.share{margin-top:36px;padding:22px 20px;text-align:center;background:var(--surface);border:1px solid var(--faint);border-radius:14px}
-.share p{margin:0 0 12px;font:600 17px var(--sans)}
+.share{margin:22px auto 0;padding-top:20px;max-width:440px;text-align:center;border-top:1px solid var(--faint)}
+.signup .share p{margin:0 0 12px;max-width:none;font:600 17px var(--sans);color:var(--fg)}
 .share-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
 .share-row a,.share-row button{padding:8px 14px;font:600 14px var(--sans);color:var(--accent);background:var(--bg);border:1px solid var(--rule);border-radius:999px;text-decoration:none;cursor:pointer}
 .share-row a:hover,.share-row button:hover{border-color:var(--accent)}
@@ -128,7 +128,7 @@ SIGNUP = """<section class="signup" aria-labelledby="suT"><h2 id="suT">Get each 
 <form class="su-form" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank">
 <label class="sr" for="suE">Email address</label><input id="suE" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
 <input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></form>
-<p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. <a href="/#privacy">Privacy</a></p></section>"""
+<p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. <a href="/#privacy">Privacy</a></p>{share}</section>"""
 
 FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a></p>
 <p class="fine">Summaries and impact ratings are written with the help of AI and can contain errors. Always check the linked source. Not investment or medical advice.</p>
@@ -147,10 +147,10 @@ if(navigator.clipboard)navigator.clipboard.writeText(u).then(ok,function(){promp
 def share_block(url, subject, lead):
     body = f"I thought you'd find this useful: the day's most important news in five minutes, no spin.\n\n{lead}\n\n{url}"
     mail = f"mailto:?subject={quote(subject)}&body={quote(body)}"
-    return (f'<section class="share" aria-label="Share"><p>Know someone who’d like this?</p><div class="share-row">'
+    return (f'<div class="share" aria-label="Share"><p>Know someone who’d like this?</p><div class="share-row">'
             f'<a href="{e(mail)}">Forward to a friend</a>'
             f'<button type="button" id="copyBtn" data-url="{e(url)}">Copy link</button>'
-            f'<button type="button" id="shareBtn" data-url="{e(url)}" hidden>Share…</button></div></section>')
+            f'<button type="button" id="shareBtn" data-url="{e(url)}" hidden>Share…</button></div></div>')
 
 
 def head(**kw):
@@ -188,8 +188,7 @@ def edition_page(ed, no, prev, nxt):
                    + "".join(f'<li><b>{e(short_date(u["date"]))}</b><span>{e(u["text"])}</span></li>' for u in ed["upcoming"])
                    + "</ul>")
     out.append("</main>")
-    out.append(share_block(url, f"{edname}, {ld} · {NAME}", lead))
-    out.append(SIGNUP)
+    out.append(SIGNUP.format(share=share_block(url, f"{edname}, {ld} · {NAME}", lead)))
     pn = '<nav class="pn" aria-label="Other editions">'
     pn += (f'<a href="/editions/{prev["key"]}/" rel="prev">← {prev["edition"].capitalize()}, {short_date(prev["date"])}</a>' if prev else "<span></span>")
     pn += (f'<a href="/editions/{nxt["key"]}/" rel="next">{nxt["edition"].capitalize()}, {short_date(nxt["date"])} →</a>' if nxt else "")
@@ -212,8 +211,7 @@ def index_page(eds):
         lead = (next((x for x in lst if x["edition"] == "morning"), lst[0])).get("lead", "")
         out.append(f'<li><span class="d">{e(short_date(d))}</span><div>{links}<p>{e(lead)}</p></div></li>')
     out.append("</ul></main>")
-    out.append(share_block(SITE + "/", NAME, "The day's most important news in five minutes. No spin."))
-    out.append(SIGNUP)
+    out.append(SIGNUP.format(share=share_block(SITE + "/", NAME, "The day's most important news in five minutes. No spin.")))
     out.append(FOOT)
     return "".join(out)
 

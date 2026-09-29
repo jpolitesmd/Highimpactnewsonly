@@ -253,7 +253,8 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .endmark svg{width:min(360px,88%);height:auto;overflow:visible}
 .new-tag{font:700 10.5px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:4px;padding:1px 5px}
 /* Share: forward to a friend */
-.share{margin-top:36px;padding:22px 20px;text-align:center;background:var(--surface);border:1px solid var(--faint);border-radius:14px}
+.share{margin:24px auto 0;padding-top:22px;max-width:440px;text-align:center;border-top:1px solid var(--faint)}
+.subhead{margin:22px 0 0;padding-bottom:6px;border-bottom:1px solid var(--faint);font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .share-t{margin:0 0 12px;font:600 17px var(--sans);color:var(--fg)}
 .share-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
 .share-row a,.share-row button{padding:8px 14px;font:600 14px var(--sans);color:var(--accent);background:var(--bg);border:1px solid var(--rule);border-radius:999px;text-decoration:none;cursor:pointer}
@@ -303,14 +304,6 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
     <div class="empty">Loading the latest items…</div>
   </div>
 
-  <section class="share" id="share" aria-label="Share">
-    <p class="share-t">Know someone who’d like this?</p>
-    <div class="share-row">
-      <a id="shareMail" href="mailto:?subject=High%20Impact%20News%20Daily&amp;body=https%3A%2F%2Fhinewsdaily.com%2F">Forward to a friend</a>
-      <button type="button" id="shareCopy">Copy link</button>
-      <button type="button" id="shareNative" hidden>Share…</button>
-    </div>
-  </section>
 
   <figure class="tj">
     <img id="tjImg" src="assets/jefferson-phone.jpg" width="740" height="497" loading="lazy" decoding="async" alt="A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone.">
@@ -328,6 +321,14 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
       <button type="submit">Subscribe</button>
     </form>
     <p class="su-fine">Free. Unsubscribe any time. We never sell your email. <a href="#privacy">Privacy policy</a> · <a href="#terms">Terms</a></p>
+    <div class="share" id="share" aria-label="Share">
+      <p class="share-t">Know someone who’d like this?</p>
+      <div class="share-row">
+        <a id="shareMail" href="mailto:?subject=High%20Impact%20News%20Daily&amp;body=https%3A%2F%2Fhinewsdaily.com%2F">Forward to a friend</a>
+        <button type="button" id="shareCopy">Copy link</button>
+        <button type="button" id="shareNative" hidden>Share…</button>
+      </div>
+    </div>
   </section>
 
   <div class="key">
@@ -606,8 +607,15 @@ function renderToday(feed){
   const mins=Math.max(1,Math.round(words/220));
   const s=el("section","day"); const dl=el("div","dateline"); const etp=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",hourCycle:"h23",timeZone:"America/New_York"}).formatToParts(new Date()); const etm=(+etp.find(p=>p.type==="hour").value)*60+(+etp.find(p=>p.type==="minute").value); dl.append(el("span",null,etm>=1020?"Evening Edition":"Morning Edition")); s.append(dl);
   const nNew=top.filter(it=>isFresh(it,now)).length;
-  s.append(el("p","edition-count",top.length+(top.length===1?" story":" stories")+(nNew?" · "+nNew+" new":"")+" · "+mins+"-minute read · most important first"));
-  const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); feed.append(s);
+  s.append(el("p","edition-count",top.length+(top.length===1?" story":" stories")+(nNew?" · "+nNew+" new":"")+" · "+mins+"-minute read"+(nNew&&nNew<top.length?" · new first":" · most important first")));
+  const newOnes=top.filter(it=>isFresh(it,now)), earlier=top.filter(it=>!isFresh(it,now));
+  if(newOnes.length&&earlier.length){
+    s.append(el("h3","subhead","New since the last edition"));
+    const o1=el("ol"); for(const it of newOnes) o1.append(card(it,true)); s.append(o1);
+    s.append(el("h3","subhead","Earlier, still the most important"));
+    const o2=el("ol"); for(const it of earlier) o2.append(card(it,true)); s.append(o2);
+  } else { const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); }
+  feed.append(s);
   const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."));
   /* "Have more time? Keep reading": the next most important stories, hidden until asked for */
   const shown=new Set(top.map(it=>it.id));

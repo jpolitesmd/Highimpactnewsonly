@@ -90,6 +90,13 @@ def main():
     upcoming = json.load(open("upcoming.json")).get("events", []) if os.path.exists("upcoming.json") else []
 
     top, window = select(items, edition, now)
+    # Morning: new stories first (matches the Today tab), each group most important first.
+    split = 0
+    if edition == "morning":
+        new = [i for i in top if fresh(i, now)]
+        if new and len(new) < len(top):
+            top = new + [i for i in top if not fresh(i, now)]
+            split = len(new)
     listed = {i["id"] for i in top}
     also = []
     for s in ("health", "sports", "tech", "finance"):
@@ -99,11 +106,14 @@ def main():
 
     label = "Morning edition" if edition == "morning" else "Evening edition"
     head = f"{label}, {now.strftime('%A, %b')} {now.day}"
-    subject = f"{head}: {shorten(top[0]['text'], max(20, 90 - len(head)))}" if top else head
+    lead = rank(top)[0]["text"] if top else ""  # subject and archive lead: the most important story
+    subject = f"{head}: {shorten(lead, max(20, 90 - len(head)))}" if top else head
 
     lines = ["*The day's most important news. Five minutes. No spin.*" if edition == "morning"
              else "*What happened today. Five minutes. No spin.*", ""]
-    for i in top:
+    for n, i in enumerate(top):
+        if split and n == 0: lines += ["**New since the last edition**", ""]
+        if split and n == split: lines += ["---", "", "**Earlier, still the most important**", ""]
         lines += ["### " + i.get("text", ""), ""]
         if i.get("detail"): lines += [i["detail"], ""]
         src = f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else ""
@@ -146,7 +156,7 @@ def main():
     idx = json.load(open(idx_path)) if os.path.exists(idx_path) else {"editions": []}
     idx["editions"] = [e for e in idx["editions"] if e.get("key") != key]
     idx["editions"].append({"key": key, "date": date, "edition": edition, "count": len(top),
-                            "lead": top[0]["text"] if top else ""})
+                            "lead": lead})
     idx["editions"].sort(key=lambda e: (e["date"], e["edition"] == "evening"), reverse=True)
     idx["updated"] = now.isoformat(timespec="seconds")
     json.dump(idx, open(idx_path, "w"), indent=1, ensure_ascii=False)

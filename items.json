@@ -13,7 +13,10 @@
    "id": "2026-09-28-steel-mill-iowa",
    "detail": "The mill would use iron ore from Mesabi Metallics' new mine near Nashwauk on Minnesota's Iron Range, which opened this month; the mine has hired over 200 of a planned 350 workers. Mesabi Metallics is owned by India-based Essar Group. No construction start date or mill job count was given.",
    "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction.",
-   "topic": "factory"
+   "topic": "factory",
+   "branch": [
+    "executive"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -27,7 +30,10 @@
    "id": "2026-09-28-ukraine-aid",
    "detail": "Congress approved $400 million. $307 million had been committed as of the latest report, with a September 30 deadline.",
    "why": "Concerns money already approved; the practical question is whether the remaining $93 million is committed by the deadline.",
-   "topic": "capitol"
+   "topic": "capitol",
+   "branch": [
+    "executive"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -41,7 +47,10 @@
    "id": "2026-09-28-iran-proposal-rejected",
    "detail": "Iran had offered terms to reopen the Strait of Hormuz, the route for about a fifth of the world's oil shipments, and end the U.S.-Israel war with Iran, now in its seventh month. Iran's foreign minister said Iran will wait for a formal U.S. response before abandoning ceasefire talks. Eight U.S. Marines were injured by an Iranian missile in the strait on Sept. 14.",
    "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens.",
-   "topic": "ship"
+   "topic": "ship",
+   "branch": [
+    "executive"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -69,7 +78,10 @@
    "id": "2026-09-28-mining-policy",
    "detail": "They include lifting a 20-year mining ban on 225,504 acres of Minnesota's Superior National Forest, restoring leases for the Twin Metals copper-nickel project, approving a 211-mile road to an Alaska copper and cobalt district, and rolling back 2024 rules for taconite iron-ore processing and coke ovens.",
    "why": "Opens federal land to copper, nickel and cobalt mining. Rated 2 because it mostly summarizes earlier actions rather than announcing new ones.",
-   "topic": "mining"
+   "topic": "mining",
+   "branch": [
+    "executive"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -81,9 +93,13 @@
    "time_known": false,
    "url": "https://www.whitehouse.gov/news/",
    "id": "2026-09-28-college-sports",
-   "detail": "The bill would set one national set of rules for college athletes' name, image and likeness (NIL) pay, eligibility, transfers and revenue sharing. It limits transfers, caps eligibility at five years, bars former professional athletes from returning to college sports, and shields schools and conferences from current lawsuits. The administration has formally said the President would sign it.",
-   "why": "Would replace a patchwork of state laws and court rulings affecting over 500,000 college athletes, but it is a request; Congress has not passed it.",
-   "topic": "sports"
+   "detail": "The bill (S. 4668) would set one national set of rules for college athletes' name, image and likeness (NIL) pay, eligibility, transfers and revenue sharing. It limits transfers, caps eligibility at five years, bars former pros from returning, and shields schools and conferences from current lawsuits. The Senate voted 74-25 on Sept. 24 to advance it; the administration says the President would sign it.",
+   "why": "Would replace a patchwork of state laws and court rulings affecting over 500,000 college athletes; it has advanced in the Senate but is not yet law.",
+   "topic": "sports",
+   "branch": [
+    "executive",
+    "legislative"
+   ]
   },
   {
    "id": "2026-09-28-nfl-injuries-week4",
@@ -170,7 +186,10 @@
    "id": "2026-09-27-us-china-tariffs",
    "detail": "The U.S. list has 77 consumer items such as toys, sports gear and household goods. China's list has 1,619 items, mostly farm products like corn, wheat, meat and dairy. Whole soybeans are not included. No start date or tariff rates were given. It follows the Trump-Xi summit, which extended the trade truce to Jan. 10, 2027.",
    "why": "Covers about 30% of U.S. exports to China, per the U.S. Trade Representative, but the cuts are not yet in effect.",
-   "topic": "trade"
+   "topic": "trade",
+   "branch": [
+    "executive"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -184,7 +203,10 @@
    "id": "2026-09-28-us-china-ai-channel",
    "detail": "The agreement came out of President Trump's summit with Chinese President Xi Jinping in Washington. The two also agreed China will import at least 10 million tonnes of U.S. coal in 2027-28, and plan to meet again at APEC in November and the G20 in December. China had not commented on the AI channel.",
    "why": "First formal U.S.-China line for AI incidents between the two leading AI powers; it creates no binding rules.",
-   "topic": "tech"
+   "topic": "tech",
+   "branch": [
+    "executive"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -198,7 +220,11 @@
    "id": "2026-09-28-withhold-800m",
    "detail": "The largest cut is $567 million for refugee resettlement and services for unaccompanied minors. Smaller amounts come from Education Department migrant-student programs, a Justice Department office on racial tensions, the Minority Business Development Agency and HUD housing counseling. The Government Accountability Office says this timing, called a pocket rescission, violates the 1974 Impoundment Control Act.",
    "why": "Affects $810 million in approved funding and tests Congress's control over spending; the legal dispute is unresolved.",
-   "topic": "capitol"
+   "topic": "capitol",
+   "branch": [
+    "executive",
+    "legislative"
+   ]
   },
   {
    "id": "2026-09-26-xrpl-security-release",
@@ -244,7 +270,10 @@
    "why": "A court finding that the executive branch defied court orders; it affects one case directly but bears on at least 107 others.",
    "topic": "gavel",
    "judicial": true,
-   "court": "U.S. District Court, Maryland"
+   "court": "U.S. District Court, Maryland",
+   "branch": [
+    "judicial"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -260,7 +289,10 @@
    "why": "Settles which district lines apply for Missouri's eight House seats in the midterms; limited to one state.",
    "topic": "court",
    "judicial": true,
-   "court": "U.S. Supreme Court"
+   "court": "U.S. Supreme Court",
+   "branch": [
+    "judicial"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -276,7 +308,10 @@
    "why": "Applies nationwide to voter-eligibility checks before the November midterms and involves citizens' personal data; a final ruling on the case is still pending.",
    "topic": "ballot",
    "judicial": true,
-   "court": "U.S. Supreme Court"
+   "court": "U.S. Supreme Court",
+   "branch": [
+    "judicial"
+   ]
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -306,6 +341,23 @@
    "source": "The Hacker News",
    "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
    "added_at": "2026-09-28T21:55:00-04:00"
+  },
+  {
+   "id": "2026-09-24-senate-iran-war-powers",
+   "topic": "capitol",
+   "impact": 3,
+   "region": "US",
+   "time": "2026-09-24T12:00:00-04:00",
+   "time_known": false,
+   "branch": [
+    "legislative"
+   ],
+   "text": "The Senate rejected, 49-50, a war powers resolution (H.Con.Res. 89) directing the removal of U.S. forces from hostilities against Iran.",
+   "detail": "The resolution had already passed the House. Its failure leaves current U.S. military operations against Iran, now in their seventh month, unchanged by Congress. On the same day the Senate voted 74-25 to advance the Protect College Sports Act and passed several smaller bills by unanimous consent.",
+   "why": "A one-vote margin on whether Congress would direct an end to U.S. involvement in an active war; the resolution failed, so nothing changes.",
+   "source": "U.S. Senate floor activity",
+   "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm",
+   "added_at": "2026-09-28T22:12:00-04:00"
   },
   {
    "id": "2026-09-21-arikayce-priority-review",
@@ -366,6 +418,23 @@
    "source": "crypto.news",
    "url": "https://crypto.news/ripple-billion-xrp-escrow-unlock-price-climbing/",
    "added_at": "2026-09-28T21:55:00-04:00"
+  },
+  {
+   "id": "2026-09-01-cr-through-dec-11",
+   "topic": "capitol",
+   "impact": 4,
+   "region": "US",
+   "time": "2026-09-01T12:00:00-04:00",
+   "time_known": false,
+   "branch": [
+    "legislative"
+   ],
+   "text": "The House passed, 370-48, a stopgap bill funding the federal government at current levels through Dec. 11, after the Senate approved it in August.",
+   "detail": "Funding had been set to run out Sept. 30, the end of the fiscal year. Talks on full-year spending bills had broken down, so the extension moves the budget fight past the November midterm elections. The measure keeps spending at current levels with a few exceptions.",
+   "why": "Prevents a government shutdown on Oct. 1 for all federal agencies; it is temporary, so a new deadline arrives Dec. 11.",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+   "added_at": "2026-09-28T22:12:00-04:00"
   },
   {
    "id": "2026-08-31-prague-26",

@@ -133,6 +133,8 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
       <button id="rAll" data-r="all">All</button>
       <button id="rUS" data-r="US">U.S.</button>
       <button id="rWorld" data-r="World">World</button>
+      <button id="rExec" data-r="executive">Executive Branch</button>
+      <button id="rLeg" data-r="legislative">Legislative Branch</button>
       <button id="rCourts" data-r="judicial">Judicial Branch</button>
       <button id="rFin" data-r="finance">ISO20022 News</button>
       <button id="rHealth" data-r="health">Health</button>
@@ -182,34 +184,37 @@ function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.classNam
 function render(){
   const feed=document.getElementById("feed");
   if(!loaded)return;
-  const isCourt=it=>it.judicial===true||it.topic==="court"||it.topic==="gavel";
+  const br=it=>Array.isArray(it.branch)?it.branch:(it.branch?[it.branch]:[]);
+  const inBranch={judicial:it=>it.judicial===true||br(it).includes("judicial")||it.topic==="court"||it.topic==="gavel",
+    legislative:it=>br(it).includes("legislative")||it.topic==="capitol",
+    executive:it=>br(it).includes("executive")||it.topic==="whitehouse"};
   const sec=it=>it.section||"news";
-  const judicial=region==="judicial", special=region==="finance"||region==="health"||region==="sports";
+  const branchTab=!!inBranch[region], judicial=region==="judicial", special=region==="finance"||region==="health"||region==="sports";
   let shown=items.filter(it=>{
     if((+it.impact||1)<minLevel) return false;
     if(special) return sec(it)===region;
     if(sec(it)!=="news") return false;
-    if(judicial) return isCourt(it);
+    if(branchTab) return inBranch[region](it);
     return region==="all"||it.region===region;
   });
-  if(judicial) shown=shown.slice().sort((a,b)=>(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1));
+  if(branchTab) shown=shown.slice().sort((a,b)=>(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1));
   if(special){ const k=t=>fmtKey.format(new Date(t)); shown=shown.slice().sort((a,b)=>k(b.time).localeCompare(k(a.time))||(+b.impact||1)-(+a.impact||1)); }
   const intro=document.getElementById("tabIntro");
-  intro.textContent=region==="finance"?"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Facts only, not financial advice.":region==="health"?"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.":region==="sports"?"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions.":region==="judicial"?"Supreme Court and federal court decisions, highest impact first.":"";
+  intro.textContent=region==="finance"?"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Facts only, not financial advice.":region==="health"?"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.":region==="sports"?"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions.":region==="judicial"?"Supreme Court and federal court decisions, highest impact first.":region==="legislative"?"Congress: votes, bills, funding and hearings, highest impact first.":region==="executive"?"The President and federal agencies: orders, announcements and actions, highest impact first.":"";
   intro.hidden=!intro.textContent;
   feed.replaceChildren();
   if(!shown.length){
-    feed.append(el("div","empty", items.length?(judicial?"No court decisions at this level yet. Lower the impact level to see more.":"Nothing at this level yet. Lower the impact level to see more."):"No items yet. The hourly check will add the first ones."));
+    feed.append(el("div","empty", items.length?(branchTab?"No items at this level yet. Lower the impact level to see more.":"Nothing at this level yet. Lower the impact level to see more."):"No items yet. The hourly check will add the first ones."));
     return;
   }
   const days=new Map();
-  if(judicial){ days.set("judicial",shown); }
+  if(branchTab){ days.set(region,shown); }
   else for(const it of shown){const d=new Date(it.time); const k=isNaN(d)?"unknown":fmtKey.format(d); if(!days.has(k))days.set(k,[]); days.get(k).push(it);}
   for(const [k,list] of days){
     const sec=el("section","day");
     const dl=el("div","dateline");
     const d=new Date(list[0].time);
-    dl.append(el("span",null,judicial?"Court decisions, by impact":(isNaN(d)?"Undated":fmtDay.format(d))));
+    dl.append(el("span",null,branchTab?({judicial:"Court decisions",legislative:"Congressional action",executive:"Executive action"}[region]+", by impact"):(isNaN(d)?"Undated":fmtDay.format(d))));
     sec.append(dl);
     const ol=el("ol");
     for(const it of list){
@@ -217,7 +222,7 @@ function render(){
       const li=el("li","item lv"+lv);
       const meta=el("div","meta");
       const t=new Date(it.time);
-      meta.append(el("span","time",judicial?(isNaN(t)?"—":fmtShort.format(t)):(isNaN(t)||it.time_known===false?"—":fmtTime.format(t))));
+      meta.append(el("span","time",branchTab?(isNaN(t)?"—":fmtShort.format(t)):(isNaN(t)||it.time_known===false?"—":fmtTime.format(t))));
       const pips=el("span","pips"); pips.setAttribute("aria-label","Impact "+lv+" of 5");
       const H=[0,4,7,10,13,17];
       for(let i=1;i<=5;i++){const p=el("i"); p.style.height=H[i]+"px"; if(i<=lv)p.style.background="var("+LEVEL_COLOR[i]+")"; pips.append(p);}

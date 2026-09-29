@@ -6,7 +6,7 @@
 <title>High Impact News Daily</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Hanken+Grotesk:wght@400;500;600&display=swap">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%232b1d12%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%23c9b48f%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23d9a441%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23d47a42%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23c2453a%22/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%232b1d12%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%23d47a42%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23d47a42%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23d47a42%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23d47a42%22/%3E%3C/svg%3E">
 <style>
 /* Layout: one calm reading column like a well-set newsletter; heritage wordmark on top, everything else modern and quiet. */
 *,*::before,*::after{box-sizing:border-box}
@@ -68,7 +68,7 @@ li.item .meta{grid-area:meta;display:flex;align-items:center;gap:10px;margin-top
 .src a:hover{text-decoration:underline}
 .plate{grid-area:art;margin:4px 0 0;width:88px;height:66px;border-radius:10px;background:var(--surface);border:1px solid var(--faint);display:flex;align-items:center;justify-content:center;color:var(--muted)}
 .plate svg{width:70%;height:70%;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
-li.lv5 .plate{color:var(--i5);border-color:var(--i5)}
+li.lv5 .plate{color:var(--i4);border-color:var(--i4)}
 li.lv4 .plate{color:var(--i4)}
 @media (max-width:560px){li.item{grid-template-columns:minmax(0,1fr) 60px}.plate{width:60px;height:48px}.txt>p:first-child{font-size:19px}}
 .caughtup{margin-top:36px;padding:28px 20px;text-align:center;background:var(--surface);border:1px solid var(--faint);border-radius:14px}
@@ -83,7 +83,7 @@ li.lv4 .plate{color:var(--i4)}
 .timeline{border-left:2px solid var(--faint);margin-left:6px;padding-left:18px}
 .tl-item{position:relative;display:grid;grid-template-columns:70px minmax(0,1fr);gap:12px;padding:12px 0}
 .tl-item::before{content:"";position:absolute;left:-25px;top:18px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--rule)}
-.tl-item.lv5::before{background:var(--i5);border-color:var(--i5)}
+.tl-item.lv5::before{background:var(--i4);border-color:var(--i4)}
 .tl-item.lv4::before{border-color:var(--i4)}
 .tl-when{display:flex;flex-direction:column;gap:6px}
 .tl-body p{margin:0;font-size:17px;line-height:1.45}
@@ -378,7 +378,7 @@ const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V
 TOPIC_ART.rocket='<path d="M60 8C72 20 76 40 72 62H48C44 40 48 20 60 8ZM48 50L36 66V72L48 66M72 50L84 66V72L72 66M54 62L52 76M60 62V82M66 62L68 76"/><circle cx="60" cy="34" r="6"/>';
 TOPIC_ART.chart='<path d="M14 80H108M14 80V12M24 66L44 50L60 58L82 30L100 22M88 20L100 22L96 34"/><path d="M28 80V72M44 80V64M60 80V68M76 80V56M92 80V48"/>';
 const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis Velazquez"}, "court": {"id": "1658958327132-a80f8a9409fb", "by": "Fine Photographics"}, "gavel": {"id": "1676181739859-08330dea8999", "by": "Wesley Tingey"}, "whitehouse": {"id": "1485394595691-5411947d63a4", "by": "David Everett Strickler"}, "globe": {"id": "1589519160142-7d1a51b43eaf", "by": "Greg Rosenke"}, "factory": {"id": "1765810542186-c6becc0687b1", "by": "Jonathan Wuyts"}, "ship": {"id": "1518527989017-5baca7a58d3c", "by": "Shaah Shahidh"}, "ballot": {"id": "1540910419892-4a36d2c3266c", "by": "Element5 Digital"}, "trade": {"id": "1605732562742-3023a888e56e", "by": "Aron Yigin"}, "tech": {"id": "1680992046626-418f7e910589", "by": "Tyler"}, "nuclear": {"id": "1630142895963-6996ae6b3a5b", "by": "Lukáš Lehotský"}, "conflict": {"id": "1519074031893-210d39bd3885", "by": "Don Jackson-Wyatt"}, "mining": {"id": "1654461339694-128902c5c075", "by": "Chris Münch"}, "coin": {"id": "1621504450181-5d356f61d307", "by": "Art Rachen"}, "sports": {"id": "1509928015542-fcc9b3bcd048", "by": "Chris Kursikowski"}, "lungs": {"id": "1616012480717-fd9867059ca0", "by": "Umanoide"}, "pulse": {"id": "1505751172876-fa1923c5c528", "by": "Hush Naidoo Jade Photography"}, "chart": {"id": "1560221328-12fe60f83ab8", "by": "Nicholas Cappello"}};
-const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
+const LEVEL_COLOR=["","--i4","--i4","--i4","--i4","--i4"];
 const TABS=["today","government","world","money","tech","health","sports","history","archive"];
 let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
 let archIdx=null, archKey=null; const archCache={};

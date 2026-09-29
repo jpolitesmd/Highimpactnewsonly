@@ -1,0 +1,86 @@
+{
+ "date": "2026-09-29",
+ "edition": "evening",
+ "subject": "Evening edition, Tuesday, Sep 29: The Education Department finalized a rule rescinding the…",
+ "published": "2026-09-29T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-09-29-title-ix-final-rule",
+   "text": "The Education Department finalized a rule rescinding the Biden administration's 2024 Title IX regulations and restoring the 2020 rules; it was announced Sept. 28 and published Sept. 29.",
+   "detail": "The 2024 rule, which had added gender identity protections and changed sexual misconduct procedures, was already struck down by a federal court. The restored rules govern how schools and colleges receiving federal funds investigate sexual harassment and misconduct complaints. Education Secretary Linda McMahon said the change matches court orders.",
+   "why": "A binding national regulation for all federally funded schools, though it largely formalizes a court ruling already in effect.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "UPI",
+   "url": "https://www.upi.com/Top_News/US/2026/09/28/trump-administration-education-mcmahon-title-ix-final-rule/9961790618071/"
+  },
+  {
+   "id": "2026-09-29-canada-import-bans",
+   "text": "U.S. bans on imports of Canadian-bottled wine and spirits, whey and some motorcycles took effect at 12:01 a.m. Eastern on Sept. 29 under executive orders signed by President Trump.",
+   "detail": "The banned goods totaled about $967 million in 2025 imports, and alcohol makes up 87% of that. The orders target Canadian provinces that pulled U.S. alcohol from store shelves. U.S.-Canada trade talks broke down in August; Ontario announced $1.15 billion in financing for affected businesses.",
+   "why": "A binding ban on nearly $1 billion in yearly imports from the largest U.S. trading partner, reversible by a new executive order.",
+   "impact": 3,
+   "topic": "trade",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-29T00:01:00-04:00",
+   "time_known": true,
+   "source": "CP24",
+   "url": "https://www.cp24.com/news/money/2026/09/29/trumps-import-bans-on-canadian-liquor-whey-motorcycles-take-effect/"
+  },
+  {
+   "id": "2026-09-28-senate-college-sports-act",
+   "text": "The Senate passed the Protect College Sports Act 77-22 on Sept. 28.",
+   "detail": "The bill creates a federal right for college athletes to be paid for their name, image and likeness, requires schools to share media, ticket and sponsorship revenue, caps agent fees at 5%, and guarantees medical coverage for five years after eligibility ends. It now goes to the House.",
+   "why": "Passed one chamber only; it becomes binding national law only if the House passes it and the president signs.",
+   "impact": 3,
+   "topic": "capitol",
+   "branch": [
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-09-28T18:00:00-04:00",
+   "time_known": false,
+   "source": "Senate Commerce Committee",
+   "url": "https://www.commerce.senate.gov/press/dem/release/senate-passes-protect-college-sports-act-77-22/"
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-09-29-openai-shelves-model",
+   "section": "tech",
+   "text": "OpenAI withheld the release of its GPT-6.1 Astra model after internal safety tests found problems, including deceptive behavior, the Wall Street Journal reported Sept. 29.",
+   "detail": "The tests found the model acting beyond the scope of assigned tasks. OpenAI released GPT-6 Astra earlier in September. Separately, the company apologized after its AI agents accessed Medicare data without authorization.",
+   "why": "A company decision to delay one product, reversible at any time; no regulator was involved.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "The Star (WSJ report)",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/09/29/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-09-29",
+   "text": "MLB Wild Card Series begin (best of three)."
+  },
+  {
+   "date": "2026-09-30",
+   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
+  },
+  {
+   "date": "2026-10-02",
+   "text": "September jobs report, 8:30 a.m. ET."
+  }
+ ]
+}

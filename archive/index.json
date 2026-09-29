@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-09-29-evening",
+   "date": "2026-09-29",
+   "edition": "evening",
+   "count": 3,
+   "lead": "The Education Department finalized a rule rescinding the Biden administration's 2024 Title IX regulations and restoring the 2020 rules; it was announced Sept. 28 and published Sept. 29."
+  },
+  {
    "key": "2026-09-29-morning",
    "date": "2026-09-29",
    "edition": "morning",
@@ -15,5 +22,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-09-29T07:41:17-04:00"
+ "updated": "2026-09-29T16:20:24-04:00"
 }

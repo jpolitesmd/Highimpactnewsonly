@@ -175,7 +175,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   <section class="signup" id="subscribe" aria-labelledby="suTitle">
     <div class="flourish" aria-hidden="true"></div>
     <h2 id="suTitle">Get each edition by email</h2>
-    <p class="su-sub">The morning edition at 6:00 a.m. and the evening edition at 4:30 p.m. Eastern, one for each commute. Read it in five minutes, then get on with your day.</p>
+    <p class="su-sub">The morning edition at 6:00 a.m. and the evening edition at 5:00 p.m. Eastern, one for each commute. Read it in five minutes, then get on with your day.</p>
     <form class="su-form" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank">
       <label class="sr" for="suEmail">Email address</label>
       <input id="suEmail" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
@@ -264,7 +264,7 @@ function renderToday(feed){
   const top=pool.sort(byImpact).slice(0,10);
   const words=top.reduce((n,it)=>n+((it.text||"")+" "+(it.detail||"")+" "+(it.why||"")).split(/\s+/).length,0);
   const mins=Math.max(1,Math.round(words/220));
-  const s=el("section","day"); const dl=el("div","dateline"); const etp=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",hourCycle:"h23",timeZone:"America/New_York"}).formatToParts(new Date()); const etm=(+etp.find(p=>p.type==="hour").value)*60+(+etp.find(p=>p.type==="minute").value); dl.append(el("span",null,etm>=990?"Evening Edition":"Morning Edition")); s.append(dl);
+  const s=el("section","day"); const dl=el("div","dateline"); const etp=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",hourCycle:"h23",timeZone:"America/New_York"}).formatToParts(new Date()); const etm=(+etp.find(p=>p.type==="hour").value)*60+(+etp.find(p=>p.type==="minute").value); dl.append(el("span",null,etm>=1020?"Evening Edition":"Morning Edition")); s.append(dl);
   s.append(el("p","edition-count",top.length+(top.length===1?" story":" stories")+" · "+mins+"-minute read · most important first"));
   const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); feed.append(s);
   const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."), el("p","cu-small","Browse the tabs above for more, or enjoy your day.")); feed.append(done);

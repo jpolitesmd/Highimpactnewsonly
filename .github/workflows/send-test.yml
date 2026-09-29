@@ -1,0 +1,74 @@
+# Sends ONE test copy of today's edition, in the current email design, to the owner only (never to the list).
+# Trigger: push a change to email/test-request.json ({"edition": "evening", "to_sha256": "<sha256 of the address>"}).
+# The address is matched by hash against the subscriber list, so it never appears in this public repo.
+# Result (without the address) goes to email/test-result.txt.
+name: Send test email
+on:
+  push:
+    branches: [main]
+    paths: ["email/test-request.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: send-test
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and send test (draft to one address)
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          python3 - <<'PY' > /tmp/test-result.txt 2>&1 || true
+          import json, os, sys, shutil, subprocess, hashlib, urllib.request, urllib.error
+          req = json.load(open("email/test-request.json"))
+          edition = req.get("edition", "evening")
+          # Build the edition in a scratch copy so nothing real (archive, today.json) changes.
+          shutil.copytree(".", "/tmp/build", ignore=shutil.ignore_patterns(".git"))
+          out = subprocess.run([sys.executable, "tools/edition.py", edition], cwd="/tmp/build", capture_output=True, text=True)
+          print("build:", out.stdout.strip().splitlines()[:1], out.stderr[-300:])
+          e = json.load(open("/tmp/build/email/today.json"))
+          key = os.environ.get("BUTTONDOWN_API_KEY")
+          H = {"Authorization": f"Token {key}", "Content-Type": "application/json"}
+          def call(method, url, data=None):
+              r = urllib.request.Request("https://api.buttondown.com/v1" + url, method=method, headers=H,
+                                         data=json.dumps(data).encode() if data is not None else None)
+              try:
+                  with urllib.request.urlopen(r) as resp:
+                      b = resp.read(); return resp.status, (json.loads(b) if b else {})
+              except urllib.error.HTTPError as err:
+                  return err.code, err.read().decode()[:800]
+          # Find the owner's address by hash.
+          to, url = None, "/subscribers?page_size=100"
+          while url and not to:
+              st, page = call("GET", url)
+              if st != 200: print("subscribers list failed", st, page); break
+              for s in page.get("results", []):
+                  em = (s.get("email_address") or s.get("email") or "").strip().lower()
+                  if hashlib.sha256(em.encode()).hexdigest() == req["to_sha256"]: to = em; break
+              nxt = page.get("next")
+              url = nxt.split("/v1", 1)[1] if nxt else None
+          print("recipient found:", bool(to))
+          if to:
+              st, d = call("POST", "/emails", {"subject": "TEST · " + e["subject"], "body": e["body"], "status": "draft"})
+              print("draft:", st)
+              if st in (200, 201) and isinstance(d, dict):
+                  st2, r2 = call("POST", f"/emails/{d['id']}/send-draft", {"recipients": [to]})
+                  print("send-draft:", st2, "" if st2 in (200, 201, 202, 204) else r2)
+                  st3, _ = call("DELETE", f"/emails/{d['id']}")
+                  print("draft deleted:", st3)
+              else:
+                  print("draft error:", d)
+          PY
+          cat /tmp/test-result.txt
+          cp /tmp/test-result.txt email/test-result.txt
+      - name: Save result
+        run: |
+          git config user.name "High Impact News Daily"
+          git config user.email "jpolitesmd@users.noreply.github.com"
+          git add email/test-result.txt
+          git commit -m "Test email result" || exit 0
+          git pull --rebase && git push

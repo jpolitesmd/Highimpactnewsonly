@@ -1,6 +1,6 @@
 # One-off safety check (never sends anything): lists Buttondown tags, confirms the four "Skip ..." tags exist,
 # and creates a DRAFT email using the same audience filter the sender uses, then deletes the draft.
-# Writes the result to email/buttondown-check.txt (run 4: raw tag fields). Runs when this file is pushed, or by hand.
+# Writes the result to email/buttondown-check.txt (run 5: make Skip tags subscriber-editable). Runs when this file is pushed, or by hand.
 name: Check Buttondown setup
 on:
   push:
@@ -42,7 +42,11 @@ jobs:
               t = names.get(name)
               print(f"TAG {name!r}: " + ("MISSING" if not t else "found, id " + str(t.get("id")) + ", subscriber_editable=" + str(t.get("subscriber_editable", t.get("public_description") is not None))))
           print("all tag names:", sorted(n for n in names if n))
-          for n, t in names.items(): print("RAW", json.dumps(t, sort_keys=True))
+          for kind, name in SKIP_TAG.items():
+              t = names.get(name)
+              if t and not t.get("subscriber_editable"):
+                  st, r = call("PATCH", "/tags/" + t["id"], {"subscriber_editable": True})
+                  print(f"FIX {name!r}: set subscriber_editable, status {st}, now {r.get('subscriber_editable') if isinstance(r, dict) else r}")
           ids = tag_ids(key)
           for kind in SKIP_TAG:
               st, e = call("POST", "/emails", {"subject": "TEST draft, do not send (" + kind + ")", "body": "test",

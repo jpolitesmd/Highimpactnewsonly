@@ -131,7 +131,7 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
       <button id="rUS" data-r="US">U.S.</button>
       <button id="rWorld" data-r="World">World</button>
       <button id="rCourts" data-r="judicial">Judicial Branch</button>
-      <button id="rFin" data-r="finance">Finance</button>
+      <button id="rFin" data-r="finance">ISO20022 News</button>
       <button id="rHealth" data-r="health">Health</button>
     </div>
   </div>
@@ -190,7 +190,7 @@ function render(){
   if(judicial) shown=shown.slice().sort((a,b)=>(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1));
   if(special){ const k=t=>fmtKey.format(new Date(t)); shown=shown.slice().sort((a,b)=>k(b.time).localeCompare(k(a.time))||(+b.impact||1)-(+a.impact||1)); }
   const intro=document.getElementById("tabIntro");
-  intro.textContent=region==="finance"?"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). Facts only, not financial advice.":region==="health"?"Pulmonary and critical care: new trials, guidelines and FDA actions. For clinicians; not medical advice.":region==="judicial"?"Supreme Court and federal court decisions, highest impact first.":"";
+  intro.textContent=region==="finance"?"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Facts only, not financial advice.":region==="health"?"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.":region==="judicial"?"Supreme Court and federal court decisions, highest impact first.":"";
   intro.hidden=!intro.textContent;
   feed.replaceChildren();
   if(!shown.length){
@@ -222,7 +222,7 @@ function render(){
       if(it.detail) txt.append(el("p","more",it.detail));
       if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
       const src=el("div","src");
-      src.append(el("span","tag",it.court?it.court:it.section==="finance"?"Crypto":it.section==="health"?"Pulm / Critical Care":(it.region==="World"?"World":"U.S.")));
+      src.append(el("span","tag",it.court?it.court:it.section==="finance"?"Crypto":it.section==="health"?"Health":(it.region==="World"?"World":"U.S.")));
       if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);}
       else if(it.source) src.append(el("span",null,it.source));
       txt.append(src);

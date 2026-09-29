@@ -538,6 +538,7 @@ const INTROS={government:{all:"U.S. government: the President and agencies, Cong
 
 function render(){
   const feed=document.getElementById("feed"); feed.replaceChildren();
+  showCommuteArt();
   if(region==="history"){renderHistory(feed);return;}
   if(region==="archive"){renderArchive(feed);return;}
   if(region==="about"||region==="privacy"){setIntro(""); feed.append(document.getElementById(region+"Tpl").content.cloneNode(true)); return;}
@@ -628,16 +629,19 @@ applyTheme();
 
 
 
-/* Commute illustration: rotates with each edition (morning, evening, next morning...) */
-async function loadCommuteArt(){try{
-  const r=await fetch("assets/commute.json",{cache:"no-cache"}); const list=(await r.json()).items||[]; if(!list.length)return;
+/* Commute illustration: rotates with each edition (morning, evening, next morning...); the About page always shows the midnight ride */
+let commuteList=null;
+function showCommuteArt(){try{
+  const list=commuteList; if(!list||!list.length)return;
   const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"numeric",hourCycle:"h23"}).formatToParts(new Date());
   const mins=(+p.find(x=>x.type==="hour").value)*60+(+p.find(x=>x.type==="minute").value);
   const day=Math.floor(Date.parse(fmtKey.format(new Date())+"T12:00:00Z")/864e5);
-  const a=list[(day*2+(mins>=1020?1:0))%list.length];
-  const img=document.getElementById("tjImg"); img.src=a.file; img.width=a.w; img.height=a.h; img.alt=a.alt;
+  const about=list.find(x=>/revere/.test(x.file));
+  const a=(region==="about"&&about)?about:list[(day*2+(mins>=1020?1:0))%list.length];
+  const img=document.getElementById("tjImg"); if(img.getAttribute("src")!==a.file){img.src=a.file; img.width=a.w; img.height=a.h; img.alt=a.alt;}
   document.getElementById("tjCap").textContent=a.caption;
 }catch(e){}}
+async function loadCommuteArt(){try{const r=await fetch("assets/commute.json",{cache:"no-cache"}); commuteList=(await r.json()).items||[]; showCommuteArt();}catch(e){}}
 
 async function load(){
   const status=document.getElementById("status");

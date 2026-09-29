@@ -133,6 +133,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
       <button data-r="government">Government</button>
       <button data-r="world">World</button>
       <button data-r="money">Money</button>
+      <button data-r="tech">Tech &amp; Space</button>
       <button data-r="health">Health</button>
       <button data-r="sports">Sports</button>
       <button data-r="history">History</button>
@@ -164,10 +165,11 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 
 <script>
 const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V56M46 70V56M58 70V56M70 70V56M82 70V56M94 70V56M16 56H104M30 56V48H90V56M36 48C36 26 84 26 84 48M60 31V20M55 20H65M60 20V12\"/>", "court": "<path d=\"M10 82H110M16 76H104M22 70H98M28 70V40M40 70V40M52 70V40M68 70V40M80 70V40M92 70V40M22 40H98M18 36L60 12L102 36Z\"/><circle cx=\"60\" cy=\"27\" r=\"4\"/>", "whitehouse": "<path d=\"M8 80H112M14 80V46H106V80M40 80V54M50 80V54M70 80V54M80 80V54M34 46C34 34 86 34 86 46M60 36V14M60 14H74V22H60M22 56H30V66H22ZM90 56H98V66H90Z\"/>", "globe": "<circle cx=\"60\" cy=\"45\" r=\"32\"/><ellipse cx=\"60\" cy=\"45\" rx=\"14\" ry=\"32\"/><path d=\"M28 45H92M33 29H87M33 61H87\"/>", "factory": "<path d=\"M8 80H112M14 80V50L34 38V50L54 38V50L74 38V80M74 80V56H106V80M84 56V20H92V56M96 56V28H102V56M22 62H28M38 62H44M54 62H60\"/><circle cx=\"90\" cy=\"12\" r=\"4\"/><circle cx=\"99\" cy=\"8\" r=\"3\"/>", "ship": "<path d=\"M12 56H108L98 70H22ZM28 56V46H54V56M34 46V38H46V46M62 56V50H98V56M8 82C16 76 24 76 32 82S48 88 56 82 72 76 80 82 96 88 104 82 112 78 116 80\"/>", "ballot": "<path d=\"M24 46H96V82H24ZM42 54H78M46 46L50 14H76L72 46M56 24H68M55 32H66\"/>", "gavel": "<path d=\"M20 82H76M26 82V74H70V82M52 18L80 46M42 28L70 56M47 23L75 51M62 42L98 78\"/>", "sports": "<path d=\"M60 84V54M34 54H86M34 54V14M86 54V14\"/><ellipse cx=\"60\" cy=\"30\" rx=\"13\" ry=\"8\" transform=\"rotate(-25 60 30)\"/><path d=\"M55 31L65 27M57 27L58 30M60 26L61 29M63 25L64 28\"/>", "trade": "<path d=\"M8 80H112M16 80V58H48V80M16 69H48M32 58V80M50 80V58H82V80M50 69H82M66 58V80M33 58V36H65V58M33 47H65M49 36V58M84 80V64H104V80\"/>", "tech": "<path d=\"M38 24H82V66H38ZM48 34H72V56H48ZM46 24V14M60 24V14M74 24V14M46 66V76M60 66V76M74 66V76M38 32H28M38 45H28M38 58H28M82 32H92M82 45H92M82 58H92\"/>", "nuclear": "<ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(60 60 45)\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(120 60 45)\"/><circle cx=\"60\" cy=\"45\" r=\"5\"/>", "conflict": "<path d=\"M26 16L90 76M94 16L30 76M76 72L90 58M44 72L30 58M22 20L30 12M98 20L90 12M84 68L96 80M36 68L24 80\"/>", "mining": "<path d=\"M6 82L38 42L54 60L72 36L114 82ZM30 30L62 62M22 38C24 26 34 18 46 20\"/>", "coin": "<ellipse cx=\"50\" cy=\"26\" rx=\"30\" ry=\"9\"/><path d=\"M20 26V62C20 67 80 67 80 62V26M20 38C20 43 80 43 80 38M20 50C20 55 80 55 80 50\"/><circle cx=\"88\" cy=\"58\" r=\"20\"/><circle cx=\"88\" cy=\"58\" r=\"14\"/><path d=\"M82 52L94 64M94 52L82 64\"/>", "lungs": "<path d=\"M60 8V38M60 38L50 48M60 38L70 48M46 24C30 24 16 48 16 66C16 80 30 84 42 76C50 70 52 60 52 50M74 24C90 24 104 48 104 66C104 80 90 84 78 76C70 70 68 60 68 50M30 58L40 52M90 58L80 52\"/>", "pulse": "<rect x=\"10\" y=\"14\" width=\"100\" height=\"62\" rx=\"4\"/><path d=\"M14 48H38L46 30L56 66L66 22L74 48H106\"/>"};
+TOPIC_ART.rocket='<path d="M60 8C72 20 76 40 72 62H48C44 40 48 20 60 8ZM48 50L36 66V72L48 66M72 50L84 66V72L72 66M54 62L52 76M60 62V82M66 62L68 76"/><circle cx="60" cy="34" r="6"/>';
 TOPIC_ART.chart='<path d="M14 80H108M14 80V12M24 66L44 50L60 58L82 30L100 22M88 20L100 22L96 34"/><path d="M28 80V72M44 80V64M60 80V68M76 80V56M92 80V48"/>';
 const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis Velazquez"}, "court": {"id": "1658958327132-a80f8a9409fb", "by": "Fine Photographics"}, "gavel": {"id": "1676181739859-08330dea8999", "by": "Wesley Tingey"}, "whitehouse": {"id": "1485394595691-5411947d63a4", "by": "David Everett Strickler"}, "globe": {"id": "1589519160142-7d1a51b43eaf", "by": "Greg Rosenke"}, "factory": {"id": "1765810542186-c6becc0687b1", "by": "Jonathan Wuyts"}, "ship": {"id": "1518527989017-5baca7a58d3c", "by": "Shaah Shahidh"}, "ballot": {"id": "1540910419892-4a36d2c3266c", "by": "Element5 Digital"}, "trade": {"id": "1605732562742-3023a888e56e", "by": "Aron Yigin"}, "tech": {"id": "1680992046626-418f7e910589", "by": "Tyler"}, "nuclear": {"id": "1630142895963-6996ae6b3a5b", "by": "Lukáš Lehotský"}, "conflict": {"id": "1519074031893-210d39bd3885", "by": "Don Jackson-Wyatt"}, "mining": {"id": "1654461339694-128902c5c075", "by": "Chris Münch"}, "coin": {"id": "1621504450181-5d356f61d307", "by": "Art Rachen"}, "sports": {"id": "1509928015542-fcc9b3bcd048", "by": "Chris Kursikowski"}, "lungs": {"id": "1616012480717-fd9867059ca0", "by": "Umanoide"}, "pulse": {"id": "1505751172876-fa1923c5c528", "by": "Hush Naidoo Jade Photography"}, "chart": {"id": "1560221328-12fe60f83ab8", "by": "Nicholas Cappello"}};
 const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
-const TABS=["today","government","world","money","health","sports","history"];
+const TABS=["today","government","world","money","tech","health","sports","history"];
 let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
 try{minLevel=+localStorage.getItem("pw_min")||1; const r=localStorage.getItem("pw_tab"); if(TABS.includes(r)) region=r;}catch(e){}
 
@@ -213,7 +215,7 @@ function card(it,dateMode){
   if(it.detail) txt.append(el("p","more",it.detail));
   if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
   const src=el("div","src");
-  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"ISO20022":it.section==="money"?"Money":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
+  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"ISO20022":it.section==="money"?"Money":it.section==="tech"?"Tech & Space":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
   if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);} else if(it.source) src.append(el("span",null,it.source));
   txt.append(src); li.append(meta,txt);
   return li;
@@ -227,7 +229,7 @@ async function loadUpcoming(){try{const r=await fetch("upcoming.json?t="+Date.no
 function renderToday(feed){
   setIntro("");
   const now=Date.now(), H=3600e3;
-  const eligible=it=>{const s=secOf(it), lv=lvOf(it); return (s==="news"||s==="money"||s==="finance")?lv>=3:lv>=4;};
+  const eligible=it=>{const s=secOf(it), lv=lvOf(it); return (s==="news"||s==="money"||s==="finance"||s==="tech")?lv>=3:lv>=4;};
   let pool=[];
   for(const win of [36,72,168]){ pool=items.filter(it=>{const t=new Date(it.time).getTime(); return !isNaN(t)&&now-t<=win*H&&eligible(it);}); if(pool.length>=5)break; }
   const top=pool.sort(byImpact).slice(0,10);
@@ -269,6 +271,7 @@ function renderHistory(feed){
 const INTROS={government:{all:"U.S. government: the President and agencies, Congress, and the courts.",executive:"The President and federal agencies, highest impact first.",legislative:"Congress: votes, bills and funding, highest impact first.",judicial:"Supreme Court and federal court decisions, highest impact first."},
   world:"Major events outside the United States.",
   money:{all:"The economy, rates, jobs, prices and markets, plus ISO20022 crypto news. Facts only, not financial advice.",economy:"Interest rates, jobs, inflation, markets, taxes and housing. Facts only, not financial advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
+  tech:"Technology and space: major launches and missions, AI and tech company news, cybersecurity, and tech policy.",
   health:"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.",
   sports:"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions."};
 

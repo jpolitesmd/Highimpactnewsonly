@@ -132,6 +132,36 @@
    "added_at": "2026-09-28T22:08:00-04:00"
   },
   {
+   "id": "2026-09-28-amd-world-labs",
+   "section": "tech",
+   "topic": "tech",
+   "impact": 2,
+   "region": "US",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "text": "AMD agreed to buy World Labs, the AI startup founded by Stanford professor Fei-Fei Li, for $8.2 billion.",
+   "detail": "World Labs builds AI models of the physical world; its first product, Marble, generates simulated environments for entertainment and robot training. Li will become AMD's executive vice president and chief scientist. The deal is expected to close by year-end, subject to regulatory approval.",
+   "why": "A large AI acquisition by a major chipmaker; it still needs regulatory approval.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+   "added_at": "2026-09-28T23:05:00-04:00"
+  },
+  {
+   "id": "2026-09-28-starship-first-orbit",
+   "section": "tech",
+   "topic": "rocket",
+   "impact": 3,
+   "region": "US",
+   "time": "2026-09-28T08:55:00-04:00",
+   "time_known": false,
+   "text": "SpaceX's Starship reached orbit for the first time on its 14th test flight Monday, deploying 26 Starlink V3 satellites.",
+   "detail": "The ship completed about six orbits over roughly 10 hours before splashing down in the Pacific west of Chile; the Super Heavy booster splashed down in the Gulf shortly after launch. SpaceX changed the booster after ice buildup caused problems on the previous flight. NASA plans to use a modified Starship as the moon lander for its Artemis program.",
+   "why": "A first for the largest rocket built and a step required before NASA's planned Artemis moon landings; still a test program.",
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/09/28/spacex-starship-orbital-flight",
+   "added_at": "2026-09-28T23:05:00-04:00"
+  },
+  {
    "id": "2026-09-27-mlb-playoff-field",
    "section": "sports",
    "topic": "sports",
@@ -358,6 +388,21 @@
    "source": "U.S. Senate floor activity",
    "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm",
    "added_at": "2026-09-28T22:12:00-04:00"
+  },
+  {
+   "id": "2026-09-23-nasa-prima",
+   "section": "tech",
+   "topic": "rocket",
+   "impact": 2,
+   "region": "US",
+   "time": "2026-09-23T12:00:00-04:00",
+   "time_known": false,
+   "text": "NASA selected PRIMA, a far-infrared space telescope, as the first mission in its new Probe Explorers class, with launch planned for 2033.",
+   "detail": "The 5.9-foot telescope will survey how planets, galaxies and black holes form, covering wavelengths between the James Webb Space Telescope and radio telescopes. Its cost is capped at $1.2 billion, not counting launch. NASA's Jet Propulsion Laboratory will manage the five-year mission, now in design phase B.",
+   "why": "Commits NASA to a new $1.2 billion observatory; launch is seven years away.",
+   "source": "NASA",
+   "url": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/",
+   "added_at": "2026-09-28T23:05:00-04:00"
   },
   {
    "id": "2026-09-21-arikayce-priority-review",

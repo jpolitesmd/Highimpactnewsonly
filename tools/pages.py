@@ -130,7 +130,7 @@ SIGNUP = """<section class="signup" aria-labelledby="suT"><h2 id="suT">Get each 
 <input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></form>
 <p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. <a href="/#privacy">Privacy</a></p>{share}</section>"""
 
-FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a></p>
+FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a> · <a href="mailto:hello@hinewsdaily.com">Contact</a></p>
 <p class="fine">Summaries and impact ratings are written with the help of AI and can contain errors. Always check the linked source. Not investment or medical advice.</p>
 <div class="thirty" aria-hidden="true">— 30 —</div>
 </div>
@@ -271,7 +271,7 @@ def media_kit(eds):
 <p>Readers trust us because sponsors can’t touch the news. Every sponsorship is clearly labeled, sponsors don’t see editions in advance, and they have no influence on which stories run or how they’re rated. We don’t accept political advertising, and we never share readers’ personal information. Read the full <a href="/#sponsors">sponsor policy</a>.</p>
 
 <h2>Rates and availability</h2>
-<p>Write to <a href="mailto:hello@highimpactnewsdaily.com?subject=Sponsorship">hello@highimpactnewsdaily.com</a> for current rates, open dates and audience figures.</p>
+<p>Write to <a href="mailto:hello@hinewsdaily.com?subject=Sponsorship">hello@hinewsdaily.com</a> for current rates, open dates and audience figures.</p>
 </main>""")
     out.append(FOOT)
     return "".join(out)

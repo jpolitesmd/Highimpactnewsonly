@@ -167,7 +167,9 @@
    "id": "2026-09-28-contempt-deportation",
    "detail": "The man, identified as E.L.A., was protected by orders from a 2019 class-action case covering immigrants who arrived as unaccompanied minors. He returned to the U.S. on Aug. 7 after the first removal. The judge ordered the government to bring him back and report by Oct. 2. Court filings say at least 107 protected people were removed before their asylum cases were decided.",
    "why": "A court finding that the executive branch defied court orders; it affects one case directly but bears on at least 107 others.",
-   "topic": "gavel"
+   "topic": "gavel",
+   "judicial": true,
+   "court": "U.S. District Court, Maryland"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -181,7 +183,9 @@
    "id": "2026-09-28-scotus-missouri-map",
    "detail": "The 2025 map redrew the 3rd and 5th districts in a way expected to give Republicans one more U.S. House seat. Missouri's Supreme Court ruled on Sept. 3 that a voter referendum petition with over 300,000 signatures must be decided first. The 2022 map will be used in November.",
    "why": "Settles which district lines apply for Missouri's eight House seats in the midterms; limited to one state.",
-   "topic": "court"
+   "topic": "court",
+   "judicial": true,
+   "court": "U.S. Supreme Court"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -195,7 +199,9 @@
    "id": "2026-09-28-scotus-voter-verification",
    "detail": "SAVE is a Homeland Security database originally built to check immigration status; it was expanded to include U.S.-born citizens' records and Social Security numbers. A federal judge had blocked it in June over privacy-law violations. Justices Sotomayor, Kagan and Jackson dissented. Federal law still bars systematic voter-roll purges within 90 days of an election.",
    "why": "Applies nationwide to voter-eligibility checks before the November midterms and involves citizens' personal data; a final ruling on the case is still pending.",
-   "topic": "ballot"
+   "topic": "ballot",
+   "judicial": true,
+   "court": "U.S. Supreme Court"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",

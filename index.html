@@ -34,7 +34,7 @@ h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,8vw,40px);let
 .seg button[aria-pressed="true"]{background:var(--fg);color:#22170e;border-color:var(--fg)}
 .seg button[aria-pressed="true"] span{color:#5a4630}
 button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.regions{display:flex;gap:6px;margin-top:10px}
+.regions{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .regions button{font:400 15px var(--mono);padding:5px 12px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:99px;cursor:pointer}
 .regions button[aria-pressed="true"]{color:#22170e;background:var(--accent);border-color:var(--accent)}
 .day{margin-top:26px}
@@ -129,6 +129,7 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
       <button id="rAll" data-r="all">All</button>
       <button id="rUS" data-r="US">U.S.</button>
       <button id="rWorld" data-r="World">World</button>
+      <button id="rCourts" data-r="judicial">Judicial Branch</button>
     </div>
   </div>
 
@@ -150,6 +151,7 @@ try{minLevel=+localStorage.getItem("pw_min")||1; region=localStorage.getItem("pw
 
 const fmtDay=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"short",day:"numeric"});
 const fmtKey=new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"});
+const fmtShort=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",month:"short",day:"numeric"});
 const fmtTime=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit"});
 
 try{document.getElementById("edDate").textContent=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"long",day:"numeric",year:"numeric"}).format(new Date());}catch(e){}
@@ -171,19 +173,23 @@ function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.classNam
 function render(){
   const feed=document.getElementById("feed");
   if(!loaded)return;
-  const shown=items.filter(it=>(+it.impact||1)>=minLevel && (region==="all"||it.region===region));
+  const isCourt=it=>it.judicial===true||it.topic==="court"||it.topic==="gavel";
+  const judicial=region==="judicial";
+  let shown=items.filter(it=>(+it.impact||1)>=minLevel && (region==="all"||(judicial?isCourt(it):it.region===region)));
+  if(judicial) shown=shown.slice().sort((a,b)=>(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1));
   feed.replaceChildren();
   if(!shown.length){
-    feed.append(el("div","empty", items.length?"Nothing at this level yet. Lower the impact level to see more.":"No items yet. The hourly check will add the first ones."));
+    feed.append(el("div","empty", items.length?(judicial?"No court decisions at this level yet. Lower the impact level to see more.":"Nothing at this level yet. Lower the impact level to see more."):"No items yet. The hourly check will add the first ones."));
     return;
   }
   const days=new Map();
-  for(const it of shown){const d=new Date(it.time); const k=isNaN(d)?"unknown":fmtKey.format(d); if(!days.has(k))days.set(k,[]); days.get(k).push(it);}
+  if(judicial){ days.set("judicial",shown); }
+  else for(const it of shown){const d=new Date(it.time); const k=isNaN(d)?"unknown":fmtKey.format(d); if(!days.has(k))days.set(k,[]); days.get(k).push(it);}
   for(const [k,list] of days){
     const sec=el("section","day");
     const dl=el("div","dateline");
     const d=new Date(list[0].time);
-    dl.append(el("span",null,isNaN(d)?"Undated":fmtDay.format(d)));
+    dl.append(el("span",null,judicial?"Court decisions, by impact":(isNaN(d)?"Undated":fmtDay.format(d))));
     sec.append(dl);
     const ol=el("ol");
     for(const it of list){
@@ -191,7 +197,7 @@ function render(){
       const li=el("li","item lv"+lv);
       const meta=el("div","meta");
       const t=new Date(it.time);
-      meta.append(el("span","time",isNaN(t)||it.time_known===false?"—":fmtTime.format(t)));
+      meta.append(el("span","time",judicial?(isNaN(t)?"—":fmtShort.format(t)):(isNaN(t)||it.time_known===false?"—":fmtTime.format(t))));
       const pips=el("span","pips"); pips.setAttribute("aria-label","Impact "+lv+" of 5");
       const H=[0,4,7,10,13,17];
       for(let i=1;i<=5;i++){const p=el("i"); p.style.height=H[i]+"px"; if(i<=lv)p.style.background="var("+LEVEL_COLOR[i]+")"; pips.append(p);}
@@ -201,7 +207,7 @@ function render(){
       if(it.detail) txt.append(el("p","more",it.detail));
       if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
       const src=el("div","src");
-      src.append(el("span","tag",it.region==="World"?"World":"U.S."));
+      src.append(el("span","tag",it.court?it.court:(it.region==="World"?"World":"U.S.")));
       if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);}
       else if(it.source) src.append(el("span",null,it.source));
       txt.append(src);

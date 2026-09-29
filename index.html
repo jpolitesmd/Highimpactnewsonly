@@ -17,6 +17,7 @@
   color-scheme:light}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--surface:#1d1a15;--fg:#efe9dd;--muted:#a59b8a;--faint:#2a2620;--rule:#3a342b;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#15130f;--surface:#1d1a15;--fg:#efe9dd;--muted:#a59b8a;--faint:#2a2620;--rule:#3a342b;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}
+html{background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--serif);font-size:18px;line-height:1.5}
 [hidden]{display:none!important}
 .wrap{max-width:720px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
@@ -607,10 +608,14 @@ async function load(){
   }catch(e){ status.textContent="Couldn't load updates. Refresh to try again."; }
 }
 function sizeBars(){try{const lp=document.querySelector('.logo .lp'), bars=document.querySelector('.logo .lbars'); if(!lp||!bars)return; const cs=getComputedStyle(lp), fs=parseFloat(cs.fontSize); const c=document.createElement('canvas').getContext('2d'); c.font=fs+'px '+cs.fontFamily; const cap=c.measureText('H').actualBoundingBoxAscent; if(cap>0) bars.style.height=(cap/fs*138/134).toFixed(4)+'em';}catch(e){}}
-function fitLogo(){sizeBars(); const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
-  l.style.fontSize='100px'; const w=l.getBoundingClientRect().width; if(w>0) l.style.fontSize=(100*box/w*0.99).toFixed(2)+'px';}
-fitLogo(); addEventListener('resize',fitLogo); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitLogo);
-updateFolio(); loadArchIdx(); loadCommuteArt(); addEventListener("resize",updateFolio);
+/* Fit the wordmark edge to edge. Scales from its current size in one step (no temporary resize, so the page never jumps),
+   and only re-runs when the width really changes: phone toolbars showing/hiding while scrolling fire "resize" with the same width. */
+let lastLogoBox=0;
+function fitLogo(force){sizeBars(); const l=document.querySelector('.logo'); if(!l)return; const box=l.parentElement.clientWidth; if(!box)return;
+  if(!force&&Math.abs(box-lastLogoBox)<1)return; lastLogoBox=box;
+  const cur=parseFloat(getComputedStyle(l).fontSize)||34, w=l.getBoundingClientRect().width; if(w>0){const next=cur*box/w*0.99; if(Math.abs(next-cur)>0.1) l.style.fontSize=next.toFixed(2)+'px';}}
+fitLogo(true); addEventListener('resize',()=>fitLogo(false)); if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>fitLogo(true));
+updateFolio(); loadArchIdx(); loadCommuteArt(); let lastFolioW=innerWidth; addEventListener("resize",()=>{if(innerWidth!==lastFolioW){lastFolioW=innerWidth; updateFolio();}});
 load(); setInterval(()=>{load(); loadArchIdx();},5*60*1000);
 </script>
 </body></html>

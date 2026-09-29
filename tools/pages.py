@@ -128,7 +128,7 @@ SIGNUP = """<section class="signup" aria-labelledby="suT"><h2 id="suT">Get each 
 <form class="su-form" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank">
 <label class="sr" for="suE">Email address</label><input id="suE" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
 <input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></form>
-<p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. <a href="/#privacy">Privacy</a></p>{share}</section>"""
+<p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. Then confirm using the email from hello@news.hinewsdaily.com; if you don’t see it, check junk or spam, and add that address to your contacts. <a href="/#privacy">Privacy</a></p>{share}</section>"""
 
 FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a> · <a href="mailto:hello@hinewsdaily.com">Contact</a></p>
 <p class="fine">Summaries and impact ratings are written with the help of AI and can contain errors. Always check the linked source. Not investment or medical advice.</p>

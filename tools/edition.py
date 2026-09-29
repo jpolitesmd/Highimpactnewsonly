@@ -6,8 +6,10 @@ Usage (run from the repo root):
   python3 tools/edition.py evening
   python3 tools/edition.py evening --archive-only   # archive without writing the email
 
-Morning edition: the front-page selection (top 10 of the last 36 h, widening to 72 h / 168 h).
-Evening edition: today's stories (Eastern), top 8.
+Morning edition: "Overnight" (top 5 since 5 p.m. Eastern yesterday), then "Yesterday's biggest
+stories" (top 5 from yesterday not already listed).
+Evening edition: top 8 stories that happened since the morning edition (5 a.m. Eastern today);
+never yesterday's stories or anything already in this morning's edition.
 Every edition is saved to archive/YYYY-MM-DD-<edition>.json and listed in archive/index.json,
 then tools/pages.py rebuilds the permanent web pages in editions/ and sitemap.xml.
 """
@@ -31,8 +33,9 @@ def eligible(it):
 def rank(lst): return sorted(lst, key=lambda i: (-lv(i), -(t(i).timestamp() if t(i) else 0)))
 
 
-FRESH = datetime.timedelta(hours=12)  # "new" = happened or was added in the last 12 hours
-FRESH_SLOTS, TOP_N = 4, 10
+FRESH = datetime.timedelta(hours=12)  # "new" = happened or was added in the last 12 hours (Today tab rule)
+MORNING_SWEEP = datetime.time(5)       # the morning edition covers news up to about 5 a.m. Eastern
+EVENING_SEND = datetime.time(17)       # the evening edition goes out at 5 p.m. Eastern
 
 
 def seen(it):
@@ -43,34 +46,49 @@ def seen(it):
     return max(ts) if ts else None
 def fresh(it, now): return seen(it) is not None and now - seen(it) <= FRESH
 def fresh_ok(it): return lv(it) >= (2 if sec(it) in ("news", "money", "finance", "tech") else 3)
+def added(it):
+    try: return datetime.datetime.fromisoformat(it["added_at"]).astimezone(ET)
+    except Exception: return None
+
+
+def archived_ids(key):
+    try: return {i["id"] for i in json.load(open(f"archive/{key}.json")).get("items", [])}
+    except Exception: return set()
 
 
 def select(items, edition, now):
-    if edition == "morning":
-        # Same rule as the Today tab: the 10 most important stories of the last 36 hours, but up to 4
-        # spots always go to the most important new stories, so each edition has what's new.
-        for hours in (36, 72, 168):
-            pool = [i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=hours) and eligible(i)]
-            if len(pool) >= 5: break
-        main, pick, ids = rank(pool), [], set()
-        def add(i):
-            if i["id"] not in ids: ids.add(i["id"]); pick.append(i)
-        for i in main[:TOP_N]:
-            if fresh(i, now): add(i)
-        for i in rank([i for i in items if fresh(i, now) and fresh_ok(i)]):
-            if len(pick) >= FRESH_SLOTS: break
-            add(i)
-        for i in main:
-            if len(pick) >= TOP_N: break
-            add(i)
-        return rank(pick), datetime.timedelta(hours=36)
+    """Returns (stories, also-today window, groups); groups = [(heading or None, count), ...]."""
     today = now.date()
-    pool = [i for i in items if t(i) and t(i).date() == today and eligible(i)]
-    if len(pool) < 3:
+    if edition == "morning":
+        # 1) Big stories overnight (since yesterday's 5 p.m. evening edition), then
+        # 2) a recap of yesterday's biggest events that aren't already listed.
+        yday = today - datetime.timedelta(days=1)
+        since = datetime.datetime.combine(yday, EVENING_SEND, ET)
+        overnight = rank([i for i in items if t(i) and since <= t(i) <= now and fresh_ok(i)])[:5]
+        ids = {i["id"] for i in overnight}
+        ylist = [i for i in items if t(i) and t(i).date() == yday and i["id"] not in ids]
+        recap = rank([i for i in ylist if eligible(i)])[:5]
+        if len(recap) < 3:
+            ids2 = {i["id"] for i in recap}
+            recap = rank(recap + rank([i for i in ylist if i["id"] not in ids2 and fresh_ok(i)])[:3 - len(recap)])
+        if len(overnight) + len(recap) < 3:  # very quiet stretch: fall back to the last 72 hours
+            ids = {i["id"] for i in overnight + recap}
+            recap += rank([i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=72)
+                           and eligible(i) and i["id"] not in ids])[:5 - len(overnight) - len(recap)]
+        groups = []
+        if overnight: groups.append(("Overnight", len(overnight)))
+        if recap: groups.append(("Yesterday's biggest stories" if overnight else None, len(recap)))
+        return overnight + recap, datetime.timedelta(hours=36), groups
+    # Evening: only what happened since the morning edition (about 5 a.m. Eastern), nothing from yesterday.
+    since = datetime.datetime.combine(today, MORNING_SWEEP, ET)
+    morning = archived_ids(f"{today.isoformat()}-morning")
+    pool = [i for i in items if t(i) and since <= t(i) <= now and fresh_ok(i) and i["id"] not in morning]
+    if len(pool) < 3:  # also allow today's early-morning stories first reported after the morning edition
         ids = {i["id"] for i in pool}
-        extra = [i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=24) and lv(i) >= 2 and i["id"] not in ids]
-        pool += rank(extra)[: 3 - len(pool)]
-    return rank(pool)[:8], now - datetime.datetime.combine(today, datetime.time(0), ET)
+        pool += [i for i in items if i["id"] not in ids and i["id"] not in morning and t(i)
+                 and t(i).date() == today and added(i) and added(i) >= since and fresh_ok(i)]
+    top = rank(pool)[:8]
+    return top, now - since, [(None, len(top))]
 
 
 def shorten(s, n):
@@ -89,14 +107,12 @@ def main():
     items = json.load(open("items.json"))["items"]
     upcoming = json.load(open("upcoming.json")).get("events", []) if os.path.exists("upcoming.json") else []
 
-    top, window = select(items, edition, now)
-    # Morning: new stories first (matches the Today tab), each group most important first.
-    split = 0
-    if edition == "morning":
-        new = [i for i in top if fresh(i, now)]
-        if new and len(new) < len(top):
-            top = new + [i for i in top if not fresh(i, now)]
-            split = len(new)
+    top, window, groups = select(items, edition, now)
+    starts = {}  # index of first story in each group -> heading
+    n0 = 0
+    for g, (heading, count) in enumerate(groups):
+        if heading: starts[n0] = (heading, g > 0)
+        n0 += count
     listed = {i["id"] for i in top}
     also = []
     for s in ("health", "sports", "tech", "finance"):
@@ -115,11 +131,12 @@ def main():
     lines = [f'<a href="{SITE}/"><img src="{img}/masthead.png" alt="High Impact News Daily" width="560" '
              f'style="display:block;width:100%;max-width:560px;height:auto;border:0"></a>', "",
              f"**{label}, {now.strftime('%A, %B')} {now.day}**", "",
-             "*The day's most important news. Five minutes. No spin.*" if edition == "morning"
-             else "*What happened today. Five minutes. No spin.*", ""]
+             "*What happened overnight, and yesterday's biggest stories. Five minutes. No spin.*"
+             if edition == "morning" else "*What happened since this morning. Five minutes. No spin.*", ""]
     for n, i in enumerate(top):
-        if split and n == 0: lines += ["**New since the last edition**", ""]
-        if split and n == split: lines += ["---", "", "**Earlier, still the most important**", ""]
+        if n in starts:
+            heading, rule = starts[n]
+            lines += (["---", ""] if rule else []) + [f"**{heading}**", ""]
         lines += [f'<h3 style="{HEAD_CSS}">{html.escape(i.get("text", ""), quote=False)}</h3>', ""]
         if i.get("detail"): lines += [i["detail"], ""]
         src = f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else ""
@@ -157,6 +174,7 @@ def main():
             "region", "time", "time_known", "source", "url")
     json.dump({"date": date, "edition": edition, "subject": subject, "published": send_at.isoformat(),
                "items": [{k: i[k] for k in keep if k in i} for i in top],
+               "groups": [{"heading": h, "count": c} for h, c in groups],
                "also": [{k: i[k] for k in keep if k in i} for i in also],
                "upcoming": nxt},
               open(f"archive/{key}.json", "w"), indent=1, ensure_ascii=False)

@@ -98,6 +98,9 @@ li.item{grid-template-columns:minmax(0,1fr) 128px}
 @media (max-width:560px){li.item{grid-template-columns:minmax(0,1fr) 84px}.plate{width:84px;height:63px}}
 .txt p.more{margin-top:12px;padding-top:12px;border-top:1px solid var(--rule)}
 .photo-credit{margin-top:8px}
+/* No images: text uses the full width */
+li.item{grid-template-columns:minmax(0,1fr)!important;grid-template-areas:"txt" "meta"!important}
+.plate{display:none!important}
 </style>
 </head><body>
 <div class="wrap">
@@ -138,7 +141,7 @@ li.item{grid-template-columns:minmax(0,1fr) 128px}
   </div>
 
   <div class="key">
-    <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>Photos</b> are free-licensed images from Unsplash chosen by topic; they illustrate the subject, not the specific event.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
+    <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
   </div>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
   <div class="colophon" aria-hidden="true">— 30 —</div>
@@ -204,7 +207,7 @@ function card(it,dateMode){
   const ph=it.image&&/^https:\/\//.test(it.image.src||"")?{src:it.image.src,by:it.image.credit||""}:(TOPIC_PHOTO[topic]?{src:"https://images.unsplash.com/photo-"+TOPIC_PHOTO[topic].id+"?w=320&h=240&fit=crop&auto=format&q=70",by:TOPIC_PHOTO[topic].by}:null);
   if(ph){const img=new Image(); img.src=ph.src; img.alt=""; img.loading="lazy"; img.decoding="async"; if(ph.by) img.title="Photo: "+ph.by+" / Unsplash";
     img.onerror=()=>{fig.classList.remove("photo"); fig.innerHTML=svg;}; fig.classList.add("photo"); fig.append(img);} else fig.innerHTML=svg;
-  li.append(fig); return li;
+  return li;
 }
 function section(title,list,dateMode){const s=el("section","day"); const dl=el("div","dateline"); dl.append(el("span",null,title)); s.append(dl); const ol=el("ol"); for(const it of list) ol.append(card(it,dateMode)); s.append(ol); return s;}
 function byDays(feed,list){const days=new Map(); for(const it of list){const k=dayKey(it.time)||"unknown"; if(!days.has(k))days.set(k,[]); days.get(k).push(it);}

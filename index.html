@@ -228,10 +228,12 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .tj-sub{display:block;margin-top:4px;font:400 14px/1.45 var(--serif);color:var(--muted)}
 
 /* Have more time? Keep reading */
-.more-btn{display:inline-flex;flex-direction:column;align-items:center;gap:3px;margin-top:16px;padding:12px 22px;background:none;border:1px solid var(--accent);border-radius:999px;color:var(--accent);cursor:pointer}
-.more-btn:hover{background:color-mix(in srgb,var(--accent) 8%,transparent)}
+.more-btn{display:inline-flex;flex-direction:column;align-items:center;gap:3px;margin-top:18px;padding:13px 20px;background:color-mix(in srgb,var(--accent) 10%,var(--surface));border:1.5px solid var(--accent);border-radius:999px;color:var(--accent);cursor:pointer;box-shadow:0 2px 0 color-mix(in srgb,var(--accent) 25%,transparent),0 6px 16px rgba(60,30,20,.10);transition:transform .15s,box-shadow .15s}
+.more-btn:hover{background:color-mix(in srgb,var(--accent) 16%,var(--surface));transform:translateY(-1px)}
+.more-btn .mb-main::after{content:" \2193";font-weight:700}
+.more-btn[aria-expanded="true"] .mb-main::after{content:" \2191"}
 .more-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.mb-main{font:600 15px var(--sans)}
+.mb-main{font:700 15px var(--sans);white-space:nowrap}
 .mb-sub{font:400 12.5px var(--sans);color:var(--muted)}
 .more-list{scroll-margin-top:70px}
 

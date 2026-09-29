@@ -154,49 +154,43 @@ def main():
     lead = rank(top)[0]["text"] if top else ""  # subject and archive lead: the most important story
     subject = f"{head}: {shorten(lead, max(20, 90 - len(head)))}" if top else head
 
-    img = f"{SITE}/assets/email"
-    HEAD_CSS = ("font-family:Georgia,'Times New Roman',Times,serif;font-size:21px;line-height:1.3;"
-                "font-weight:bold;color:#1d1a16;margin:28px 0 8px")
-    lines = [f'<a href="{SITE}/"><img src="{img}/masthead.png" alt="High Impact News Daily" width="560" '
-             f'style="display:block;width:100%;max-width:560px;height:auto;border:0"></a>', "",
-             f"**{label}, {now.strftime('%A, %B')} {now.day}**", "",
-             "*What happened overnight, and yesterday's biggest stories. Five minutes. No spin.*"
-             if edition == "morning" else "*The weekend's most important news. Five minutes. No spin.*"
-             if edition == "weekend" else "*What happened since this morning. Five minutes. No spin.*", ""]
+    import emailstyle as es
+    key = f"{date}-{edition}"
+    ed_url = f"{SITE}/editions/{key}/"
+    lines = [es.open_paper(),
+             es.kicker(f"{label} · {now.strftime('%A, %B')} {now.day}"),
+             es.tagline("What happened overnight, and yesterday's biggest stories. Five minutes. No spin."
+                        if edition == "morning" else "The weekend's most important news. Five minutes. No spin."
+                        if edition == "weekend" else "What happened since this morning. Five minutes. No spin.")]
     for n, i in enumerate(top):
+        first = n == 0
         if n in starts:
             heading, rule = starts[n]
-            lines += (["---", ""] if rule else []) + [f"**{heading}**", ""]
-        lines += [f'<h3 style="{HEAD_CSS}">{html.escape(i.get("text", ""), quote=False)}</h3>', ""]
-        if i.get("detail"): lines += [i["detail"], ""]
-        src = f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else ""
-        meter = (f'<img src="{img}/impact-{lv(i)}.png" alt="" width="50" height="16" '
-                 f'style="width:50px;height:16px;vertical-align:middle;border:0"> ')
-        lines += [f"{meter}**Impact {lv(i)}/5.** {i.get('why', '')}{src}".strip(), ""]
+            lines.append(es.section(heading, rule=rule))
+            first = True
+        lines.append(es.story(i, lv(i), first=first))
     if week:
-        lines += ["---", "", "**This week so far**", ""]
-        lines += [f"- {i.get('text', '')}" + (f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else "")
-                  for i in week] + [""]
+        lines += [es.section("This week so far"), es.bullets([(None, i.get("text", ""), i.get("url")) for i in week])]
     if also:
-        lines += ["---", "", "**Also this weekend**" if edition == "weekend" else "**Also today**", ""]
-        lines += [f"- **{SEC_LABEL[sec(i)]}:** {i.get('text', '')}" for i in also] + [""]
+        lines += [es.section("Also this weekend" if edition == "weekend" else "Also today"),
+                  es.bullets([(SEC_LABEL[sec(i)], i.get("text", ""), i.get("url")) for i in also])]
     if nxt:
-        lines += ["**The week ahead**" if edition == "weekend" else "**Coming up**", ""]
-        for e in nxt:
-            d = datetime.date.fromisoformat(e["date"])
-            lines.append(f"- {d.strftime('%b')} {d.day}: {e['text']}")
-        lines.append("")
-    key = f"{date}-{edition}"
-    lines += ["That's the news. Put the phone down and enjoy your day." if edition == "morning"
-              else "That's the weekend. Put the phone down and enjoy your Sunday evening." if edition == "weekend"
-              else "That's the day. Put the phone down and enjoy your evening.", "",
-              "---", "",
-              f"**Know someone who'd like this?** Forward this email, or send them "
-              f"[a link to this edition]({SITE}/editions/{key}/).", "",
-              f"*Forwarded this? [Subscribe free]({SITE}/#subscribe) to get it every weekday morning and evening, plus a Sunday weekend review.*", "",
-              f"[Read it on the web]({SITE}/editions/{key}/) · "
-              f"[Past editions]({SITE}/editions/) · "
-              "[Choose which emails you get]({{ manage_subscription_url }})"]
+        rows = []
+        for ev in nxt:
+            d = datetime.date.fromisoformat(ev["date"])
+            rows.append((f"{d.strftime('%b')} {d.day}", ev["text"]))
+        lines += [es.section("The week ahead" if edition == "weekend" else "Coming up"), es.dated(rows)]
+    lines += [es.signoff("That's the news. Put the phone down and enjoy your day." if edition == "morning"
+                         else "That's the weekend. Put the phone down and enjoy your Sunday evening." if edition == "weekend"
+                         else "That's the day. Put the phone down and enjoy your evening."),
+              es.share_box(ed_url),
+              es.footer(f'{es.link("Read it on the web", ed_url)} · {es.link("Past editions", SITE + "/editions/")} · '
+                        '<a href="{{ manage_subscription_url }}" style="color:' + es.ACCENT + ';text-decoration:none;'
+                        'font-weight:600">Choose which emails you get</a>',
+                        "You get every weekday morning and evening edition, plus a Sunday weekend review. "
+                        "Summaries are written with the help of AI and can contain errors; every story links to its source. "
+                        "Not investment or medical advice."),
+              es.close_paper()]
     body = "\n".join(lines)
 
     send_at = datetime.datetime.combine(now.date(), datetime.time(6 if edition == "morning" else 17), ET)

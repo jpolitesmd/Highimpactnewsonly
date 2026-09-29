@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Political news with no spin: one plain line per event, rated by impact.">
+<title>High Impact News Only</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+[hidden]{display:none!important}
+/* Layout: one column on a deep newsroom blue; items sit on lighter blue cards, filters stick to the top. Single deliberate blue theme. */
+:root{
+  --bg:#0c2a55; --bg2:#081d3d; --card:#133a70; --card-hi:#17457f; --fg:#f2f6fc; --muted:#a9bcd8; --rule:#27528c; --accent:#9cc8ff;
+  --i1:#7f93b3; --i2:#8fb4ea; --i3:#f2c14e; --i4:#ff9147; --i5:#ff5f5f;
+  --display:"DM Serif Display",Georgia,serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+html{background:var(--bg2)}
+body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%) fixed,var(--bg2);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.45;min-height:100vh}
+.wrap{max-width:680px;margin:0 auto;padding-inline:16px;padding-block:24px 56px}
+header{display:flex;flex-direction:column;gap:6px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,8vw,40px);letter-spacing:.005em;margin:0;line-height:1.05;text-wrap:balance}
+.status{font-family:var(--mono);font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px rgba(156,200,255,.18)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:14px 12px;margin-top:14px;border-bottom:1px solid var(--rule)}
+.bar-label{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.seg{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}
+.seg button{font:500 14px var(--mono);padding:9px 0 8px;border:1px solid var(--rule);background:var(--card);color:var(--fg);border-radius:8px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;transition:background .15s}
+.seg button span{font:500 10px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.seg button:hover{background:var(--card-hi)}
+.seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg2);border-color:var(--fg)}
+.seg button[aria-pressed="true"] span{color:var(--bg)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.regions{display:flex;gap:6px;margin-top:10px}
+.regions button{font:500 12px var(--mono);padding:5px 12px;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:99px;cursor:pointer}
+.regions button[aria-pressed="true"]{color:var(--bg2);background:var(--accent);border-color:var(--accent)}
+.day{margin-top:26px}
+.dateline{font-family:var(--display);font-size:22px;display:flex;justify-content:space-between;align-items:baseline;padding-bottom:8px}
+.dateline span:last-child{font:12px var(--mono);color:var(--muted)}
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+li.item{display:grid;grid-template-columns:48px 1fr;gap:12px;padding:14px 14px 12px;background:var(--card);border-radius:10px}
+li.lv5{background:var(--card-hi);box-shadow:inset 0 0 0 1px var(--i5)}
+.meta{display:flex;flex-direction:column;gap:7px;align-items:flex-start;padding-top:3px}
+.time{font:500 12px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.pips{display:flex;gap:2px}
+.pips i{width:7px;height:12px;border-radius:2px;background:var(--rule)}
+.txt{min-width:0}
+.txt p{margin:0;font-size:17px;line-height:1.42}
+.lv5 .txt p,.lv4 .txt p{font-weight:500}
+.src{font:12px var(--mono);color:var(--muted);margin-top:6px;display:flex;gap:10px;flex-wrap:wrap}
+.src a{color:var(--accent);text-decoration:none}
+.src a:hover{text-decoration:underline}
+.tag{text-transform:uppercase;letter-spacing:.06em}
+.empty{margin-top:28px;padding:20px;border:1px dashed var(--rule);border-radius:10px;color:var(--muted);font-size:16px}
+.key{margin-top:32px;font:12px/1.7 var(--mono);color:var(--muted)}
+.key b{font-weight:500;color:var(--fg)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230c2a55%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%238fb4ea%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23f2c14e%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23ff9147%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23ff5f5f%22/%3E%3C/svg%3E">
+</head><body>
+
+<div class="wrap">
+  <header>
+    <h1>High Impact News Only</h1>
+    <div class="status" id="status">Connecting…</div>
+  </header>
+
+  <div class="bar">
+    <div class="bar-label">Show impact level</div>
+    <div class="seg" id="seg" role="group" aria-label="Minimum impact">
+      <button id="lvl1" data-min="1">1+<span>All</span></button>
+      <button id="lvl2" data-min="2">2+<span>Notable</span></button>
+      <button id="lvl3" data-min="3">3+<span>Significant</span></button>
+      <button id="lvl4" data-min="4">4+<span>Major</span></button>
+      <button id="lvl5" data-min="5">5<span>Critical</span></button>
+    </div>
+    <div class="regions" id="regions" role="group" aria-label="Region">
+      <button id="rAll" data-r="all">All</button>
+      <button id="rUS" data-r="US">U.S.</button>
+      <button id="rWorld" data-r="World">World</button>
+    </div>
+  </div>
+
+  <div id="feed">
+    <div class="empty">Loading the latest items…</div>
+  </div>
+
+  <div class="key">
+    <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
+  </div>
+</div>
+
+<script>
+const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
+let items=[], minLevel=1, region="all", loaded=false;
+try{minLevel=+localStorage.getItem("pw_min")||1; region=localStorage.getItem("pw_region")||"all";}catch(e){}
+
+const fmtDay=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"short",day:"numeric"});
+const fmtKey=new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"});
+const fmtTime=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit"});
+
+function syncButtons(){
+  document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.min===minLevel)));
+  document.querySelectorAll("#regions button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.r===region)));
+}
+document.getElementById("seg").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min;
+  try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();
+});
+document.getElementById("regions").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b)return; region=b.dataset.r;
+  try{localStorage.setItem("pw_region",region)}catch(e){} syncButtons(); render();
+});
+
+function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
+
+function render(){
+  const feed=document.getElementById("feed");
+  if(!loaded)return;
+  const shown=items.filter(it=>(+it.impact||1)>=minLevel && (region==="all"||it.region===region));
+  feed.replaceChildren();
+  if(!shown.length){
+    feed.append(el("div","empty", items.length?"Nothing at this level yet. Lower the impact level to see more.":"No items yet. The hourly check will add the first ones."));
+    return;
+  }
+  const days=new Map();
+  for(const it of shown){const d=new Date(it.time); const k=isNaN(d)?"unknown":fmtKey.format(d); if(!days.has(k))days.set(k,[]); days.get(k).push(it);}
+  for(const [k,list] of days){
+    const sec=el("section","day");
+    const dl=el("div","dateline");
+    const d=new Date(list[0].time);
+    dl.append(el("span",null,isNaN(d)?"Undated":fmtDay.format(d)), el("span",null,list.length+(list.length===1?" item":" items")));
+    sec.append(dl);
+    const ol=el("ol");
+    for(const it of list){
+      const lv=Math.min(5,Math.max(1,+it.impact||1));
+      const li=el("li","item lv"+lv);
+      const meta=el("div","meta");
+      const t=new Date(it.time);
+      meta.append(el("span","time",isNaN(t)||it.time_known===false?"—":fmtTime.format(t)));
+      const pips=el("span","pips"); pips.setAttribute("aria-label","Impact "+lv+" of 5");
+      for(let i=1;i<=5;i++){const p=el("i"); if(i<=lv)p.style.background="var("+LEVEL_COLOR[lv]+")"; pips.append(p);}
+      meta.append(pips);
+      const txt=el("div","txt");
+      txt.append(el("p",null,it.text||""));
+      const src=el("div","src");
+      src.append(el("span","tag",it.region==="World"?"World":"U.S."));
+      if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);}
+      else if(it.source) src.append(el("span",null,it.source));
+      txt.append(src);
+      li.append(meta,txt); ol.append(li);
+    }
+    sec.append(ol); feed.append(sec);
+  }
+}
+
+syncButtons();
+async function load(){
+  const status=document.getElementById("status");
+  try{
+    const r=await fetch("items.json?t="+Date.now(),{cache:"no-store"});
+    const j=await r.json();
+    items=(j.items||[]).slice().sort((a,b)=>a.time<b.time?1:-1);
+    loaded=true;
+    status.textContent=j.updated?"Updated "+fmtTime.format(new Date(j.updated))+" ET":"Live";
+    render();
+  }catch(e){ status.textContent="Couldn't load updates. Refresh to try again."; }
+}
+load(); setInterval(load,5*60*1000);
+</script>
+
+</body></html>

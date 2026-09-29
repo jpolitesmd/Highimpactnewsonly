@@ -1,0 +1,170 @@
+{
+ "updated": "2026-09-28T21:10:00-04:00",
+ "items": [
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "US",
+   "source": "MPR News",
+   "text": "President Trump announced at 2:00 p.m. that Mesabi Metallics, owned by India-based Essar Group, plans a $15 billion steel mill in eastern Iowa, using ore from its mine near Nashwauk, Minnesota.",
+   "time": "2026-09-28T14:00:00-04:00",
+   "time_known": true,
+   "url": "https://www.mprnews.org/story/2026/09/28/ore-from-mesabi-metallics-mine-will-be-used-for-15-billion-steel-mill-planed-for-iowa",
+   "id": "2026-09-28-steel-mill-iowa"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "US",
+   "source": "Just Security roundup",
+   "text": "A federal judge held the administration in contempt for deporting an asylum seeker in violation of court orders.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-contempt-deportation"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "The White House announced a U.S.-China dialogue on AI, including a direct communication channel for incidents.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-us-china-ai-channel"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 2,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "The administration has committed $307 million of the $400 million in Ukraine aid Congress approved, with a September 30 deadline.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-ukraine-aid"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "Russian attacks on Ukraine killed at least 12 people over the weekend, including 7 in Kyiv.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-russia-strikes"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 4,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-iran-proposal-rejected"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "Iranian Foreign Minister Araghchi said Iran is waiting for an official U.S. response before ending ceasefire talks; an Iranian official said Iran will not change its position on its nuclear program.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-iran-response"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "US",
+   "source": "Just Security roundup",
+   "text": "The Supreme Court rejected a request from Missouri Republicans concerning the state's congressional map.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-scotus-missouri-map"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 4,
+   "region": "US",
+   "source": "Just Security roundup",
+   "text": "The Supreme Court ruled the administration can use a citizenship verification system to check voter eligibility.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-scotus-voter-verification"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "US",
+   "source": "Just Security roundup",
+   "text": "President Trump moved to withhold $800 million in spending Congress approved for immigration, race-related and education programs.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-withhold-800m"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 3,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "A classified U.S. assessment found Saudi Arabia has kept open the option of developing a nuclear weapon.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-saudi-nuclear"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 1,
+   "region": "World",
+   "source": "Just Security roundup",
+   "text": "Swiss voters rejected a proposal for stricter national neutrality.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
+   "id": "2026-09-28-swiss-vote"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 2,
+   "region": "US",
+   "source": "White House",
+   "text": "The White House announced it is reversing prior federal restrictions on domestic mining.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.whitehouse.gov/news/",
+   "id": "2026-09-28-mining-policy"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 2,
+   "region": "US",
+   "source": "White House",
+   "text": "President Trump called on Congress to pass legislation on college sports.",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.whitehouse.gov/news/",
+   "id": "2026-09-28-college-sports"
+  },
+  {
+   "added_at": "2026-09-28T20:50:00-04:00",
+   "impact": 4,
+   "region": "World",
+   "source": "White House",
+   "text": "The new U.S.-China Board of Trade announced $60 billion in reciprocal tariff cuts. Soybeans are not included.",
+   "time": "2026-09-27T12:00:00-04:00",
+   "time_known": false,
+   "url": "https://www.whitehouse.gov/news/",
+   "id": "2026-09-27-us-china-tariffs"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+# Sends the morning edition to email subscribers through Buttondown.
+# The morning scheduled task writes email/today.json and pushes it; this workflow
+# sends it once per day. The Buttondown API key lives in the repo secret BUTTONDOWN_API_KEY.
+name: Send morning email
+
+on:
+  push:
+    branches: [main]
+    paths: ["email/today.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: send-email
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send via Buttondown (once per day)
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, urllib.request, datetime, zoneinfo
+          key = os.environ.get("BUTTONDOWN_API_KEY")
+          if not key:
+              print("No BUTTONDOWN_API_KEY secret set; skipping."); sys.exit(0)
+          e = json.load(open("email/today.json"))
+          today = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York")).date().isoformat()
+          if e.get("date") != today:
+              print(f"email/today.json is dated {e.get('date')}, not {today}; skipping."); sys.exit(0)
+          sent = open("email/sent.txt").read().split() if os.path.exists("email/sent.txt") else []
+          if today in sent:
+              print("Already sent today; skipping."); sys.exit(0)
+          req = urllib.request.Request(
+              "https://api.buttondown.com/v1/emails",
+              data=json.dumps({"subject": e["subject"], "body": e["body"], "status": "about_to_send"}).encode(),
+              headers={"Authorization": f"Token {key}", "Content-Type": "application/json",
+                       "X-Buttondown-Live-Dangerously": "true"},
+              method="POST")
+          try:
+              with urllib.request.urlopen(req) as r:
+                  print("Buttondown:", r.status, r.read()[:300])
+          except urllib.error.HTTPError as err:
+              print("Buttondown error:", err.code, err.read().decode()[:1000]); sys.exit(1)
+          with open("email/sent.txt", "a") as f: f.write(today + "\n")
+          PY
+
+      - name: Record send
+        run: |
+          if ! git diff --quiet -- email/sent.txt 2>/dev/null || [ -n "$(git status --porcelain email/sent.txt)" ]; then
+            git config user.name "High Impact News Daily"
+            git config user.email "jpolitesmd@users.noreply.github.com"
+            git add email/sent.txt
+            git commit -m "Email sent $(TZ=America/New_York date +%F)"
+            git pull --rebase && git push
+          fi

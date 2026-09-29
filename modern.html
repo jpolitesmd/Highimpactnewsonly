@@ -3,7 +3,7 @@
 <meta name="description" content="The day's most important news in five minutes. No spin, ranked by impact.">
 <title>High Impact News Only</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Hanken+Grotesk:wght@400;500;600&display=swap">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%232b1d12%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%23c9b48f%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23d9a441%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23d47a42%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23c2453a%22/%3E%3C/svg%3E">
 <style>
 /* Layout: one calm reading column like a well-set newsletter; heritage wordmark on top, everything else modern and quiet. */
@@ -11,7 +11,7 @@
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
   --bg:#faf7f1; --surface:#ffffff; --fg:#1d1a16; --muted:#6b6358; --faint:#e8e1d4; --rule:#d9d0bf; --accent:#8b2a1d;
   --i1:#b9ad96; --i2:#8a7a5f; --i3:#c08a1e; --i4:#c2571c; --i5:#a3231a;
-  --serif:"Newsreader",Georgia,serif; --sans:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:var(--sans);
+  --serif:"Source Serif 4",Georgia,serif; --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:var(--sans);
   color-scheme:light}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--surface:#1d1a15;--fg:#efe9dd;--muted:#a59b8a;--faint:#2a2620;--rule:#3a342b;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#15130f;--surface:#1d1a15;--fg:#efe9dd;--muted:#a59b8a;--faint:#2a2620;--rule:#3a342b;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}
@@ -43,12 +43,12 @@ header.masthead{display:flex;flex-direction:column;align-items:center;gap:6px;te
 .seg button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
 button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .tab-intro{margin:18px 0 0;font:400 15px var(--sans);color:var(--muted)}
-.day{margin-top:30px}
+.day{margin-top:36px}
 .dateline{display:flex;align-items:baseline;gap:12px;padding-bottom:4px}
 .dateline span{font:600 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .edition-count{margin:0 0 6px;font:400 14px var(--sans);color:var(--muted)}
 ol{list-style:none;margin:0;padding:0}
-li.item{display:grid;grid-template-columns:minmax(0,1fr) 88px;grid-template-areas:"txt art" "meta art";column-gap:18px;padding:20px 0;border-bottom:1px solid var(--faint)}
+li.item{display:grid;grid-template-columns:minmax(0,1fr) 88px;grid-template-areas:"txt art" "meta art";column-gap:20px;padding:24px 0;border-bottom:1px solid var(--faint)}
 li.item .txt{grid-area:txt;min-width:0}
 li.item .meta{grid-area:meta;display:flex;align-items:center;gap:10px;margin-top:10px}
 .time{font:500 13px var(--sans);color:var(--muted);font-variant-numeric:tabular-nums}

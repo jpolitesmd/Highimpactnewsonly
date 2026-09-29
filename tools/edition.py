@@ -7,7 +7,8 @@ Usage (run from the repo root):
   python3 tools/edition.py evening --archive-only   # archive without writing the email
 
 Morning edition: "Overnight" (top 5 since 5 p.m. Eastern yesterday), then "Yesterday's biggest
-stories" (top 5 from yesterday not already listed).
+stories" (top 5 from yesterday not already listed), plus "This week so far" (3 one-line headlines:
+this week's impact 4-5 stories not already in the edition, filled with 3/5 stories; none on Mondays).
 Evening edition: top 8 stories that happened since the morning edition (5 a.m. Eastern today);
 never yesterday's stories or anything already in this morning's edition.
 Every edition is saved to archive/YYYY-MM-DD-<edition>.json and listed in archive/index.json,
@@ -91,6 +92,15 @@ def select(items, edition, now):
     return top, now - since, [(None, len(top))]
 
 
+def week_so_far(items, now, exclude):
+    """Morning only: up to 3 of this week's biggest stories (since Monday, Eastern) not in the edition.
+    Impact 4-5 first; if fewer than 3, the highest-rated 3/5 stories fill in. Skipped on Mondays."""
+    if now.weekday() == 0: return []
+    monday = datetime.datetime.combine(now.date() - datetime.timedelta(days=now.weekday()), datetime.time(0), ET)
+    pool = [i for i in items if t(i) and monday <= t(i) <= now and i["id"] not in exclude]
+    return (rank([i for i in pool if lv(i) >= 4]) + rank([i for i in pool if lv(i) == 3]))[:3]
+
+
 def shorten(s, n):
     s = " ".join(s.split())
     if len(s) <= n: return s.rstrip(".")
@@ -118,6 +128,7 @@ def main():
     for s in ("health", "sports", "tech", "finance"):
         c = rank([i for i in items if sec(i) == s and i["id"] not in listed and t(i) and now - t(i) <= window])
         if c: also.append(c[0])
+    week = week_so_far(items, now, listed | {i["id"] for i in also}) if edition == "morning" else []
     nxt = sorted([e for e in upcoming if e.get("date", "") >= date], key=lambda e: e["date"])[:3]
 
     label = "Morning edition" if edition == "morning" else "Evening edition"
@@ -143,6 +154,10 @@ def main():
         meter = (f'<img src="{img}/impact-{lv(i)}.png" alt="" width="50" height="16" '
                  f'style="width:50px;height:16px;vertical-align:middle;border:0"> ')
         lines += [f"{meter}**Impact {lv(i)}/5.** {i.get('why', '')}{src}".strip(), ""]
+    if week:
+        lines += ["---", "", "**This week so far**", ""]
+        lines += [f"- {i.get('text', '')}" + (f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else "")
+                  for i in week] + [""]
     if also:
         lines += ["---", "", "**Also today**", ""]
         lines += [f"- **{SEC_LABEL[sec(i)]}:** {i.get('text', '')}" for i in also] + [""]
@@ -176,6 +191,7 @@ def main():
                "items": [{k: i[k] for k in keep if k in i} for i in top],
                "groups": [{"heading": h, "count": c} for h, c in groups],
                "also": [{k: i[k] for k in keep if k in i} for i in also],
+               "week": [{k: i[k] for k in keep if k in i} for i in week],
                "upcoming": nxt},
               open(f"archive/{key}.json", "w"), indent=1, ensure_ascii=False)
     idx_path = "archive/index.json"

@@ -28,7 +28,7 @@ def main():
     lines = [es.open_paper(),
              es.badge("BREAKING · HIGH IMPACT EVENT"),
              es.tagline(f"{now.strftime('%A, %B')} {now.day}, {now.strftime('%-I:%M %p')} ET"),
-             es.story(it, 5, first=True, size=23),
+             es.story(it, 5, first=True, size=20),
              es.note(f"We'll post confirmed updates at {es.link('hinewsdaily.com', SITE + '/')} and cover it in full "
                      f"in the next edition, {es.e(when)} ET."),
              es.footer('<a href="{{ manage_subscription_url }}" style="color:' + es.ACCENT + ';text-decoration:none;'

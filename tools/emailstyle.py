@@ -36,8 +36,8 @@ def open_paper():
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");</style>\n'
         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAPER}" '
         f'style="width:100%;background:{PAPER};background-color:{PAPER};border-radius:6px;border-collapse:separate">'
-        f'<tr><td style="padding:22px 22px 28px;background:{PAPER};background-color:{PAPER};color:{BODY};'
-        f'font-family:{SERIF};font-size:17px;line-height:1.55">\n'
+        f'<tr><td style="padding:18px 16px 24px;background:{PAPER};background-color:{PAPER};color:{BODY};'
+        f'font-family:{SERIF};font-size:15px;line-height:1.5">\n'
         f'<a href="{SITE}/" style="text-decoration:none"><img src="{IMG}/masthead.png" alt="High Impact News Daily" '
         f'width="560" style="display:block;width:100%;max-width:560px;height:auto;border:0;margin:0 auto"></a>')
 
@@ -48,12 +48,12 @@ def close_paper():
 
 def kicker(text):
     """Edition name and date, e.g. EVENING EDITION · TUESDAY, SEPTEMBER 29."""
-    return (f'<p style="margin:18px 0 0;text-align:center;font-family:{SANS};font-size:12px;font-weight:700;'
-            f'letter-spacing:2px;text-transform:uppercase;color:{ACCENT}">{e(text)}</p>')
+    return (f'<p style="margin:18px 0 0;text-align:center;font-family:{SANS};font-size:11px;font-weight:700;'
+            f'letter-spacing:1.2px;text-transform:uppercase;color:{ACCENT}">{e(text)}</p>')
 
 
 def tagline(text):
-    return (f'<p style="margin:4px 0 6px;text-align:center;font-family:{SERIF};font-style:italic;font-size:16px;'
+    return (f'<p style="margin:4px 0 6px;text-align:center;font-family:{SERIF};font-style:italic;font-size:14px;'
             f'color:{MUTED}">{e(text)}</p>')
 
 
@@ -70,7 +70,7 @@ def section(text, rule=True):
             f'font-size:12px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:{MUTED}">{e(text)}</p>')
 
 
-def story(it, n, first=False, size=21):
+def story(it, n, first=False, size=18):
     """One story: headline, detail, impact meter + why + source."""
     out = []
     if not first:
@@ -78,10 +78,10 @@ def story(it, n, first=False, size=21):
     out.append(f'<h3 style="margin:{"20px" if first else "22px"} 0 8px;font-family:{SERIF};font-size:{size}px;'
                f'line-height:1.3;font-weight:600;color:{INK}">{e(it.get("text"))}</h3>')
     if it.get("detail"):
-        out.append(f'<p style="margin:0 0 10px;font-family:{SERIF};font-size:17px;line-height:1.55;color:{BODY}">'
+        out.append(f'<p style="margin:0 0 10px;font-family:{SERIF};font-size:15px;line-height:1.5;color:{BODY}">'
                    f'{e(it["detail"])}</p>')
     src = (" " + link((it.get("source") or "Source") + " ↗", it["url"])) if str(it.get("url", "")).startswith("http") else ""
-    out.append(f'<p style="margin:0;font-family:{SANS};font-size:14px;line-height:1.5;color:{MUTED}">'
+    out.append(f'<p style="margin:0;font-family:{SANS};font-size:13px;line-height:1.45;color:{MUTED}">'
                f'<img src="{IMG}/impact-{n}.png" alt="" width="50" height="16" '
                f'style="width:50px;height:16px;vertical-align:-3px;border:0"> '
                f'<b style="color:{INK}">Impact {n}/5.</b> {e(it.get("why"))}{src}</p>')
@@ -94,7 +94,7 @@ def bullets(rows):
     for lab, text, url in rows:
         pre = f'<b style="color:{INK}">{e(lab)}:</b> ' if lab else ""
         src = (" " + link("Source ↗", url)) if url and str(url).startswith("http") else ""
-        lis.append(f'<tr><td style="padding:9px 0;border-bottom:1px solid {RULE};font-family:{SANS};font-size:15px;'
+        lis.append(f'<tr><td style="padding:9px 0;border-bottom:1px solid {RULE};font-family:{SANS};font-size:14px;'
                    f'line-height:1.45;color:{BODY}">{pre}{e(text)}{src}</td></tr>')
     return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
             f'style="width:100%;border-collapse:collapse">{"".join(lis)}</table>')
@@ -103,15 +103,15 @@ def bullets(rows):
 def dated(rows):
     """rows: list of (date label, text) for Coming up."""
     trs = "".join(f'<tr><td valign="top" style="width:64px;padding:9px 10px 9px 0;border-bottom:1px solid {RULE};'
-                  f'font-family:{SANS};font-size:14px;font-weight:700;color:{ACCENT};white-space:nowrap">{e(d)}</td>'
-                  f'<td style="padding:9px 0;border-bottom:1px solid {RULE};font-family:{SANS};font-size:15px;'
+                  f'font-family:{SANS};font-size:13px;font-weight:700;color:{ACCENT};white-space:nowrap">{e(d)}</td>'
+                  f'<td style="padding:9px 0;border-bottom:1px solid {RULE};font-family:{SANS};font-size:14px;'
                   f'line-height:1.45;color:{BODY}">{e(t)}</td></tr>' for d, t in rows)
     return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
             f'style="width:100%;border-collapse:collapse">{trs}</table>')
 
 
 def signoff(text):
-    return (f'<p style="margin:30px 0 0;text-align:center;font-family:{SERIF};font-style:italic;font-size:17px;'
+    return (f'<p style="margin:30px 0 0;text-align:center;font-family:{SERIF};font-style:italic;font-size:15px;'
             f'color:{MUTED}">{e(text)}</p>')
 
 
@@ -125,8 +125,8 @@ def share_box(edition_url):
     return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
             f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="#ffffff" '
             f'style="padding:18px 16px;background:#ffffff;background-color:#ffffff;border:1px solid {RULE};'
-            f'border-radius:12px;text-align:center;font-family:{SANS};font-size:15px;line-height:1.5;color:{BODY}">'
-            f'<b style="font-size:17px;color:{INK}">Know someone who’d like this?</b><br>'
+            f'border-radius:12px;text-align:center;font-family:{SANS};font-size:14px;line-height:1.5;color:{BODY}">'
+            f'<b style="font-size:15px;color:{INK}">Know someone who’d like this?</b><br>'
             f'Forward this email, or send them {link("a link to this edition", edition_url, underline=True)}.<br>'
             f'<span style="font-size:14px;color:{MUTED}"><i>Forwarded this?</i> '
             f'{link("Subscribe free", SITE + "/#subscribe", underline=True)}.</span></td></tr></table>')

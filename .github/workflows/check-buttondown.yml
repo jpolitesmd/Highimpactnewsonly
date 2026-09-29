@@ -1,0 +1,63 @@
+# One-off safety check (never sends anything): lists Buttondown tags, confirms the four "Skip ..." tags exist,
+# and creates a DRAFT email using the same audience filter the sender uses, then deletes the draft.
+# Writes the result to email/buttondown-check.txt. Runs when this file is pushed, or by hand.
+name: Check Buttondown setup
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/check-buttondown.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check tags and filters (draft only)
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          python3 - <<'PY' > email/buttondown-check.txt 2>&1 || true
+          import json, os, sys, urllib.request, urllib.error
+          sys.path.insert(0, "tools")
+          from send_email import SKIP_TAG, audience
+          key = os.environ.get("BUTTONDOWN_API_KEY")
+          H = {"Authorization": f"Token {key}", "Content-Type": "application/json"}
+          def call(method, url, data=None):
+              req = urllib.request.Request("https://api.buttondown.com/v1" + url, method=method, headers=H,
+                                           data=json.dumps(data).encode() if data is not None else None)
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      body = r.read(); return r.status, (json.loads(body) if body else {})
+              except urllib.error.HTTPError as e:
+                  return e.code, e.read().decode()[:800]
+          st, tags = call("GET", "/tags?page_size=100")
+          names = {}
+          if st == 200:
+              for t in tags.get("results", []):
+                  names[t.get("name")] = t
+          print("tags status", st)
+          for kind, name in SKIP_TAG.items():
+              t = names.get(name)
+              print(f"TAG {name!r}: " + ("MISSING" if not t else "found, id " + str(t.get("id")) + ", subscriber_editable=" + str(t.get("subscriber_editable", t.get("public_description") is not None))))
+          print("all tag names:", sorted(n for n in names if n))
+          for kind in SKIP_TAG:
+              st, e = call("POST", "/emails", {"subject": "TEST draft, do not send (" + kind + ")", "body": "test",
+                                                "status": "draft", "filters": audience(kind)})
+              ok = st in (200, 201)
+              print(f"FILTER {kind}: draft create status {st}" + ("" if ok else f" ERROR {e}"))
+              if ok and isinstance(e, dict) and e.get("id"):
+                  st2, _ = call("DELETE", "/emails/" + e["id"])
+                  print(f"   draft deleted: status {st2}")
+          st, n = call("GET", "/subscribers?page_size=1")
+          print("subscriber count:", n.get("count") if isinstance(n, dict) else n)
+          PY
+          cat email/buttondown-check.txt
+      - name: Save result
+        run: |
+          git config user.name "High Impact News Daily"
+          git config user.email "jpolitesmd@users.noreply.github.com"
+          git add email/buttondown-check.txt
+          git commit -m "Buttondown setup check" || exit 0
+          git pull --rebase && git push

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
-<script>try{var t=localStorage.getItem("pw_theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+<script>try{var t=localStorage.getItem("pw_theme");if(t==="light"||t==="dark"||t==="sepia")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
 <meta name="description" content="The day's most important news in five minutes. No spin, ranked by impact.">
 <title>High Impact News Daily</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -198,6 +198,12 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .appearance button{padding:5px 12px;font:500 13px var(--sans);color:var(--muted);background:none;border:1px solid var(--rule);border-radius:999px;cursor:pointer}
 .appearance button[aria-pressed="true"]{color:var(--bg);background:var(--fg);border-color:var(--fg)}
 .appearance button:focus-visible,.theme-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Sepia reading theme */
+:root[data-theme="sepia"]{--bg:#f4ecd8;--surface:#fbf5e6;--fg:#3b2f22;--muted:#75644f;--faint:#e6dcc3;--rule:#d6c7a4;--accent:#8b2a1d;color-scheme:light}
+/* Masthead tools: theme switch, then About, each centered on its own line */
+.ed-tools,.ed-about-row{display:flex;justify-content:center;margin-top:6px}
+.ed-about-row .ed-about{font:500 14px var(--sans)}
 </style>
 </head><body>
 <div class="wrap">
@@ -207,7 +213,9 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
     <div class="fl-mark" aria-hidden="true"><div class="flourish fl-head"></div><svg class="fl-bars" viewBox="0 0 122 138" aria-hidden="true"><rect x="0" y="116" width="10" height="22" rx="2" fill="var(--i1)"/><rect x="14" y="91" width="10" height="47" rx="2" fill="var(--i2)"/><rect x="28" y="61" width="10" height="77" rx="2" fill="var(--i3)"/><rect x="42" y="28" width="10" height="110" rx="2" fill="var(--i4)"/><rect x="56" y="0" width="10" height="138" rx="2" fill="var(--i5)"/><rect x="70" y="28" width="10" height="110" rx="2" fill="var(--i4)"/><rect x="84" y="61" width="10" height="77" rx="2" fill="var(--i3)"/><rect x="98" y="91" width="10" height="47" rx="2" fill="var(--i2)"/><rect x="112" y="116" width="10" height="22" rx="2" fill="var(--i1)"/></svg></div>
     <p class="tagline">The day’s most important news · five minutes · no spin</p>
     <p class="motto">✦ Break free from the 24-hour news cycle ✦</p>
-    <div class="edition"><span id="edDate"></span><span class="status" id="status">Connecting…</span><a class="ed-about" href="#about">About</a><button class="theme-btn" id="themeBtn" type="button"><svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6z"/></svg><span class="tb-label">Dark</span></button></div>
+    <div class="edition"><span id="edDate"></span><span class="status" id="status">Connecting…</span></div>
+    <div class="ed-tools"><button class="theme-btn" id="themeBtn" type="button"><svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6z"/></svg><span class="tb-label">Dark</span></button></div>
+    <div class="ed-about-row"><a class="ed-about" href="#about">About</a></div>
   </header>
 
   <div class="bar">
@@ -257,7 +265,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
     <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
   </div>
   <p class="pastlink"><a href="#about">About</a><span aria-hidden="true"> · </span><a href="#archive">Past editions</a><span aria-hidden="true"> · </span><a href="#subscribe">Get it by email</a><span aria-hidden="true"> · </span><a href="#privacy">Privacy</a></p>
-  <div class="appearance" role="group" aria-label="Appearance"><span>Appearance</span><button type="button" data-t="auto">Auto</button><button type="button" data-t="light">Light</button><button type="button" data-t="dark">Dark</button></div>
+  <div class="appearance" role="group" aria-label="Appearance"><span>Appearance</span><button type="button" data-t="auto">Auto</button><button type="button" data-t="light">Light</button><button type="button" data-t="sepia">Sepia</button><button type="button" data-t="dark">Dark</button></div>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
   <div class="colophon" aria-hidden="true">— 30 —</div>
 </div>
@@ -276,7 +284,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
     <h3>If you just visit the site</h3>
     <ul class="ab-promises">
       <li>There are no accounts, no ads and no tracking or analytics tools on this site.</li>
-      <li>The site remembers two small settings in your own browser (the last tab you opened and the impact level you chose) so it looks the same next time. They never leave your device, and clearing your browser data removes them.</li>
+      <li>The site remembers a few small settings in your own browser (the last tab you opened, the impact level you chose and your light, sepia or dark preference) so it looks the same next time. They never leave your device, and clearing your browser data removes them.</li>
       <li>The site is hosted by GitHub Pages, and its fonts are loaded from Google Fonts. As with any website, those services receive your device’s IP address and basic browser details when the page loads, and handle them under their own privacy policies.</li>
       <li>Story links take you to other websites, such as government sites and news outlets. Their own privacy policies apply once you’re there.</li>
     </ul>
@@ -527,12 +535,12 @@ if(readHash()){}
 
 /* Appearance: Auto (follow the device), Light or Dark; remembered on this device */
 const mqDark=window.matchMedia?matchMedia("(prefers-color-scheme: dark)"):null;
-function themePref(){try{const t=localStorage.getItem("pw_theme");return t==="light"||t==="dark"?t:"auto";}catch(e){return "auto";}}
+function themePref(){try{const t=localStorage.getItem("pw_theme");return t==="light"||t==="dark"||t==="sepia"?t:"auto";}catch(e){return "auto";}}
 function effTheme(){const p=themePref();return p==="auto"?(mqDark&&mqDark.matches?"dark":"light"):p;}
 function applyTheme(){const p=themePref(), e=effTheme(), r=document.documentElement;
   if(p==="auto") r.removeAttribute("data-theme"); else r.setAttribute("data-theme",p);
-  document.querySelectorAll('meta[name="theme-color"]').forEach(m=>{m.setAttribute("content",e==="dark"?"#15130f":"#faf7f1"); if(p!=="auto")m.removeAttribute("media");});
-  const b=document.getElementById("themeBtn"); if(b){const next=e==="dark"?"light":"dark"; b.dataset.show=e; b.querySelector(".tb-label").textContent=next==="dark"?"Dark":"Light"; b.setAttribute("aria-label","Switch to "+next+" mode");}
+  document.querySelectorAll('meta[name="theme-color"]').forEach(m=>{m.setAttribute("content",e==="dark"?"#15130f":e==="sepia"?"#f4ecd8":"#faf7f1"); if(p!=="auto")m.removeAttribute("media");});
+  const b=document.getElementById("themeBtn"); if(b){const next=e==="dark"?"light":"dark"; b.dataset.show=(e==="dark"?"dark":"light"); b.querySelector(".tb-label").textContent=next==="dark"?"Dark":"Light"; b.setAttribute("aria-label","Switch to "+next+" mode");}
   document.querySelectorAll(".appearance button").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.t===p)));}
 function setTheme(t){try{t==="auto"?localStorage.removeItem("pw_theme"):localStorage.setItem("pw_theme",t);}catch(e){} applyTheme();}
 document.getElementById("themeBtn").addEventListener("click",()=>setTheme(effTheme()==="dark"?"light":"dark"));

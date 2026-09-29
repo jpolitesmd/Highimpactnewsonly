@@ -131,6 +131,25 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .su-fine{margin:12px 0 0;font:400 13px var(--sans);color:var(--muted)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:480px){.su-form{flex-direction:column}.su-form button{width:100%}}
+
+/* Archive */
+.pastlink{margin:28px 0 0;text-align:center;font:500 14px var(--sans)}
+.pastlink a,.arch-back,.arch-nav a{color:var(--accent);text-decoration:none}
+.pastlink a:hover,.arch-back:hover,.arch-nav a:hover{text-decoration:underline}
+.arch-back{display:inline-block;margin-top:24px;font:500 14px var(--sans)}
+.arch-pick{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:24px;font:500 14px var(--sans);color:var(--muted)}
+.arch-pick input{padding:9px 12px;font:500 15px var(--sans);color:var(--fg);background:var(--surface);border:1px solid var(--rule);border-radius:10px}
+.arch-msg{margin:10px 0 0;font:400 14px var(--sans);color:var(--muted)}
+.arch-msg:empty{display:none}
+.arch-list{list-style:none;margin:0;padding:0}
+.arch-day{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:14px 0;border-top:1px solid var(--faint)}
+.arch-day:first-child{border-top:0}
+.arch-btns{display:flex;gap:8px;flex-wrap:wrap}
+.arch-btn{padding:5px 12px;font:600 13px var(--sans);color:var(--accent);background:var(--surface);border:1px solid var(--rule);border-radius:999px;text-decoration:none}
+.arch-btn:hover{border-color:var(--accent)}
+.arch-lead{margin:8px 0 0;font:400 15px/1.45 var(--serif);color:var(--muted)}
+.arch-nav{display:flex;justify-content:space-between;gap:12px;margin-top:32px;font:500 14px var(--sans)}
+@media (max-width:480px){.arch-day{grid-template-columns:1fr;gap:6px}}
 </style>
 </head><body>
 <div class="wrap">
@@ -153,6 +172,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
       <button data-r="health">Health</button>
       <button data-r="sports">Sports</button>
       <button data-r="history">History</button>
+      <button data-r="archive">Archive</button>
     </div>
     <div class="subtabs" id="subtabs" role="group" aria-label="Filter" hidden></div>
     <div id="impactRow">
@@ -188,6 +208,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   <div class="key">
     <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
   </div>
+  <p class="pastlink"><a href="#archive">Past editions</a></p>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
   <div class="colophon" aria-hidden="true">— 30 —</div>
 </div>
@@ -198,7 +219,7 @@ TOPIC_ART.rocket='<path d="M60 8C72 20 76 40 72 62H48C44 40 48 20 60 8ZM48 50L36
 TOPIC_ART.chart='<path d="M14 80H108M14 80V12M24 66L44 50L60 58L82 30L100 22M88 20L100 22L96 34"/><path d="M28 80V72M44 80V64M60 80V68M76 80V56M92 80V48"/>';
 const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis Velazquez"}, "court": {"id": "1658958327132-a80f8a9409fb", "by": "Fine Photographics"}, "gavel": {"id": "1676181739859-08330dea8999", "by": "Wesley Tingey"}, "whitehouse": {"id": "1485394595691-5411947d63a4", "by": "David Everett Strickler"}, "globe": {"id": "1589519160142-7d1a51b43eaf", "by": "Greg Rosenke"}, "factory": {"id": "1765810542186-c6becc0687b1", "by": "Jonathan Wuyts"}, "ship": {"id": "1518527989017-5baca7a58d3c", "by": "Shaah Shahidh"}, "ballot": {"id": "1540910419892-4a36d2c3266c", "by": "Element5 Digital"}, "trade": {"id": "1605732562742-3023a888e56e", "by": "Aron Yigin"}, "tech": {"id": "1680992046626-418f7e910589", "by": "Tyler"}, "nuclear": {"id": "1630142895963-6996ae6b3a5b", "by": "Lukáš Lehotský"}, "conflict": {"id": "1519074031893-210d39bd3885", "by": "Don Jackson-Wyatt"}, "mining": {"id": "1654461339694-128902c5c075", "by": "Chris Münch"}, "coin": {"id": "1621504450181-5d356f61d307", "by": "Art Rachen"}, "sports": {"id": "1509928015542-fcc9b3bcd048", "by": "Chris Kursikowski"}, "lungs": {"id": "1616012480717-fd9867059ca0", "by": "Umanoide"}, "pulse": {"id": "1505751172876-fa1923c5c528", "by": "Hush Naidoo Jade Photography"}, "chart": {"id": "1560221328-12fe60f83ab8", "by": "Nicholas Cappello"}};
 const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
-const TABS=["today","government","world","money","tech","health","sports","history"];
+const TABS=["today","government","world","money","tech","health","sports","history","archive"];
 let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
 try{minLevel=+localStorage.getItem("pw_min")||1; const r=localStorage.getItem("pw_tab"); if(TABS.includes(r)) region=r;}catch(e){}
 
@@ -217,10 +238,10 @@ function syncButtons(){
   document.querySelectorAll("#regions button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.r===region)));
   const st=document.getElementById("subtabs"); st.replaceChildren();
   if(SUBS[region]){ for(const [k,l] of SUBS[region]){const b=el("button",null,l); b.dataset.s=k; b.setAttribute("aria-pressed",String(k===sub)); st.append(b);} st.hidden=false; } else st.hidden=true;
-  document.getElementById("impactRow").hidden=(region==="today");
+  document.getElementById("impactRow").hidden=(region==="today"||region==="archive");
 }
 document.getElementById("seg").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min; try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();});
-document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
+document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; archKey=null; setHash(region==="archive"?"#archive":""); try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
 document.getElementById("subtabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; sub=b.dataset.s; syncButtons(); render();});
 
 const br=it=>Array.isArray(it.branch)?it.branch:(it.branch?[it.branch]:[]);
@@ -238,7 +259,7 @@ function pipsFor(lv){const pips=el("span","pips"); pips.setAttribute("aria-label
 function card(it,dateMode){
   const lv=lvOf(it), li=el("li","item lv"+lv), meta=el("div","meta"), t=new Date(it.time);
   const isToday=dayKey(it.time)===fmtKey.format(new Date());
-  let when; if(isNaN(t)) when="—"; else if(dateMode&&!isToday) when=fmtShort.format(t); else when=(it.time_known===false?(dateMode?"Today":"—"):fmtTime.format(t));
+  let when; if(isNaN(t)) when="—"; else if(dateMode==="abs") when=fmtShort.format(t)+(it.time_known===false?"":", "+fmtTime.format(t)); else if(dateMode&&!isToday) when=fmtShort.format(t); else when=(it.time_known===false?(dateMode?"Today":"—"):fmtTime.format(t));
   meta.append(el("span","time",when), pipsFor(lv));
   const txt=el("div","txt"); txt.append(el("p",null,it.text||""));
   if(it.detail) txt.append(el("p","more",it.detail));
@@ -307,6 +328,7 @@ const INTROS={government:{all:"U.S. government: the President and agencies, Cong
 function render(){
   const feed=document.getElementById("feed"); feed.replaceChildren();
   if(region==="history"){renderHistory(feed);return;}
+  if(region==="archive"){renderArchive(feed);return;}
   if(!loaded){feed.append(el("div","empty","Loading today’s edition…"));return;}
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
@@ -323,6 +345,59 @@ function render(){
 }
 
 syncButtons(); render();
+
+/* Archive: every published edition, saved by the edition tasks in archive/ */
+let archIdx=null, archKey=null; const archCache={};
+function setHash(h){try{window.history.replaceState(null,"",h||location.pathname+location.search);}catch(e){}}
+function readHash(){const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
+window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render();window.scrollTo({top:0});}});
+async function loadArchIdx(){try{const r=await fetch("archive/index.json?t="+Date.now(),{cache:"no-store"}); archIdx=await r.json();}catch(e){archIdx={editions:[]};} if(region==="archive")render();}
+async function loadArch(k){try{const r=await fetch("archive/"+k+".json",{cache:"no-store"}); archCache[k]=r.ok?await r.json():{missing:true};}catch(e){archCache[k]={missing:true};} if(region==="archive"&&archKey===k)render();}
+const fmtLong=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"long",month:"long",day:"numeric",year:"numeric"});
+const fmtMon=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",month:"long",year:"numeric"});
+const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
+function openEdition(k){archKey=k; location.hash="#archive/"+k;}
+function renderArchive(feed){
+  if(!archIdx){setIntro("");feed.append(el("div","empty","Loading the archive…"));loadArchIdx();return;}
+  const eds=archIdx.editions||[];
+  if(archKey){
+    setIntro("");
+    const back=el("a","arch-back","← All editions"); back.href="#archive"; feed.append(back);
+    const e=archCache[archKey]; if(!e){feed.append(el("div","empty","Loading this edition…"));loadArch(archKey);return;}
+    if(e.missing){feed.append(el("div","empty","That edition isn’t in the archive."));return;}
+    const s=el("section","day"); const dl=el("div","dateline"); dl.append(el("span",null,cap(e.edition)+" Edition")); s.append(dl);
+    s.append(el("p","edition-count",fmtLong.format(new Date(e.date+"T12:00:00Z"))+" · "+e.items.length+(e.items.length===1?" story":" stories")+" as published"));
+    const ol=el("ol"); for(const it of e.items) ol.append(card(it,"abs")); s.append(ol); feed.append(s);
+    if(e.also&&e.also.length){const a=el("section","day"); const d2=el("div","dateline"); d2.append(el("span",null,"Also That Day")); a.append(d2); const ol2=el("ol"); for(const it of e.also) ol2.append(card(it,"abs")); a.append(ol2); feed.append(a);}
+    const i=eds.findIndex(x=>x.key===archKey); const nav=el("div","arch-nav");
+    if(i>=0&&i<eds.length-1){const p=el("a",null,"← "+cap(eds[i+1].edition)+", "+fmtWD.format(new Date(eds[i+1].date+"T12:00:00Z"))); p.href="#archive/"+eds[i+1].key; nav.append(p);} else nav.append(el("span"));
+    if(i>0){const n=el("a",null,cap(eds[i-1].edition)+", "+fmtWD.format(new Date(eds[i-1].date+"T12:00:00Z"))+" →"); n.href="#archive/"+eds[i-1].key; nav.append(n);}
+    feed.append(nav); return;
+  }
+  setIntro("Every edition we’ve published, exactly as it went out. Pick a date, or browse below.");
+  if(!eds.length){feed.append(el("div","empty","The first edition will appear here after it’s published."));return;}
+  const first=eds[eds.length-1].date, last=eds[0].date;
+  const pick=el("div","arch-pick"); const lab=el("label",null,"Go to a date"); lab.htmlFor="archDate";
+  const inp=el("input"); inp.type="date"; inp.id="archDate"; inp.min=first; inp.max=last; inp.value=last;
+  const msg=el("p","arch-msg"); msg.setAttribute("role","status");
+  inp.addEventListener("change",()=>{const d=inp.value; const hit=eds.filter(x=>x.date===d);
+    if(hit.length){openEdition((hit.find(x=>x.edition==="morning")||hit[0]).key);}
+    else msg.textContent="No edition on "+(d?fmtLong.format(new Date(d+"T12:00:00Z")):"that date")+". The archive begins "+fmtLong.format(new Date(first+"T12:00:00Z"))+".";});
+  pick.append(lab,inp); feed.append(pick,msg);
+  const byDate=new Map(); for(const x of eds){if(!byDate.has(x.date))byDate.set(x.date,[]); byDate.get(x.date).push(x);}
+  let curMon="", ul=null;
+  for(const [d,list] of byDate){
+    const mon=d.slice(0,7);
+    if(mon!==curMon){curMon=mon; const sec=el("section","day"); const dl=el("div","dateline"); dl.append(el("span",null,fmtMon.format(new Date(d+"T12:00:00Z")))); sec.append(dl); ul=el("ul","arch-list"); sec.append(ul); feed.append(sec);}
+    const li=el("li","arch-day"); li.append(el("span","up-date",fmtWD.format(new Date(d+"T12:00:00Z"))));
+    const body=el("div","arch-body"); const btns=el("div","arch-btns");
+    for(const ed of ["morning","evening"]){const x=list.find(y=>y.edition===ed); if(!x)continue; const a=el("a","arch-btn",cap(ed)+" · "+x.count); a.href="#archive/"+x.key; btns.append(a);}
+    const lead=(list.find(y=>y.edition==="morning")||list[0]).lead; body.append(btns, el("p","arch-lead",lead||""));
+    li.append(body); ul.append(li);
+  }
+}
+if(readHash()){}
+
 async function load(){
   const status=document.getElementById("status");
   try{

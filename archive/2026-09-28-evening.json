@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-28",
+ "edition": "evening",
+ "subject": "Evening edition, Monday, Sep 28: President Trump rejected Iran's latest proposal to reopen…",
+ "published": "2026-09-28T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-09-28-iran-proposal-rejected",
+   "text": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war.",
+   "detail": "Iran had offered terms to reopen the Strait of Hormuz, the route for about a fifth of the world's oil shipments, and end the U.S.-Israel war with Iran, now in its seventh month. Iran's foreign minister said Iran will wait for a formal U.S. response before abandoning ceasefire talks. Eight U.S. Marines were injured by an Iranian missile in the strait on Sept. 14.",
+   "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens.",
+   "impact": 4,
+   "topic": "ship",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Just Security roundup",
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/"
+  },
+  {
+   "id": "2026-09-28-steel-mill-iowa",
+   "text": "President Trump announced at 2:00 p.m. that Mesabi Metallics, owned by India-based Essar Group, plans a $15 billion steel mill in eastern Iowa, using ore from its mine near Nashwauk, Minnesota.",
+   "detail": "The mill would use iron ore from Mesabi Metallics' new mine near Nashwauk on Minnesota's Iron Range, which opened this month; the mine has hired over 200 of a planned 350 workers. Mesabi Metallics is owned by India-based Essar Group. No construction start date or mill job count was given.",
+   "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction.",
+   "impact": 3,
+   "topic": "factory",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-28T14:00:00-04:00",
+   "time_known": true,
+   "source": "MPR News",
+   "url": "https://www.mprnews.org/story/2026/09/28/ore-from-mesabi-metallics-mine-will-be-used-for-15-billion-steel-mill-planed-for-iowa"
+  },
+  {
+   "id": "2026-09-28-iran-response",
+   "text": "Iranian Foreign Minister Araghchi said Iran is waiting for an official U.S. response before ending ceasefire talks; an Iranian official said Iran will not change its position on its nuclear program.",
+   "detail": "The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
+   "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Just Security roundup",
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/"
+  },
+  {
+   "id": "2026-09-28-starship-first-orbit",
+   "section": "tech",
+   "text": "SpaceX's Starship reached orbit for the first time on its 14th test flight Monday, deploying 26 Starlink V3 satellites.",
+   "detail": "The ship completed about six orbits over roughly 10 hours before splashing down in the Pacific west of Chile; the Super Heavy booster splashed down in the Gulf shortly after launch. SpaceX changed the booster after ice buildup caused problems on the previous flight. NASA plans to use a modified Starship as the moon lander for its Artemis program.",
+   "why": "A first for the largest rocket built and a step required before NASA's planned Artemis moon landings; still a test program.",
+   "impact": 3,
+   "topic": "rocket",
+   "region": "US",
+   "time": "2026-09-28T08:55:00-04:00",
+   "time_known": false,
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/09/28/spacex-starship-orbital-flight"
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-09-28-nfl-injuries-week4",
+   "section": "sports",
+   "text": "Dolphins running back De'Von Achane tore his ACL and will miss the rest of the season; Buccaneers quarterback Baker Mayfield will miss at least three weeks with a dislocated thumb.",
+   "detail": "Panthers safety Jaycee Horn is out indefinitely with a significant quad injury, and Giants linebacker Brian Burns tore his ACL. Vikings receiver Justin Jefferson avoided a long-term injury after an ankle sprain, and Jets running back Breece Hall is week-to-week with a quad injury.",
+   "why": "Season-ending or multi-week losses of starters on several teams.",
+   "impact": 2,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "NFL.com",
+   "url": "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-monday-sept-28"
+  },
+  {
+   "id": "2026-09-28-amd-world-labs",
+   "section": "tech",
+   "text": "AMD agreed to buy World Labs, the AI startup founded by Stanford professor Fei-Fei Li, for $8.2 billion.",
+   "detail": "World Labs builds AI models of the physical world; its first product, Marble, generates simulated environments for entertainment and robot training. Li will become AMD's executive vice president and chief scientist. The deal is expected to close by year-end, subject to regulatory approval.",
+   "why": "A large AI acquisition by a major chipmaker; it still needs regulatory approval.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-09-29",
+   "text": "MLB Wild Card Series begin (best of three)."
+  },
+  {
+   "date": "2026-09-30",
+   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
+  },
+  {
+   "date": "2026-10-02",
+   "text": "September jobs report, 8:30 a.m. ET."
+  }
+ ]
+}

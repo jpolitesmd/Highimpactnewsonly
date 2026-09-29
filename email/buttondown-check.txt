@@ -1,0 +1,15 @@
+tags status 200
+TAG 'Skip morning edition': found, id sub_tag_2jse3cx3v98fkam3ngsaksdb4e, subscriber_editable=True
+TAG 'Skip evening edition': found, id sub_tag_3pm5z392rt9sd9qakwrknjg8ef, subscriber_editable=True
+TAG 'Skip Sunday weekend review': found, id sub_tag_6s2mk6hvbh9s9bmtv91rkaa1tm, subscriber_editable=True
+TAG 'Skip breaking alerts': found, id sub_tag_1zkgar12cq9aysqg6x8ne51bkd, subscriber_editable=True
+all tag names: ['Skip Sunday weekend review', 'Skip breaking alerts', 'Skip evening edition', 'Skip morning edition']
+FILTER morning: draft create status 201
+   draft deleted: status 204
+FILTER evening: draft create status 201
+   draft deleted: status 204
+FILTER weekend: draft create status 201
+   draft deleted: status 204
+FILTER breaking: draft create status 201
+   draft deleted: status 204
+subscriber count: 2

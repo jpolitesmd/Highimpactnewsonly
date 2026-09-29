@@ -3,7 +3,7 @@
 <meta name="description" content="Political news with no spin: one plain line per event, rated by impact.">
 <title>High Impact News Only</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IM+Fell+English&family=Pinyon+Script&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 *,*::before,*::after{box-sizing:border-box}
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -58,13 +58,17 @@ li.lv5{background:var(--card-hi);box-shadow:inset 0 0 0 1px var(--i5)}
 .key{margin-top:32px;font:12px/1.7 var(--mono);color:var(--muted)}
 .key b{font-weight:500;color:var(--fg)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.logo{display:flex;align-items:baseline;flex-wrap:nowrap;gap:.28em;font-size:clamp(21px,6.4vw,40px);font-weight:400;line-height:1;margin:0;white-space:nowrap}
+.logo .lp{font-family:"IM Fell English",Georgia,serif;letter-spacing:.04em;color:var(--fg)}
+.logo .ls{font-family:"Pinyon Script","Snell Roundhand",cursive;font-size:1.22em;color:#a9c8f2}
+.logo .lbars{height:1.15em;width:auto;align-self:flex-end;margin-left:.1em;margin-bottom:.02em}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230c2a55%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%238fb4ea%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23f2c14e%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23ff9147%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23ff5f5f%22/%3E%3C/svg%3E">
 </head><body>
 
 <div class="wrap">
   <header>
-    <h1>High Impact News Only</h1>
+    <h1 class="logo" aria-label="High Impact News Only"><span class="lp">HIGH</span><span class="ls">impact</span><span class="lp">NEWS</span><span class="ls">only</span><svg class="lbars" viewBox="0 0 76 138" aria-hidden="true"><rect x="0" y="106" width="11" height="32" rx="2" fill="var(--i1)"/><rect x="16" y="82" width="11" height="56" rx="2" fill="var(--i2)"/><rect x="32" y="58" width="11" height="80" rx="2" fill="var(--i3)"/><rect x="48" y="32" width="11" height="106" rx="2" fill="var(--i4)"/><rect x="64" y="4" width="11" height="134" rx="2" fill="var(--i5)"/></svg></h1>
     <div class="status" id="status">Connecting…</div>
   </header>
 

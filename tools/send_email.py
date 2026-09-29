@@ -29,9 +29,25 @@ def post(key, payload):
         return r.status, r.read()[:300]
 
 
-def audience(kind):
+def tag_ids(key):
+    """Buttondown filters need tag IDs, not names: map each tag name to its ID."""
+    req = urllib.request.Request("https://api.buttondown.com/v1/tags?page_size=100",
+                                 headers={"Authorization": f"Token {key}"})
+    try:
+        with urllib.request.urlopen(req) as r:
+            return {t.get("name"): t.get("id") for t in json.loads(r.read()).get("results", [])}
+    except Exception as err:
+        print(f"PROBLEM: could not list Buttondown tags ({err}); emails go to all subscribers.")
+        return {}
+
+
+def audience(kind, ids):
+    tid = ids.get(SKIP_TAG[kind])
+    if not tid:
+        print(f"PROBLEM: Buttondown tag '{SKIP_TAG[kind]}' not found; this email goes to all subscribers.")
+        return None
     return {"predicate": "and", "groups": [],
-            "filters": [{"field": "subscriber.tags", "operator": "not_contains", "value": SKIP_TAG[kind]}]}
+            "filters": [{"field": "subscriber.tags", "operator": "not_contains", "value": tid}]}
 
 
 def main():
@@ -63,8 +79,11 @@ def main():
             print(f"breaking {tag} is more than 3 hours old; not sending.")
         else:
             jobs.append((tag, "breaking", b))
+    ids = tag_ids(key) if jobs else {}
     for tag, kind, e in jobs:
-        payload = {"subject": e["subject"], "body": e["body"], "status": "about_to_send", "filters": audience(kind)}
+        payload = {"subject": e["subject"], "body": e["body"], "status": "about_to_send"}
+        flt = audience(kind, ids)
+        if flt: payload["filters"] = flt
         when = datetime.datetime.fromisoformat(e["send_at"]) if e.get("send_at") else None
         if when and when > now + datetime.timedelta(minutes=2):
             payload["status"] = "scheduled"
@@ -73,11 +92,11 @@ def main():
             try:
                 st, body = post(key, payload)
             except urllib.error.HTTPError as err:
-                if err.code != 400: raise
+                if err.code not in (400, 422) or "filters" not in payload: raise
                 # Never let the preference filter stop an email: if Buttondown rejects it, send to everyone.
                 print(f"PROBLEM: Buttondown rejected the '{SKIP_TAG[kind]}' filter ({err.read().decode()[:500]}); "
                       "sending to all subscribers instead.")
-                payload.pop("filters")
+                payload.pop("filters", None)
                 st, body = post(key, payload)
             print("Buttondown:", tag, st, payload["status"], payload.get("publish_date", "now"),
                   "filtered" if "filters" in payload else "unfiltered", body)

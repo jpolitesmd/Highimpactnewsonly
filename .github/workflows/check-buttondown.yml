@@ -1,6 +1,6 @@
 # One-off safety check (never sends anything): lists Buttondown tags, confirms the four "Skip ..." tags exist,
 # and creates a DRAFT email using the same audience filter the sender uses, then deletes the draft.
-# Writes the result to email/buttondown-check.txt. Runs when this file is pushed, or by hand.
+# Writes the result to email/buttondown-check.txt (run 2: filters use tag IDs). Runs when this file is pushed, or by hand.
 name: Check Buttondown setup
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
           python3 - <<'PY' > email/buttondown-check.txt 2>&1 || true
           import json, os, sys, urllib.request, urllib.error
           sys.path.insert(0, "tools")
-          from send_email import SKIP_TAG, audience
+          from send_email import SKIP_TAG, audience, tag_ids
           key = os.environ.get("BUTTONDOWN_API_KEY")
           H = {"Authorization": f"Token {key}", "Content-Type": "application/json"}
           def call(method, url, data=None):
@@ -42,9 +42,10 @@ jobs:
               t = names.get(name)
               print(f"TAG {name!r}: " + ("MISSING" if not t else "found, id " + str(t.get("id")) + ", subscriber_editable=" + str(t.get("subscriber_editable", t.get("public_description") is not None))))
           print("all tag names:", sorted(n for n in names if n))
+          ids = tag_ids(key)
           for kind in SKIP_TAG:
               st, e = call("POST", "/emails", {"subject": "TEST draft, do not send (" + kind + ")", "body": "test",
-                                                "status": "draft", "filters": audience(kind)})
+                                                "status": "draft", "filters": audience(kind, ids)})
               ok = st in (200, 201)
               print(f"FILTER {kind}: draft create status {st}" + ("" if ok else f" ERROR {e}"))
               if ok and isinstance(e, dict) and e.get("id"):

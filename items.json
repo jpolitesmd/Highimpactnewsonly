@@ -1,6 +1,25 @@
 {
- "updated": "2026-09-29T16:20:24-04:00",
+ "updated": "2026-09-29T19:55:21-04:00",
  "items": [
+  {
+   "id": "2026-09-29-scotus-third-country-deportations",
+   "text": "The Supreme Court on Sept. 29 allowed the administration to resume deporting immigrants to countries other than their own while it hears the case; Justices Sotomayor, Kagan and Jackson would have denied the request.",
+   "detail": "The order pauses a Massachusetts federal judge's ruling, upheld by the 1st Circuit, that the policy denied immigrants a chance to raise fears of torture or persecution in the destination country. Deportations have included flights to El Salvador, Libya and South Sudan. The court will hear arguments in December, with a decision expected by summer 2027.",
+   "why": "A Supreme Court order that immediately lets a nationwide deportation policy resume; it is temporary until the court rules on the merits.",
+   "impact": 4,
+   "branch": [
+    "judicial"
+   ],
+   "topic": "court",
+   "judicial": true,
+   "court": "U.S. Supreme Court",
+   "region": "US",
+   "time": "2026-09-29T15:30:00-04:00",
+   "time_known": false,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/",
+   "added_at": "2026-09-29T19:55:21-04:00"
+  },
   {
    "id": "2026-09-29-title-ix-final-rule",
    "topic": "whitehouse",
@@ -34,6 +53,23 @@
    "added_at": "2026-09-29T16:20:24-04:00"
   },
   {
+   "id": "2026-09-29-cafe-fuel-economy-final-rule",
+   "text": "The Transportation Department finalized fuel economy standards requiring a fleet average of 34.9 miles per gallon for new cars and light trucks by model year 2031, down from about 50 mpg under the previous rules.",
+   "detail": "The rule covers model years 2022 through 2031, ends the credit-trading program automakers use to meet the standards starting in 2028, and changes how vehicles are classified as cars or light trucks in 2030. The department estimates it lowers the average new-vehicle price by about $1,300. Environmental groups criticized the change.",
+   "why": "A final, binding national rule for every new car and light truck sold in the U.S.; it can be challenged in court or changed by a later rule.",
+   "impact": 4,
+   "branch": [
+    "executive"
+   ],
+   "topic": "factory",
+   "region": "US",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "Repairer Driven News",
+   "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/",
+   "added_at": "2026-09-29T19:55:21-04:00"
+  },
+  {
    "id": "2026-09-29-consumer-confidence",
    "section": "money",
    "topic": "chart",
@@ -47,6 +83,20 @@
    "source": "Reuters via GV Wire",
    "url": "https://gvwire.com/2026/09/29/us-consumer-confidence-dives-to-more-than-12-year-low-in-september/",
    "added_at": "2026-09-29T16:20:24-04:00"
+  },
+  {
+   "id": "2026-09-29-russia-drones-kyiv-academy",
+   "text": "Russian drone strikes across Ukraine killed at least 9 people and wounded more than 80 on Sept. 28-29, including a strike that heavily damaged the National Academy of Sciences building in Kyiv.",
+   "detail": "Russia launched 120 drones on Monday, 90 of them jet-powered, and Ukraine reported intercepting about 57%. Strikes also hit a medical facility in Kyiv, a business center in Dnipro, a logistics office in Synelnykove and infrastructure in Zaporizhzhia, where 32 people were wounded. Ukraine's foreign minister asked allies for more air defenses.",
+   "why": "One of the deadlier recent attacks in an ongoing war, but not a change in its scope or direction.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-09-29T06:00:00-04:00",
+   "time_known": false,
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
+   "added_at": "2026-09-29T19:55:21-04:00"
   },
   {
    "id": "2026-09-29-canada-import-bans",

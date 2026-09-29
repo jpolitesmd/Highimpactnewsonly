@@ -1,6 +1,6 @@
 {
  "year": 2026,
- "updated": "2026-09-28",
+ "updated": "2026-09-29",
  "events": [
   {
    "date": "2026-01-03",
@@ -204,6 +204,20 @@
    "topic": "trade",
    "text": "After a Trump-Xi summit in Washington, the U.S. and China extended their trade truce to Jan. 10, 2027 and agreed to $60 billion in tariff cuts.",
    "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says"
+  },
+  {
+   "date": "2026-09-29",
+   "impact": 4,
+   "topic": "court",
+   "text": "The Supreme Court let the administration resume deportations to third countries while it hears the case in December.",
+   "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/"
+  },
+  {
+   "date": "2026-09-29",
+   "impact": 4,
+   "topic": "factory",
+   "text": "The Transportation Department cut fuel economy standards to 34.9 mpg by model year 2031, down from about 50 mpg.",
+   "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/"
   }
  ]
 }

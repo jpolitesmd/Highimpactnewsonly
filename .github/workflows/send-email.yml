@@ -1,7 +1,7 @@
-# Sends the morning edition to email subscribers through Buttondown.
-# The morning scheduled task writes email/today.json and pushes it; this workflow
-# sends it once per day. The Buttondown API key lives in the repo secret BUTTONDOWN_API_KEY.
-name: Send morning email
+# Sends the morning and evening editions to email subscribers through Buttondown.
+# The edition scheduled tasks write email/today.json and pushes it; this workflow
+# sends each edition once per day, scheduled for its send_at time. The Buttondown API key lives in the repo secret BUTTONDOWN_API_KEY.
+name: Send edition email
 
 on:
   push:
@@ -32,24 +32,35 @@ jobs:
           if not key:
               print("No BUTTONDOWN_API_KEY secret set; skipping."); sys.exit(0)
           e = json.load(open("email/today.json"))
-          today = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York")).date().isoformat()
+          et = zoneinfo.ZoneInfo("America/New_York")
+          now = datetime.datetime.now(et)
+          today = now.date().isoformat()
+          edition = e.get("edition", "morning")
           if e.get("date") != today:
               print(f"email/today.json is dated {e.get('date')}, not {today}; skipping."); sys.exit(0)
+          tag = f"{today}-{edition}"
           sent = open("email/sent.txt").read().split() if os.path.exists("email/sent.txt") else []
-          if today in sent:
-              print("Already sent today; skipping."); sys.exit(0)
+          if tag in sent or (edition == "morning" and today in sent):
+              print(f"{tag} already sent; skipping."); sys.exit(0)
+          payload = {"subject": e["subject"], "body": e["body"], "status": "about_to_send"}
+          send_at = e.get("send_at")
+          if send_at:
+              when = datetime.datetime.fromisoformat(send_at)
+              if when > now + datetime.timedelta(minutes=2):
+                  payload["status"] = "scheduled"
+                  payload["publish_date"] = when.astimezone(datetime.timezone.utc).isoformat()
           req = urllib.request.Request(
               "https://api.buttondown.com/v1/emails",
-              data=json.dumps({"subject": e["subject"], "body": e["body"], "status": "about_to_send"}).encode(),
+              data=json.dumps(payload).encode(),
               headers={"Authorization": f"Token {key}", "Content-Type": "application/json",
                        "X-Buttondown-Live-Dangerously": "true"},
               method="POST")
           try:
               with urllib.request.urlopen(req) as r:
-                  print("Buttondown:", r.status, r.read()[:300])
+                  print("Buttondown:", r.status, payload["status"], payload.get("publish_date", "now"), r.read()[:300])
           except urllib.error.HTTPError as err:
               print("Buttondown error:", err.code, err.read().decode()[:1000]); sys.exit(1)
-          with open("email/sent.txt", "a") as f: f.write(today + "\n")
+          with open("email/sent.txt", "a") as f: f.write(tag + "\n")
           PY
 
       - name: Record send

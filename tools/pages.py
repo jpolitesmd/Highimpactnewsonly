@@ -206,7 +206,7 @@ def edition_page(ed, no, prev, nxt):
         out.append(f'<h2 class="sec">Also that day</h2><ol>{"".join(story(i) for i in ed["also"])}</ol>')
     if ed.get("upcoming"):
         out.append('<h2 class="sec">Coming up (as of this edition)</h2><ul class="up">'
-                   + "".join(f'<li><b>{e(short_date(u["date"]))}</b><span>{e(u["text"])}</span></li>' for u in ed["upcoming"])
+                   + "".join(f'<li><b>{e(u.get("when") or short_date(u["date"]))}</b><span>{e(u["text"])}</span></li>' for u in ed["upcoming"])
                    + "</ul>")
     out.append("</main>")
     out.append(SIGNUP.format(share=share_block(url, f"{edname}, {ld} · {NAME}", lead)))

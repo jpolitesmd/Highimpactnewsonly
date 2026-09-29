@@ -90,6 +90,7 @@ li.lv4 .plate{color:var(--i4)}
 .cu-big{margin:0;font:600 22px var(--sans)}
 .cu-small{margin:6px 0 0;font:400 15px var(--sans);color:var(--muted)}
 .upcoming{margin-top:34px}
+.up-branch{margin-top:18px}.up-br{font-weight:600;color:var(--fg)}.up-detail{display:block;margin-top:3px;font-size:13.5px;color:var(--muted)}
 .up-list{list-style:none;margin:0;padding:0}
 .up-list li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--faint)}
 .up-date{font:600 14px var(--sans);color:var(--accent)}
@@ -603,7 +604,7 @@ function byDays(feed,list){const days=new Map(); for(const it of list){const k=d
   for(const [k,l] of days){const d=new Date(l[0].time); feed.append(section(isNaN(d)?"Undated":fmtDay.format(d),l,false));}}
 function setIntro(t){const i=document.getElementById("tabIntro"); i.textContent=t||""; i.hidden=!t;}
 
-async function loadUpcoming(){try{const r=await fetch("upcoming.json?t="+Date.now(),{cache:"no-store"}); upcoming=await r.json();}catch(e){upcoming={events:[]};} if(region==="today")render();}
+async function loadUpcoming(){try{const r=await fetch("upcoming.json?t="+Date.now(),{cache:"no-store"}); upcoming=await r.json();}catch(e){upcoming={events:[]};} if(region==="today"||region==="government")render();}
 const FRESH_H=12, FRESH_SLOTS=4, TODAY_N=10;
 /* BREAKING: impact 4-5 events posted by the hourly check run above everything until the next edition (breaking_until) */
 const activeBreaking=()=>{const now=Date.now(); return items.filter(it=>it.breaking_until&&new Date(it.breaking_until).getTime()>now).sort(byImpact);};
@@ -669,7 +670,25 @@ function renderToday(feed){
   const today=fmtKey.format(new Date());
   const ev=(upcoming.events||[]).filter(e=>e.date>=today).sort((a,b)=>a.date<b.date?-1:1).slice(0,6);
   if(ev.length){const c=el("section","upcoming"); const d2=el("div","dateline"); d2.append(el("span",null,"Coming Up")); c.append(d2);
-    const ul=el("ul","up-list"); for(const e of ev){const li=el("li"); li.append(el("span","up-date",fmtWD.format(new Date(e.date+"T12:00:00Z"))), el("span","up-text",e.text)); ul.append(li);} c.append(ul); feed.append(c);}
+    const ul=el("ul","up-list"); for(const e of ev){const li=el("li"); li.append(el("span","up-date",e.when||fmtWD.format(new Date(e.date+"T12:00:00Z"))), el("span","up-text",e.text)); ul.append(li);} c.append(ul); feed.append(c);}
+}
+/* Government tab: what's coming up for each branch (court arguments and rulings, scheduled votes and deadlines,
+   executive deadlines and effective dates), from upcoming.json events tagged with "branch". */
+const BRANCH_NAME={executive:"Executive",legislative:"Congress",judicial:"Courts"};
+function upcomingBranch(feed,br){
+  if(!upcoming){loadUpcoming();return;}
+  const today=fmtKey.format(new Date());
+  const ev=(upcoming.events||[]).filter(e=>e.branch&&(br==="all"||e.branch===br)&&e.date>=today).sort((a,b)=>a.date<b.date?-1:1).slice(0,br==="all"?8:6);
+  const c=el("section","upcoming up-branch"); const d2=el("div","dateline");
+  d2.append(el("span",null,br==="all"?"Coming up in Washington":{executive:"Coming up: executive",legislative:"Coming up in Congress",judicial:"Coming up in the courts"}[br])); c.append(d2);
+  if(!ev.length){c.append(el("p","edition-count",{executive:"Nothing scheduled yet. Deadlines, signings and effective dates are added as they're announced.",legislative:"No votes scheduled yet. Scheduled votes and deadlines are added as they're announced.",judicial:"Nothing scheduled yet. Arguments and expected rulings are added as they're announced.",all:"Nothing scheduled yet."}[br])); feed.append(c); return;}
+  const ul=el("ul","up-list");
+  for(const e of ev){const li=el("li"); const t=el("span","up-text");
+    if(br==="all") t.append(el("b","up-br",BRANCH_NAME[e.branch]+" · "));
+    t.append(document.createTextNode(e.text));
+    if(e.detail) t.append(el("span","up-detail",e.detail));
+    li.append(el("span","up-date",e.when||fmtWD.format(new Date(e.date+"T12:00:00Z"))), t); ul.append(li);}
+  c.append(ul); feed.append(c);
 }
 
 let histData=null;
@@ -711,6 +730,7 @@ function render(){
   const brk=activeBreaking(); if(brk.length) breakingBanner(feed,brk);
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
+  if(region==="government") upcomingBranch(feed,sub);
   let shown=items.filter(it=>{
     if(lvOf(it)<minLevel) return false; const s=secOf(it);
     if(region==="government") return s==="news"&&it.region!=="World"&&(sub==="all"||inBranch[sub](it));

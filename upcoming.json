@@ -10,16 +10,37 @@
    "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
   },
   {
+   "date": "2026-09-30",
+   "when": "This week",
+   "branch": "legislative",
+   "text": "Senate votes pending on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
+   "detail": "Cloture has been filed on all three; the House passed H.R. 7008 in July."
+  },
+  {
    "date": "2026-10-02",
    "text": "September jobs report, 8:30 a.m. ET."
   },
   {
    "date": "2026-10-05",
-   "text": "Supreme Court opens its new term."
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change."
+  },
+  {
+   "date": "2026-10-13",
+   "branch": "judicial",
+   "text": "Supreme Court hears Genalo v. Black.",
+   "detail": "Whether holding noncitizens in long detention without a bond hearing violates the Constitution."
   },
   {
    "date": "2026-10-14",
    "text": "September inflation (CPI) report, 8:30 a.m. ET."
+  },
+  {
+   "date": "2026-10-14",
+   "branch": "judicial",
+   "text": "Supreme Court hears Salazar v. Paramount Global.",
+   "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
   },
   {
    "date": "2026-10-28",
@@ -30,8 +51,17 @@
    "text": "Midterm elections."
   },
   {
+   "date": "2026-12-01",
+   "when": "December",
+   "branch": "judicial",
+   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+  },
+  {
    "date": "2026-12-11",
-   "text": "Government funding deadline."
+   "text": "Government funding deadline.",
+   "branch": "legislative",
+   "detail": "Congress must pass funding or another stopgap by then to avoid a partial government shutdown."
   }
  ]
 }

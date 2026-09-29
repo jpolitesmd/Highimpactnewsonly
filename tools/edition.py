@@ -178,7 +178,7 @@ def main():
         rows = []
         for ev in nxt:
             d = datetime.date.fromisoformat(ev["date"])
-            rows.append((f"{d.strftime('%b')} {d.day}", ev["text"]))
+            rows.append((ev.get("when") or f"{d.strftime('%b')} {d.day}", ev["text"]))
         lines += [es.section("The week ahead" if edition == "weekend" else "Coming up"), es.dated(rows)]
     lines += [es.signoff("That's the news. Put the phone down and enjoy your day." if edition == "morning"
                          else "That's the weekend. Put the phone down and enjoy your Sunday evening." if edition == "weekend"

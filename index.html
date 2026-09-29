@@ -25,7 +25,7 @@ header.masthead{width:100%}
 .logo .ls{font-family:"Pinyon Script",cursive;font-size:1.22em;color:var(--accent)}
 .logo .lp.gap{margin-left:.25em}
 .logo .lbars{height:.72em;width:auto;margin-left:.05em}
-.tagline{margin:4px 0 0;font:500 12px var(--sans);letter-spacing:.1em;text-wrap:balance;text-transform:uppercase;color:var(--muted)}
+.tagline{margin:16px 0 0;font:500 12px var(--sans);letter-spacing:.1em;text-wrap:balance;text-transform:uppercase;color:var(--muted)}
 .motto{display:none}
 .edition{margin-top:10px;font:400 14px var(--sans);color:var(--muted);display:flex;gap:4px 16px;justify-content:center;flex-wrap:wrap}
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);margin-top:22px;margin-inline:-20px;padding:0 20px;border-bottom:1px solid var(--rule)}
@@ -91,6 +91,13 @@ li.lv4 .plate{color:var(--i4)}
 .signoff{margin:28px 0 0;text-align:center;font-style:italic;color:var(--muted)}
 .colophon{margin-top:10px;text-align:center;font:500 13px var(--sans);letter-spacing:.3em;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+.plate.photo{padding:0;overflow:hidden;background:var(--faint)}
+.plate.photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.85)}
+li.item{grid-template-columns:minmax(0,1fr) 128px}
+.plate{width:128px;height:96px}
+@media (max-width:560px){li.item{grid-template-columns:minmax(0,1fr) 84px}.plate{width:84px;height:63px}}
+.txt p.more{margin-top:12px;padding-top:12px;border-top:1px solid var(--rule)}
+.photo-credit{margin-top:8px}
 </style>
 </head><body>
 <div class="wrap">
@@ -131,7 +138,7 @@ li.lv4 .plate{color:var(--i4)}
   </div>
 
   <div class="key">
-    <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
+    <b>Impact scale.</b> 1 minor · 2 notable · 3 significant (affects a large group or a large sum) · 4 major (binding national action, war developments) · 5 critical. Times are Eastern.<br><br><b>Photos</b> are free-licensed images from Unsplash chosen by topic; they illustrate the subject, not the specific event.<br><br><b>How this works.</b> Items are gathered hourly from official government sources and news reports, and each is written as a single plain statement of what happened. Summaries and impact ratings are produced automatically by AI and can contain errors. Always check the linked source.
   </div>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
   <div class="colophon" aria-hidden="true">— 30 —</div>
@@ -140,6 +147,7 @@ li.lv4 .plate{color:var(--i4)}
 <script>
 const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V56M46 70V56M58 70V56M70 70V56M82 70V56M94 70V56M16 56H104M30 56V48H90V56M36 48C36 26 84 26 84 48M60 31V20M55 20H65M60 20V12\"/>", "court": "<path d=\"M10 82H110M16 76H104M22 70H98M28 70V40M40 70V40M52 70V40M68 70V40M80 70V40M92 70V40M22 40H98M18 36L60 12L102 36Z\"/><circle cx=\"60\" cy=\"27\" r=\"4\"/>", "whitehouse": "<path d=\"M8 80H112M14 80V46H106V80M40 80V54M50 80V54M70 80V54M80 80V54M34 46C34 34 86 34 86 46M60 36V14M60 14H74V22H60M22 56H30V66H22ZM90 56H98V66H90Z\"/>", "globe": "<circle cx=\"60\" cy=\"45\" r=\"32\"/><ellipse cx=\"60\" cy=\"45\" rx=\"14\" ry=\"32\"/><path d=\"M28 45H92M33 29H87M33 61H87\"/>", "factory": "<path d=\"M8 80H112M14 80V50L34 38V50L54 38V50L74 38V80M74 80V56H106V80M84 56V20H92V56M96 56V28H102V56M22 62H28M38 62H44M54 62H60\"/><circle cx=\"90\" cy=\"12\" r=\"4\"/><circle cx=\"99\" cy=\"8\" r=\"3\"/>", "ship": "<path d=\"M12 56H108L98 70H22ZM28 56V46H54V56M34 46V38H46V46M62 56V50H98V56M8 82C16 76 24 76 32 82S48 88 56 82 72 76 80 82 96 88 104 82 112 78 116 80\"/>", "ballot": "<path d=\"M24 46H96V82H24ZM42 54H78M46 46L50 14H76L72 46M56 24H68M55 32H66\"/>", "gavel": "<path d=\"M20 82H76M26 82V74H70V82M52 18L80 46M42 28L70 56M47 23L75 51M62 42L98 78\"/>", "sports": "<path d=\"M60 84V54M34 54H86M34 54V14M86 54V14\"/><ellipse cx=\"60\" cy=\"30\" rx=\"13\" ry=\"8\" transform=\"rotate(-25 60 30)\"/><path d=\"M55 31L65 27M57 27L58 30M60 26L61 29M63 25L64 28\"/>", "trade": "<path d=\"M8 80H112M16 80V58H48V80M16 69H48M32 58V80M50 80V58H82V80M50 69H82M66 58V80M33 58V36H65V58M33 47H65M49 36V58M84 80V64H104V80\"/>", "tech": "<path d=\"M38 24H82V66H38ZM48 34H72V56H48ZM46 24V14M60 24V14M74 24V14M46 66V76M60 66V76M74 66V76M38 32H28M38 45H28M38 58H28M82 32H92M82 45H92M82 58H92\"/>", "nuclear": "<ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(60 60 45)\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(120 60 45)\"/><circle cx=\"60\" cy=\"45\" r=\"5\"/>", "conflict": "<path d=\"M26 16L90 76M94 16L30 76M76 72L90 58M44 72L30 58M22 20L30 12M98 20L90 12M84 68L96 80M36 68L24 80\"/>", "mining": "<path d=\"M6 82L38 42L54 60L72 36L114 82ZM30 30L62 62M22 38C24 26 34 18 46 20\"/>", "coin": "<ellipse cx=\"50\" cy=\"26\" rx=\"30\" ry=\"9\"/><path d=\"M20 26V62C20 67 80 67 80 62V26M20 38C20 43 80 43 80 38M20 50C20 55 80 55 80 50\"/><circle cx=\"88\" cy=\"58\" r=\"20\"/><circle cx=\"88\" cy=\"58\" r=\"14\"/><path d=\"M82 52L94 64M94 52L82 64\"/>", "lungs": "<path d=\"M60 8V38M60 38L50 48M60 38L70 48M46 24C30 24 16 48 16 66C16 80 30 84 42 76C50 70 52 60 52 50M74 24C90 24 104 48 104 66C104 80 90 84 78 76C70 70 68 60 68 50M30 58L40 52M90 58L80 52\"/>", "pulse": "<rect x=\"10\" y=\"14\" width=\"100\" height=\"62\" rx=\"4\"/><path d=\"M14 48H38L46 30L56 66L66 22L74 48H106\"/>"};
 TOPIC_ART.chart='<path d="M14 80H108M14 80V12M24 66L44 50L60 58L82 30L100 22M88 20L100 22L96 34"/><path d="M28 80V72M44 80V64M60 80V68M76 80V56M92 80V48"/>';
+const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis Velazquez"}, "court": {"id": "1658958327132-a80f8a9409fb", "by": "Fine Photographics"}, "gavel": {"id": "1676181739859-08330dea8999", "by": "Wesley Tingey"}, "whitehouse": {"id": "1485394595691-5411947d63a4", "by": "David Everett Strickler"}, "globe": {"id": "1589519160142-7d1a51b43eaf", "by": "Greg Rosenke"}, "factory": {"id": "1765810542186-c6becc0687b1", "by": "Jonathan Wuyts"}, "ship": {"id": "1518527989017-5baca7a58d3c", "by": "Shaah Shahidh"}, "ballot": {"id": "1540910419892-4a36d2c3266c", "by": "Element5 Digital"}, "trade": {"id": "1605732562742-3023a888e56e", "by": "Aron Yigin"}, "tech": {"id": "1680992046626-418f7e910589", "by": "Tyler"}, "nuclear": {"id": "1630142895963-6996ae6b3a5b", "by": "Lukáš Lehotský"}, "conflict": {"id": "1519074031893-210d39bd3885", "by": "Don Jackson-Wyatt"}, "mining": {"id": "1654461339694-128902c5c075", "by": "Chris Münch"}, "coin": {"id": "1621504450181-5d356f61d307", "by": "Art Rachen"}, "sports": {"id": "1509928015542-fcc9b3bcd048", "by": "Chris Kursikowski"}, "lungs": {"id": "1616012480717-fd9867059ca0", "by": "Umanoide"}, "pulse": {"id": "1505751172876-fa1923c5c528", "by": "Hush Naidoo Jade Photography"}, "chart": {"id": "1560221328-12fe60f83ab8", "by": "Nicholas Cappello"}};
 const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
 const TABS=["today","government","world","money","health","sports","history"];
 let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
@@ -191,7 +199,11 @@ function card(it,dateMode){
   if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);} else if(it.source) src.append(el("span",null,it.source));
   txt.append(src); li.append(meta,txt);
   const fig=el("figure","plate"); fig.setAttribute("aria-hidden","true");
-  fig.innerHTML='<svg viewBox="0 0 120 90">'+(TOPIC_ART[it.topic]||TOPIC_ART[it.region==="World"?"globe":"capitol"])+'</svg>';
+  const topic=TOPIC_ART[it.topic]?it.topic:(it.region==="World"?"globe":"capitol");
+  const svg='<svg viewBox="0 0 120 90">'+TOPIC_ART[topic]+'</svg>';
+  const ph=it.image&&/^https:\/\//.test(it.image.src||"")?{src:it.image.src,by:it.image.credit||""}:(TOPIC_PHOTO[topic]?{src:"https://images.unsplash.com/photo-"+TOPIC_PHOTO[topic].id+"?w=320&h=240&fit=crop&auto=format&q=70",by:TOPIC_PHOTO[topic].by}:null);
+  if(ph){const img=new Image(); img.src=ph.src; img.alt=""; img.loading="lazy"; img.decoding="async"; if(ph.by) img.title="Photo: "+ph.by+" / Unsplash";
+    img.onerror=()=>{fig.classList.remove("photo"); fig.innerHTML=svg;}; fig.classList.add("photo"); fig.append(img);} else fig.innerHTML=svg;
   li.append(fig); return li;
 }
 function section(title,list,dateMode){const s=el("section","day"); const dl=el("div","dateline"); dl.append(el("span",null,title)); s.append(dl); const ol=el("ol"); for(const it of list) ol.append(card(it,dateMode)); s.append(ol); return s;}

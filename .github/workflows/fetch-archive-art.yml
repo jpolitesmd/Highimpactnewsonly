@@ -1,0 +1,55 @@
+# One-off helper: downloads public-domain cartoon candidates from Wikimedia Commons into archive-art/.
+# Run manually (Actions tab -> Fetch archive art -> Run workflow) or by changing tools/art-candidates.json.
+name: Fetch archive art
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/art-candidates.json"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download candidates
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.parse, urllib.request
+          UA = {"User-Agent": "HighImpactNewsDaily/1.0 (https://highimpactnewsdaily.com; hello@highimpactnewsdaily.com)"}
+          def get(url):
+              with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r: return r.read()
+          os.makedirs("archive-art/candidates", exist_ok=True)
+          out = []
+          for c in json.load(open("tools/art-candidates.json")):
+              q = urllib.parse.urlencode({"action":"query","format":"json","generator":"search","gsrnamespace":"6",
+                    "gsrsearch": c["search"] + " filetype:bitmap","gsrlimit":"3","prop":"imageinfo",
+                    "iiprop":"url|size|extmetadata|mime","iiurlwidth":"900"})
+              try:
+                  pages = json.loads(get("https://commons.wikimedia.org/w/api.php?" + q)).get("query", {}).get("pages", {})
+              except Exception as e:
+                  print("search failed", c["id"], e); continue
+              ranked = sorted(pages.values(), key=lambda p: p.get("index", 99))
+              for n, p in enumerate(ranked[:2]):
+                  ii = (p.get("imageinfo") or [{}])[0]; md = ii.get("extmetadata", {})
+                  val = lambda k: re.sub("<[^>]+>", "", md.get(k, {}).get("value", ""))[:200]
+                  src = ii.get("thumburl") or ii.get("url")
+                  if not src: continue
+                  fn = f"archive-art/candidates/{c['id']}-{n}.jpg"
+                  try: open(fn, "wb").write(get(src))
+                  except Exception as e: print("download failed", fn, e); continue
+                  out.append({"id": c["id"], "n": n, "file": fn, "commons": ii.get("descriptionurl"), "title_guess": c["title"],
+                              "file_title": p.get("title"), "license": val("LicenseShortName"), "usage": val("UsageTerms"),
+                              "date": val("DateTimeOriginal"), "artist": val("Artist"), "credit": val("Credit"),
+                              "desc": val("ImageDescription"), "w": ii.get("thumbwidth"), "h": ii.get("thumbheight")})
+                  print("ok", fn, p.get("title"), val("LicenseShortName"))
+          json.dump(out, open("archive-art/candidates/index.json", "w"), indent=1, ensure_ascii=False)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "High Impact News Daily"
+          git config user.email "jpolitesmd@users.noreply.github.com"
+          git add archive-art
+          git commit -m "Archive art candidates" || exit 0
+          git pull --rebase && git push

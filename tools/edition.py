@@ -152,7 +152,7 @@ def main():
     label = {"morning": "Morning edition", "evening": "Evening edition", "weekend": "Weekend review"}[edition]
     head = f"{label}, {now.strftime('%A, %b')} {now.day}"
     lead = rank(top)[0]["text"] if top else ""  # subject and archive lead: the most important story
-    subject = f"{head}: {shorten(lead, max(20, 90 - len(head)))}" if top else head
+    subject = f"{now.strftime('%A, %b')} {now.day} - {label}"  # e.g. "Tuesday, Sep 29 - Evening edition"
 
     import emailstyle as es
     key = f"{date}-{edition}"

@@ -45,8 +45,8 @@ li.item{display:grid;grid-template-columns:48px 1fr;gap:12px;padding:14px 14px 1
 li.lv5{background:var(--card-hi);box-shadow:inset 0 0 0 1px var(--i5)}
 .meta{display:flex;flex-direction:column;gap:7px;align-items:flex-start;padding-top:3px}
 .time{font:500 12px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
-.pips{display:flex;gap:2px}
-.pips i{width:7px;height:12px;border-radius:2px;background:var(--rule)}
+.pips{display:flex;align-items:flex-end;gap:2px;height:17px}
+.pips i{width:5px;border-radius:1px;background:var(--rule)}
 .txt{min-width:0}
 .txt p{margin:0;font-size:17px;line-height:1.42}
 .lv5 .txt p,.lv4 .txt p{font-weight:500}
@@ -147,7 +147,8 @@ function render(){
       const t=new Date(it.time);
       meta.append(el("span","time",isNaN(t)||it.time_known===false?"—":fmtTime.format(t)));
       const pips=el("span","pips"); pips.setAttribute("aria-label","Impact "+lv+" of 5");
-      for(let i=1;i<=5;i++){const p=el("i"); if(i<=lv)p.style.background="var("+LEVEL_COLOR[lv]+")"; pips.append(p);}
+      const H=[0,4,7,10,13,17];
+      for(let i=1;i<=5;i++){const p=el("i"); p.style.height=H[i]+"px"; if(i<=lv)p.style.background="var("+LEVEL_COLOR[i]+")"; pips.append(p);}
       meta.append(pips);
       const txt=el("div","txt");
       txt.append(el("p",null,it.text||""));

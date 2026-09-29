@@ -104,6 +104,7 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
 .masthead .edition,.masthead .edition .status{color:#6e5a44}
 .masthead .edition{border-color:rgba(43,29,18,.3)}
 .bar{margin-top:0}
+.tab-intro{margin:18px 0 0;text-align:center;font-style:italic;font-size:15px;color:var(--muted)}
 </style>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%232b1d12%22/%3E%3Crect x=%226%22 y=%2218%22 width=%224%22 height=%228%22 fill=%22%23c9b48f%22/%3E%3Crect x=%2212%22 y=%2214%22 width=%224%22 height=%2212%22 fill=%22%23d9a441%22/%3E%3Crect x=%2218%22 y=%2210%22 width=%224%22 height=%2216%22 fill=%22%23d47a42%22/%3E%3Crect x=%2224%22 y=%226%22 width=%224%22 height=%2220%22 fill=%22%23c2453a%22/%3E%3C/svg%3E">
 </head><body>
@@ -130,9 +131,12 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
       <button id="rUS" data-r="US">U.S.</button>
       <button id="rWorld" data-r="World">World</button>
       <button id="rCourts" data-r="judicial">Judicial Branch</button>
+      <button id="rFin" data-r="finance">Finance</button>
+      <button id="rHealth" data-r="health">Health</button>
     </div>
   </div>
 
+  <p class="tab-intro" id="tabIntro" hidden></p>
   <div id="feed">
     <div class="empty">Loading the latest items…</div>
   </div>
@@ -144,7 +148,7 @@ header.masthead{background:#efe4cc;box-shadow:0 0 0 100vmax #efe4cc;clip-path:in
 </div>
 
 <script>
-const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V56M46 70V56M58 70V56M70 70V56M82 70V56M94 70V56M16 56H104M30 56V48H90V56M36 48C36 26 84 26 84 48M60 31V20M55 20H65M60 20V12\"/>", "court": "<path d=\"M10 82H110M16 76H104M22 70H98M28 70V40M40 70V40M52 70V40M68 70V40M80 70V40M92 70V40M22 40H98M18 36L60 12L102 36Z\"/><circle cx=\"60\" cy=\"27\" r=\"4\"/>", "whitehouse": "<path d=\"M8 80H112M14 80V46H106V80M40 80V54M50 80V54M70 80V54M80 80V54M34 46C34 34 86 34 86 46M60 36V14M60 14H74V22H60M22 56H30V66H22ZM90 56H98V66H90Z\"/>", "globe": "<circle cx=\"60\" cy=\"45\" r=\"32\"/><ellipse cx=\"60\" cy=\"45\" rx=\"14\" ry=\"32\"/><path d=\"M28 45H92M33 29H87M33 61H87\"/>", "factory": "<path d=\"M8 80H112M14 80V50L34 38V50L54 38V50L74 38V80M74 80V56H106V80M84 56V20H92V56M96 56V28H102V56M22 62H28M38 62H44M54 62H60\"/><circle cx=\"90\" cy=\"12\" r=\"4\"/><circle cx=\"99\" cy=\"8\" r=\"3\"/>", "ship": "<path d=\"M12 56H108L98 70H22ZM28 56V46H54V56M34 46V38H46V46M62 56V50H98V56M8 82C16 76 24 76 32 82S48 88 56 82 72 76 80 82 96 88 104 82 112 78 116 80\"/>", "ballot": "<path d=\"M24 46H96V82H24ZM42 54H78M46 46L50 14H76L72 46M56 24H68M55 32H66\"/>", "gavel": "<path d=\"M20 82H76M26 82V74H70V82M52 18L80 46M42 28L70 56M47 23L75 51M62 42L98 78\"/>", "sports": "<path d=\"M60 84V54M34 54H86M34 54V14M86 54V14\"/><ellipse cx=\"60\" cy=\"30\" rx=\"13\" ry=\"8\" transform=\"rotate(-25 60 30)\"/><path d=\"M55 31L65 27M57 27L58 30M60 26L61 29M63 25L64 28\"/>", "trade": "<path d=\"M8 80H112M16 80V58H48V80M16 69H48M32 58V80M50 80V58H82V80M50 69H82M66 58V80M33 58V36H65V58M33 47H65M49 36V58M84 80V64H104V80\"/>", "tech": "<path d=\"M38 24H82V66H38ZM48 34H72V56H48ZM46 24V14M60 24V14M74 24V14M46 66V76M60 66V76M74 66V76M38 32H28M38 45H28M38 58H28M82 32H92M82 45H92M82 58H92\"/>", "nuclear": "<ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(60 60 45)\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(120 60 45)\"/><circle cx=\"60\" cy=\"45\" r=\"5\"/>", "conflict": "<path d=\"M26 16L90 76M94 16L30 76M76 72L90 58M44 72L30 58M22 20L30 12M98 20L90 12M84 68L96 80M36 68L24 80\"/>", "mining": "<path d=\"M6 82L38 42L54 60L72 36L114 82ZM30 30L62 62M22 38C24 26 34 18 46 20\"/>"};
+const TOPIC_ART={"capitol": "<path d=\"M8 80H112M14 80V70H106V80M22 70V56M34 70V56M46 70V56M58 70V56M70 70V56M82 70V56M94 70V56M16 56H104M30 56V48H90V56M36 48C36 26 84 26 84 48M60 31V20M55 20H65M60 20V12\"/>", "court": "<path d=\"M10 82H110M16 76H104M22 70H98M28 70V40M40 70V40M52 70V40M68 70V40M80 70V40M92 70V40M22 40H98M18 36L60 12L102 36Z\"/><circle cx=\"60\" cy=\"27\" r=\"4\"/>", "whitehouse": "<path d=\"M8 80H112M14 80V46H106V80M40 80V54M50 80V54M70 80V54M80 80V54M34 46C34 34 86 34 86 46M60 36V14M60 14H74V22H60M22 56H30V66H22ZM90 56H98V66H90Z\"/>", "globe": "<circle cx=\"60\" cy=\"45\" r=\"32\"/><ellipse cx=\"60\" cy=\"45\" rx=\"14\" ry=\"32\"/><path d=\"M28 45H92M33 29H87M33 61H87\"/>", "factory": "<path d=\"M8 80H112M14 80V50L34 38V50L54 38V50L74 38V80M74 80V56H106V80M84 56V20H92V56M96 56V28H102V56M22 62H28M38 62H44M54 62H60\"/><circle cx=\"90\" cy=\"12\" r=\"4\"/><circle cx=\"99\" cy=\"8\" r=\"3\"/>", "ship": "<path d=\"M12 56H108L98 70H22ZM28 56V46H54V56M34 46V38H46V46M62 56V50H98V56M8 82C16 76 24 76 32 82S48 88 56 82 72 76 80 82 96 88 104 82 112 78 116 80\"/>", "ballot": "<path d=\"M24 46H96V82H24ZM42 54H78M46 46L50 14H76L72 46M56 24H68M55 32H66\"/>", "gavel": "<path d=\"M20 82H76M26 82V74H70V82M52 18L80 46M42 28L70 56M47 23L75 51M62 42L98 78\"/>", "sports": "<path d=\"M60 84V54M34 54H86M34 54V14M86 54V14\"/><ellipse cx=\"60\" cy=\"30\" rx=\"13\" ry=\"8\" transform=\"rotate(-25 60 30)\"/><path d=\"M55 31L65 27M57 27L58 30M60 26L61 29M63 25L64 28\"/>", "trade": "<path d=\"M8 80H112M16 80V58H48V80M16 69H48M32 58V80M50 80V58H82V80M50 69H82M66 58V80M33 58V36H65V58M33 47H65M49 36V58M84 80V64H104V80\"/>", "tech": "<path d=\"M38 24H82V66H38ZM48 34H72V56H48ZM46 24V14M60 24V14M74 24V14M46 66V76M60 66V76M74 66V76M38 32H28M38 45H28M38 58H28M82 32H92M82 45H92M82 58H92\"/>", "nuclear": "<ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(60 60 45)\"/><ellipse cx=\"60\" cy=\"45\" rx=\"38\" ry=\"13\" transform=\"rotate(120 60 45)\"/><circle cx=\"60\" cy=\"45\" r=\"5\"/>", "conflict": "<path d=\"M26 16L90 76M94 16L30 76M76 72L90 58M44 72L30 58M22 20L30 12M98 20L90 12M84 68L96 80M36 68L24 80\"/>", "mining": "<path d=\"M6 82L38 42L54 60L72 36L114 82ZM30 30L62 62M22 38C24 26 34 18 46 20\"/>", "coin": "<ellipse cx=\"50\" cy=\"26\" rx=\"30\" ry=\"9\"/><path d=\"M20 26V62C20 67 80 67 80 62V26M20 38C20 43 80 43 80 38M20 50C20 55 80 55 80 50\"/><circle cx=\"88\" cy=\"58\" r=\"20\"/><circle cx=\"88\" cy=\"58\" r=\"14\"/><path d=\"M82 52L94 64M94 52L82 64\"/>", "lungs": "<path d=\"M60 8V38M60 38L50 48M60 38L70 48M46 24C30 24 16 48 16 66C16 80 30 84 42 76C50 70 52 60 52 50M74 24C90 24 104 48 104 66C104 80 90 84 78 76C70 70 68 60 68 50M30 58L40 52M90 58L80 52\"/>", "pulse": "<rect x=\"10\" y=\"14\" width=\"100\" height=\"62\" rx=\"4\"/><path d=\"M14 48H38L46 30L56 66L66 22L74 48H106\"/>"};
 const LEVEL_COLOR=["","--i1","--i2","--i3","--i4","--i5"];
 let items=[], minLevel=1, region="all", loaded=false;
 try{minLevel=+localStorage.getItem("pw_min")||1; region=localStorage.getItem("pw_region")||"all";}catch(e){}
@@ -174,9 +178,20 @@ function render(){
   const feed=document.getElementById("feed");
   if(!loaded)return;
   const isCourt=it=>it.judicial===true||it.topic==="court"||it.topic==="gavel";
-  const judicial=region==="judicial";
-  let shown=items.filter(it=>(+it.impact||1)>=minLevel && (region==="all"||(judicial?isCourt(it):it.region===region)));
+  const sec=it=>it.section||"news";
+  const judicial=region==="judicial", special=region==="finance"||region==="health";
+  let shown=items.filter(it=>{
+    if((+it.impact||1)<minLevel) return false;
+    if(special) return sec(it)===region;
+    if(sec(it)!=="news") return false;
+    if(judicial) return isCourt(it);
+    return region==="all"||it.region===region;
+  });
   if(judicial) shown=shown.slice().sort((a,b)=>(+b.impact||1)-(+a.impact||1)||(a.time<b.time?1:-1));
+  if(special){ const k=t=>fmtKey.format(new Date(t)); shown=shown.slice().sort((a,b)=>k(b.time).localeCompare(k(a.time))||(+b.impact||1)-(+a.impact||1)); }
+  const intro=document.getElementById("tabIntro");
+  intro.textContent=region==="finance"?"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). Facts only, not financial advice.":region==="health"?"Pulmonary and critical care: new trials, guidelines and FDA actions. For clinicians; not medical advice.":region==="judicial"?"Supreme Court and federal court decisions, highest impact first.":"";
+  intro.hidden=!intro.textContent;
   feed.replaceChildren();
   if(!shown.length){
     feed.append(el("div","empty", items.length?(judicial?"No court decisions at this level yet. Lower the impact level to see more.":"Nothing at this level yet. Lower the impact level to see more."):"No items yet. The hourly check will add the first ones."));
@@ -207,7 +222,7 @@ function render(){
       if(it.detail) txt.append(el("p","more",it.detail));
       if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
       const src=el("div","src");
-      src.append(el("span","tag",it.court?it.court:(it.region==="World"?"World":"U.S.")));
+      src.append(el("span","tag",it.court?it.court:it.section==="finance"?"Crypto":it.section==="health"?"Pulm / Critical Care":(it.region==="World"?"World":"U.S.")));
       if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);}
       else if(it.source) src.append(el("span",null,it.source));
       txt.append(src);

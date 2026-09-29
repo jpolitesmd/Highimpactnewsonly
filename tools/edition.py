@@ -9,7 +9,10 @@ Usage (run from the repo root):
 Morning edition: "Overnight" (top 5 since 5 p.m. Eastern yesterday), then "Yesterday's biggest
 stories" (top 5 from yesterday not already listed), plus "This week so far" (3 one-line headlines:
 this week's impact 4-5 stories not already in the edition, filled with 3/5 stories; none on Mondays).
-Evening edition: top 8 stories that happened since the morning edition (5 a.m. Eastern today);
+Weekends: no Saturday or Sunday morning email and no Saturday evening email. "evening" on a Sunday
+builds the Weekend review instead: top 10 stories since the Friday 5 p.m. edition. Monday morning's
+recap leaves out stories already in Sunday's Weekend review.
+Evening edition (Monday-Friday): top 8 stories that happened since the morning edition (5 a.m. Eastern today);
 never yesterday's stories or anything already in this morning's edition.
 Every edition is saved to archive/YYYY-MM-DD-<edition>.json and listed in archive/index.json,
 then tools/pages.py rebuilds the permanent web pages in editions/ and sitemap.xml.
@@ -67,19 +70,24 @@ def select(items, edition, now):
         since = datetime.datetime.combine(yday, EVENING_SEND, ET)
         overnight = rank([i for i in items if t(i) and since <= t(i) <= now and fresh_ok(i)])[:5]
         ids = {i["id"] for i in overnight}
+        ids |= archived_ids(f"{yday.isoformat()}-weekend")  # Monday: skip what Sunday's review covered
         ylist = [i for i in items if t(i) and t(i).date() == yday and i["id"] not in ids]
         recap = rank([i for i in ylist if eligible(i)])[:5]
         if len(recap) < 3:
             ids2 = {i["id"] for i in recap}
             recap = rank(recap + rank([i for i in ylist if i["id"] not in ids2 and fresh_ok(i)])[:3 - len(recap)])
-        if len(overnight) + len(recap) < 3:  # very quiet stretch: fall back to the last 72 hours
-            ids = {i["id"] for i in overnight + recap}
+        if len(overnight) + len(recap) < 3 and now.weekday() != 0:  # very quiet stretch (not Mondays): fall back to the last 72 hours
+            ids |= {i["id"] for i in overnight + recap}
             recap += rank([i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=72)
                            and eligible(i) and i["id"] not in ids])[:5 - len(overnight) - len(recap)]
         groups = []
         if overnight: groups.append(("Overnight", len(overnight)))
         if recap: groups.append(("Yesterday's biggest stories" if overnight else None, len(recap)))
         return overnight + recap, datetime.timedelta(hours=36), groups
+    if edition == "weekend":  # Sunday evening: everything since Friday's 5 p.m. edition
+        since = datetime.datetime.combine(today - datetime.timedelta(days=2), EVENING_SEND, ET)
+        top = rank([i for i in items if t(i) and since <= t(i) <= now and fresh_ok(i)])[:10]
+        return top, now - since, [(None, len(top))]
     # Evening: only what happened since the morning edition (about 5 a.m. Eastern), nothing from yesterday.
     since = datetime.datetime.combine(today, MORNING_SWEEP, ET)
     morning = archived_ids(f"{today.isoformat()}-morning")
@@ -110,9 +118,15 @@ def shorten(s, n):
 
 def main():
     edition = sys.argv[1] if len(sys.argv) > 1 else "morning"
-    assert edition in ("morning", "evening")
+    assert edition in ("morning", "evening", "weekend")
     archive_only = "--archive-only" in sys.argv
     now = datetime.datetime.now(ET)
+    # Weekends: one email only, the Sunday evening Weekend review.
+    if (edition == "morning" and now.weekday() >= 5) or (edition == "evening" and now.weekday() == 5):
+        print(f"No {edition} email on {now.strftime('%A')}s; the Sunday evening Weekend review covers the weekend. "
+              "Nothing written.")
+        return
+    if edition == "evening" and now.weekday() == 6: edition = "weekend"
     date = now.date().isoformat()
     items = json.load(open("items.json"))["items"]
     upcoming = json.load(open("upcoming.json")).get("events", []) if os.path.exists("upcoming.json") else []
@@ -124,14 +138,18 @@ def main():
         if heading: starts[n0] = (heading, g > 0)
         n0 += count
     listed = {i["id"] for i in top}
+    if edition == "morning":  # Monday: don't repeat what Sunday's Weekend review already covered
+        listed |= archived_ids(f"{(now.date() - datetime.timedelta(days=1)).isoformat()}-weekend")
     also = []
     for s in ("health", "sports", "tech", "finance"):
         c = rank([i for i in items if sec(i) == s and i["id"] not in listed and t(i) and now - t(i) <= window])
         if c: also.append(c[0])
     week = week_so_far(items, now, listed | {i["id"] for i in also}) if edition == "morning" else []
-    nxt = sorted([e for e in upcoming if e.get("date", "") >= date], key=lambda e: e["date"])[:3]
+    nxt = sorted([e for e in upcoming if e.get("date", "") >= date], key=lambda e: e["date"])
+    nxt = ([e for e in nxt if e["date"] <= (now.date() + datetime.timedelta(days=7)).isoformat()][:5] or nxt[:3]) \
+        if edition == "weekend" else nxt[:3]  # Weekend review: the week ahead
 
-    label = "Morning edition" if edition == "morning" else "Evening edition"
+    label = {"morning": "Morning edition", "evening": "Evening edition", "weekend": "Weekend review"}[edition]
     head = f"{label}, {now.strftime('%A, %b')} {now.day}"
     lead = rank(top)[0]["text"] if top else ""  # subject and archive lead: the most important story
     subject = f"{head}: {shorten(lead, max(20, 90 - len(head)))}" if top else head
@@ -143,7 +161,8 @@ def main():
              f'style="display:block;width:100%;max-width:560px;height:auto;border:0"></a>', "",
              f"**{label}, {now.strftime('%A, %B')} {now.day}**", "",
              "*What happened overnight, and yesterday's biggest stories. Five minutes. No spin.*"
-             if edition == "morning" else "*What happened since this morning. Five minutes. No spin.*", ""]
+             if edition == "morning" else "*The weekend's most important news. Five minutes. No spin.*"
+             if edition == "weekend" else "*What happened since this morning. Five minutes. No spin.*", ""]
     for n, i in enumerate(top):
         if n in starts:
             heading, rule = starts[n]
@@ -159,21 +178,22 @@ def main():
         lines += [f"- {i.get('text', '')}" + (f" [{i.get('source', 'Source')}]({i['url']})" if i.get("url") else "")
                   for i in week] + [""]
     if also:
-        lines += ["---", "", "**Also today**", ""]
+        lines += ["---", "", "**Also this weekend**" if edition == "weekend" else "**Also today**", ""]
         lines += [f"- **{SEC_LABEL[sec(i)]}:** {i.get('text', '')}" for i in also] + [""]
     if nxt:
-        lines += ["**Coming up**", ""]
+        lines += ["**The week ahead**" if edition == "weekend" else "**Coming up**", ""]
         for e in nxt:
             d = datetime.date.fromisoformat(e["date"])
             lines.append(f"- {d.strftime('%b')} {d.day}: {e['text']}")
         lines.append("")
     key = f"{date}-{edition}"
     lines += ["That's the news. Put the phone down and enjoy your day." if edition == "morning"
+              else "That's the weekend. Put the phone down and enjoy your Sunday evening." if edition == "weekend"
               else "That's the day. Put the phone down and enjoy your evening.", "",
               "---", "",
               f"**Know someone who'd like this?** Forward this email, or send them "
               f"[a link to this edition]({SITE}/editions/{key}/).", "",
-              f"*Forwarded this? [Subscribe free]({SITE}/#subscribe) to get it twice a day.*", "",
+              f"*Forwarded this? [Subscribe free]({SITE}/#subscribe) to get it every weekday morning and evening, plus a Sunday weekend review.*", "",
               f"[Read it on the web]({SITE}/editions/{key}/) · "
               f"[Past editions]({SITE}/editions/)"]
     body = "\n".join(lines)

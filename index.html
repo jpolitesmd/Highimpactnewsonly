@@ -228,6 +228,15 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .ds-title{margin:14px 0 0;font:italic 400 19px/1.3 "IM Fell English",Georgia,serif;color:var(--fg)}
 .ds-credit{margin:4px 0 0;font:500 12px var(--sans);letter-spacing:.06em;color:var(--muted)}
 .ds-note{margin:10px auto 0;max-width:34em;font:400 15px/1.5 var(--serif);color:var(--muted);text-wrap:pretty}
+
+/* Closing illustration */
+.tj{margin:44px auto 0;max-width:520px;text-align:center}
+.tj img{display:block;width:100%;height:auto;border:1px solid var(--rule);padding:6px;background:var(--surface);box-shadow:0 6px 18px rgba(60,40,20,.08)}
+:root[data-theme="dark"] .tj img{filter:brightness(.9)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]):not([data-theme="sepia"]) .tj img{filter:brightness(.9)}}
+.tj figcaption{margin-top:12px}
+.tj-title{display:block;font:italic 400 19px/1.3 "IM Fell English",Georgia,serif;color:var(--fg)}
+.tj-sub{display:block;margin-top:4px;font:400 14px/1.45 var(--serif);color:var(--muted)}
 </style>
 </head><body>
 <div class="wrap">
@@ -300,6 +309,10 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
   <p class="pastlink"><a href="#about">About</a><span aria-hidden="true"> · </span><a href="#archive">Past editions</a><span aria-hidden="true"> · </span><a href="#subscribe">Get it by email</a><span aria-hidden="true"> · </span><a href="#privacy">Privacy</a></p>
   <div class="appearance" role="group" aria-label="Appearance"><span>Appearance</span><button type="button" data-t="auto">Auto</button><button type="button" data-t="light">Light</button><button type="button" data-t="sepia">Sepia</button><button type="button" data-t="dark">Dark</button></div>
   <p class="signoff">That’s the news. Put the phone down and enjoy your day.</p>
+  <figure class="tj">
+    <img src="assets/jefferson-phone.jpg" width="740" height="497" loading="lazy" decoding="async" alt="A pencil-style drawing of Thomas Jefferson in a carriage, reading news on a smartphone.">
+    <figcaption><span class="tj-title">Jefferson’s choice for AI-gathered news.</span><span class="tj-sub">Five minutes on the carriage ride, then the phone goes back in his waistcoat.</span></figcaption>
+  </figure>
   <div class="colophon" aria-hidden="true">— 30 —</div>
 </div>
 

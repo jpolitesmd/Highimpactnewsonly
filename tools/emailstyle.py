@@ -1,10 +1,10 @@
 """Shared look for every email (editions and breaking alerts).
 
-Emails are inline-styled HTML in the site's light colors (cream paper, near-black ink, burnt red), with
-a small stylesheet that switches to the site's dark colors when the reader's phone or mail app is in dark
-mode (Apple Mail, iOS Mail and others that support it): the paper turns transparent so it blends with the
-inbox's own dark background, text turns light, and a light-on-dark masthead replaces the cream one. Mail
-apps that ignore the stylesheet show the light version, which is readable everywhere. Fonts: Source Serif 4 where the mail app can load it
+Emails have no background of their own: they sit on the mail app's background (white or dark). Text is
+inline-styled in the site's light colors (near-black ink, burnt red), and a small stylesheet switches it to
+the site's dark colors when the reader's phone or mail app is in dark mode. The masthead is live text in
+the site's fonts; the flourishes are transparent images in mid-tones that read on light and dark alike.
+Fonts: Source Serif 4 where the mail app can load it
 (Apple Mail, iOS), falling back to Georgia; labels in the system sans. Each HTML block starts on its
 own line so Buttondown passes it through untouched.
 """
@@ -13,7 +13,7 @@ import html
 SITE = "https://hinewsdaily.com"
 IMG = f"{SITE}/assets/email"
 
-PAPER = "#faf7f1"   # page background (matches the site and the masthead image)
+PAPER = "#faf7f1"   # site background (used for the share box in light mode)
 INK = "#1d1a16"     # headlines
 BODY = "#3a342c"    # story text
 MUTED = "#6b6358"   # labels, captions
@@ -32,33 +32,39 @@ def link(text, url, color=ACCENT, underline=False):
 
 
 def open_paper():
-    """Opening of the paper wrapper. Everything after it sits on cream until close_paper()."""
+    """Opening wrapper and masthead. The wrapper has no background of its own, so the email sits on the
+    mail app's own background (white or dark); text colors switch with the reader's light/dark setting."""
     return (
-        '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&'
+        '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&'
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'
         # Stop iPhone Mail turning dates and times into red underlined links.
         'a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;'
         'font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}'
-        # Links in the mail service's own footer (subscribe / unsubscribe): quiet grey, not red.
-        f'a{{color:{MUTED}}}'
-        '.hd-mast-dark{display:none;max-height:0;overflow:hidden}'
         '@media (prefers-color-scheme:dark){'
-        '.hd-paper{background:transparent!important;background-color:transparent!important}'
         '.hd-ink{color:#f0ebe2!important}.hd-body{color:#d9d2c5!important}.hd-muted{color:#a59b8a!important}'
         '.hd-accent{color:#eb9d82!important}.hd-rule{border-color:#3d3831!important}'
+        '.hd-inkrule{border-color:#f0ebe2!important}'
         '.hd-box{background:#262320!important;background-color:#262320!important;border-color:#3d3831!important}'
-        '.hd-mast-light{display:none!important}'
-        '.hd-mast-dark{display:block!important;max-height:none!important;overflow:visible!important}'
-        'a{color:#a59b8a}}</style>\n'
-        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{PAPER}" class="hd-paper" '
-        f'style="width:100%;background:{PAPER};background-color:{PAPER};border-radius:6px;border-collapse:separate">'
-        f'<tr><td class="hd-paper hd-body" style="padding:18px 16px 24px;background:{PAPER};background-color:{PAPER};color:{BODY};'
-        f'font-family:{SERIF};font-size:15px;line-height:1.5">\n'
-        f'<a href="{SITE}/" style="text-decoration:none"><img class="hd-mast-light" src="{IMG}/masthead.png" '
-        f'alt="High Impact News Daily" width="560" height="173" style="display:block;width:100%;max-width:560px;height:auto;'
-        f'border:0;margin:0 auto"><img class="hd-mast-dark" src="{IMG}/masthead-dark.png" alt="High Impact News Daily" '
-        f'width="560" height="173" style="display:none;width:100%;max-width:560px;height:auto;border:0;margin:0 auto;'
-        f'max-height:0;overflow:hidden"></a>')
+        '}</style>\n'
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
+        f'style="width:100%;border-collapse:collapse">'
+        f'<tr><td class="hd-body" style="padding:6px 4px 20px;color:{BODY};font-family:{SERIF};font-size:15px;'
+        f'line-height:1.5">\n'
+        # Folio: double rule, small caps line, single rule (as on the site)
+        f'<p class="hd-inkrule hd-ink" style="margin:0;padding:6px 0 5px;border-top:3px double {INK};'
+        f'border-bottom:1px solid {INK};text-align:center;font-family:{SANS};font-size:9px;font-weight:600;'
+        f'letter-spacing:1.6px;text-transform:uppercase;color:{INK}">Spin-free news · Ranked by impact</p>\n'
+        # Wordmark in the site's fonts (falls back to Georgia where web fonts don't load)
+        f'<p style="margin:16px 0 0;text-align:center;white-space:nowrap;line-height:1.1">'
+        f'<a href="{SITE}/" style="text-decoration:none">'
+        f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">HIGH</span> '
+        f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
+        f'margin:0 3px;color:{ACCENT}">impact</span> '
+        f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">NEWS</span> '
+        f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
+        f'margin:0 3px;color:{ACCENT}">daily</span></a></p>\n'
+        f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="260" '
+        f'height="20" style="display:inline-block;width:260px;max-width:80%;height:auto;border:0"></p>')
 
 
 def close_paper():
@@ -93,7 +99,8 @@ def story(it, n, first=False, size=18):
     """One story: headline, detail, impact meter + why + source."""
     out = []
     if not first:
-        out.append(f'<p class="hd-rule" style="margin:24px auto 0;width:60px;border-top:1px solid {RULE};font-size:1px;line-height:1px">&nbsp;</p>')
+        out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-sep.png" alt="" '
+                   f'width="180" height="18" style="display:inline-block;width:180px;max-width:60%;height:auto;border:0"></p>')
     out.append(f'<h3 class="hd-ink" style="margin:{"20px" if first else "22px"} 0 8px;font-family:{SERIF};font-size:{size}px;'
                f'line-height:1.3;font-weight:600;color:{INK}">{e(it.get("text"))}</h3>')
     if it.get("detail"):
@@ -142,8 +149,8 @@ def note(html_text):
 
 def share_box(edition_url):
     return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
-            f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="#ffffff" class="hd-box hd-body" '
-            f'style="padding:18px 16px;background:#ffffff;background-color:#ffffff;border:1px solid {RULE};'
+            f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="#faf7f1" class="hd-box hd-body" '
+            f'style="padding:18px 16px;background:#faf7f1;background-color:#faf7f1;border:1px solid {RULE};'
             f'border-radius:12px;text-align:center;font-family:{SANS};font-size:14px;line-height:1.5;color:{BODY}">'
             f'<b class="hd-ink" style="font-size:15px;color:{INK}">Know someone who’d like this?</b><br>'
             f'Forward this email, or send them {link("a link to this edition", edition_url, underline=True)}.<br>'
@@ -157,6 +164,8 @@ def footer(links_html, fine=""):
     if fine:
         out.append(f'<p class="hd-muted" style="margin:8px 0 0;text-align:center;font-family:{SANS};font-size:12px;line-height:1.5;'
                    f'color:{MUTED}">{fine}</p>')
-    out.append(f'<p class="hd-muted" style="margin:14px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:4px;'
+    out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-end.png" alt="" '
+               f'width="280" height="44" style="display:inline-block;width:280px;max-width:80%;height:auto;border:0"></p>')
+    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:4px;'
                f'color:{MUTED}">— 30 —</p>')
     return "\n".join(out)

@@ -55,9 +55,9 @@ def open_paper():
         f'<tr><td class="hd-paper hd-body" style="padding:18px 16px 24px;background:{PAPER};background-color:{PAPER};color:{BODY};'
         f'font-family:{SERIF};font-size:15px;line-height:1.5">\n'
         f'<a href="{SITE}/" style="text-decoration:none"><img class="hd-mast-light" src="{IMG}/masthead.png" '
-        f'alt="High Impact News Daily" width="560" style="display:block;width:100%;max-width:560px;height:auto;'
+        f'alt="High Impact News Daily" width="560" height="173" style="display:block;width:100%;max-width:560px;height:auto;'
         f'border:0;margin:0 auto"><img class="hd-mast-dark" src="{IMG}/masthead-dark.png" alt="High Impact News Daily" '
-        f'width="560" style="display:none;width:100%;max-width:560px;height:auto;border:0;margin:0 auto;'
+        f'width="560" height="173" style="display:none;width:100%;max-width:560px;height:auto;border:0;margin:0 auto;'
         f'max-height:0;overflow:hidden"></a>')
 
 

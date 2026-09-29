@@ -58,6 +58,11 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .tab-intro{margin:18px 0 0;font:400 15px var(--sans);color:var(--muted)}
 .day{margin-top:36px}
 .dateline{display:flex;align-items:baseline;gap:12px;padding-bottom:4px}
+.breaking{margin:22px 0 10px;border:2px solid var(--i5);border-radius:12px;padding:16px 18px 2px;background:var(--surface)}
+.breaking .bk-label{display:inline-block;font:700 12px/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--i5);padding:5px 10px;border-radius:4px}
+.breaking .bk-note{margin:8px 0 0;font:400 13px/1.4 var(--sans);color:var(--muted)}
+.breaking ol{list-style:none;margin:0;padding:0}
+.breaking li.item:last-child{border-bottom:0!important}
 .dateline span{font:600 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .edition-count{margin:0 0 6px;font:400 14px var(--sans);color:var(--muted)}
 ol{list-style:none;margin:0;padding:0}
@@ -583,11 +588,21 @@ function setIntro(t){const i=document.getElementById("tabIntro"); i.textContent=
 
 async function loadUpcoming(){try{const r=await fetch("upcoming.json?t="+Date.now(),{cache:"no-store"}); upcoming=await r.json();}catch(e){upcoming={events:[]};} if(region==="today")render();}
 const FRESH_H=12, FRESH_SLOTS=4, TODAY_N=10;
+/* BREAKING: impact 4-5 events posted by the hourly check run above everything until the next edition (breaking_until) */
+const activeBreaking=()=>{const now=Date.now(); return items.filter(it=>it.breaking_until&&new Date(it.breaking_until).getTime()>now).sort(byImpact);};
+const isBrk=it=>!!it.breaking_until&&new Date(it.breaking_until).getTime()>Date.now();
+function breakingBanner(feed,list){
+  const s=el("section","breaking"); s.setAttribute("aria-label","Breaking: high impact event");
+  s.append(el("span","bk-label","Breaking · High impact event"));
+  const until=new Date(list[0].breaking_until);
+  s.append(el("p","bk-note","Posted as it happened. It stays here until the next edition"+(isNaN(until)?".":", "+fmtShort.format(until)+" at "+fmtTime.format(until)+" ET.")));
+  const ol=el("ol"); for(const it of list) ol.append(card(it,"abs")); s.append(ol); feed.append(s);
+}
 const seenAt=it=>{const a=new Date(it.time).getTime(), b=new Date(it.added_at).getTime(); return Math.max(isNaN(a)?0:a, isNaN(b)?0:b);};
 const isFresh=(it,now)=>now-seenAt(it)<=FRESH_H*3600e3;
 const freshOK=it=>{const s=secOf(it), lv=lvOf(it); return (s==="news"||s==="money"||s==="finance"||s==="tech")?lv>=2:lv>=3;};
 function todayTop(pool,now){
-  const fresh=items.filter(it=>isFresh(it,now)&&freshOK(it)).sort(byImpact);
+  const fresh=items.filter(it=>isFresh(it,now)&&freshOK(it)&&!isBrk(it)).sort(byImpact);
   const main=pool.slice().sort(byImpact), pick=[], ids=new Set();
   const add=it=>{if(!ids.has(it.id)){ids.add(it.id); pick.push(it);}};
   for(const it of main.slice(0,TODAY_N)) if(isFresh(it,now)) add(it);          /* fresh stories that already rank */
@@ -600,7 +615,7 @@ function renderToday(feed){
   const now=Date.now(), H=3600e3;
   const eligible=it=>{const s=secOf(it), lv=lvOf(it); return (s==="news"||s==="money"||s==="finance"||s==="tech")?lv>=3:lv>=4;};
   let pool=[];
-  for(const win of [36,72,168]){ pool=items.filter(it=>{const t=new Date(it.time).getTime(); return !isNaN(t)&&now-t<=win*H&&eligible(it);}); if(pool.length>=5)break; }
+  for(const win of [36,72,168]){ pool=items.filter(it=>{const t=new Date(it.time).getTime(); return !isNaN(t)&&now-t<=win*H&&eligible(it)&&!isBrk(it);}); if(pool.length>=5)break; }
   /* Always fresh: up to 4 of the 10 spots go to the most important NEW stories (last 12 hours), even when older stories outrank them */
   const top=todayTop(pool,now);
   const words=top.reduce((n,it)=>n+((it.text||"")+" "+(it.detail||"")+" "+(it.why||"")).split(/\s+/).length,0);
@@ -619,7 +634,7 @@ function renderToday(feed){
   const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."));
   /* "Have more time? Keep reading": the next most important stories, hidden until asked for */
   const shown=new Set(top.map(it=>it.id));
-  const more=items.filter(it=>{const t=new Date(it.time).getTime(); return !shown.has(it.id)&&!isNaN(t)&&now-t<=72*H&&lvOf(it)>=2;}).sort(byImpact).slice(0,15);
+  const more=items.filter(it=>{const t=new Date(it.time).getTime(); return !shown.has(it.id)&&!isBrk(it)&&!isNaN(t)&&now-t<=72*H&&lvOf(it)>=2;}).sort(byImpact).slice(0,15);
   if(more.length){
     const mw=more.reduce((n,it)=>n+((it.text||"")+" "+(it.detail||"")+" "+(it.why||"")).split(/\s+/).length,0), mm=Math.max(1,Math.round(mw/220));
     done.append(el("p","cu-small","That’s everything that matters most. Put the phone down, or…"));
@@ -676,6 +691,7 @@ function render(){
   if(region==="archive"){renderArchive(feed);return;}
   if(PAGES.includes(region)){setIntro(""); feed.append(document.getElementById(region+"Tpl").content.cloneNode(true)); return;}
   if(!loaded){feed.append(el("div","empty","Loading today’s edition…"));return;}
+  const brk=activeBreaking(); if(brk.length) breakingBanner(feed,brk);
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
   let shown=items.filter(it=>{
@@ -694,7 +710,7 @@ syncButtons(); render();
 
 /* Archive: every published edition, saved by the edition tasks in archive/ */
 function setHash(h){try{window.history.replaceState(null,"",h||location.pathname+location.search);}catch(e){}}
-function readHash(){if(PAGES.includes(location.hash.slice(1))){region=location.hash.slice(1);archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
+function readHash(){if(PAGES.includes(location.hash.slice(1))){region=location.hash.slice(1);archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening|weekend)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
 window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render();window.scrollTo({top:0});}});
 async function loadArchIdx(){try{const r=await fetch("archive/index.json?t="+Date.now(),{cache:"no-store"}); archIdx=await r.json();}catch(e){archIdx={editions:[]};} updateFolio(); if(region==="archive")render();}
 async function loadArch(k){try{const r=await fetch("archive/"+k+".json",{cache:"no-store"}); archCache[k]=r.ok?await r.json():{missing:true};}catch(e){archCache[k]={missing:true};} if(region==="archive"&&archKey===k)render();}

@@ -295,6 +295,11 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .og-title{margin:10px 0 0;font:600 26px/1.2 var(--serif)}
 .og-sum{margin:8px 0 0;font:400 17px/1.5 var(--serif);color:var(--muted)}
 .snap{margin-top:18px}.snap ol{list-style:none;margin:0;padding:0}.snap li{padding:16px 0;border-bottom:1px solid var(--faint)}.snap-h{font:600 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}.snap-t{margin:0;font:600 19px/1.35 var(--serif)}.snap-d{margin:6px 0 0;font:400 15px/1.5 var(--serif);color:var(--muted)}.snap a{color:var(--accent)}
+.corr{margin:26px 0 0;padding-top:18px;border-top:1px solid var(--faint)}
+.corr p{margin:6px 0 0}
+.corr-date{font:600 12px var(--sans)!important;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.corr-story{font-weight:600}
+.corr-was,.corr-why{color:var(--muted)}
 .when-lbl{margin:0 0 6px;font:600 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .subhead{margin:22px 0 0;padding-bottom:6px;border-bottom:1px solid var(--faint);font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .share-t{margin:0 0 12px;font:600 17px var(--sans);color:var(--fg)}
@@ -327,6 +332,7 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
       <button data-r="sports">Sports</button>
       <button data-r="ongoing">Ongoing</button>
       <button data-r="history">History</button>
+      <button data-r="corrections">Corrections</button>
       <button data-r="archive">Archive</button>
     </div>
     <div class="subtabs" id="subtabs" role="group" aria-label="Filter" hidden></div>
@@ -567,7 +573,7 @@ TOPIC_ART.chart='<path d="M14 80H108M14 80V12M24 66L44 50L60 58L82 30L100 22M88 
 const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis Velazquez"}, "court": {"id": "1658958327132-a80f8a9409fb", "by": "Fine Photographics"}, "gavel": {"id": "1676181739859-08330dea8999", "by": "Wesley Tingey"}, "whitehouse": {"id": "1485394595691-5411947d63a4", "by": "David Everett Strickler"}, "globe": {"id": "1589519160142-7d1a51b43eaf", "by": "Greg Rosenke"}, "factory": {"id": "1765810542186-c6becc0687b1", "by": "Jonathan Wuyts"}, "ship": {"id": "1518527989017-5baca7a58d3c", "by": "Shaah Shahidh"}, "ballot": {"id": "1540910419892-4a36d2c3266c", "by": "Element5 Digital"}, "trade": {"id": "1605732562742-3023a888e56e", "by": "Aron Yigin"}, "tech": {"id": "1680992046626-418f7e910589", "by": "Tyler"}, "nuclear": {"id": "1630142895963-6996ae6b3a5b", "by": "Lukáš Lehotský"}, "conflict": {"id": "1519074031893-210d39bd3885", "by": "Don Jackson-Wyatt"}, "mining": {"id": "1654461339694-128902c5c075", "by": "Chris Münch"}, "coin": {"id": "1621504450181-5d356f61d307", "by": "Art Rachen"}, "sports": {"id": "1509928015542-fcc9b3bcd048", "by": "Chris Kursikowski"}, "lungs": {"id": "1616012480717-fd9867059ca0", "by": "Umanoide"}, "pulse": {"id": "1505751172876-fa1923c5c528", "by": "Hush Naidoo Jade Photography"}, "chart": {"id": "1560221328-12fe60f83ab8", "by": "Nicholas Cappello"}};
 const LEVEL_COLOR=["","--i4","--i4","--i4","--i4","--i4"];
 const PAGES=["about","privacy","terms","sponsors"];
-const TABS=["today","government","world","money","tech","health","sports","ongoing","history","archive"];
+const TABS=["today","government","world","money","tech","health","sports","ongoing","history","corrections","archive"];
 let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
 let archIdx=null, archKey=null; const archCache={}; let moreOpen=false;
 try{minLevel=+localStorage.getItem("pw_min")||1; const r=localStorage.getItem("pw_tab"); if(TABS.includes(r)) region=r;}catch(e){}
@@ -596,7 +602,7 @@ function syncButtons(){
   document.querySelectorAll("#regions button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.r===region)));
   const st=document.getElementById("subtabs"); st.replaceChildren();
   if(SUBS[region]){ for(const [k,l] of SUBS[region]){const b=el("button",null,l); b.dataset.s=k; b.setAttribute("aria-pressed",String(k===sub)); st.append(b);} st.hidden=false; } else st.hidden=true;
-  document.getElementById("impactRow").hidden=(region==="today"||region==="archive"||region==="ongoing"||PAGES.includes(region));
+  document.getElementById("impactRow").hidden=(region==="today"||region==="archive"||region==="ongoing"||region==="corrections"||PAGES.includes(region));
 }
 document.getElementById("seg").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min; try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();});
 document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; archKey=null; threadKey=null; setHash(region==="archive"?"#archive":""); try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
@@ -805,6 +811,23 @@ function renderOngoing(feed){
     a.append(el("span","og-last",last.text)); li.append(pipsFor(top), a); ul.append(li);}
   feed.append(ul);
 }
+/* ---- Corrections log (corrections.json) ---- */
+let corrData=null;
+async function loadCorrections(){try{const r=await fetch("corrections.json?t="+Date.now(),{cache:"no-store"}); corrData=await r.json();}catch(e){corrData={corrections:[]};} if(region==="corrections")render();}
+function renderCorrections(feed){setIntro("");
+  const art=el("article","about"); art.append(el("p","ab-kicker","Corrections"), el("h2","ab-title","When we get something wrong, we fix it."));
+  art.append(el("p","ab-lede","Every factual error we correct in a published story is listed here, along with later developments that changed what we reported: what the story said, what we know now, and when we updated it. Every Sunday we re-check the past week’s stories. Archived editions stay exactly as they went out."));
+  if(!corrData){art.append(el("p",null,"Loading…")); feed.append(art); loadCorrections(); return;}
+  const list=(corrData.corrections||[]).slice().sort((a,b)=>a.date<b.date?1:-1);
+  if(!list.length) art.append(el("p","el-note","No corrections yet."));
+  for(const c of list){const it=items.find(i=>i.id===c.item_id); const box=el("div","corr");
+    box.append(el("p","corr-date",fmtLong.format(new Date((c.date||"").slice(0,10)+"T12:00:00Z"))));
+    if(it) box.append(el("p","corr-story",it.text));
+    if(c.was) box.append(el("p","corr-was","It said: "+c.was)); if(c.now) box.append(el("p","corr-now","Now: "+c.now)); if(c.why) box.append(el("p","corr-why",c.why));
+    art.append(box);}
+  const q=el("p",null); q.append(document.createTextNode("Spot an error? Tell us at ")); const m=el("a",null,"hello@hinewsdaily.com"); m.href="mailto:hello@hinewsdaily.com"; q.append(m, document.createTextNode(".")); art.append(q);
+  feed.append(art);
+}
 function render(){
   /* The commute cartoon and the email sign-up belong to the Today tab (and About); the section tabs are for reading */
   const home=(region==="today"||region==="about");
@@ -813,6 +836,7 @@ function render(){
   showCommuteArt();
   if(region==="history"){renderHistory(feed);return;}
   if(region==="ongoing"){renderOngoing(feed);return;}
+  if(region==="corrections"){renderCorrections(feed);return;}
   if(region==="archive"){renderArchive(feed);return;}
   if(PAGES.includes(region)){setIntro(""); feed.append(document.getElementById(region+"Tpl").content.cloneNode(true)); return;}
   if(!loaded){if(window._snap&&region==="today") feed.append(window._snap.cloneNode(true)); else feed.append(el("div","empty","Loading today’s edition…"));return;}

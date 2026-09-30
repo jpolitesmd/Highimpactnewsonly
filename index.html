@@ -643,6 +643,11 @@ function whenLabel(it){const t=new Date(it.time); if(isNaN(t))return "Earlier";
   if(k===today) return part?(part==="night"&&h<5?"Overnight":"This "+part):"Earlier today";
   if(k===yd) return part?(h<5?"Overnight":"Yesterday "+part):"Yesterday";
   return new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long"}).format(t)+(part&&h>=5?" "+part:"");}
+/* Today-tab card with a small "when" label above the headline: always for earlier and Keep Reading stories,
+   and for any story that happened more than 12 hours ago */
+function todayCard(it,always){const li=card(it,true); const t=new Date(it.time).getTime();
+  if(always||(!isNaN(t)&&Date.now()-t>12*3600e3)) li.querySelector(".txt").prepend(el("div","when-lbl",whenLabel(it)));
+  return li;}
 function renderToday(feed){
   setIntro("");
   const now=Date.now(), H=3600e3;
@@ -659,13 +664,13 @@ function renderToday(feed){
   const newOnes=top.filter(it=>isFresh(it,now)), earlier=top.filter(it=>!isFresh(it,now));
   if(newOnes.length&&earlier.length){
     s.append(el("h3","subhead","New since the last edition"));
-    const o1=el("ol"); for(const it of newOnes) o1.append(card(it,true)); s.append(o1);
+    const o1=el("ol"); for(const it of newOnes) o1.append(todayCard(it,false)); s.append(o1);
     /* The ornate closing flourish (same as the end of the page) as the boundary between the two groups */
     const gap=el("div","endmark group-sep"); gap.setAttribute("aria-hidden","true");
     const src=document.querySelector(".endmark svg"); if(src){const cl=src.cloneNode(true); cl.querySelectorAll("[id]").forEach(n=>n.removeAttribute("id")); gap.append(cl);} s.append(gap);
     s.append(el("h3","subhead","Most impactful stories from earlier"));
-    const o2=el("ol"); for(const it of earlier){const li=card(it,true); li.querySelector(".txt").prepend(el("div","when-lbl",whenLabel(it))); o2.append(li);} s.append(o2);
-  } else { const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); }
+    const o2=el("ol"); for(const it of earlier) o2.append(todayCard(it,true)); s.append(o2);
+  } else { const ol=el("ol"); for(const it of top) ol.append(todayCard(it,false)); s.append(ol); }
   feed.append(s);
   const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."));
   /* "Have more time? Keep reading": the next most important stories, hidden until asked for */
@@ -680,7 +685,7 @@ function renderToday(feed){
     const box=el("section","day more-list"); box.id="moreList"; box.hidden=!moreOpen;
     const dl2=el("div","dateline"); dl2.append(el("span",null,"Keep Reading")); box.append(dl2);
     box.append(el("p","edition-count","The next most important stories from the past three days, most important first"));
-    const ol2=el("ol"); for(const it of more) ol2.append(card(it,true)); box.append(ol2);
+    const ol2=el("ol"); for(const it of more) ol2.append(todayCard(it,true)); box.append(ol2);
     btn.addEventListener("click",()=>{moreOpen=!moreOpen; box.hidden=!moreOpen; btn.setAttribute("aria-expanded",String(moreOpen)); btn.querySelector(".mb-main").textContent=moreOpen?"Show less":"Have more time? Keep reading"; if(moreOpen) box.scrollIntoView({behavior:"smooth",block:"start"});});
     feed.append(done, box);
   } else { done.append(el("p","cu-small","Browse the tabs above for more, or enjoy your day.")); feed.append(done); }

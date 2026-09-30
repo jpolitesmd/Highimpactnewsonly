@@ -1,6 +1,6 @@
 # Search checklist
 
-Extra checks every news task (hourly, morning, evening) runs on top of its own instructions.
+Extra checks every news task (morning, evening) runs on top of its own instructions.
 The coverage audit (audit/log.json) adds a line here whenever it finds an important story we missed,
 naming the source or search that would have caught it. Keep it to 20 lines or fewer; merge similar lines.
 
@@ -15,8 +15,5 @@ naming the source or search that would have caught it. Keep it to 20 lines or fe
 - Evening Senate votes: votes after 5 p.m. the day before are easy to miss; check yesterday's https://www.dailypress.senate.gov/ page. Missed 2026-09-28: Senate passed the Protect College Sports Act 77-22. [seed, 2026-09-29]
 
 ## Evening task
-- Supreme Court emergency orders often come mid-afternoon: open https://www.supremecourt.gov/orders/ordersofthecourt/ and search "Supreme Court order today". Missed 2026-09-29: stay letting third-country deportations resume (about 3:30 p.m.). [2026-09-29]
+- Supreme Court emergency orders often come mid-afternoon: open https://www.supremecourt.gov/orders/ordersofthecourt/ and search "Supreme Court order today"; Supreme Court orders and decisions count as impact 4. Missed 2026-09-29: stay letting third-country deportations resume (about 3:30 p.m.). [2026-09-29]
 - Federal agency final rules announced during the day: search "final rule [today's date]" plus the agency news pages (transportation.gov, epa.gov). Missed 2026-09-29: final fuel economy (CAFE) rule. [2026-09-29]
-
-## Hourly task
-- Supreme Court orders and decisions count as impact 4: if either search mentions one from the last 2 hours, post it. Missed 2026-09-29 at 4:45 and 5:45 p.m.: third-country deportation stay. [2026-09-29]

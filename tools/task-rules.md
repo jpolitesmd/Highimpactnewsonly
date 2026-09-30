@@ -1,6 +1,6 @@
 # Task rules
 
-Rules every news task (morning, evening, hourly) follows in addition to its own instructions.
+Rules every news task (morning, evening) follows in addition to its own instructions.
 Edit by hand only; the coverage audit does not change this file.
 
 ## Ongoing stories (threads.json, "thread" field on items)

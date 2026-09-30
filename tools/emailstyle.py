@@ -14,8 +14,8 @@ import html
 SITE = "https://hinewsdaily.com"
 IMG = f"{SITE}/assets/email"
 
-# Dark palette (aligned with site data-theme="dark" / --bg #15130f)
-PAPER = "#1a1814"   # email wrapper background (charcoal/brown)
+# Dark palette (aligned with site data-theme="dark" / --bg #000000)
+PAPER = "#000000"   # email wrapper background (iOS-matched black)
 INK = "#f5f0e8"     # headlines
 BODY = "#d9d2c5"    # story text
 MUTED = "#b8b0a4"   # labels, captions

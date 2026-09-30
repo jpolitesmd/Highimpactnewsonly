@@ -39,14 +39,14 @@
    "file": "assets/frontier-phone.jpg",
    "w": 1100,
    "h": 738,
-   "caption": "News for your daily commute. The Pacific isn’t going anywhere.",
+   "caption": "News for your daily commute. The Pacific isn\u2019t going anywhere.",
    "alt": "A pencil-style drawing of an early 1800s frontier expedition walking beside a covered wagon across the plains, while one traveler in the wagon reads news on a smartphone."
   },
   {
    "file": "assets/goldrush-phone.jpg",
    "w": 1100,
    "h": 738,
-   "caption": "Don’t miss out on the important opportunities.",
+   "caption": "Don\u2019t miss out on the important opportunities.",
    "alt": "A pencil-style drawing of 1849 gold rush miners panning in a stream, while one miner sits reading news on a smartphone."
   },
   {
@@ -60,8 +60,15 @@
    "file": "assets/revere-phone.jpg",
    "w": 1100,
    "h": 738,
-   "caption": "Some news can’t wait. The rest takes five minutes.",
+   "caption": "Some news can\u2019t wait. The rest takes five minutes.",
    "alt": "A pencil-style drawing of a colonial rider galloping through town at night shouting \"The British are coming!\" while a man outside a coffee house, looking at his smartphone, asks \"Do I have 5 minutes?\""
+  },
+  {
+   "file": "assets/sidecar-phone.jpg",
+   "w": 1168,
+   "h": 784,
+   "caption": "News for your daily commute. Eyes on the road later.",
+   "alt": "A pencil-style drawing of a vintage sidecar motorcycle on a curve, the driver focused while the passenger in the sidecar reads news on a smartphone."
   }
  ]
 }

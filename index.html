@@ -269,6 +269,9 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .new-tag{font:700 10.5px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:4px;padding:1px 5px}
 /* Share: forward to a friend */
 .share{margin:24px auto 0;padding-top:22px;max-width:440px;text-align:center;border-top:1px solid var(--faint)}
+/* Bigger flourish with generous space between the "New" and "Earlier" groups */
+.group-sep{height:30px;width:min(380px,88%);margin:60px auto 40px;opacity:.9}
+.group-sep+.subhead{margin-top:0}
 .subhead{margin:22px 0 0;padding-bottom:6px;border-bottom:1px solid var(--faint);font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .share-t{margin:0 0 12px;font:600 17px var(--sans);color:var(--fg)}
 .share-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
@@ -647,6 +650,7 @@ function renderToday(feed){
   if(newOnes.length&&earlier.length){
     s.append(el("h3","subhead","New since the last edition"));
     const o1=el("ol"); for(const it of newOnes) o1.append(card(it,true)); s.append(o1);
+    const gap=el("div","flourish group-sep"); gap.setAttribute("aria-hidden","true"); s.append(gap);
     s.append(el("h3","subhead","Earlier, still the most important"));
     const o2=el("ol"); for(const it of earlier) o2.append(card(it,true)); s.append(o2);
   } else { const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); }

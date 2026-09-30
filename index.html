@@ -152,8 +152,8 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .su-form button:hover{filter:brightness(1.08)}
 .su-fine{margin:12px 0 0;font:400 13px var(--sans);color:var(--muted)}
 .su-prefs{max-width:440px;margin:14px auto 0;padding:0;border:0;text-align:left}
-.su-prefs fieldset{margin:6px 0 0;padding:0;border:0}
-.su-prefs summary{display:inline-flex;align-items:center;gap:6px;cursor:pointer;list-style:none;font:600 13px var(--sans);color:var(--accent)}
+.su-prefs fieldset{width:fit-content;max-width:100%;margin:8px auto 0;padding:0;border:0}
+.su-prefs summary{display:flex;justify-content:center;align-items:center;gap:6px;cursor:pointer;list-style:none;font:600 13px var(--sans);color:var(--accent)}
 .su-prefs summary::-webkit-details-marker{display:none}
 .su-prefs summary::after{content:"";width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s}
 .su-prefs[open] summary::after{transform:rotate(-135deg) translateY(-1px)}
@@ -161,8 +161,8 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .su-prefs label{display:flex;gap:10px;align-items:baseline;padding:5px 0;font:400 14.5px/1.4 var(--sans);color:var(--fg);cursor:pointer}
 .su-prefs input{accent-color:var(--accent);width:16px;height:16px;flex:none;transform:translateY(2px)}
 .su-prefs small{color:var(--muted);font-size:13px}
-.su-prefs .su-note{margin:8px 0 0;font:400 13px/1.45 var(--sans);color:var(--muted)}
-.su-prefs .su-err{color:var(--accent);font:600 13px var(--sans);margin:4px 0 0}
+.su-prefs .su-note{text-align:center;margin:8px 0 0;font:400 13px/1.45 var(--sans);color:var(--muted)}
+.su-prefs .su-err{text-align:center;color:var(--accent);font:600 13px var(--sans);margin:4px 0 0}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:480px){.su-form{flex-direction:column}.su-form button{width:100%}}
 

@@ -655,14 +655,17 @@ function blockOf(it){const t=new Date(it.time); if(isNaN(t))return "earlier";
   const m=(+hp.find(x=>x.type==="hour").value)*60+(+hp.find(x=>x.type==="minute").value);
   if(k===T) return m>=990?"tonight":m>=330?"today":"overnight";
   if(k===Y) return m>=990?"overnight":"yesterday";
-  return "earlier";}
+  return "day:"+k;}   /* older stories: one block per day, headed by the weekday */
 function ornate(cls){const gap=el("div","endmark "+cls); gap.setAttribute("aria-hidden","true");
   const src=document.querySelector(".endmark svg"); if(src){const cl=src.cloneNode(true); cl.querySelectorAll("[id]").forEach(n=>n.removeAttribute("id")); gap.append(cl);} return gap;}
+const fmtWkday=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"long"});
 function appendBlocks(parent,list,style){let first=true;
-  for(const [key,label] of BLOCKS){const inB=list.filter(it=>blockOf(it)===key).sort(byImpact); if(!inB.length)continue;
+  const days=[...new Set(list.map(blockOf).filter(k=>k.startsWith("day:")))].sort().reverse();
+  const blocks=BLOCKS.filter(b=>b[0]!=="earlier").concat(days.map(k=>[k,fmtWkday.format(new Date(k.slice(4)+"T12:00:00Z"))]));
+  for(const [key,label] of blocks){const inB=list.filter(it=>blockOf(it)===key).sort(byImpact); if(!inB.length)continue;
     if(!first) parent.append(style==="big"?ornate("group-sep"):Object.assign(el("div","flourish block-sep"),{ariaHidden:"true"}));
     parent.append(el("h3","subhead",label));
-    const ol=el("ol"); for(const it of inB){const li=card(it,true); if(key==="earlier") li.querySelector(".txt").prepend(el("div","when-lbl",whenLabel(it))); ol.append(li);}
+    const ol=el("ol"); for(const it of inB) ol.append(card(it,true));
     parent.append(ol); first=false;}}
 function renderToday(feed){
   setIntro("");

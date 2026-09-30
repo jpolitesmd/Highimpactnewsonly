@@ -1,5 +1,7 @@
 # Search checklist
 
+Edition research orchestration: see research-runbook.md
+
 Extra checks every news task (morning, evening) runs on top of its own instructions.
 The coverage audit (audit/log.json) adds a line here whenever it finds an important story we missed,
 naming the source or search that would have caught it. Keep it to 20 lines or fewer; merge similar lines.

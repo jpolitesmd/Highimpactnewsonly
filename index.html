@@ -73,8 +73,8 @@ li.item .meta{grid-area:meta;display:flex;align-items:center;gap:10px;margin-top
 .pips{display:flex;align-items:flex-end;gap:2px;height:14px}
 .pips i{width:4px;border-radius:1px;background:var(--faint)}
 .txt p{margin:0}
-.txt>p:first-child{font-size:20px;line-height:1.35;font-weight:500;letter-spacing:-.005em;text-wrap:pretty}
-.lv5 .txt>p:first-child{font-weight:600}
+.txt>p:first-of-type{font-size:20px;line-height:1.35;font-weight:500;letter-spacing:-.005em;text-wrap:pretty}
+.lv5 .txt>p:first-of-type{font-weight:600}
 .txt p.more{margin-top:8px;font-size:17px;line-height:1.55;color:var(--fg);opacity:.86}
 .txt p.why{margin-top:8px;font:400 14px/1.5 var(--sans);color:var(--muted)}
 .why-k{font-weight:600;color:var(--fg)}
@@ -85,7 +85,7 @@ li.item .meta{grid-area:meta;display:flex;align-items:center;gap:10px;margin-top
 .plate svg{width:70%;height:70%;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
 li.lv5 .plate{color:var(--i4);border-color:var(--i4)}
 li.lv4 .plate{color:var(--i4)}
-@media (max-width:560px){li.item{grid-template-columns:minmax(0,1fr) 60px}.plate{width:60px;height:48px}.txt>p:first-child{font-size:19px}}
+@media (max-width:560px){li.item{grid-template-columns:minmax(0,1fr) 60px}.plate{width:60px;height:48px}.txt>p:first-of-type{font-size:19px}}
 .caughtup{margin-top:36px;padding:28px 20px;text-align:center;background:var(--surface);border:1px solid var(--faint);border-radius:14px}
 .cu-big{margin:0;font:600 22px var(--sans)}
 .cu-small{margin:6px 0 0;font:400 15px var(--sans);color:var(--muted)}
@@ -131,9 +131,9 @@ li.item{border-bottom:0!important;padding-bottom:0!important}
 li.item::after{content:"";grid-column:1/-1;display:block;height:18px;width:min(220px,64%);margin:26px auto 0;background:var(--muted);opacity:.75;-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20240%2024%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22/%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22%20transform%3D%22translate%28240%200%29%20scale%28-1%201%29%22/%3E%3Cpath%20d%3D%22M120%206.5%20L125.5%2012%20L120%2017.5%20L114.5%2012%20Z%22%20fill%3D%22%23000%22/%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2212%22%20r%3D%221%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20240%2024%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.4%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22/%3E%3Cpath%20d%3D%22M127%2012%20C134%2012%20138%206%20145%206%20C151%206%20152%2013%20147%2014%20C143%2015%20141%2010%20145%209%20M134%2012%20Q172%209.5%20212%2012%20M212%2012%20C220%2012.5%20225%208%20222%204.5%20C219%201.5%20213.5%204%20215.5%207.5%20M160%2012%20C165%2015.5%20171%2016.5%20176%2014.5%22%20transform%3D%22translate%28240%200%29%20scale%28-1%201%29%22/%3E%3Cpath%20d%3D%22M120%206.5%20L125.5%2012%20L120%2017.5%20L114.5%2012%20Z%22%20fill%3D%22%23000%22/%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%2212%22%20r%3D%221%22%20fill%3D%22%23fff%22%20stroke%3D%22none%22/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat}
 ol>li.item:last-child::after{display:none}
 /* Drop caps on headlines, in the period face */
-li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English",Georgia,serif;font-weight:400;color:var(--accent);font-size:2.9em;line-height:.82;padding:.06em .08em 0 0;margin-right:.14em}
+li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell English",Georgia,serif;font-weight:400;color:var(--accent);font-size:2.9em;line-height:.82;padding:.06em .08em 0 0;margin-right:.14em}
 @supports ((initial-letter:2) or (-webkit-initial-letter:2)){
-  li.item .txt>p:first-child::first-letter{float:none;font-size:inherit;line-height:inherit;padding:0;margin-right:.22em;-webkit-initial-letter:2;initial-letter:2}
+  li.item .txt>p:first-of-type::first-letter{float:none;font-size:inherit;line-height:inherit;padding:0;margin-right:.22em;-webkit-initial-letter:2;initial-letter:2}
 }
 
 /* Email sign-up */
@@ -273,6 +273,7 @@ li.item .txt>p:first-child::first-letter{float:left;font-family:"IM Fell English
 .group-sep{margin:64px auto 44px}
 .group-sep svg{width:min(380px,92%)}
 .group-sep+.subhead{margin-top:0}
+.when-lbl{margin:0 0 6px;font:600 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .subhead{margin:22px 0 0;padding-bottom:6px;border-bottom:1px solid var(--faint);font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .share-t{margin:0 0 12px;font:600 17px var(--sans);color:var(--fg)}
 .share-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
@@ -634,6 +635,14 @@ function todayTop(pool,now){
   for(const it of main){ if(pick.length>=TODAY_N) break; add(it); }              /* fill with the most important */
   return pick.sort(byImpact);
 }
+/* "Yesterday afternoon", "This morning", "Sunday" ... for the earlier stories on the Today tab (Eastern time) */
+function whenLabel(it){const t=new Date(it.time); if(isNaN(t))return "Earlier";
+  const k=dayKey(it.time), today=fmtKey.format(new Date()), yd=fmtKey.format(new Date(Date.now()-864e5));
+  const h=+new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",hourCycle:"h23"}).format(t);
+  const part=it.time_known===false?"":(h<5?"night":h<12?"morning":h<17?"afternoon":h<21?"evening":"night");
+  if(k===today) return part?(part==="night"&&h<5?"Overnight":"This "+part):"Earlier today";
+  if(k===yd) return part?(h<5?"Overnight":"Yesterday "+part):"Yesterday";
+  return new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long"}).format(t)+(part&&h>=5?" "+part:"");}
 function renderToday(feed){
   setIntro("");
   const now=Date.now(), H=3600e3;
@@ -655,7 +664,7 @@ function renderToday(feed){
     const gap=el("div","endmark group-sep"); gap.setAttribute("aria-hidden","true");
     const src=document.querySelector(".endmark svg"); if(src){const cl=src.cloneNode(true); cl.querySelectorAll("[id]").forEach(n=>n.removeAttribute("id")); gap.append(cl);} s.append(gap);
     s.append(el("h3","subhead","Most impactful stories from earlier"));
-    const o2=el("ol"); for(const it of earlier) o2.append(card(it,true)); s.append(o2);
+    const o2=el("ol"); for(const it of earlier){const li=card(it,true); li.querySelector(".txt").prepend(el("div","when-lbl",whenLabel(it))); o2.append(li);} s.append(o2);
   } else { const ol=el("ol"); for(const it of top) ol.append(card(it,true)); s.append(ol); }
   feed.append(s);
   const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."));

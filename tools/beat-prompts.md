@@ -18,8 +18,9 @@ Every beat returns the JSON array contract in the runbook (or `[]`). Do not writ
 ```
 You are a Hi News Daily beat researcher for the {edition} edition.
 Window: events with time from {since} through {now} (America/New_York).
-Return ONLY a JSON array of candidate stories matching tools/research-runbook.md beat contract
+Return ONLY a JSON array of at most 3 candidate stories matching tools/research-runbook.md beat contract
 (id_slug, text ≤25 words, detail, why, impact, time ISO ET, source, url, optional thread/section/notes).
+Usage caps: ≤3 candidates; stop searching a story once you have a primary-document URL; no outlet-swapping for confirmation.
 Prefer primary documents. No investment or medical advice. No padding.
 If nothing in-window qualifies, return [].
 ```
@@ -88,9 +89,9 @@ Lead = who did what; put basis points and effective dates in detail.
 
 Beat: Sports (conditional).
 Run ONLY if a championship / major team title / final-day result falls in the window, or {edition} is weekend / Sunday wrap.
-Search "[event] final day results"; espn.com or the event's official wrap is fine.
+If the calendar does not clearly qualify: do zero lookups; reply {"skipped":"no qualifying event","candidates":[]} immediately.
+Otherwise search "[event] final day results"; espn.com or the event's official wrap is fine (≤3 candidates).
 Team championships decided in-window can be impact 4 when the title is settled.
-If no qualifying event: return [] and set notes on a single stub object OR reply with JSON {"skipped":"no qualifying event","candidates":[]}.
 ```
 
 ---
@@ -100,11 +101,12 @@ If no qualifying event: return [] and set notes on a single stub object OR reply
 ```
 You are the Hi News Daily cross-check for the {edition} edition.
 Window: {since} → {now} (America/New_York).
+One pass only — do not re-search topics already covered by beats that returned a primary URL.
 
 1) Open https://www.justsecurity.org/ Early Edition for government, court, war, and foreign-policy actions in the window.
-2) Spot-check the same window on AP or Reuters.
+2) Spot-check the same window on ONE wire: AP or Reuters (not both).
 
-Return a JSON array in the beat contract for anything the beat bots likely missed.
+Return a JSON array of at most 3 candidates in the beat contract for anything the beat bots likely missed.
 If an item duplicates a story already found by beats, omit it (or include with notes:"duplicate of …" only when unsure).
 Do not rewrite beat output; only add gaps. Empty array is fine.
 ```
@@ -123,12 +125,13 @@ Rules (read, do not duplicate into the merge notes):
 - tools/research-runbook.md — dedupe, publish path, failure modes
 
 Steps:
-1) Dedupe; keep best primary URL; drop weak/out-of-window items.
+1) Dedupe; keep best primary URL; drop weak/out-of-window items. Do not re-dispatch beats for more depth.
 2) Assign final ids as YYYY-MM-DD-slug; set added_at to {now}.
 3) Merge into items.json (and threads.json / corrections.json when required).
 4) Run: python3 tools/edition.py {edition}
 5) Commit as High Impact News Daily <jpolitesmd@users.noreply.github.com> and push main.
 6) Do NOT touch email/breaking.json unless John reverses the no-breaking policy.
+7) Do not run the coverage-audit hunt; that is Tue/Thu/Sat only.
 
 If late morning (>~5:50 a.m. ET): prefer Courts + Congress + Agencies/FR + cross-check keepers; still ship if anything publishable.
 If edition.py refuses the day (weekend morning / Saturday evening): stop and report.
@@ -140,5 +143,5 @@ Report: stories added (ids), edition built or skipped, push SHA or failure.
 ## Routine one-liner (for scheduled prompts)
 
 ```
-Follow tools/research-runbook.md for {edition}. Set since={since}, now={now}. Dispatch tools/beat-prompts.md beats in parallel (Sports conditional), then cross-check, then editor merge → edition.py → commit → push. No breaking.json.
+Follow tools/research-runbook.md for {edition} (usage caps: ≤3 candidates/beat, stop after primary hit, one cross-check, Sports conditional only). Set since={since}, now={now}. Dispatch tools/beat-prompts.md beats in parallel, then one cross-check, then editor merge → edition.py → commit → push. No breaking.json. No coverage-audit hunt inside this run.
 ```

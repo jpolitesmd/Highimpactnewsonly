@@ -3,6 +3,17 @@
 Orchestration for every morning, evening, and Sunday weekend edition research run.
 Timezone for all clocks: **America/New_York**. Follow `tools/task-rules.md` and `tools/search-checklist.md` for writing, impact, threads, corrections, and seed checks — do not restate those rules here. Dispatch prompts: `tools/beat-prompts.md`.
 
+## Usage caps (minimize agent cost)
+
+Hard limits for every research run. Beats are fill-in-the-blank (low judgment); editor/merge stays high judgment.
+
+1. **≤3 candidates per beat.** Return at most three objects. Prefer the strongest primary-source hits; drop the rest.
+2. **Stop after primary-source hit.** Once you have an official/doc/primary URL for a story, do not keep swapping outlets or "one more confirmation."
+3. **Cross-check once.** One Just Security Early Edition pass + one wire (AP *or* Reuters). Do not re-search the same topics inside each beat.
+4. **Sports stay conditional.** Skip unless championship/final/Sunday wrap (see Sports beat). Empty Sports must not burn lookups.
+5. **Coverage audit is separate.** Tue/Thu/Sat audit updates the checklist; do not redo that hunt inside edition research.
+6. **No drive-by redesign.** Between editions, do not regenerate static pages or restyle the site unless stories changed or John asked.
+
 ## Cadence
 
 | Edition | Research start | Email send | Days | "Since" window (beat bots use this) |
@@ -22,11 +33,11 @@ Dispatch these **in parallel** each research run. Each returns zero or more cand
 3. **Agencies/FR** — Federal Register public inspection + agency final rules / EO / effective-today policies.
 4. **War-foreign** — Wars, ceasefires, major diplomatic breaks, UN Security Council binding actions, allied/adversary military moves with strategic stakes.
 5. **Markets-trade** — Fed / FOMC, tariffs and trade bans taking effect, major market-moving official actions (not stock tips).
-6. **Sports** — **Conditional only**: run when the calendar has a championship final, major team title decided that day, or Sunday/weekend wrap (see search-checklist Sports line). Otherwise skip and report `skipped: no qualifying event`.
+6. **Sports** — **Conditional only**: run when the calendar has a championship final, major team title decided that day, or Sunday/weekend wrap (see search-checklist Sports line). Otherwise **do not dispatch** (or return immediately `skipped: no qualifying event` with zero lookups).
 
 ## Beat return contract
 
-Each beat returns a JSON array (may be `[]`). Every object:
+Each beat returns a JSON array of **at most 3** objects (may be `[]`). Every object:
 
 ```json
 {
@@ -51,18 +62,19 @@ Each beat returns a JSON array (may be `[]`). Every object:
 
 ## Cross-check bot
 
-After beats return (or in parallel if latency allows, then reconcile):
+**One pass only** after beats return (or in parallel if latency allows, then reconcile once — never per-beat):
 
 - Open Just Security **Early Edition** (https://www.justsecurity.org/) for government / court / war / foreign-policy actions in the window.
-- Cross against a wire (AP or Reuters) for the same window.
-- Emit the same beat-contract array for anything beats missed; flag overlaps with `notes: "cross-check only"` or drop exact duplicates.
+- Cross against **one** wire (AP *or* Reuters, not both) for the same window.
+- Emit the same beat-contract array (≤3) for anything beats missed; flag overlaps with `notes: "cross-check only"` or drop exact duplicates.
+- Do not re-open sources already covered by a beat that returned a primary URL.
 
 ## Editor merge
 
 One editor pass (not parallel with final write):
 
 1. Dedupe across beats + cross-check (same action = one story; keep best primary URL).
-2. Apply **task-rules.md** (leads, impact 1–5, primary sources, threads — morning may create threads) and **search-checklist.md** (seed gaps for this edition).
+2. Apply **task-rules.md** (leads, impact 1–5, primary sources, threads — morning may create threads) and **search-checklist.md** (seed gaps for this edition). Respect usage caps: do not send beats back out for more depth.
 3. Drop below-threshold noise; do not invent facts.
 4. Merge keepers into `items.json` (and `threads.json` / `corrections.json` when rules require). Set `added_at` to now ET.
 5. Refresh `upcoming.json` / launches only when the standing cadence calls for it (every ~4 days on morning), not every run.
@@ -88,7 +100,7 @@ After merge:
 
 ## Routine wiring
 
-Morning / evening / weekend routines (Hi News Site agent) must open this runbook first, fill `{edition}` and `{since}` from the Cadence table, dispatch `tools/beat-prompts.md`, then follow Editor merge → Publish path. Coverage-audit routines stay on the checklist-only path; they do not replace edition research.
+Morning / evening / weekend routines (Hi News Site agent) must open this runbook first, fill `{edition}` and `{since}` from the Cadence table, dispatch `tools/beat-prompts.md`, then follow Editor merge → Publish path. Coverage-audit routines stay on the checklist-only path (Tue/Thu/Sat only); they do not replace edition research and edition research must not redo the audit hunt.
 
 ### Suggested schedules (America/New_York via CRON_TZ)
 

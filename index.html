@@ -91,8 +91,10 @@ li.lv4 .plate{color:var(--i4)}
 .cu-small{margin:6px 0 0;font:400 15px var(--sans);color:var(--muted)}
 .upcoming{margin-top:34px}
 .up-branch{margin-top:14px}
-.sec-orn{margin:44px auto 0}
-.sec-ico{position:absolute;left:50%;top:50%;width:24px;height:24px;transform:translate(-50%,-50%);fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:var(--accent)}.up-br{font-weight:600;color:var(--fg)}.up-detail{display:block;margin-top:3px;font-size:13.5px;color:var(--muted)}
+.fl-mark.sec-orn{width:min(380px,90%);margin:64px auto 0}
+.fl-mark.sec-orn .fl-head{height:32px}
+.up-sep+.upcoming{margin-top:0}
+.sec-ico{position:absolute;left:50%;top:50%;width:28px;height:28px;transform:translate(-50%,-50%);fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:var(--accent)}.up-br{font-weight:600;color:var(--fg)}.up-detail{display:block;margin-top:3px;font-size:13.5px;color:var(--muted)}
 .up-list{list-style:none;margin:0;padding:0}
 .up-list li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--faint)}
 .up-date{font:600 14px var(--sans);color:var(--accent)}
@@ -150,7 +152,12 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .su-form button:hover{filter:brightness(1.08)}
 .su-fine{margin:12px 0 0;font:400 13px var(--sans);color:var(--muted)}
 .su-prefs{max-width:440px;margin:14px auto 0;padding:0;border:0;text-align:left}
-.su-prefs legend{padding:0;margin:0 0 6px;font:600 13px var(--sans);color:var(--fg)}
+.su-prefs fieldset{margin:6px 0 0;padding:0;border:0}
+.su-prefs summary{display:inline-flex;align-items:center;gap:6px;cursor:pointer;list-style:none;font:600 13px var(--sans);color:var(--accent)}
+.su-prefs summary::-webkit-details-marker{display:none}
+.su-prefs summary::after{content:"";width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s}
+.su-prefs[open] summary::after{transform:rotate(-135deg) translateY(-1px)}
+.su-prefs summary small{font-weight:400;color:var(--muted)}
 .su-prefs label{display:flex;gap:10px;align-items:baseline;padding:5px 0;font:400 14.5px/1.4 var(--sans);color:var(--fg);cursor:pointer}
 .su-prefs input{accent-color:var(--accent);width:16px;height:16px;flex:none;transform:translateY(2px)}
 .su-prefs small{color:var(--muted);font-size:13px}
@@ -343,14 +350,14 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
       <input type="hidden" name="embed" value="1">
       <button type="submit">Subscribe</button>
       </div>
-      <fieldset class="su-prefs"><legend>Choose your emails</legend>
+      <details class="su-prefs"><summary>Choose your emails <small>· all four by default</small></summary><fieldset>
 <label><input type="checkbox" checked data-skip="Skip morning edition"> <span>Morning edition <small>· weekdays, 6 a.m. ET</small></span></label>
 <label><input type="checkbox" checked data-skip="Skip evening edition"> <span>Evening edition <small>· weekdays, 5 p.m. ET</small></span></label>
 <label><input type="checkbox" checked data-skip="Skip Sunday weekend review"> <span>Weekend review <small>· Sundays, 5 p.m. ET</small></span></label>
 <label><input type="checkbox" checked data-skip="Skip breaking alerts"> <span>Breaking alerts <small>· only for 5-out-of-5 events, which are rare</small></span></label>
 <p class="su-err" hidden>Pick at least one email.</p>
 <p class="su-note">Change these any time with the “Choose which emails you get” link at the bottom of every email.</p>
-</fieldset>
+</fieldset></details>
     </form>
     <p class="su-fine">Free. Unsubscribe any time. We never sell your email. Then confirm using the email from hello@news.hinewsdaily.com; if you don’t see it, check junk or spam, and add that address to your contacts. <a href="#privacy">Privacy policy</a> · <a href="#terms">Terms</a></p>
     <div class="share" id="share" aria-label="Share">
@@ -701,7 +708,7 @@ function renderToday(feed){
   if(!upcoming){loadUpcoming();return;}
   const today=fmtKey.format(new Date());
   const ev=(upcoming.events||[]).filter(e=>e.date>=today).sort((a,b)=>a.date<b.date?-1:1).slice(0,6);
-  if(ev.length){const c=el("section","upcoming"); const d2=el("div","dateline"); d2.append(el("span",null,"Coming Up")); c.append(d2);
+  if(ev.length){feed.append(ornate("group-sep up-sep")); const c=el("section","upcoming"); const d2=el("div","dateline"); d2.append(el("span",null,"Coming Up")); c.append(d2);
     const ul=el("ul","up-list"); for(const e of ev){const li=el("li"); li.append(el("span","up-date",e.when||fmtWD.format(new Date(e.date+"T12:00:00Z"))), el("span","up-text",e.text)); ul.append(li);} c.append(ul); feed.append(c);}
 }
 /* Government tab: what's coming up for each branch (court arguments and rulings, scheduled votes and deadlines,
@@ -929,6 +936,6 @@ document.querySelectorAll("form.su-wrap").forEach(function(f){f.addEventListener
   f.querySelectorAll("input[data-added]").forEach(function(x){x.remove();});
   var boxes=f.querySelectorAll("input[data-skip]"), on=0, err=f.querySelector(".su-err");
   boxes.forEach(function(b){if(b.checked){on++;return;} var h=document.createElement("input"); h.type="hidden"; h.name="tag"; h.value=b.getAttribute("data-skip"); h.setAttribute("data-added","1"); f.appendChild(h);});
-  if(boxes.length&&!on){ev.preventDefault(); if(err)err.hidden=false; return;} if(err)err.hidden=true;
+  if(boxes.length&&!on){ev.preventDefault(); var d=f.querySelector("details.su-prefs"); if(d)d.open=true; if(err)err.hidden=false; return;} if(err)err.hidden=true;
 });});</script>
 </body></html>

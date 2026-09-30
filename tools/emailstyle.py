@@ -1,24 +1,25 @@
 """Shared look for every email (editions and breaking alerts).
 
-Emails have no background of their own: they sit on the mail app's background (white or dark). Text is
-inline-styled in the site's light colors (near-black ink, burnt red), and a small stylesheet switches it to
-the site's dark colors when the reader's phone or mail app is in dark mode. The masthead is live text in
-the site's fonts; the flourishes are transparent images in mid-tones that read on light and dark alike.
-Fonts: Source Serif 4 where the mail app can load it
-(Apple Mail, iOS), falling back to Georgia; labels in the system sans. Each HTML block starts on its
-own line so Buttondown passes it through untouched.
+Dark by default (inline styles + bgcolor) so the Buttondown web archive is readable and matches the
+site's dark charcoal theme. Mail apps that strip <style> still get dark text on a dark wrapper via
+inline color/bgcolor. Flourishes are mid-tone PNGs that read on dark; the wordmark is live text.
+Fonts: Source Serif 4 where the mail app can load it (Apple Mail, iOS), falling back to Georgia;
+labels in the system sans. Each HTML block starts on its own line so Buttondown passes it through
+untouched.
 """
 import html
 
 SITE = "https://hinewsdaily.com"
 IMG = f"{SITE}/assets/email"
 
-PAPER = "#faf7f1"   # site background (used for the share box in light mode)
-INK = "#1d1a16"     # headlines
-BODY = "#3a342c"    # story text
-MUTED = "#6b6358"   # labels, captions
-RULE = "#e2d9c8"    # hairlines
-ACCENT = "#8b2a1d"  # burnt red: links, section labels
+# Dark palette (aligned with site data-theme="dark" / --bg #15130f)
+PAPER = "#1a1814"   # email wrapper background (charcoal/brown)
+INK = "#f5f0e8"     # headlines
+BODY = "#d9d2c5"    # story text
+MUTED = "#b8b0a4"   # labels, captions
+RULE = "#3d3831"    # hairlines
+ACCENT = "#e08a6f"  # warm accent links / section labels (site dark accent)
+BOX = "#262320"     # share box / inset surface
 SERIF = "'Source Serif 4','Source Serif Pro',Georgia,'Times New Roman',Times,serif"
 SANS = "-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
 DISPLAY = "'IM Fell English',Georgia,'Times New Roman',serif"
@@ -32,24 +33,21 @@ def link(text, url, color=ACCENT, underline=False):
 
 
 def open_paper():
-    """Opening wrapper and masthead. The wrapper has no background of its own, so the email sits on the
-    mail app's own background (white or dark); text colors switch with the reader's light/dark setting."""
+    """Opening wrapper and masthead. Explicit dark bgcolor so Buttondown's web archive (and clients
+    that ignore <style>) render on charcoal with light text."""
     return (
         '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&'
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'
         # Stop iPhone Mail turning dates and times into red underlined links.
         'a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;'
         'font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}'
-        '@media (prefers-color-scheme:dark){'
-        '.hd-ink{color:#f0ebe2!important}.hd-body{color:#d9d2c5!important}.hd-muted{color:#a59b8a!important}'
-        '.hd-accent{color:#eb9d82!important}.hd-rule{border-color:#3d3831!important}'
-        '.hd-inkrule{border-color:#f0ebe2!important}'
-        '.hd-box{background:#262320!important;background-color:#262320!important;border-color:#3d3831!important}'
-        '}</style>\n'
-        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
-        f'style="width:100%;border-collapse:collapse">'
-        f'<tr><td class="hd-body" style="padding:6px 4px 20px;color:{BODY};font-family:{SERIF};font-size:15px;'
-        f'line-height:1.5">\n'
+        # Reinforce dark tokens if a client forces a light canvas around the email.
+        'body,.hd-wrap{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
+        '</style>\n'
+        f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
+        f'bgcolor="{PAPER}" style="width:100%;border-collapse:collapse;background-color:{PAPER}">'
+        f'<tr><td class="hd-body" bgcolor="{PAPER}" style="padding:6px 4px 20px;background-color:{PAPER};'
+        f'color:{BODY};font-family:{SERIF};font-size:15px;line-height:1.5">\n'
         # Folio: double rule, small caps line, single rule (as on the site)
         f'<p class="hd-inkrule hd-ink" style="margin:0;padding:6px 0 5px;border-top:3px double {INK};'
         f'border-bottom:1px solid {INK};text-align:center;font-family:{SANS};font-size:9px;font-weight:600;'
@@ -82,7 +80,7 @@ def tagline(text):
             f'color:{MUTED}">{e(text)}</p>')
 
 
-def badge(text, bg="#b3261e"):
+def badge(text, bg="#a3231a"):
     return (f'<p style="margin:18px 0 0;text-align:center"><span style="display:inline-block;font-family:{SANS};'
             f'font-size:12px;font-weight:700;letter-spacing:2px;color:#ffffff;background:{bg};padding:5px 10px;'
             f'border-radius:4px">{e(text)}</span></p>')
@@ -149,8 +147,8 @@ def note(html_text):
 
 def share_box(edition_url):
     return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
-            f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="#faf7f1" class="hd-box hd-body" '
-            f'style="padding:18px 16px;background:#faf7f1;background-color:#faf7f1;border:1px solid {RULE};'
+            f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="{BOX}" class="hd-box hd-body" '
+            f'style="padding:18px 16px;background:{BOX};background-color:{BOX};border:1px solid {RULE};'
             f'border-radius:12px;text-align:center;font-family:{SANS};font-size:14px;line-height:1.5;color:{BODY}">'
             f'<b class="hd-ink" style="font-size:15px;color:{INK}">Know someone who’d like this?</b><br>'
             f'Forward this email, or send them {link("a link to this edition", edition_url, underline=True)}.<br>'

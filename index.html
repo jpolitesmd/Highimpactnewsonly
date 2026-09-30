@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <script>try{var t=localStorage.getItem("pw_theme");if(t==="light"||t==="dark"||t==="sepia")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
 <meta name="description" content="The day's most important news in five minutes: U.S. government, world, economy, tech, health and sports, ranked by impact with no spin. Free morning and evening editions by email.">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"High Impact News Daily","alternateName":"HIND","url":"https://hinewsdaily.com/"},{"@type":"NewsMediaOrganization","name":"High Impact News Daily","url":"https://hinewsdaily.com/","logo":"https://hinewsdaily.com/assets/apple-touch-icon.png","email":"hello@hinewsdaily.com","description":"Spin-free news ranked by impact, twice each weekday and once on Sunday."}]}</script>
@@ -26,8 +26,8 @@
   --i1:#b9ad96; --i2:#8a7a5f; --i3:#c08a1e; --i4:#c2571c; --i5:#a3231a;
   --serif:"Source Serif 4",Georgia,serif; --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:var(--sans);
   color-scheme:light}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15130f;--surface:#1d1a15;--fg:#efe9dd;--muted:#a59b8a;--faint:#2a2620;--rule:#3a342b;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#15130f;--surface:#1d1a15;--fg:#efe9dd;--muted:#a59b8a;--faint:#2a2620;--rule:#3a342b;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#000000;--surface:#1c1c1e;--fg:#efe9dd;--muted:#a59b8a;--faint:#2c2c2e;--rule:#38383a;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#000000;--surface:#1c1c1e;--fg:#efe9dd;--muted:#a59b8a;--faint:#2c2c2e;--rule:#38383a;--accent:#e08a6f;--i1:#6f6656;--i2:#a8997c;--i3:#d9a441;--i4:#e07b45;--i5:#ef5f4f;color-scheme:dark}
 html{background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--serif);font-size:18px;line-height:1.5}
 [hidden]{display:none!important}
@@ -149,8 +149,8 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .su-form input[type=email]{flex:1;min-width:0;padding:12px 14px;font:400 16px var(--sans);color:var(--fg);background:var(--bg);border:1px solid var(--rule);border-radius:10px}
 .su-form input[type=email]:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
 .su-form button{padding:12px 20px;font:600 15px var(--sans);color:#fff;background:var(--accent);border:0;border-radius:10px;cursor:pointer}
-:root[data-theme="dark"] .su-form button{color:#15130f}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .su-form button{color:#15130f}}
+:root[data-theme="dark"] .su-form button{color:#000000}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .su-form button{color:#000000}}
 .su-form button:hover{filter:brightness(1.08)}
 .su-fine{margin:12px 0 0;font:400 13px var(--sans);color:var(--muted)}
 .su-prefs{max-width:440px;margin:14px auto 0;padding:0;border:0;text-align:left}
@@ -208,8 +208,8 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .ab-cta{margin:40px 0 0;padding:24px;text-align:center;background:var(--surface);border:1px solid var(--faint);border-radius:14px}
 .ab-cta p{margin:0 0 14px;font-size:17px;color:var(--muted)}
 .ab-btn{display:inline-block;padding:12px 22px;font:600 15px var(--sans);color:#fff!important;background:var(--accent);border-radius:10px;text-decoration:none}
-:root[data-theme="dark"] .ab-btn{color:#15130f!important}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .ab-btn{color:#15130f!important}}
+:root[data-theme="dark"] .ab-btn{color:#000000!important}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .ab-btn{color:#000000!important}}
 @media (max-width:480px){.about{font-size:17px}.ab-lede{font-size:18px}.ab-pull{font-size:19px}}
 .ab-sign{margin-top:-6px!important;font-style:italic;color:var(--muted)}
 
@@ -936,7 +936,7 @@ function themePref(){try{const t=localStorage.getItem("pw_theme");return t==="li
 function effTheme(){const p=themePref();return p==="auto"?(mqDark&&mqDark.matches?"dark":"light"):p;}
 function applyTheme(){const p=themePref(), e=effTheme(), r=document.documentElement;
   if(p==="auto") r.removeAttribute("data-theme"); else r.setAttribute("data-theme",p);
-  document.querySelectorAll('meta[name="theme-color"]').forEach(m=>{m.setAttribute("content",e==="dark"?"#15130f":e==="sepia"?"#f4ecd8":"#faf7f1"); if(p!=="auto")m.removeAttribute("media");});
+  document.querySelectorAll('meta[name="theme-color"]').forEach(m=>{m.setAttribute("content",e==="dark"?"#000000":e==="sepia"?"#f4ecd8":"#faf7f1"); if(p!=="auto")m.removeAttribute("media");});
   const b=document.getElementById("themeBtn"); if(b){const next=e==="dark"?"light":"dark"; b.dataset.show=(e==="dark"?"dark":"light"); b.querySelector(".tb-label").textContent=next==="dark"?"Dark":"Light"; b.setAttribute("aria-label","Switch to "+next+" mode");}
   document.querySelectorAll(".appearance button").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.t===p)));}
 function setTheme(t){try{t==="auto"?localStorage.removeItem("pw_theme"):localStorage.setItem("pw_theme",t);}catch(e){} applyTheme();}

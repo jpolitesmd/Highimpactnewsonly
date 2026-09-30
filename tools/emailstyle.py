@@ -14,21 +14,21 @@ import html
 SITE = "https://hinewsdaily.com"
 IMG = f"{SITE}/assets/email"
 
-# Dark palette for email: paper matches iOS Mail chrome grey (site stays #000000)
-PAPER = "#1c1c1e"   # email wrapper — Apple secondarySystemBackground / Mail chrome
-INK = "#f5f0e8"     # headlines (readable on #1c1c1e)
-BODY = "#d9d2c5"    # story text
-MUTED = "#b8b0a4"   # labels, captions
-RULE = "#38383a"    # hairlines (cool grey, not brown)
+# Dark palette for email: paper is John's GIMP-measured Mail grey (site stays #000000)
+PAPER = "#2c2c2e"   # email wrapper — measured dark bg in iOS Mail
+INK = "#f2f2f7"     # headlines (cool system light, no cream/brown)
+BODY = "#d1d1d6"    # story text (cool grey)
+MUTED = "#8e8e93"   # labels, captions (systemGray)
+RULE = "#48484a"    # hairlines (cool grey, not brown)
 ACCENT = "#e08a6f"  # warm accent links / section labels (site dark accent)
-BOX = "#2c2c2e"     # share box / inset surface (elevated cool grey)
+BOX = "#3a3a3c"     # share box / inset surface (elevated above paper)
 SERIF = "'Source Serif 4','Source Serif Pro',Georgia,'Times New Roman',Times,serif"
 SANS = "-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
 DISPLAY = "'IM Fell English',Georgia,'Times New Roman',serif"
 
 # Light / sepia / dark tokens (match index.html :root / data-theme)
-LIGHT = dict(paper="#faf7f1", ink="#1d1a16", body="#1d1a16", muted="#6b6358",
-             rule="#d9d0bf", accent="#8b2a1d", box="#ffffff")
+LIGHT = dict(paper="#ffffff", ink="#1d1a16", body="#1d1a16", muted="#6b6358",
+             rule="#d9d0bf", accent="#8b2a1d", box="#f5f5f7")
 SEPIA = dict(paper="#f4ecd8", ink="#3b2f22", body="#3b2f22", muted="#75644f",
              rule="#d6c7a4", accent="#8b2a1d", box="#fbf5e6")
 DARK = dict(paper=PAPER, ink=INK, body=BODY, muted=MUTED, rule=RULE, accent=ACCENT, box=BOX)
@@ -106,7 +106,7 @@ def appearance_bar():
 
 def open_paper():
     """Opening wrapper and masthead. Explicit dark bgcolor so Buttondown's web archive (and clients
-    that ignore <style>) render on Mail grey with light text. Theme controls enhance the archive view."""
+    that ignore <style>) render on measured Mail grey (#2c2c2e) with light text. Theme controls enhance the archive view."""
     return (
         '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&'
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'

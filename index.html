@@ -21,7 +21,7 @@
 <style>
 /* Layout: one calm reading column like a well-set newsletter; heritage wordmark on top, everything else modern and quiet. */
 *,*::before,*::after{box-sizing:border-box}
-:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+:root{padding-bottom:env(safe-area-inset-bottom,0px);
   --bg:#faf7f1; --surface:#ffffff; --fg:#1d1a16; --muted:#6b6358; --faint:#e8e1d4; --rule:#d9d0bf; --accent:#8b2a1d;
   --i1:#b9ad96; --i2:#8a7a5f; --i3:#c08a1e; --i4:#c2571c; --i5:#a3231a;
   --serif:"Source Serif 4",Georgia,serif; --sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:var(--sans);
@@ -31,7 +31,7 @@
 html{background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--serif);font-size:18px;line-height:1.5}
 [hidden]{display:none!important}
-.wrap{max-width:720px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
+.wrap{max-width:720px;margin:0 auto;padding-inline:20px;padding-block:max(28px,calc(env(safe-area-inset-top,0px) + 12px)) 64px}
 header.masthead{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
 .logo{display:flex;width:max-content;max-width:none;align-items:baseline;gap:.26em;font-size:clamp(22px,6.2vw,34px);font-weight:400;line-height:1;margin:0 auto;white-space:nowrap}
 header.masthead{width:100%}
@@ -42,7 +42,8 @@ header.masthead{width:100%}
 .tagline{margin:16px 0 0;font:500 12px var(--sans);letter-spacing:.1em;text-wrap:balance;text-transform:uppercase;color:var(--muted)}
 .motto{display:none}
 .edition{margin-top:10px;font:400 14px var(--sans);color:var(--muted);display:flex;gap:4px 16px;justify-content:center;flex-wrap:wrap}
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);margin-top:22px;margin-inline:-20px;padding:0 20px;border-bottom:1px solid var(--rule)}
+.bar{position:sticky;top:0;z-index:3;background:var(--bg);margin-top:22px;margin-inline:-20px;padding:0 20px;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid var(--rule)}
+.bar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:160px;background:var(--bg);pointer-events:none}
 .tabs{display:flex;gap:22px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .tabs::-webkit-scrollbar{display:none}
 .tabs button{flex:0 0 auto;font:500 15px var(--sans);color:var(--muted);background:none;border:0;padding:14px 0 12px;border-bottom:2px solid transparent;cursor:pointer}

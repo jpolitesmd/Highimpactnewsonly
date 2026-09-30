@@ -43,7 +43,7 @@ header.masthead{width:100%}
 .motto{display:none}
 .edition{margin-top:10px;font:400 14px var(--sans);color:var(--muted);display:flex;gap:4px 16px;justify-content:center;flex-wrap:wrap}
 .bar{position:sticky;top:0;z-index:3;background:var(--bg);margin-top:22px;margin-inline:-20px;padding:0 20px;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid var(--rule)}
-.bar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:160px;background:var(--bg);pointer-events:none}
+.bar.is-stuck::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:160px;background:var(--bg);pointer-events:none}
 .tabs{display:flex;gap:22px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .tabs::-webkit-scrollbar{display:none}
 .tabs button{flex:0 0 auto;font:500 15px var(--sans);color:var(--muted);background:none;border:0;padding:14px 0 12px;border-bottom:2px solid transparent;cursor:pointer}
@@ -606,6 +606,17 @@ function syncButtons(){
   document.getElementById("impactRow").hidden=(region==="today"||region==="archive"||region==="ongoing"||region==="corrections"||PAGES.includes(region));
 }
 document.getElementById("seg").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; minLevel=+b.dataset.min; try{localStorage.setItem("pw_min",minLevel)}catch(e){} syncButtons(); render();});
+/* Sticky tab fill only while stuck — otherwise the upward cover hides the masthead */
+(function(){
+  const bar=document.querySelector(".bar"); if(!bar) return;
+  const sens=document.createElement("div");
+  sens.setAttribute("aria-hidden","true");
+  sens.style.cssText="position:relative;height:1px;margin:0;padding:0;pointer-events:none";
+  bar.parentNode.insertBefore(sens, bar);
+  if("IntersectionObserver" in window){
+    new IntersectionObserver(([e])=>{bar.classList.toggle("is-stuck", !e.isIntersecting);},{threshold:0}).observe(sens);
+  }
+})();
 document.getElementById("regions").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; region=b.dataset.r; sub="all"; archKey=null; threadKey=null; setHash(region==="archive"?"#archive":""); try{localStorage.setItem("pw_tab",region)}catch(e){} syncButtons(); render(); window.scrollTo({top:0});});
 document.getElementById("subtabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b)return; sub=b.dataset.s; syncButtons(); render();});
 

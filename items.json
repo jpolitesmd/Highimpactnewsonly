@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T09:04:31-04:00",
+ "updated": "2026-09-30",
  "items": [
   {
    "id": "2026-09-29-mlb-wildcard-game1",
@@ -807,7 +807,7 @@
    "time": "2026-09-08T12:00:00-04:00",
    "time_known": false,
    "text": "Beam Therapeutics reported that its base-editing therapy BEAM-302 raised alpha-1 antitrypsin levels above the protective threshold in AATD patients, presented at ERS Congress 2026.",
-   "detail": "At the 60 mg dose, total AAT rose from about 5 µM to 13.5–14.4 µM (protective threshold 11 µM), with mutant Z-AAT down 84% in 29 reported patients. Infusion reactions occurred in 41%, and one patient had a grade 3 liver enzyme rise. A pivotal cohort of about 50 patients is enrolling.",
+   "detail": "At the 60 mg dose, total AAT rose from about 5 \u00b5M to 13.5\u201314.4 \u00b5M (protective threshold 11 \u00b5M), with mutant Z-AAT down 84% in 29 reported patients. Infusion reactions occurred in 41%, and one patient had a grade 3 liver enzyme rise. A pivotal cohort of about 50 patients is enrolling.",
    "why": "A one-time gene-editing approach for AATD; rated 2 because these are phase 1/2 biomarker results.",
    "source": "Beam Therapeutics via StreetInsider",
    "url": "https://www.streetinsider.com/Globe+Newswire/Beam+Therapeutics+Presents+Updated+Clinical+Data+from+the+Phase+12+Trial+of+BEAM-302+in+Alpha-1+Antitrypsin+Deficiency+(AATD)+at+the+European+Respiratory+Society+(ERS)+Congress+2026/27032485.html",
@@ -876,6 +876,57 @@
    "source": "TCTMD",
    "url": "https://www.tctmd.com/news/prague-26-catheter-directed-thrombolysis-beneficial-intermediate-high-risk-pe",
    "added_at": "2026-09-28T21:55:00-04:00"
+  },
+  {
+   "id": "2026-09-30-flydubai-cockpit-attack",
+   "section": "news",
+   "topic": "security",
+   "impact": 4,
+   "region": "World",
+   "time": "2026-09-30T08:00:00-04:00",
+   "time_known": false,
+   "text": "A Flydubai pilot stabbed the other pilot on a Dubai-to-Tel Aviv flight and apparently tried to crash the plane, Israel's prime minister said.",
+   "detail": "Flight FZ1073 issued emergency codes including 7500 (unlawful interference), descended thousands of feet, and diverted to Tabuk, Saudi Arabia after passengers and crew subdued the attacker; Israel scrambled warplanes amid hijacking fears. Flydubai said an altercation occurred on the flight deck and all passengers were safe. Saudi authorities detained a pilot; motives remain under investigation.",
+   "why": "An in-flight attack on an Israel-bound jet that briefly looked like a hijacking and nearly became a mass-casualty crash.",
+   "source": "Associated Press",
+   "url": "https://www.pbs.org/newshour/world/netanyahu-says-a-pilot-on-a-flydubai-flight-stabbed-another-and-apparently-tried-to-crash-the-plane",
+   "added_at": "2026-09-30T14:46:00-04:00"
+  },
+  {
+   "id": "2026-09-30-senate-stock-trading-cloture",
+   "section": "news",
+   "topic": "capitol",
+   "impact": 3,
+   "region": "US",
+   "time": "2026-09-30T11:30:00-04:00",
+   "time_known": true,
+   "branch": [
+    "legislative"
+   ],
+   "text": "The Senate failed, 53-47, to invoke cloture on the Stop Insider Trading Act, blocking a House-passed ban on new stock buys by members of Congress.",
+   "detail": "Sixty votes were required; no Democrat supported the motion. The bill would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling's nomination as Labor secretary, clearing a procedural step toward a final confirmation vote.",
+   "why": "Ends near-term Senate action on congressional stock-trading limits before the midterm recess; advances a Cabinet nomination procedurally.",
+   "source": "Roll Call",
+   "url": "https://rollcall.com/2026/09/30/lawmakers-stock-trading-bill-falls-short-in-senate/",
+   "added_at": "2026-09-30T14:46:00-04:00"
+  },
+  {
+   "id": "2026-09-30-senate-ratepayer-cloture",
+   "section": "news",
+   "topic": "capitol",
+   "impact": 3,
+   "region": "US",
+   "time": "2026-09-30T12:00:00-04:00",
+   "time_known": false,
+   "branch": [
+    "legislative"
+   ],
+   "text": "The Senate failed, 57-43, to invoke cloture on the Ratepayer Protection Act, stalling a House-passed bill on data-center electricity costs.",
+   "detail": "Sixty votes were required. Four Democrats joined Republicans; the House had passed the measure 417-3. The bill would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers. Lawmakers are heading into the midterm recess with the measure bottled up.",
+   "why": "Blocks near-term federal action on a high-visibility consumer-cost fight over AI data centers.",
+   "source": "Roll Call",
+   "url": "https://rollcall.com/2026/09/30/voluntary-ratepayer-protection-bill-blocked-in-senate-again/",
+   "added_at": "2026-09-30T14:50:00-04:00"
   }
  ]
 }

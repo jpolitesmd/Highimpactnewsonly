@@ -1,0 +1,117 @@
+{
+ "date": "2026-09-30",
+ "edition": "evening",
+ "subject": "Wednesday, Sep 30 - Evening edition",
+ "published": "2026-09-30T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-09-30-us-iraq-mission-end",
+   "section": "news",
+   "text": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades.",
+   "detail": "Operation Inherent Resolve's Iraq mission concluded Wednesday under a 2024 Baghdad-Washington transition plan; roughly 2,500 remaining U.S. forces left, with Iraq assuming full responsibility for security against ISIS remnants. Iran and aligned groups cast the exit as a win. The U.S. and Iraq say they will shift to a bilateral security relationship; concerns remain about militia influence and residual ISIS threats without U.S. air and intelligence support on the ground.",
+   "why": "Closes a major U.S. combat footprint in Iraq and reshapes regional security against ISIS and Iran-aligned forces.",
+   "impact": 4,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-30T12:00:00-04:00",
+   "time_known": false,
+   "source": "CBS News / BBC",
+   "url": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/"
+  },
+  {
+   "id": "2026-09-30-flydubai-cockpit-attack",
+   "section": "news",
+   "text": "A Flydubai pilot stabbed the other pilot on a Dubai-to-Tel Aviv flight and apparently tried to crash the plane, Israel's prime minister said.",
+   "detail": "Flight FZ1073 (Dubai to Tel Aviv) transmitted emergency codes including 7500 (unlawful interference), descended thousands of feet, and diverted to Tabuk, Saudi Arabia; Israel scrambled warplanes amid hijacking fears. Netanyahu said one pilot stabbed the other and apparently tried to crash the Boeing 737; Flydubai confirmed a flight-deck altercation, said all passengers were safe, and said motives remain under investigation. Saudi airport officials said both pilots were hospitalized; Saudi and UAE authorities opened investigations.",
+   "why": "An in-flight attack on an Israel-bound jet that briefly looked like a hijacking and nearly became a mass-casualty crash.",
+   "impact": 4,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-09-30T08:00:00-04:00",
+   "time_known": false,
+   "source": "Associated Press",
+   "url": "https://www.pbs.org/newshour/world/netanyahu-says-a-pilot-on-a-flydubai-flight-stabbed-another-and-apparently-tried-to-crash-the-plane"
+  },
+  {
+   "id": "2026-09-30-senate-ratepayer-cloture",
+   "section": "news",
+   "text": "The Senate failed, 57-43, to invoke cloture on the Ratepayer Protection Act, stalling a House-passed bill on data-center electricity costs.",
+   "detail": "Sixty votes were required (vote 254). Four Democrats — Hassan, Klobuchar, Ossoff and Warnock — joined Republicans; the House had passed the measure 417-3. The bill would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers. Lawmakers are heading into the midterm recess with the measure bottled up.",
+   "why": "Blocks near-term federal action on a high-visibility consumer-cost fight over AI data centers.",
+   "impact": 3,
+   "topic": "capitol",
+   "branch": [
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-09-30T12:50:00-04:00",
+   "time_known": true,
+   "source": "U.S. Senate",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00254.htm"
+  },
+  {
+   "id": "2026-09-30-senate-stock-trading-cloture",
+   "section": "news",
+   "text": "The Senate failed, 53-47, to invoke cloture on the Stop Insider Trading Act, blocking a House-passed ban on new stock buys by members of Congress.",
+   "detail": "Sixty votes were required; the tally was party-line (vote 253). The bill would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling's nomination as Labor secretary (vote 255), clearing a procedural step toward a final confirmation vote; post-cloture debate continues.",
+   "why": "Ends near-term Senate action on congressional stock-trading limits before the midterm recess; advances a Cabinet nomination procedurally.",
+   "impact": 3,
+   "topic": "capitol",
+   "branch": [
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-09-30T11:58:00-04:00",
+   "time_known": true,
+   "source": "U.S. Senate",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm"
+  },
+  {
+   "id": "2026-09-30-evernorth-xrpn-vote",
+   "section": "finance",
+   "text": "Armada Acquisition Corp. II shareholders approved the Evernorth XRP-treasury merger, a step toward a planned Nasdaq listing as XRPN.",
+   "detail": "The noon-ET special meeting cleared the business-combination vote, according to meeting attendees reported by crypto.news; an official SEC 8-K with final tallies had not posted by evening research. Proxy materials project at least about 473 million XRP at closing if the deal closes. Approval is not the same as listing or trading — remaining closing conditions and Nasdaq requirements still apply, with completion targeted for late 2026.",
+   "why": "Advances a heavily watched crypto SPAC toward a public XRP treasury vehicle; listing and closing are still ahead.",
+   "impact": 2,
+   "topic": "money",
+   "region": "US",
+   "time": "2026-09-30T12:00:00-04:00",
+   "time_known": true,
+   "source": "crypto.news",
+   "url": "https://crypto.news/xrp-rebounds-past-1-50-as-evernorth-merger-vote/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-09-30",
+   "when": "Noon ET",
+   "text": "Armada Acquisition Corp. II shareholder vote on the Evernorth / Pathfinder XRP-treasury merger (planned Nasdaq ticker XRPN).",
+   "detail": "Shareholders approved the business combination at the noon-ET Sept. 30 meeting (reported; SEC 8-K tallies pending). Proxy projects ≥473M XRP at closing if the deal closes; approval is not the same as listing. Closing and Nasdaq listing conditions remain.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
+  },
+  {
+   "date": "2026-09-30",
+   "when": "Evening",
+   "text": "MLB Wild Card Series Game 2s (Yankees-Red Sox, Braves-Phillies, Padres-Cubs, White Sox-Astros)."
+  }
+ ]
+}

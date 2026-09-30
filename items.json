@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-09-30T16:39:14-04:00",
  "items": [
   {
    "id": "2026-09-29-mlb-wildcard-game1",
@@ -807,7 +807,7 @@
    "time": "2026-09-08T12:00:00-04:00",
    "time_known": false,
    "text": "Beam Therapeutics reported that its base-editing therapy BEAM-302 raised alpha-1 antitrypsin levels above the protective threshold in AATD patients, presented at ERS Congress 2026.",
-   "detail": "At the 60 mg dose, total AAT rose from about 5 \u00b5M to 13.5\u201314.4 \u00b5M (protective threshold 11 \u00b5M), with mutant Z-AAT down 84% in 29 reported patients. Infusion reactions occurred in 41%, and one patient had a grade 3 liver enzyme rise. A pivotal cohort of about 50 patients is enrolling.",
+   "detail": "At the 60 mg dose, total AAT rose from about 5 µM to 13.5–14.4 µM (protective threshold 11 µM), with mutant Z-AAT down 84% in 29 reported patients. Infusion reactions occurred in 41%, and one patient had a grade 3 liver enzyme rise. A pivotal cohort of about 50 patients is enrolling.",
    "why": "A one-time gene-editing approach for AATD; rated 2 because these are phase 1/2 biomarker results.",
    "source": "Beam Therapeutics via StreetInsider",
    "url": "https://www.streetinsider.com/Globe+Newswire/Beam+Therapeutics+Presents+Updated+Clinical+Data+from+the+Phase+12+Trial+of+BEAM-302+in+Alpha-1+Antitrypsin+Deficiency+(AATD)+at+the+European+Respiratory+Society+(ERS)+Congress+2026/27032485.html",
@@ -886,11 +886,11 @@
    "time": "2026-09-30T08:00:00-04:00",
    "time_known": false,
    "text": "A Flydubai pilot stabbed the other pilot on a Dubai-to-Tel Aviv flight and apparently tried to crash the plane, Israel's prime minister said.",
-   "detail": "Flight FZ1073 issued emergency codes including 7500 (unlawful interference), descended thousands of feet, and diverted to Tabuk, Saudi Arabia after passengers and crew subdued the attacker; Israel scrambled warplanes amid hijacking fears. Flydubai said an altercation occurred on the flight deck and all passengers were safe. Saudi authorities detained a pilot; motives remain under investigation.",
+   "detail": "Flight FZ1073 (Dubai to Tel Aviv) transmitted emergency codes including 7500 (unlawful interference), descended thousands of feet, and diverted to Tabuk, Saudi Arabia; Israel scrambled warplanes amid hijacking fears. Netanyahu said one pilot stabbed the other and apparently tried to crash the Boeing 737; Flydubai confirmed a flight-deck altercation, said all passengers were safe, and said motives remain under investigation. Saudi airport officials said both pilots were hospitalized; Saudi and UAE authorities opened investigations.",
    "why": "An in-flight attack on an Israel-bound jet that briefly looked like a hijacking and nearly became a mass-casualty crash.",
    "source": "Associated Press",
    "url": "https://www.pbs.org/newshour/world/netanyahu-says-a-pilot-on-a-flydubai-flight-stabbed-another-and-apparently-tried-to-crash-the-plane",
-   "added_at": "2026-09-30T14:46:00-04:00"
+   "added_at": "2026-09-30T16:39:14-04:00"
   },
   {
    "id": "2026-09-30-senate-stock-trading-cloture",
@@ -898,17 +898,17 @@
    "topic": "capitol",
    "impact": 3,
    "region": "US",
-   "time": "2026-09-30T11:30:00-04:00",
+   "time": "2026-09-30T11:58:00-04:00",
    "time_known": true,
    "branch": [
     "legislative"
    ],
    "text": "The Senate failed, 53-47, to invoke cloture on the Stop Insider Trading Act, blocking a House-passed ban on new stock buys by members of Congress.",
-   "detail": "Sixty votes were required; no Democrat supported the motion. The bill would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling's nomination as Labor secretary, clearing a procedural step toward a final confirmation vote.",
+   "detail": "Sixty votes were required; the tally was party-line (vote 253). The bill would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling's nomination as Labor secretary (vote 255), clearing a procedural step toward a final confirmation vote; post-cloture debate continues.",
    "why": "Ends near-term Senate action on congressional stock-trading limits before the midterm recess; advances a Cabinet nomination procedurally.",
-   "source": "Roll Call",
-   "url": "https://rollcall.com/2026/09/30/lawmakers-stock-trading-bill-falls-short-in-senate/",
-   "added_at": "2026-09-30T14:46:00-04:00"
+   "source": "U.S. Senate",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm",
+   "added_at": "2026-09-30T16:39:14-04:00"
   },
   {
    "id": "2026-09-30-senate-ratepayer-cloture",
@@ -916,17 +916,51 @@
    "topic": "capitol",
    "impact": 3,
    "region": "US",
-   "time": "2026-09-30T12:00:00-04:00",
-   "time_known": false,
+   "time": "2026-09-30T12:50:00-04:00",
+   "time_known": true,
    "branch": [
     "legislative"
    ],
    "text": "The Senate failed, 57-43, to invoke cloture on the Ratepayer Protection Act, stalling a House-passed bill on data-center electricity costs.",
-   "detail": "Sixty votes were required. Four Democrats joined Republicans; the House had passed the measure 417-3. The bill would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers. Lawmakers are heading into the midterm recess with the measure bottled up.",
+   "detail": "Sixty votes were required (vote 254). Four Democrats — Hassan, Klobuchar, Ossoff and Warnock — joined Republicans; the House had passed the measure 417-3. The bill would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers. Lawmakers are heading into the midterm recess with the measure bottled up.",
    "why": "Blocks near-term federal action on a high-visibility consumer-cost fight over AI data centers.",
-   "source": "Roll Call",
-   "url": "https://rollcall.com/2026/09/30/voluntary-ratepayer-protection-bill-blocked-in-senate-again/",
-   "added_at": "2026-09-30T14:50:00-04:00"
+   "source": "U.S. Senate",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00254.htm",
+   "added_at": "2026-09-30T16:39:14-04:00"
+  },
+  {
+   "id": "2026-09-30-us-iraq-mission-end",
+   "section": "news",
+   "topic": "conflict",
+   "impact": 4,
+   "region": "World",
+   "time": "2026-09-30T12:00:00-04:00",
+   "time_known": false,
+   "branch": [
+    "executive"
+   ],
+   "text": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades.",
+   "detail": "Operation Inherent Resolve's Iraq mission concluded Wednesday under a 2024 Baghdad-Washington transition plan; roughly 2,500 remaining U.S. forces left, with Iraq assuming full responsibility for security against ISIS remnants. Iran and aligned groups cast the exit as a win. The U.S. and Iraq say they will shift to a bilateral security relationship; concerns remain about militia influence and residual ISIS threats without U.S. air and intelligence support on the ground.",
+   "why": "Closes a major U.S. combat footprint in Iraq and reshapes regional security against ISIS and Iran-aligned forces.",
+   "source": "CBS News / BBC",
+   "url": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/",
+   "added_at": "2026-09-30T16:39:14-04:00",
+   "thread": "iran-war"
+  },
+  {
+   "id": "2026-09-30-evernorth-xrpn-vote",
+   "section": "finance",
+   "topic": "money",
+   "impact": 2,
+   "region": "US",
+   "time": "2026-09-30T12:00:00-04:00",
+   "time_known": true,
+   "text": "Armada Acquisition Corp. II shareholders approved the Evernorth XRP-treasury merger, a step toward a planned Nasdaq listing as XRPN.",
+   "detail": "The noon-ET special meeting cleared the business-combination vote, according to meeting attendees reported by crypto.news; an official SEC 8-K with final tallies had not posted by evening research. Proxy materials project at least about 473 million XRP at closing if the deal closes. Approval is not the same as listing or trading — remaining closing conditions and Nasdaq requirements still apply, with completion targeted for late 2026.",
+   "why": "Advances a heavily watched crypto SPAC toward a public XRP treasury vehicle; listing and closing are still ahead.",
+   "source": "crypto.news",
+   "url": "https://crypto.news/xrp-rebounds-past-1-50-as-evernorth-merger-vote/",
+   "added_at": "2026-09-30T16:39:14-04:00"
   }
  ]
 }

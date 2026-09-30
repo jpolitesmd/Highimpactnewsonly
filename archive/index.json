@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-09-30-evening",
+   "date": "2026-09-30",
+   "edition": "evening",
+   "count": 5,
+   "lead": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades."
+  },
+  {
    "key": "2026-09-30-morning",
    "date": "2026-09-30",
    "edition": "morning",
@@ -29,5 +36,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-09-30T09:04:35-04:00"
+ "updated": "2026-09-30T16:39:16-04:00"
 }

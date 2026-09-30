@@ -44,7 +44,7 @@ def story(it):
         src = f'<a href="{e(it["url"])}" rel="noopener" target="_blank">{e(it.get("source") or "Source")} ↗</a>'
     elif it.get("source"):
         src = f"<span>{e(it['source'])}</span>"
-    return (f'<li class="item"><div class="meta">{pips(n)}<span>Impact {n}</span></div>'
+    return (f'<li class="item" id="{e(it.get("id",""))}"><div class="meta">{pips(n)}<span>Impact {n}</span></div>'
             f'<p class="hl">{e(it.get("text"))}</p>'
             + (f'<p class="more">{e(it["detail"])}</p>' if it.get("detail") else "")
             + (f'<p class="why"><b>Why impact {n}:</b> {e(it["why"])}</p>' if it.get("why") else "")
@@ -117,6 +117,7 @@ HEAD = """<!doctype html>
 <meta property="og:site_name" content="{name}"><meta property="og:type" content="{ogtype}"><meta property="og:title" content="{ogtitle}">
 <meta property="og:description" content="{desc}"><meta property="og:url" content="{url}"><meta property="og:image" content="{site}/assets/og-card.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/rss+xml" title="{name}" href="/feed.xml">
 <link rel="icon" href="/assets/icon.svg?v=3" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Pinyon+Script&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Hanken+Grotesk:wght@400;500;600&display=swap">
@@ -374,6 +375,35 @@ def main():
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{u}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>" for u, m in urls]
     open("sitemap.xml", "w").write("\n".join(sm + ["</urlset>", ""]))
+    # RSS feed of editions (newest 30)
+    from email.utils import format_datetime
+    rss = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
+           f"<title>{NAME}</title><link>{SITE}/</link><description>The day's most important news, ranked by impact. No spin.</description>",
+           f'<language>en-us</language><atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>']
+    for x in eds[:30]:
+        ed = json.load(open(f"archive/{x['key']}.json")); its = ed.get("items", [])
+        pub = ed.get("published") or (x["date"] + ("T06:00:00-04:00" if x["edition"] == "morning" else "T17:00:00-04:00"))
+        try: pubd = format_datetime(datetime.datetime.fromisoformat(pub))
+        except ValueError: pubd = ""
+        body = "".join(f"<p><b>{e(i.get('text',''))}</b> {e(i.get('detail',''))}</p>" for i in its)
+        rss.append(f"<item><title>{e(x['edition'].capitalize())} Edition, {e(long_date(x['date']))}</title>"
+                   f"<link>{SITE}/editions/{x['key']}/</link><guid>{SITE}/editions/{x['key']}/</guid>"
+                   + (f"<pubDate>{pubd}</pubDate>" if pubd else "") + f"<description>{e(body)}</description></item>")
+    open("feed.xml", "w").write("\n".join(rss + ["</channel></rss>", ""]))
+    # Static snapshot of the latest edition inside index.html, so the home page has real content
+    # before (or without) JavaScript and if the live data fails to load
+    if eds:
+        x = eds[0]; ed = json.load(open(f"archive/{x['key']}.json"))
+        snap = [f'<!--SNAPSHOT--><div class="snap"><p class="snap-h">{e(x["edition"].capitalize())} Edition · {e(long_date(x["date"]))}</p><ol>']
+        for i in ed.get("items", []):
+            src = f' <a href="{e(i["url"])}" rel="noopener">{e(i.get("source") or "Source")} ↗</a>' if str(i.get("url","")).startswith("https://") else ""
+            snap.append(f'<li><p class="snap-t">{e(i.get("text",""))}</p><p class="snap-d">{e(i.get("detail",""))}{src}</p></li>')
+        snap.append(f'</ol><p class="snap-d"><a href="/editions/{x["key"]}/">Read this edition</a> · <a href="/editions/">All editions</a> · <a href="/stories/">Ongoing stories</a></p></div><!--/SNAPSHOT-->')
+        try:
+            h = open("index.html").read(); a, b = h.index("<!--SNAPSHOT-->"), h.index("<!--/SNAPSHOT-->") + len("<!--/SNAPSHOT-->")
+            open("index.html", "w").write(h[:a] + "".join(snap) + h[b:])
+        except (OSError, ValueError):
+            pass
     open("robots.txt", "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
     print(f"pages: {len(order)} edition pages, editions/index.html, sitemap.xml")
 

@@ -3,10 +3,10 @@
  "items": [
   {
    "id": "2026-09-29-scotus-third-country-deportations",
-   "text": "The Supreme Court on Sept. 29 allowed the administration to resume deporting immigrants to countries other than their own while it hears the case; Justices Sotomayor, Kagan and Jackson would have denied the request.",
-   "detail": "The order pauses a Massachusetts federal judge's ruling, upheld by the 1st Circuit, that the policy denied immigrants a chance to raise fears of torture or persecution in the destination country. Deportations have included flights to El Salvador, Libya and South Sudan. The court will hear arguments in December, with a decision expected by summer 2027.",
-   "why": "A Supreme Court order that immediately lets a nationwide deportation policy resume; it is temporary until the court rules on the merits.",
-   "impact": 4,
+   "text": "The Supreme Court let the administration resume deporting immigrants to countries other than their own while the case continues.",
+   "detail": "Justices Sotomayor, Kagan and Jackson would have denied the request. The order pauses a Massachusetts federal judge's ruling, upheld by the 1st Circuit, that the policy denied immigrants a chance to raise fears of torture or persecution in the destination country. Deportations have included flights to El Salvador, Libya and South Sudan. The court will hear arguments in December, with a decision expected by summer 2027.",
+   "why": "Deportations can resume now, but the order is temporary: the court hears the case in December and rules by summer 2027.",
+   "impact": 3,
    "branch": [
     "judicial"
    ],
@@ -28,8 +28,8 @@
    "branch": [
     "executive"
    ],
-   "text": "The Education Department finalized a rule rescinding the Biden administration's 2024 Title IX regulations and restoring the 2020 rules; it was announced Sept. 28 and published Sept. 29.",
-   "detail": "The 2024 rule, which had added gender identity protections and changed sexual misconduct procedures, was already struck down by a federal court. The restored rules govern how schools and colleges receiving federal funds investigate sexual harassment and misconduct complaints. Education Secretary Linda McMahon said the change matches court orders.",
+   "text": "The Education Department restored the 2020 Title IX rules, rescinding the Biden administration's 2024 version.",
+   "detail": "The rule was announced Sept. 28 and published Sept. 29. The 2024 rule, which had added gender identity protections and changed sexual misconduct procedures, was already struck down by a federal court. The restored rules govern how schools and colleges receiving federal funds investigate sexual harassment and misconduct complaints. Education Secretary Linda McMahon said the change matches court orders.",
    "why": "A binding national regulation for all federally funded schools, though it largely formalizes a court ruling already in effect.",
    "impact": 3,
    "time": "2026-09-29T12:00:00-04:00",
@@ -55,8 +55,8 @@
   },
   {
    "id": "2026-09-29-cafe-fuel-economy-final-rule",
-   "text": "The Transportation Department finalized fuel economy standards requiring a fleet average of 34.9 miles per gallon for new cars and light trucks by model year 2031, down from about 50 mpg under the previous rules.",
-   "detail": "The rule covers model years 2022 through 2031, ends the credit-trading program automakers use to meet the standards starting in 2028, and changes how vehicles are classified as cars or light trucks in 2030. The department estimates it lowers the average new-vehicle price by about $1,300. Environmental groups criticized the change.",
+   "text": "The Transportation Department finalized lower fuel economy standards for new cars and light trucks.",
+   "detail": "New vehicles must average 34.9 miles per gallon by model year 2031, down from about 50 mpg under the previous rules. The rule covers model years 2022 through 2031, ends the credit-trading program automakers use to meet the standards starting in 2028, and changes how vehicles are classified as cars or light trucks in 2030. The department estimates it lowers the average new-vehicle price by about $1,300. Environmental groups criticized the change.",
    "why": "A final, binding national rule for every new car and light truck sold in the U.S.; it can be challenged in court or changed by a later rule.",
    "impact": 4,
    "branch": [
@@ -87,8 +87,8 @@
   },
   {
    "id": "2026-09-29-russia-drones-kyiv-academy",
-   "text": "Russian drone strikes across Ukraine killed at least 9 people and wounded more than 80 on Sept. 28-29, including a strike that heavily damaged the National Academy of Sciences building in Kyiv.",
-   "detail": "Russia launched 120 drones on Monday, 90 of them jet-powered, and Ukraine reported intercepting about 57%. Strikes also hit a medical facility in Kyiv, a business center in Dnipro, a logistics office in Synelnykove and infrastructure in Zaporizhzhia, where 32 people were wounded. Ukraine's foreign minister asked allies for more air defenses.",
+   "text": "Russian drone strikes across Ukraine killed at least 9 people, including a strike on Kyiv's National Academy of Sciences.",
+   "detail": "More than 80 people were wounded on Sept. 28-29, and the Academy building was heavily damaged. Russia launched 120 drones on Monday, 90 of them jet-powered, and Ukraine reported intercepting about 57%. Strikes also hit a medical facility in Kyiv, a business center in Dnipro, a logistics office in Synelnykove and infrastructure in Zaporizhzhia, where 32 people were wounded. Ukraine's foreign minister asked allies for more air defenses.",
    "why": "One of the deadlier recent attacks in an ongoing war, but not a change in its scope or direction.",
    "impact": 3,
    "topic": "conflict",
@@ -107,8 +107,8 @@
    "branch": [
     "executive"
    ],
-   "text": "U.S. bans on imports of Canadian-bottled wine and spirits, whey and some motorcycles took effect at 12:01 a.m. Eastern on Sept. 29 under executive orders signed by President Trump.",
-   "detail": "The banned goods totaled about $967 million in 2025 imports, and alcohol makes up 87% of that. The orders target Canadian provinces that pulled U.S. alcohol from store shelves. U.S.-Canada trade talks broke down in August; Ontario announced $1.15 billion in financing for affected businesses.",
+   "text": "U.S. bans on imports of Canadian-bottled alcohol, whey and some motorcycles took effect.",
+   "detail": "The bans began at 12:01 a.m. Eastern on Sept. 29 under executive orders signed by President Trump. The banned goods totaled about $967 million in 2025 imports, and alcohol makes up 87% of that. The orders target Canadian provinces that pulled U.S. alcohol from store shelves. U.S.-Canada trade talks broke down in August; Ontario announced $1.15 billion in financing for affected businesses.",
    "why": "A binding ban on nearly $1 billion in yearly imports from the largest U.S. trading partner, reversible by a new executive order.",
    "impact": 3,
    "time": "2026-09-29T00:01:00-04:00",
@@ -141,8 +141,8 @@
    "section": "money",
    "topic": "chart",
    "region": "US",
-   "text": "The 10-year Treasury yield rose to 5.2% on Sept. 28, its highest level in 19 years, and U.S. crude oil rose 4.2% to $96.31 a barrel after President Trump rejected Iran's proposal to reopen the Strait of Hormuz.",
-   "detail": "All three major stock indexes closed lower: the S&P 500 fell 0.77% to 7,683.69, the Dow 0.67% and the Nasdaq 0.92%. Brent crude briefly traded above $108 before settling near $98. The 10-year yield is a benchmark for mortgage and other long-term loan rates.",
+   "text": "The 10-year Treasury yield rose to 5.2%, its highest level in 19 years.",
+   "detail": "U.S. crude oil rose 4.2% to $96.31 a barrel on Sept. 28 after President Trump rejected Iran's proposal to reopen the Strait of Hormuz. All three major stock indexes closed lower: the S&P 500 fell 0.77% to 7,683.69, the Dow 0.67% and the Nasdaq 0.92%. Brent crude briefly traded above $108 before settling near $98. The 10-year yield is a benchmark for mortgage and other long-term loan rates.",
    "why": "A 19-year high in the 10-year yield pushes up mortgage and loan rates nationwide; oil prices feed directly into gas prices.",
    "impact": 3,
    "time": "2026-09-28T16:00:00-04:00",
@@ -157,12 +157,12 @@
    "impact": 3,
    "region": "US",
    "source": "MPR News",
-   "text": "President Trump announced at 2:00 p.m. that Mesabi Metallics, owned by India-based Essar Group, plans a $15 billion steel mill in eastern Iowa, using ore from its mine near Nashwauk, Minnesota.",
+   "text": "President Trump announced plans for a $15 billion steel mill in eastern Iowa.",
    "time": "2026-09-28T14:00:00-04:00",
    "time_known": true,
    "url": "https://www.mprnews.org/story/2026/09/28/ore-from-mesabi-metallics-mine-will-be-used-for-15-billion-steel-mill-planed-for-iowa",
    "id": "2026-09-28-steel-mill-iowa",
-   "detail": "The mill would use iron ore from Mesabi Metallics' new mine near Nashwauk on Minnesota's Iron Range, which opened this month; the mine has hired over 200 of a planned 350 workers. Mesabi Metallics is owned by India-based Essar Group. No construction start date or mill job count was given.",
+   "detail": "Mesabi Metallics, owned by India-based Essar Group, plans the mill, announced at 2:00 p.m. on Sept. 28. The mill would use iron ore from Mesabi Metallics' new mine near Nashwauk on Minnesota's Iron Range, which opened this month; the mine has hired over 200 of a planned 350 workers. No construction start date or mill job count was given.",
    "why": "A $15 billion private investment in U.S. steel capacity. Rated 3 rather than higher because it is a plan, not yet under construction.",
    "topic": "factory",
    "branch": [
@@ -210,12 +210,12 @@
    "impact": 3,
    "region": "World",
    "source": "Just Security roundup",
-   "text": "Iranian Foreign Minister Araghchi said Iran is waiting for an official U.S. response before ending ceasefire talks; an Iranian official said Iran will not change its position on its nuclear program.",
+   "text": "Iran's foreign minister said Iran is waiting for an official U.S. response before ending ceasefire talks.",
    "time": "2026-09-28T12:00:00-04:00",
    "time_known": false,
    "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/",
    "id": "2026-09-28-iran-response",
-   "detail": "The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
+   "detail": "An Iranian official said Iran will not change its position on its nuclear program. The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
    "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action.",
    "topic": "globe",
    "thread": "iran-war"
@@ -308,8 +308,8 @@
    ],
    "topic": "whitehouse",
    "region": "US",
-   "text": "The Education Department said on Sept. 28 that its new earnings rule does not ban any college majors, after posts claimed the Trump administration was ending student loans for low-earning degrees.",
-   "detail": "The rule, finalized June 29, cuts off federal Direct Loans to college programs whose graduates earn less than typical high school graduates four years after finishing (for graduate programs, less than bachelor's degree holders). Programs lose eligibility only after failing in two of three years. First results come in early 2027; the earliest loss of loans is the 2028-29 school year. Programs in social work, counseling, education and the arts are projected to be most affected.",
+   "text": "The Education Department said its new earnings rule does not ban any college majors.",
+   "detail": "The Sept. 28 statement followed posts claiming the administration was ending student loans for low-earning degrees. The rule, finalized June 29, cuts off federal Direct Loans to college programs whose graduates earn less than typical high school graduates four years after finishing (for graduate programs, less than bachelor's degree holders). Programs lose eligibility only after failing in two of three years. First results come in early 2027; the earliest loss of loans is the 2028-29 school year. Programs in social work, counseling, education and the arts are projected to be most affected.",
    "why": "A binding federal rule that can end loan access for entire programs nationwide, but it applies to programs rather than majors and takes effect no earlier than 2028.",
    "impact": 3,
    "time": "2026-09-28T12:00:00-04:00",

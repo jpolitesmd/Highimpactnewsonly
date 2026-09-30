@@ -13,6 +13,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="alternate" type="application/rss+xml" title="High Impact News Daily" href="/feed.xml">
 <link rel="icon" href="assets/icon.svg?v=3" type="image/svg+xml">
 <link rel="icon" href="assets/favicon-32.png?v=3" sizes="32x32" type="image/png">
 <link rel="icon" href="assets/favicon-16.png?v=3" sizes="16x16" type="image/png">
@@ -293,6 +294,7 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
 .og-last{display:block;margin-top:6px;font:400 15px/1.45 var(--serif);color:var(--muted)}
 .og-title{margin:10px 0 0;font:600 26px/1.2 var(--serif)}
 .og-sum{margin:8px 0 0;font:400 17px/1.5 var(--serif);color:var(--muted)}
+.snap{margin-top:18px}.snap ol{list-style:none;margin:0;padding:0}.snap li{padding:16px 0;border-bottom:1px solid var(--faint)}.snap-h{font:600 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}.snap-t{margin:0;font:600 19px/1.35 var(--serif)}.snap-d{margin:6px 0 0;font:400 15px/1.5 var(--serif);color:var(--muted)}.snap a{color:var(--accent)}
 .when-lbl{margin:0 0 6px;font:600 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .subhead{margin:22px 0 0;padding-bottom:6px;border-bottom:1px solid var(--faint);font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .share-t{margin:0 0 12px;font:600 17px var(--sans);color:var(--fg)}
@@ -341,9 +343,7 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
   </div>
 
   <p class="tab-intro" id="tabIntro" hidden></p>
-  <div id="feed">
-    <div class="empty">Loading the latest items…</div>
-  </div>
+  <div id="feed"><!--SNAPSHOT--><div class="snap"><p class="snap-h">Evening Edition · Tuesday, September 29, 2026</p><ol><li><p class="snap-t">The Education Department finalized a rule rescinding the Biden administration&#x27;s 2024 Title IX regulations and restoring the 2020 rules; it was announced Sept. 28 and published Sept. 29.</p><p class="snap-d">The 2024 rule, which had added gender identity protections and changed sexual misconduct procedures, was already struck down by a federal court. The restored rules govern how schools and colleges receiving federal funds investigate sexual harassment and misconduct complaints. Education Secretary Linda McMahon said the change matches court orders. <a href="https://www.upi.com/Top_News/US/2026/09/28/trump-administration-education-mcmahon-title-ix-final-rule/9961790618071/" rel="noopener">UPI ↗</a></p></li><li><p class="snap-t">U.S. bans on imports of Canadian-bottled wine and spirits, whey and some motorcycles took effect at 12:01 a.m. Eastern on Sept. 29 under executive orders signed by President Trump.</p><p class="snap-d">The banned goods totaled about $967 million in 2025 imports, and alcohol makes up 87% of that. The orders target Canadian provinces that pulled U.S. alcohol from store shelves. U.S.-Canada trade talks broke down in August; Ontario announced $1.15 billion in financing for affected businesses. <a href="https://www.cp24.com/news/money/2026/09/29/trumps-import-bans-on-canadian-liquor-whey-motorcycles-take-effect/" rel="noopener">CP24 ↗</a></p></li><li><p class="snap-t">The Senate passed the Protect College Sports Act 77-22 on Sept. 28.</p><p class="snap-d">The bill creates a federal right for college athletes to be paid for their name, image and likeness, requires schools to share media, ticket and sponsorship revenue, caps agent fees at 5%, and guarantees medical coverage for five years after eligibility ends. It now goes to the House. <a href="https://www.commerce.senate.gov/press/dem/release/senate-passes-protect-college-sports-act-77-22/" rel="noopener">Senate Commerce Committee ↗</a></p></li></ol><p class="snap-d"><a href="/editions/2026-09-29-evening/">Read this edition</a> · <a href="/editions/">All editions</a> · <a href="/stories/">Ongoing stories</a></p></div><!--/SNAPSHOT--></div>
 
 
   <figure class="tj">
@@ -809,13 +809,13 @@ function render(){
   /* The commute cartoon and the email sign-up belong to the Today tab (and About); the section tabs are for reading */
   const home=(region==="today"||region==="about");
   document.querySelector(".tj").hidden=!home; document.getElementById("subscribe").hidden=!home;
-  const feed=document.getElementById("feed"); feed.replaceChildren();
+  const feed=document.getElementById("feed"); if(!window._snap) window._snap=feed.querySelector(".snap"); feed.replaceChildren();
   showCommuteArt();
   if(region==="history"){renderHistory(feed);return;}
   if(region==="ongoing"){renderOngoing(feed);return;}
   if(region==="archive"){renderArchive(feed);return;}
   if(PAGES.includes(region)){setIntro(""); feed.append(document.getElementById(region+"Tpl").content.cloneNode(true)); return;}
-  if(!loaded){feed.append(el("div","empty","Loading today’s edition…"));return;}
+  if(!loaded){if(window._snap&&region==="today") feed.append(window._snap.cloneNode(true)); else feed.append(el("div","empty","Loading today’s edition…"));return;}
   const brk=activeBreaking(); if(brk.length) breakingBanner(feed,brk);
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));

@@ -88,6 +88,22 @@ After merge:
 3. Push to **main** (writes `email/today.json` → GitHub Action → Buttondown).
 4. **Do not** create or update `email/breaking.json` unless John explicitly reverses the no-breaking policy.
 
+
+## Popular upcoming watch (buzz list)
+
+Goal: catch dated events that are loud on social (especially X) days/weeks ahead, even when they are not classic impact-4 national news — so evening/morning can run a short blurb when they land.
+
+**File:** `upcoming.json`. Optional fields on an event: `"buzz": true`, `"tags": [...]` (e.g. `crypto`, `markets`). Same date/`text` shape as calendar items; edition.py already surfaces upcoming in the pack.
+
+**Nightly routine (Hi News Site):** one light pass (~9 p.m. ET). Caps:
+1. At most **5** new or updated buzz candidates.
+2. Prefer events with a clear date in the next 14 days.
+3. Sources (in order, stop early): (a) web search for dated popular votes/launches/meetings already in the news; (b) one pass over existing `upcoming.json` to mark `buzz` when chatter is high; (c) optional X peek only for already-dated watch terms — no open-ended timeline scroll.
+4. Do **not** invent stories or impact ratings here. Only maintain the list. Commit/push only when `upcoming.json` changed.
+5. No edition email from this routine.
+
+**Edition research:** Markets-trade + editor must read same-day and next-day `buzz: true` items in `upcoming.json`. If the event occurred in the window, write a short money/tech blurb (impact often 2–3) citing primary/SEC/wire when available — do not drop solely because it is not nationwide high-impact.
+
 ## Failure modes
 
 | Failure | What to do |

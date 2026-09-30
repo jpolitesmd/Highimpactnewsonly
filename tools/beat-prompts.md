@@ -79,6 +79,7 @@ Skip routine diplomatic talk and photo-ops. Prefer wires or official statements 
 
 Beat: Markets / trade.
 Fed/FOMC decisions, tariffs or trade bans taking effect, sanctions with broad economic reach, and other official actions that bind markets — not stock picks, not day-trading color.
+Also check upcoming.json for same-day or prior-day items with buzz:true (e.g. heavily discussed crypto SPAC votes); if the event happened in the window, return one short candidate even if classic impact is only 2–3.
 Lead = who did what; put basis points and effective dates in detail.
 ```
 
@@ -126,6 +127,7 @@ Rules (read, do not duplicate into the merge notes):
 
 Steps:
 1) Dedupe; keep best primary URL; drop weak/out-of-window items. Do not re-dispatch beats for more depth.
+1b) Pull same-day buzz:true items from upcoming.json; if Markets-trade (or another beat) returned a matching blurb, keep a short money/tech item rather than discarding for low impact alone.
 2) Assign final ids as YYYY-MM-DD-slug; set added_at to {now}.
 3) Merge into items.json (and threads.json / corrections.json when required).
 4) Run: python3 tools/edition.py {edition}

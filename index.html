@@ -735,6 +735,9 @@ const INTROS={government:{all:"U.S. government: the President and agencies, Cong
   sports:"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions."};
 
 function render(){
+  /* The commute cartoon and the email sign-up belong to the Today tab (and About); the section tabs are for reading */
+  const home=(region==="today"||region==="about");
+  document.querySelector(".tj").hidden=!home; document.getElementById("subscribe").hidden=!home;
   const feed=document.getElementById("feed"); feed.replaceChildren();
   showCommuteArt();
   if(region==="history"){renderHistory(feed);return;}
@@ -780,8 +783,8 @@ syncButtons(); render();
 
 /* Archive: every published edition, saved by the edition tasks in archive/ */
 function setHash(h){try{window.history.replaceState(null,"",h||location.pathname+location.search);}catch(e){}}
-function readHash(){if(PAGES.includes(location.hash.slice(1))){region=location.hash.slice(1);archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening|weekend)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
-window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render();window.scrollTo({top:0});}});
+function readHash(){if(location.hash==="#subscribe"){region="today";archKey=null;return true;} if(PAGES.includes(location.hash.slice(1))){region=location.hash.slice(1);archKey=null;return true;} const m=location.hash.match(/^#archive(?:\/(\d{4}-\d{2}-\d{2}-(?:morning|evening|weekend)))?$/); if(!m)return false; region="archive"; archKey=m[1]||null; return true;}
+window.addEventListener("hashchange",()=>{if(readHash()){syncButtons();render(); if(location.hash==="#subscribe") document.getElementById("subscribe").scrollIntoView({behavior:"smooth"}); else window.scrollTo({top:0});}});
 async function loadArchIdx(){try{const r=await fetch("archive/index.json?t="+Date.now(),{cache:"no-store"}); archIdx=await r.json();}catch(e){archIdx={editions:[]};} updateFolio(); if(region==="archive")render();}
 async function loadArch(k){try{const r=await fetch("archive/"+k+".json",{cache:"no-store"}); archCache[k]=r.ok?await r.json():{missing:true};}catch(e){archCache[k]={missing:true};} if(region==="archive"&&archKey===k)render();}
 const fmtLong=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"long",month:"long",day:"numeric",year:"numeric"});
@@ -869,6 +872,7 @@ async function load(){
     const r=await fetch("items.json?t="+Date.now(),{cache:"no-store"}); const j=await r.json();
     items=(j.items||[]).slice().sort((a,b)=>a.time<b.time?1:-1); loaded=true;
     status.textContent=j.updated?"Updated "+fmtTime.format(new Date(j.updated))+" ET":"Live"; render();
+    if(location.hash==="#subscribe"&&!window._suJump){window._suJump=1; document.getElementById("subscribe").scrollIntoView();}
   }catch(e){ status.textContent="Couldn't load updates. Refresh to try again."; }
 }
 function sizeBars(){try{const lp=document.querySelector('.logo .lp'), bars=document.querySelector('.logo .lbars'); if(!lp||!bars)return; const cs=getComputedStyle(lp), fs=parseFloat(cs.fontSize); const c=document.createElement('canvas').getContext('2d'); c.font=fs+'px '+cs.fontFamily; const cap=c.measureText('H').actualBoundingBoxAscent; if(cap>0) bars.style.height=(cap/fs*138/134).toFixed(4)+'em';}catch(e){}}

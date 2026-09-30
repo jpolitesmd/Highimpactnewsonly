@@ -126,7 +126,7 @@ HEAD = """<!doctype html>
 <div class="folio"><div class="r1"></div><div class="r2"></div><div class="folio-line"><span>{fl}</span><span class="fc">{fc}</span><span>{fr}</span></div><div class="r3"></div></div>
 <a class="logo" href="/" aria-label="{name} home"><span class="lp">HIGH</span><span class="ls">impact</span><span class="lp">NEWS</span><span class="ls">daily</span></a>
 <p class="tagline">The day’s most important news · five minutes · no spin</p>
-<nav class="nav-top"><a href="/">Today’s edition</a><a href="/editions/">All editions</a><a href="/#about">About</a></nav>
+<nav class="nav-top"><a href="/">Today’s edition</a><a href="/editions/">All editions</a><a href="/stories/">Ongoing stories</a><a href="/#about">About</a></nav>
 </header>
 """
 
@@ -151,7 +151,7 @@ document.querySelectorAll("form.su-wrap").forEach(function(f){{f.addEventListene
 }});}});</script>
 <p style="font-size:13px">Free. Unsubscribe any time. We never sell your email. Then confirm using the email from hello@news.hinewsdaily.com; if you don’t see it, check junk or spam, and add that address to your contacts. <a href="/#privacy">Privacy</a></p>{share}</section>"""
 
-FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a> · <a href="mailto:hello@hinewsdaily.com">Contact</a></p>
+FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All editions</a> · <a href="/stories/">Ongoing stories</a> · <a href="/#about">About</a> · <a href="/#terms">Terms</a> · <a href="/#privacy">Privacy</a> · <a href="/#sponsors">Sponsor policy</a> · <a href="mailto:hello@hinewsdaily.com">Contact</a></p>
 <p class="fine">Summaries and impact ratings are written with the help of AI and can contain errors. Always check the linked source. Not investment or medical advice.</p>
 <div class="thirty" aria-hidden="true">— 30 —</div>
 </div>
@@ -187,7 +187,9 @@ def edition_page(ed, no, prev, nxt):
     ld = long_date(ed["date"])
     items = ed.get("items", [])
     lead = items[0]["text"] if items else ""
-    title = f"{edname}, {ld} · {NAME}"
+    d0 = datetime.date.fromisoformat(ed["date"])
+    short_lead = lead if len(lead) <= 75 else lead[:72].rsplit(" ", 1)[0] + "…"
+    title = f"{edname}, {d0.strftime('%b')} {d0.day}, {d0.year}: {short_lead}" if lead else f"{edname}, {ld} · {NAME}"
     desc = (lead + " " + " ".join(i["text"] for i in items[1:3])).strip()
     if len(desc) > 300: desc = desc[:297].rsplit(" ", 1)[0] + "…"
     jsonld = ('<script type="application/ld+json">' + json.dumps({
@@ -233,6 +235,43 @@ def index_page(eds):
         out.append(f'<li><span class="d">{e(short_date(d))}</span><div>{links}<p>{e(lead)}</p></div></li>')
     out.append("</ul></main>")
     out.append(SIGNUP.format(share=share_block(SITE + "/", NAME, "The day's most important news in five minutes. No spin.")))
+    out.append(FOOT)
+    return "".join(out)
+
+
+def story_page(t, lst):
+    url = f"{SITE}/stories/{t['id']}/"
+    lst = sorted(lst, key=lambda i: i.get("time", ""), reverse=True)
+    latest = lst[0]
+    desc = (t.get("summary", "") + " Latest: " + latest.get("text", "")).strip()
+    if len(desc) > 300: desc = desc[:297].rsplit(" ", 1)[0] + "…"
+    jsonld = ('<script type="application/ld+json">' + json.dumps({
+        "@context": "https://schema.org", "@type": "CollectionPage", "name": t["title"], "url": url, "description": desc,
+        "dateModified": latest.get("time", "")[:10],
+        "isPartOf": {"@type": "WebSite", "name": NAME, "url": SITE + "/"},
+        "publisher": {"@type": "NewsMediaOrganization", "name": NAME, "url": SITE + "/"}}, ensure_ascii=False).replace("</", "<\\/")
+        + "</script>\n")
+    status = "Ongoing story" if t.get("status") != "closed" else "Story (no recent updates)"
+    out = [head(title=e(f"{t['title']}: every update, ranked by impact · {NAME}"), desc=e(desc), url=url, ogtitle=e(t["title"]),
+                jsonld=jsonld, fl=status, fc=e(f"Updated {short_date(latest.get('time','')[:10])}"), fr=f"{len(lst)} updates")]
+    out.append(f'<main><h1 style="text-transform:none;letter-spacing:0;font-size:26px;line-height:1.2;font-family:\'Source Serif 4\',Georgia,serif;font-weight:600;color:inherit">{e(t["title"])}</h1><p class="count">{e(t.get("summary",""))}</p>'
+               f'<p class="count">{len(lst)} {"update" if len(lst) == 1 else "updates"} · newest first</p><ol>{"".join(story(i) for i in lst)}</ol></main>')
+    out.append(SIGNUP.format(share=share_block(url, f"{t['title']} · {NAME}", latest.get("text", ""))))
+    out.append(FOOT)
+    return "".join(out)
+
+
+def stories_index(rows):
+    url = f"{SITE}/stories/"
+    desc = "Stories that are still unfolding, each with every update in order, rated by impact. Catch up in minutes, without the scroll."
+    out = [head(title=f"Ongoing stories · {NAME}", desc=e(desc), url=url, ogtitle="Ongoing stories",
+                fl="Ongoing stories", fc="Every update in one place", fr=f"{len(rows)} stories")]
+    out.append('<main><h1>Ongoing stories</h1><p class="count">Stories that are still unfolding. Open one to catch up on every update in order.</p><ul class="list">')
+    for t, lst in rows:
+        latest = max(lst, key=lambda i: i.get("time", ""))
+        out.append(f'<li><span class="d">{e(short_date(latest.get("time","")[:10]))}</span><div><a class="ed" href="/stories/{t["id"]}/">{e(t["title"])} · {len(lst)} updates</a><p>{e(latest.get("text",""))}</p></div></li>')
+    out.append("</ul></main>")
+    out.append(SIGNUP.format(share=share_block(url, f"Ongoing stories · {NAME}", desc)))
     out.append(FOOT)
     return "".join(out)
 
@@ -313,6 +352,24 @@ def main():
         urls.append((f"{SITE}/editions/{x['key']}/", x["date"]))
     os.makedirs("editions", exist_ok=True)
     open("editions/index.html", "w").write(index_page(eds))
+    # Ongoing-story pages: one permanent, crawlable page per thread (threads.json + items tagged "thread")
+    try:
+        threads = json.load(open("threads.json")).get("threads", [])
+        allitems = json.load(open("items.json")).get("items", [])
+    except (OSError, ValueError):
+        threads, allitems = [], []
+    rows = []
+    for t in threads:
+        lst = [i for i in allitems if i.get("thread") == t.get("id") and i.get("time")]
+        if not lst: continue
+        os.makedirs(f"stories/{t['id']}", exist_ok=True)
+        open(f"stories/{t['id']}/index.html", "w").write(story_page(t, lst))
+        rows.append((t, lst))
+        urls.append((f"{SITE}/stories/{t['id']}/", max(i["time"] for i in lst)[:10]))
+    rows.sort(key=lambda r: max(i["time"] for i in r[1]), reverse=True)
+    os.makedirs("stories", exist_ok=True)
+    open("stories/index.html", "w").write(stories_index(rows))
+    urls.insert(2, (SITE + "/stories/", rows[0][1] and max(i["time"] for i in rows[0][1])[:10] if rows else ""))
     open("media-kit.html", "w").write(media_kit(eds))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     sm += [f"<url><loc>{u}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>" for u, m in urls]

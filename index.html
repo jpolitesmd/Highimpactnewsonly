@@ -646,13 +646,15 @@ function whenLabel(it){const t=new Date(it.time); if(isNaN(t))return "Earlier";
   if(k===yd) return part?(h<5?"Overnight":"Yesterday "+part):"Yesterday";
   return new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long"}).format(t)+(part&&h>=5?" "+part:"");}
 /* Edition blocks for the Today tab: stories are grouped by the edition period they happened in (Eastern time;
-   editions turn over at 5 a.m. and 5 p.m.), newest block first, and sorted by impact inside each block. */
+   blocks turn over at the 5:30 a.m. and 4:30 p.m. searches), newest block first, and sorted by impact inside each block. */
 const BLOCKS=[["tonight","Tonight"],["today","Today"],["overnight","Overnight"],["yesterday","Yesterday"],["earlier","Earlier"]];
 function blockOf(it){const t=new Date(it.time); if(isNaN(t))return "earlier";
   const k=dayKey(it.time), T=fmtKey.format(new Date()), Y=fmtKey.format(new Date(Date.now()-864e5));
-  const h=+new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",hourCycle:"h23"}).format(t);
-  if(k===T) return h>=17?"tonight":h>=5?"today":"overnight";
-  if(k===Y) return h>=17?"overnight":"yesterday";
+  /* The day block runs 5:30 a.m.-4:30 p.m. (between the morning and evening searches); overnight runs 4:30 p.m.-5:30 a.m. */
+  const hp=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"numeric",hourCycle:"h23"}).formatToParts(t);
+  const m=(+hp.find(x=>x.type==="hour").value)*60+(+hp.find(x=>x.type==="minute").value);
+  if(k===T) return m>=990?"tonight":m>=330?"today":"overnight";
+  if(k===Y) return m>=990?"overnight":"yesterday";
   return "earlier";}
 function ornate(cls){const gap=el("div","endmark "+cls); gap.setAttribute("aria-hidden","true");
   const src=document.querySelector(".endmark svg"); if(src){const cl=src.cloneNode(true); cl.querySelectorAll("[id]").forEach(n=>n.removeAttribute("id")); gap.append(cl);} return gap;}

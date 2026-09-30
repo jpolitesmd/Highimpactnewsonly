@@ -8,7 +8,7 @@ import sys, datetime
 from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
-BUILD_LEAD = datetime.timedelta(minutes=45)  # editions are built ~45 min before they send (5:12 a.m., 4:18 p.m.)
+BUILD_LEAD = datetime.timedelta(minutes=30)  # editions are built from searches at 5:30 a.m. (sent 6:00) and 4:30 p.m. (sent 5:00)
 
 
 def next_edition(now):

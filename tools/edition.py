@@ -38,7 +38,8 @@ def rank(lst): return sorted(lst, key=lambda i: (-lv(i), -(t(i).timestamp() if t
 
 
 FRESH = datetime.timedelta(hours=12)  # "new" = happened or was added in the last 12 hours (Today tab rule)
-MORNING_SWEEP = datetime.time(5)       # the morning edition covers news up to about 5 a.m. Eastern
+MORNING_SWEEP = datetime.time(5, 30)   # the morning search runs at 5:30 a.m. Eastern: the day block starts here
+EVENING_SWEEP = datetime.time(16, 30)  # the evening search runs at 4:30 p.m. Eastern: the overnight block starts here
 EVENING_SEND = datetime.time(17)       # the evening edition goes out at 5 p.m. Eastern
 
 
@@ -67,7 +68,7 @@ def select(items, edition, now):
         # 1) Big stories overnight (since yesterday's 5 p.m. evening edition), then
         # 2) a recap of yesterday's biggest events that aren't already listed.
         yday = today - datetime.timedelta(days=1)
-        since = datetime.datetime.combine(yday, EVENING_SEND, ET)
+        since = datetime.datetime.combine(yday, EVENING_SWEEP, ET)
         overnight = rank([i for i in items if t(i) and since <= t(i) <= now and fresh_ok(i)])[:5]
         ids = {i["id"] for i in overnight}
         ids |= archived_ids(f"{yday.isoformat()}-weekend")  # Monday: skip what Sunday's review covered
@@ -85,7 +86,7 @@ def select(items, edition, now):
         if recap: groups.append(("Yesterday's biggest stories" if overnight else None, len(recap)))
         return overnight + recap, datetime.timedelta(hours=36), groups
     if edition == "weekend":  # Sunday evening: everything since Friday's 5 p.m. edition
-        since = datetime.datetime.combine(today - datetime.timedelta(days=2), EVENING_SEND, ET)
+        since = datetime.datetime.combine(today - datetime.timedelta(days=2), EVENING_SWEEP, ET)
         top = rank([i for i in items if t(i) and since <= t(i) <= now and fresh_ok(i)])[:10]
         return top, now - since, [(None, len(top))]
     # Evening: only what happened since the morning edition (about 5 a.m. Eastern), nothing from yesterday.

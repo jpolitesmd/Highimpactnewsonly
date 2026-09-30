@@ -730,7 +730,6 @@ function render(){
   const brk=activeBreaking(); if(brk.length) breakingBanner(feed,brk);
   if(region==="today"){renderToday(feed);return;}
   const intro=INTROS[region]; setIntro(typeof intro==="string"?intro:(intro?intro[sub]:""));
-  if(region==="government") upcomingBranch(feed,sub);
   let shown=items.filter(it=>{
     if(lvOf(it)<minLevel) return false; const s=secOf(it);
     if(region==="government") return s==="news"&&it.region!=="World"&&(sub==="all"||inBranch[sub](it));
@@ -738,9 +737,28 @@ function render(){
     if(region==="money") return sub==="all"?(s==="money"||s==="finance"):sub==="economy"?s==="money":s==="finance";
     return s===region;
   });
-  if(!shown.length){feed.append(el("div","empty","Nothing at this level yet. Lower the impact level to see more."));return;}
-  if(region==="government"&&sub!=="all"){ shown.sort(byImpact); feed.append(section({judicial:"Court decisions",legislative:"Congressional action",executive:"Executive action"}[sub]+", by impact",shown,true)); return; }
-  shown.sort(byDayThenImpact); byDays(feed,shown);
+  /* Below the stories: what's coming up (Government: each branch; Tech & Space: SpaceX launches) */
+  const tail=()=>{ if(region==="government") upcomingBranch(feed,sub); if(region==="tech") launchesSection(feed); };
+  if(!shown.length){feed.append(el("div","empty","Nothing at this level yet. Lower the impact level to see more.")); tail(); return;}
+  if(region==="government"&&sub!=="all"){ shown.sort(byImpact); feed.append(section({judicial:"Court decisions",legislative:"Congressional action",executive:"Executive action"}[sub]+", by impact",shown,true)); tail(); return; }
+  shown.sort(byDayThenImpact); byDays(feed,shown); tail();
+}
+/* Upcoming SpaceX launches (launches.json, refreshed by the morning task). Times are Eastern and often slip. */
+let launches=null;
+async function loadLaunches(){try{const r=await fetch("launches.json?t="+Date.now(),{cache:"no-store"}); launches=await r.json();}catch(e){launches={launches:[]};} if(region==="tech")render();}
+function launchesSection(feed){
+  if(!launches){loadLaunches();return;}
+  const today=fmtKey.format(new Date());
+  const ls=(launches.launches||[]).filter(l=>l.date>=today).sort((a,b)=>(a.date+(a.sort||""))<(b.date+(b.sort||""))?-1:1).slice(0,8);
+  const c=el("section","upcoming up-branch"); const d=el("div","dateline"); d.append(el("span",null,"Upcoming SpaceX launches")); c.append(d);
+  if(!ls.length){c.append(el("p","edition-count","No launches scheduled in the next two weeks.")); feed.append(c); return;}
+  const ul=el("ul","up-list");
+  for(const l of ls){const li=el("li"); const when=el("span","up-date"); when.append(document.createTextNode(fmtWD.format(new Date(l.date+"T12:00:00Z")))); when.append(el("span","up-detail",l.time||"Time TBD"));
+    const t=el("span","up-text"); t.append(el("b","up-br",l.rocket+" · ")); t.append(document.createTextNode(l.mission));
+    t.append(el("span","up-detail",l.site+(l.note?" · "+l.note:""))); li.append(when,t); ul.append(li);}
+  c.append(ul);
+  const n=el("p","edition-count"); n.append(document.createTextNode("Times are Eastern and often change. ")); const a=el("a",null,"SpaceX launch page ↗"); a.href="https://www.spacex.com/launches"; a.target="_blank"; a.rel="noopener"; a.style.color="var(--accent)"; n.append(a); c.append(n);
+  feed.append(c);
 }
 
 syncButtons(); render();

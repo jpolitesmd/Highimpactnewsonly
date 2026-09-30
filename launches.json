@@ -1,0 +1,46 @@
+{
+ "updated": "2026-09-29",
+ "source": "Spaceflight Now launch schedule; RocketLaunch.org",
+ "launches": [
+  {
+   "date": "2026-10-01",
+   "sort": "11:10",
+   "time": "11:10 a.m.",
+   "rocket": "Falcon 9",
+   "mission": "NASA Crew-13 (astronauts to the International Space Station)",
+   "site": "SLC-40, Cape Canaveral Space Force Station, Fla."
+  },
+  {
+   "date": "2026-10-01",
+   "sort": "14:18",
+   "time": "2:18 p.m.",
+   "rocket": "Falcon 9",
+   "mission": "Transporter-18 (about 130 small satellites, rideshare)",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif."
+  },
+  {
+   "date": "2026-10-01",
+   "sort": "23:53",
+   "time": "11:53 p.m.",
+   "rocket": "Falcon Heavy",
+   "mission": "NROL-97 (National Reconnaissance Office satellite)",
+   "site": "Launch Complex 39A, Kennedy Space Center, Fla."
+  },
+  {
+   "date": "2026-10-05",
+   "sort": "04:06",
+   "time": "4:06 a.m.",
+   "rocket": "Falcon 9",
+   "mission": "Space Development Agency Tranche 1 Transport Layer A",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif."
+  },
+  {
+   "date": "2026-10-10",
+   "sort": "99",
+   "time": "Time TBD",
+   "rocket": "Falcon 9",
+   "mission": "Starlink 15-25 (27 Starlink satellites)",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif."
+  }
+ ]
+}

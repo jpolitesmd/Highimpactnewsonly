@@ -1,0 +1,53 @@
+{
+ "updated": "2026-09-29",
+ "threads": [
+  {
+   "id": "iran-war",
+   "title": "The U.S.-Iran war and the Strait of Hormuz",
+   "summary": "The war between the U.S., Israel and Iran, now in its seventh month, and talks over reopening the Strait of Hormuz, the route for about a fifth of the world's oil.",
+   "status": "active"
+  },
+  {
+   "id": "russia-ukraine",
+   "title": "Russia's war in Ukraine",
+   "summary": "Russian strikes on Ukraine, Ukraine's response and U.S. aid.",
+   "status": "active"
+  },
+  {
+   "id": "government-funding",
+   "title": "Government funding and the Dec. 11 deadline",
+   "summary": "Congress funded the government through Dec. 11 with a stopgap law; what happens to federal spending before that deadline.",
+   "status": "active"
+  },
+  {
+   "id": "trade-tariffs",
+   "title": "Tariffs and trade deals",
+   "summary": "U.S. tariff actions and trade agreements with China, Canada and others.",
+   "status": "active"
+  },
+  {
+   "id": "deportations-courts",
+   "title": "Deportation policy in the courts",
+   "summary": "Court rulings on the administration's deportation policies, including removals to third countries.",
+   "status": "active"
+  },
+  {
+   "id": "rates-inflation",
+   "title": "Inflation and interest rates",
+   "summary": "Federal Reserve decisions, inflation and jobs reports, and Treasury yields.",
+   "status": "active"
+  },
+  {
+   "id": "college-sports-act",
+   "title": "The Protect College Sports Act",
+   "summary": "Federal legislation on college athlete pay, agents and benefits.",
+   "status": "active"
+  },
+  {
+   "id": "midterms-2026",
+   "title": "The 2026 midterm elections",
+   "summary": "Court rulings, election rules and results for the Nov. 3, 2026 elections.",
+   "status": "active"
+  }
+ ]
+}

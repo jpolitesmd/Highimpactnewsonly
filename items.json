@@ -18,7 +18,8 @@
    "time_known": false,
    "source": "CBS News",
    "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/",
-   "added_at": "2026-09-29T19:55:21-04:00"
+   "added_at": "2026-09-29T19:55:21-04:00",
+   "thread": "deportations-courts"
   },
   {
    "id": "2026-09-29-title-ix-final-rule",
@@ -96,7 +97,8 @@
    "time_known": false,
    "source": "Al Jazeera",
    "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
-   "added_at": "2026-09-29T19:55:21-04:00"
+   "added_at": "2026-09-29T19:55:21-04:00",
+   "thread": "russia-ukraine"
   },
   {
    "id": "2026-09-29-canada-import-bans",
@@ -113,7 +115,8 @@
    "time_known": true,
    "source": "CP24",
    "url": "https://www.cp24.com/news/money/2026/09/29/trumps-import-bans-on-canadian-liquor-whey-motorcycles-take-effect/",
-   "added_at": "2026-09-29T16:20:24-04:00"
+   "added_at": "2026-09-29T16:20:24-04:00",
+   "thread": "trade-tariffs"
   },
   {
    "id": "2026-09-28-senate-college-sports-act",
@@ -130,7 +133,8 @@
    "time_known": false,
    "source": "Senate Commerce Committee",
    "url": "https://www.commerce.senate.gov/press/dem/release/senate-passes-protect-college-sports-act-77-22/",
-   "added_at": "2026-09-29T16:20:24-04:00"
+   "added_at": "2026-09-29T16:20:24-04:00",
+   "thread": "college-sports-act"
   },
   {
    "id": "2026-09-28-treasury-yield-oil",
@@ -145,7 +149,8 @@
    "time_known": true,
    "source": "TheStreet",
    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-28-2026",
-   "added_at": "2026-09-29T07:41:16-04:00"
+   "added_at": "2026-09-29T07:41:16-04:00",
+   "thread": "rates-inflation"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -179,7 +184,8 @@
    "topic": "capitol",
    "branch": [
     "executive"
-   ]
+   ],
+   "thread": "russia-ukraine"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -196,7 +202,8 @@
    "topic": "ship",
    "branch": [
     "executive"
-   ]
+   ],
+   "thread": "iran-war"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -210,7 +217,8 @@
    "id": "2026-09-28-iran-response",
    "detail": "The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
    "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action.",
-   "topic": "globe"
+   "topic": "globe",
+   "thread": "iran-war"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -245,7 +253,8 @@
    "branch": [
     "executive",
     "legislative"
-   ]
+   ],
+   "thread": "college-sports-act"
   },
   {
    "id": "2026-09-28-nfl-injuries-week4",
@@ -351,7 +360,8 @@
    "id": "2026-09-28-russia-strikes",
    "detail": "Seven of those killed, including a child, were in Kyiv. Russian drones also hit the headquarters of Kyivstar, Ukraine's largest mobile carrier, and a guided bomb injured 22 people in Kharkiv. Ukraine's army said it retook 176 square kilometers in northern Donetsk.",
    "why": "Deadly attacks in an ongoing war. Rated 3 because they continue an existing pattern rather than marking a new phase.",
-   "topic": "conflict"
+   "topic": "conflict",
+   "thread": "russia-ukraine"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -382,7 +392,8 @@
    "topic": "trade",
    "branch": [
     "executive"
-   ]
+   ],
+   "thread": "trade-tariffs"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -417,7 +428,8 @@
    "branch": [
     "executive",
     "legislative"
-   ]
+   ],
+   "thread": "government-funding"
   },
   {
    "id": "2026-09-26-xrpl-security-release",
@@ -466,7 +478,8 @@
    "court": "U.S. District Court, Maryland",
    "branch": [
     "judicial"
-   ]
+   ],
+   "thread": "deportations-courts"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -485,7 +498,8 @@
    "court": "U.S. Supreme Court",
    "branch": [
     "judicial"
-   ]
+   ],
+   "thread": "midterms-2026"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -504,7 +518,8 @@
    "court": "U.S. Supreme Court",
    "branch": [
     "judicial"
-   ]
+   ],
+   "thread": "midterms-2026"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",
@@ -550,7 +565,8 @@
    "why": "A one-vote margin on whether Congress would direct an end to U.S. involvement in an active war; the resolution failed, so nothing changes.",
    "source": "U.S. Senate floor activity",
    "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm",
-   "added_at": "2026-09-28T22:12:00-04:00"
+   "added_at": "2026-09-28T22:12:00-04:00",
+   "thread": "iran-war"
   },
   {
    "id": "2026-09-23-nasa-prima",
@@ -595,7 +611,8 @@
    "why": "Raises borrowing costs nationwide, including credit cards, auto loans and adjustable-rate mortgages; more increases are projected.",
    "source": "Advisor Perspectives / Federal Reserve",
    "url": "https://www.advisorperspectives.com/dshort/updates/2026/09/16/feds-interest-rate-decision-september-16-2026",
-   "added_at": "2026-09-28T22:45:00-04:00"
+   "added_at": "2026-09-28T22:45:00-04:00",
+   "thread": "rates-inflation"
   },
   {
    "id": "2026-09-11-august-cpi",
@@ -610,7 +627,8 @@
    "why": "Inflation above the Fed's 2% target affects household budgets and was a stated reason for the Fed's rate increase.",
    "source": "Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-   "added_at": "2026-09-28T22:45:00-04:00"
+   "added_at": "2026-09-28T22:45:00-04:00",
+   "thread": "rates-inflation"
   },
   {
    "id": "2026-09-09-tozorakimab-copd",
@@ -655,7 +673,8 @@
    "why": "The main monthly measure of the job market; stronger hiring supports the Fed's case for higher rates.",
    "source": "Bureau of Labor Statistics",
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-   "added_at": "2026-09-28T22:45:00-04:00"
+   "added_at": "2026-09-28T22:45:00-04:00",
+   "thread": "rates-inflation"
   },
   {
    "id": "2026-09-01-ripple-escrow",
@@ -687,7 +706,8 @@
    "why": "Prevents a government shutdown on Oct. 1 for all federal agencies; it is temporary, so a new deadline arrives Dec. 11.",
    "source": "NPR",
    "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
-   "added_at": "2026-09-28T22:12:00-04:00"
+   "added_at": "2026-09-28T22:12:00-04:00",
+   "thread": "government-funding"
   },
   {
    "id": "2026-08-31-prague-26",

@@ -1,6 +1,6 @@
 """Shared look for every email (editions and breaking alerts).
 
-Dark inline styles + bgcolor by default so mail clients that strip <style> stay readable on charcoal.
+Dark inline styles + bgcolor by default so mail clients that strip <style> stay readable on Mail grey.
 On the web archive (and mail apps that keep CSS), Appearance Auto follows prefers-color-scheme
 with the same Light/Dark palettes as the manual toggles; Light / Sepia / Dark radios override.
 Buttondown forbids <script> and event handlers in email bodies, so theme choice uses radio buttons
@@ -14,14 +14,14 @@ import html
 SITE = "https://hinewsdaily.com"
 IMG = f"{SITE}/assets/email"
 
-# Dark palette (aligned with site data-theme="dark" / --bg #000000)
-PAPER = "#000000"   # email wrapper background (iOS-matched black)
-INK = "#f5f0e8"     # headlines
+# Dark palette for email: paper matches iOS Mail chrome grey (site stays #000000)
+PAPER = "#1c1c1e"   # email wrapper — Apple secondarySystemBackground / Mail chrome
+INK = "#f5f0e8"     # headlines (readable on #1c1c1e)
 BODY = "#d9d2c5"    # story text
 MUTED = "#b8b0a4"   # labels, captions
-RULE = "#3d3831"    # hairlines
+RULE = "#38383a"    # hairlines (cool grey, not brown)
 ACCENT = "#e08a6f"  # warm accent links / section labels (site dark accent)
-BOX = "#262320"     # share box / inset surface
+BOX = "#2c2c2e"     # share box / inset surface (elevated cool grey)
 SERIF = "'Source Serif 4','Source Serif Pro',Georgia,'Times New Roman',Times,serif"
 SANS = "-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
 DISPLAY = "'IM Fell English',Georgia,'Times New Roman',serif"
@@ -106,7 +106,7 @@ def appearance_bar():
 
 def open_paper():
     """Opening wrapper and masthead. Explicit dark bgcolor so Buttondown's web archive (and clients
-    that ignore <style>) render on charcoal with light text. Theme controls enhance the archive view."""
+    that ignore <style>) render on Mail grey with light text. Theme controls enhance the archive view."""
     return (
         '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&'
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'

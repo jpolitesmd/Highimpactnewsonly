@@ -1,13 +1,13 @@
 """Shared look for every email (editions and breaking alerts).
 
-Dark by default (inline styles + bgcolor) so the Buttondown web archive is readable and matches the
-site's dark charcoal theme. Mail apps that strip <style> still get light text on a dark wrapper via
-inline color/bgcolor. On the web archive, CSS-only Appearance controls (Auto / Light / Sepia / Dark)
-match the site's options. Buttondown forbids <script> and event handlers in email bodies, so theme
-choice uses radio buttons + :has() selectors (session-local; no localStorage). Flourishes are
-mid-tone PNGs that read on dark; the wordmark is live text. Fonts: Source Serif 4 where the mail
-app can load it (Apple Mail, iOS), falling back to Georgia; labels in the system sans. Each HTML
-block starts on its own line so Buttondown passes it through untouched.
+Dark inline styles + bgcolor by default so mail clients that strip <style> stay readable on charcoal.
+On the web archive (and mail apps that keep CSS), Appearance Auto follows prefers-color-scheme
+with the same Light/Dark palettes as the manual toggles; Light / Sepia / Dark radios override.
+Buttondown forbids <script> and event handlers in email bodies, so theme choice uses radio buttons
++ :has() selectors (session-local; no localStorage). Flourishes are mid-tone PNGs that read on
+dark; the wordmark is live text. Fonts: Source Serif 4 where the mail app can load it (Apple Mail,
+iOS), falling back to Georgia; labels in the system sans. Each HTML block starts on its own line
+so Buttondown passes it through untouched.
 """
 import html
 
@@ -26,11 +26,12 @@ SERIF = "'Source Serif 4','Source Serif Pro',Georgia,'Times New Roman',Times,ser
 SANS = "-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
 DISPLAY = "'IM Fell English',Georgia,'Times New Roman',serif"
 
-# Light / sepia tokens (match index.html :root / data-theme="sepia")
+# Light / sepia / dark tokens (match index.html :root / data-theme)
 LIGHT = dict(paper="#faf7f1", ink="#1d1a16", body="#1d1a16", muted="#6b6358",
              rule="#d9d0bf", accent="#8b2a1d", box="#ffffff")
 SEPIA = dict(paper="#f4ecd8", ink="#3b2f22", body="#3b2f22", muted="#75644f",
              rule="#d6c7a4", accent="#8b2a1d", box="#fbf5e6")
+DARK = dict(paper=PAPER, ink=INK, body=BODY, muted=MUTED, rule=RULE, accent=ACCENT, box=BOX)
 
 e = lambda s: html.escape(str(s or ""), quote=True)
 
@@ -40,11 +41,10 @@ def link(text, url, color=ACCENT, underline=False):
             f'font-weight:600">{e(text)}</a>')
 
 
-def _theme_block(sel, T):
-    scheme = "light" if T in (LIGHT, SEPIA) or T is LIGHT or T is SEPIA else "dark"
-    # T is always a dict; scheme from caller
+def _theme_block(sel, T, scheme="light"):
+    """Full palette overrides for one Appearance choice (manual or Auto+media)."""
     return (
-        f'{sel}{{color-scheme:light;background-color:{T["paper"]}}}'
+        f'{sel}{{color-scheme:{scheme};background-color:{T["paper"]}}}'
         f'{sel} .hd-wrap,{sel} .hd-body{{background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
         f'{sel} .hd-ink,{sel} .hd-inkrule{{color:{T["ink"]}!important;'
         f'border-top-color:{T["ink"]}!important;border-bottom-color:{T["ink"]}!important}}'
@@ -60,8 +60,13 @@ def _theme_block(sel, T):
 
 
 def _theme_css():
-    """Overrides for web-archive theme switching via CSS-only radios (:has)."""
-    L, S = LIGHT, SEPIA
+    """Overrides for web-archive theme switching via CSS-only radios (:has).
+
+    Auto follows prefers-color-scheme (same idea as the site: no forced theme until
+    Light/Sepia/Dark is chosen). Manual radios override because only one can be checked.
+    Inline styles stay dark for clients that strip <style>.
+    """
+    L, S, D = LIGHT, SEPIA, DARK
     parts = [
         '.hd-root{color-scheme:dark;background-color:%s}' % PAPER,
         '.hd-appearance input{position:absolute;opacity:0;pointer-events:none;width:0;height:0;margin:0}',
@@ -71,11 +76,13 @@ def _theme_css():
         (f'.hd-appearance label{{padding:5px 11px;font:500 12px {SANS};color:{MUTED};background:transparent;'
          f'border:1px solid {RULE};border-radius:999px;cursor:pointer}}'),
         f'.hd-appearance input:checked + label{{color:{PAPER};background:{INK};border-color:{INK}}}',
-        _theme_block('.hd-root:has(#hd-t-light:checked)', L),
-        _theme_block('.hd-root:has(#hd-t-sepia:checked)', S),
-        '.hd-root:has(#hd-t-dark:checked){color-scheme:dark;background-color:%s}' % PAPER,
-        '@media(prefers-color-scheme:light){' + _theme_block('.hd-root:has(#hd-t-auto:checked)', L) + '}',
-        '@media(prefers-color-scheme:dark){.hd-root:has(#hd-t-auto:checked){color-scheme:dark;background-color:%s}}' % PAPER,
+        # Manual themes (always win over Auto media queries: exclusive radios)
+        _theme_block('.hd-root:has(#hd-t-light:checked)', L, 'light'),
+        _theme_block('.hd-root:has(#hd-t-sepia:checked)', S, 'light'),
+        _theme_block('.hd-root:has(#hd-t-dark:checked)', D, 'dark'),
+        # Auto = follow the device (site pw_theme auto / no data-theme)
+        '@media(prefers-color-scheme:light){' + _theme_block('.hd-root:has(#hd-t-auto:checked)', L, 'light') + '}',
+        '@media(prefers-color-scheme:dark){' + _theme_block('.hd-root:has(#hd-t-auto:checked)', D, 'dark') + '}',
     ]
     return ''.join(parts)
 
@@ -85,13 +92,13 @@ def appearance_bar():
     return (
         '<div class="hd-appearance" role="group" aria-label="Appearance">'
         '<span>Appearance</span>'
-        '<input type="radio" name="hd-theme" id="hd-t-auto" value="auto">'
+        '<input type="radio" name="hd-theme" id="hd-t-auto" value="auto" checked>'
         '<label for="hd-t-auto">Auto</label>'
         '<input type="radio" name="hd-theme" id="hd-t-light" value="light">'
         '<label for="hd-t-light">Light</label>'
         '<input type="radio" name="hd-theme" id="hd-t-sepia" value="sepia">'
         '<label for="hd-t-sepia">Sepia</label>'
-        '<input type="radio" name="hd-theme" id="hd-t-dark" value="dark" checked>'
+        '<input type="radio" name="hd-theme" id="hd-t-dark" value="dark">'
         '<label for="hd-t-dark">Dark</label>'
         '</div>'
     )

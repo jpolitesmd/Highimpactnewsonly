@@ -1,1 +1,22 @@
-{"updated": "2026-09-29", "audits": []}
+{
+ "updated": "2026-09-29",
+ "audits": [
+  {
+   "run": "2026-09-29T21:41:09-04:00",
+   "day": "2026-09-27",
+   "reference_events": 8,
+   "missed": [
+    {
+     "id": "2026-09-27-presidents-cup-us-wins",
+     "impact": 4,
+     "should_have_caught": "evening",
+     "reason": "Team golf championship decided Sunday afternoon; a 'final day results' sports search would have found it."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Sports: on Sundays and weekends search \"[event] final day results\" (Presidents Cup, Ryder Cup, majors, team championships) and open espn.com/golf or the event's Yahoo Sports wrap; team championships decided in the afternoon count as impact 4. Missed 2026-09-27: U.S. won Presidents Cup 17-13. [audit 2026-09-27]"
+   ]
+  }
+ ]
+}

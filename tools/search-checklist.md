@@ -16,4 +16,5 @@ naming the source or search that would have caught it. Keep it to 20 lines or fe
 
 ## Evening task
 - Supreme Court emergency orders often come mid-afternoon: open https://www.supremecourt.gov/orders/ordersofthecourt/ and search "Supreme Court order today"; Supreme Court orders and decisions count as impact 4. Missed 2026-09-29: stay letting third-country deportations resume (about 3:30 p.m.). [2026-09-29]
+- Sports: on Sundays and weekends search "[event] final day results" (Presidents Cup, Ryder Cup, majors, team championships) and open espn.com/golf or the event's Yahoo Sports wrap; team championships decided in the afternoon count as impact 4. Missed 2026-09-27: U.S. won Presidents Cup 17-13. [audit 2026-09-27]
 - Federal agency final rules announced during the day: search "final rule [today's date]" plus the agency news pages (transportation.gov, epa.gov). Missed 2026-09-29: final fuel economy (CAFE) rule. [2026-09-29]

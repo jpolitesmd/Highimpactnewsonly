@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T19:55:21-04:00",
+ "updated": "2026-09-29T21:41:09-04:00",
  "items": [
   {
    "id": "2026-09-29-scotus-third-country-deportations",
@@ -394,6 +394,21 @@
     "executive"
    ],
    "thread": "trade-tariffs"
+  },
+  {
+   "id": "2026-09-27-presidents-cup-us-wins",
+   "section": "sports",
+   "text": "The United States won the Presidents Cup 17-13 over the International team at Medinah Country Club on Sept. 27, taking 8.5 of 12 singles points after trailing by three entering Sunday.",
+   "detail": "The International team, captained by Geoff Ogilvy, needed five points from Sunday's singles to win the cup but fell short. Scottie Scheffler won 2&1, Justin Thomas won 5&3 and Cameron Young won 3&2 for the United States.",
+   "why": "A biennial team golf championship decided; final result, but a single sport's event with no binding effect beyond the title.",
+   "impact": 4,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-09-27T12:00:00-04:00",
+   "time_known": false,
+   "source": "Yahoo Sports",
+   "url": "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-sunday-results-us-clinches-victory-with-huge-rally-145731096.html",
+   "added_at": "2026-09-29T21:41:09-04:00"
   },
   {
    "added_at": "2026-09-28T20:50:00-04:00",

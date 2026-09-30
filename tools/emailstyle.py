@@ -45,7 +45,7 @@ def _theme_block(sel, T, scheme="light"):
     """Full palette overrides for one Appearance choice (manual or Auto+media)."""
     return (
         f'{sel}{{color-scheme:{scheme};background-color:{T["paper"]}}}'
-        f'{sel} .hd-wrap,{sel} .hd-body{{background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
+        f'{sel} .hd-wrap,{sel} .hd-inner,{sel} .hd-body{{background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
         f'{sel} .hd-ink,{sel} .hd-inkrule{{color:{T["ink"]}!important;'
         f'border-top-color:{T["ink"]}!important;border-bottom-color:{T["ink"]}!important}}'
         f'{sel} .hd-muted{{color:{T["muted"]}!important}}'
@@ -112,14 +112,18 @@ def open_paper():
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'
         'a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;'
         'font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}'
-        '.hd-wrap{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
+        '.hd-wrap,.hd-inner{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
+        '.hd-inner{width:600px;max-width:100%;margin:0 auto}'
         + _theme_css() +
         '</style>\n'
         '<div class="hd-root">\n'
         f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
         f'bgcolor="{PAPER}" style="width:100%;border-collapse:collapse;background-color:{PAPER}">'
-        f'<tr><td class="hd-body" bgcolor="{PAPER}" style="padding:6px 4px 20px;background-color:{PAPER};'
-        f'color:{BODY};font-family:{SERIF};font-size:15px;line-height:1.5">\n'
+        f'<tr><td align="center" valign="top" bgcolor="{PAPER}" style="padding:0;background-color:{PAPER};text-align:center">'
+        f'<table role="presentation" class="hd-inner" width="600" cellpadding="0" cellspacing="0" border="0" '
+        f'bgcolor="{PAPER}" style="width:600px;max-width:100%;border-collapse:collapse;background-color:{PAPER};margin:0 auto;text-align:left">'
+        f'<tr><td class="hd-body" bgcolor="{PAPER}" style="padding:6px 16px 20px;background-color:{PAPER};'
+        f'color:{BODY};font-family:{SERIF};font-size:15px;line-height:1.5;text-align:left">\n'
         f'<p class="hd-inkrule hd-ink" style="margin:0;padding:6px 0 5px;border-top:3px double {INK};'
         f'border-bottom:1px solid {INK};text-align:center;font-family:{SANS};font-size:9px;font-weight:600;'
         f'letter-spacing:1.6px;text-transform:uppercase;color:{INK}">Spin-free news · Ranked by impact</p>\n'
@@ -138,7 +142,7 @@ def open_paper():
 
 
 def close_paper():
-    return "</td></tr></table>\n</div>"
+    return "</td></tr></table></td></tr></table>\n</div>"
 
 
 def kicker(text):

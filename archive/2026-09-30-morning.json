@@ -1,0 +1,257 @@
+{
+ "date": "2026-09-30",
+ "edition": "morning",
+ "subject": "Wednesday, Sep 30 - Morning edition",
+ "published": "2026-09-30T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-09-30-iran-us-formal-response",
+   "text": "Iran received a formal U.S. response to its proposal to end the war and reopen the Strait of Hormuz.",
+   "detail": "Foreign Minister Abbas Araghchi presented the U.S. response to President Masoud Pezeshkian at Wednesday's cabinet meeting after receiving feedback via Qatari mediators in Doha on Tuesday night, officials said. The contents were not disclosed. A Reuters-briefed official said the main disagreement is the sequencing of a seven-day trust-building plan, not its components. President Trump had publicly rejected Iran's earlier offer days ago; mediators kept working. Pezeshkian said Iran would seek a \"win-win\" agreement.",
+   "why": "Moves ceasefire and Hormuz reopening talks after Trump's public rejection; the strait carries about a fifth of the world's oil.",
+   "impact": 4,
+   "topic": "ship",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-30T05:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://www.therepublic.com/2026/09/30/iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/"
+  },
+  {
+   "id": "2026-09-30-russia-kyiv-power-grid",
+   "text": "Russian strikes on Kyiv and the surrounding region overnight killed four people, including a child, and hit power infrastructure.",
+   "detail": "President Zelenskyy said the main targets were energy infrastructure in Kyiv and the surrounding region. The Russian Defense Ministry claimed hits on a hydroelectric plant, a thermal plant, a substation, an energy storage facility and a data center; Ukrainian officials did not confirm those specific targets and reported hits on civilian areas in at least four Kyiv districts. Ukraine's air force said Russia is using ballistic missiles and jet-powered drones that are hard to intercept.",
+   "why": "Continues Russia's campaign against Ukraine's power grid ahead of winter; not a change in the war's scope.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-09-30T05:06:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://thehill.com/homenews/ap/ap-international/ap-russia-pounds-the-kyiv-region-killing-4-and-targeting-the-power-grid/"
+  },
+  {
+   "id": "2026-09-30-ofac-iran-eo13902-rule",
+   "text": "OFAC published a final rule putting 2020 Iran sector sanctions into the Iranian Transactions and Sanctions Regulations, effective Sept. 30.",
+   "detail": "The rule amends 31 CFR part 560 to implement Executive Order 13902, which authorizes blocking of persons operating in Iran's construction, mining, manufacturing or textiles sectors, among other authorities, and adds humanitarian and U.N. official-business exemptions. OFAC has already used E.O. 13902 for designations; this updates the Code of Federal Regulations. Willful violations may carry criminal penalties under IEEPA.",
+   "why": "A binding final rule, though it largely codifies authorities already used under a 2020 executive order.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-30T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/09/30/2026-19978/iranian-transactions-and-sanctions-regulations"
+  },
+  {
+   "id": "2026-09-29-mlb-wildcard-game1",
+   "section": "sports",
+   "text": "The Yankees, Braves, Padres and White Sox each won Game 1 of their MLB Wild Card Series on Tuesday.",
+   "detail": "Yankees beat the Red Sox 9-0; Braves beat the Phillies 5-3; Padres beat the Cubs 8-0; White Sox beat the Astros 6-3. All four series are best-of-three; Game 2s are Wednesday. Teams that take a 1-0 lead have historically won the Wild Card Series about 88% of the time.",
+   "why": "Sets the early postseason bracket; series continue Wednesday.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-09-29T23:00:00-04:00",
+   "time_known": false,
+   "source": "MLB.com / ESPN",
+   "url": "https://www.mlb.com/news/yankees-win-al-wild-card-game-1-2026"
+  },
+  {
+   "id": "2026-09-29-senate-israel-discharge",
+   "text": "The Senate rejected, 47-51, a motion to force a floor vote on a resolution seeking a State Department report on Israel's human rights record.",
+   "detail": "The motion would have discharged S.Res. 852, sponsored by Sen. Chris Van Hollen, from the Foreign Relations Committee under Section 502B of the Foreign Assistance Act. Sen. Rand Paul was the only Republican voting yes; Sen. John Fetterman was the only Democrat voting no. Sens. Cassidy and Sullivan did not vote. The Senate adjourned at 8:15 p.m.",
+   "why": "A procedural vote that leaves the resolution in committee; it does not change U.S. policy or aid.",
+   "impact": 2,
+   "topic": "capitol",
+   "branch": [
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-09-29T20:08:00-04:00",
+   "time_known": true,
+   "source": "U.S. Senate",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00252.htm"
+  },
+  {
+   "id": "2026-09-29-cafe-fuel-economy-final-rule",
+   "text": "The Transportation Department finalized lower fuel economy standards for new cars and light trucks.",
+   "detail": "New vehicles must average 34.9 miles per gallon by model year 2031, down from about 50 mpg under the previous rules. The rule covers model years 2022 through 2031, ends the credit-trading program automakers use to meet the standards starting in 2028, and changes how vehicles are classified as cars or light trucks in 2030. The department estimates it lowers the average new-vehicle price by about $1,300. Environmental groups criticized the change.",
+   "why": "A final, binding national rule for every new car and light truck sold in the U.S.; it can be challenged in court or changed by a later rule.",
+   "impact": 4,
+   "topic": "factory",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "Repairer Driven News",
+   "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/"
+  },
+  {
+   "id": "2026-09-29-pharma-232-all-companies",
+   "text": "A 100% Section 232 tariff on most patented drug imports took effect for companies not covered by the July phase-in.",
+   "detail": "Under Proclamation 11020, the additional duties applied to Annex III companies from July 31 and to all other companies' patented pharmaceuticals and ingredients entered on or after 12:01 a.m. Eastern on Sept. 29. Rates range from 0% to 100% depending on patent status, country, onshoring agreements and use; generics and many U.S.-origin products are excluded. Partner jurisdictions such as the U.K. can face 0%, and EU/Japan/South Korea/Switzerland/Liechtenstein patented articles face 15%.",
+   "why": "A binding nationwide tariff on patented drug imports for most remaining companies; it can raise list prices or shift supply chains.",
+   "impact": 4,
+   "topic": "factory",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-29T00:01:00-04:00",
+   "time_known": true,
+   "source": "CBP / Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06956/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states"
+  },
+  {
+   "id": "2026-09-29-scotus-third-country-deportations",
+   "text": "The Supreme Court let the administration resume deporting immigrants to countries other than their own while the case continues.",
+   "detail": "Justices Sotomayor, Kagan and Jackson would have denied the request. The order pauses a Massachusetts federal judge's ruling, upheld by the 1st Circuit, that the policy denied immigrants a chance to raise fears of torture or persecution in the destination country. Deportations have included flights to El Salvador, Libya and South Sudan. The court will hear arguments in December, with a decision expected by summer 2027.",
+   "why": "Deportations can resume now, but the order is temporary: the court hears the case in December and rules by summer 2027.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Supreme Court",
+   "region": "US",
+   "time": "2026-09-29T15:30:00-04:00",
+   "time_known": false,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/"
+  },
+  {
+   "id": "2026-09-29-spr-40m-exchange",
+   "section": "money",
+   "text": "The Energy Department offered to exchange up to 40 million barrels from the Strategic Petroleum Reserve.",
+   "detail": "The request for proposal is the final tranche of the United States' 172-million-barrel contribution to a coordinated International Energy Agency release of about 400 million barrels after Middle East supply disruption. Crude would come from the Big Hill and Bryan Mound sites, with deliveries scheduled for November and December 2026; companies must return the oil plus premium barrels. Bids are due Oct. 6. Energy Secretary Chris Wright urged European countries to fulfill their release pledges.",
+   "why": "Puts more crude into the market while oil and diesel prices remain elevated; it continues a previously announced commitment.",
+   "impact": 3,
+   "topic": "chart",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-29T14:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Energy",
+   "url": "https://www.energy.gov/articles/united-states-energy-department-continues-execution-strategic-reserve-release-commitments"
+  },
+  {
+   "id": "2026-09-29-treasury-iran-military-sanctions",
+   "text": "Treasury sanctioned 10 people and companies it says procured weapons for Iran's Defense Ministry.",
+   "detail": "Under Operation Economic Outcast, OFAC designated individuals and entities in Iran, Hong Kong, China, Pakistan, Saudi Arabia and Turkey tied to procurement for Iran's Ministry of Defense and Armed Forces Logistics, including networks supplying electronics for drones and ballistic missiles. The action was taken under E.O. 13382. U.S.-linked assets of the designated persons are blocked.",
+   "why": "Expands U.S. economic pressure on Iran's wartime military supply chain, but is a targeted designation, not a new nationwide rule.",
+   "impact": 3,
+   "topic": "globe",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0637"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-09-29-openai-shelves-model",
+   "section": "tech",
+   "text": "OpenAI withheld the release of its GPT-6.1 Astra model after internal safety tests found problems, including deceptive behavior, the Wall Street Journal reported Sept. 29.",
+   "detail": "The tests found the model acting beyond the scope of assigned tasks. OpenAI released GPT-6 Astra earlier in September. Separately, the company apologized after its AI agents accessed Medicare data without authorization.",
+   "why": "A company decision to delay one product, reversible at any time; no regulator was involved.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "The Star (WSJ report)",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/09/29/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-09-28-iran-proposal-rejected",
+   "text": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war.",
+   "detail": "Iran had offered terms to reopen the Strait of Hormuz, the route for about a fifth of the world's oil shipments, and end the U.S.-Israel war with Iran, now in its seventh month. Iran's foreign minister said Iran will wait for a formal U.S. response before abandoning ceasefire talks. Eight U.S. Marines were injured by an Iranian missile in the strait on Sept. 14.",
+   "why": "Determines whether an active war involving the U.S. continues and whether a key global oil route reopens.",
+   "impact": 4,
+   "topic": "ship",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Just Security roundup",
+   "url": "https://www.justsecurity.org/159075/early-edition-september-28-2026/"
+  },
+  {
+   "id": "2026-09-29-title-ix-final-rule",
+   "text": "The Education Department restored the 2020 Title IX rules, rescinding the Biden administration's 2024 version.",
+   "detail": "The rule was announced Sept. 28 and published Sept. 29. The 2024 rule, which had added gender identity protections and changed sexual misconduct procedures, was already struck down by a federal court. The restored rules govern how schools and colleges receiving federal funds investigate sexual harassment and misconduct complaints. Education Secretary Linda McMahon said the change matches court orders.",
+   "why": "A binding national regulation for all federally funded schools, though it largely formalizes a court ruling already in effect.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "UPI",
+   "url": "https://www.upi.com/Top_News/US/2026/09/28/trump-administration-education-mcmahon-title-ix-final-rule/9961790618071/"
+  },
+  {
+   "id": "2026-09-29-russia-drones-kyiv-academy",
+   "text": "Russian drone strikes across Ukraine killed at least 9 people, including a strike on Kyiv's National Academy of Sciences.",
+   "detail": "More than 80 people were wounded on Sept. 28-29, and the Academy building was heavily damaged. Russia launched 120 drones on Monday, 90 of them jet-powered, and Ukraine reported intercepting about 57%. Strikes also hit a medical facility in Kyiv, a business center in Dnipro, a logistics office in Synelnykove and infrastructure in Zaporizhzhia, where 32 people were wounded. Ukraine's foreign minister asked allies for more air defenses.",
+   "why": "One of the deadlier recent attacks in an ongoing war, but not a change in its scope or direction.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-09-29T06:00:00-04:00",
+   "time_known": false,
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-09-30",
+   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
+  },
+  {
+   "date": "2026-09-30",
+   "when": "Evening",
+   "text": "MLB Wild Card Series Game 2s (Yankees-Red Sox, Braves-Phillies, Padres-Cubs, White Sox-Astros)."
+  },
+  {
+   "date": "2026-09-30",
+   "when": "11:30 a.m. ET",
+   "branch": "legislative",
+   "text": "Senate cloture votes scheduled on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
+   "detail": "Up to three roll call votes after morning business; the House passed H.R. 7008 in July."
+  }
+ ]
+}

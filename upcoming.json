@@ -1,20 +1,21 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-09-30",
  "events": [
-  {
-   "date": "2026-09-29",
-   "text": "MLB Wild Card Series begin (best of three)."
-  },
   {
    "date": "2026-09-30",
    "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
   },
   {
    "date": "2026-09-30",
-   "when": "This week",
+   "when": "Evening",
+   "text": "MLB Wild Card Series Game 2s (Yankees-Red Sox, Braves-Phillies, Padres-Cubs, White Sox-Astros)."
+  },
+  {
+   "date": "2026-09-30",
+   "when": "11:30 a.m. ET",
    "branch": "legislative",
-   "text": "Senate votes pending on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
-   "detail": "Cloture has been filed on all three; the House passed H.R. 7008 in July."
+   "text": "Senate cloture votes scheduled on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
+   "detail": "Up to three roll call votes after morning business; the House passed H.R. 7008 in July."
   },
   {
    "date": "2026-10-02",

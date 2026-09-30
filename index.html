@@ -90,7 +90,9 @@ li.lv4 .plate{color:var(--i4)}
 .cu-big{margin:0;font:600 22px var(--sans)}
 .cu-small{margin:6px 0 0;font:400 15px var(--sans);color:var(--muted)}
 .upcoming{margin-top:34px}
-.up-branch{margin-top:18px}.up-br{font-weight:600;color:var(--fg)}.up-detail{display:block;margin-top:3px;font-size:13.5px;color:var(--muted)}
+.up-branch{margin-top:14px}
+.sec-orn{margin:44px auto 0}
+.sec-ico{position:absolute;left:50%;top:50%;width:24px;height:24px;transform:translate(-50%,-50%);fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:var(--accent)}.up-br{font-weight:600;color:var(--fg)}.up-detail{display:block;margin-top:3px;font-size:13.5px;color:var(--muted)}
 .up-list{list-style:none;margin:0;padding:0}
 .up-list li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--faint)}
 .up-date{font:600 14px var(--sans);color:var(--accent)}
@@ -674,11 +676,16 @@ function renderToday(feed){
 }
 /* Government tab: what's coming up for each branch (court arguments and rulings, scheduled votes and deadlines,
    executive deadlines and effective dates), from upcoming.json events tagged with "branch". */
+const SEC_ICON={"judicial": "<path d=\"M9.2 7.8 13.8 3.2 19.3 8.7 14.7 13.3Z M11.5 11 4.5 18 M3 21h9\"/>", "executive": "<circle cx=\"12\" cy=\"12\" r=\"10.4\"/><circle cx=\"12\" cy=\"12\" r=\"6.8\"/><circle cx=\"20.60\" cy=\"12.00\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"19.45\" cy=\"16.30\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"16.30\" cy=\"19.45\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12.00\" cy=\"20.60\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"7.70\" cy=\"19.45\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"4.55\" cy=\"16.30\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"3.40\" cy=\"12.00\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"4.55\" cy=\"7.70\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"7.70\" cy=\"4.55\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"12.00\" cy=\"3.40\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"16.30\" cy=\"4.55\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"19.45\" cy=\"7.70\" r=\".55\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M12.00 7.40L13.12 10.46L16.37 10.58L13.81 12.59L14.70 15.72L12.00 13.90L9.30 15.72L10.19 12.59L7.63 10.58L10.88 10.46Z\" fill=\"currentColor\" stroke=\"none\"/>", "legislative": "<path d=\"M7 3h8l3 3v15H7Z M15 3v3h3 M9.5 10h6 M9.5 13h6 M9.5 16h4\"/>", "all": "<path d=\"M3 20.5h18 M5 20.5V13h14v7.5 M8.3 20.5V13 M12 20.5V13 M15.7 20.5V13 M4 13h16 M7 13a5 5 0 0 1 10 0 M12 8V3.5 M10.6 3.5h2.8\"/>", "rocket": "<path d=\"M12 2.5c3 2.5 4.2 6.5 3.3 11.5H8.7C7.8 9 9 5 12 2.5Z M8.7 11.5 6 15.5v2l3-1.5 M15.3 11.5l2.7 4v2l-3-1.5 M10.5 17l-.5 3 M12 17v4.5 M13.5 17l.5 3\"/><circle cx=\"12\" cy=\"8.5\" r=\"1.5\"/>"};
+/* Flourish with a small emblem in the middle, above each "Coming up" list */
+function secOrn(kind){const w=el("div","fl-mark sec-orn"); w.setAttribute("aria-hidden","true"); w.append(el("div","flourish fl-head"));
+  const ns="http://www.w3.org/2000/svg", sv=document.createElementNS(ns,"svg"); sv.setAttribute("viewBox","0 0 24 24"); sv.setAttribute("class","sec-ico"); sv.innerHTML=SEC_ICON[kind]||""; w.append(sv); return w;}
 const BRANCH_NAME={executive:"Executive",legislative:"Congress",judicial:"Courts"};
 function upcomingBranch(feed,br){
   if(!upcoming){loadUpcoming();return;}
   const today=fmtKey.format(new Date());
   const ev=(upcoming.events||[]).filter(e=>e.branch&&(br==="all"||e.branch===br)&&e.date>=today).sort((a,b)=>a.date<b.date?-1:1).slice(0,br==="all"?8:6);
+  feed.append(secOrn(br));
   const c=el("section","upcoming up-branch"); const d2=el("div","dateline");
   d2.append(el("span",null,br==="all"?"Coming up in Washington":{executive:"Coming up: executive",legislative:"Coming up in Congress",judicial:"Coming up in the courts"}[br])); c.append(d2);
   if(!ev.length){c.append(el("p","edition-count",{executive:"Nothing scheduled yet. Deadlines, signings and effective dates are added as they're announced.",legislative:"No votes scheduled yet. Scheduled votes and deadlines are added as they're announced.",judicial:"Nothing scheduled yet. Arguments and expected rulings are added as they're announced.",all:"Nothing scheduled yet."}[br])); feed.append(c); return;}
@@ -750,6 +757,7 @@ function launchesSection(feed){
   if(!launches){loadLaunches();return;}
   const today=fmtKey.format(new Date());
   const ls=(launches.launches||[]).filter(l=>l.date>=today).sort((a,b)=>(a.date+(a.sort||""))<(b.date+(b.sort||""))?-1:1).slice(0,8);
+  feed.append(secOrn("rocket"));
   const c=el("section","upcoming up-branch"); const d=el("div","dateline"); d.append(el("span",null,"Upcoming SpaceX launches")); c.append(d);
   if(!ls.length){c.append(el("p","edition-count","No launches scheduled in the next two weeks.")); feed.append(c); return;}
   const ul=el("ul","up-list");

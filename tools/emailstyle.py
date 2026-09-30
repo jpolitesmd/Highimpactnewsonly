@@ -2,12 +2,12 @@
 
 Dark by default (inline styles + bgcolor) so the Buttondown web archive is readable and matches the
 site's dark charcoal theme. Mail apps that strip <style> still get light text on a dark wrapper via
-inline color/bgcolor. On the web archive, a small progressive-enhancement block adds the same
-Appearance controls as the site (Auto / Light / Sepia / Dark), stored in localStorage under
-pw_theme so a preference set on hinewsdaily.com carries over. Flourishes are mid-tone PNGs that
-read on dark; the wordmark is live text. Fonts: Source Serif 4 where the mail app can load it
-(Apple Mail, iOS), falling back to Georgia; labels in the system sans. Each HTML block starts on
-its own line so Buttondown passes it through untouched.
+inline color/bgcolor. On the web archive, CSS-only Appearance controls (Auto / Light / Sepia / Dark)
+match the site's options. Buttondown forbids <script> and event handlers in email bodies, so theme
+choice uses radio buttons + :has() selectors (session-local; no localStorage). Flourishes are
+mid-tone PNGs that read on dark; the wordmark is live text. Fonts: Source Serif 4 where the mail
+app can load it (Apple Mail, iOS), falling back to Georgia; labels in the system sans. Each HTML
+block starts on its own line so Buttondown passes it through untouched.
 """
 import html
 
@@ -40,95 +40,59 @@ def link(text, url, color=ACCENT, underline=False):
             f'font-weight:600">{e(text)}</a>')
 
 
+def _theme_block(sel, T):
+    scheme = "light" if T in (LIGHT, SEPIA) or T is LIGHT or T is SEPIA else "dark"
+    # T is always a dict; scheme from caller
+    return (
+        f'{sel}{{color-scheme:light;background-color:{T["paper"]}}}'
+        f'{sel} .hd-wrap,{sel} .hd-body{{background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
+        f'{sel} .hd-ink,{sel} .hd-inkrule{{color:{T["ink"]}!important;'
+        f'border-top-color:{T["ink"]}!important;border-bottom-color:{T["ink"]}!important}}'
+        f'{sel} .hd-muted{{color:{T["muted"]}!important}}'
+        f'{sel} .hd-accent{{color:{T["accent"]}!important}}'
+        f'{sel} .hd-rule{{border-color:{T["rule"]}!important;'
+        f'border-top-color:{T["rule"]}!important;border-bottom-color:{T["rule"]}!important}}'
+        f'{sel} .hd-box{{background:{T["box"]}!important;background-color:{T["box"]}!important;'
+        f'border-color:{T["rule"]}!important;color:{T["body"]}!important}}'
+        f'{sel} .hd-appearance span,{sel} .hd-appearance label{{color:{T["muted"]};border-color:{T["rule"]}}}'
+        f'{sel} .hd-appearance input:checked + label{{color:{T["paper"]};background:{T["ink"]};border-color:{T["ink"]}}}'
+    )
+
+
 def _theme_css():
-    """CSS variables + class overrides for web-archive theme switching; hidden appearance chrome."""
+    """Overrides for web-archive theme switching via CSS-only radios (:has)."""
     L, S = LIGHT, SEPIA
-    parts = []
-    parts.append('.hd-root{color-scheme:dark;background-color:%s}' % PAPER)
-    parts.append('.hd-root[data-theme="light"]{color-scheme:light;background-color:%s}' % L['paper'])
-    parts.append('.hd-root[data-theme="sepia"]{color-scheme:light;background-color:%s}' % S['paper'])
-    parts.append('.hd-root[data-theme="dark"]{color-scheme:dark;background-color:%s}' % PAPER)
-    parts.append('@media(prefers-color-scheme:light){.hd-root[data-theme="auto"]{color-scheme:light;background-color:%s}}' % L['paper'])
-    parts.append('@media(prefers-color-scheme:dark){.hd-root[data-theme="auto"]{color-scheme:dark;background-color:%s}}' % PAPER)
-
-    def theme_block(sel, T):
-        return (
-            f'{sel} .hd-wrap,{sel} .hd-body{{background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
-            f'{sel} .hd-ink,{sel} .hd-inkrule{{color:{T["ink"]}!important;'
-            f'border-top-color:{T["ink"]}!important;border-bottom-color:{T["ink"]}!important}}'
-            f'{sel} .hd-muted{{color:{T["muted"]}!important}}'
-            f'{sel} .hd-accent{{color:{T["accent"]}!important}}'
-            f'{sel} .hd-rule{{border-color:{T["rule"]}!important;'
-            f'border-top-color:{T["rule"]}!important;border-bottom-color:{T["rule"]}!important}}'
-            f'{sel} .hd-box{{background:{T["box"]}!important;background-color:{T["box"]}!important;'
-            f'border-color:{T["rule"]}!important;color:{T["body"]}!important}}'
-        )
-
-    parts.append(theme_block('.hd-root[data-theme="light"]', L))
-    parts.append(theme_block('.hd-root[data-theme="sepia"]', S))
-    parts.append('@media(prefers-color-scheme:light){' + theme_block('.hd-root[data-theme="auto"]', L) + '}')
-
-    parts.append(
-        '.hd-appearance{display:none;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px;'
-        f'margin:14px 0 0;font:500 12px {SANS};color:{MUTED}' + '}'
-    )
-    parts.append('.hd-js .hd-appearance{display:flex!important}')
-    parts.append(f'.hd-appearance span{{margin-right:4px;color:{MUTED}}}')
-    parts.append(
-        f'.hd-appearance button{{padding:5px 11px;font:500 12px {SANS};color:{MUTED};background:transparent;'
-        f'border:1px solid {RULE};border-radius:999px;cursor:pointer}}'
-    )
-    parts.append(
-        f'.hd-appearance button[aria-pressed="true"]{{color:{PAPER};background:{INK};border-color:{INK}}}'
-    )
-
-    def appearance_theme(sel, T):
-        return (
-            f'{sel} .hd-appearance span,{sel} .hd-appearance button{{color:{T["muted"]};border-color:{T["rule"]}}}'
-            f'{sel} .hd-appearance button[aria-pressed="true"]{{color:{T["paper"]};'
-            f'background:{T["ink"]};border-color:{T["ink"]}}}'
-        )
-
-    parts.append(appearance_theme('.hd-root[data-theme="light"]', L))
-    parts.append(appearance_theme('.hd-root[data-theme="sepia"]', S))
-    parts.append('@media(prefers-color-scheme:light){' + appearance_theme('.hd-root[data-theme="auto"]', L) + '}')
+    parts = [
+        '.hd-root{color-scheme:dark;background-color:%s}' % PAPER,
+        '.hd-appearance input{position:absolute;opacity:0;pointer-events:none;width:0;height:0;margin:0}',
+        ('.hd-appearance{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px;'
+         f'margin:14px 0 0;font:500 12px {SANS};color:{MUTED}' + '}'),
+        f'.hd-appearance span{{margin-right:4px;color:{MUTED}}}',
+        (f'.hd-appearance label{{padding:5px 11px;font:500 12px {SANS};color:{MUTED};background:transparent;'
+         f'border:1px solid {RULE};border-radius:999px;cursor:pointer}}'),
+        f'.hd-appearance input:checked + label{{color:{PAPER};background:{INK};border-color:{INK}}}',
+        _theme_block('.hd-root:has(#hd-t-light:checked)', L),
+        _theme_block('.hd-root:has(#hd-t-sepia:checked)', S),
+        '.hd-root:has(#hd-t-dark:checked){color-scheme:dark;background-color:%s}' % PAPER,
+        '@media(prefers-color-scheme:light){' + _theme_block('.hd-root:has(#hd-t-auto:checked)', L) + '}',
+        '@media(prefers-color-scheme:dark){.hd-root:has(#hd-t-auto:checked){color-scheme:dark;background-color:%s}}' % PAPER,
+    ]
     return ''.join(parts)
 
 
-def _theme_boot_script():
-    """Apply saved pw_theme before paint; reveal controls. Same key as the live site."""
-    # Keep this tiny and self-contained; runs in the Buttondown archive page.
-    return (
-        '<script>(function(){try{var r=document.getElementById("hd-root");if(!r)return;'
-        'r.classList.add("hd-js");'
-        'var t=null;try{t=localStorage.getItem("pw_theme")}catch(e){}'
-        'if(t==="light"||t==="dark"||t==="sepia")r.setAttribute("data-theme",t);'
-        'else if(t==="auto")r.setAttribute("data-theme","auto");'
-        # else keep the dark default baked into the markup
-        'function sync(){var p=r.getAttribute("data-theme")||"dark";'
-        'r.querySelectorAll(".hd-appearance button").forEach(function(b){'
-        'b.setAttribute("aria-pressed",String(b.getAttribute("data-t")===p));});}'
-        'r.addEventListener("click",function(ev){var b=ev.target.closest&&ev.target.closest(".hd-appearance button");'
-        'if(!b)return;var v=b.getAttribute("data-t");r.setAttribute("data-theme",v);'
-        'try{if(v==="auto")localStorage.removeItem("pw_theme");else localStorage.setItem("pw_theme",v);}catch(e){}'
-        'sync();});'
-        'sync();'
-        'var mq=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)");'
-        'if(mq){var f=function(){if((r.getAttribute("data-theme")||"")==="auto")sync();};'
-        'mq.addEventListener?mq.addEventListener("change",f):mq.addListener&&mq.addListener(f);}'
-        '}catch(e){}})();</script>'
-    )
-
-
 def appearance_bar():
-    """Web-archive only (hidden until JS). Mirrors the site's Appearance control group."""
+    """Appearance controls for the web archive (CSS-only; Buttondown disallows script tags)."""
     return (
         '<div class="hd-appearance" role="group" aria-label="Appearance">'
         '<span>Appearance</span>'
-        '<button type="button" data-t="auto">Auto</button>'
-        '<button type="button" data-t="light">Light</button>'
-        '<button type="button" data-t="sepia">Sepia</button>'
-        '<button type="button" data-t="dark" aria-pressed="true">Dark</button>'
+        '<input type="radio" name="hd-theme" id="hd-t-auto" value="auto">'
+        '<label for="hd-t-auto">Auto</label>'
+        '<input type="radio" name="hd-theme" id="hd-t-light" value="light">'
+        '<label for="hd-t-light">Light</label>'
+        '<input type="radio" name="hd-theme" id="hd-t-sepia" value="sepia">'
+        '<label for="hd-t-sepia">Sepia</label>'
+        '<input type="radio" name="hd-theme" id="hd-t-dark" value="dark" checked>'
+        '<label for="hd-t-dark">Dark</label>'
         '</div>'
     )
 
@@ -139,24 +103,19 @@ def open_paper():
     return (
         '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&'
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'
-        # Stop iPhone Mail turning dates and times into red underlined links.
         'a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;'
         'font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}'
-        # Reinforce dark tokens if a client forces a light canvas around the email.
         '.hd-wrap{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
         + _theme_css() +
         '</style>\n'
-        # Wrapper carries data-theme so archive CSS can switch palettes without touching inline defaults.
-        '<div class="hd-root" id="hd-root" data-theme="dark">\n'
+        '<div class="hd-root">\n'
         f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
         f'bgcolor="{PAPER}" style="width:100%;border-collapse:collapse;background-color:{PAPER}">'
         f'<tr><td class="hd-body" bgcolor="{PAPER}" style="padding:6px 4px 20px;background-color:{PAPER};'
         f'color:{BODY};font-family:{SERIF};font-size:15px;line-height:1.5">\n'
-        # Folio: double rule, small caps line, single rule (as on the site)
         f'<p class="hd-inkrule hd-ink" style="margin:0;padding:6px 0 5px;border-top:3px double {INK};'
         f'border-bottom:1px solid {INK};text-align:center;font-family:{SANS};font-size:9px;font-weight:600;'
         f'letter-spacing:1.6px;text-transform:uppercase;color:{INK}">Spin-free news · Ranked by impact</p>\n'
-        # Wordmark in the site's fonts (falls back to Georgia where web fonts don't load)
         f'<p style="margin:16px 0 0;text-align:center;white-space:nowrap;line-height:1.1">'
         f'<a href="{SITE}/" style="text-decoration:none">'
         f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">HIGH</span> '
@@ -172,7 +131,7 @@ def open_paper():
 
 
 def close_paper():
-    return _theme_boot_script() + "\n</td></tr></table>\n</div>"
+    return "</td></tr></table>\n</div>"
 
 
 def kicker(text):

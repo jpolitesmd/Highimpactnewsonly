@@ -106,6 +106,13 @@ ol{list-style:none;margin:0;padding:0}
 .list{list-style:none;margin:16px 0 0;padding:0}.list li{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:14px 0;border-top:1px solid var(--faint)}
 .list .d{font:600 14px var(--sans);color:var(--accent)}.list a.ed{font:600 14px var(--sans);text-decoration:none;margin-right:12px}.list p{margin:6px 0 0;font-size:15px;color:var(--muted)}
 @media (max-width:480px){.list li{grid-template-columns:1fr;gap:4px}}
+.theme-btn{display:inline-flex;align-items:center;gap:5px;padding:0;margin:10px auto 0;background:none;border:0;font:500 14px var(--sans);color:var(--accent);cursor:pointer}
+.theme-row{display:flex;justify-content:center}
+.theme-btn:hover .tb-label{text-decoration:underline}
+.theme-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;display:none}
+.theme-btn .ic-moon{fill:currentColor;stroke:none}
+.theme-btn[data-show="light"] .ic-sepia,.theme-btn[data-show="sepia"] .ic-moon,.theme-btn[data-show="dark"] .ic-sun,.theme-btn:not([data-show]) .ic-sepia{display:block}
+.theme-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}"""
 
 HEAD = """<!doctype html>
@@ -128,6 +135,7 @@ HEAD = """<!doctype html>
 <a class="logo" href="/" aria-label="{name} home"><span class="lp">HIGH</span><span class="ls">impact</span><span class="lp">NEWS</span><span class="ls">daily</span></a>
 <p class="tagline">The day’s most important news · five minutes · no spin</p>
 <nav class="nav-top"><a href="/">Today’s edition</a><a href="/editions/">All editions</a><a href="/stories/">Ongoing stories</a><a href="/#about">About</a></nav>
+<div class="theme-row"><button class="theme-btn" id="themeBtn" type="button" aria-label="Switch to Sepia mode"><svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg><svg class="ic-sepia" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h9a3 3 0 0 1 3 3v13H9a3 3 0 0 0-3 3V4z"/><path d="M6 4a3 3 0 0 0-3 3v13"/><path d="M9 8h6M9 12h6M9 16h4"/></svg><svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6z"/></svg><span class="tb-label">Sepia</span></button></div>
 </header>
 """
 
@@ -161,6 +169,20 @@ FOOT = """<p class="foot"><a href="/">Today</a> · <a href="/editions/">All edit
 if(b&&navigator.share){b.hidden=false;b.addEventListener("click",function(){navigator.share({title:document.title,url:b.dataset.url}).catch(function(){});});}
 if(c)c.addEventListener("click",function(){var u=c.dataset.url;function ok(){c.textContent="Link copied";setTimeout(function(){c.textContent="Copy link"},2000);}
 if(navigator.clipboard)navigator.clipboard.writeText(u).then(ok,function(){prompt("Copy this link:",u)});else prompt("Copy this link:",u);});})();
+(function(){
+  var mq=window.matchMedia?matchMedia("(prefers-color-scheme: dark)"):null;
+  var THEMES=["light","sepia","dark"], LABEL={light:"Light",sepia:"Sepia",dark:"Dark"};
+  function pref(){try{var t=localStorage.getItem("pw_theme");return THEMES.indexOf(t)>=0?t:"auto";}catch(e){return "auto";}}
+  function eff(){var p=pref();return p==="auto"?(mq&&mq.matches?"dark":"light"):p;}
+  function next(cur){var i=THEMES.indexOf(cur);return THEMES[((i<0?0:i)+1)%3];}
+  function apply(){var p=pref(),e=eff(),r=document.documentElement,b=document.getElementById("themeBtn"),n=next(e);
+    if(p==="auto")r.removeAttribute("data-theme");else r.setAttribute("data-theme",p);
+    if(b){b.dataset.show=THEMES.indexOf(e)>=0?e:"light";var lab=b.querySelector(".tb-label");if(lab)lab.textContent=LABEL[n];b.setAttribute("aria-label","Switch to "+LABEL[n]+" mode");}}
+  function set(t){try{localStorage.setItem("pw_theme",t);}catch(e){} apply();}
+  var btn=document.getElementById("themeBtn"); if(btn)btn.addEventListener("click",function(){set(next(eff()));});
+  if(mq){var f=function(){if(pref()==="auto")apply();}; mq.addEventListener?mq.addEventListener("change",f):mq.addListener&&mq.addListener(f);}
+  apply();
+})();
 </script>
 </body></html>
 """

@@ -3,6 +3,22 @@
  "events": [
   {
    "date": "2026-09-30",
+   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
+  },
+  {
+   "date": "2026-09-30",
+   "when": "11:30 a.m. ET",
+   "branch": "legislative",
+   "text": "Senate cloture votes scheduled on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
+   "detail": "Up to three roll call votes after morning business; the House passed H.R. 7008 in July."
+  },
+  {
+   "date": "2026-09-30",
+   "when": "Evening",
+   "text": "MLB Wild Card Series Game 2s (Yankees-Red Sox, Braves-Phillies, Padres-Cubs, White Sox-Astros)."
+  },
+  {
+   "date": "2026-09-30",
    "when": "Noon ET",
    "text": "Armada Acquisition Corp. II shareholder vote on the Evernorth / Pathfinder XRP-treasury merger (planned Nasdaq ticker XRPN).",
    "detail": "Shareholders approved the business combination at the noon-ET Sept. 30 meeting (reported; SEC 8-K tallies pending). Proxy projects ≥473M XRP at closing if the deal closes; approval is not the same as listing. Closing and Nasdaq listing conditions remain.",
@@ -13,30 +29,36 @@
    ]
   },
   {
-   "date": "2026-09-30",
-   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
-  },
-  {
-   "date": "2026-09-30",
-   "when": "Evening",
-   "text": "MLB Wild Card Series Game 2s (Yankees-Red Sox, Braves-Phillies, Padres-Cubs, White Sox-Astros)."
-  },
-  {
-   "date": "2026-09-30",
-   "when": "11:30 a.m. ET",
-   "branch": "legislative",
-   "text": "Senate cloture votes scheduled on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
-   "detail": "Up to three roll call votes after morning business; the House passed H.R. 7008 in July."
+   "date": "2026-10-01",
+   "when": "Through Oct 1",
+   "text": "Korea Blockchain Week wraps in Seoul (main conference Sept. 30–Oct. 1).",
+   "buzz": true,
+   "tags": [
+    "crypto"
+   ]
   },
   {
    "date": "2026-10-02",
-   "text": "September jobs report, 8:30 a.m. ET."
+   "text": "September jobs report, 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
   },
   {
    "date": "2026-10-05",
    "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
    "branch": "judicial",
    "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change."
+  },
+  {
+   "date": "2026-10-07",
+   "when": "Oct 7–8",
+   "text": "TOKEN2049 Singapore at Marina Bay Sands (crypto industry conference).",
+   "buzz": true,
+   "tags": [
+    "crypto"
+   ]
   },
   {
    "date": "2026-10-13",

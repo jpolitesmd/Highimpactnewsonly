@@ -9,8 +9,9 @@ Edit by hand only; the coverage audit does not change this file.
 - Morning task only: create a new thread when a story has at least two items and is likely to keep developing for days (a war, a court case moving up, a funding deadline, a trade dispute, an election). id = short lowercase-hyphen slug; title = plain name (no adjectives); summary = one plain sentence on what the story is. Set "status" to "closed" when a thread has had no new story for 14 days. Keep at most 12 active threads. Set "updated" to today.
 
 ## Bundling related stories (all runs)
-- If 2+ items in the same edition are the same kind of action on the same day (e.g. two Senate bills that failed to advance, two related court rulings, two parts of one agency action), **combine them into one story** instead of separate cards. Lead names both (or the shared action), detail covers each briefly, one impact rating for the bundled item. That frees an edition slot for something else.
-- Do not bundle unrelated topics just to save space. Same actor + same kind of outcome the same day is the test.
+- If 2+ items in the same edition are the same kind of action on the same day (e.g. two Senate bills that failed to advance, two related court rulings, two parts of one agency action), **combine them into one story** instead of separate cards. That frees an edition slot for something else. Do not bundle unrelated topics; same actor + same kind of outcome the same day is the test.
+- **Similar impact (within ~1 point):** lead can name both; detail covers each briefly; rate the bundle at the higher of the two (or their shared level).
+- **Uneven impact (e.g. a 4 and a 2):** make the higher-impact item the brunt of the lead and detail; add **one short sentence** on the smaller item (often at the end of detail). Rate the story for the main item; do not inflate impact because of the aside.
 
 ## Writing and sourcing (all runs)
 - Lead ("text"): one fact, at most about 25 words. Put the named thing first (the bill, the rule, the mission), then what happened to it — so a reader knows the subject before the verb. Prefer plain language a 10th grader gets without sounding dumbed down: say a bill "failed in the Senate" or "did not get enough votes to advance," not "failed to invoke cloture." Put vote tallies, procedural terms, dissents, effective dates and background in "detail," not the lead.

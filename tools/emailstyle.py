@@ -140,8 +140,8 @@ def open_paper():
         f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">NEWS</span> '
         f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
         f'margin:0 3px;color:{ACCENT}">daily</span></a></p>\n'
-        f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="568" '
-        f'height="20" style="display:block;width:100%;max-width:100%;height:auto;border:0;margin:0 auto"></p>\n'
+        f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="260" '
+        f'height="20" style="display:inline-block;width:260px;max-width:80%;height:auto;border:0"></p>\n'
         + appearance_bar()
     )
 
@@ -179,7 +179,7 @@ def story(it, n, first=False, size=18):
     out = []
     if not first:
         out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-sep.png" alt="" '
-                   f'width="568" height="18" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;border:0"></p>')
+                   f'width="180" height="18" style="display:inline-block;width:180px;max-width:60%;height:auto;border:0"></p>')
     out.append(f'<h3 class="hd-ink" style="margin:{"20px" if first else "22px"} 0 8px;font-family:{SERIF};font-size:{size}px;'
                f'line-height:1.3;font-weight:600;color:{INK}">{e(it.get("text"))}</h3>')
     if it.get("detail"):
@@ -244,7 +244,7 @@ def footer(links_html, fine=""):
         out.append(f'<p class="hd-muted" style="margin:8px 0 0;text-align:center;font-family:{SANS};font-size:12px;line-height:1.5;'
                    f'color:{MUTED}">{fine}</p>')
     out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-end.png" alt="" '
-               f'width="568" height="44" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;border:0"></p>')
-    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:0.2em;'
+               f'width="280" height="44" style="display:inline-block;width:280px;max-width:80%;height:auto;border:0"></p>')
+    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:0.12em;'
                f'color:{MUTED}">— 30 —</p>')
     return "\n".join(out)

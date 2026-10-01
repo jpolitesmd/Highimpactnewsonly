@@ -1,6 +1,60 @@
 {
- "updated": "2026-10-01T05:38:18-04:00",
+ "updated": "2026-10-01T05:45:00-04:00",
  "items": [
+  {
+   "id": "2026-10-01-trump-accounts-auto-enroll",
+   "section": "money",
+   "text": "Trump Accounts for eligible children begin automatic Treasury enrollment nationwide.",
+   "detail": "Temporary IRS/Treasury regs (TD 10056), effective Sept. 30, say the Secretary will elect on or about Oct. 1, 2026, to create auto accounts for each child who meets age and Social Security-number rules and has no prior election—about 73 million eligible children. Auto accounts accept only Treasury-administered contributions and any $1,000 pilot payment until claimed; families then roll funds to a claimed or other trustee account. Regs also allow approved-class and publicly traded stock general funding contributions.",
+   "why": "Opt-out enrollment is expected to create 60+ million accounts and unlock large class donations.",
+   "impact": 4,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Register (Treasury/IRS TD 10056)",
+   "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20026/trump-accounts",
+   "added_at": "2026-10-01T05:45:00-04:00"
+  },
+  {
+   "id": "2026-09-30-cms-globe-part-b-drug-model",
+   "section": "health",
+   "text": "CMS finalized GLOBE, a mandatory Medicare Part B model tying drug inflation rebates to overseas prices.",
+   "detail": "The five-year Global Benchmark for Efficient Drug Pricing Model runs Jan. 1, 2027–Mar. 31, 2032 for about 25% of Original Medicare beneficiaries in randomly selected areas; lower out-of-pocket costs may begin April 1, 2027. It uses prices in economically comparable countries to set an alternative Part B inflation-rebate benchmark for selected clinician-administered drugs, excluding biosimilars once marketed, orphan-only drugs, plasma products, and certain cell/gene therapies. Agency release Sept. 30; FR public inspection posted ~4:45 p.m. ET for Oct. 2 publication.",
+   "why": "Tests international reference pricing on Part B drugs that drive fast-rising Medicare spending.",
+   "impact": 4,
+   "topic": "pulse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-30T16:45:00-04:00",
+   "time_known": true,
+   "source": "CMS",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-finalizes-new-mandatory-drug-payment-model-deliver-lower-drug-prices-beneficiaries-original",
+   "added_at": "2026-10-01T05:45:00-04:00"
+  },
+  {
+   "id": "2026-09-30-rubio-iran-unga-delegation-leave",
+   "text": "Secretary of State Rubio ordered Iran's U.N. foreign-minister delegation to leave New York after stalled war talks.",
+   "detail": "Two U.S. officials told AP that Rubio on Monday told Foreign Minister Abbas Araghchi's team to leave immediately after little progress in Qatar-mediated talks on Hormuz and ending the war; they left early Tuesday. Iran's U.N. mission denied an expulsion, saying the Monday-evening departure followed a schedule given to the State Department on Sept. 17.",
+   "why": "Unusual diplomatic rebuke as U.S.-Iran talks to end the war and reopen Hormuz remain stuck.",
+   "impact": 3,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-09-30T22:15:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://abcnews.com/US/wireStory/rubio-orders-visiting-iranian-delegation-leave-nyc-ahead-136908428",
+   "thread": "iran-war",
+   "added_at": "2026-10-01T05:45:00-04:00"
+  },
   {
    "id": "2026-09-29-mlb-wildcard-game1",
    "section": "sports",

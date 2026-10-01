@@ -598,7 +598,7 @@ function updateFolio(){try{
 }catch(e){}}
 
 const SUBS={government:[["all","All branches"],["executive","Executive"],["legislative","Legislative"],["judicial","Judicial"]],
-            money:[["all","All"],["economy","Economy"],["finance","ISO20022"]]};
+            money:[["all","All"],["jobs","Jobs & wages"],["prices","Prices"],["rates","Rates & credit"],["markets","Markets"],["taxes","Taxes & benefits"],["finance","ISO20022"]]};
 function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
 function syncButtons(){
   document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.min===minLevel)));
@@ -792,9 +792,24 @@ function renderHistory(feed){
   }
 }
 
+
+/* Money tab beats: prefer explicit money_beat on the item; otherwise guess from the lead. */
+const MONEY_BEATS=["jobs","prices","rates","markets","taxes"];
+function moneyBeat(it){
+  const explicit=(it.money_beat||"").toLowerCase();
+  if(MONEY_BEATS.includes(explicit)) return explicit;
+  const t=((it.text||"")+" "+(it.detail||"")).toLowerCase();
+  if(/\b(jobs?|payroll|unemployment|hiring|wages?|labor force|layoffs?)\b/.test(t)) return "jobs";
+  if(/\b(cpi|pce|inflation|consumer prices?|core prices?|rent|cost of living|grocery|gasoline prices?)\b/.test(t)) return "prices";
+  if(/\b(federal reserve|\bfed\b|interest rate|benchmark rate|mortgage|treasury yield|credit card|lending)\b/.test(t)) return "rates";
+  if(/\b(tax|irs|social security|medicare|benefit|child tax|trump accounts?)\b/.test(t)) return "taxes";
+  if(/\b(s&p|dow|nasdaq|stock|stocks|markets?|oil|crude|commodity|commodities|etf|bond yields?)\b/.test(t)) return "markets";
+  return "markets";
+}
+
 const INTROS={government:{all:"U.S. government: the President and agencies, Congress, and the courts.",executive:"The President and federal agencies, highest impact first.",legislative:"Congress: votes, bills and funding, highest impact first.",judicial:"Supreme Court and federal court decisions, highest impact first."},
   world:"Major events outside the United States.",
-  money:{all:"The economy, rates, jobs, prices and markets, plus ISO20022 crypto news. Facts only, not financial advice.",economy:"Interest rates, jobs, inflation, markets, taxes and housing. Facts only, not financial advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
+  money:{all:"Jobs, prices, rates, markets, taxes and benefits, plus ISO20022 crypto news. Facts only, not financial advice.",jobs:"Jobs, wages, unemployment and labor-market rules. Facts only, not financial advice.",prices:"Inflation, consumer prices, rent, energy costs and tariffs that hit household budgets. Facts only, not financial advice.",rates:"The Fed, interest rates, mortgages, yields and credit rules. Facts only, not financial advice.",markets:"Major market moves, commodities and market-structure news. Facts only, not a recommendation to buy or sell.",taxes:"Taxes, IRS actions, and major benefits programs that move money. Facts only, not tax advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
   tech:"Technology and space: major launches and missions, AI and tech company news, cybersecurity, and tech policy.",
   health:"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.",
   sports:"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions."};
@@ -861,7 +876,11 @@ function render(){
     if(lvOf(it)<minLevel) return false; const s=secOf(it);
     if(region==="government") return s==="news"&&it.region!=="World"&&(sub==="all"||inBranch[sub](it));
     if(region==="world") return s==="news"&&it.region==="World";
-    if(region==="money") return sub==="all"?(s==="money"||s==="finance"):sub==="economy"?s==="money":s==="finance";
+    if(region==="money"){
+      if(sub==="all") return s==="money"||s==="finance";
+      if(sub==="finance") return s==="finance";
+      return s==="money" && moneyBeat(it)===sub;
+    }
     return s===region;
   });
   /* Below the stories: what's coming up (Government: each branch; Tech & Space: SpaceX launches) */

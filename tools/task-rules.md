@@ -22,6 +22,16 @@ Edit by hand only; the coverage audit does not change this file.
 - Use 3 when the action is real but temporary, stayed, delayed, only procedural, passed one chamber, or mostly formalizes an earlier court loss. Court orders that pause or allow something while a case continues are 3 unless they immediately change rights or obligations for millions of people.
 - Same story in a later edition: only if something new happened, and the lead says what moved.
 
+
+## Money tab beats (money_beat on section:"money" items)
+- Money tab subtabs filter on "money_beat": jobs | prices | rates | markets | taxes. ISO20022 stories stay section:"finance" (no money_beat).
+- jobs: payrolls, unemployment, wages, hiring/layoffs, labor rules.
+- prices: CPI/PCE, inflation, rent, household energy/food costs, tariffs that hit consumers.
+- rates: Fed, interest rates, mortgages, yields, credit rules.
+- markets: major index/commodity moves and market-structure news (facts only, not tips).
+- taxes: IRS, tax law changes, and major benefits programs that move money (e.g. new savings accounts).
+- Set money_beat when you add a money story. The site can guess from the lead if it’s missing, but an explicit beat is better.
+
 ## Corrections log (corrections.json; shown on the site's Corrections tab)
 - Whenever you change a published story because it was factually wrong, or because later reporting contradicts or materially changes it (a number revised, a ruling reversed, a claim retracted), update the story and append to "corrections": {"date": now ISO, "item_id", "was": what the story said, "now": what we know now, "why": one short line (e.g. "Official count revised by the ministry" or "We misstated the vote")}; set "updated". Do not log routine new developments that the story never got wrong; those are new stories.
 - Weekly check (Sunday evening run only): one search for corrections, retractions or revisions to the past week's biggest stories (for example "correction OR retraction OR revised [the week's 3-4 biggest story topics]"). Compare with items.json and log anything that changes a story we published.

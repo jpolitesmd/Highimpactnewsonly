@@ -1,4 +1,4 @@
-build: ['2026-09-29-evening: 3 stories, 0 also-today; subject: Tuesday, Sep 29 - Evening edition'] 
+build: ['2026-10-01-morning: 10 stories, 2 also-today; subject: Thursday, Oct 1 - Morning edition'] 
 recipient found: True
 draft: 201
 send-draft: 200 

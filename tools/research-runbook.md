@@ -31,7 +31,7 @@ Dispatch these **in parallel** each research run. Each returns zero or more cand
 1. **Courts** — SCOTUS orders/opinions, federal appellate merits/stays, major state high-court actions that bind many people.
 2. **Congress** — House/Senate floor votes, conference deals, signed or vetoed bills; use Daily Press + congress.gov (senate.gov floor_activity can lag).
 3. **Agencies/FR** — Federal Register public inspection + agency final rules / EO / effective-today policies.
-4. **War-foreign** — Wars, ceasefires, major diplomatic breaks, UN Security Council binding actions, allied/adversary military moves with strategic stakes.
+4. **War-foreign** — Wars, ceasefires, major diplomatic breaks, UN Security Council binding actions, allied/adversary military moves with strategic stakes. Tag **World** when the center of gravity is abroad (foreign governments, fighting on the ground, elections). Tag **U.S.** when Washington is the main doer (sanctions, State/DoD orders, aid, U.S.-initiated diplomacy framed as an administration action).
 5. **Markets-trade** — Fed / FOMC, tariffs and trade bans taking effect, major market-moving official actions (not stock tips).
 6. **Sports** — **Conditional only**: run when the calendar has a championship final, major team title decided that day, or Sunday/weekend wrap (see search-checklist Sports line). Otherwise **do not dispatch** (or return immediately `skipped: no qualifying event` with zero lookups).
 

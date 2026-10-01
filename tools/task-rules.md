@@ -23,6 +23,13 @@ Edit by hand only; the coverage audit does not change this file.
 - Same story in a later edition: only if something new happened, and the lead says what moved.
 
 
+
+## Region tagging (U.S. vs World)
+- **World** = the story’s center of gravity is outside the United States: another country’s government or courts, a foreign election, fighting or disasters abroad, or a multinational event that is not primarily a U.S. agency action.
+- **U.S.** = the main actor is the U.S. president, Congress, courts, or federal agencies — including foreign-policy tools (sanctions, State Department orders, defense-trade rules, aid decisions, U.S. troop movements ordered from Washington). Those belong on Government (and Today), not World.
+- If both apply, prefer the primary *doer*. Example: Russian strikes on Kyiv → World. A U.S. Treasury Iran sanctions package → U.S. A ceasefire signed in Tehran or a foreign election result → World.
+- Do not use region World just because a U.S. story mentions a foreign country.
+
 ## Money tab beats (money_beat on section:"money" items)
 - Money tab subtabs filter on "money_beat": jobs | prices | rates | markets | taxes. ISO20022 stories stay section:"finance" (no money_beat).
 - jobs: payrolls, unemployment, wages, hiring/layoffs, labor rules.

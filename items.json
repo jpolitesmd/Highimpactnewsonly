@@ -48,7 +48,7 @@
       "branch": [
         "executive"
       ],
-      "region": "World",
+      "region": "US",
       "time": "2026-09-30T22:15:00-04:00",
       "time_known": false,
       "source": "AP",
@@ -136,7 +136,7 @@
       "branch": [
         "executive"
       ],
-      "region": "World",
+      "region": "US",
       "time": "2026-09-29T12:00:00-04:00",
       "time_known": false,
       "source": "U.S. Treasury",
@@ -368,7 +368,7 @@
     {
       "added_at": "2026-09-28T20:50:00-04:00",
       "impact": 2,
-      "region": "World",
+      "region": "US",
       "source": "Just Security roundup",
       "text": "The administration has committed $307 million of the $400 million in Ukraine aid Congress approved, with a September 30 deadline.",
       "time": "2026-09-28T12:00:00-04:00",
@@ -386,7 +386,7 @@
     {
       "added_at": "2026-09-28T20:50:00-04:00",
       "impact": 4,
-      "region": "World",
+      "region": "US",
       "source": "Just Security roundup",
       "text": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war.",
       "time": "2026-09-28T12:00:00-04:00",
@@ -609,7 +609,7 @@
     {
       "added_at": "2026-09-28T20:50:00-04:00",
       "impact": 3,
-      "region": "World",
+      "region": "US",
       "source": "Al Jazeera",
       "text": "The White House said the U.S. and China agreed to set up a direct communication channel for incidents involving artificial intelligence.",
       "time": "2026-09-26T12:00:00-04:00",
@@ -647,7 +647,7 @@
       "section": "finance",
       "topic": "tech",
       "impact": 2,
-      "region": "World",
+      "region": "US",
       "time": "2026-09-26T12:00:00-04:00",
       "time_known": false,
       "text": "XRP Ledger developers released emergency version 3.4.1 of the xrpld server software to fix security-sensitive protocol issues.",
@@ -735,7 +735,7 @@
     {
       "added_at": "2026-09-28T20:50:00-04:00",
       "impact": 3,
-      "region": "World",
+      "region": "US",
       "source": "Washington Post via Spokesman-Review",
       "text": "A classified U.S. intelligence assessment given to Congress says Saudi Arabia has not ruled out developing nuclear weapons, the Washington Post reported.",
       "time": "2026-09-25T12:00:00-04:00",
@@ -744,7 +744,8 @@
       "id": "2026-09-28-saudi-nuclear",
       "detail": "The administration recently approved a civilian nuclear cooperation deal with Saudi Arabia worth tens of billions of dollars. It allows uranium enrichment starting below 5%, with possible increases to 20%, and does not require the IAEA inspection terms known as the Additional Protocol. Saudi Crown Prince Mohammed bin Salman said in 2018 the kingdom would build a bomb if Iran did.",
       "why": "Bears on nuclear-weapons risk in the Middle East during an active regional war; it is an assessment, not a Saudi decision.",
-      "topic": "nuclear"
+      "topic": "nuclear",
+      "branch": "executive"
     },
     {
       "id": "2026-09-24-bitget-hack",
@@ -848,7 +849,7 @@
       "section": "health",
       "topic": "lungs",
       "impact": 3,
-      "region": "World",
+      "region": "US",
       "time": "2026-09-09T12:00:00-04:00",
       "time_known": false,
       "text": "Phase 3 OBERON and TITANIA trials of tozorakimab, an anti-IL-33 antibody, reduced moderate-to-severe COPD exacerbations by 29% to 34% versus placebo, presented at ERS Congress 2026.",
@@ -976,7 +977,7 @@
       "section": "news",
       "topic": "conflict",
       "impact": 4,
-      "region": "World",
+      "region": "US",
       "time": "2026-09-30T12:00:00-04:00",
       "time_known": false,
       "branch": [
@@ -1055,7 +1056,7 @@
       "branch": [
         "executive"
       ],
-      "region": "World",
+      "region": "US",
       "time": "2026-10-01T00:01:00-04:00",
       "time_known": true,
       "source": "Federal Register",

@@ -1,13 +1,12 @@
 """Shared look for every email (editions and breaking alerts).
 
 Dark inline styles + bgcolor by default so mail clients that strip <style> stay readable on Mail grey.
-On the web archive (and mail apps that keep CSS), Appearance Auto follows prefers-color-scheme
-with the same Light/Dark palettes as the manual toggles; Light / Sepia / Dark radios override.
-Buttondown forbids <script> and event handlers in email bodies, so theme choice uses radio buttons
-+ :has() selectors (session-local; no localStorage). Flourishes are mid-tone PNGs that read on
-dark; the wordmark is live text. Fonts: Source Serif 4 where the mail app can load it (Apple Mail,
-iOS), falling back to Georgia; labels in the system sans. Each HTML block starts on its own line
-so Buttondown passes it through untouched.
+Emails stay on the measured dark Mail grey so iPhone/Apple Mail dark mode stays readable.
+(Appearance Light/Sepia/Dark live on the website archive only — Mail will not reliably paint a
+true light paper when the phone is in dark mode, which left dark type on a dark canvas.)
+Flourishes are mid-tone PNGs that read on dark; the wordmark is live text. Fonts: Source Serif 4
+where the mail app can load it (Apple Mail, iOS), falling back to Georgia; labels in the system
+sans. Each HTML block starts on its own line so Buttondown passes it through untouched.
 """
 import html
 
@@ -97,7 +96,7 @@ def _theme_css():
 
 
 def appearance_bar():
-    """Appearance controls for the web archive (CSS-only; Buttondown disallows script tags)."""
+    """Unused in email sends (Mail dark-mode breaks Light). Kept for experiments."""
     return (
         '<div class="hd-appearance" role="group" aria-label="Appearance">'
         '<span>Appearance</span>'
@@ -115,7 +114,7 @@ def appearance_bar():
 
 def open_paper():
     """Opening wrapper and masthead. Explicit dark bgcolor so Buttondown's web archive (and clients
-    that ignore <style>) render on measured Mail grey (#2c2c2e) with light text. Theme controls enhance the archive view."""
+    that ignore <style>) render on measured Mail grey (#2c2c2e) with light text. Website archive uses its own theme switcher."""
     return (
         '<style>@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Pinyon+Script&'
         'family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");'
@@ -126,7 +125,6 @@ def open_paper():
         '.hd-inner{width:600px;max-width:100%;margin:0 auto!important}'
         'h3.hd-ink::first-letter{float:left;font-family:\'IM Fell English\',Georgia,\'Times New Roman\',serif;font-weight:400;color:' + ACCENT + ';font-size:2.6em;line-height:.85;padding:.05em .1em 0 0;margin:0 .1em .05em 0}'
         '.newsletter-body,.email-content,body{width:100%!important;min-width:100%!important;margin:0!important;padding:0!important}'
-        + _theme_css() +
         '</style>\n'
         f'<div class="hd-root" style="width:100%;min-width:100%;margin:0;padding:0;background-color:{PAPER}">\n'
         f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
@@ -150,7 +148,6 @@ def open_paper():
         f'margin:0 3px;color:{ACCENT}">daily</span></a></p>\n'
         f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="260" '
         f'height="20" style="display:inline-block;width:260px;max-width:80%;height:auto;border:0"></p>\n'
-        + appearance_bar()
     )
 
 

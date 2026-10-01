@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-01-evening",
+   "date": "2026-10-01",
+   "edition": "evening",
+   "count": 4,
+   "lead": "Treasury and the IRS issued rules implementing the Federal Scholarship Tax Credit for K-12 school choice."
+  },
+  {
    "key": "2026-10-01-morning",
    "date": "2026-10-01",
    "edition": "morning",
@@ -43,5 +50,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-01T05:38:20-04:00"
+ "updated": "2026-10-01T16:37:49-04:00"
 }

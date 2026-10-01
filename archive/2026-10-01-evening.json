@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-01",
+ "edition": "evening",
+ "subject": "Thursday, Oct 1 - Evening edition",
+ "published": "2026-10-01T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-01-scholarship-tax-credit",
+   "section": "money",
+   "text": "Treasury and the IRS issued rules implementing the Federal Scholarship Tax Credit for K-12 school choice.",
+   "detail": "Proposed and companion temporary regulations under IRC §25F (Education Freedom Tax Credit) allow individuals a nonrefundable credit of up to $1,700 a year ($3,400 joint) for cash gifts to eligible Scholarship Granting Organizations in participating states. Contributions may fund private-school tuition, tutoring, special-needs services, books and supplies starting Jan. 1, 2027. Thirty states have opted in; Treasury estimates ~96% of children in those states could be scholarship-eligible and projects up to about 2.2 million scholarships a year by 2030. Temporary rules set state election and SGO certification procedures now; taxpayers may rely on the proposed rules for 2027 contributions.",
+   "why": "Implements the first nationwide federal K-12 school-choice tax credit with binding procedures for states, donors and scholarship groups.",
+   "impact": 4,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T09:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0641"
+  },
+  {
+   "id": "2026-10-01-medicaid-immigrant-cutoff",
+   "section": "health",
+   "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants.",
+   "detail": "Section 71109 of the 2025 Working Families Tax Cut law took effect Oct. 1, limiting federal Medicaid/CHIP matching funds mainly to U.S. citizens/nationals, lawful permanent residents, Cuban-Haitian entrants and COFA migrants. CMS told states to redetermine affected enrollees; KFF Health News found more than 281,000 people in nine states and D.C. at risk of losing coverage in October, with Florida alone identifying nearly 177,000. Emergency Medicaid for emergency conditions remains; states may still cover lawfully residing children and pregnant women under an existing option. Some states, including California, New York and Pennsylvania, are using state funds to blunt the cut.",
+   "why": "A binding nationwide eligibility change that strips federal health coverage from hundreds of thousands of lawfully present immigrants starting today.",
+   "impact": 4,
+   "topic": "pulse",
+   "branch": [
+    "executive",
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:01:00-04:00",
+   "time_known": true,
+   "source": "CMS / NPR",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens"
+  },
+  {
+   "id": "2026-10-01-trump-accounts-auto-enroll",
+   "section": "money",
+   "text": "Trump Accounts for eligible children begin automatic Treasury enrollment nationwide.",
+   "detail": "Temporary IRS/Treasury regs (TD 10056), effective Sept. 30, say the Secretary will elect on or about Oct. 1, 2026, to create auto accounts for each child who meets age and Social Security-number rules and has no prior election—about 73 million eligible children. Auto accounts accept only Treasury-administered contributions and any $1,000 pilot payment until claimed; families then roll funds to a claimed or other trustee account. Regs also allow approved-class and publicly traded stock general funding contributions.",
+   "why": "Opt-out enrollment is expected to create 60+ million accounts and unlock large class donations.",
+   "impact": 4,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Register (Treasury/IRS TD 10056)",
+   "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20026/trump-accounts"
+  },
+  {
+   "id": "2026-10-01-pakistan-airstrikes-afghanistan",
+   "section": "news",
+   "text": "Pakistani airstrikes in Afghanistan's Helmand and Kunar provinces killed at least 10 civilians, Afghanistan and the U.N. said.",
+   "detail": "The U.N. mission in Afghanistan said most of the dead were children and nine people were wounded. Pakistan's information ministry said the overnight strikes hit militant hideouts and that initial reports suggested 22 militants were killed; it did not immediately address civilian casualty reports. Afghanistan's Taliban government called the raids an act of aggression. The neighbors have traded cross-border fire for months over Pakistan's claims that militants operate from Afghan soil.",
+   "why": "Cross-border air raids with U.N.-confirmed civilian deaths deepen a lasting Pakistan-Afghanistan conflict.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-01T04:23:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://abcnews.com/International/wireStory/pakistani-airstrikes-afghanistan-kill-9-civilians-kabul-pakistan-136909974"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 4
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-01",
+   "when": "Through Oct 1",
+   "text": "Korea Blockchain Week wraps in Seoul (main conference Sept. 30–Oct. 1).",
+   "buzz": true,
+   "tags": [
+    "crypto"
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "text": "September jobs report, 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change."
+  }
+ ]
+}

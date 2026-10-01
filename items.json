@@ -1,6 +1,45 @@
 {
-  "updated": "2026-10-01T09:45:00-04:00",
+  "updated": "2026-10-01T16:37:44-04:00",
   "items": [
+    {
+      "id": "2026-10-01-scholarship-tax-credit",
+      "section": "money",
+      "text": "Treasury and the IRS issued rules implementing the Federal Scholarship Tax Credit for K-12 school choice.",
+      "detail": "Proposed and companion temporary regulations under IRC §25F (Education Freedom Tax Credit) allow individuals a nonrefundable credit of up to $1,700 a year ($3,400 joint) for cash gifts to eligible Scholarship Granting Organizations in participating states. Contributions may fund private-school tuition, tutoring, special-needs services, books and supplies starting Jan. 1, 2027. Thirty states have opted in; Treasury estimates ~96% of children in those states could be scholarship-eligible and projects up to about 2.2 million scholarships a year by 2030. Temporary rules set state election and SGO certification procedures now; taxpayers may rely on the proposed rules for 2027 contributions.",
+      "why": "Implements the first nationwide federal K-12 school-choice tax credit with binding procedures for states, donors and scholarship groups.",
+      "impact": 4,
+      "topic": "coin",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "time": "2026-10-01T09:00:00-04:00",
+      "time_known": false,
+      "source": "U.S. Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0641",
+      "added_at": "2026-10-01T16:37:44-04:00",
+      "money_beat": "taxes"
+    },
+    {
+      "id": "2026-10-01-medicaid-immigrant-cutoff",
+      "section": "health",
+      "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants.",
+      "detail": "Section 71109 of the 2025 Working Families Tax Cut law took effect Oct. 1, limiting federal Medicaid/CHIP matching funds mainly to U.S. citizens/nationals, lawful permanent residents, Cuban-Haitian entrants and COFA migrants. CMS told states to redetermine affected enrollees; KFF Health News found more than 281,000 people in nine states and D.C. at risk of losing coverage in October, with Florida alone identifying nearly 177,000. Emergency Medicaid for emergency conditions remains; states may still cover lawfully residing children and pregnant women under an existing option. Some states, including California, New York and Pennsylvania, are using state funds to blunt the cut.",
+      "why": "A binding nationwide eligibility change that strips federal health coverage from hundreds of thousands of lawfully present immigrants starting today.",
+      "impact": 4,
+      "topic": "pulse",
+      "branch": [
+        "executive",
+        "legislative"
+      ],
+      "region": "US",
+      "time": "2026-10-01T00:01:00-04:00",
+      "time_known": true,
+      "source": "CMS / NPR",
+      "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens",
+      "added_at": "2026-10-01T16:37:44-04:00",
+      "health_beat": "policy"
+    },
     {
       "id": "2026-09-30-russia-kaliningrad-nuclear-nato",
       "text": "Russia warned NATO in a formal note it would use nuclear weapons if the alliance tried to cut off Kaliningrad.",

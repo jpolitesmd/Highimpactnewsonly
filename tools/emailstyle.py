@@ -243,6 +243,6 @@ def footer(links_html, fine=""):
                    f'color:{MUTED}">{fine}</p>')
     out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-end.png" alt="" '
                f'width="280" height="44" style="display:inline-block;width:280px;max-width:80%;height:auto;border:0"></p>')
-    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:4px;'
+    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:0.12em;'
                f'color:{MUTED}">— 30 —</p>')
     return "\n".join(out)

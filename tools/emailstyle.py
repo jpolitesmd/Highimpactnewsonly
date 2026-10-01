@@ -113,12 +113,12 @@ def open_paper():
         'a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font-size:inherit!important;'
         'font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}'
         '.hd-wrap,.hd-inner{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
-        '.hd-root{width:100%!important}.hd-wrap{width:100%!important}.hd-inner{width:600px;max-width:100%;margin:0 auto!important}'
+        '.hd-root,.hd-wrap{width:100%!important;min-width:100%!important}.hd-inner{width:600px;max-width:100%;margin:0 auto!important}'.newsletter-body,.email-content,body{width:100%!important;min-width:100%!important;margin:0!important;padding:0!important}
         + _theme_css() +
         '</style>\n'
-        '<div class="hd-root">\n'
+        f'<div class="hd-root" style="width:100%;min-width:100%;margin:0;padding:0;background-color:{PAPER}">\n'
         f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
-        f'bgcolor="{PAPER}" style="width:100%;border-collapse:collapse;background-color:{PAPER}">'
+        f'bgcolor="{PAPER}" style="width:100%;min-width:100%;border-collapse:collapse;background-color:{PAPER}">'
         f'<tr><td align="center" valign="top" bgcolor="{PAPER}" style="padding:0;background-color:{PAPER};text-align:center">'
         f'<table role="presentation" class="hd-inner" width="600" align="center" cellpadding="0" cellspacing="0" border="0" '
         f'bgcolor="{PAPER}" style="width:600px;max-width:100%;border-collapse:collapse;background-color:{PAPER};margin:0 auto;text-align:left">'

@@ -42,10 +42,18 @@ def link(text, url, color=ACCENT, underline=False):
 
 
 def _theme_block(sel, T, scheme="light"):
-    """Full palette overrides for one Appearance choice (manual or Auto+media)."""
+    """Full palette overrides for one Appearance choice (manual or Auto+media).
+
+    Use color-scheme: only light (or only dark) so iOS/Apple Mail does not keep a
+    dark canvas while our Light/Sepia text colors flip — that combo is unreadable.
+    Paint wrap/inner/body/table/td so bgcolor= dark inline defaults lose.
+    """
+    # "only" opts out of Mail's automatic dark-background conversion
+    cs = f"only {scheme}" if scheme in ("light", "dark") else scheme
     return (
-        f'{sel}{{color-scheme:{scheme};background-color:{T["paper"]}}}'
-        f'{sel} .hd-wrap,{sel} .hd-inner,{sel} .hd-body{{background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
+        f'{sel}{{color-scheme:{cs};background:{T["paper"]}!important;background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
+        f'{sel} .hd-root,{sel} .hd-wrap,{sel} .hd-inner,{sel} .hd-body,'
+        f'{sel} table,{sel} td{{background:{T["paper"]}!important;background-color:{T["paper"]}!important;color:{T["body"]}!important}}'
         f'{sel} .hd-ink,{sel} .hd-inkrule{{color:{T["ink"]}!important;'
         f'border-top-color:{T["ink"]}!important;border-bottom-color:{T["ink"]}!important}}'
         f'{sel} .hd-muted{{color:{T["muted"]}!important}}'
@@ -55,8 +63,8 @@ def _theme_block(sel, T, scheme="light"):
         f'border-top-color:{T["rule"]}!important;border-bottom-color:{T["rule"]}!important}}'
         f'{sel} .hd-box{{background:{T["box"]}!important;background-color:{T["box"]}!important;'
         f'border-color:{T["rule"]}!important;color:{T["body"]}!important}}'
-        f'{sel} .hd-appearance span,{sel} .hd-appearance label{{color:{T["muted"]};border-color:{T["rule"]}}}'
-        f'{sel} .hd-appearance input:checked + label{{color:{T["paper"]};background:{T["ink"]};border-color:{T["ink"]}}}'
+        f'{sel} .hd-appearance span,{sel} .hd-appearance label{{color:{T["muted"]}!important;border-color:{T["rule"]}!important}}'
+        f'{sel} .hd-appearance input:checked + label{{color:{T["paper"]}!important;background:{T["ink"]}!important;border-color:{T["ink"]}!important}}'
     )
 
 
@@ -69,7 +77,7 @@ def _theme_css():
     """
     L, S, D = LIGHT, SEPIA, DARK
     parts = [
-        '.hd-root{color-scheme:dark;background-color:%s}' % PAPER,
+        '.hd-root{color-scheme:only dark;background-color:%s!important}' % PAPER,
         '.hd-appearance input{position:absolute;opacity:0;pointer-events:none;width:0;height:0;margin:0}',
         ('.hd-appearance{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px;'
          f'margin:14px 0 0;font:500 12px {SANS};color:{MUTED}' + '}'),

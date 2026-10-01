@@ -50,6 +50,7 @@ def _theme_block(sel, T, scheme="light"):
         f'border-top-color:{T["ink"]}!important;border-bottom-color:{T["ink"]}!important}}'
         f'{sel} .hd-muted{{color:{T["muted"]}!important}}'
         f'{sel} .hd-accent{{color:{T["accent"]}!important}}'
+        f'{sel} h3.hd-ink::first-letter{{color:{T["accent"]}!important}}'
         f'{sel} .hd-rule{{border-color:{T["rule"]}!important;'
         f'border-top-color:{T["rule"]}!important;border-bottom-color:{T["rule"]}!important}}'
         f'{sel} .hd-box{{background:{T["box"]}!important;background-color:{T["box"]}!important;'
@@ -115,6 +116,7 @@ def open_paper():
         '.hd-wrap,.hd-inner{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
         '.hd-root,.hd-wrap{width:100%!important;min-width:100%!important}'
         '.hd-inner{width:600px;max-width:100%;margin:0 auto!important}'
+        'h3.hd-ink::first-letter{float:left;font-family:\'IM Fell English\',Georgia,\'Times New Roman\',serif;font-weight:400;color:' + ACCENT + ';font-size:2.6em;line-height:.85;padding:.05em .1em 0 0;margin:0 .1em .05em 0}'
         '.newsletter-body,.email-content,body{width:100%!important;min-width:100%!important;margin:0!important;padding:0!important}'
         + _theme_css() +
         '</style>\n'
@@ -138,8 +140,8 @@ def open_paper():
         f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">NEWS</span> '
         f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
         f'margin:0 3px;color:{ACCENT}">daily</span></a></p>\n'
-        f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="260" '
-        f'height="20" style="display:inline-block;width:260px;max-width:80%;height:auto;border:0"></p>\n'
+        f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="568" '
+        f'height="20" style="display:block;width:100%;max-width:100%;height:auto;border:0;margin:0 auto"></p>\n'
         + appearance_bar()
     )
 
@@ -177,7 +179,7 @@ def story(it, n, first=False, size=18):
     out = []
     if not first:
         out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-sep.png" alt="" '
-                   f'width="180" height="18" style="display:inline-block;width:180px;max-width:60%;height:auto;border:0"></p>')
+                   f'width="568" height="18" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;border:0"></p>')
     out.append(f'<h3 class="hd-ink" style="margin:{"20px" if first else "22px"} 0 8px;font-family:{SERIF};font-size:{size}px;'
                f'line-height:1.3;font-weight:600;color:{INK}">{e(it.get("text"))}</h3>')
     if it.get("detail"):
@@ -226,9 +228,9 @@ def note(html_text):
 
 def share_box(edition_url):
     return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" '
-            f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="{BOX}" class="hd-box hd-body" '
+            f'style="width:100%;margin-top:26px;border-collapse:separate"><tr><td bgcolor="{BOX}" class="hd-box" '
             f'style="padding:18px 16px;background:{BOX};background-color:{BOX};border:1px solid {RULE};'
-            f'border-radius:12px;text-align:center;font-family:{SANS};font-size:14px;line-height:1.5;color:{BODY}">'
+            f'border-radius:12px;text-align:center!important;font-family:{SANS};font-size:14px;line-height:1.5;color:{BODY}">'
             f'<b class="hd-ink" style="font-size:15px;color:{INK}">Know someone who’d like this?</b><br>'
             f'Forward this email, or send them {link("a link to this edition", edition_url, underline=True)}.<br>'
             f'<span class="hd-muted" style="font-size:14px;color:{MUTED}"><i>Forwarded this?</i> '
@@ -242,7 +244,7 @@ def footer(links_html, fine=""):
         out.append(f'<p class="hd-muted" style="margin:8px 0 0;text-align:center;font-family:{SANS};font-size:12px;line-height:1.5;'
                    f'color:{MUTED}">{fine}</p>')
     out.append(f'<p style="margin:22px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-end.png" alt="" '
-               f'width="280" height="44" style="display:inline-block;width:280px;max-width:80%;height:auto;border:0"></p>')
-    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:0.12em;'
+               f'width="568" height="44" style="display:block;width:100%;max-width:100%;height:auto;margin:0 auto;border:0"></p>')
+    out.append(f'<p class="hd-muted" style="margin:10px 0 0;text-align:center;font-family:{SANS};font-size:12px;letter-spacing:0.2em;'
                f'color:{MUTED}">— 30 —</p>')
     return "\n".join(out)

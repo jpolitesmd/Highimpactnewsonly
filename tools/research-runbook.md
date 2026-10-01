@@ -74,7 +74,7 @@ Each beat returns a JSON array of **at most 3** objects (may be `[]`). Every obj
 One editor pass (not parallel with final write):
 
 1. Dedupe across beats + cross-check (same action = one story; keep best primary URL).
-2. Apply **task-rules.md** (leads, impact 1–5, primary sources, threads — morning may create threads) and **search-checklist.md** (seed gaps for this edition). Respect usage caps: do not send beats back out for more depth.
+2. Apply **task-rules.md** (including **bundling**: merge 2+ same-day same-kind actions into one story) (leads, impact 1–5, primary sources, threads — morning may create threads) and **search-checklist.md** (seed gaps for this edition). Respect usage caps: do not send beats back out for more depth.
 3. Drop below-threshold noise; do not invent facts.
 4. Merge keepers into `items.json` (and `threads.json` / `corrections.json` when rules require). Set `added_at` to now ET.
 5. Refresh `upcoming.json` / launches only when the standing cadence calls for it (every ~4 days on morning), not every run.

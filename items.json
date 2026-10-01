@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T16:39:14-04:00",
+ "updated": "2026-09-30T20:17:00-04:00",
  "items": [
   {
    "id": "2026-09-29-mlb-wildcard-game1",
@@ -893,7 +893,7 @@
    "added_at": "2026-09-30T16:39:14-04:00"
   },
   {
-   "id": "2026-09-30-senate-stock-trading-cloture",
+   "id": "2026-09-30-senate-cloture-fails",
    "section": "news",
    "topic": "capitol",
    "impact": 3,
@@ -903,27 +903,9 @@
    "branch": [
     "legislative"
    ],
-   "text": "The Stop Insider Trading Act, a House-passed ban on new stock buys by members of Congress, failed in the Senate.",
-   "detail": "Sixty votes were required; the tally was party-line (vote 253). The bill would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling's nomination as Labor secretary (vote 255), clearing a procedural step toward a final confirmation vote; post-cloture debate continues.",
-   "why": "Ends near-term Senate action on congressional stock-trading limits before the midterm recess; advances a Cabinet nomination procedurally.",
-   "source": "U.S. Senate",
-   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00253.htm",
-   "added_at": "2026-09-30T16:39:14-04:00"
-  },
-  {
-   "id": "2026-09-30-senate-ratepayer-cloture",
-   "section": "news",
-   "topic": "capitol",
-   "impact": 3,
-   "region": "US",
-   "time": "2026-09-30T12:50:00-04:00",
-   "time_known": true,
-   "branch": [
-    "legislative"
-   ],
-   "text": "The Ratepayer Protection Act, a House-passed bill on data-center electricity costs, failed in the Senate.",
-   "detail": "Sixty votes were required (vote 254). Four Democrats \u2014 Hassan, Klobuchar, Ossoff and Warnock \u2014 joined Republicans; the House had passed the measure 417-3. The bill would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers. Lawmakers are heading into the midterm recess with the measure bottled up.",
-   "why": "Blocks near-term federal action on a high-visibility consumer-cost fight over AI data centers.",
+   "text": "The Ratepayer Protection Act and the Stop Insider Trading Act, both House-passed bills, failed in the Senate.",
+   "detail": "Both needed 60 votes to advance and fell short the same afternoon. The Ratepayer Protection Act (vote 254, 57-43) would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers; four Democrats \u2014 Hassan, Klobuchar, Ossoff and Warnock \u2014 joined Republicans; the House had passed it 417-3. The Stop Insider Trading Act (vote 253, 53-47, party-line) would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling\u2019s nomination as Labor secretary (vote 255), clearing a procedural step toward a final confirmation vote.",
+   "why": "Blocks near-term Senate action on data-center ratepayer costs and on congressional stock-trading limits before the midterm recess.",
    "source": "U.S. Senate",
    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00254.htm",
    "added_at": "2026-09-30T16:39:14-04:00"

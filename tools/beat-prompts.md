@@ -46,7 +46,7 @@ For evening: prioritize afternoon SCOTUS emergency orders.
 Beat: Congress.
 Find House/Senate floor votes and signed or vetoed bills in the window.
 Open https://www.dailypress.senate.gov/ (today and, for morning, yesterday) for roll-call tallies; do not rely only on senate.gov floor_activity (it lags).
-Lead with the bill or measure by name (and a short plain purpose), then what happened — e.g. it failed in the Senate. Prefer "failed" / "did not get enough votes to advance" over "cloture." Vote tallies and procedural terms go in detail, not the lead.
+Lead with the bill or measure by name (and a short plain purpose), then what happened — e.g. it failed in the Senate. Prefer "failed" / "did not get enough votes to advance" over "cloture." Vote tallies and procedural terms go in detail, not the lead. If the same day produces 2+ Senate bill fails (or similar same-kind actions), return **one bundled story**, not separate items.
 Morning: catch evening votes after 5 p.m. yesterday.
 ```
 

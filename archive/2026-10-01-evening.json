@@ -57,6 +57,38 @@
    "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20026/trump-accounts"
   },
   {
+   "id": "2026-10-01-cornell-assault-case-review",
+   "section": "news",
+   "text": "Cornell agreed to an independent review of its handling of a 2024 fraternity sexual-assault case as prosecutors reopen a charging look.",
+   "detail": "After a September civil lawsuit and public backlash, Tompkins County District Attorney Matthew Van Houten said his office is reexamining the case it declined to charge in 2024. On Thursday the accuser's attorney told NPR she told Cornell police in 2024 she was raped — contradicting the DA's Monday description of her statement; the DA said he had not yet obtained the full interview transcript from the university. Cornell confirmed it will bring in outside counsel for an independent probe, after Gov. Kathy Hochul called for a review. The university also edited a public FAQ that had said campus police shared all investigatory information with the DA's office.",
+   "why": "A reopened criminal review and outside campus probe put university and prosecutor accountability under statewide scrutiny.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial",
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T12:43:00-04:00",
+   "time_known": false,
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/10/01/nx-s1-5987703/cornell-fraternity-rape-case-updates"
+  },
+  {
+   "id": "2026-10-01-i95-lake-marion-pileup",
+   "section": "news",
+   "text": "A ~50-vehicle pileup on southbound I-95 over Lake Marion closed the corridor in South Carolina for an extended period.",
+   "detail": "The morning crash near mile marker 100 on the Orangeburg/Clarendon County line involved about 50 vehicles, including roughly 15 tractor-trailers, South Carolina Highway Patrol and local outlets said. Dense fog was reported. About 11 people were hospitalized with minor injuries; the Clarendon County coroner said there were no deaths. Northbound lanes later reopened with slow traffic; southbound lanes stayed closed while crews cleared the bridge, with an SCDOT detour at mile marker 102. Officials urged drivers to avoid the area.",
+   "why": "A major East Coast freight and travel corridor shutdown with dozens of vehicles disabled for hours.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-01T08:30:00-04:00",
+   "time_known": false,
+   "source": "SCHP / SCDOT",
+   "url": "https://www.counton2.com/news/latest-news/detour-in-place-following-multi-vehicle-collision-on-i-95-by-lake-marion-scdot/"
+  },
+  {
    "id": "2026-10-01-pakistan-airstrikes-afghanistan",
    "section": "news",
    "text": "Pakistani airstrikes in Afghanistan's Helmand and Kunar provinces killed at least 10 civilians, Afghanistan and the U.N. said.",
@@ -74,7 +106,7 @@
  "groups": [
   {
    "heading": null,
-   "count": 4
+   "count": 6
   }
  ],
  "also": [],

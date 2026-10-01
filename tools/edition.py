@@ -98,6 +98,14 @@ def select(items, edition, now):
         pool += [i for i in items if i["id"] not in ids and i["id"] not in morning and t(i)
                  and t(i).date() == today and added(i) and added(i) >= since and fresh_ok(i)]
     top = rank(pool)[:8]
+    # Quiet evenings: if the ranked pool is still thin, prefer releasing something over nothing.
+    # Backfill with lower-bar fresh today's stories not already in this morning's archive
+    # (news/money/finance/tech impact ≥2; other sections ≥3 = fresh_ok), still capped at ~8.
+    if len(top) < 6:
+        ids = {i["id"] for i in top}
+        extra = [i for i in items if i["id"] not in ids and i["id"] not in morning and t(i)
+                 and t(i).date() == today and fresh_ok(i)]
+        top = rank(top + extra)[:8]
     return top, now - since, [(None, len(top))]
 
 

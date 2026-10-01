@@ -1,6 +1,38 @@
 {
-  "updated": "2026-10-01T05:45:00-04:00",
+  "updated": "2026-10-01T09:45:00-04:00",
   "items": [
+    {
+      "id": "2026-09-30-russia-kaliningrad-nuclear-nato",
+      "text": "Russia warned NATO in a formal note it would use nuclear weapons if the alliance tried to cut off Kaliningrad.",
+      "detail": "NATO confirmed receiving the written message and denounced the nuclear rhetoric. Moscow accused the alliance of preparing an air and naval blockade of the Baltic exclave; NATO replied that it is a defensive alliance and none of its exercises threaten Russian territory. Kaliningrad, bordered by Poland and Lithuania, hosts Russia's Baltic Fleet and nuclear-capable Iskander missiles. Russian embassies in Europe issued similar public warnings this week.",
+      "why": "A formal nuclear threat aimed at NATO over the Baltic exclave raises alliance-Russia escalation risk beyond the Ukraine war.",
+      "impact": 3,
+      "time": "2026-09-30T16:58:00-04:00",
+      "time_known": false,
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "europe",
+      "source": "AP",
+      "url": "https://abcnews.com/International/wireStory/russia-warns-nato-nuclear-response-kaliningrad-cut-off-136893915",
+      "added_at": "2026-10-01T09:45:00-04:00",
+      "section": "news"
+    },
+    {
+      "id": "2026-10-01-pakistan-airstrikes-afghanistan",
+      "text": "Pakistani airstrikes in Afghanistan's Helmand and Kunar provinces killed at least 10 civilians, Afghanistan and the U.N. said.",
+      "detail": "The U.N. mission in Afghanistan said most of the dead were children and nine people were wounded. Pakistan's information ministry said the overnight strikes hit militant hideouts and that initial reports suggested 22 militants were killed; it did not immediately address civilian casualty reports. Afghanistan's Taliban government called the raids an act of aggression. The neighbors have traded cross-border fire for months over Pakistan's claims that militants operate from Afghan soil.",
+      "why": "Cross-border air raids with U.N.-confirmed civilian deaths deepen a lasting Pakistan-Afghanistan conflict.",
+      "impact": 3,
+      "time": "2026-10-01T04:23:00-04:00",
+      "time_known": false,
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "asia",
+      "source": "AP",
+      "url": "https://abcnews.com/International/wireStory/pakistani-airstrikes-afghanistan-kill-9-civilians-kabul-pakistan-136909974",
+      "added_at": "2026-10-01T09:45:00-04:00",
+      "section": "news"
+    },
     {
       "id": "2026-10-01-trump-accounts-auto-enroll",
       "section": "money",

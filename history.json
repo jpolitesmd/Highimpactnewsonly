@@ -1,223 +1,230 @@
 {
- "year": 2026,
- "updated": "2026-09-29",
- "events": [
-  {
-   "date": "2026-01-03",
-   "impact": 5,
-   "topic": "conflict",
-   "text": "U.S. forces struck Venezuela and captured President Nicolás Maduro and his wife, Cilia Flores.",
-   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-  },
-  {
-   "date": "2026-01-22",
-   "impact": 4,
-   "topic": "globe",
-   "text": "The United States formally withdrew from the World Health Organization.",
-   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-  },
-  {
-   "date": "2026-01-23",
-   "impact": 3,
-   "topic": "globe",
-   "text": "A winter storm across more than 30 states killed at least 85 people over four days.",
-   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-  },
-  {
-   "date": "2026-01-31",
-   "impact": 3,
-   "topic": "capitol",
-   "text": "A lapse in funding shut down parts of the federal government; it ended Feb. 3.",
-   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-  },
-  {
-   "date": "2026-02-14",
-   "impact": 3,
-   "topic": "capitol",
-   "text": "A second partial shutdown began, centered on Homeland Security funding.",
-   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-  },
-  {
-   "date": "2026-02-20",
-   "impact": 4,
-   "topic": "court",
-   "text": "The Supreme Court ruled the President exceeded his authority in imposing tariffs under the International Emergency Economic Powers Act.",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
-  },
-  {
-   "date": "2026-02-28",
-   "impact": 5,
-   "topic": "conflict",
-   "text": "The U.S. and Israel launched strikes on Iran, killing Supreme Leader Ali Khamenei; Iran retaliated against bases across the Gulf.",
-   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-  },
-  {
-   "date": "2026-03-04",
-   "impact": 3,
-   "topic": "ship",
-   "text": "A U.S. submarine sank the Iranian frigate IRIS Dena in the Indian Ocean.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-03-08",
-   "impact": 4,
-   "topic": "globe",
-   "text": "Mojtaba Khamenei was named Iran's new Supreme Leader.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-03-11",
-   "impact": 4,
-   "topic": "conflict",
-   "text": "A strike on a girls' elementary school in Minab, Iran, killed 168–180 people; a preliminary U.S. military review found the U.S. responsible.",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
-  },
-  {
-   "date": "2026-03-17",
-   "impact": 3,
-   "topic": "conflict",
-   "text": "Israel began a ground invasion of southern Lebanon.",
-   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-  },
-  {
-   "date": "2026-04-01",
-   "impact": 3,
-   "topic": "globe",
-   "text": "NASA's Artemis II carried four astronauts around the Moon, the first crewed flight beyond low Earth orbit since 1972; it returned April 10.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-04-12",
-   "impact": 3,
-   "topic": "ballot",
-   "text": "Hungary's Viktor Orbán lost power after 16 years as Péter Magyar's Tisza Party won the election.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-04-13",
-   "impact": 4,
-   "topic": "ship",
-   "text": "After a ceasefire collapsed and talks in Islamabad failed, the U.S. began a naval blockade of Iranian ports.",
-   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-  },
-  {
-   "date": "2026-05-01",
-   "impact": 3,
-   "topic": "trade",
-   "text": "The United Arab Emirates left OPEC after about six decades of membership.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-05-14",
-   "impact": 4,
-   "topic": "court",
-   "text": "The Supreme Court ruled patients can keep accessing the abortion pill mifepristone (Danco Laboratories v. Louisiana).",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
-  },
-  {
-   "date": "2026-06-10",
-   "impact": 4,
-   "topic": "capitol",
-   "text": "The President signed the Secure America Act, providing $70 billion for immigration enforcement.",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
-  },
-  {
-   "date": "2026-06-17",
-   "impact": 4,
-   "topic": "globe",
-   "text": "The U.S. and Iran signed the Islamabad Memorandum, lifting both sides' blockades; they agreed on June 28 to stop attacks.",
-   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-  },
-  {
-   "date": "2026-06-30",
-   "impact": 4,
-   "topic": "court",
-   "text": "In end-of-term rulings, the Supreme Court upheld state transgender sports bans, affirmed birthright citizenship and struck down campaign finance limits.",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
-  },
-  {
-   "date": "2026-07-08",
-   "impact": 4,
-   "topic": "conflict",
-   "text": "The U.S.-Iran ceasefire collapsed after Iran attacked commercial vessels in the Strait of Hormuz.",
-   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-  },
-  {
-   "date": "2026-07-13",
-   "impact": 3,
-   "topic": "ship",
-   "text": "The U.S. announced 20% fees on Strait of Hormuz cargo and restarted its blockade of Iranian ports.",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
-  },
-  {
-   "date": "2026-07-19",
-   "impact": 2,
-   "topic": "sports",
-   "text": "Spain beat Argentina 1-0 to win the FIFA World Cup, hosted by the U.S., Canada and Mexico.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-07-20",
-   "impact": 3,
-   "topic": "trade",
-   "text": "The U.S. announced 50% tariffs on Canadian goods; they took effect on $28 billion of goods Aug. 22.",
-   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
-  },
-  {
-   "date": "2026-08-20",
-   "impact": 2,
-   "topic": "globe",
-   "text": "The Syrian Democratic Forces merged into the Syrian Army.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-08-28",
-   "impact": 2,
-   "topic": "globe",
-   "text": "King Harald V of Norway died; his son became King Haakon VIII.",
-   "url": "https://en.wikipedia.org/wiki/2026"
-  },
-  {
-   "date": "2026-09-01",
-   "impact": 4,
-   "topic": "capitol",
-   "text": "Congress passed a stopgap bill funding the government through Dec. 11, avoiding an Oct. 1 shutdown.",
-   "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
-  },
-  {
-   "date": "2026-09-24",
-   "impact": 3,
-   "topic": "capitol",
-   "text": "The Senate rejected, 49-50, a resolution directing U.S. forces out of hostilities with Iran.",
-   "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm"
-  },
-  {
-   "date": "2026-09-25",
-   "impact": 4,
-   "topic": "court",
-   "text": "The Supreme Court ruled 7-2 the administration can use its expanded SAVE database to help states check voters' citizenship.",
-   "url": "https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/"
-  },
-  {
-   "date": "2026-09-26",
-   "impact": 4,
-   "topic": "trade",
-   "text": "After a Trump-Xi summit in Washington, the U.S. and China extended their trade truce to Jan. 10, 2027 and agreed to $60 billion in tariff cuts.",
-   "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says"
-  },
-  {
-   "date": "2026-09-29",
-   "impact": 3,
-   "topic": "court",
-   "text": "The Supreme Court let the administration resume deportations to third countries while it hears the case in December.",
-   "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/"
-  },
-  {
-   "date": "2026-09-29",
-   "impact": 4,
-   "topic": "factory",
-   "text": "The Transportation Department cut fuel economy standards to 34.9 mpg by model year 2031, down from about 50 mpg.",
-   "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/"
-  }
- ]
+  "year": 2026,
+  "updated": "2026-10-01",
+  "events": [
+    {
+      "date": "2026-01-03",
+      "impact": 5,
+      "topic": "conflict",
+      "text": "U.S. forces struck Venezuela and captured President Nicolás Maduro and his wife, Cilia Flores.",
+      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+    },
+    {
+      "date": "2026-01-22",
+      "impact": 4,
+      "topic": "globe",
+      "text": "The United States formally withdrew from the World Health Organization.",
+      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+    },
+    {
+      "date": "2026-01-23",
+      "impact": 3,
+      "topic": "globe",
+      "text": "A winter storm across more than 30 states killed at least 85 people over four days.",
+      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+    },
+    {
+      "date": "2026-01-31",
+      "impact": 3,
+      "topic": "capitol",
+      "text": "A lapse in funding shut down parts of the federal government; it ended Feb. 3.",
+      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+    },
+    {
+      "date": "2026-02-14",
+      "impact": 3,
+      "topic": "capitol",
+      "text": "A second partial shutdown began, centered on Homeland Security funding.",
+      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+    },
+    {
+      "date": "2026-02-20",
+      "impact": 4,
+      "topic": "court",
+      "text": "The Supreme Court ruled the President exceeded his authority in imposing tariffs under the International Emergency Economic Powers Act.",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
+    },
+    {
+      "date": "2026-02-28",
+      "impact": 5,
+      "topic": "conflict",
+      "text": "The U.S. and Israel launched strikes on Iran, killing Supreme Leader Ali Khamenei; Iran retaliated against bases across the Gulf.",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "date": "2026-03-04",
+      "impact": 3,
+      "topic": "ship",
+      "text": "A U.S. submarine sank the Iranian frigate IRIS Dena in the Indian Ocean.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-03-08",
+      "impact": 4,
+      "topic": "globe",
+      "text": "Mojtaba Khamenei was named Iran's new Supreme Leader.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-03-11",
+      "impact": 4,
+      "topic": "conflict",
+      "text": "A strike on a girls' elementary school in Minab, Iran, killed 168–180 people; a preliminary U.S. military review found the U.S. responsible.",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
+    },
+    {
+      "date": "2026-03-17",
+      "impact": 3,
+      "topic": "conflict",
+      "text": "Israel began a ground invasion of southern Lebanon.",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "date": "2026-04-01",
+      "impact": 3,
+      "topic": "globe",
+      "text": "NASA's Artemis II carried four astronauts around the Moon, the first crewed flight beyond low Earth orbit since 1972; it returned April 10.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-04-12",
+      "impact": 3,
+      "topic": "ballot",
+      "text": "Hungary's Viktor Orbán lost power after 16 years as Péter Magyar's Tisza Party won the election.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-04-13",
+      "impact": 4,
+      "topic": "ship",
+      "text": "After a ceasefire collapsed and talks in Islamabad failed, the U.S. began a naval blockade of Iranian ports.",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "date": "2026-05-01",
+      "impact": 3,
+      "topic": "trade",
+      "text": "The United Arab Emirates left OPEC after about six decades of membership.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-05-14",
+      "impact": 4,
+      "topic": "court",
+      "text": "The Supreme Court ruled patients can keep accessing the abortion pill mifepristone (Danco Laboratories v. Louisiana).",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
+    },
+    {
+      "date": "2026-06-10",
+      "impact": 4,
+      "topic": "capitol",
+      "text": "The President signed the Secure America Act, providing $70 billion for immigration enforcement.",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
+    },
+    {
+      "date": "2026-06-17",
+      "impact": 4,
+      "topic": "globe",
+      "text": "The U.S. and Iran signed the Islamabad Memorandum, lifting both sides' blockades; they agreed on June 28 to stop attacks.",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "date": "2026-06-30",
+      "impact": 4,
+      "topic": "court",
+      "text": "In end-of-term rulings, the Supreme Court upheld state transgender sports bans, affirmed birthright citizenship and struck down campaign finance limits.",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
+    },
+    {
+      "date": "2026-07-08",
+      "impact": 4,
+      "topic": "conflict",
+      "text": "The U.S.-Iran ceasefire collapsed after Iran attacked commercial vessels in the Strait of Hormuz.",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    {
+      "date": "2026-07-13",
+      "impact": 3,
+      "topic": "ship",
+      "text": "The U.S. announced 20% fees on Strait of Hormuz cargo and restarted its blockade of Iranian ports.",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
+    },
+    {
+      "date": "2026-07-19",
+      "impact": 2,
+      "topic": "sports",
+      "text": "Spain beat Argentina 1-0 to win the FIFA World Cup, hosted by the U.S., Canada and Mexico.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-07-20",
+      "impact": 3,
+      "topic": "trade",
+      "text": "The U.S. announced 50% tariffs on Canadian goods; they took effect on $28 billion of goods Aug. 22.",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
+    },
+    {
+      "date": "2026-08-20",
+      "impact": 2,
+      "topic": "globe",
+      "text": "The Syrian Democratic Forces merged into the Syrian Army.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-08-28",
+      "impact": 2,
+      "topic": "globe",
+      "text": "King Harald V of Norway died; his son became King Haakon VIII.",
+      "url": "https://en.wikipedia.org/wiki/2026"
+    },
+    {
+      "date": "2026-09-01",
+      "impact": 4,
+      "topic": "capitol",
+      "text": "Congress passed a stopgap bill funding the government through Dec. 11, avoiding an Oct. 1 shutdown.",
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
+    },
+    {
+      "date": "2026-09-24",
+      "impact": 3,
+      "topic": "capitol",
+      "text": "The Senate rejected, 49-50, a resolution directing U.S. forces out of hostilities with Iran.",
+      "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm"
+    },
+    {
+      "date": "2026-09-25",
+      "impact": 4,
+      "topic": "court",
+      "text": "The Supreme Court ruled 7-2 the administration can use its expanded SAVE database to help states check voters' citizenship.",
+      "url": "https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/"
+    },
+    {
+      "date": "2026-09-26",
+      "impact": 4,
+      "topic": "trade",
+      "text": "After a Trump-Xi summit in Washington, the U.S. and China extended their trade truce to Jan. 10, 2027 and agreed to $60 billion in tariff cuts.",
+      "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says"
+    },
+    {
+      "date": "2026-09-29",
+      "impact": 3,
+      "topic": "court",
+      "text": "The Supreme Court let the administration resume deportations to third countries while it hears the case in December.",
+      "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/"
+    },
+    {
+      "date": "2026-09-29",
+      "impact": 4,
+      "topic": "factory",
+      "text": "The Transportation Department cut fuel economy standards to 34.9 mpg by model year 2031, down from about 50 mpg.",
+      "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/"
+    },
+    {
+      "date": "2026-09-30",
+      "impact": 4,
+      "topic": "conflict",
+      "text": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades.",
+      "url": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/"
+    }
+  ]
 }

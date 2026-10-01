@@ -36,6 +36,16 @@ Edit by hand only; the coverage audit does not change this file.
   - research: landmark trials/guidelines with broad impact.
 - Still not medical advice; facts only.
 
+
+## World tab regions (world_region on region:"World" news items)
+- World subtabs: europe | mideast | asia | americas | africa (plus All).
+- europe: Europe/EU including Ukraine–Russia fighting in Europe.
+- mideast: Middle East and North Africa.
+- asia: Asia and the Pacific (including China trade when the story is bilateral/abroad-centered).
+- americas: Canada, Latin America, Caribbean.
+- africa: Sub-Saharan Africa.
+- Set world_region when you tag a story World. U.S.-doer foreign policy stays region U.S. (no world_region).
+
 ## Region tagging (U.S. vs World)
 - **World** = the story’s center of gravity is outside the United States: another country’s government or courts, a foreign election, fighting or disasters abroad, or a multinational event that is not primarily a U.S. agency action.
 - **U.S.** = the main actor is the U.S. president, Congress, courts, or federal agencies — including foreign-policy tools (sanctions, State Department orders, defense-trade rules, aid decisions, U.S. troop movements ordered from Washington). Those belong on Government (and Today), not World.

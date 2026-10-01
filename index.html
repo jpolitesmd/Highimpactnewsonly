@@ -599,7 +599,8 @@ function updateFolio(){try{
 
 const SUBS={government:[["all","All branches"],["executive","Executive"],["legislative","Legislative"],["judicial","Judicial"]],
             money:[["all","All"],["jobs","Jobs & wages"],["prices","Prices"],["rates","Rates & credit"],["markets","Markets"],["taxes","Taxes & benefits"],["finance","ISO20022"]],
-            health:[["all","All"],["policy","Policy"],["drugs","Drugs & devices"],["public","Public health"],["research","Research"]]};
+            health:[["all","All"],["policy","Policy"],["drugs","Drugs & devices"],["public","Public health"],["research","Research"]],
+            world:[["all","All"],["europe","Europe"],["mideast","Middle East"],["asia","Asia-Pacific"],["americas","Americas"],["africa","Africa"]]};
 function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
 function syncButtons(){
   document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.min===minLevel)));
@@ -819,9 +820,22 @@ function healthBeat(it){
   if(/\b(trial|study|nejm|lancet|jama|guideline|phase 3)\b/.test(x)) return "research";
   return "research";
 }
+/* World tab regions: prefer explicit world_region; otherwise guess from the lead. */
+const WORLD_REGIONS=["europe","mideast","asia","americas","africa"];
+function worldRegion(it){
+  const explicit=(it.world_region||"").toLowerCase();
+  if(WORLD_REGIONS.includes(explicit)) return explicit;
+  const x=((it.text||"")+" "+(it.detail||"")).toLowerCase();
+  if(/\b(ukraine|kyiv|russia|russian|eu\b|europe|britain|uk\b|france|germany|poland|switzerland|swiss|nato)\b/.test(x)) return "europe";
+  if(/\b(iran|israel|gaza|syria|iraq|saudi|yemen|lebanon|strait of hormuz|dubai|tel aviv|houthi|qatar)\b/.test(x)) return "mideast";
+  if(/\b(china|beijing|taiwan|japan|korea|india|pacific|australia|philippines)\b/.test(x)) return "asia";
+  if(/\b(canada|mexico|brazil|argentina|venezuela|caribbean|latin america|haiti|colombia)\b/.test(x)) return "americas";
+  if(/\b(nigeria|kenya|sudan|ethiopia|congo|sahel|africa|african)\b/.test(x)) return "africa";
+  return "europe";
+}
 
 const INTROS={government:{all:"U.S. government: the President and agencies, Congress, and the courts.",executive:"The President and federal agencies, highest impact first.",legislative:"Congress: votes, bills and funding, highest impact first.",judicial:"Supreme Court and federal court decisions, highest impact first."},
-  world:"Events centered outside the U.S.: other countries’ governments, wars, elections and crises. U.S. foreign-policy moves live under Government.",
+  world:{all:"Events centered outside the U.S.: other countries’ governments, wars, elections and crises. U.S. foreign-policy moves live under Government.",europe:"Europe and the EU, including Ukraine.",mideast:"Middle East and North Africa.",asia:"Asia and the Pacific.",americas:"Canada, Latin America and the Caribbean.",africa:"Sub-Saharan Africa."},
   money:{all:"Jobs, prices, rates, markets, taxes and benefits, plus ISO20022 crypto news. Facts only, not financial advice.",jobs:"Jobs, wages, unemployment and labor-market rules. Facts only, not financial advice.",prices:"Inflation, consumer prices, rent, energy costs and tariffs that hit household budgets. Facts only, not financial advice.",rates:"The Fed, interest rates, mortgages, yields and credit rules. Facts only, not financial advice.",markets:"Major market moves, commodities and market-structure news. Facts only, not a recommendation to buy or sell.",taxes:"Taxes, IRS actions, and major benefits programs that move money. Facts only, not tax advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
   tech:"Technology and space: major launches and missions, AI and tech company news, cybersecurity, and tech policy.",
   health:{all:"Health news for a general audience: policy, major drugs and devices, public health, and research that changes care for many people. Not medical advice.",policy:"Medicare, Medicaid, HHS and major insurance or hospital payment rules. Not medical advice.",drugs:"FDA approvals, safety actions and major drug or device rules. Not medical advice.",public:"CDC actions, outbreaks, vaccines and population health. Not medical advice.",research:"Large or practice-changing studies and guidelines — not narrow specialty updates. Not medical advice."},
@@ -888,7 +902,11 @@ function render(){
   let shown=items.filter(it=>{
     if(lvOf(it)<minLevel) return false; const s=secOf(it);
     if(region==="government") return s==="news"&&it.region!=="World"&&(sub==="all"||inBranch[sub](it));
-    if(region==="world") return s==="news"&&it.region==="World";
+    if(region==="world"){
+      if(!(s==="news"&&it.region==="World")) return false;
+      if(sub==="all") return true;
+      return worldRegion(it)===sub;
+    }
     if(region==="money"){
       if(sub==="all") return s==="money"||s==="finance";
       if(sub==="finance") return s==="finance";

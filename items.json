@@ -176,7 +176,8 @@
       "source": "AP",
       "url": "https://thehill.com/homenews/ap/ap-international/ap-russia-pounds-the-kyiv-region-killing-4-and-targeting-the-power-grid/",
       "added_at": "2026-09-30T09:04:31-04:00",
-      "thread": "russia-ukraine"
+      "thread": "russia-ukraine",
+      "world_region": "europe"
     },
     {
       "id": "2026-09-30-iran-us-formal-response",
@@ -194,7 +195,8 @@
       "source": "AP",
       "url": "https://www.therepublic.com/2026/09/30/iran-indicates-its-received-an-official-us-response-to-its-latest-offer-on-ending-the-war/",
       "added_at": "2026-09-30T09:04:31-04:00",
-      "thread": "iran-war"
+      "thread": "iran-war",
+      "world_region": "mideast"
     },
     {
       "id": "2026-09-29-scotus-third-country-deportations",
@@ -294,7 +296,8 @@
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/29/russian-strike-hits-ukraines-academy-of-sciences-in-kyiv-killing-2",
       "added_at": "2026-09-29T19:55:21-04:00",
-      "thread": "russia-ukraine"
+      "thread": "russia-ukraine",
+      "world_region": "europe"
     },
     {
       "id": "2026-09-29-canada-import-bans",
@@ -415,7 +418,8 @@
       "detail": "An Iranian official said Iran will not change its position on its nuclear program. The statements followed the U.S. rejection of Iran's proposal. An Iranian army spokesman also said Iran's forces are prepared for renewed U.S. attacks.",
       "why": "Shows where ceasefire talks stand, but is a statement of position, not a decision or action.",
       "topic": "globe",
-      "thread": "iran-war"
+      "thread": "iran-war",
+      "world_region": "mideast"
     },
     {
       "added_at": "2026-09-28T20:50:00-04:00",
@@ -558,7 +562,8 @@
       "detail": "Seven of those killed, including a child, were in Kyiv. Russian drones also hit the headquarters of Kyivstar, Ukraine's largest mobile carrier, and a guided bomb injured 22 people in Kharkiv. Ukraine's army said it retook 176 square kilometers in northern Donetsk.",
       "why": "Deadly attacks in an ongoing war. Rated 3 because they continue an existing pattern rather than marking a new phase.",
       "topic": "conflict",
-      "thread": "russia-ukraine"
+      "thread": "russia-ukraine",
+      "world_region": "europe"
     },
     {
       "added_at": "2026-09-28T20:50:00-04:00",
@@ -572,7 +577,8 @@
       "id": "2026-09-28-swiss-vote",
       "detail": "The proposal, which Russia backed, would have written stricter neutrality rules into Switzerland's constitution, limiting its ability to join sanctions or defense cooperation.",
       "why": "Leaves Switzerland's current policy, including its participation in sanctions, unchanged.",
-      "topic": "ballot"
+      "topic": "ballot",
+      "world_region": "europe"
     },
     {
       "added_at": "2026-09-28T20:50:00-04:00",
@@ -590,7 +596,8 @@
       "branch": [
         "executive"
       ],
-      "thread": "trade-tariffs"
+      "thread": "trade-tariffs",
+      "world_region": "asia"
     },
     {
       "id": "2026-09-27-presidents-cup-us-wins",
@@ -957,7 +964,8 @@
       "why": "An in-flight attack on an Israel-bound jet that briefly looked like a hijacking and nearly became a mass-casualty crash.",
       "source": "Associated Press",
       "url": "https://www.pbs.org/newshour/world/netanyahu-says-a-pilot-on-a-flydubai-flight-stabbed-another-and-apparently-tried-to-crash-the-plane",
-      "added_at": "2026-09-30T16:39:14-04:00"
+      "added_at": "2026-09-30T16:39:14-04:00",
+      "world_region": "mideast"
     },
     {
       "id": "2026-09-30-senate-cloture-fails",

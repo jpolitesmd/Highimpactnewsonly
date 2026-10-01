@@ -127,3 +127,5 @@ Morning / evening / weekend routines (Hi News Site agent) must open this runbook
 | Weekend review research | `CRON_TZ=America/New_York 30 16 * * 0` | Same for `weekend`; `since` = Friday 4:30 p.m. ET. Include Sunday corrections search from task-rules. `edition.py evening` on Sunday remaps to weekend. |
 
 Save prompts as intent (not frozen tool schemas). Work in `/workspace/Highimpactnewsonly`. Committer: High Impact News Daily `<jpolitesmd@users.noreply.github.com>`.
+
+- **Health (general audience):** FDA/CDC/HHS and broad practice-changing research — not specialty pulm/crit trial chasing. Tag health_beat: policy | drugs | public | research.

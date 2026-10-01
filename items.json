@@ -36,7 +36,8 @@
       "time_known": true,
       "source": "CMS",
       "url": "https://www.cms.gov/newsroom/press-releases/cms-finalizes-new-mandatory-drug-payment-model-deliver-lower-drug-prices-beneficiaries-original",
-      "added_at": "2026-10-01T05:45:00-04:00"
+      "added_at": "2026-10-01T05:45:00-04:00",
+      "health_beat": "policy"
     },
     {
       "id": "2026-09-30-rubio-iran-unga-delegation-leave",
@@ -808,7 +809,8 @@
       "why": "Would move an inhaled therapy earlier in MAC treatment for many patients; this is a review decision, not an approval.",
       "source": "BioPharmaWatch",
       "url": "https://www.biopharmawatch.com/news/INSM/fda-priority-review-insmed-arikayce-mac-lung-disease",
-      "added_at": "2026-09-28T21:55:00-04:00"
+      "added_at": "2026-09-28T21:55:00-04:00",
+      "health_beat": "drugs"
     },
     {
       "id": "2026-09-16-fed-raises-rates",
@@ -857,7 +859,8 @@
       "why": "Could offer a biologic option for COPD patients without high eosinophils; not yet approved.",
       "source": "Epocrates",
       "url": "https://www.epocrates.com/online/article/ers-congress-2026-investigational-biologic-cuts-copd-flare-ups-by-one-third",
-      "added_at": "2026-09-28T21:55:00-04:00"
+      "added_at": "2026-09-28T21:55:00-04:00",
+      "health_beat": "research"
     },
     {
       "id": "2026-09-08-beam-302-aatd",
@@ -872,7 +875,8 @@
       "why": "A one-time gene-editing approach for AATD; rated 2 because these are phase 1/2 biomarker results.",
       "source": "Beam Therapeutics via StreetInsider",
       "url": "https://www.streetinsider.com/Globe+Newswire/Beam+Therapeutics+Presents+Updated+Clinical+Data+from+the+Phase+12+Trial+of+BEAM-302+in+Alpha-1+Antitrypsin+Deficiency+(AATD)+at+the+European+Respiratory+Society+(ERS)+Congress+2026/27032485.html",
-      "added_at": "2026-09-28T21:55:00-04:00"
+      "added_at": "2026-09-28T21:55:00-04:00",
+      "health_beat": "research"
     },
     {
       "id": "2026-09-04-august-jobs",
@@ -937,7 +941,8 @@
       "why": "Randomized evidence on a frequent ICU and PERT decision that could change practice for intermediate-high-risk PE.",
       "source": "TCTMD",
       "url": "https://www.tctmd.com/news/prague-26-catheter-directed-thrombolysis-beneficial-intermediate-high-risk-pe",
-      "added_at": "2026-09-28T21:55:00-04:00"
+      "added_at": "2026-09-28T21:55:00-04:00",
+      "health_beat": "research"
     },
     {
       "id": "2026-09-30-flydubai-cockpit-attack",

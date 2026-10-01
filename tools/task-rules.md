@@ -24,6 +24,18 @@ Edit by hand only; the coverage audit does not change this file.
 
 
 
+
+## Health tab (general audience, not specialty-only)
+- Health is for a broad reader (and clinicians of any field), not a pulmonary/critical-care journal club.
+- Prefer: major FDA approvals or safety actions; CDC/outbreak/vaccine news; Medicare/Medicaid/HHS payment or coverage rules; large or practice-changing trials and guidelines that affect many patients.
+- Skip or deprioritize: narrow specialty Phase 2/3 updates, single-center studies, and disease-niche results unless they are widely covered and clearly change care for a large population.
+- Set "health_beat" on section:"health" items: policy | drugs | public | research.
+  - policy: CMS/HHS/insurance/hospital payment and coverage.
+  - drugs: FDA approvals, labeling, recalls, major device actions.
+  - public: CDC, outbreaks, vaccines, population health.
+  - research: landmark trials/guidelines with broad impact.
+- Still not medical advice; facts only.
+
 ## Region tagging (U.S. vs World)
 - **World** = the story’s center of gravity is outside the United States: another country’s government or courts, a foreign election, fighting or disasters abroad, or a multinational event that is not primarily a U.S. agency action.
 - **U.S.** = the main actor is the U.S. president, Congress, courts, or federal agencies — including foreign-policy tools (sanctions, State Department orders, defense-trade rules, aid decisions, U.S. troop movements ordered from Washington). Those belong on Government (and Today), not World.

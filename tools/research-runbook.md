@@ -42,7 +42,7 @@ Each beat returns a JSON array of **at most 3** objects (may be `[]`). Every obj
 ```json
 {
   "id_slug": "short-lowercase-hyphen-suggestion",
-  "text": "one-fact lead, ≤25 words",
+  "text": "one-fact lead, ≤25 words; named subject first; plain language (no cloture jargon)",
   "detail": "numbers, tallies, dates, background",
   "why": "one short line on why it matters",
   "impact": 3,

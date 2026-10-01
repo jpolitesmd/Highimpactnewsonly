@@ -579,7 +579,7 @@ const TOPIC_PHOTO={"capitol": {"id": "1520525003249-2b9cdda513bc", "by": "Louis 
 const LEVEL_COLOR=["","--i4","--i4","--i4","--i4","--i4"];
 const PAGES=["about","privacy","terms","sponsors"];
 const TABS=["today","government","world","money","tech","health","sports","ongoing","history","corrections","archive"];
-let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null;
+let items=[], minLevel=1, region="today", sub="all", loaded=false, upcoming=null, eveningPin=null, eveningPinKey="";
 let archIdx=null, archKey=null; const archCache={}; let moreOpen=false;
 try{minLevel=+localStorage.getItem("pw_min")||1; const r=localStorage.getItem("pw_tab"); if(TABS.includes(r)) region=r;}catch(e){}
 
@@ -660,6 +660,30 @@ function byDays(feed,list){const days=new Map(); for(const it of list){const k=d
 function setIntro(t){const i=document.getElementById("tabIntro"); i.textContent=t||""; i.hidden=!t;}
 
 async function loadUpcoming(){try{const r=await fetch("upcoming.json?t="+Date.now(),{cache:"no-store"}); upcoming=await r.json();}catch(e){upcoming={events:[]};} if(region==="today"||region==="government")render();}
+/* After the evening sweep (4:30 p.m. ET), pin tonight's emailed edition so overnight/early event times still land under Tonight. */
+async function loadEveningPin(){
+  const today=fmtKey.format(new Date());
+  const etp=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",hourCycle:"h23",timeZone:"America/New_York"}).formatToParts(new Date());
+  const etm=(+etp.find(p=>p.type==="hour").value)*60+(+etp.find(p=>p.type==="minute").value);
+  if(etm<990){ eveningPin=null; eveningPinKey="am:"+today; return; }
+  const key=today+"-evening";
+  if(eveningPinKey===key) return;
+  eveningPinKey=key;
+  try{
+    const r=await fetch("archive/"+key+".json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error("evening archive "+r.status);
+    const data=await r.json();
+    eveningPin=new Set((data.items||[]).map(it=>it.id).filter(Boolean));
+  }catch(e){ eveningPin=new Set(); }
+  if(region==="today") render();
+}
+function ensureEveningPin(){
+  const today=fmtKey.format(new Date());
+  const etp=new Intl.DateTimeFormat("en-US",{hour:"numeric",minute:"numeric",hourCycle:"h23",timeZone:"America/New_York"}).formatToParts(new Date());
+  const etm=(+etp.find(p=>p.type==="hour").value)*60+(+etp.find(p=>p.type==="minute").value);
+  if(etm<990){ eveningPin=null; eveningPinKey="am:"+today; return; }
+  if(eveningPinKey!==today+"-evening") loadEveningPin();
+}
 const FRESH_H=12, FRESH_SLOTS=4, TODAY_N=10;
 /* BREAKING: impact 4-5 events posted by the hourly check run above everything until the next edition (breaking_until) */
 const activeBreaking=()=>{const now=Date.now(); return items.filter(it=>it.breaking_until&&new Date(it.breaking_until).getTime()>now).sort(byImpact);};
@@ -681,6 +705,11 @@ function todayTop(pool,now){
   for(const it of main.slice(0,TODAY_N)) if(isFresh(it,now)) add(it);          /* fresh stories that already rank */
   for(const it of fresh){ if(pick.length>=FRESH_SLOTS) break; add(it); }         /* reserve spots for new stories */
   for(const it of main){ if(pick.length>=TODAY_N) break; add(it); }              /* fill with the most important */
+  /* Evening edition pin: every emailed tonight story must appear under Tonight, even if event time is overnight */
+  if(eveningPin&&eveningPin.size){
+    const byId=new Map(items.map(it=>[it.id,it]));
+    for(const id of eveningPin){ if(ids.has(id)) continue; const it=byId.get(id); if(it) add(it); }
+  }
   return pick.sort(byImpact);
 }
 /* "Yesterday afternoon", "This morning", "Sunday" ... for the earlier stories on the Today tab (Eastern time) */
@@ -694,7 +723,9 @@ function whenLabel(it){const t=new Date(it.time); if(isNaN(t))return "Earlier";
 /* Edition blocks for the Today tab: stories are grouped by the edition period they happened in (Eastern time;
    blocks turn over at the 5:30 a.m. and 4:30 p.m. searches), newest block first, and sorted by impact inside each block. */
 const BLOCKS=[["tonight","Tonight"],["today","Today"],["overnight","Overnight"],["yesterday","Yesterday"],["earlier","Earlier"]];
-function blockOf(it){const t=new Date(it.time); if(isNaN(t))return "earlier";
+function blockOf(it){
+  if(eveningPin&&eveningPin.has(it.id)) return "tonight";
+  const t=new Date(it.time); if(isNaN(t))return "earlier";
   const k=dayKey(it.time), T=fmtKey.format(new Date()), Y=fmtKey.format(new Date(Date.now()-864e5));
   /* The day block runs 5:30 a.m.-4:30 p.m. (between the morning and evening searches); overnight runs 4:30 p.m.-5:30 a.m. */
   const hp=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"numeric",hourCycle:"h23"}).formatToParts(t);
@@ -715,6 +746,7 @@ function appendBlocks(parent,list,style){let first=true;
     parent.append(ol); first=false;}}
 function renderToday(feed){
   setIntro("");
+  ensureEveningPin();
   const now=Date.now(), H=3600e3;
   const eligible=it=>{const s=secOf(it), lv=lvOf(it); return (s==="news"||s==="money"||s==="finance"||s==="tech")?lv>=3:lv>=4;};
   let pool=[];

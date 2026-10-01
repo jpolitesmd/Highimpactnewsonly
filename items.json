@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T20:17:00-04:00",
+ "updated": "2026-10-01T05:38:18-04:00",
  "items": [
   {
    "id": "2026-09-29-mlb-wildcard-game1",
@@ -807,7 +807,7 @@
    "time": "2026-09-08T12:00:00-04:00",
    "time_known": false,
    "text": "Beam Therapeutics reported that its base-editing therapy BEAM-302 raised alpha-1 antitrypsin levels above the protective threshold in AATD patients, presented at ERS Congress 2026.",
-   "detail": "At the 60 mg dose, total AAT rose from about 5 \u00b5M to 13.5\u201314.4 \u00b5M (protective threshold 11 \u00b5M), with mutant Z-AAT down 84% in 29 reported patients. Infusion reactions occurred in 41%, and one patient had a grade 3 liver enzyme rise. A pivotal cohort of about 50 patients is enrolling.",
+   "detail": "At the 60 mg dose, total AAT rose from about 5 µM to 13.5–14.4 µM (protective threshold 11 µM), with mutant Z-AAT down 84% in 29 reported patients. Infusion reactions occurred in 41%, and one patient had a grade 3 liver enzyme rise. A pivotal cohort of about 50 patients is enrolling.",
    "why": "A one-time gene-editing approach for AATD; rated 2 because these are phase 1/2 biomarker results.",
    "source": "Beam Therapeutics via StreetInsider",
    "url": "https://www.streetinsider.com/Globe+Newswire/Beam+Therapeutics+Presents+Updated+Clinical+Data+from+the+Phase+12+Trial+of+BEAM-302+in+Alpha-1+Antitrypsin+Deficiency+(AATD)+at+the+European+Respiratory+Society+(ERS)+Congress+2026/27032485.html",
@@ -904,7 +904,7 @@
     "legislative"
    ],
    "text": "The Ratepayer Protection Act and the Stop Insider Trading Act, both House-passed bills, failed in the Senate.",
-   "detail": "Both needed 60 votes to advance and fell short the same afternoon. The Ratepayer Protection Act (vote 254, 57-43) would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers; four Democrats \u2014 Hassan, Klobuchar, Ossoff and Warnock \u2014 joined Republicans; the House had passed it 417-3. The Stop Insider Trading Act (vote 253, 53-47, party-line) would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling\u2019s nomination as Labor secretary (vote 255), clearing a procedural step toward a final confirmation vote.",
+   "detail": "Both needed 60 votes to advance and fell short the same afternoon. The Ratepayer Protection Act (vote 254, 57-43) would have pushed state utility regulators to keep large data-center power and water costs off residential ratepayers; four Democrats — Hassan, Klobuchar, Ossoff and Warnock — joined Republicans; the House had passed it 417-3. The Stop Insider Trading Act (vote 253, 53-47, party-line) would have barred members, spouses and dependent children from buying new publicly traded stocks while allowing sales with advance notice and letting them keep existing holdings. Separately, the Senate voted 53-47 to invoke cloture on Keith Sonderling’s nomination as Labor secretary (vote 255), clearing a procedural step toward a final confirmation vote.",
    "why": "Blocks near-term Senate action on data-center ratepayer costs and on congressional stock-trading limits before the midterm recess.",
    "source": "U.S. Senate",
    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00254.htm",
@@ -938,11 +938,101 @@
    "time": "2026-09-30T12:00:00-04:00",
    "time_known": true,
    "text": "Armada Acquisition Corp. II shareholders approved the Evernorth XRP-treasury merger, a step toward a planned Nasdaq listing as XRPN.",
-   "detail": "The noon-ET special meeting cleared the business-combination vote, according to meeting attendees reported by crypto.news; an official SEC 8-K with final tallies had not posted by evening research. Proxy materials project at least about 473 million XRP at closing if the deal closes. Approval is not the same as listing or trading \u2014 remaining closing conditions and Nasdaq requirements still apply, with completion targeted for late 2026.",
+   "detail": "The noon-ET special meeting cleared the business-combination vote, according to meeting attendees reported by crypto.news; an official SEC 8-K with final tallies had not posted by evening research. Proxy materials project at least about 473 million XRP at closing if the deal closes. Approval is not the same as listing or trading — remaining closing conditions and Nasdaq requirements still apply, with completion targeted for late 2026.",
    "why": "Advances a heavily watched crypto SPAC toward a public XRP treasury vehicle; listing and closing are still ahead.",
    "source": "crypto.news",
    "url": "https://crypto.news/xrp-rebounds-past-1-50-as-evernorth-merger-vote/",
    "added_at": "2026-09-30T16:39:14-04:00"
+  },
+  {
+   "id": "2026-09-30-pike-execution-halted",
+   "section": "news",
+   "text": "Tennessee halted scheduled executions after Christa Pike appeared still breathing following a lethal injection attempt.",
+   "detail": "Witnesses said Pike still appeared to be breathing about an hour after pentobarbital was administered late Wednesday at Riverbend Maximum Security Institution in Nashville; she was taken to a hospital. Gov. Bill Lee ordered a third-party review and said the remaining scheduled execution will not be carried out this year. Earlier Wednesday the Supreme Court vacated a Sixth Circuit stay (Nelsen v. Pike, 26A428), clearing Tennessee to proceed before the warrant expired at midnight; Justices Sotomayor, Kagan and Jackson dissented. Pike, 50, was convicted of the 1995 murder of Colleen Slemmer and was the only woman on Tennessee's death row.",
+   "why": "A failed lethal injection and a statewide pause on further executions, after the Supreme Court cleared the state to proceed the same day.",
+   "impact": 4,
+   "topic": "court",
+   "branch": [
+    "judicial",
+    "executive"
+   ],
+   "judicial": true,
+   "court": "U.S. Supreme Court",
+   "region": "US",
+   "time": "2026-09-30T21:53:00-04:00",
+   "time_known": true,
+   "source": "ABC News / Supreme Court",
+   "url": "https://www.supremecourt.gov/opinions/25pdf/26a428_4f15.pdf",
+   "added_at": "2026-10-01T05:38:18-04:00"
+  },
+  {
+   "id": "2026-09-30-sonderling-labor",
+   "section": "news",
+   "text": "The Senate confirmed Keith Sonderling as Labor secretary.",
+   "detail": "The nomination was confirmed 47-41 on a party-line vote late Wednesday (roll call 256), with 12 senators not voting. Sonderling had been serving as acting labor secretary. The vote came after the Senate earlier Wednesday invoked cloture on the nomination 53-47.",
+   "why": "Fills the Cabinet labor post that oversees workplace rules, wages and federal labor enforcement.",
+   "impact": 3,
+   "topic": "capitol",
+   "branch": [
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-09-30T21:29:00-04:00",
+   "time_known": true,
+   "source": "U.S. Senate",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00256.htm",
+   "added_at": "2026-10-01T05:38:18-04:00"
+  },
+  {
+   "id": "2026-10-01-itar-syria",
+   "section": "news",
+   "text": "A State Department rule removed Syria from the blanket ban on U.S. defense-trade licenses.",
+   "detail": "The International Traffic in Arms Regulations final rule, effective Oct. 1, takes Syria off ITAR §126.1's list of countries subject to a policy of denial for defense exports and imports. License requests will be reviewed case by case. The change follows the secretary's Aug. 19 defense-trade policy shift after statutory barriers, including terrorism-related restrictions, were lifted or waived. Belarus, Burma, China, Cuba, Iran, North Korea and Venezuela remain on the denial list.",
+   "why": "Opens a path to licensed U.S. defense sales and services to Syria that were previously denied by default.",
+   "impact": 3,
+   "topic": "ship",
+   "branch": [
+    "executive"
+   ],
+   "region": "World",
+   "time": "2026-10-01T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20082/international-traffic-in-arms-regulations-syria-country-policy-revision",
+   "added_at": "2026-10-01T05:38:18-04:00"
+  },
+  {
+   "id": "2026-10-01-reap-final-rule",
+   "section": "news",
+   "text": "USDA rewrote Rural Energy for America grants so projects must already be built before applicants can apply.",
+   "detail": "The Rural Business-Cooperative Service final rule, published Oct. 1 and effective Oct. 16, shifts REAP renewable-energy and efficiency grants to a post-completion model using 12 months of actual performance data. It bars solar and wind systems on Farm Service Agency–certified cropland, bars components from foreign-adversary countries, limits applicants to highest-level owners, and replaces state contests with national scoring. Comments are due Nov. 2.",
+   "why": "Changes who can get rural energy grants and when, with new farmland and foreign-component limits.",
+   "impact": 3,
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20178/unleashing-american-energy-and-economic-prosperity-rural-energy-for-america-program-reap",
+   "added_at": "2026-10-01T05:38:18-04:00"
+  },
+  {
+   "id": "2026-09-30-mlb-wildcard-game2",
+   "section": "sports",
+   "text": "The Yankees, Padres and White Sox each swept their MLB Wild Card Series; the Phillies forced a Game 3.",
+   "detail": "On Wednesday the Yankees beat the Red Sox 9-2, the White Sox beat the Astros 7-3 and the Padres beat the Cubs 4-1 to advance to the Division Series. The Phillies beat the Braves 4-3 in 10 innings, forcing a decisive Game 3 on Thursday.",
+   "why": "Three Wild Card Series are over; one winner-take-all game remains before the Division Series.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-09-30T23:30:00-04:00",
+   "time_known": false,
+   "source": "Reuters / MLB",
+   "url": "https://www.reuters.com/sports/mlb-roundup-yankees-white-sox-padres-complete-wild-card-sweeps--flm-2026-10-01/",
+   "added_at": "2026-10-01T05:38:18-04:00"
   }
  ]
 }

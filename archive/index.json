@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-01-morning",
+   "date": "2026-10-01",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Tennessee halted scheduled executions after Christa Pike appeared still breathing following a lethal injection attempt."
+  },
+  {
    "key": "2026-09-30-evening",
    "date": "2026-09-30",
    "edition": "evening",
@@ -36,5 +43,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-09-30T16:39:16-04:00"
+ "updated": "2026-10-01T05:38:20-04:00"
 }

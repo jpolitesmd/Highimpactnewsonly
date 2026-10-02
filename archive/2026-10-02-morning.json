@@ -1,0 +1,239 @@
+{
+ "date": "2026-10-02",
+ "edition": "morning",
+ "subject": "Friday, Oct 2 - Morning edition",
+ "published": "2026-10-02T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-02-america-gov-eo",
+   "section": "news",
+   "text": "An executive order directs GSA to make America.gov the single online front door for major federal services.",
+   "detail": "Executive Order 14432, signed Sept. 29 and published in the Federal Register on Oct. 2, tells the General Services Administration to run America.gov as a unified, Login.gov-authenticated entry point for public-facing federal services that serve more than 100,000 users a year online. Tax filing and Defense/Intelligence Community services are excluded. OMB has 90 days to issue an implementation memo; agencies must identify covered services and integrate them. In-person, phone, mail and agency sites remain available.",
+   "why": "Orders a binding government-wide digital gate for large online federal services.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20319/streamlining-access-to-government-services-through-americagov"
+  },
+  {
+   "id": "2026-10-02-dhs-el-paso-barrier-waiver",
+   "section": "news",
+   "text": "Homeland Security waived New Mexico water laws to speed border-barrier construction in the El Paso Sector.",
+   "detail": "Secretary Markwayne Mullin's determination, effective Oct. 2, waives federal and New Mexico water statutes and related rules for barrier and road work from Border Monument 71 east to Monument 53, north to Monument 40, then east to Monument 1. DHS cited more than 1.24 million Border Patrol apprehensions in the sector from FY2021 through Aug. 30, 2026, and drug seizures including fentanyl. The waiver does not revoke prior Section 102 waivers.",
+   "why": "Clears legal obstacles so DHS can immediately build more barriers on a New Mexico border stretch.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20233/determination-pursuant-to-section-102-of-the-illegal-immigration-reform-and-immigrant-responsibility"
+  },
+  {
+   "id": "2026-10-01-us-marines-mideast-carriers",
+   "section": "news",
+   "text": "The Pentagon is sending about 9,000 sailors and Marines and a third aircraft carrier toward the Middle East.",
+   "detail": "A U.S. official told AP the move includes the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious ready group with more than 7,000 sailors and about 2,000 Marines. With forces already there, the Navy presence could exceed 20,000 sailors and Marines and put three carriers in the region by late October. President Trump said new strikes on Iran after the Nov. 3 midterms remain possible and that he rejected Iran's latest ceasefire and Hormuz proposal as inadequate.",
+   "why": "A large U.S. force buildup as the administration weighs another round of Iran strikes.",
+   "impact": 4,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T14:38:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://krmg.com/2026/10/01/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran/"
+  },
+  {
+   "id": "2026-10-01-scholarship-tax-credit",
+   "section": "money",
+   "text": "Treasury and the IRS issued rules implementing the Federal Scholarship Tax Credit for K-12 school choice.",
+   "detail": "Proposed and companion temporary regulations under IRC §25F (Education Freedom Tax Credit) allow individuals a nonrefundable credit of up to $1,700 a year ($3,400 joint) for cash gifts to eligible Scholarship Granting Organizations in participating states. Contributions may fund private-school tuition, tutoring, special-needs services, books and supplies starting Jan. 1, 2027. Thirty states have opted in; Treasury estimates ~96% of children in those states could be scholarship-eligible and projects up to about 2.2 million scholarships a year by 2030. Temporary rules set state election and SGO certification procedures now; taxpayers may rely on the proposed rules for 2027 contributions.",
+   "why": "Implements the first nationwide federal K-12 school-choice tax credit with binding procedures for states, donors and scholarship groups.",
+   "impact": 4,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T09:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0641"
+  },
+  {
+   "id": "2026-10-01-medicaid-immigrant-cutoff",
+   "section": "health",
+   "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants.",
+   "detail": "Section 71109 of the 2025 Working Families Tax Cut law took effect Oct. 1, limiting federal Medicaid/CHIP matching funds mainly to U.S. citizens/nationals, lawful permanent residents, Cuban-Haitian entrants and COFA migrants. CMS told states to redetermine affected enrollees; KFF Health News found more than 281,000 people in nine states and D.C. at risk of losing coverage in October, with Florida alone identifying nearly 177,000. Emergency Medicaid for emergency conditions remains; states may still cover lawfully residing children and pregnant women under an existing option. Some states, including California, New York and Pennsylvania, are using state funds to blunt the cut.",
+   "why": "A binding nationwide eligibility change that strips federal health coverage from hundreds of thousands of lawfully present immigrants starting today.",
+   "impact": 4,
+   "topic": "pulse",
+   "branch": [
+    "executive",
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:01:00-04:00",
+   "time_known": true,
+   "source": "CMS / NPR",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens"
+  },
+  {
+   "id": "2026-10-01-trump-accounts-auto-enroll",
+   "section": "money",
+   "text": "Trump Accounts for eligible children begin automatic Treasury enrollment nationwide.",
+   "detail": "Temporary IRS/Treasury regs (TD 10056), effective Sept. 30, say the Secretary will elect on or about Oct. 1, 2026, to create auto accounts for each child who meets age and Social Security-number rules and has no prior election—about 73 million eligible children. Auto accounts accept only Treasury-administered contributions and any $1,000 pilot payment until claimed; families then roll funds to a claimed or other trustee account. Regs also allow approved-class and publicly traded stock general funding contributions.",
+   "why": "Opt-out enrollment is expected to create 60+ million accounts and unlock large class donations.",
+   "impact": 4,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Register (Treasury/IRS TD 10056)",
+   "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20026/trump-accounts"
+  },
+  {
+   "id": "2026-10-01-aca-refund-checks",
+   "section": "money",
+   "text": "Treasury began mailing $500 Affordable Care Act refund checks to about 950,000 people in 30 states.",
+   "detail": "The payments go mainly to HealthCare.gov enrollees who paid marketplace user fees and did not get federal premium subsidies, typically people above 400% of the federal poverty level; some unsubsidized people between 100% and 400% also qualify. The 30 states use the federal exchange rather than state-run marketplaces. Texas and Florida have the largest recipient counts. Checks began going out Wednesday with a letter from the president; delivery timing varies.",
+   "why": "Nearly a million households get a government check tied to marketplace fee overcharges.",
+   "impact": 3,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T13:24:00-04:00",
+   "time_known": false,
+   "source": "ABC News",
+   "url": "https://abcnews.com/Health/trump-administration-begins-mailing-500-aca-refund-checks/story?id=136915170"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 2
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-09-30-mlb-wildcard-game2",
+   "section": "sports",
+   "text": "The Yankees, Padres and White Sox each swept their MLB Wild Card Series; the Phillies forced a Game 3.",
+   "detail": "On Wednesday the Yankees beat the Red Sox 9-2, the White Sox beat the Astros 7-3 and the Padres beat the Cubs 4-1 to advance to the Division Series. The Phillies beat the Braves 4-3 in 10 innings, forcing a decisive Game 3 on Thursday.",
+   "why": "Three Wild Card Series are over; one winner-take-all game remains before the Division Series.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-09-30T23:30:00-04:00",
+   "time_known": false,
+   "source": "Reuters / MLB",
+   "url": "https://www.reuters.com/sports/mlb-roundup-yankees-white-sox-padres-complete-wild-card-sweeps--flm-2026-10-01/"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-09-30-pike-execution-halted",
+   "section": "news",
+   "text": "Tennessee halted scheduled executions after Christa Pike appeared still breathing following a lethal injection attempt.",
+   "detail": "Witnesses said Pike still appeared to be breathing about an hour after pentobarbital was administered late Wednesday at Riverbend Maximum Security Institution in Nashville; she was taken to a hospital. Gov. Bill Lee ordered a third-party review and said the remaining scheduled execution will not be carried out this year. Earlier Wednesday the Supreme Court vacated a Sixth Circuit stay (Nelsen v. Pike, 26A428), clearing Tennessee to proceed before the warrant expired at midnight; Justices Sotomayor, Kagan and Jackson dissented. Pike, 50, was convicted of the 1995 murder of Colleen Slemmer and was the only woman on Tennessee's death row.",
+   "why": "A failed lethal injection and a statewide pause on further executions, after the Supreme Court cleared the state to proceed the same day.",
+   "impact": 4,
+   "topic": "court",
+   "branch": [
+    "judicial",
+    "executive"
+   ],
+   "judicial": true,
+   "court": "U.S. Supreme Court",
+   "region": "US",
+   "time": "2026-09-30T21:53:00-04:00",
+   "time_known": true,
+   "source": "ABC News / Supreme Court",
+   "url": "https://www.supremecourt.gov/opinions/25pdf/26a428_4f15.pdf"
+  },
+  {
+   "id": "2026-09-30-cms-globe-part-b-drug-model",
+   "section": "health",
+   "text": "CMS finalized GLOBE, a mandatory Medicare Part B model tying drug inflation rebates to overseas prices.",
+   "detail": "The five-year Global Benchmark for Efficient Drug Pricing Model runs Jan. 1, 2027–Mar. 31, 2032 for about 25% of Original Medicare beneficiaries in randomly selected areas; lower out-of-pocket costs may begin April 1, 2027. It uses prices in economically comparable countries to set an alternative Part B inflation-rebate benchmark for selected clinician-administered drugs, excluding biosimilars once marketed, orphan-only drugs, plasma products, and certain cell/gene therapies. Agency release Sept. 30; FR public inspection posted ~4:45 p.m. ET for Oct. 2 publication.",
+   "why": "Tests international reference pricing on Part B drugs that drive fast-rising Medicare spending.",
+   "impact": 4,
+   "topic": "pulse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-30T16:45:00-04:00",
+   "time_known": true,
+   "source": "CMS",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-finalizes-new-mandatory-drug-payment-model-deliver-lower-drug-prices-beneficiaries-original"
+  },
+  {
+   "id": "2026-09-30-us-iraq-mission-end",
+   "section": "news",
+   "text": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades.",
+   "detail": "Operation Inherent Resolve's Iraq mission concluded Wednesday under a 2024 Baghdad-Washington transition plan; roughly 2,500 remaining U.S. forces left, with Iraq assuming full responsibility for security against ISIS remnants. Iran and aligned groups cast the exit as a win. The U.S. and Iraq say they will shift to a bilateral security relationship; concerns remain about militia influence and residual ISIS threats without U.S. air and intelligence support on the ground.",
+   "why": "Closes a major U.S. combat footprint in Iraq and reshapes regional security against ISIS and Iran-aligned forces.",
+   "impact": 4,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-09-30T12:00:00-04:00",
+   "time_known": false,
+   "source": "CBS News / BBC",
+   "url": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-02",
+   "when": "8:30 a.m. ET",
+   "text": "September Employment Situation (jobs report), 8:30 a.m. ET.",
+   "detail": "BLS nonfarm payrolls, unemployment rate, and hourly earnings for September 2026.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+  },
+  {
+   "date": "2026-10-07",
+   "when": "Expected",
+   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
+   "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  }
+ ]
+}

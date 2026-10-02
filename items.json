@@ -1,6 +1,114 @@
 {
- "updated": "2026-10-01T17:44:28-04:00",
+ "updated": "2026-10-02T05:40:24-04:00",
  "items": [
+  {
+   "id": "2026-10-02-america-gov-eo",
+   "section": "news",
+   "text": "An executive order directs GSA to make America.gov the single online front door for major federal services.",
+   "detail": "Executive Order 14432, signed Sept. 29 and published in the Federal Register on Oct. 2, tells the General Services Administration to run America.gov as a unified, Login.gov-authenticated entry point for public-facing federal services that serve more than 100,000 users a year online. Tax filing and Defense/Intelligence Community services are excluded. OMB has 90 days to issue an implementation memo; agencies must identify covered services and integrate them. In-person, phone, mail and agency sites remain available.",
+   "why": "Orders a binding government-wide digital gate for large online federal services.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20319/streamlining-access-to-government-services-through-americagov",
+   "added_at": "2026-10-02T05:40:24-04:00"
+  },
+  {
+   "id": "2026-10-02-dhs-el-paso-barrier-waiver",
+   "section": "news",
+   "text": "Homeland Security waived New Mexico water laws to speed border-barrier construction in the El Paso Sector.",
+   "detail": "Secretary Markwayne Mullin's determination, effective Oct. 2, waives federal and New Mexico water statutes and related rules for barrier and road work from Border Monument 71 east to Monument 53, north to Monument 40, then east to Monument 1. DHS cited more than 1.24 million Border Patrol apprehensions in the sector from FY2021 through Aug. 30, 2026, and drug seizures including fentanyl. The waiver does not revoke prior Section 102 waivers.",
+   "why": "Clears legal obstacles so DHS can immediately build more barriers on a New Mexico border stretch.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T00:01:00-04:00",
+   "time_known": true,
+   "source": "Federal Register",
+   "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20233/determination-pursuant-to-section-102-of-the-illegal-immigration-reform-and-immigrant-responsibility",
+   "added_at": "2026-10-02T05:40:24-04:00"
+  },
+  {
+   "id": "2026-10-01-us-marines-mideast-carriers",
+   "section": "news",
+   "text": "The Pentagon is sending about 9,000 sailors and Marines and a third aircraft carrier toward the Middle East.",
+   "detail": "A U.S. official told AP the move includes the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious ready group with more than 7,000 sailors and about 2,000 Marines. With forces already there, the Navy presence could exceed 20,000 sailors and Marines and put three carriers in the region by late October. President Trump said new strikes on Iran after the Nov. 3 midterms remain possible and that he rejected Iran's latest ceasefire and Hormuz proposal as inadequate.",
+   "why": "A large U.S. force buildup as the administration weighs another round of Iran strikes.",
+   "impact": 4,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T14:38:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://krmg.com/2026/10/01/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran/",
+   "thread": "iran-war",
+   "added_at": "2026-10-02T05:40:24-04:00"
+  },
+  {
+   "id": "2026-10-01-russia-energy-assault-kyiv",
+   "section": "news",
+   "text": "Russia's heaviest energy-grid assault in months killed seven people and forced emergency power cuts in Kyiv.",
+   "detail": "Ukrenergo imposed emergency cuts in Kyiv and three nearby regions — the first such capital cuts since spring — after strikes hit power plants and other energy sites. President Zelensky said a child was among the seven dead and critical infrastructure was hit in five regions. Ukraine's air force said defenses intercepted 254 of 285 drones by early evening, many of them faster jet-powered models, plus a ballistic missile. Russia said it struck power plants near Kyiv, an industrial complex in Odesa region and port infrastructure at Ismail.",
+   "why": "Marks the opening of Russia's expected winter campaign against Ukraine's power and heat.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "time": "2026-10-01T07:49:00-04:00",
+   "time_known": false,
+   "source": "France 24 / Reuters",
+   "url": "https://www.france24.com/en/europe/20261001-russia-launches-major-attack-on-ukraine-energy-grid-causing-power-cuts",
+   "thread": "russia-ukraine",
+   "added_at": "2026-10-02T05:40:24-04:00"
+  },
+  {
+   "id": "2026-10-01-aca-refund-checks",
+   "section": "money",
+   "text": "Treasury began mailing $500 Affordable Care Act refund checks to about 950,000 people in 30 states.",
+   "detail": "The payments go mainly to HealthCare.gov enrollees who paid marketplace user fees and did not get federal premium subsidies, typically people above 400% of the federal poverty level; some unsubsidized people between 100% and 400% also qualify. The 30 states use the federal exchange rather than state-run marketplaces. Texas and Florida have the largest recipient counts. Checks began going out Wednesday with a letter from the president; delivery timing varies.",
+   "why": "Nearly a million households get a government check tied to marketplace fee overcharges.",
+   "impact": 3,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T13:24:00-04:00",
+   "time_known": false,
+   "source": "ABC News",
+   "url": "https://abcnews.com/Health/trump-administration-begins-mailing-500-aca-refund-checks/story?id=136915170",
+   "added_at": "2026-10-02T05:40:24-04:00",
+   "money_beat": "taxes"
+  },
+  {
+   "id": "2026-10-01-hormuz-tankers-hit",
+   "section": "news",
+   "text": "Three Liberian-flagged oil tankers were hit by unknown projectiles while crossing the Strait of Hormuz.",
+   "detail": "Shipping intelligence service Marisks said the vessels — products tanker Al Ruwais, VLCC Mersin Prosperity and Aframax Sinbad — were struck Tuesday while running with AIS transponders off. Separately, the UK Maritime Trade Operations office reported a tanker struck by an unknown projectile that caught fire, with the crew reported safe. The attacks come as U.S. and Iranian forces contest the strait that carries about a fifth of the world's oil.",
+   "why": "Confirms continued kinetic risk to oil shipping through the world's most critical chokepoint.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "mideast",
+   "time": "2026-10-01T05:20:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.cnbcafrica.com/2026/three-oil-tankers-hit-by-projectiles-in-hormuz-strait-on-tuesday-marisks-says/",
+   "thread": "iran-war",
+   "added_at": "2026-10-02T05:40:24-04:00"
+  },
   {
    "id": "2026-10-01-scholarship-tax-credit",
    "section": "money",

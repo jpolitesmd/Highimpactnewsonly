@@ -20,6 +20,7 @@ Edit by hand only; the coverage audit does not change this file.
 ## Impact ratings (all runs)
 - 4 and 5 are for actions that are binding, take effect now or on a set date, and reach a large population (a final nationwide rule, a law signed, a final Supreme Court merits decision, a Fed rate change, a major war development).
 - Use 3 when the action is real but temporary, stayed, delayed, only procedural, passed one chamber, or mostly formalizes an earlier court loss. Court orders that pause or allow something while a case continues are 3 unless they immediately change rights or obligations for millions of people.
+- Thin days: confirmed impact ~2–3 stories that pass the workplace-gossip test (would coworkers discuss this?) are a valid fill — primary/wire facts only, no invention.
 - Same story in a later edition: only if something new happened, and the lead says what moved.
 
 

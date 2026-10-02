@@ -109,6 +109,7 @@ Goal: catch dated events that are loud on social (especially X) days/weeks ahead
 | Failure | What to do |
 | --- | --- |
 | **Empty beat** | Return `[]` with a one-line reason in the beat summary. Editor continues; do not pad with weak stories. |
+| **Quiet / thin edition** | When the main rank is thin, prefer 1–2 confirmed keepers that pass John's workplace-gossip test — would coworkers discuss this at the office? (example: I-95 SC crash) — over releasing nothing. Impact ~2–3 news/money/etc. is a valid fill; still absolute confirmed facts / primary or wire only — not tips, advice, rumor, or salacious padding. Do not invent. |
 | **Blocked site** | Do not burn lookups on known blockers (e.g. washingtonpost.com 403, nbcnews.com robots — see checklist). Find AP/Reuters/primary-doc version. Note in `notes` if the story is still soft. |
 | **Late morning** (>~5:50 a.m. and email at risk) | Shrink to Courts + Congress + Agencies/FR + cross-check only; skip Markets-trade deep dive and Sports unless impact-4+ is obvious. Still run edition.py and push if any keepers exist; if nothing publishable, push nothing for email and report "nothing to send". |
 | **Edition.py says no email today** | Stop; do not force Saturday/Sunday morning or Saturday evening. |

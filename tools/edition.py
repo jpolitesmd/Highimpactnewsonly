@@ -77,7 +77,7 @@ def select(items, edition, now):
         if len(recap) < 3:
             ids2 = {i["id"] for i in recap}
             recap = rank(recap + rank([i for i in ylist if i["id"] not in ids2 and fresh_ok(i)])[:3 - len(recap)])
-        if len(overnight) + len(recap) < 3 and now.weekday() != 0:  # very quiet stretch (not Mondays): fall back to the last 72 hours
+        if len(overnight) + len(recap) < 3 and now.weekday() != 0:  # very quiet stretch (not Mondays): fall back to last 72h; workplace-gossip keepers OK fill
             ids |= {i["id"] for i in overnight + recap}
             recap += rank([i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=72)
                            and eligible(i) and i["id"] not in ids])[:5 - len(overnight) - len(recap)]
@@ -101,6 +101,9 @@ def select(items, edition, now):
     # Quiet evenings: if the ranked pool is still thin, prefer releasing something over nothing.
     # Backfill with lower-bar fresh today's stories not already in this morning's archive
     # (news/money/finance/tech impact ≥2; other sections ≥3 = fresh_ok), still capped at ~8.
+    # Valid fill reason on thin days: "workplace gossip" — confirmed impact ~2–3 news/money/etc.
+    # keepers busy professionals can picture coworkers discussing (e.g. I-95 SC crash). Still
+    # absolute confirmed facts / primary or wire only; not tips, advice, rumor, or salacious padding.
     if len(top) < 6:
         ids = {i["id"] for i in top}
         extra = [i for i in items if i["id"] not in ids and i["id"] not in morning and t(i)

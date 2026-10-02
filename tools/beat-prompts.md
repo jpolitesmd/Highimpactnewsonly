@@ -110,6 +110,7 @@ One pass only — do not re-search topics already covered by beats that returned
 Return a JSON array of at most 3 candidates in the beat contract for anything the beat bots likely missed.
 If an item duplicates a story already found by beats, omit it (or include with notes:"duplicate of …" only when unsure).
 Do not rewrite beat output; only add gaps. Empty array is fine.
+On thin days: if beats returned little, prefer 1–2 absolute confirmed (primary/wire) stories that pass the workplace-gossip test — would busy professionals picture coworkers discussing this at the office? — over inventing or padding. Do not invent.
 ```
 
 ---
@@ -136,6 +137,7 @@ Steps:
 7) Do not run the coverage-audit hunt; that is Tue/Thu/Sat only.
 
 If late morning (>~5:50 a.m. ET): prefer Courts + Congress + Agencies/FR + cross-check keepers; still ship if anything publishable.
+On thin days (few high-impact keepers): prefer 1–2 confirmed stories that pass the workplace-gossip test (coworkers would discuss at the office — e.g. I-95 SC crash) over releasing nothing; impact ~2–3 news/money/etc. is fine as fill. Absolute confirmed facts / primary or wire only — do not invent tips, advice, rumor, or salacious padding.
 If edition.py refuses the day (weekend morning / Saturday evening): stop and report.
 Report: stories added (ids), edition built or skipped, push SHA or failure.
 ```

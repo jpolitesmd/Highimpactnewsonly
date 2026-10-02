@@ -1,45 +1,11 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-10-01",
  "events": [
   {
-   "date": "2026-09-30",
-   "text": "Federal fiscal year ends; government stays funded through Dec. 11 under the stopgap law."
-  },
-  {
-   "date": "2026-09-30",
-   "when": "11:30 a.m. ET",
-   "branch": "legislative",
-   "text": "Senate cloture votes scheduled on the Stop Insider Trading Act (H.R. 7008), the Ratepayer Protection Act (H.R. 9340) and Keith Sonderling's nomination as Labor Secretary.",
-   "detail": "Up to three roll call votes after morning business; the House passed H.R. 7008 in July."
-  },
-  {
-   "date": "2026-09-30",
-   "when": "Evening",
-   "text": "MLB Wild Card Series Game 2s (Yankees-Red Sox, Braves-Phillies, Padres-Cubs, White Sox-Astros)."
-  },
-  {
-   "date": "2026-09-30",
-   "when": "Noon ET",
-   "text": "Armada Acquisition Corp. II shareholder vote on the Evernorth / Pathfinder XRP-treasury merger (planned Nasdaq ticker XRPN).",
-   "detail": "Shareholders approved the business combination at the noon-ET Sept. 30 meeting (reported; SEC 8-K tallies pending). Proxy projects ≥473M XRP at closing if the deal closes; approval is not the same as listing. Closing and Nasdaq listing conditions remain.",
-   "buzz": true,
-   "tags": [
-    "crypto",
-    "markets"
-   ]
-  },
-  {
-   "date": "2026-10-01",
-   "when": "Through Oct 1",
-   "text": "Korea Blockchain Week wraps in Seoul (main conference Sept. 30–Oct. 1).",
-   "buzz": true,
-   "tags": [
-    "crypto"
-   ]
-  },
-  {
    "date": "2026-10-02",
-   "text": "September jobs report, 8:30 a.m. ET.",
+   "when": "8:30 a.m. ET",
+   "text": "September Employment Situation (jobs report), 8:30 a.m. ET.",
+   "detail": "BLS nonfarm payrolls, unemployment rate, and hourly earnings for September 2026.",
    "buzz": true,
    "tags": [
     "markets"
@@ -49,7 +15,26 @@
    "date": "2026-10-05",
    "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
    "branch": "judicial",
-   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change."
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+  },
+  {
+   "date": "2026-10-07",
+   "when": "Expected",
+   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
+   "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ]
   },
   {
    "date": "2026-10-07",
@@ -61,6 +46,17 @@
    ]
   },
   {
+   "date": "2026-10-08",
+   "when": "Expected",
+   "text": "Evernorth Class A shares expected to begin Nasdaq trading under ticker XRPN.",
+   "detail": "Depends on Oct. 7 closing; company projects ~473M XRP at closing if the deal closes.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
    "date": "2026-10-13",
    "branch": "judicial",
    "text": "Supreme Court hears Genalo v. Black.",
@@ -68,7 +64,12 @@
   },
   {
    "date": "2026-10-14",
-   "text": "September inflation (CPI) report, 8:30 a.m. ET."
+   "when": "8:30 a.m. ET",
+   "text": "September inflation (CPI) report, 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
   },
   {
    "date": "2026-10-14",
@@ -77,8 +78,29 @@
    "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
   },
   {
+   "date": "2026-10-15",
+   "when": "8:30 a.m. ET",
+   "text": "September Producer Price Index (PPI), 8:30 a.m. ET.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
    "date": "2026-10-28",
-   "text": "Federal Reserve interest rate decision (meeting Oct. 27-28)."
+   "when": "2:00 p.m. ET",
+   "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "when": "8:30 a.m. ET",
+   "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
+   "tags": [
+    "markets"
+   ]
   },
   {
    "date": "2026-11-03",

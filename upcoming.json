@@ -1,126 +1,116 @@
 {
- "updated": "2026-10-01",
- "events": [
-  {
-   "date": "2026-10-02",
-   "when": "8:30 a.m. ET",
-   "text": "September Employment Situation (jobs report), 8:30 a.m. ET.",
-   "detail": "BLS nonfarm payrolls, unemployment rate, and hourly earnings for September 2026.",
-   "buzz": true,
-   "tags": [
-    "markets"
-   ]
-  },
-  {
-   "date": "2026-10-05",
-   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
-   "branch": "judicial",
-   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
-  },
-  {
-   "date": "2026-10-07",
-   "when": "Expected",
-   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
-   "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
-   "buzz": true,
-   "tags": [
-    "crypto",
-    "markets"
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "when": "2:00 p.m. ET",
-   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
-   "tags": [
-    "markets"
-   ],
-   "buzz": true
-  },
-  {
-   "date": "2026-10-07",
-   "when": "Oct 7–8",
-   "text": "TOKEN2049 Singapore at Marina Bay Sands (crypto industry conference).",
-   "buzz": true,
-   "tags": [
-    "crypto"
-   ]
-  },
-  {
-   "date": "2026-10-08",
-   "when": "Expected",
-   "text": "Evernorth Class A shares expected to begin Nasdaq trading under ticker XRPN.",
-   "detail": "Depends on Oct. 7 closing; company projects ~473M XRP at closing if the deal closes.",
-   "buzz": true,
-   "tags": [
-    "crypto",
-    "markets"
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "branch": "judicial",
-   "text": "Supreme Court hears Genalo v. Black.",
-   "detail": "Whether holding noncitizens in long detention without a bond hearing violates the Constitution."
-  },
-  {
-   "date": "2026-10-14",
-   "when": "8:30 a.m. ET",
-   "text": "September inflation (CPI) report, 8:30 a.m. ET.",
-   "buzz": true,
-   "tags": [
-    "markets"
-   ]
-  },
-  {
-   "date": "2026-10-14",
-   "branch": "judicial",
-   "text": "Supreme Court hears Salazar v. Paramount Global.",
-   "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
-  },
-  {
-   "date": "2026-10-15",
-   "when": "8:30 a.m. ET",
-   "text": "September Producer Price Index (PPI), 8:30 a.m. ET.",
-   "tags": [
-    "markets"
-   ],
-   "buzz": true
-  },
-  {
-   "date": "2026-10-28",
-   "when": "2:00 p.m. ET",
-   "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
-   "buzz": true,
-   "tags": [
-    "markets"
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "when": "8:30 a.m. ET",
-   "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
-   "tags": [
-    "markets"
-   ],
-   "buzz": true
-  },
-  {
-   "date": "2026-11-03",
-   "text": "Midterm elections."
-  },
-  {
-   "date": "2026-12-01",
-   "when": "December",
-   "branch": "judicial",
-   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
-   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
-  },
-  {
-   "date": "2026-12-11",
-   "text": "Government funding deadline.",
-   "branch": "legislative",
-   "detail": "Congress must pass funding or another stopgap by then to avoid a partial government shutdown."
-  }
- ]
+  "updated": "2026-10-02",
+  "events": [
+    {
+      "date": "2026-10-05",
+      "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+      "branch": "judicial",
+      "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+    },
+    {
+      "date": "2026-10-07",
+      "when": "Expected",
+      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
+      "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
+      "buzz": true,
+      "tags": [
+        "crypto",
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "when": "2:00 p.m. ET",
+      "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+      "tags": [
+        "markets"
+      ],
+      "buzz": true
+    },
+    {
+      "date": "2026-10-07",
+      "when": "Oct 7–8",
+      "text": "TOKEN2049 Singapore at Marina Bay Sands (crypto industry conference).",
+      "buzz": true,
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "when": "Expected",
+      "text": "Evernorth Class A shares expected to begin Nasdaq trading under ticker XRPN.",
+      "detail": "Depends on Oct. 7 closing; company projects ~473M XRP at closing if the deal closes.",
+      "buzz": true,
+      "tags": [
+        "crypto",
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "branch": "judicial",
+      "text": "Supreme Court hears Genalo v. Black.",
+      "detail": "Whether holding noncitizens in long detention without a bond hearing violates the Constitution."
+    },
+    {
+      "date": "2026-10-14",
+      "when": "8:30 a.m. ET",
+      "text": "September inflation (CPI) report, 8:30 a.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "branch": "judicial",
+      "text": "Supreme Court hears Salazar v. Paramount Global.",
+      "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
+    },
+    {
+      "date": "2026-10-15",
+      "when": "8:30 a.m. ET",
+      "text": "September Producer Price Index (PPI), 8:30 a.m. ET.",
+      "tags": [
+        "markets"
+      ],
+      "buzz": true
+    },
+    {
+      "date": "2026-10-28",
+      "when": "2:00 p.m. ET",
+      "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "when": "8:30 a.m. ET",
+      "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
+      "tags": [
+        "markets"
+      ],
+      "buzz": true
+    },
+    {
+      "date": "2026-11-03",
+      "text": "Midterm elections."
+    },
+    {
+      "date": "2026-12-01",
+      "when": "December",
+      "branch": "judicial",
+      "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+      "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+    },
+    {
+      "date": "2026-12-11",
+      "text": "Government funding deadline.",
+      "branch": "legislative",
+      "detail": "Congress must pass funding or another stopgap by then to avoid a partial government shutdown."
+    }
+  ]
 }

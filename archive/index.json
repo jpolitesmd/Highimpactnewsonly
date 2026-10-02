@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-02-evening",
+   "date": "2026-10-02",
+   "edition": "evening",
+   "count": 4,
+   "lead": "U.S. employers added 29,000 jobs in September and the unemployment rate rose to 4.2%, the Labor Department reported."
+  },
+  {
    "key": "2026-10-02-morning",
    "date": "2026-10-02",
    "edition": "morning",
@@ -57,5 +64,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-02T05:40:27-04:00"
+ "updated": "2026-10-02T16:36:32-04:00"
 }

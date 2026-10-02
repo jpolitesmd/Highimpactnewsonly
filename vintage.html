@@ -197,7 +197,7 @@ const fmtWD=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"short",mont
 try{document.getElementById("edDate").textContent=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",weekday:"long",month:"long",day:"numeric",year:"numeric"}).format(new Date());}catch(e){}
 
 const SUBS={government:[["all","All branches"],["executive","Executive"],["legislative","Legislative"],["judicial","Judicial"]],
-            money:[["all","All"],["economy","Economy"],["finance","ISO20022"]]};
+            money:[["all","All"],["economy","Economy"],["finance","Crypto"]]};
 function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
 function syncButtons(){
   document.querySelectorAll("#seg button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.min===minLevel)));
@@ -231,7 +231,7 @@ function card(it,dateMode){
   if(it.detail) txt.append(el("p","more",it.detail));
   if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
   const src=el("div","src");
-  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"ISO20022":it.section==="money"?"Money":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
+  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"Crypto":it.section==="money"?"Money":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
   if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);} else if(it.source) src.append(el("span",null,it.source));
   txt.append(src); li.append(meta,txt);
   const fig=el("figure","plate"); fig.setAttribute("aria-hidden","true");
@@ -288,7 +288,7 @@ function renderHistory(feed){
 
 const INTROS={government:{all:"U.S. government: the President and agencies, Congress, and the courts.",executive:"The President and federal agencies, highest impact first.",legislative:"Congress: votes, bills and funding, highest impact first.",judicial:"Supreme Court and federal court decisions, highest impact first."},
   world:"Major events outside the United States.",
-  money:{all:"The economy, rates, jobs, prices and markets, plus ISO20022 crypto news. Facts only, not financial advice.",economy:"Interest rates, jobs, inflation, markets, taxes and housing. Facts only, not financial advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
+  money:{all:"The economy, rates, jobs, prices and markets, plus Crypto (ISO 20022 coins, crypto markets, and SEC crypto regulation). Facts only, not financial advice.",economy:"Interest rates, jobs, inflation, markets, taxes and housing. Facts only, not financial advice.",finance:"Crypto markets, SEC crypto rules, and coins often grouped as “ISO 20022 coins” (XRP, XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the coin grouping is a market label. Not financial advice."},
   health:"Health and medicine: major studies, FDA and CDC actions, outbreaks and health policy. Not medical advice.",
   sports:"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions."};
 

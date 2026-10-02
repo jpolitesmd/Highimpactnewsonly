@@ -79,7 +79,8 @@ Skip routine diplomatic talk and photo-ops. Prefer wires or official statements 
 
 Beat: Markets / trade.
 Fed/FOMC decisions, tariffs or trade bans taking effect, sanctions with broad economic reach, and other official actions that bind markets — not stock picks, not day-trading color.
-Also check upcoming.json for same-day AND prior-day items with buzz:true OR tags including markets that are BLS/Fed/official releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision). Once the release is out (primary/wire numbers or confirmed close/listing), return one short candidate even at impact 2–3 — do not invent placeholder numbers before the event.
+Also check upcoming.json for same-day AND prior-day items with buzz:true OR tags including markets or crypto that are BLS/Fed/official releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision) or SEC crypto / major crypto market-structure events. Once the release is out (primary/wire numbers or confirmed close/listing), return one short candidate even at impact 2–3 — do not invent placeholder numbers before the event.
+SEC crypto rules and major crypto market-structure stories: tag section:"finance" (Crypto tab) with tags including crypto; ISO20022 / “ISO 20022 coin” items also use section:"finance". Ordinary jobs/CPI/Fed stories stay section:"money" with money_beat.
 Lead = who did what; put basis points and effective dates in detail.
 ```
 
@@ -128,7 +129,7 @@ Rules (read, do not duplicate into the merge notes):
 
 Steps:
 1) Dedupe; keep best primary URL; drop weak/out-of-window items. Do not re-dispatch beats for more depth.
-1b) Pull same-day upcoming.json items that are buzz:true OR official markets-tagged BLS/Fed releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision). If Markets-trade (or another beat) returned a matching blurb after the release landed, keep a short money/tech item — do not discard for low impact alone. Do not publish placeholder stories before the event; only after primary/wire numbers or a confirmed close/listing.
+1b) Pull same-day upcoming.json items that are buzz:true OR official markets-tagged BLS/Fed releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision) OR crypto-tagged SEC/crypto market-structure events. If Markets-trade (or another beat) returned a matching blurb after the release landed, keep a short money/tech/finance item — do not discard for low impact alone. Prefer section:"finance" (Crypto tab) for SEC crypto rules and major crypto market-structure stories (tags: crypto); ISO20022 items stay section:"finance". Do not publish placeholder stories before the event; only after primary/wire numbers or a confirmed close/listing.
 2) Assign final ids as YYYY-MM-DD-slug; set added_at to {now}.
 3) Merge into items.json (and threads.json / corrections.json when required).
 4) Run: python3 tools/edition.py {edition}

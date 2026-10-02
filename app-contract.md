@@ -66,7 +66,7 @@ Prefer JSON over scraping HTML. Shareable HTML for an edition: `/editions/{key}/
 
 - **Government:** `(section` missing or `news`) and `region` ≠ `World` (+ optional `branch` subtabs)
 - **World:** `(section` missing or `news`) and `region` = `World` (+ `world_region` subtabs)
-- **Money:** `section` `money` or `finance` (`finance` → ISO20022; `money` → `money_beat`)
+- **Money:** `section` `money` or `finance` (`finance` → Crypto tab; covers ISO20022 + crypto markets/SEC crypto regulation; `money` → `money_beat`)
 - **Tech / Health / Sports:** `section` equals tab name
 - **Ongoing:** join `thread` → `threads.json`
 - **History / Corrections / Archive:** dedicated files above

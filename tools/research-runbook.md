@@ -50,7 +50,7 @@ Each beat returns a JSON array of **at most 3** objects (may be `[]`). Every obj
   "source": "outlet or primary-doc name",
   "url": "https://...",
   "thread": "existing-thread-id-or-omit",
-  "section": "news|money|sports|health|tech|finance",
+  "section": "news|money|sports|health|tech|finance",  // finance = Crypto tab (ISO20022 + crypto markets / SEC crypto rules)
   "notes": "optional: blocked site, weak source, duplicate suspicion"
 }
 ```
@@ -102,7 +102,7 @@ Goal: catch dated events that are loud on social (especially X) days/weeks ahead
 4. Do **not** invent stories or impact ratings here. Only maintain the list. Commit/push only when `upcoming.json` changed.
 5. No edition email from this routine.
 
-**Edition research:** Markets-trade + editor must read same-day and prior-day `buzz: true` items and official `markets`-tagged BLS/Fed calendar releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision) in `upcoming.json`. Buzz + markets calendar releases must become site money stories in the next edition after they land (morning for 8:30 a.m. data; evening for afternoon FOMC minutes / XRPN listing if morning missed). Write a short money/tech blurb (impact often 2–3) citing primary/SEC/wire when available — do not drop solely because it is not nationwide high-impact, and do not invent numbers before the release.
+**Edition research:** Markets-trade + editor must read same-day and prior-day `buzz: true` items and official `markets`-tagged BLS/Fed calendar releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision) in `upcoming.json`, plus `crypto`-tagged SEC crypto / market-structure watches. Buzz + markets calendar releases must become site money stories in the next edition after they land (morning for 8:30 a.m. data; evening for afternoon FOMC minutes / XRPN listing if morning missed). Prefer `section: "finance"` (Crypto tab; covers ISO20022 + crypto markets / SEC crypto regulation) with `crypto` tags for SEC crypto rules and major crypto market-structure stories; ISO20022 items still go there. Write a short money/tech/finance blurb (impact often 2–3) citing primary/SEC/wire when available — do not drop solely because it is not nationwide high-impact, and do not invent numbers before the release.
 
 ## Failure modes
 

@@ -452,7 +452,7 @@ li.item .txt>p:first-of-type::first-letter{float:left;font-family:"IM Fell Engli
     <p>High Impact News Daily (“we,” “us”) publishes short, factual summaries of the news, ranked by impact, with a link to each source. It’s free, and it’s for general information only.</p>
 
     <h3>Not advice</h3>
-    <p>Nothing here is investment, financial, tax, legal or medical advice, and nothing here is a recommendation to buy, sell or hold anything, including any stock or cryptocurrency. Our Money, ISO20022 and Health sections report what happened; they don’t tell you what to do about it. For decisions about your money, health or legal situation, talk to a qualified professional.</p>
+    <p>Nothing here is investment, financial, tax, legal or medical advice, and nothing here is a recommendation to buy, sell or hold anything, including any stock or cryptocurrency. Our Money, Crypto and Health sections report what happened; they don’t tell you what to do about it. For decisions about your money, health or legal situation, talk to a qualified professional.</p>
 
     <h3>Accuracy</h3>
     <p>We work hard to get things right, but stories are gathered and summarized with the help of AI and can contain errors, leave things out or go out of date. That’s why every story links to its source. Please check the source before relying on anything, and tell us at <a href="mailto:hello@hinewsdaily.com">hello@hinewsdaily.com</a> when we get something wrong. We fix errors when we find them. Archived editions are kept exactly as published.</p>
@@ -600,7 +600,7 @@ function updateFolio(){try{
 }catch(e){}}
 
 const SUBS={government:[["all","All branches"],["executive","Executive"],["legislative","Legislative"],["judicial","Judicial"]],
-            money:[["all","All"],["jobs","Jobs & wages"],["prices","Prices"],["rates","Rates & credit"],["markets","Markets"],["taxes","Taxes & benefits"],["finance","ISO20022"]],
+            money:[["all","All"],["jobs","Jobs & wages"],["prices","Prices"],["rates","Rates & credit"],["markets","Markets"],["taxes","Taxes & benefits"],["finance","Crypto"]],
             health:[["all","All"],["policy","Policy"],["drugs","Drugs & devices"],["public","Public health"],["research","Research"]],
             world:[["all","All"],["europe","Europe"],["mideast","Middle East"],["asia","Asia-Pacific"],["americas","Americas"],["africa","Africa"]]};
 function el(tag,cls,text){const n=document.createElement(tag); if(cls)n.className=cls; if(text!=null)n.textContent=text; return n;}
@@ -648,7 +648,7 @@ function card(it,dateMode){
   if(it.detail) txt.append(el("p","more",it.detail));
   if(it.why){const w=el("p","why"); w.append(el("span","why-k","Why impact "+lv+": "), document.createTextNode(it.why)); txt.append(w);}
   const src=el("div","src");
-  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"ISO20022":it.section==="money"?"Money":it.section==="tech"?"Tech & Space":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
+  src.append(el("span","tag",it.court?it.court:it.section==="finance"?"Crypto":it.section==="money"?"Money":it.section==="tech"?"Tech & Space":it.section==="health"?"Health":it.section==="sports"?"Sports":(it.region==="World"?"World":"U.S.")));
   if(it.thread&&threadsData){const th=(threadsData.threads||[]).find(x=>x.id===it.thread); if(th&&region!=="ongoing"){const f=el("a","follow","Follow: "+th.title+" →"); f.href="#ongoing/"+th.id; src.append(f);}}
   if(it.url && /^https:\/\//.test(it.url)){const a=el("a",null,(it.source||"Source")+" ↗"); a.href=it.url; a.target="_blank"; a.rel="noopener"; src.append(a);} else if(it.source) src.append(el("span",null,it.source));
   txt.append(src); li.append(meta,txt);
@@ -870,7 +870,7 @@ function worldRegion(it){
 
 const INTROS={government:{all:"U.S. government: the President and agencies, Congress, and the courts.",executive:"The President and federal agencies, highest impact first.",legislative:"Congress: votes, bills and funding, highest impact first.",judicial:"Supreme Court and federal court decisions, highest impact first."},
   world:{all:"Events centered outside the U.S.: other countries’ governments, wars, elections and crises. U.S. foreign-policy moves live under Government.",europe:"Europe and the EU, including Ukraine.",mideast:"Middle East and North Africa.",asia:"Asia and the Pacific.",americas:"Canada, Latin America and the Caribbean.",africa:"Sub-Saharan Africa."},
-  money:{all:"Jobs, prices, rates, markets, taxes and benefits, plus ISO20022 crypto news. Facts only, not financial advice.",jobs:"Jobs, wages, unemployment and labor-market rules. Facts only, not financial advice.",prices:"Inflation, consumer prices, rent, energy costs and tariffs that hit household budgets. Facts only, not financial advice.",rates:"The Fed, interest rates, mortgages, yields and credit rules. Facts only, not financial advice.",markets:"Major market moves, commodities and market-structure news. Facts only, not a recommendation to buy or sell.",taxes:"Taxes, IRS actions, and major benefits programs that move money. Facts only, not tax advice.",finance:"XRP and coins often grouped as “ISO 20022 coins” (XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the grouping is a market label. Not financial advice."},
+  money:{all:"Jobs, prices, rates, markets, taxes and benefits, plus Crypto (ISO 20022 coins, crypto markets, and SEC crypto regulation). Facts only, not financial advice.",jobs:"Jobs, wages, unemployment and labor-market rules. Facts only, not financial advice.",prices:"Inflation, consumer prices, rent, energy costs and tariffs that hit household budgets. Facts only, not financial advice.",rates:"The Fed, interest rates, mortgages, yields and credit rules. Facts only, not financial advice.",markets:"Major market moves, commodities and market-structure news. Facts only, not a recommendation to buy or sell.",taxes:"Taxes, IRS actions, and major benefits programs that move money. Facts only, not tax advice.",finance:"Crypto markets, SEC crypto rules, and coins often grouped as “ISO 20022 coins” (XRP, XLM, HBAR, ALGO, XDC, IOTA, QNT). ISO 20022 is a banking messaging standard; the coin grouping is a market label. Not financial advice."},
   tech:"Technology and space: major launches and missions, AI and tech company news, cybersecurity, and tech policy.",
   health:{all:"Health news for a general audience: policy, major drugs and devices, public health, and research that changes care for many people. Not medical advice.",policy:"Medicare, Medicaid, HHS and major insurance or hospital payment rules. Not medical advice.",drugs:"FDA approvals, safety actions and major drug or device rules. Not medical advice.",public:"CDC actions, outbreaks, vaccines and population health. Not medical advice.",research:"Large or practice-changing studies and guidelines — not narrow specialty updates. Not medical advice."},
   sports:"Major sports headlines: championships, playoffs, big trades, star injuries and league decisions."};

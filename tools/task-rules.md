@@ -54,11 +54,12 @@ Edit by hand only; the coverage audit does not change this file.
 - Do not use region World just because a U.S. story mentions a foreign country.
 
 ## Money tab beats (money_beat on section:"money" items)
-- Money tab subtabs filter on "money_beat": jobs | prices | rates | markets | taxes. ISO20022 stories stay section:"finance" (no money_beat).
+- Money tab subtabs filter on "money_beat": jobs | prices | rates | markets | taxes. Crypto stories (UI label **Crypto**) stay section:"finance" (no money_beat). The filter value remains `finance` so existing items keep working.
+- Crypto (`section: finance`) covers ISO 20022 / “ISO 20022 coin” market news **and** crypto markets / SEC crypto regulation / major crypto market-structure actions. Prefer this tab (with tags like `crypto`) for SEC crypto rules and big crypto structure stories; ISO20022 items still go here.
 - jobs: payrolls, unemployment, wages, hiring/layoffs, labor rules.
 - prices: CPI/PCE, inflation, rent, household energy/food costs, tariffs that hit consumers.
 - rates: Fed, interest rates, mortgages, yields, credit rules.
-- markets: major index/commodity moves and market-structure news (facts only, not tips).
+- markets: major index/commodity moves and market-structure news (facts only, not tips). Do not put SEC crypto rules here when they belong in Crypto (`section: finance`).
 - taxes: IRS, tax law changes, and major benefits programs that move money (e.g. new savings accounts).
 - Set money_beat when you add a money story. The site can guess from the lead if it’s missing, but an explicit beat is better.
 

@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
 SITE = "https://hinewsdaily.com"
-SEC_LABEL = {"health": "Health", "sports": "Sports", "tech": "Tech & Space", "finance": "ISO20022"}
+SEC_LABEL = {"health": "Health", "sports": "Sports", "tech": "Tech & Space", "finance": "Crypto"}
 
 
 def sec(it): return it.get("section") or "news"

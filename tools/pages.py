@@ -16,7 +16,7 @@ from urllib.parse import quote
 
 SITE = "https://hinewsdaily.com"
 NAME = "High Impact News Daily"
-SEC_LABEL = {"money": "Money", "finance": "ISO20022", "tech": "Tech & Space", "health": "Health", "sports": "Sports"}
+SEC_LABEL = {"money": "Money", "finance": "Crypto", "tech": "Tech & Space", "health": "Health", "sports": "Sports"}
 e = lambda s: html.escape(str(s or ""), quote=True)
 
 

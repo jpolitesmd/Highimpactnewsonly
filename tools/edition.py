@@ -138,6 +138,7 @@ def main():
     if edition == "evening" and now.weekday() == 6: edition = "weekend"
     date = now.date().isoformat()
     items = json.load(open("items.json"))["items"]
+    # upcoming.json buzz/markets flags guide beat+editor prompts (see beat-prompts.md); edition.py only lists Coming up — stories come from items.json after release.
     upcoming = json.load(open("upcoming.json")).get("events", []) if os.path.exists("upcoming.json") else []
 
     top, window, groups = select(items, edition, now)

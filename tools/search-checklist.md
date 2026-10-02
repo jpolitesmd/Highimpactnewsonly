@@ -11,6 +11,8 @@ naming the source or search that would have caught it. Keep it to 20 lines or fe
 - Daily roundup: https://www.justsecurity.org/ "Early Edition" lists the day's government, court, war and foreign-policy actions in one page; use it as a cross-check. [seed, 2026-09-29]
 - Sites that block fetching: washingtonpost.com (403), nbcnews.com (robots). Don't spend lookups on them; search for another outlet's version instead. [seed, 2026-09-29]
 
+- Upcoming money calendar: check upcoming.json for same-day buzz:true or markets-tagged official releases (jobs, CPI, PPI, GDP/PCE, FOMC minutes/decision); once BLS/Fed/wire numbers are out, write the money story — do not invent outcomes before the event. [seed, 2026-10-01]
+
 ## Morning task
 - Policies taking effect today: search "takes effect [today's date]" and "effective [today's date]" (tariffs, import bans, rules). Missed 2026-09-29: U.S. ban on Canadian alcohol, whey and motorcycles took effect 12:01 a.m. [seed, 2026-09-29]
 - Final rules and executive actions: check https://www.federalregister.gov/public-inspection/current for final rules published today. Missed 2026-09-29: Education Department final Title IX rule. [seed, 2026-09-29]

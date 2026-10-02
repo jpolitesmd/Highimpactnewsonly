@@ -48,6 +48,12 @@
    "title": "The 2026 midterm elections",
    "summary": "Court rulings, election rules and results for the Nov. 3, 2026 elections.",
    "status": "active"
+  },
+  {
+   "id": "cornell-assault-case",
+   "title": "The Cornell fraternity assault case",
+   "summary": "Criminal and campus reviews of a 2024 Cornell fraternity sexual-assault case after a civil lawsuit and the local prosecutor’s earlier decision not to charge.",
+   "status": "active"
   }
  ]
 }

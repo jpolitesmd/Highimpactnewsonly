@@ -2,19 +2,54 @@
   "updated": "2026-10-03",
   "items": [
     {
+      "id": "2026-10-03-flydubai-pilot-identified",
+      "section": "news",
+      "text": "The Flydubai co-pilot was identified as Omani national Hamam al-Hammami, previously barred by Oman over extremism concerns.",
+      "detail": "The Associated Press reported Saturday that three people with knowledge of the investigation, including a Gulf and a Western diplomat, identified the co-pilot as Hamam al-Hammami. A regional official and a person familiar with the matter said Oman had barred him from flying over concerns he had adopted extremist views and moved him to an administrative job at Oman Air before he later joined Flydubai. The UAE attorney general said earlier Saturday the co-pilot attacked the captain with a crash axe in an attempted terrorist act on the Dubai–Tel Aviv flight that diverted to Saudi Arabia. Flydubai said it could not comment beyond prior statements.",
+      "why": "Naming the co-pilot and the prior Oman flight ban are the first concrete background details since the UAE called it terrorism.",
+      "impact": 3,
+      "topic": "security",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-03T01:39:00-04:00",
+      "time_known": true,
+      "source": "Associated Press",
+      "url": "https://abcnews.com/International/wireStory/pilot-flydubai-incident-identified-omani-national-named-hamam-136967542",
+      "added_at": "2026-10-03T16:41:28-04:00",
+      "thread": "flydubai-cockpit"
+    },
+    {
+      "id": "2026-10-03-strada-resigns-pike",
+      "section": "news",
+      "text": "Tennessee Corrections Commissioner Frank Strada will resign after the failed lethal injection of Christa Pike.",
+      "detail": "Gov. Bill Lee announced Saturday that he accepted Strada's resignation; Strada will leave at the end of October and an interim commissioner will be named later. Strada said the department followed established protocol but that stepping aside is in the best interest of Tennesseans as Lee's independent review begins. Pike's attorneys said Friday she remained unconscious and on a ventilator in a Nashville-area hospital after the Sept. 30 attempt, and on Saturday called the resignation justified but said it does nothing to help her now. Lee has already halted Tennessee's remaining scheduled executions for the rest of the year.",
+      "why": "The state's prisons chief steps down as an independent review of a botched execution gets underway.",
+      "impact": 3,
+      "topic": "gov",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "time": "2026-10-03T12:10:00-04:00",
+      "time_known": true,
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/christa-pike-failed-execution-tennessee-official-resigns/",
+      "added_at": "2026-10-03T16:41:28-04:00"
+    },
+    {
       "id": "2026-10-03-air-ambulance-missing",
       "section": "news",
       "text": "A Gulfstream G100 air ambulance with six people aboard lost contact with the FAA while flying from Bermuda to Boston.",
-      "detail": "The U.S. Coast Guard said that around 2 a.m. Saturday the FAA notified its command center that controllers had lost contact with the Gulfstream G-100 medical transfer aircraft, tail number C-GRJP, traveling from Bermuda to Boston with six people on board. Skyport Bermuda said a Canadian-registered air ambulance departed L.F. Wade International Airport for Boston at about 12:41 a.m. Saturday with four crew members and two passengers. Coast Guard air and surface crews are searching offshore of Nantucket, including an HC-144 and MH-60 from Air Station Cape Cod, a motor lifeboat crew from Station Brant Point, and the cutter William Sparling. CBS News said the jet is registered to Latitude Air Ambulance. As of Saturday afternoon reporting, no aircraft, wreckage or survivors had been located.",
+      "detail": "The U.S. Coast Guard said the FAA notified its command center early Saturday that controllers had lost contact with the Gulfstream G-100 medical transfer aircraft, tail number C-GRJP, traveling from Bermuda to Boston with six people on board. Skyport Bermuda said the Canadian-registered air ambulance departed L.F. Wade International Airport for Boston at about 12:41 a.m. Saturday. Clarence Togeretz, Latitude Air Ambulance's director of flight operations, told CBC News the four crew members — two pilots and two medical staff — are Canadian and that the patient and a relative aboard are not Canadian; Latitude lost contact around 1:30 a.m. as the jet approached Boston. The FAA said it issued a search-and-rescue alert at 1:20 a.m. ET. Coast Guard air and surface crews are searching offshore of Nantucket, including an HC-144 and MH-60 from Air Station Cape Cod, a motor lifeboat crew from Station Brant Point, and the cutter William Sparling. As of Saturday afternoon, no aircraft, wreckage or survivors had been located.",
       "why": "Six people are missing on a medical flight, and a Coast Guard air-and-sea search is underway off Massachusetts.",
       "impact": 3,
       "topic": "ship",
       "region": "US",
       "time": "2026-10-03T02:00:00-04:00",
       "time_known": true,
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/medical-plane-missing-nantucket-six-on-board/",
-      "added_at": "2026-10-03T10:40:00-04:00"
+      "source": "U.S. Coast Guard / CBC News",
+      "url": "https://www.cbc.ca/news/canada/hamilton/hamilton-air-ambulance-missing-us-coast-guard-search-9.7368182",
+      "added_at": "2026-10-03T16:41:28-04:00"
     },
     {
       "id": "2026-10-03-flydubai-terror-finding",

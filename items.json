@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "items": [
+    {
+      "id": "2026-04-07-tsa-ice-traveler-tips",
+      "section": "news",
+      "text": "TSA supplied ICE with records on more than 31,000 travelers, and ICE arrested more than 800 people on those tips through February 2026.",
+      "detail": "Reuters reported on April 7 that internal ICE data show the arrests ran from the start of Donald Trump's current presidency through February 2026. The records came from TSA's Secure Flight program, created in 2007 to check passengers against government watchlists. The regulation describing the program framed it as a counterterrorism measure, not a way to find immigration offenders. Reuters could not determine how many of the arrests happened inside airports and said the tips would mainly show when a person was traveling. The Department of Homeland Security did not respond to questions about the sharing. Figures for arrests and traveler records shared before this term were unavailable.",
+      "why": "A passenger-screening program built for terrorism watchlists was used for immigration arrests, with more than 800 arrests tied to TSA tips.",
+      "impact": 3,
+      "topic": "agency",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "time": "2026-04-07T12:00:00-04:00",
+      "time_known": false,
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/ice-arrested-more-than-800-people-after-tips-us-airport-security-agency-2026-04-07/",
+      "added_at": "2026-10-03T00:06:00-04:00"
+    },
     {
       "id": "2026-10-02-france-school-protests",
       "section": "news",

@@ -3,7 +3,7 @@
 Copy-paste prompts for parallel beat bots, the cross-check bot, and the editor.
 Replace placeholders before dispatch:
 
-- `{edition}` = `morning` | `evening` | `weekend`
+- `{edition}` = `morning` | `evening` (every day, including Saturday and Sunday; no weekend edition)
 - `{since}` = ISO Eastern start of the window (from `tools/research-runbook.md` Cadence table)
 - `{now}` = ISO Eastern "now"
 - `{date}` = today's calendar date in America/New_York (`YYYY-MM-DD`)
@@ -90,7 +90,7 @@ Lead = who did what; put basis points and effective dates in detail.
 {shared preamble}
 
 Beat: Sports (conditional).
-Run ONLY if a championship / major team title / final-day result falls in the window, or {edition} is weekend / Sunday wrap.
+Run ONLY if a championship / major team title / final-day result falls in the window, including a Sunday or weekend championship wrap.
 If the calendar does not clearly qualify: do zero lookups; reply {"skipped":"no qualifying event","candidates":[]} immediately.
 Otherwise search "[event] final day results"; espn.com or the event's official wrap is fine (≤3 candidates).
 Team championships decided in-window can be impact 4 when the title is settled.
@@ -139,7 +139,7 @@ Steps:
 
 If late morning (>~5:50 a.m. ET): prefer Courts + Congress + Agencies/FR + cross-check keepers; still ship if anything publishable.
 On thin days (few high-impact keepers): prefer 1–2 confirmed stories that pass the workplace-gossip test (coworkers would discuss at the office — e.g. I-95 SC crash) over releasing nothing; impact ~2–3 news/money/etc. is fine as fill. Absolute confirmed facts / primary or wire only — do not invent tips, advice, rumor, or salacious padding.
-If edition.py refuses the day (weekend morning / Saturday evening): stop and report.
+Morning and evening run every day, including Saturday and Sunday. Do not skip a weekend morning or Saturday evening. If edition.py says the weekend review is retired, run morning or evening instead.
 Report: stories added (ids), edition built or skipped, push SHA or failure.
 ```
 

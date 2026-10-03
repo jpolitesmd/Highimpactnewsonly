@@ -142,14 +142,13 @@ HEAD = """<!doctype html>
 """
 
 SIGNUP = """<section class="signup" aria-labelledby="suT"><h2 id="suT">Get each edition by email</h2>
-<p>The morning edition at 6:00 a.m. and the evening edition at 5:00 p.m. Eastern on weekdays, plus a weekend review Sunday at 5:00 p.m. and rare breaking alerts for 5-out-of-5 events. Pick the ones you want. Read it in five minutes, then get on with your day.</p>
+<p>A morning edition at 6:00 a.m. and an evening edition at 5:00 p.m. Eastern, every day including Saturday and Sunday, plus rare breaking alerts for 5-out-of-5 events. Pick the ones you want. Read it in five minutes, then get on with your day.</p>
 <form class="su-wrap" action="https://buttondown.com/api/emails/embed-subscribe/highimpactnewsdaily" method="post" target="_blank"><div class="su-form">
 <label class="sr" for="suE">Email address</label><input id="suE" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
 <input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></div>
 <fieldset class="su-prefs"><legend>Choose your emails</legend>
-<label><input type="checkbox" checked data-skip="Skip morning edition"> <span>Morning edition <small>· weekdays, 6 a.m. ET</small></span></label>
-<label><input type="checkbox" checked data-skip="Skip evening edition"> <span>Evening edition <small>· weekdays, 5 p.m. ET</small></span></label>
-<label><input type="checkbox" checked data-skip="Skip Sunday weekend review"> <span>Weekend review <small>· Sundays, 5 p.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip morning edition"> <span>Morning edition <small>· every day, 6 a.m. ET</small></span></label>
+<label><input type="checkbox" checked data-skip="Skip evening edition"> <span>Evening edition <small>· every day, 5 p.m. ET</small></span></label>
 <label><input type="checkbox" checked data-skip="Skip breaking alerts"> <span>Breaking alerts <small>· only for 5-out-of-5 events, which are rare</small></span></label>
 <p class="su-err" hidden>Pick at least one email.</p>
 <p class="su-note">Change these any time with the “Choose which emails you get” link at the bottom of every email.</p>
@@ -352,7 +351,7 @@ def media_kit(eds):
 
 <h2>By the numbers</h2>
 <div class="stats">{''.join(stats)}</div>
-<p style="font-size:14px;color:var(--muted)">{asof}Published every weekday morning and evening, plus a Sunday weekend review, since {e(first)}. Email at 6:00 a.m. and 5:00 p.m. Eastern on weekdays, 5:00 p.m. Sundays.</p>
+<p style="font-size:14px;color:var(--muted)">{asof}Published every morning and evening, seven days a week, since {e(first)}. Email at 6:00 a.m. and 5:00 p.m. Eastern every day.</p>
 
 <h2>The sponsorship</h2>
 <p>One sponsor per edition, never more. Each sponsorship runs in the email and on that edition’s permanent web page:</p>

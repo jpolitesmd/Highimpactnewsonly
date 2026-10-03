@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Print the send time of the next email edition that will include an event happening now (ISO, Eastern), e.g. for a BREAKING item's breaking_until.
 
-Editions: Monday-Friday 6:00 a.m. and 5:00 p.m.; Sunday 5:00 p.m. (Weekend review); none on Saturday
-or Sunday morning. Usage: python3 tools/next_edition.py [ISO time; default now]
+Editions: every day at 6:00 a.m. and 5:00 p.m. Eastern, including Saturday and Sunday.
+No separate weekend review. Usage: python3 tools/next_edition.py [ISO time; default now]
 """
 import sys, datetime
 from zoneinfo import ZoneInfo
@@ -14,9 +14,7 @@ BUILD_LEAD = datetime.timedelta(minutes=30)  # editions are built from searches 
 def next_edition(now):
     for d in range(0, 8):
         day = now.date() + datetime.timedelta(days=d)
-        wd = day.weekday()  # Monday = 0 ... Sunday = 6
-        hours = (6, 17) if wd <= 4 else (17,) if wd == 6 else ()
-        for h in hours:
+        for h in (6, 17):  # morning and evening every day, including Saturday and Sunday
             t = datetime.datetime.combine(day, datetime.time(h), ET)
             if t - BUILD_LEAD > now:  # the edition must be built after the event to include it
                 return t

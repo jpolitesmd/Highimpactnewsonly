@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Send pending emails through Buttondown (run by .github/workflows/send-email.yml).
 
-email/today.json     the day's edition (morning, evening or weekend), scheduled for its send_at time.
+email/today.json     the day's edition (morning or evening; every day), scheduled for its send_at time.
 email/breaking.json  a BREAKING alert for an impact-5 event, sent immediately.
 Each email is sent once: its key is recorded in email/sent.txt.
 
@@ -13,7 +13,7 @@ import json, os, sys, urllib.request, urllib.error, datetime, zoneinfo
 SKIP_TAG = {
     "morning": "Skip morning edition",
     "evening": "Skip evening edition",
-    "weekend": "Skip Sunday weekend review",
+    "weekend": "Skip Sunday weekend review",  # retired edition type; kept so an old file still filters
     "breaking": "Skip breaking alerts",
 }
 ET = zoneinfo.ZoneInfo("America/New_York")

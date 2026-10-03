@@ -2,6 +2,21 @@
   "updated": "2026-10-03",
   "items": [
     {
+      "id": "2026-10-03-air-ambulance-missing",
+      "section": "news",
+      "text": "A Gulfstream G100 air ambulance with six people aboard lost contact with the FAA while flying from Bermuda to Boston.",
+      "detail": "The U.S. Coast Guard said that around 2 a.m. Saturday the FAA notified its command center that controllers had lost contact with the Gulfstream G-100 medical transfer aircraft, tail number C-GRJP, traveling from Bermuda to Boston with six people on board. Skyport Bermuda said a Canadian-registered air ambulance departed L.F. Wade International Airport for Boston at about 12:41 a.m. Saturday with four crew members and two passengers. Coast Guard air and surface crews are searching offshore of Nantucket, including an HC-144 and MH-60 from Air Station Cape Cod, a motor lifeboat crew from Station Brant Point, and the cutter William Sparling. CBS News said the jet is registered to Latitude Air Ambulance. As of Saturday afternoon reporting, no aircraft, wreckage or survivors had been located.",
+      "why": "Six people are missing on a medical flight, and a Coast Guard air-and-sea search is underway off Massachusetts.",
+      "impact": 3,
+      "topic": "ship",
+      "region": "US",
+      "time": "2026-10-03T02:00:00-04:00",
+      "time_known": true,
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/medical-plane-missing-nantucket-six-on-board/",
+      "added_at": "2026-10-03T10:40:00-04:00"
+    },
+    {
       "id": "2026-10-03-flydubai-terror-finding",
       "section": "news",
       "text": "The UAE attorney general said the Flydubai co-pilot attacked the captain with a crash axe in an attempted terrorist act.",

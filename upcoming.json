@@ -8,13 +8,11 @@
       "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
     },
     {
-      "date": "2026-10-07",
-      "when": "Expected",
-      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
-      "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
-      "buzz": true,
+      "date": "2026-10-06",
+      "branch": "judicial",
+      "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+      "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
       "tags": [
-        "crypto",
         "markets"
       ]
     },
@@ -26,6 +24,17 @@
         "markets"
       ],
       "buzz": true
+    },
+    {
+      "date": "2026-10-07",
+      "when": "Expected",
+      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
+      "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
+      "buzz": true,
+      "tags": [
+        "crypto",
+        "markets"
+      ]
     },
     {
       "date": "2026-10-07",
@@ -50,8 +59,14 @@
     {
       "date": "2026-10-13",
       "branch": "judicial",
-      "text": "Supreme Court hears Genalo v. Black.",
-      "detail": "Whether holding noncitizens in long detention without a bond hearing violates the Constitution."
+      "text": "Supreme Court hears Beaird v. United States.",
+      "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
+    },
+    {
+      "date": "2026-10-14",
+      "branch": "judicial",
+      "text": "Supreme Court hears Salazar v. Paramount Global.",
+      "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
     },
     {
       "date": "2026-10-14",
@@ -61,12 +76,6 @@
       "tags": [
         "markets"
       ]
-    },
-    {
-      "date": "2026-10-14",
-      "branch": "judicial",
-      "text": "Supreme Court hears Salazar v. Paramount Global.",
-      "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
     },
     {
       "date": "2026-10-15",
@@ -98,6 +107,15 @@
     {
       "date": "2026-11-03",
       "text": "Midterm elections."
+    },
+    {
+      "date": "2026-11-06",
+      "when": "8:30 a.m. ET",
+      "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+      "tags": [
+        "markets"
+      ],
+      "buzz": true
     },
     {
       "date": "2026-12-01",

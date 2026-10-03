@@ -1546,24 +1546,6 @@
       "url": "https://www.npr.org/2026/10/01/nx-s1-5987703/cornell-fraternity-rape-case-updates",
       "added_at": "2026-10-01T17:44:28-04:00",
       "thread": "cornell-assault-case"
-    },
-    {
-      "id": "2026-07-28-tsa-ice-data-agreement",
-      "section": "news",
-      "text": "A May 2025 agreement made public July 28 says TSA shares specified passenger data with ICE, which stores it.",
-      "detail": "ABC News reported July 28 that American Oversight posted the 16-page memorandum after a Freedom of Information Act request. The agreement limits the exchange to agreed-upon data for security, law enforcement, and immigration purposes and cites TSA's Secure Flight rule. States Newsroom reported July 29 that the text says ICE will store information from TSA in its own repository, that the appendices listing the data fields are almost entirely redacted, and that the deal stays in force until it is ended, with a review every five years. In January, acting TSA Administrator Ha Nguyen McNeill told the House Homeland Security Committee, \"We don't send the information to ICE, we help ICE check against information.\" TSA and the Department of Homeland Security did not answer States Newsroom.",
-      "why": "The public text says TSA shares passenger data that ICE stores, which conflicts with the acting administrator's testimony that TSA does not send that information to ICE.",
-      "impact": 3,
-      "topic": "agency",
-      "branch": [
-        "executive"
-      ],
-      "region": "US",
-      "time": "2026-07-28T21:19:00-04:00",
-      "time_known": true,
-      "source": "ABC News",
-      "url": "https://abcnews.com/US/federal-immigration-authorities-targeting-airports-arrests/story?id=135170980",
-      "added_at": "2026-07-28T21:19:00-04:00"
     }
   ]
 }

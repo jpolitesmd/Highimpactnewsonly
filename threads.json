@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02",
+ "updated": "2026-10-03",
  "threads": [
   {
    "id": "iran-war",
@@ -53,6 +53,12 @@
    "id": "cornell-assault-case",
    "title": "The Cornell fraternity assault case",
    "summary": "Criminal and campus reviews of a 2024 Cornell fraternity sexual-assault case after a civil lawsuit and the local prosecutor’s earlier decision not to charge.",
+   "status": "active"
+  },
+  {
+   "id": "flydubai-cockpit",
+   "title": "The Flydubai cockpit attack",
+   "summary": "The investigation of a co-pilot's attack on the captain of a Dubai-to-Tel Aviv Flydubai flight that diverted to Saudi Arabia.",
    "status": "active"
   }
  ]

@@ -2,6 +2,40 @@
   "updated": "2026-10-03",
   "items": [
     {
+      "id": "2026-10-03-flydubai-terror-finding",
+      "section": "news",
+      "text": "The UAE attorney general said the Flydubai co-pilot attacked the captain with a crash axe in an attempted terrorist act.",
+      "detail": "Counsellor Hamad Saif Al Shamsi said Saturday that investigators found the co-pilot on flight FZ1073 began carrying out a plan in the air, striking the captain in the flight deck with a crash axe and trying to take control of the aircraft. The Wednesday flight from Dubai to Tel Aviv was diverted to Tabuk, Saudi Arabia. He said the inquiry is still establishing motives, any links, and the physical and digital evidence, and that final results will come when that work is done. Flydubai had already said everyone on board was safe and had suspended Tel Aviv flights.",
+      "why": "The state investigating the cockpit emergency now calls it an attempted terrorist act, not only a fight between pilots.",
+      "impact": 3,
+      "topic": "security",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-03T06:16:00-04:00",
+      "time_known": true,
+      "source": "Emirates News Agency",
+      "url": "https://www.wam.ae/en/article/17gemrc-planning-attempted-terrorist-act-behind-flydubai",
+      "added_at": "2026-10-03T07:55:00-04:00",
+      "thread": "flydubai-cockpit"
+    },
+    {
+      "id": "2026-10-03-moldova-kyiv-bridge",
+      "section": "news",
+      "text": "Five Russian air-attack weapons exploded in Moldova after crossing its airspace, President Maia Sandu said.",
+      "detail": "Sandu said Saturday on X that she condemned the morning's attack on Ukraine and that five weapons, including Banderol missiles and drones, violated Moldovan airspace and exploded on its soil. Ukraine's air force said Moscow launched Banderol cruise missiles overnight at the Odesa region, which borders Moldova. In Kyiv, Mayor Vitalii Klitschko said a Russian strike damaged the Northern Bridge's road surface and trolleybus cables and suspended traffic; the Associated Press reported no casualties. Russia's Defense Ministry said it hit the bridge, claiming it is used to move troops and military cargo. Friday's attacks had already forced full or partial closures of three of Kyiv's six road bridges over the Dnipro.",
+      "why": "Munitions from the overnight barrage detonated on the ground in Moldova, and a second major Kyiv bridge was hit.",
+      "impact": 3,
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "europe",
+      "time": "2026-10-03T05:39:00-04:00",
+      "time_known": true,
+      "source": "Associated Press",
+      "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028",
+      "added_at": "2026-10-03T07:55:00-04:00",
+      "thread": "russia-ukraine"
+    },
+    {
       "id": "2026-10-02-france-school-protests",
       "section": "news",
       "text": "French high-school protests disrupted 735 of about 3,700 schools Friday, with fires at school entrances and 1,747 arrests.",
@@ -16,6 +50,23 @@
       "source": "AFP",
       "url": "https://www.afp.com/en/new-rallies-urged-france-protests-disrupt-over-730-schools",
       "added_at": "2026-10-02T23:10:17-04:00"
+    },
+    {
+      "id": "2026-10-02-oman-tanker-hit",
+      "section": "news",
+      "text": "A crude oil tanker was struck by an unknown projectile four nautical miles east of Oman, the UK maritime office said.",
+      "detail": "UK Maritime Trade Operations warning 149-26 said the master reported a port-side strike at 2142 UTC on Oct. 2. All crew were safe and no environmental impact was reported. Authorities are investigating. The report is separate from Friday morning's strike on an outbound tanker inside the Strait of Hormuz, which UKMTO said caused a small fire and a blackout before that ship continued.",
+      "why": "A second confirmed projectile hit on an oil tanker in the Gulf approaches in a single day.",
+      "impact": 3,
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-02T17:42:00-04:00",
+      "time_known": true,
+      "source": "UK Maritime Trade Operations",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf",
+      "added_at": "2026-10-03T07:55:00-04:00",
+      "thread": "iran-war"
     },
     {
       "id": "2026-10-02-stocks-jobs-close",
@@ -35,6 +86,23 @@
       "thread": "rates-inflation"
     },
     {
+      "id": "2026-10-02-g7-oil-release",
+      "section": "money",
+      "text": "The G7 agreed to a coordinated release of 100 million barrels, including diesel, starting immediately over four months.",
+      "detail": "The leaders' statement, issued Oct. 2 after a virtual meeting, says the release runs through the International Energy Agency and includes a front-loaded substantial diesel release in the first 20 days. Members also agreed not to restrict energy exports to one another and asked the IEA for a follow-up report within 20 days, including on restocking. The statement condemns Iran's attacks and its disruption of trade through the Strait of Hormuz, and says sanctions on Russia stay in place.",
+      "why": "A joint emergency release aimed at fuel prices strained by the Iran war and shipping attacks.",
+      "impact": 4,
+      "topic": "chart",
+      "region": "World",
+      "world_region": "europe",
+      "time": "2026-10-02T11:00:00-04:00",
+      "time_known": true,
+      "source": "European Council",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/",
+      "added_at": "2026-10-03T07:55:00-04:00",
+      "money_beat": "prices"
+    },
+    {
       "id": "2026-10-02-flydubai-tel-aviv-halt",
       "section": "news",
       "text": "Flydubai halted flights to Tel Aviv after a Dubai–Tel Aviv flight diverted to Saudi Arabia; the airline said all 172 people on board are safe.",
@@ -48,7 +116,8 @@
       "time_known": false,
       "source": "The National",
       "url": "https://www.thenationalnews.com/news/uae/2026/10/02/flydubai-ghaith-al-ghaith-statement-fz-1073-tel-aviv-flight/",
-      "added_at": "2026-10-02T20:57:19-04:00"
+      "added_at": "2026-10-02T20:57:19-04:00",
+      "thread": "flydubai-cockpit"
     },
     {
       "id": "2026-10-02-noncitizen-voting-statute",
@@ -1368,7 +1437,8 @@
       "source": "Associated Press",
       "url": "https://www.pbs.org/newshour/world/netanyahu-says-a-pilot-on-a-flydubai-flight-stabbed-another-and-apparently-tried-to-crash-the-plane",
       "added_at": "2026-09-30T16:39:14-04:00",
-      "world_region": "mideast"
+      "world_region": "mideast",
+      "thread": "flydubai-cockpit"
     },
     {
       "id": "2026-09-30-senate-cloture-fails",

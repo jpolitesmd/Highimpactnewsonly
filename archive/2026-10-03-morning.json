@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-03",
+ "edition": "morning",
+ "subject": "Saturday, Oct 3 - Morning edition",
+ "published": "2026-10-03T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-03-flydubai-terror-finding",
+   "section": "news",
+   "text": "The UAE attorney general said the Flydubai co-pilot attacked the captain with a crash axe in an attempted terrorist act.",
+   "detail": "Counsellor Hamad Saif Al Shamsi said Saturday that investigators found the co-pilot on flight FZ1073 began carrying out a plan in the air, striking the captain in the flight deck with a crash axe and trying to take control of the aircraft. The Wednesday flight from Dubai to Tel Aviv was diverted to Tabuk, Saudi Arabia. He said the inquiry is still establishing motives, any links, and the physical and digital evidence, and that final results will come when that work is done. Flydubai had already said everyone on board was safe and had suspended Tel Aviv flights.",
+   "why": "The state investigating the cockpit emergency now calls it an attempted terrorist act, not only a fight between pilots.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-03T06:16:00-04:00",
+   "time_known": true,
+   "source": "Emirates News Agency",
+   "url": "https://www.wam.ae/en/article/17gemrc-planning-attempted-terrorist-act-behind-flydubai"
+  },
+  {
+   "id": "2026-10-03-moldova-kyiv-bridge",
+   "section": "news",
+   "text": "Five Russian air-attack weapons exploded in Moldova after crossing its airspace, President Maia Sandu said.",
+   "detail": "Sandu said Saturday on X that she condemned the morning's attack on Ukraine and that five weapons, including Banderol missiles and drones, violated Moldovan airspace and exploded on its soil. Ukraine's air force said Moscow launched Banderol cruise missiles overnight at the Odesa region, which borders Moldova. In Kyiv, Mayor Vitalii Klitschko said a Russian strike damaged the Northern Bridge's road surface and trolleybus cables and suspended traffic; the Associated Press reported no casualties. Russia's Defense Ministry said it hit the bridge, claiming it is used to move troops and military cargo. Friday's attacks had already forced full or partial closures of three of Kyiv's six road bridges over the Dnipro.",
+   "why": "Munitions from the overnight barrage detonated on the ground in Moldova, and a second major Kyiv bridge was hit.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-03T05:39:00-04:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028"
+  },
+  {
+   "id": "2026-10-02-france-school-protests",
+   "section": "news",
+   "text": "French high-school protests disrupted 735 of about 3,700 schools Friday, with fires at school entrances and 1,747 arrests.",
+   "detail": "The protests began in the Paris region in September and spread nationwide. Students say hours are too long, conditions are poor, including overheated classrooms, and too many staff are absent. Education Minister Edouard Geffray said 735 of about 3,700 schools were affected \"in one way or another\" on Friday, down 30 percent from Thursday, and that three staff members were injured Friday compared with 31 on Thursday. Since the movement began, he said, at least 65 staff have been injured, including 40 principals, about 170 students have been wounded, and more than 100 high schools have suffered severe damage. Interior Minister Laurent Nunez said there were 1,747 arrests on Friday and that more than 300 police officers and gendarmes have been injured. An AFP photographer said fire damaged the entrances of two Paris high schools on Friday. The BBC, citing the regional government, reported more than €2 million in damage at Nelson Mandela high school in Nantes after a fire destroyed its glass entrance and some interior areas. In La Ciotat, officials said a teacher was sprayed with petrol and then assaulted. The Tours prosecutor said a young man injured Wednesday lost the use of his right eye. In Marseille on Thursday, police said hundreds of young people surrounded a fire truck at Saint-Exupery high school, forced the firefighters off it, and set the truck alight, Reuters reported. In Bordeaux on Sept. 29, Gironde prefect Sophie Brocas and academy rector Jean-Marc Huart said a firefighter was injured by an exploding aerosol can, according to press accounts, while putting out a barricade fire near Lycee Montaigne; he was taken to hospital and returned to his station that afternoon with several days off work. Unions and student groups called for further rallies on Tuesday.",
+   "why": "A nationwide high-school protest has produced mass arrests, injuries and fires at school buildings.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-02T20:51:00-04:00",
+   "time_known": false,
+   "source": "AFP",
+   "url": "https://www.afp.com/en/new-rallies-urged-france-protests-disrupt-over-730-schools"
+  },
+  {
+   "id": "2026-10-02-noncitizen-voting-statute",
+   "section": "news",
+   "text": "A Miami federal judge dismissed a noncitizen-voting case, ruling the federal ban in 18 U.S.C. § 611 is unconstitutional; the Justice Department appealed.",
+   "detail": "U.S. District Judge David S. Leibowitz ruled Thursday that Congress cannot set voter qualifications, a power he said belongs to the states, and dismissed the misdemeanor case against Chelsea Cox. CBS News reported the order applies only to Cox and is the first time a court has held the statute unconstitutional. It does not affect the separate law against false claims of citizenship. The Justice Department moved to appeal.",
+   "why": "A federal criminal voting statute used by the Justice Department failed in court a month before the Nov. 3 midterms, and the government is appealing.",
+   "impact": 3,
+   "topic": "ballot",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court, Miami",
+   "region": "US",
+   "time": "2026-10-02T19:05:00-04:00",
+   "time_known": true,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/judge-federal-law-banning-noncitizen-voting-unconstitutional/"
+  },
+  {
+   "id": "2026-10-02-oman-tanker-hit",
+   "section": "news",
+   "text": "A crude oil tanker was struck by an unknown projectile four nautical miles east of Oman, the UK maritime office said.",
+   "detail": "UK Maritime Trade Operations warning 149-26 said the master reported a port-side strike at 2142 UTC on Oct. 2. All crew were safe and no environmental impact was reported. Authorities are investigating. The report is separate from Friday morning's strike on an outbound tanker inside the Strait of Hormuz, which UKMTO said caused a small fire and a blackout before that ship continued.",
+   "why": "A second confirmed projectile hit on an oil tanker in the Gulf approaches in a single day.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-02T17:42:00-04:00",
+   "time_known": true,
+   "source": "UK Maritime Trade Operations",
+   "url": "https://www.ukmto.org/-/media/ukmto/products/20261002-ukmto_warning_149_26.pdf"
+  },
+  {
+   "id": "2026-10-02-g7-oil-release",
+   "section": "money",
+   "text": "The G7 agreed to a coordinated release of 100 million barrels, including diesel, starting immediately over four months.",
+   "detail": "The leaders' statement, issued Oct. 2 after a virtual meeting, says the release runs through the International Energy Agency and includes a front-loaded substantial diesel release in the first 20 days. Members also agreed not to restrict energy exports to one another and asked the IEA for a follow-up report within 20 days, including on restocking. The statement condemns Iran's attacks and its disruption of trade through the Strait of Hormuz, and says sanctions on Russia stay in place.",
+   "why": "A joint emergency release aimed at fuel prices strained by the Iran war and shipping attacks.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-10-02T11:00:00-04:00",
+   "time_known": true,
+   "source": "European Council",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/"
+  },
+  {
+   "id": "2026-10-02-september-jobs",
+   "section": "money",
+   "text": "U.S. employers added 29,000 jobs in September and the unemployment rate rose to 4.2%, the Labor Department reported.",
+   "detail": "Nonfarm payrolls rose 29,000, well below economists' roughly 90,000 estimate. Private payrolls gained 46,000 while government employment fell 17,000. July was revised down by 31,000 to a loss of 10,000, and August down by 29,000 to a gain of 133,000 — 60,000 fewer jobs than previously reported for the two months combined. Average hourly earnings rose 3.0% over the year to $37.81. The labor force participation rate was 61.8%.",
+   "why": "The main monthly jobs gauge came in soft a month before the midterms and ahead of the late-October Fed meeting.",
+   "impact": 4,
+   "topic": "chart",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T08:30:00-04:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+   "id": "2026-10-02-stocks-jobs-close",
+   "section": "money",
+   "text": "U.S. stocks closed higher Friday after the soft September jobs report, with the S&P 500 up 0.7% and within 1% of its record.",
+   "detail": "The Associated Press reported the S&P 500 rose 56.27 points to 7,722.72, the Dow rose 250.40 points, or 0.5%, to 51,176.96, and the Nasdaq rose 319.27 points, or 1.2%, to 27,190.86. Traders pared bets that the Federal Reserve will raise rates later this month. For the week the S&P 500 was still down 0.3% and the Dow down 1.3%.",
+   "why": "The jobs report moved both the rate outlook and a market sitting near a record.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-02T16:00:00-04:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://wtop.com/news/2026/10/how-major-us-stock-indexes-fared-friday-10-2-2026/"
+  },
+  {
+   "id": "2026-10-02-flydubai-tel-aviv-halt",
+   "section": "news",
+   "text": "Flydubai halted flights to Tel Aviv after a Dubai–Tel Aviv flight diverted to Saudi Arabia; the airline said all 172 people on board are safe.",
+   "detail": "Chief executive Ghaith Al Ghaith said Friday that everyone on flight FZ1073 is safe and that captain Smit Machchhar is back in the UAE after medical clearance. The Wednesday flight diverted to Tabuk, Saudi Arabia. Flydubai said it suspended Tel Aviv service until further notice at the authorities' request, and Emirates suspended its codeshare on that route. The UAE attorney general ordered an investigation into the circumstances, motives and any terrorism link. The airline said that investigation should establish what happened on board.",
+   "why": "A Gulf carrier has stopped Israel flights while authorities investigate a cockpit emergency.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-02T10:38:00-04:00",
+   "time_known": false,
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/news/uae/2026/10/02/flydubai-ghaith-al-ghaith-statement-fz-1073-tel-aviv-flight/"
+  },
+  {
+   "id": "2026-10-02-hormuz-tanker-hit",
+   "section": "news",
+   "text": "A tanker was struck by an unknown projectile in the Strait of Hormuz on Friday, the UK Maritime Trade Operations office said.",
+   "detail": "UKMTO said the master reported a hit at 1122 GMT during an outbound transit. The strike caused a small fire and a blackout; the fire was extinguished and the vessel continued underway. No casualties or environmental impact were reported. The incident follows Tuesday's strikes on three Liberian-flagged tankers in the same waterway.",
+   "why": "Another confirmed kinetic hit on oil shipping through the strait that carries about a fifth of the world's oil.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-02T07:22:00-04:00",
+   "time_known": true,
+   "source": "UK Maritime Trade Operations / Anadolu Agency",
+   "url": "https://www.aa.com.tr/en/middle-east/tanker-struck-by-unknown-projectile-in-strait-of-hormuz-uk-maritime-agency/4076409"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-02-salmonella-jalapeno-over",
+   "section": "health",
+   "text": "CDC declared over a multistate Salmonella outbreak linked to jalapeño peppers that sickened 488 people in 34 states.",
+   "detail": "As of Oct. 2, CDC said the Salmonella Javiana outbreak tied to fresh jalapeños from Sinaloa, Mexico, distributed by Coast Citrus Distributors is over. FDA closed its investigation the same day. Final counts: 488 illnesses, 65 hospitalizations and no deaths; illness onsets ran June 16 to Aug. 26. Traceback pointed to a common grower supplying Coast Citrus; recalled fresh jalapeños are past shelf life, though some longer-shelf products made with them remain on FDA's recall list.",
+   "why": "Closes a nationwide foodborne outbreak that hit Chipotle, Qdoba and other Mexican-style restaurants.",
+   "impact": 3,
+   "topic": "health",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T12:00:00-04:00",
+   "time_known": false,
+   "source": "FDA",
+   "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-jalapeno-august-2026"
+  },
+  {
+   "id": "2026-10-02-braves-win-nl-wildcard",
+   "section": "sports",
+   "text": "The Braves beat the Phillies 6-2 to win their National League Wild Card Series and advance to play the Dodgers.",
+   "detail": "Atlanta won the winner-take-all Game 3 on Thursday night at Truist Park. Michael Harris II hit a three-run homer, Ozzie Albies a two-run homer and Matt Olson a solo shot. The Braves won the series 2-1 after the Phillies had forced Game 3. Atlanta opens a best-of-five Division Series at the Dodgers on Saturday.",
+   "why": "The last Wild Card Series is over; the Division Series field is set.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-02T00:11:00-04:00",
+   "time_known": false,
+   "source": "MLB.com / NBC Sports",
+   "url": "https://www.mlb.com/braves/news/braves-win-nl-wild-card-series-2026"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-01-us-marines-mideast-carriers",
+   "section": "news",
+   "text": "The Pentagon is sending about 9,000 sailors and Marines and a third aircraft carrier toward the Middle East.",
+   "detail": "A U.S. official told AP the move includes the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious ready group with more than 7,000 sailors and about 2,000 Marines. With forces already there, the Navy presence could exceed 20,000 sailors and Marines and put three carriers in the region by late October. President Trump said new strikes on Iran after the Nov. 3 midterms remain possible and that he rejected Iran's latest ceasefire and Hormuz proposal as inadequate.",
+   "why": "A large U.S. force buildup as the administration weighs another round of Iran strikes.",
+   "impact": 4,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T14:38:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://krmg.com/2026/10/01/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran/"
+  },
+  {
+   "id": "2026-10-01-scholarship-tax-credit",
+   "section": "money",
+   "text": "Treasury and the IRS issued rules implementing the Federal Scholarship Tax Credit for K-12 school choice.",
+   "detail": "Proposed and companion temporary regulations under IRC §25F (Education Freedom Tax Credit) allow individuals a nonrefundable credit of up to $1,700 a year ($3,400 joint) for cash gifts to eligible Scholarship Granting Organizations in participating states. Contributions may fund private-school tuition, tutoring, special-needs services, books and supplies starting Jan. 1, 2027. Thirty states have opted in; Treasury estimates ~96% of children in those states could be scholarship-eligible and projects up to about 2.2 million scholarships a year by 2030. Temporary rules set state election and SGO certification procedures now; taxpayers may rely on the proposed rules for 2027 contributions.",
+   "why": "Implements the first nationwide federal K-12 school-choice tax credit with binding procedures for states, donors and scholarship groups.",
+   "impact": 4,
+   "topic": "coin",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T09:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0641"
+  },
+  {
+   "id": "2026-10-01-medicaid-immigrant-cutoff",
+   "section": "health",
+   "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants.",
+   "detail": "Section 71109 of the 2025 Working Families Tax Cut law took effect Oct. 1, limiting federal Medicaid/CHIP matching funds mainly to U.S. citizens/nationals, lawful permanent residents, Cuban-Haitian entrants and COFA migrants. CMS told states to redetermine affected enrollees; KFF Health News found more than 281,000 people in nine states and D.C. at risk of losing coverage in October, with Florida alone identifying nearly 177,000. Emergency Medicaid for emergency conditions remains; states may still cover lawfully residing children and pregnant women under an existing option. Some states, including California, New York and Pennsylvania, are using state funds to blunt the cut.",
+   "why": "A binding nationwide eligibility change that strips federal health coverage from hundreds of thousands of lawfully present immigrants starting today.",
+   "impact": 4,
+   "topic": "pulse",
+   "branch": [
+    "executive",
+    "legislative"
+   ],
+   "region": "US",
+   "time": "2026-10-01T00:01:00-04:00",
+   "time_known": true,
+   "source": "CMS / NPR",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-05",
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+  },
+  {
+   "date": "2026-10-06",
+   "branch": "judicial",
+   "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+   "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-04",
  "threads": [
   {
    "id": "iran-war",
@@ -59,6 +59,12 @@
    "id": "flydubai-cockpit",
    "title": "The Flydubai cockpit attack",
    "summary": "The investigation of a co-pilot's attack on the captain of a Dubai-to-Tel Aviv Flydubai flight that diverted to Saudi Arabia.",
+   "status": "active"
+  },
+  {
+   "id": "air-ambulance-search",
+   "title": "The Bermuda–Boston air ambulance search",
+   "summary": "The Coast Guard search for six people after a Gulfstream G100 air ambulance vanished on a Bermuda-to-Boston flight and debris was found off Nantucket.",
    "status": "active"
   }
  ]

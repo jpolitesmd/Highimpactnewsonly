@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-04-morning",
+   "date": "2026-10-04",
+   "edition": "morning",
+   "count": 8,
+   "lead": "A tanker in the Strait of Hormuz was struck by an unknown projectile that damaged its engine room, UKMTO said."
+  },
+  {
    "key": "2026-10-03-evening",
    "date": "2026-10-03",
    "edition": "evening",
@@ -78,5 +85,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-03T16:41:32-04:00"
+ "updated": "2026-10-04T05:38:32-04:00"
 }

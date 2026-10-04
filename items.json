@@ -1,6 +1,71 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "items": [
+    {
+      "id": "2026-10-04-air-ambulance-debris",
+      "section": "news",
+      "text": "Coast Guard confirms debris from the missing Bermuda–Boston Gulfstream G100 air ambulance off Nantucket; six still missing.",
+      "detail": "The U.S. Coast Guard said Saturday that search crews located a debris field confirmed to be from the Gulfstream G100 medical transport aircraft, tail number C-GRJP, after the FAA reported lost contact about 2 a.m. while the plane flew from Bermuda to Boston. Six people were aboard — four Canadian nationals and two Bermudian nationals — and next of kin have been notified. Assets including HC-144, HC-130, MH-60 and HH-60 aircraft, motor lifeboats from Station Brant Point, and cutter William Sparling have searched about 1,644 square miles over roughly 27 hours. The search remains ongoing; a press conference is set for 11 a.m. Sunday at Coast Guard Base Boston.",
+      "why": "Debris confirmation is the first hard update since the aircraft went missing; six people remain unaccounted for.",
+      "impact": 3,
+      "topic": "ship",
+      "region": "US",
+      "time": "2026-10-03T23:34:00-04:00",
+      "time_known": true,
+      "source": "U.S. Coast Guard",
+      "url": "https://www.news.uscg.mil/Press-Releases/Article/4618687/coast-guard-continues-search-for-six-people-after-locating-debris-from-missing/",
+      "added_at": "2026-10-04T05:40:00-04:00",
+      "thread": "air-ambulance-search"
+    },
+    {
+      "id": "2026-10-04-hormuz-tanker-ukmto-150",
+      "section": "news",
+      "text": "A tanker in the Strait of Hormuz was struck by an unknown projectile that damaged its engine room, UKMTO said.",
+      "detail": "UK Maritime Trade Operations Warning 150-26, issued Oct. 4, 2026, says the master of a tanker reported being struck by an unknown projectile in the Strait of Hormuz, causing engine-room damage. The crew were reported safe and there was no environmental impact reported at the time. Authorities are investigating. Vessels were advised to transit with caution. The report is distinct from earlier UKMTO warnings on Oct. 1–2 tanker hits in and near Hormuz.",
+      "why": "Another confirmed projectile strike on a tanker in the chokepoint that carries about a fifth of the world's oil.",
+      "impact": 3,
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-04T05:07:00-04:00",
+      "time_known": true,
+      "source": "UKMTO",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf",
+      "added_at": "2026-10-04T05:40:00-04:00",
+      "thread": "iran-war"
+    },
+    {
+      "id": "2026-10-04-houthi-aramco-riyadh",
+      "section": "news",
+      "text": "Houthis claimed a missile and drone strike on an Aramco facility near Riyadh; AFP saw fire and smoke there.",
+      "detail": "Houthi military spokesman Yahya Saree said Saturday the group targeted an oil facility in Riyadh with ballistic missiles and drones and that the strike sparked fires. An AFP journalist reported flames and smoke rising from an Aramco facility south of Riyadh and saw firefighters working at the Riyadh refinery, with ambulances and police nearby. Saudi authorities and Aramco had not confirmed a successful Houthi strike or damage. Separately, Houthi-affiliated Al-Masirah TV reported 26 Saudi strikes on Sanaa overnight; correspondents in the capital reported hearing explosions and seeing warplanes fire missiles.",
+      "why": "A claimed strike on Saudi energy infrastructure near the capital, with wire-confirmed fire and smoke, amid renewed Yemen–Saudi fighting.",
+      "impact": 3,
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-03T15:38:00-04:00",
+      "time_known": true,
+      "source": "AFP",
+      "url": "https://www.afp.com/en/houthis-say-struck-oil-facility-near-riyadh-saudis-hit-sanaa",
+      "added_at": "2026-10-04T05:40:00-04:00"
+    },
+    {
+      "id": "2026-10-04-usps-competitive-rates",
+      "section": "money",
+      "text": "USPS competitive shipping prices rise about 6% for Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select.",
+      "detail": "Governors' Decision 26-7 sets temporary competitive-product price increases averaging 6.0% for Priority Mail Express, Priority Mail, USPS Ground Advantage, and Parcel Select. No changes apply to Special Services or International competitive products. Prices take effect 12:00 a.m. CDT Oct. 4, 2026, and roll back to prior approved levels at 12:00 a.m. CST Jan. 17, 2027, unless the Governors act again.",
+      "why": "Confirmed Federal Register effective-date action; raises parcel costs through mid-January 2027.",
+      "impact": 2,
+      "topic": "money",
+      "region": "US",
+      "time": "2026-10-04T01:00:00-04:00",
+      "time_known": true,
+      "source": "Federal Register / U.S. Postal Service",
+      "url": "https://www.federalregister.gov/documents/2026/08/28/2026-17640/change-in-rates-of-general-applicability-for-competitive-products",
+      "added_at": "2026-10-04T05:40:00-04:00",
+      "money_beat": "prices"
+    },
     {
       "id": "2026-10-03-flydubai-pilot-identified",
       "section": "news",
@@ -49,7 +114,8 @@
       "time_known": true,
       "source": "U.S. Coast Guard / CBC News",
       "url": "https://www.cbc.ca/news/canada/hamilton/hamilton-air-ambulance-missing-us-coast-guard-search-9.7368182",
-      "added_at": "2026-10-03T16:41:28-04:00"
+      "added_at": "2026-10-03T16:41:28-04:00",
+      "thread": "air-ambulance-search"
     },
     {
       "id": "2026-10-03-flydubai-terror-finding",

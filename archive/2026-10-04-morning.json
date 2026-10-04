@@ -1,0 +1,210 @@
+{
+ "date": "2026-10-04",
+ "edition": "morning",
+ "subject": "Sunday, Oct 4 - Morning edition",
+ "published": "2026-10-04T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-04-hormuz-tanker-ukmto-150",
+   "section": "news",
+   "text": "A tanker in the Strait of Hormuz was struck by an unknown projectile that damaged its engine room, UKMTO said.",
+   "detail": "UK Maritime Trade Operations Warning 150-26, issued Oct. 4, 2026, says the master of a tanker reported being struck by an unknown projectile in the Strait of Hormuz, causing engine-room damage. The crew were reported safe and there was no environmental impact reported at the time. Authorities are investigating. Vessels were advised to transit with caution. The report is distinct from earlier UKMTO warnings on Oct. 1–2 tanker hits in and near Hormuz.",
+   "why": "Another confirmed projectile strike on a tanker in the chokepoint that carries about a fifth of the world's oil.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-04T05:07:00-04:00",
+   "time_known": true,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf"
+  },
+  {
+   "id": "2026-10-04-air-ambulance-debris",
+   "section": "news",
+   "text": "Coast Guard confirms debris from the missing Bermuda–Boston Gulfstream G100 air ambulance off Nantucket; six still missing.",
+   "detail": "The U.S. Coast Guard said Saturday that search crews located a debris field confirmed to be from the Gulfstream G100 medical transport aircraft, tail number C-GRJP, after the FAA reported lost contact about 2 a.m. while the plane flew from Bermuda to Boston. Six people were aboard — four Canadian nationals and two Bermudian nationals — and next of kin have been notified. Assets including HC-144, HC-130, MH-60 and HH-60 aircraft, motor lifeboats from Station Brant Point, and cutter William Sparling have searched about 1,644 square miles over roughly 27 hours. The search remains ongoing; a press conference is set for 11 a.m. Sunday at Coast Guard Base Boston.",
+   "why": "Debris confirmation is the first hard update since the aircraft went missing; six people remain unaccounted for.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-10-03T23:34:00-04:00",
+   "time_known": true,
+   "source": "U.S. Coast Guard",
+   "url": "https://www.news.uscg.mil/Press-Releases/Article/4618687/coast-guard-continues-search-for-six-people-after-locating-debris-from-missing/"
+  },
+  {
+   "id": "2026-10-04-usps-competitive-rates",
+   "section": "money",
+   "text": "USPS competitive shipping prices rise about 6% for Priority Mail Express, Priority Mail, Ground Advantage and Parcel Select.",
+   "detail": "Governors' Decision 26-7 sets temporary competitive-product price increases averaging 6.0% for Priority Mail Express, Priority Mail, USPS Ground Advantage, and Parcel Select. No changes apply to Special Services or International competitive products. Prices take effect 12:00 a.m. CDT Oct. 4, 2026, and roll back to prior approved levels at 12:00 a.m. CST Jan. 17, 2027, unless the Governors act again.",
+   "why": "Confirmed Federal Register effective-date action; raises parcel costs through mid-January 2027.",
+   "impact": 2,
+   "topic": "money",
+   "region": "US",
+   "time": "2026-10-04T01:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Register / U.S. Postal Service",
+   "url": "https://www.federalregister.gov/documents/2026/08/28/2026-17640/change-in-rates-of-general-applicability-for-competitive-products"
+  },
+  {
+   "id": "2026-10-04-houthi-aramco-riyadh",
+   "section": "news",
+   "text": "Houthis claimed a missile and drone strike on an Aramco facility near Riyadh; AFP saw fire and smoke there.",
+   "detail": "Houthi military spokesman Yahya Saree said Saturday the group targeted an oil facility in Riyadh with ballistic missiles and drones and that the strike sparked fires. An AFP journalist reported flames and smoke rising from an Aramco facility south of Riyadh and saw firefighters working at the Riyadh refinery, with ambulances and police nearby. Saudi authorities and Aramco had not confirmed a successful Houthi strike or damage. Separately, Houthi-affiliated Al-Masirah TV reported 26 Saudi strikes on Sanaa overnight; correspondents in the capital reported hearing explosions and seeing warplanes fire missiles.",
+   "why": "A claimed strike on Saudi energy infrastructure near the capital, with wire-confirmed fire and smoke, amid renewed Yemen–Saudi fighting.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-03T15:38:00-04:00",
+   "time_known": true,
+   "source": "AFP",
+   "url": "https://www.afp.com/en/houthis-say-struck-oil-facility-near-riyadh-saudis-hit-sanaa"
+  },
+  {
+   "id": "2026-10-03-strada-resigns-pike",
+   "section": "news",
+   "text": "Tennessee Corrections Commissioner Frank Strada will resign after the failed lethal injection of Christa Pike.",
+   "detail": "Gov. Bill Lee announced Saturday that he accepted Strada's resignation; Strada will leave at the end of October and an interim commissioner will be named later. Strada said the department followed established protocol but that stepping aside is in the best interest of Tennesseans as Lee's independent review begins. Pike's attorneys said Friday she remained unconscious and on a ventilator in a Nashville-area hospital after the Sept. 30 attempt, and on Saturday called the resignation justified but said it does nothing to help her now. Lee has already halted Tennessee's remaining scheduled executions for the rest of the year.",
+   "why": "The state's prisons chief steps down as an independent review of a botched execution gets underway.",
+   "impact": 3,
+   "topic": "gov",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-03T12:10:00-04:00",
+   "time_known": true,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/christa-pike-failed-execution-tennessee-official-resigns/"
+  },
+  {
+   "id": "2026-10-03-flydubai-terror-finding",
+   "section": "news",
+   "text": "The UAE attorney general said the Flydubai co-pilot attacked the captain with a crash axe in an attempted terrorist act.",
+   "detail": "Counsellor Hamad Saif Al Shamsi said Saturday that investigators found the co-pilot on flight FZ1073 began carrying out a plan in the air, striking the captain in the flight deck with a crash axe and trying to take control of the aircraft. The Wednesday flight from Dubai to Tel Aviv was diverted to Tabuk, Saudi Arabia. He said the inquiry is still establishing motives, any links, and the physical and digital evidence, and that final results will come when that work is done. Flydubai had already said everyone on board was safe and had suspended Tel Aviv flights.",
+   "why": "The state investigating the cockpit emergency now calls it an attempted terrorist act, not only a fight between pilots.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-03T06:16:00-04:00",
+   "time_known": true,
+   "source": "Emirates News Agency",
+   "url": "https://www.wam.ae/en/article/17gemrc-planning-attempted-terrorist-act-behind-flydubai"
+  },
+  {
+   "id": "2026-10-03-moldova-kyiv-bridge",
+   "section": "news",
+   "text": "Five Russian air-attack weapons exploded in Moldova after crossing its airspace, President Maia Sandu said.",
+   "detail": "Sandu said Saturday on X that she condemned the morning's attack on Ukraine and that five weapons, including Banderol missiles and drones, violated Moldovan airspace and exploded on its soil. Ukraine's air force said Moscow launched Banderol cruise missiles overnight at the Odesa region, which borders Moldova. In Kyiv, Mayor Vitalii Klitschko said a Russian strike damaged the Northern Bridge's road surface and trolleybus cables and suspended traffic; the Associated Press reported no casualties. Russia's Defense Ministry said it hit the bridge, claiming it is used to move troops and military cargo. Friday's attacks had already forced full or partial closures of three of Kyiv's six road bridges over the Dnipro.",
+   "why": "Munitions from the overnight barrage detonated on the ground in Moldova, and a second major Kyiv bridge was hit.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-03T05:39:00-04:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://abcnews.com/International/wireStory/russia-strikes-kyivs-northern-bridge-new-tactic-disrupt-136969028"
+  },
+  {
+   "id": "2026-10-03-air-ambulance-missing",
+   "section": "news",
+   "text": "A Gulfstream G100 air ambulance with six people aboard lost contact with the FAA while flying from Bermuda to Boston.",
+   "detail": "The U.S. Coast Guard said the FAA notified its command center early Saturday that controllers had lost contact with the Gulfstream G-100 medical transfer aircraft, tail number C-GRJP, traveling from Bermuda to Boston with six people on board. Skyport Bermuda said the Canadian-registered air ambulance departed L.F. Wade International Airport for Boston at about 12:41 a.m. Saturday. Clarence Togeretz, Latitude Air Ambulance's director of flight operations, told CBC News the four crew members — two pilots and two medical staff — are Canadian and that the patient and a relative aboard are not Canadian; Latitude lost contact around 1:30 a.m. as the jet approached Boston. The FAA said it issued a search-and-rescue alert at 1:20 a.m. ET. Coast Guard air and surface crews are searching offshore of Nantucket, including an HC-144 and MH-60 from Air Station Cape Cod, a motor lifeboat crew from Station Brant Point, and the cutter William Sparling. As of Saturday afternoon, no aircraft, wreckage or survivors had been located.",
+   "why": "Six people are missing on a medical flight, and a Coast Guard air-and-sea search is underway off Massachusetts.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-10-03T02:00:00-04:00",
+   "time_known": true,
+   "source": "U.S. Coast Guard / CBC News",
+   "url": "https://www.cbc.ca/news/canada/hamilton/hamilton-air-ambulance-missing-us-coast-guard-search-9.7368182"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 3
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-10-02-g7-oil-release",
+   "section": "money",
+   "text": "The G7 agreed to a coordinated release of 100 million barrels, including diesel, starting immediately over four months.",
+   "detail": "The leaders' statement, issued Oct. 2 after a virtual meeting, says the release runs through the International Energy Agency and includes a front-loaded substantial diesel release in the first 20 days. Members also agreed not to restrict energy exports to one another and asked the IEA for a follow-up report within 20 days, including on restocking. The statement condemns Iran's attacks and its disruption of trade through the Strait of Hormuz, and says sanctions on Russia stay in place.",
+   "why": "A joint emergency release aimed at fuel prices strained by the Iran war and shipping attacks.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-10-02T11:00:00-04:00",
+   "time_known": true,
+   "source": "European Council",
+   "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/"
+  },
+  {
+   "id": "2026-10-02-september-jobs",
+   "section": "money",
+   "text": "U.S. employers added 29,000 jobs in September and the unemployment rate rose to 4.2%, the Labor Department reported.",
+   "detail": "Nonfarm payrolls rose 29,000, well below economists' roughly 90,000 estimate. Private payrolls gained 46,000 while government employment fell 17,000. July was revised down by 31,000 to a loss of 10,000, and August down by 29,000 to a gain of 133,000 — 60,000 fewer jobs than previously reported for the two months combined. Average hourly earnings rose 3.0% over the year to $37.81. The labor force participation rate was 61.8%.",
+   "why": "The main monthly jobs gauge came in soft a month before the midterms and ahead of the late-October Fed meeting.",
+   "impact": 4,
+   "topic": "chart",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-02T08:30:00-04:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+   "id": "2026-10-01-us-marines-mideast-carriers",
+   "section": "news",
+   "text": "The Pentagon is sending about 9,000 sailors and Marines and a third aircraft carrier toward the Middle East.",
+   "detail": "A U.S. official told AP the move includes the USS Theodore Roosevelt carrier strike group and the USS Makin Island amphibious ready group with more than 7,000 sailors and about 2,000 Marines. With forces already there, the Navy presence could exceed 20,000 sailors and Marines and put three carriers in the region by late October. President Trump said new strikes on Iran after the Nov. 3 midterms remain possible and that he rejected Iran's latest ceasefire and Hormuz proposal as inadequate.",
+   "why": "A large U.S. force buildup as the administration weighs another round of Iran strikes.",
+   "impact": 4,
+   "topic": "conflict",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-01T14:38:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://krmg.com/2026/10/01/us-is-moving-thousands-of-troops-aboard-ships-to-the-mideast-as-trump-weighs-new-strikes-on-iran/"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-05",
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+  },
+  {
+   "date": "2026-10-06",
+   "branch": "judicial",
+   "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+   "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  }
+ ]
+}

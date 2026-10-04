@@ -1,46 +1,56 @@
 {
- "updated": "2026-10-01",
- "audits": [
-  {
-   "run": "2026-09-29T21:41:09-04:00",
-   "day": "2026-09-27",
-   "reference_events": 8,
-   "missed": [
+  "updated": "2026-10-03",
+  "audits": [
     {
-     "id": "2026-09-27-presidents-cup-us-wins",
-     "impact": 4,
-     "should_have_caught": "evening",
-     "reason": "Team golf championship decided Sunday afternoon; a 'final day results' sports search would have found it."
-    }
-   ],
-   "misrated": [],
-   "checklist_changes": [
-    "- Sports: on Sundays and weekends search \"[event] final day results\" (Presidents Cup, Ryder Cup, majors, team championships) and open espn.com/golf or the event's Yahoo Sports wrap; team championships decided in the afternoon count as impact 4. Missed 2026-09-27: U.S. won Presidents Cup 17-13. [audit 2026-09-27]"
-   ]
-  },
-  {
-   "run": "2026-10-01T21:37:00-04:00",
-   "day": "2026-10-01",
-   "reference_events": 10,
-   "missed": [
-    {
-     "id": "2026-10-01-ofac-iran-auto-rail",
-     "impact": 3,
-     "should_have_caught": "evening",
-     "reason": "OFAC sectoral sanctions on Iran auto + rail (Operation Economic Outcast); Treasury/OFAC recent-actions same day."
+      "run": "2026-09-29T21:41:09-04:00",
+      "day": "2026-09-27",
+      "reference_events": 8,
+      "missed": [
+        {
+          "id": "2026-09-27-presidents-cup-us-wins",
+          "impact": 4,
+          "should_have_caught": "evening",
+          "reason": "Team golf championship decided Sunday afternoon; a 'final day results' sports search would have found it."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "- Sports: on Sundays and weekends search \"[event] final day results\" (Presidents Cup, Ryder Cup, majors, team championships) and open espn.com/golf or the event's Yahoo Sports wrap; team championships decided in the afternoon count as impact 4. Missed 2026-09-27: U.S. won Presidents Cup 17-13. [audit 2026-09-27]"
+      ]
     },
     {
-     "id": "2026-10-01-scotus-rhoney-cert",
-     "impact": 3,
-     "should_have_caught": "evening",
-     "reason": "SCOTUS misc. orders granted cert in Rhoney (mandatory ICE detention); midweek order PDF, not only Monday lists."
+      "run": "2026-10-01T21:37:00-04:00",
+      "day": "2026-10-01",
+      "reference_events": 10,
+      "missed": [
+        {
+          "id": "2026-10-01-ofac-iran-auto-rail",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "OFAC sectoral sanctions on Iran auto + rail (Operation Economic Outcast); Treasury/OFAC recent-actions same day."
+        },
+        {
+          "id": "2026-10-01-scotus-rhoney-cert",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "SCOTUS misc. orders granted cert in Rhoney (mandatory ICE detention); midweek order PDF, not only Monday lists."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window — emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
+        "- Treasury/OFAC: when Iran wartime pressure is active, check home.treasury.gov press releases and ofac.treasury.gov/recent-actions same day; sectoral determinations + SDN dumps are evening Government copy even if abroad. Missed 2026-10-01: Iran auto + rail sectoral sanctions (Operation Economic Outcast). [audit 2026-10-01]"
+      ]
+    },
+    {
+      "run": "2026-10-03T21:47:00-04:00",
+      "day": "2026-10-03",
+      "reference_events": 9,
+      "missed": [],
+      "misrated": [],
+      "checklist_changes": [
+        "Trimmed expired one-off: Saturday Oct 3 evening air-ambulance seed (edition already shipped). [audit 2026-10-03]"
+      ]
     }
-   ],
-   "misrated": [],
-   "checklist_changes": [
-    "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window \u2014 emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
-    "- Treasury/OFAC: when Iran wartime pressure is active, check home.treasury.gov press releases and ofac.treasury.gov/recent-actions same day; sectoral determinations + SDN dumps are evening Government copy even if abroad. Missed 2026-10-01: Iran auto + rail sectoral sanctions (Operation Economic Outcast). [audit 2026-10-01]"
-   ]
-  }
- ]
+  ]
 }

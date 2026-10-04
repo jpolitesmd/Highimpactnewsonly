@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-04-evening",
+   "date": "2026-10-04",
+   "edition": "evening",
+   "count": 6,
+   "lead": "France's high-school protests will close up to 500 schools fully or partly Monday, the education minister said; 24 have been burned or ransacked."
+  },
+  {
    "key": "2026-10-04-morning",
    "date": "2026-10-04",
    "edition": "morning",
@@ -85,5 +92,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-04T05:38:32-04:00"
+ "updated": "2026-10-04T16:37:26-04:00"
 }

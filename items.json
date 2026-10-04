@@ -2,6 +2,24 @@
   "updated": "2026-10-04",
   "items": [
     {
+      "id": "2026-10-04-irkutsk-plague-lab-death",
+      "section": "health",
+      "text": "Rospotrebnadzor said an Irkutsk Anti-Plague Institute employee died of pneumonia of unknown cause, not plague; nearly 200 contacts are under watch.",
+      "detail": "TASS cited Russia's federal consumer-health agency Sunday saying the sanitary situation in Irkutsk region, including Irkutsk and Shelekhov, is stable and that expanded testing found no microorganisms linked to the worker's professional duties. The agency said a special package of measures followed the illness, diagnosed as pneumonia of unknown etiology, and that no pathogen incident at the institute or infectious-disease sick calls among staff were recorded in the prior 10 days. The Moscow Times and regional reports said the Anti-Plague Institute employee died Oct. 2 in Shelekhov after severe pneumonia and that about 197 contacts were placed under medical observation; Irkutsk Gov. Igor Kobzev said Friday those contacts showed no illness and had negative lab results. Media had reported a suspected pneumonic-plague lab exposure; Rospotrebnadzor has not confirmed plague.",
+      "why": "A fatal illness tied to a plague research lab put nearly 200 people under watch while federal health officials say it was not plague.",
+      "impact": 3,
+      "topic": "health",
+      "region": "World",
+      "world_region": "asia",
+      "time": "2026-10-04T12:00:00-04:00",
+      "time_known": false,
+      "source": "TASS",
+      "url": "https://tass.com/society/2197353",
+      "added_at": "2026-10-04T17:09:22-04:00",
+      "health_beat": "public",
+      "thread": "pneumonic-plague"
+    },
+    {
       "id": "2026-10-04-france-schools-closed-monday",
       "section": "news",
       "text": "France's high-school protests will close up to 500 schools fully or partly Monday, the education minister said; 24 have been burned or ransacked.",

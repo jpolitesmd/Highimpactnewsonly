@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-04",
   "events": [
     {
       "date": "2026-10-05",
@@ -63,6 +63,16 @@
       "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
     },
     {
+      "date": "2026-10-13",
+      "when": "7:00 a.m. ET",
+      "text": "JPMorgan Chase reports third-quarter results, kicking off big-bank earnings.",
+      "detail": "Results due about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank. Citigroup, Goldman Sachs and Wells Fargo are also listed for Oct. 13 on public earnings calendars.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-14",
       "branch": "judicial",
       "text": "Supreme Court hears Salazar v. Paramount Global.",
@@ -85,6 +95,24 @@
         "markets"
       ],
       "buzz": true
+    },
+    {
+      "date": "2026-10-19",
+      "branch": "executive",
+      "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+      "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+      "tags": [
+        "crypto"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "branch": "executive",
+      "text": "Comment deadline on the SEC's proposed Regulation Crypto Assets.",
+      "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
+      "tags": [
+        "crypto"
+      ]
     },
     {
       "date": "2026-10-28",

@@ -2,6 +2,22 @@
   "updated": "2026-10-04",
   "items": [
     {
+      "id": "2026-10-04-brazil-presidential-election",
+      "section": "news",
+      "text": "Brazil's first-round count has Flavio Bolsonaro leading President Lula, short of a majority, with a runoff on Oct. 25.",
+      "detail": "The Superior Electoral Court national file at 10:08 p.m. Brasilia time Sunday (9:08 p.m. ET), with 99.83 percent of polling sections counted, showed Senator Flavio Bolsonaro of the Liberal Party with 56,062,300 votes, 47.07 percent of valid votes, and President Luiz Inacio Lula da Silva of the Workers' Party with 53,733,900 votes, 45.11 percent. The court had not marked either candidate elected, and the file is not a final certification: 832 of 499,248 sections were still uncounted. Turnout was 78.93 percent of 158,745,502 registered voters. The same file flags the race as mathematically defined. Reuters and the Associated Press reported the court is sending Bolsonaro and Lula to a runoff on Oct. 25 because neither reached the more than 50 percent of valid votes needed to win outright.",
+      "why": "The presidency of Latin America's largest economy is undecided, and the next vote is set for Oct. 25.",
+      "impact": 4,
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "americas",
+      "time": "2026-10-04T22:08:04-03:00",
+      "time_known": true,
+      "source": "Tribunal Superior Eleitoral",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+      "added_at": "2026-10-04T21:09:12-04:00"
+    },
+    {
       "id": "2026-10-04-irkutsk-plague-lab-death",
       "section": "health",
       "text": "Rospotrebnadzor said an Irkutsk Anti-Plague Institute employee died of pneumonia of unknown cause, not plague; nearly 200 contacts are under watch.",

@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-05-morning",
+   "date": "2026-10-05",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Brazil's first-round count has Flavio Bolsonaro leading President Lula, short of a majority, with a runoff on Oct. 25."
+  },
+  {
    "key": "2026-10-04-evening",
    "date": "2026-10-04",
    "edition": "evening",
@@ -92,5 +99,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-04T16:37:26-04:00"
+ "updated": "2026-10-05T05:39:27-04:00"
 }

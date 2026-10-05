@@ -1,0 +1,215 @@
+{
+ "date": "2026-10-05",
+ "edition": "morning",
+ "subject": "Monday, Oct 5 - Morning edition",
+ "published": "2026-10-05T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-04-brazil-presidential-election",
+   "section": "news",
+   "text": "Brazil's first-round count has Flavio Bolsonaro leading President Lula, short of a majority, with a runoff on Oct. 25.",
+   "detail": "With 100 percent of polling sections counted early Monday, Senator Flavio Bolsonaro of the Liberal Party had 56,104,503 votes, 47.03 percent of valid votes, and President Luiz Inacio Lula da Silva of the Workers' Party had 53,879,538, 45.16 percent, O Globo reported from Superior Electoral Court data. Augusto Cury was third with 2.89 percent. Neither reached the more than 50 percent of valid votes needed to win outright, so the two meet in a runoff on Oct. 25. Abstention was about 21 percent, the highest since 1998.",
+   "why": "The presidency of Latin America's largest economy is undecided, and the next vote is set for Oct. 25.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-04T22:08:04-03:00",
+   "time_known": true,
+   "source": "Tribunal Superior Eleitoral",
+   "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json"
+  },
+  {
+   "id": "2026-10-05-russia-205-drones-kharkiv",
+   "section": "news",
+   "text": "Russia launched 205 drones at Ukraine overnight; jet-powered drones killed one person and injured eight in Kharkiv, officials said.",
+   "detail": "Ukraine's Air Force said the attack began at 6 p.m. Sunday Kyiv time and included 49 jet-powered Shahed-type drones; air defenses shot down or suppressed 172 by 8 a.m. Monday, with hits at 13 locations. Kharkiv Mayor Ihor Terekhov said three Banderol jet drones struck near homes in the Industrialnyi district. Separately, President Volodymyr Zelenskyy said Sunday the U.S. has proposed technical-level three-way talks with Russia by the end of October and that Ukraine responded positively.",
+   "why": "Russia is following through on its vow to widen strikes as Washington pushes for new talks.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-05T01:00:00-04:00",
+   "time_known": true,
+   "source": "Kyiv Post",
+   "url": "https://www.kyivpost.com/post/86099"
+  },
+  {
+   "id": "2026-10-05-mspb-douglas-factors",
+   "section": "news",
+   "text": "A Merit Systems Protection Board rule ending the required 12-factor review of federal workers' discipline penalties takes effect today.",
+   "detail": "The final rule (Federal Register document 2026-18061, published Sept. 3) replaces the mandatory review of all 12 Douglas factors in misconduct appeals with a test of whether an agency's penalty is reasonable under the totality of the circumstances. It applies to appeals filed on or after Oct. 5; pending appeals stay under the old framework. Individual factors can still be raised, and material mitigating evidence must be considered.",
+   "why": "Federal employees fighting suspensions or firings lose a checklist the board had to walk through in every case.",
+   "impact": 3,
+   "topic": "government",
+   "region": "US",
+   "time": "2026-10-05T00:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Register / Merit Systems Protection Board",
+   "url": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct"
+  },
+  {
+   "id": "2026-10-05-us-monitors-irkutsk-plague",
+   "section": "health",
+   "text": "The State Department said it is monitoring a suspected fatal pneumonic plague case in Russia's Irkutsk region with the CDC.",
+   "detail": "A State Department spokesperson told RFE/RL on Oct. 4 that the U.S. is aware of reports of a fatal suspected pneumonic plague case and is monitoring with the CDC and other agencies, and urged Russia to share accurate information quickly and openly; an HHS spokesperson confirmed the CDC is working with State. No new U.S. travel restrictions were announced, and there are no direct commercial flights between the two countries. Russia's Rospotrebnadzor says the 28-year-old Anti-Plague Institute lab technician died of pneumonia of unknown cause, found no work-linked microorganisms in testing, and calls the regional situation stable; about 200 contacts are under observation.",
+   "why": "Washington is now formally tracking a possible plague death tied to a Russian research lab.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-04T23:32:00-04:00",
+   "time_known": false,
+   "source": "RFE/RL",
+   "url": "https://www.rferl.org/a/russia-plague-warning-siberia-irkutsk-laboratory/33870385.html"
+  },
+  {
+   "id": "2026-10-04-b1-bombers-leave-fairford",
+   "section": "news",
+   "text": "U.S. B-1 bombers used for Iran strikes have left Britain's RAF Fairford and returned home, the Pentagon confirmed.",
+   "detail": "The Pentagon said Sunday that all U.S. bombers deployed to RAF Fairford had re-deployed to their home stations, without saying when they moved or why, and that the bomber force can still strike from the continental United States. The move follows a U.K. counterterrorism investigation near the base: police arrested a 25-year-old British-Iranian man in London on Thursday on suspicion of preparing terrorist acts, and five U.K. nationals arrested Sept. 27 over suspicious vehicles near the base were released on bail.",
+   "why": "The main U.S. bomber base in Europe for the Iran war is now empty amid a terrorism probe.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "US",
+   "time": "2026-10-04T20:27:00-04:00",
+   "time_known": true,
+   "source": "Politico",
+   "url": "https://www.politico.com/news/2026/10/04/pentagon-us-bombers-recalled-uk-base-01106456"
+  },
+  {
+   "id": "2026-10-04-yemen-offensive-houthis",
+   "section": "news",
+   "text": "Yemen's Saudi-backed government announced a military campaign to retake all territory held by the Iran-backed Houthis.",
+   "detail": "Rashad al-Alimi, head of the Presidential Leadership Council, said in a televised address Sunday that operations would continue until the country is freed from the Houthis, after de-escalation efforts were exhausted; a military spokesman told the Houthis to lay down their weapons. The Houthis seized Yemen's Red Sea coast, including the Bab al-Mandab Strait, in an offensive last month, and AFP, citing Yemeni military sources, reported they cut the road linking Taiz with Aden on Sunday. The same day, Houthi spokesman Yahya Saree said the group fired missiles and drones at Aramco sites in Riyadh and Khurais; Saudi Arabia had not commented.",
+   "why": "Yemen's war is widening into an all-out fight that puts Saudi oil sites and a key Red Sea shipping lane at stake.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-04T12:40:00-04:00",
+   "time_known": false,
+   "source": "BBC News",
+   "url": "https://www.bbc.com/news/articles/cx8dzj9vpp01o"
+  },
+  {
+   "id": "2026-10-04-france-schools-closed-monday",
+   "section": "news",
+   "text": "France's high-school protests will close up to 500 schools fully or partly Monday, the education minister said; 24 have been burned or ransacked.",
+   "detail": "Education Minister Edouard Geffray said Sunday that lessons will be \"totally or partly suspended\" at 400 to 500 high schools where security conditions are not met, about the same number as Friday, with a \"partial, progressive return\" to classes. He said 24 schools have been \"burned or ransacked\" and 78 education staff injured since the movement began. More than 5,000 people, about 85 percent of them minors, have been arrested. Prime Minister Sebastien Lecornu sent ministers a roadmap Sunday asking that classes resume wherever safety allows and setting a timetable to answer some student demands, including school renovation talks with regional presidents and Parcoursup proposals by the end of October. In the Paris region, more than 160 of 468 public high schools will be closed Monday, regional president Valerie Pecresse said. A 16-year-old was detained Sunday over Friday's assault on a 59-year-old teacher who was doused with gasoline and struck in La Ciotat. Organizers have called for more protests Tuesday.",
+   "why": "The protests have now closed hundreds of schools for a second week and drawn a direct order from the prime minister.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-04T12:00:00-04:00",
+   "time_known": false,
+   "source": "France 24 / AFP",
+   "url": "https://www.france24.com/en/live-news/20261004-up-to-500-french-schools-to-be-totally-or-partly-closed-monday-minister"
+  },
+  {
+   "id": "2026-10-04-russia-intensify-kyiv-strikes",
+   "section": "news",
+   "text": "Russia's Defense Ministry said it will intensify strikes on Kyiv and other Ukrainian regions, as drones hit a Kyiv bridge for a fourth straight day.",
+   "detail": "The ministry said the stepped-up attacks on military, defense-industry and related infrastructure respond to President Volodymyr Zelenskiy's vow in a Reuters interview to hit more Russian oil refineries. Kyiv Mayor Vitali Klitschko said two people were hurt Sunday when a drone struck the Northern Bridge's roadway, a second straight day of hits there. Zelenskiy said a drone killed one person at a Sumy medical-supplies warehouse and six were hurt at a Dnipro communications site; he said Russia fired more than 1,900 drones, 1,700 glide bombs and 25 missiles over the past week. German Chancellor Friedrich Merz made an unannounced visit to Kyiv.",
+   "why": "Moscow is openly targeting the capital's river crossings and says the campaign will widen.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-04T07:11:00-04:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/russia-intensify-strikes-ukraine-after-zelenskiy-interview-2026-10-04/"
+  },
+  {
+   "id": "2026-10-04-ethiopia-retakes-mekelle",
+   "section": "news",
+   "text": "Ethiopian government-allied forces entered Mekelle, the Tigray capital, after TPLF rebels announced they had withdrawn following renewed fighting.",
+   "detail": "The Tigray People's Liberation Front said Saturday its forces had pulled out of Mekelle, which they seized along with its airport last month; a witness said government-allied fighters entered the city Sunday. Residents described looting of the TPLF administration office and regional police headquarters as rebel fighters left. Internet and phone outages have made events hard to verify. Ethiopia closed its embassy in Eritrea on Thursday and expelled 10 Eritrean diplomats; Eritrea said it was cutting diplomatic ties.",
+   "why": "Control of Tigray's capital has changed hands as fighting returns to a region where a 2020–2022 war killed hundreds of thousands.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-04T07:09:00-04:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://www.winnipegfreepress.com/world/2026/10/04/opposition-fighters-in-northern-ethiopias-tigray-withdraw-from-regional-capital"
+  },
+  {
+   "id": "2026-10-04-hormuz-tanker-ukmto-150",
+   "section": "news",
+   "text": "A tanker in the Strait of Hormuz was struck by an unknown projectile that damaged its engine room, UKMTO said.",
+   "detail": "UK Maritime Trade Operations Warning 150-26, issued Oct. 4, 2026, says the master of a tanker reported being struck by an unknown projectile in the Strait of Hormuz, causing engine-room damage. The crew were reported safe and there was no environmental impact reported at the time. Authorities are investigating. Vessels were advised to transit with caution. The report is distinct from earlier UKMTO warnings on Oct. 1–2 tanker hits in and near Hormuz.",
+   "why": "Another confirmed projectile strike on a tanker in the chokepoint that carries about a fifth of the world's oil.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-04T05:07:00-04:00",
+   "time_known": true,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/-/media/ukmto/products/20261004-ukmto_warning-150-26.pdf"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-04-irkutsk-plague-lab-death",
+   "section": "health",
+   "text": "Rospotrebnadzor said an Irkutsk Anti-Plague Institute employee died of pneumonia of unknown cause, not plague; nearly 200 contacts are under watch.",
+   "detail": "TASS cited Russia's federal consumer-health agency Sunday saying the sanitary situation in Irkutsk region, including Irkutsk and Shelekhov, is stable and that expanded testing found no microorganisms linked to the worker's professional duties. The agency said a special package of measures followed the illness, diagnosed as pneumonia of unknown etiology, and that no pathogen incident at the institute or infectious-disease sick calls among staff were recorded in the prior 10 days. The Moscow Times and regional reports said the Anti-Plague Institute employee died Oct. 2 in Shelekhov after severe pneumonia and that about 197 contacts were placed under medical observation; Irkutsk Gov. Igor Kobzev said Friday those contacts showed no illness and had negative lab results. Media had reported a suspected pneumonic-plague lab exposure; Rospotrebnadzor has not confirmed plague.",
+   "why": "A fatal illness tied to a plague research lab put nearly 200 people under watch while federal health officials say it was not plague.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-04T12:00:00-04:00",
+   "time_known": false,
+   "source": "TASS",
+   "url": "https://tass.com/society/2197353"
+  },
+  {
+   "id": "2026-10-04-super-intelligence-force",
+   "section": "tech",
+   "text": "Trump announced a federal AI task force, the \"Super Intelligence Force,\" led by Director of National Intelligence Jay Clayton.",
+   "detail": "In a Truth Social post Sunday, the president said the force will coordinate federal engagement with AI companies, consumers, public-interest and religious groups, and infrastructure providers. FTC Chairman Andrew Ferguson, Pentagon technology chief Emil Michael and OPM Director Scott Kupor will also lead it, reporting to Trump and Chief of Staff Susie Wiles. It follows last week's White House meeting where OpenAI, Anthropic, Google, Meta, Nvidia and SpaceXAI signed voluntary safety standards, including internal evaluations, outside audits and board reviews. Trump also named John Coale special presidential envoy for hostage affairs.",
+   "why": "It names who in government will oversee the biggest AI companies after their voluntary safety pledge.",
+   "impact": 2,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-04T09:25:00-04:00",
+   "time_known": false,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-05",
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+  },
+  {
+   "date": "2026-10-06",
+   "branch": "judicial",
+   "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+   "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  }
+ ]
+}

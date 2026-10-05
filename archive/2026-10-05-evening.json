@@ -1,0 +1,126 @@
+{
+ "date": "2026-10-05",
+ "edition": "evening",
+ "subject": "Monday, Oct 5 - Evening edition",
+ "published": "2026-10-05T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-05-scotus-long-conference-orders",
+   "section": "news",
+   "text": "The Supreme Court opened its new term by turning away hundreds of appeals, including Second Amendment, COVID vaccine-mandate and \"Let's Go Brandon\" cases.",
+   "detail": "Monday's order list from the justices' Sept. 28 long conference denied review in United States v. Hembree, leaving in place a 5th Circuit ruling that the federal felon-in-possession gun ban was unconstitutional as applied to a man whose prior felony was meth possession. The Court also denied two challenges to Washington state COVID-19 vaccine mandates (Petersen v. Snohomish Regional Fire and Rescue; Roberts v. Ferguson) and left in place a 6th Circuit ruling letting a Michigan school bar \"Let's Go Brandon\" sweatshirts. In Mullin v. National TPS Alliance, it sent the Venezuelan and Haitian Temporary Protected Status case back to the 9th Circuit in light of its June ruling in Mullin v. Doe, and it asked the Solicitor General for views in three mortgage-escrow interest cases. The Court heard its first argument of the term, Suncor Energy v. Boulder County, on whether federal law bars state climate-damage suits against oil companies.",
+   "why": "Denials leave lower-court rulings on gun rights, vaccine mandates and student speech in force for now.",
+   "impact": 4,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-05T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/100526zor_2a34.pdf"
+  },
+  {
+   "id": "2026-10-05-10yr-yield-2002-high",
+   "section": "money",
+   "text": "The 10-year Treasury yield closed at 5.31% Monday, its highest level since 2002.",
+   "detail": "The benchmark yield rose 3.4 basis points on the day, Dow Jones Market Data reported, extending a selloff that pushed it to a 19-year high in late September. Big tech shares still lifted stocks, and the euro fell to a 17-month low against the dollar on worries about France's debt. U.S. crude for November fell 1.84% to settle at $89.43 a barrel. The 10-year yield is a benchmark for mortgage and other long-term loan rates.",
+   "why": "Higher long-term yields push up mortgage and loan rates nationwide.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-05T15:00:00-04:00",
+   "time_known": false,
+   "source": "Dow Jones Market Data (via Morningstar)",
+   "url": "https://www.morningstar.com/news/dow-jones/202610056521/10-year-treasury-yield-rises-to-5310-data-talk"
+  },
+  {
+   "id": "2026-10-05-transparency-in-coverage-rules",
+   "section": "health",
+   "text": "Federal price-transparency rules finalized Monday require health insurers to give cost estimates by phone and post standardized price files.",
+   "detail": "CMS, with the Labor and Treasury departments, amended the 2020 Transparency in Coverage rules for non-grandfathered group plans and insurers. Plans must report in-network rates by provider network, drop rates for services a provider's specialty would not perform, post negotiated-rate and out-of-network files quarterly instead of monthly, lower the out-of-network reporting threshold from 20 claims to 11, add a \"Price Transparency\" homepage link, and have a senior official attest the data is accurate. The rules take effect 60 days after Federal Register publication; file changes apply in five months, new taxonomy, utilization and text files in 11 months, and phone cost-sharing quotes for plan years starting on or after Jan. 1, 2027. The agencies estimate about $174.5 million a year in net savings for plans from year two.",
+   "why": "Employer and individual plan members get more usable prices before care.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-05T12:00:00-04:00",
+   "time_known": false,
+   "source": "CMS",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/transparency-coverage-final-rules-cms-9882-f"
+  },
+  {
+   "id": "2026-10-05-irgc-turns-back-hormuz-tanker",
+   "section": "news",
+   "text": "Iran's Revolutionary Guards forced an inbound tanker to turn back in the Strait of Hormuz, as a third tanker in two days was hit by a projectile.",
+   "detail": "UK Maritime Trade Operations said Monday the IRGC hailed the tanker 11 nautical miles north of Khasab, Oman, and told it to turn back or be targeted; the master complied. Separately, UKMTO said another tanker in the strait was struck by an unknown projectile that set its engine room on fire; the crew was fighting the blaze and no casualties or environmental damage were reported. Iran's parliament speaker said the strait stays closed until seven U.S. conditions are met, and President Pezeshkian called talks with Washington meaningless. Pezeshkian on Sunday accepted the resignation of Oil Minister Mohsen Paknejad as exports dried up under the U.S. blockade.",
+   "why": "Hormuz traffic and oil prices hinge on whether Iran keeps turning ships away.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-05T06:40:00-04:00",
+   "time_known": true,
+   "source": "Reuters (via Al Arabiya)",
+   "url": "https://english.alarabiya.net/News/middle-east/2026/10/05/tanker-ordered-by-iran-s-irgc-to-turn-back-in-hormuz-or-risk-being-hit-ukmto-says"
+  },
+  {
+   "id": "2026-10-05-air-ambulance-passengers-named",
+   "section": "news",
+   "text": "The two passengers on the lost Bermuda–Boston air ambulance were named as a Bermuda mother and son; all six aboard are presumed dead.",
+   "detail": "Bermuda police identified Marilyn Lavonne Bean, 66, and Sergio Wayne Lottimore, 41, who were aboard the Gulfstream G100 with four crew when it went missing off Nantucket around 1 a.m. Saturday. The Coast Guard suspended its search Sunday after 66 hours, and owner Latitude Air Ambulance said all aboard are presumed dead; crew names have not been released. The pilot reported electrical problems and declared an emergency as a storm approached. The NTSB said Monday the investigative jurisdiction is still being determined, working with Canada's Transportation Safety Board.",
+   "why": "The search has ended and attention turns to why the jet went down.",
+   "impact": 2,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-10-05T14:38:00-04:00",
+   "time_known": false,
+   "source": "AP (via Boston.com)",
+   "url": "https://www.boston.com/news/local-news/2026/10/05/mother-and-son-from-bermuda-named-as-passengers-on-missing-medical-flight-from-bermuda-to-boston/"
+  },
+  {
+   "id": "2026-10-05-winter-haven-school-bus-crash",
+   "section": "news",
+   "text": "A Florida school bus carrying 37 students flipped in a Winter Haven crash Monday, killing a 10th-grade girl and a Jeep occupant.",
+   "detail": "Polk County Sheriff Grady Judd said an oncoming car crossed the center line shortly after 6 a.m. and hit the side of the bus bound for Winter Haven High School, tearing off a tire and sending the bus head-on into a Jeep that caught fire. The bus overturned onto its roof. Thirty-nine people were aboard, including the driver and the driver's daughter; five to seven people were taken to hospitals with potentially traumatic injuries, and one was in critical condition.",
+   "why": "The sheriff called it the county's worst school-bus crash in decades.",
+   "impact": 2,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-05T06:05:00-04:00",
+   "time_known": false,
+   "source": "AP (via News4JAX)",
+   "url": "https://www.news4jax.com/news/florida/2026/10/05/2-people-killed-including-a-student-after-florida-school-bus-rolls-over-in-crash-sheriff-says/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-05",
+   "text": "Supreme Court opens its new term and hears Suncor Energy v. Boulder County.",
+   "branch": "judicial",
+   "detail": "Whether federal law bars state-law lawsuits seeking damages from oil and gas companies for climate change. Justice Alito will not participate."
+  },
+  {
+   "date": "2026-10-06",
+   "branch": "judicial",
+   "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+   "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  }
+ ]
+}

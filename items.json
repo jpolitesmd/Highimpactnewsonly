@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-06T08:17:39-04:00",
+  "updated": "2026-10-06T15:32:19-04:00",
   "items": [
+    {
+      "id": "2026-10-06-cornell-yates-review",
+      "section": "news",
+      "text": "Cornell's trustees hired former Deputy U.S. Attorney General Sally Yates to lead an independent review of the 2024 Chi Phi assault case.",
+      "detail": "A new Special Committee of Cornell's Board of Trustees said Tuesday that Yates, a partner at King & Spalding, will review how the university prevents and responds to sexual assault and misconduct, including campus police, hearings and discipline, coordination with prosecutors, and oversight of fraternities and sororities. Her team will also examine Cornell's response to the October 2024 allegations by Jane Doe against Chi Phi members, including whether it followed its own policies. Yates will report to the committee, and the board said it intends to share the findings with the Cornell community. The state attorney general's separate criminal investigation continues; no criminal charges have been filed.",
+      "why": "A former top Justice Department official now leads the outside probe of Cornell's handling of the case, alongside the state's criminal inquiry.",
+      "impact": 3,
+      "topic": "court",
+      "branch": [
+        "judicial",
+        "executive"
+      ],
+      "region": "US",
+      "time": "2026-10-06T12:00:00-04:00",
+      "time_known": false,
+      "source": "Cornell University",
+      "url": "https://statements.cornell.edu/2026/20261006-special-committee.cfm",
+      "added_at": "2026-10-06T15:32:19-04:00",
+      "thread": "cornell-assault-case"
+    },
     {
       "id": "2026-10-06-russia-tells-who-no-plague-irkutsk",
       "section": "health",

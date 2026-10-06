@@ -1,0 +1,179 @@
+{
+ "date": "2026-10-06",
+ "edition": "evening",
+ "subject": "Tuesday, Oct 6 - Evening edition",
+ "published": "2026-10-06T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-06-bulgaria-black-sea-ships-drones",
+   "section": "news",
+   "text": "Drones sank one merchant ship and set another on fire inside Bulgaria's Black Sea economic zone, Bulgaria said; the sunken ship's crew is missing.",
+   "detail": "Sea and air drones hit the two ships about 70 nautical miles east of Byala early Tuesday local time. The Togo-flagged, Turkish-owned Alfa Watan sank and its crew is unaccounted for. The Palau-flagged Able, carrying wheat, caught fire; all 18 crew were rescued and taken to Varna, and one is in critical condition with severe burns. Prime Minister Rumen Radev called the attack \"absolutely unacceptable\" and said the drones were \"clearly either Russian or Ukrainian\"; who launched them has not been established. Bulgaria is in contact with NATO, and President Iliana Iotova called a national security council meeting for Wednesday.",
+   "why": "A ship was sunk inside a NATO member's waters, spreading the war's shipping risk to the western Black Sea and the grain trade.",
+   "impact": 4,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-06T06:00:00-04:00",
+   "time_known": false,
+   "source": "BTA (Bulgarian News Agency)",
+   "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgaria-s-exclusive-economic-zone-prompts"
+  },
+  {
+   "id": "2026-10-06-sp500-record-close",
+   "section": "money",
+   "text": "The S&P 500 closed at a record high Tuesday, its first since August, as Treasury yields eased from their highest levels since 2002.",
+   "detail": "The S&P 500 rose 44.98 points, or 0.6%, to 7,818.93. The Dow gained 253.38 to 51,521.28, and the Nasdaq rose 122.48 to 27,599.79, its second straight record. The 10-year Treasury yield fell to 5.28% from 5.31% late Monday. The S&P 500 is up 23% from its late-March low.",
+   "why": "Stocks hit an all-time high even as the Iran war and high bond yields weigh on the economy.",
+   "impact": 3,
+   "topic": "stocks",
+   "region": "US",
+   "time": "2026-10-06T16:20:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-267ca73e15e09f7e8deb5f6076405f48"
+  },
+  {
+   "id": "2026-10-06-on-peace-tanker-12-injured",
+   "section": "news",
+   "text": "Twelve sailors were injured when a projectile hit the tanker On Peace in the Strait of Hormuz, India's foreign ministry said.",
+   "detail": "India said 12 of the Panama-flagged tanker's 19 crew were hurt, 11 of them Indian, and Oman helped evacuate them to Khasab for treatment. India did not say who carried out the attack. The ship appears to be the tanker UKMTO reported hit Monday evening with an engine-room fire, though that has not been formally confirmed.",
+   "why": "It is the first report of serious crew injuries in the latest wave of Hormuz tanker attacks.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-06T12:00:00-04:00",
+   "time_known": false,
+   "source": "gCaptain, citing India's Ministry of External Affairs",
+   "url": "https://gcaptain.com/a-dozen-seafarers-injured-in-strait-of-hormuz-tanker-attack-india-says/"
+  },
+  {
+   "id": "2026-10-06-eia-oil-output-forecast",
+   "section": "money",
+   "text": "World oil production will fall about 5 million barrels a day this year because of the Iran war, the Energy Information Administration projected.",
+   "detail": "In its Oct. 6 Short-Term Energy Outlook, EIA projected world petroleum production falling from a record 106.3 million barrels a day in 2025 to 101.1 million in 2026, and world demand falling from 104.4 million to 102.4 million. The G7 agreed Friday to release 100 million barrels of diesel and crude from emergency reserves.",
+   "why": "The government's own forecast shows how much the war is cutting global supply, which feeds fuel prices and inflation.",
+   "impact": 3,
+   "topic": "energy",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-10-06T12:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters (via U.S. News)",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-06/oil-prices-stable-as-market-weighs-supply-risks-rising-middle-east-exports"
+  },
+  {
+   "id": "2026-10-06-cornell-yates-review",
+   "section": "news",
+   "text": "Cornell's trustees hired former Deputy U.S. Attorney General Sally Yates to lead an independent review of the 2024 Chi Phi assault case.",
+   "detail": "A new Special Committee of Cornell's Board of Trustees said Tuesday that Yates, a partner at King & Spalding, will review how the university prevents and responds to sexual assault and misconduct, including campus police, hearings and discipline, coordination with prosecutors, and oversight of fraternities and sororities. Her team will also examine Cornell's response to the October 2024 allegations by Jane Doe against Chi Phi members, including whether it followed its own policies. Yates will report to the committee, and the board said it intends to share the findings with the Cornell community. The state attorney general's separate criminal investigation continues; no criminal charges have been filed.",
+   "why": "A former top Justice Department official now leads the outside probe of Cornell's handling of the case, alongside the state's criminal inquiry.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial",
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-06T12:00:00-04:00",
+   "time_known": false,
+   "source": "Cornell University",
+   "url": "https://statements.cornell.edu/2026/20261006-special-committee.cfm"
+  },
+  {
+   "id": "2026-10-06-ustr-china-301-continued",
+   "section": "news",
+   "text": "The 2018 Section 301 tariffs on Chinese goods will stay in place after U.S. industries asked for them to continue, the U.S. Trade Representative said.",
+   "detail": "USTR's notice, \"Continuation of Actions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation\" (FR Doc. 2026-20510), went on Federal Register public inspection Tuesday and publishes Oct. 7. It comes out of the second four-year review of the tariffs, which began in May. A companion notice (2026-20511) makes conforming changes to product exclusions.",
+   "why": "It keeps the original Trump-era China tariffs on a large share of imports from China.",
+   "impact": 3,
+   "topic": "trade",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-10-06T08:45:00-04:00",
+   "source": "Federal Register (USTR)",
+   "url": "https://www.federalregister.gov/public-inspection/2026-20510/continuation-of-actions-chinas-acts-policies-and-practices-related-to-technology-transfer"
+  },
+  {
+   "id": "2026-10-06-nigeria-air-force-crash",
+   "section": "news",
+   "text": "A Nigerian Air Force transport plane crashed in Ondo State, killing all 25 people aboard, the Air Force said.",
+   "detail": "The ATR-42, NAF 931, was on a routine flight from Benin City to Lagos when it went down at Igbokoda on Oct. 5. It carried five crew and 20 passengers. On Tuesday the Air Force confirmed there were no survivors, released the victims' names and ordered an investigation.",
+   "why": "Everyone aboard died in one of Nigeria's deadliest military air crashes in recent years.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "World",
+   "time": "2026-10-06T08:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/nigeria-plane-crash-ondo-air-force-7f2f154f795d4bf66d33ba3d309d2f4c"
+  },
+  {
+   "id": "2026-10-06-russia-tells-who-no-plague-irkutsk",
+   "section": "health",
+   "text": "Russia told the WHO no plague case has been recorded in Irkutsk and that the dead lab worker's contacts tested negative; about 60% have left quarantine.",
+   "detail": "WHO spokesperson Christian Lindmeier read Russia's official reply at a Geneva briefing Tuesday: \"No case of this dangerous disease has been recorded in the city of Irkutsk,\" and tests of everyone identified as a contact were negative for dangerous pathogens, Reuters reported. Rospotrebnadzor again said testing found no microorganisms linked to the 28-year-old Anti-Plague Institute technician's work, and a Shelekhov district official said about 60% of those quarantined have been released. Russia's reply did not say whether plague was ruled out in the worker herself, whom officials say died Oct. 2 of pneumonia of unknown cause. Secretary of State Marco Rubio said Tuesday that Russia should share more information and that Washington is watching \"hour by hour\"; the WHO still rates the risk to the general public as low.",
+   "why": "Russia's first formal answer to the WHO points away from an outbreak, but it still does not say what killed the lab worker.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-06T06:51:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.telegraphindia.com/world/russia-rules-out-plague-among-contacts-of-dead-lab-worker-as-most-quarantine-patients-are-released/cid/2183414"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-06-fda-ibogaine-trials-comment",
+   "section": "health",
+   "text": "The FDA asked for public input on designing the first federally funded clinical trials of ibogaine, a psychedelic, for opioid addiction and PTSD.",
+   "detail": "The request for information (FDA-2026-N-10429) published in the Federal Register Oct. 6. HHS is funding ibogaine development, and the first trials are expected to study adults with opioid use disorder and adults with PTSD. FDA wants comment on dosing, care settings, safety monitoring, eligibility and stopping rules. Comments close Nov. 20.",
+   "why": "The federal government is directly funding and shaping human trials of a psychedelic drug.",
+   "impact": 2,
+   "topic": "health",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-10-06T06:00:00-04:00",
+   "source": "Federal Register (FDA)",
+   "url": "https://www.federalregister.gov/documents/2026/10/06/2026-20427/design-and-safety-considerations-for-clinical-trials-involving-ibogaine-drug-products-request-for"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-06",
+   "branch": "judicial",
+   "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+   "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-07",
+   "when": "Expected",
+   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
+   "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  }
+ ]
+}

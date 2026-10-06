@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-06-evening",
+   "date": "2026-10-06",
+   "edition": "evening",
+   "count": 8,
+   "lead": "Drones sank one merchant ship and set another on fire inside Bulgaria's Black Sea economic zone, Bulgaria said; the sunken ship's crew is missing."
+  },
+  {
    "key": "2026-10-06-morning",
    "date": "2026-10-06",
    "edition": "morning",
@@ -113,5 +120,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-06T05:35:55-04:00"
+ "updated": "2026-10-06T16:42:47-04:00"
 }

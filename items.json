@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-06T05:35:40-04:00",
+  "updated": "2026-10-06T08:17:39-04:00",
   "items": [
+    {
+      "id": "2026-10-06-russia-tells-who-no-plague-irkutsk",
+      "section": "health",
+      "text": "Russia told the WHO no plague case has been recorded in Irkutsk and that the dead lab worker's contacts tested negative; about 60% have left quarantine.",
+      "detail": "WHO spokesperson Christian Lindmeier read Russia's official reply at a Geneva briefing Tuesday: \"No case of this dangerous disease has been recorded in the city of Irkutsk,\" and tests of everyone identified as a contact were negative for dangerous pathogens, Reuters reported. Rospotrebnadzor again said testing found no microorganisms linked to the 28-year-old Anti-Plague Institute technician's work, and a Shelekhov district official said about 60% of those quarantined have been released. Russia's reply did not say whether plague was ruled out in the worker herself, whom officials say died Oct. 2 of pneumonia of unknown cause. Secretary of State Marco Rubio said Tuesday that Russia should share more information and that Washington is watching \"hour by hour\"; the WHO still rates the risk to the general public as low.",
+      "why": "Russia's first formal answer to the WHO points away from an outbreak, but it still does not say what killed the lab worker.",
+      "impact": 3,
+      "topic": "health",
+      "region": "World",
+      "world_region": "asia",
+      "health_beat": "public",
+      "time": "2026-10-06T06:51:00-04:00",
+      "time_known": false,
+      "source": "Reuters",
+      "url": "https://www.telegraphindia.com/world/russia-rules-out-plague-among-contacts-of-dead-lab-worker-as-most-quarantine-patients-are-released/cid/2183414",
+      "thread": "pneumonic-plague",
+      "added_at": "2026-10-06T08:17:39-04:00"
+    },
     {
       "id": "2026-10-05-flydubai-attack-premeditated",
       "section": "news",

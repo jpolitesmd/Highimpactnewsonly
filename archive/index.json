@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-06-morning",
+   "date": "2026-10-06",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Ukraine launched about 650 drones at Moscow overnight, killing two people in one of the largest attacks on the Russian capital in two years, Russian officials said."
+  },
+  {
    "key": "2026-10-05-evening",
    "date": "2026-10-05",
    "edition": "evening",
@@ -106,5 +113,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-05T16:33:47-04:00"
+ "updated": "2026-10-06T05:35:55-04:00"
 }

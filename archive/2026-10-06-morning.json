@@ -1,0 +1,259 @@
+{
+ "date": "2026-10-06",
+ "edition": "morning",
+ "subject": "Tuesday, Oct 6 - Morning edition",
+ "published": "2026-10-06T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-06-ukraine-drones-moscow",
+   "section": "news",
+   "text": "Ukraine launched about 650 drones at Moscow overnight, killing two people in one of the largest attacks on the Russian capital in two years, Russian officials said.",
+   "detail": "Moscow Mayor Sergei Sobyanin said most of the drones were shot down, 105 of them close to the city. Moscow region Gov. Andrei Vorobyov said one person died in Radumlya and one in Barybino, and a drone set a retail warehouse on fire in Litvinovo. Reports put the injured at six to nine. The 650 figure comes from Russian officials; Ukraine has not confirmed it. Russia's Defense Ministry said it struck Ukraine's Black Sea ports of Chornomorsk and Izmail overnight.",
+   "why": "It is a major escalation of Ukraine's long-range strikes on Russia's capital.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-06T02:11:00-04:00",
+   "source": "France 24 (AFP, Reuters, AP)",
+   "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say"
+  },
+  {
+   "id": "2026-10-06-kenya-first-ebola-case",
+   "section": "health",
+   "text": "Kenya confirmed its first imported Ebola case, a Kenyan citizen who traveled from Congo through Uganda and died in Nairobi.",
+   "detail": "Health Minister Aden Duale said Tuesday the patient arrived in Kenya on Saturday and was isolated and treated at Nairobi Hospital before dying.",
+   "why": "Ebola has reached East Africa's main travel and business hub.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-06T04:43:00-04:00",
+   "source": "AP",
+   "url": "https://apnews.com/article/kenya-congo-ebola-death-nairobi-32ccde1e74048396ad5cb9f9fe47495e"
+  },
+  {
+   "id": "2026-10-06-nidal-hasan-firing-squad",
+   "section": "news",
+   "text": "Fort Hood shooter Nidal Hasan's execution by firing squad was approved by President Trump; the U.S. military has not executed anyone since 1961.",
+   "detail": "Pentagon spokesperson Sean Parnell said on X that the Army secretary will set the time and place. Hasan, a former Army psychiatrist, was sentenced to death for the 2009 shooting at Fort Hood, Texas, that killed 13 people.",
+   "why": "It would be the first U.S. military execution in about 65 years.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-05T21:15:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-nadal-hasan-fort-hood-execution-6ab1d9cfb936d00d17c02105ea0a0ead"
+  },
+  {
+   "id": "2026-10-06-hormuz-tanker-hit-fire",
+   "section": "news",
+   "text": "A tanker in the Strait of Hormuz was hit by an unknown projectile Monday evening, starting an engine-room fire, the UK maritime agency UKMTO said.",
+   "detail": "UKMTO cited the ship's captain and said there were no early reports of injuries. It is the third tanker struck in two days, after a crude tanker Saturday and an oil tanker and an LNG tanker Sunday. Iran's Fars news agency said Iran had acted against 13 vessels in the past seven days. Separately, Iran's Revolutionary Guards turned an inbound tanker back on Monday.",
+   "why": "Attacks on Hormuz shipping now come almost daily, keeping oil near $100 a barrel.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-05T20:09:00-04:00",
+   "time_known": false,
+   "source": "dpa, citing UKMTO",
+   "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261006-930-794451/"
+  },
+  {
+   "id": "2026-10-06-diesel-tax-relief-order",
+   "section": "money",
+   "text": "A Trump executive order lets off-road dyed diesel be used on highways through Dec. 31 and moves to defer the federal diesel excise tax.",
+   "detail": "The order, \"Emergency Tax Relief on Diesel Fuel,\" was signed Oct. 5. Treasury has five days to decide whether disaster-style relief applies; if it does, federal diesel excise tax payments are deferred for fuel used Oct. 5 through Dec. 31. The IRS must also announce within five days that it will not penalize selling or using dyed diesel on highways in that period. The White House says the deferral carries no interest or penalties and that Europe agreed to release 100 million barrels of refined diesel from its reserves over four months.",
+   "why": "Cheaper diesel for truckers and farmers would ease freight and food costs.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-05T20:07:00-04:00",
+   "source": "The White House",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/"
+  },
+  {
+   "id": "2026-10-05-scotus-long-conference-orders",
+   "section": "news",
+   "text": "The Supreme Court opened its new term by turning away hundreds of appeals, including Second Amendment, COVID vaccine-mandate and \"Let's Go Brandon\" cases.",
+   "detail": "Monday's order list from the justices' Sept. 28 long conference denied review in United States v. Hembree, leaving in place a 5th Circuit ruling that the federal felon-in-possession gun ban was unconstitutional as applied to a man whose prior felony was meth possession. The Court also denied two challenges to Washington state COVID-19 vaccine mandates (Petersen v. Snohomish Regional Fire and Rescue; Roberts v. Ferguson) and left in place a 6th Circuit ruling letting a Michigan school bar \"Let's Go Brandon\" sweatshirts. In Mullin v. National TPS Alliance, it sent the Venezuelan and Haitian Temporary Protected Status case back to the 9th Circuit in light of its June ruling in Mullin v. Doe, and it asked the Solicitor General for views in three mortgage-escrow interest cases. The Court heard its first argument of the term, Suncor Energy v. Boulder County, on whether federal law bars state climate-damage suits against oil companies.",
+   "why": "Denials leave lower-court rulings on gun rights, vaccine mandates and student speech in force for now.",
+   "impact": 4,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-05T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/100526zor_2a34.pdf"
+  },
+  {
+   "id": "2026-10-06-ofac-foreign-banks-iran-warning",
+   "section": "news",
+   "text": "Treasury warned foreign banks still doing business with Iran's financial sector that they can be sanctioned at any time, without advance notice.",
+   "detail": "The OFAC alert, dated Oct. 5 under \"Operation Economic Outcast,\" tells banks dealing with sanctioned Iranian banks to end those ties right away and says serving Iranian banks or their branches abroad now carries sanctions risk. OFAC also amended an Iran FAQ on restricting a foreign bank's U.S. correspondent accounts. Earlier steps include cutting Banque Misr UAE's U.S. correspondent access in August and sanctioning Turkey's Golden Global Bank and Russia's VTB Bank in September.",
+   "why": "One Iran-linked transaction can now cost a foreign bank its access to U.S. dollars.",
+   "impact": 3,
+   "topic": "government",
+   "region": "US",
+   "time": "2026-10-05T16:30:00-04:00",
+   "time_known": false,
+   "source": "U.S. Treasury, OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20261005"
+  },
+  {
+   "id": "2026-10-05-10yr-yield-2002-high",
+   "section": "money",
+   "text": "The 10-year Treasury yield closed at 5.31% Monday, its highest level since 2002.",
+   "detail": "The benchmark yield rose 3.4 basis points on the day, Dow Jones Market Data reported, extending a selloff that pushed it to a 19-year high in late September. Big tech shares still lifted stocks, and the euro fell to a 17-month low against the dollar on worries about France's debt. U.S. crude for November fell 1.84% to settle at $89.43 a barrel. The 10-year yield is a benchmark for mortgage and other long-term loan rates.",
+   "why": "Higher long-term yields push up mortgage and loan rates nationwide.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-05T15:00:00-04:00",
+   "time_known": false,
+   "source": "Dow Jones Market Data (via Morningstar)",
+   "url": "https://www.morningstar.com/news/dow-jones/202610056521/10-year-treasury-yield-rises-to-5310-data-talk"
+  },
+  {
+   "id": "2026-10-06-yemen-forces-retake-dhubab",
+   "section": "news",
+   "text": "Saudi-backed Yemeni government forces retook Dhubab and other towns near the Bab el-Mandeb Strait from the Houthis, Yemeni officials said.",
+   "detail": "The offensive, called \"Yemen Dawn,\" also took the towns of Bab and Hadeid, according to officials and witnesses. Saudi coalition spokesman Maj. Gen. Turki al-Malki said 100 fighter jets are supporting the push. A U.S. official and a regional official told AP the United States provided intelligence sharing, targeting and planning help. Government leaders say the goal is to retake Sanaa. The WHO says the fighting has killed at least 959 people.",
+   "why": "Control of a shipping chokepoint for about 12% of world trade is shifting, with U.S. help.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-05T14:28:00-04:00",
+   "source": "AP (via PBS NewsHour)",
+   "url": "https://www.pbs.org/newshour/world/saudi-backed-coalition-forces-houthis-from-several-areas-around-key-strait-yemeni-officials-say"
+  },
+  {
+   "id": "2026-10-05-irgc-turns-back-hormuz-tanker",
+   "section": "news",
+   "text": "Iran's Revolutionary Guards forced an inbound tanker to turn back in the Strait of Hormuz, as a third tanker in two days was hit by a projectile.",
+   "detail": "UK Maritime Trade Operations said Monday the IRGC hailed the tanker 11 nautical miles north of Khasab, Oman, and told it to turn back or be targeted; the master complied. Separately, UKMTO said another tanker in the strait was struck by an unknown projectile that set its engine room on fire; the crew was fighting the blaze and no casualties or environmental damage were reported. Iran's parliament speaker said the strait stays closed until seven U.S. conditions are met, and President Pezeshkian called talks with Washington meaningless. Pezeshkian on Sunday accepted the resignation of Oil Minister Mohsen Paknejad as exports dried up under the U.S. blockade.",
+   "why": "Hormuz traffic and oil prices hinge on whether Iran keeps turning ships away.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-05T06:40:00-04:00",
+   "time_known": true,
+   "source": "Reuters (via Al Arabiya)",
+   "url": "https://english.alarabiya.net/News/middle-east/2026/10/05/tanker-ordered-by-iran-s-irgc-to-turn-back-in-hormuz-or-risk-being-hit-ukmto-says"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-05-transparency-in-coverage-rules",
+   "section": "health",
+   "text": "Federal price-transparency rules finalized Monday require health insurers to give cost estimates by phone and post standardized price files.",
+   "detail": "CMS, with the Labor and Treasury departments, amended the 2020 Transparency in Coverage rules for non-grandfathered group plans and insurers. Plans must report in-network rates by provider network, drop rates for services a provider's specialty would not perform, post negotiated-rate and out-of-network files quarterly instead of monthly, lower the out-of-network reporting threshold from 20 claims to 11, add a \"Price Transparency\" homepage link, and have a senior official attest the data is accurate. The rules take effect 60 days after Federal Register publication; file changes apply in five months, new taxonomy, utilization and text files in 11 months, and phone cost-sharing quotes for plan years starting on or after Jan. 1, 2027. The agencies estimate about $174.5 million a year in net savings for plans from year two.",
+   "why": "Employer and individual plan members get more usable prices before care.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-05T12:00:00-04:00",
+   "time_known": false,
+   "source": "CMS",
+   "url": "https://www.cms.gov/newsroom/fact-sheets/transparency-coverage-final-rules-cms-9882-f"
+  },
+  {
+   "id": "2026-10-04-braves-even-nlds",
+   "section": "sports",
+   "text": "The Braves beat the Dodgers 3-2 in Game 2 to tie their National League Division Series at 1-1.",
+   "detail": "Atlanta won Sunday night at Dodger Stadium after losing Game 1 5-3 on Saturday, CBS Sports and MLB.com reported. Michael Harris II drove in two runs; Max Muncy homered in the ninth for Los Angeles. Game 3 is Tuesday in Atlanta.",
+   "why": "The reigning champions no longer control the series; the next two games are in Atlanta.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-04T23:00:00-04:00",
+   "time_known": false,
+   "source": "MLB.com / CBS Sports",
+   "url": "https://www.mlb.com/news/braves-win-nlds-game-2-2026"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-05-flydubai-attack-premeditated",
+   "section": "news",
+   "text": "The Flydubai co-pilot told UAE interrogators he planned the attack before the airline hired him, two Israeli officials told Reuters.",
+   "detail": "Reuters reported Monday that the Omani co-pilot of flight FZ1073 said he applied to Flydubai after searching for airlines that fly to Tel Aviv, according to two Israeli officials with knowledge of the UAE-led probe. A third source briefed on the investigation said he had planned to crash last Wednesday's flight into Ben-Gurion airport, and had intended to hijack an earlier Tel Aviv flight he operated this year but did not. The UAE has not announced formal charges or publicly named him. Israeli Prime Minister Benjamin Netanyahu has said pilots from countries without diplomatic ties to Israel, including Oman, may not fly there, and he ordered a security review of foreign airlines serving Israel.",
+   "why": "Investigators' accounts now point to a plot planned in advance, and to questions about how the co-pilot was assigned an Israel route at all.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-05T02:37:00-04:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.al-monitor.com/originals/2026/10/co-pilot-planned-flydubai-attack-joining-airline-two-israeli-officials-say"
+  },
+  {
+   "id": "2026-10-05-russia-205-drones-kharkiv",
+   "section": "news",
+   "text": "Russia launched 205 drones at Ukraine overnight; jet-powered drones killed one person and injured eight in Kharkiv, officials said.",
+   "detail": "Ukraine's Air Force said the attack began at 6 p.m. Sunday Kyiv time and included 49 jet-powered Shahed-type drones; air defenses shot down or suppressed 172 by 8 a.m. Monday, with hits at 13 locations. Kharkiv Mayor Ihor Terekhov said three Banderol jet drones struck near homes in the Industrialnyi district. Separately, President Volodymyr Zelenskyy said Sunday the U.S. has proposed technical-level three-way talks with Russia by the end of October and that Ukraine responded positively.",
+   "why": "Russia is following through on its vow to widen strikes as Washington pushes for new talks.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-05T01:00:00-04:00",
+   "time_known": true,
+   "source": "Kyiv Post",
+   "url": "https://www.kyivpost.com/post/86099"
+  },
+  {
+   "id": "2026-10-05-mspb-douglas-factors",
+   "section": "news",
+   "text": "A Merit Systems Protection Board rule ending the required 12-factor review of federal workers' discipline penalties takes effect today.",
+   "detail": "The final rule (Federal Register document 2026-18061, published Sept. 3) replaces the mandatory review of all 12 Douglas factors in misconduct appeals with a test of whether an agency's penalty is reasonable under the totality of the circumstances. It applies to appeals filed on or after Oct. 5; pending appeals stay under the old framework. Individual factors can still be raised, and material mitigating evidence must be considered.",
+   "why": "Federal employees fighting suspensions or firings lose a checklist the board had to walk through in every case.",
+   "impact": 3,
+   "topic": "government",
+   "region": "US",
+   "time": "2026-10-05T00:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Register / Merit Systems Protection Board",
+   "url": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-06",
+   "branch": "judicial",
+   "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
+   "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-07",
+   "when": "Expected",
+   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
+   "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,25 @@
 {
-  "updated": "2026-10-06T21:07:08-04:00",
+  "updated": "2026-10-07T05:28:32-04:00",
   "items": [
+    {
+      "id": "2026-10-07-ice-fines-rule-blocked",
+      "section": "news",
+      "text": "A federal judge in Boston blocked the Trump administration's policy of fining migrants up to $1.8 million for not leaving the U.S. after final deportation orders.",
+      "detail": "U.S. District Judge George O'Toole stayed the ICE rule used to impose the fines and barred enforcement of fines issued after June 27, 2025, while a class-action lawsuit brought by two fined migrants moves forward, Reuters reported Monday. He found the fines were likely imposed unlawfully, including because ICE skipped public notice and comment and the Department of Homeland Security did not consider individual circumstances. Since last year the administration has levied fines of $998 a day, applied retroactively for up to five years. DHS said in July it had issued more than 100,000 such fines totaling about $84 billion.",
+      "why": "The order halts collection of more than 100,000 fines worth about $84 billion while the case proceeds.",
+      "impact": 3,
+      "topic": "gavel",
+      "branch": [
+        "judicial"
+      ],
+      "region": "US",
+      "time": "2026-10-06T12:49:00-04:00",
+      "time_known": false,
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-trump-policy-fining-migrants-up-18-million-2026-10-06/",
+      "thread": "deportations-courts",
+      "added_at": "2026-10-07T05:28:32-04:00"
+    },
     {
       "id": "2026-10-06-evernorth-xrpn-delay",
       "section": "finance",

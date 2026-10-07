@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-07T05:45:00-04:00",
+  "updated": "2026-10-07T08:16:49-04:00",
   "items": [
+    {
+      "id": "2026-10-07-who-presses-russia-plague-lab-death",
+      "section": "health",
+      "text": "WHO chief Tedros asked Russia what killed the Irkutsk plague-lab worker and whether a second employee has pneumonia; the Kremlin says it informed the WHO properly.",
+      "detail": "Tedros said Wednesday on X that the WHO has asked Russia to clarify the cause of the 28-year-old lab technician's severe pneumonia, the pathogen that prompted the quarantine and other public-health measures, and media reports of a second institute employee with pneumonia of undetermined cause, adding that timely, complete and transparent sharing under the International Health Regulations is essential, Reuters reported. Russia has not confirmed a second case, and Reuters said it found no evidence of reports that a second person in Siberia had died. Kremlin spokesman Dmitry Peskov said Wednesday that Russia notified the WHO in line with established procedures, called much of the coverage false and told people to rely on Rospotrebnadzor; he was responding to an ABC News report that the U.S. lodged a formal diplomatic complaint over Moscow's handling of the case. Peskov said no Putin–Trump call is scheduled yet, after Trump said Tuesday he would speak to Putin \"very soon\" about it. Russia still calls the Oct. 2 death pneumonia of unknown cause and has not said what caused it.",
+      "why": "The WHO is now publicly pressing Moscow for the cause of death and a possible second case, while Russia insists it has disclosed enough.",
+      "impact": 3,
+      "topic": "health",
+      "region": "World",
+      "world_region": "asia",
+      "health_beat": "public",
+      "time": "2026-10-07T05:20:00-04:00",
+      "time_known": false,
+      "source": "Reuters",
+      "url": "https://www.straitstimes.com/world/europe/who-seeks-more-details-from-russia-about-reasons-for-plague-institute-workers-death",
+      "thread": "pneumonic-plague",
+      "added_at": "2026-10-07T08:16:49-04:00"
+    },
     {
       "id": "2026-10-07-ice-fines-rule-blocked",
       "section": "news",

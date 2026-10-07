@@ -13,7 +13,6 @@ import json, os, sys, urllib.request, urllib.error, datetime, zoneinfo
 SKIP_TAG = {
     "morning": "Skip morning edition",
     "evening": "Skip evening edition",
-    "weekend": "Skip Sunday weekend review",  # retired edition type; kept so an old file still filters
     "breaking": "Skip breaking alerts",
 }
 ET = zoneinfo.ZoneInfo("America/New_York")
@@ -42,6 +41,9 @@ def tag_ids(key):
 
 
 def audience(kind, ids):
+    if kind not in SKIP_TAG:
+        print(f"PROBLEM: no Skip tag for edition type '{kind}'; this email goes to all subscribers.")
+        return None
     tid = ids.get(SKIP_TAG[kind])
     if not tid:
         print(f"PROBLEM: Buttondown tag '{SKIP_TAG[kind]}' not found; this email goes to all subscribers.")

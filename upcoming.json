@@ -1,15 +1,6 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "events": [
-    {
-      "date": "2026-10-06",
-      "branch": "judicial",
-      "text": "Supreme Court hears Anderson v. Intel Corp. Investment Policy Committee.",
-      "detail": "How ERISA’s duty of prudence applies when workers challenge retirement-plan investment options.",
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-07",
       "when": "2:00 p.m. ET",
@@ -18,17 +9,6 @@
         "markets"
       ],
       "buzz": true
-    },
-    {
-      "date": "2026-10-07",
-      "when": "Expected",
-      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC).",
-      "detail": "Shareholders approved Sept. 30; company says closing Oct. 7 subject to remaining conditions, with Nasdaq trading as XRPN expected Oct. 8. Closing is not guaranteed until conditions are met.",
-      "buzz": true,
-      "tags": [
-        "crypto",
-        "markets"
-      ]
     },
     {
       "date": "2026-10-07",
@@ -51,21 +31,21 @@
     },
     {
       "date": "2026-10-08",
-      "when": "Expected",
-      "text": "Evernorth Class A shares expected to begin Nasdaq trading under ticker XRPN.",
-      "detail": "Depends on Oct. 7 closing; company projects ~473M XRP at closing if the deal closes.",
-      "buzz": true,
-      "tags": [
-        "crypto",
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-08",
       "when": "1:00 p.m. ET",
       "text": "Treasury auctions $22 billion in 30-year bonds (reopening), 1:00 p.m. ET.",
       "buzz": true,
       "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "when": "Expected",
+      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC), pushed from Oct. 7.",
+      "detail": "An Oct. 6 SEC filing says an administrative delay moved the expected closing to on or about Oct. 9, with Nasdaq trading as XRPN on or about Oct. 12. The company says the delay is not expected to affect the closing, which still depends on customary conditions.",
+      "buzz": true,
+      "tags": [
+        "crypto",
         "markets"
       ]
     },
@@ -84,6 +64,17 @@
       "when": "10:00 a.m. ET",
       "text": "University of Michigan preliminary October consumer sentiment, 10:00 a.m. ET.",
       "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "when": "Expected",
+      "text": "Evernorth Class A shares expected to begin Nasdaq trading under ticker XRPN (moved from Oct. 8).",
+      "detail": "Depends on the deal closing on or about Oct. 9, per the company’s Oct. 6 SEC filing; company projects ~473M XRP at closing if the deal closes.",
+      "buzz": true,
+      "tags": [
+        "crypto",
         "markets"
       ]
     },
@@ -128,6 +119,16 @@
       "buzz": true
     },
     {
+      "date": "2026-10-15",
+      "when": "8:30 a.m. ET",
+      "text": "September retail sales (Census advance report), 8:30 a.m. ET.",
+      "detail": "The government’s most timely read on consumer spending; lands the same morning as the September PPI.",
+      "tags": [
+        "markets"
+      ],
+      "buzz": true
+    },
+    {
       "date": "2026-10-19",
       "branch": "executive",
       "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
@@ -143,6 +144,26 @@
       "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
       "tags": [
         "crypto"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "when": "4:01 p.m. ET",
+      "text": "Netflix reports third-quarter results after the close, about 4:01 p.m. ET.",
+      "detail": "Date and time per Netflix investor relations; live management interview follows at 4:45 p.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "when": "After the close",
+      "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
+      "detail": "Tesla already reported 486,532 Q3 deliveries on Oct. 2; profit and cash flow come with the earnings release.",
+      "buzz": true,
+      "tags": [
+        "markets"
       ]
     },
     {

@@ -1,6 +1,43 @@
 {
-  "updated": "2026-10-07T08:16:49-04:00",
+  "updated": "2026-10-07T15:37:52-04:00",
   "items": [
+    {
+      "id": "2026-10-07-flydubai-saudi-safety-probe",
+      "section": "news",
+      "text": "Saudi Arabia launched an air-safety investigation into the Flydubai FZ1073 cockpit attack, separate from the UAE's criminal probe, Reuters reported.",
+      "detail": "Three people close to the matter told Reuters on Wednesday that Saudi Arabia notified aviation agencies abroad it will run a safety investigation under international rules, because the flight was in Saudi airspace when the co-pilot attacked the captain with an axe. The U.S. National Transportation Safety Board confirmed it assigned a representative, since the Boeing 737 MAX was built in the United States. Saudi authorities did not comment, and it is unclear whether findings will be published. Israel's Aircraft Safety Investigation Authority said Israel offered to take part but has not been invited. The UAE-led criminal investigation, which its prosecutor general calls a terrorist attack, continues; no charges have been announced.",
+      "why": "A second, technical investigation now runs alongside the UAE criminal case, with U.S. safety investigators involved.",
+      "impact": 3,
+      "topic": "security",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-07T11:23:00-04:00",
+      "time_known": true,
+      "source": "Reuters",
+      "url": "https://www.investing.com/news/world-news/exclusivesaudi-arabia-launches-air-safety-probe-intoflydubai-incident-sources-say-4937143",
+      "added_at": "2026-10-07T15:37:52-04:00",
+      "thread": "flydubai-cockpit"
+    },
+    {
+      "id": "2026-10-06-cornell-ag-da-cooperating",
+      "section": "news",
+      "text": "New York Attorney General Letitia James's office said the Tompkins County DA agreed to cooperate with its Cornell criminal investigation.",
+      "detail": "A spokesperson for James said Tuesday that the investigation is led by the office's Criminal Justice Division and began Thursday evening after the governor's appointment. Since then the office has spoken with District Attorney Matthew Van Houten, Jane Doe's attorney, and several candidates for outside counsel to support the investigation. Van Houten has said his office will cooperate fully. No criminal charges have been filed, and the seven men named in the civil lawsuit deny wrongdoing.",
+      "why": "The state's criminal inquiry is staffing up with the local prosecutor's cooperation, separate from Cornell's own review.",
+      "impact": 3,
+      "topic": "court",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "region": "US",
+      "time": "2026-10-06T17:17:00-04:00",
+      "time_known": false,
+      "source": "CNN",
+      "url": "https://abc17news.com/news/national-world/cnn-national/2026/10/06/special-prosecutor-close-to-naming-outside-lawyers-to-handle-cornell-investigation/",
+      "added_at": "2026-10-07T15:37:52-04:00",
+      "thread": "cornell-assault-case"
+    },
     {
       "id": "2026-10-07-who-presses-russia-plague-lab-death",
       "section": "health",

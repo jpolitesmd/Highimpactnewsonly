@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-06T16:42:47-04:00",
+  "updated": "2026-10-06T21:07:08-04:00",
   "items": [
+    {
+      "id": "2026-10-06-evernorth-xrpn-delay",
+      "section": "finance",
+      "topic": "coin",
+      "tags": [
+        "crypto"
+      ],
+      "text": "Evernorth said an administrative delay moved the expected Armada II deal close to about Oct. 9 and XRPN's Nasdaq debut to about Oct. 12.",
+      "detail": "In an Oct. 6 SEC Form 8-K, Evernorth Holdings said the delay is not expected to affect the closing. Closing remains subject to customary conditions, and Nasdaq trading of Class A shares under ticker XRPN depends on those conditions and listing requirements. The prior schedule had called for a close about Oct. 7 and trading about Oct. 8. Armada II shareholders approved the business combination on Sept. 30.",
+      "why": "Pushes back a closely watched XRP-treasury SPAC close and Nasdaq listing by a few days; dates are still estimates.",
+      "impact": 2,
+      "region": "US",
+      "time": "2026-10-06T12:00:00-04:00",
+      "time_known": false,
+      "source": "Evernorth / SEC Form 8-K",
+      "url": "http://archive.fast-edgar.com/20261006/A32Z762GZC2R6ZZK222Q2ZYK8UHRZZ22Z882/",
+      "added_at": "2026-10-06T21:07:08-04:00"
+    },
     {
       "id": "2026-10-06-bulgaria-black-sea-ships-drones",
       "section": "news",

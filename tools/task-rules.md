@@ -2,6 +2,7 @@
 
 Rules every news task (morning, evening) follows in addition to its own instructions.
 Edit by hand only; the coverage audit does not change this file.
+Post-push verification and when to commit/report (quiet reporting): see `tools/research-runbook.md` — do not restate here.
 
 ## Ongoing stories (threads.json, "thread" field on items)
 - threads.json holds {"updated", "threads": [{"id", "title", "summary", "status"}]}. The site's Ongoing tab shows each active thread with all its stories, and story cards link to it.

@@ -86,7 +86,26 @@ After merge:
 2. Commit as **High Impact News Daily** `<jpolitesmd@users.noreply.github.com>`.
 3. Push to **main** (writes `email/today.json` → GitHub Action → Buttondown).
 4. **Do not** create or update `email/breaking.json` unless John explicitly reverses the no-breaking policy.
+5. Run **Post-push verification** (below) before reporting anything.
 
+## Post-push verification (required before reporting success)
+
+After every morning/evening edition push. `{key}` = `YYYY-MM-DD-morning|evening`; `{sha}` = the pushed commit.
+
+1. **Poll up to ~25 min** (every ~2 min) until both pass:
+   - `curl -s -o /dev/null -w '%{http_code}' "https://hinewsdaily.com/editions/{key}/?cb=$(date +%s)"` returns **200**.
+   - `git fetch origin && git show origin/main:email/sent.txt | grep -qx '{key}'` (the **Send edition email** Action commits that line).
+2. **Check runs for `{sha}`:** `gh run list --commit {sha}` (or `--workflow "pages build and deployment"` / `"Send edition email"`), then `gh run view <id>`. If a run is cancelled/failed because no hosted runner picked it up ("job was not acquired by Runner") and nothing is queued/in progress for that commit, `gh run rerun <id>` (safe: the sender sends each edition once). Never manual-send via Buttondown; never create `email/breaking.json`.
+3. **Late:** if after the window the page is not 200 or `sent.txt` lacks `{key}` (e.g. the Oct 5, 2026 GitHub Actions outage), report the edition **LATE** to the parent: what is stuck (page, email, or both), run ids + status, and the githubstatus.com Actions state. The parent sends John **one** short note so Hi News Marketing does not post social blind.
+4. Report success only when **both** checks pass.
+
+## Quiet reporting rules
+
+Single source of truth for when routines commit/message (task-rules defers here).
+
+- **Edition runs (morning/evening):** message John only on failure or LATE (see above). A clean verified edition sends no message.
+- **Popular upcoming watch (buzz) and coverage audit:** commit and report only when `upcoming.json` or `tools/search-checklist.md` actually changed (audit also when it logs a real miss). Otherwise no commit, no message.
+- **Story watches (e.g. plague, Cornell/Flydubai):** nothing new confirmed → no commit, no message.
 
 ## Popular upcoming watch (buzz list)
 
@@ -98,7 +117,7 @@ Goal: catch dated events that are loud on social (especially X) days/weeks ahead
 1. At most **5** new or updated buzz candidates.
 2. Prefer events with a clear date in the next 14 days.
 3. Sources (in order, stop early): (a) web search for dated popular votes/launches/meetings already in the news; (b) one pass over existing `upcoming.json` to mark `buzz` when chatter is high; (c) optional X peek only for already-dated watch terms — no open-ended timeline scroll.
-4. Do **not** invent stories or impact ratings here. Only maintain the list. Commit/push only when `upcoming.json` changed.
+4. Do **not** invent stories or impact ratings here. Only maintain the list. Commit/push only when `upcoming.json` changed. Reporting: see Quiet reporting rules.
 5. No edition email from this routine.
 
 **Edition research:** Markets-trade + editor must read same-day and prior-day `buzz: true` items and official `markets`-tagged BLS/Fed calendar releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision) in `upcoming.json`, plus `crypto`-tagged SEC crypto / market-structure watches. Buzz + markets calendar releases must become site money stories in the next edition after they land (morning for 8:30 a.m. data; evening for afternoon FOMC minutes / XRPN listing if morning missed). Prefer `section: "finance"` (Crypto tab; covers ISO20022 + crypto markets / SEC crypto regulation) with `crypto` tags for SEC crypto rules and major crypto market-structure stories; ISO20022 items still go there. Write a short money/tech/finance blurb (impact often 2–3) citing primary/SEC/wire when available — do not drop solely because it is not nationwide high-impact, and do not invent numbers before the release.
@@ -112,17 +131,17 @@ Goal: catch dated events that are loud on social (especially X) days/weeks ahead
 | **Blocked site** | Do not burn lookups on known blockers (e.g. washingtonpost.com 403, nbcnews.com robots — see checklist). Find AP/Reuters/primary-doc version. Note in `notes` if the story is still soft. |
 | **Late morning** (>~5:50 a.m. and email at risk) | Shrink to Courts + Congress + Agencies/FR + cross-check only; skip Markets-trade deep dive and Sports unless impact-4+ is obvious. Still run edition.py and push if any keepers exist; if nothing publishable, push nothing for email and report "nothing to send". |
 | **Weekend** | Do not skip. Morning (5:30 a.m.) and evening (4:30 p.m.) run Saturday and Sunday on the normal path. |
-| **Push / Actions failure** | Retry pull --rebase once; report blocked send; never invent a manual Buttondown blast unless John asks. |
+| **Push / Actions failure** | Retry pull --rebase once; for stuck/unacquired runs follow Post-push verification (rerun, else report LATE); never invent a manual Buttondown blast unless John asks. |
 
 ## Routine wiring
 
-Morning / evening routines (Hi News Site agent) must open this runbook first, fill `{edition}` and `{since}` from the Cadence table, dispatch `tools/beat-prompts.md`, then follow Editor merge → Publish path. Coverage-audit routines stay on the checklist-only path (Tue/Thu/Sat only); they do not replace edition research and edition research must not redo the audit hunt.
+Morning / evening routines (Hi News Site agent) must open this runbook first, fill `{edition}` and `{since}` from the Cadence table, dispatch `tools/beat-prompts.md`, then follow Editor merge → Publish path → Post-push verification. Coverage-audit routines stay on the checklist-only path (Tue/Thu/Sat only); they do not replace edition research and edition research must not redo the audit hunt.
 
 ### Suggested schedules (America/New_York via CRON_TZ)
 
 | Routine | Cron | Prompt intent |
 | --- | --- | --- |
-| Morning edition research | `CRON_TZ=America/New_York 30 5 * * *` | Follow `tools/research-runbook.md` for `morning`, every day including Saturday and Sunday. Compute `since` = yesterday 4:30 p.m. ET. Dispatch beat prompts in parallel (Sports conditional), then cross-check, then editor → `python3 tools/edition.py morning` → commit → push main. No `breaking.json`. |
+| Morning edition research | `CRON_TZ=America/New_York 30 5 * * *` | Follow `tools/research-runbook.md` for `morning`, every day including Saturday and Sunday. Compute `since` = yesterday 4:30 p.m. ET. Dispatch beat prompts in parallel (Sports conditional), then cross-check, then editor → `python3 tools/edition.py morning` → commit → push main → post-push verification. No `breaking.json`. |
 | Evening edition research | `CRON_TZ=America/New_York 30 16 * * *` | Same for `evening` every day, including Saturday and Sunday; `since` = today 5:30 a.m. ET. Sunday evening includes the corrections search from task-rules. Do not run a separate weekend review. |
 
 Save prompts as intent (not frozen tool schemas). Work in `/workspace/Highimpactnewsonly`. Committer: High Impact News Daily `<jpolitesmd@users.noreply.github.com>`.

@@ -22,7 +22,7 @@ When you change item fields or deep links, update this file in the same PR/commi
 | `/upcoming.json` | `{ updated, events[] }` | Government “coming up” |
 | `/launches.json` | `{ updated, source?, launches[] }` | Tech launches |
 | `/archive/index.json` | `{ updated?, editions[] }` | Edition index |
-| `/archive/{key}.json` | edition object | Full edition (`key` = `YYYY-MM-DD-morning\|evening\|weekend`) |
+| `/archive/{key}.json` | edition object | Full edition (`key` = `YYYY-MM-DD-morning\|evening`; legacy `-weekend` keys may exist only in old archives, none produced since Oct 3, 2026) |
 | `/email/today.json` | newsletter payload | Optional; not required for UI parity |
 | `/assets/commute.json` | art list | Optional commute illustrations |
 
@@ -95,7 +95,7 @@ Required: `date`, `sort`, `time`, `rocket`, `mission`, `site`.
 
 ### `archive/index.json` → `editions[]`
 
-Required: `key`, `date`, `edition` (`morning`\|`evening`\|`weekend`), `count`, `lead`.
+Required: `key`, `date`, `edition` (`morning`\|`evening`; `weekend` is legacy only, retired Oct 3, 2026), `count`, `lead`.
 
 ### `archive/{key}.json`
 

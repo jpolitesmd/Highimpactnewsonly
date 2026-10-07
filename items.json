@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T05:28:32-04:00",
+  "updated": "2026-10-07T05:45:00-04:00",
   "items": [
     {
       "id": "2026-10-07-ice-fines-rule-blocked",
@@ -2438,6 +2438,70 @@
       "source": "AP",
       "url": "https://apnews.com/article/jim-bakker-televangelist-ptl-club-dead-ef6d58ffa0b511edba773c219cee77e8",
       "added_at": "2026-10-06T05:35:40-04:00"
+    },
+    {
+      "id": "2026-10-07-russia-mass-strike-ukraine",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "text": "Russia's overnight missile and drone attack on Ukraine killed at least 11 people, including five in a Pryluky apartment building, Ukraine's president said.",
+      "detail": "President Volodymyr Zelenskyy said Russia fired about 70 missiles, many of them ballistic, plus attack drones at Kyiv and at least 12 regions, with energy infrastructure a key target. A missile hit a five-story apartment building in Pryluky, in the Chernihiv region, killing five and injuring 26, including five children. Two people were killed in Kyiv and two in Oleksandriia, and apartment buildings were damaged in Dnipro and Kremenchuk. The attack came on Vladimir Putin's 74th birthday. Separately, Russian officials said they intercepted almost 900 Ukrainian drones overnight.",
+      "why": "It is one of the deadliest Russian barrages in weeks and again targets Ukraine's power grid ahead of winter.",
+      "impact": 4,
+      "time": "2026-10-07T03:00:00-04:00",
+      "time_known": false,
+      "source": "ABC News (Reuters)",
+      "url": "https://abcnews.com/International/russia-hits-ukrainian-apartment-buildings-deadly-overnight-strike/story?id=137058213",
+      "added_at": "2026-10-07T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-07-tropical-storm-isaias",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "text": "Tropical Storm Isaias formed in the western Gulf of Mexico and is forecast to strengthen rapidly before nearing the northern Gulf Coast Friday.",
+      "detail": "As of 4 a.m. CDT Wednesday, the National Hurricane Center put Isaias near 22.0N, 94.1W with maximum sustained winds of about 40 mph, moving east-northeast at 8 mph. Forecasters expect it to become a hurricane by Thursday. Heavy rain, gusty winds, storm surge and possible tornadoes are expected from Louisiana to the Florida Panhandle. No coastal watches or warnings were in effect yet.",
+      "why": "Gulf Coast residents from Louisiana to the Florida Panhandle may face a hurricane by the weekend.",
+      "impact": 3,
+      "time": "2026-10-07T05:00:00-04:00",
+      "source": "National Hurricane Center",
+      "url": "https://www.nhc.noaa.gov/",
+      "added_at": "2026-10-07T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-07-houthis-hit-aden-airport",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "text": "Yemen's Houthis fired ballistic missiles and drones at Aden's international airport, forcing a Cairo flight to divert, as Saudi Arabia downed a missile near Riyadh.",
+      "detail": "Yemen's government said at least two ballistic missiles and several drones targeted the runway and terminal, with one missile landing near the runway minutes before a flight from Cairo was due; the flight was sent to Jeddah and the terminal evacuated. The Houthis said they targeted Saudi military supplies at a nearby camp. The Saudi-led coalition said it intercepted a Houthi ballistic missile north of Riyadh. The Houthis also claimed attacks on Saudi airports in Riyadh and Abha. Fighting has intensified as Saudi-backed government forces push toward the Bab el-Mandeb Strait.",
+      "why": "The Yemen war is widening into direct attacks on civilian airports and the Saudi capital.",
+      "impact": 3,
+      "time": "2026-10-07T02:00:00-04:00",
+      "time_known": false,
+      "source": "Al Jazeera (Reuters)",
+      "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh",
+      "added_at": "2026-10-07T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-06-anduril-baltimore-sub-shipyard",
+      "section": "money",
+      "money_beat": "jobs",
+      "topic": "factory",
+      "region": "US",
+      "text": "Anduril and the Navy will spend $6.6 billion on a new Baltimore County shipyard to build Virginia-class submarine parts, the White House announced.",
+      "detail": "Anduril is investing $3.7 billion and the Navy committed up to $2.9 billion through a contract for the facility, called Arsenal-2, at Tradepoint Atlantic. Maryland officials said it will create more than 3,100 permanent jobs; initial operations are targeted for 2030. President Trump promoted the project Tuesday.",
+      "why": "It is one of the largest new defense manufacturing investments aimed at the Navy's submarine backlog.",
+      "impact": 3,
+      "time": "2026-10-06T14:00:00-04:00",
+      "time_known": false,
+      "source": "Anduril",
+      "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
+      "added_at": "2026-10-07T05:45:00-04:00"
     }
   ]
 }

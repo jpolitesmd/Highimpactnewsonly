@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-07",
+ "edition": "morning",
+ "subject": "Wednesday, Oct 7 - Morning edition",
+ "published": "2026-10-07T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-07-russia-mass-strike-ukraine",
+   "section": "news",
+   "text": "Russia's overnight missile and drone attack on Ukraine killed at least 11 people, including five in a Pryluky apartment building, Ukraine's president said.",
+   "detail": "President Volodymyr Zelenskyy said Russia fired about 70 missiles, many of them ballistic, plus attack drones at Kyiv and at least 12 regions, with energy infrastructure a key target. A missile hit a five-story apartment building in Pryluky, in the Chernihiv region, killing five and injuring 26, including five children. Two people were killed in Kyiv and two in Oleksandriia, and apartment buildings were damaged in Dnipro and Kremenchuk. The attack came on Vladimir Putin's 74th birthday. Separately, Russian officials said they intercepted almost 900 Ukrainian drones overnight.",
+   "why": "It is one of the deadliest Russian barrages in weeks and again targets Ukraine's power grid ahead of winter.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-07T03:00:00-04:00",
+   "time_known": false,
+   "source": "ABC News (Reuters)",
+   "url": "https://abcnews.com/International/russia-hits-ukrainian-apartment-buildings-deadly-overnight-strike/story?id=137058213"
+  },
+  {
+   "id": "2026-10-07-tropical-storm-isaias",
+   "section": "news",
+   "text": "Tropical Storm Isaias formed in the western Gulf of Mexico and is forecast to strengthen rapidly before nearing the northern Gulf Coast Friday.",
+   "detail": "As of 4 a.m. CDT Wednesday, the National Hurricane Center put Isaias near 22.0N, 94.1W with maximum sustained winds of about 40 mph, moving east-northeast at 8 mph. Forecasters expect it to become a hurricane by Thursday. Heavy rain, gusty winds, storm surge and possible tornadoes are expected from Louisiana to the Florida Panhandle. No coastal watches or warnings were in effect yet.",
+   "why": "Gulf Coast residents from Louisiana to the Florida Panhandle may face a hurricane by the weekend.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-07T05:00:00-04:00",
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/"
+  },
+  {
+   "id": "2026-10-07-houthis-hit-aden-airport",
+   "section": "news",
+   "text": "Yemen's Houthis fired ballistic missiles and drones at Aden's international airport, forcing a Cairo flight to divert, as Saudi Arabia downed a missile near Riyadh.",
+   "detail": "Yemen's government said at least two ballistic missiles and several drones targeted the runway and terminal, with one missile landing near the runway minutes before a flight from Cairo was due; the flight was sent to Jeddah and the terminal evacuated. The Houthis said they targeted Saudi military supplies at a nearby camp. The Saudi-led coalition said it intercepted a Houthi ballistic missile north of Riyadh. The Houthis also claimed attacks on Saudi airports in Riyadh and Abha. Fighting has intensified as Saudi-backed government forces push toward the Bab el-Mandeb Strait.",
+   "why": "The Yemen war is widening into direct attacks on civilian airports and the Saudi capital.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-07T02:00:00-04:00",
+   "time_known": false,
+   "source": "Al Jazeera (Reuters)",
+   "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh"
+  },
+  {
+   "id": "2026-10-06-bulgaria-black-sea-ships-drones",
+   "section": "news",
+   "text": "Drones sank one merchant ship and set another on fire inside Bulgaria's Black Sea economic zone, Bulgaria said; the sunken ship's crew is missing.",
+   "detail": "Sea and air drones hit the two ships about 70 nautical miles east of Byala early Tuesday local time. The Togo-flagged, Turkish-owned Alfa Watan sank and its crew is unaccounted for. The Palau-flagged Able, carrying wheat, caught fire; all 18 crew were rescued and taken to Varna, and one is in critical condition with severe burns. Prime Minister Rumen Radev called the attack \"absolutely unacceptable\" and said the drones were \"clearly either Russian or Ukrainian\"; who launched them has not been established. Bulgaria is in contact with NATO, and President Iliana Iotova called a national security council meeting for Wednesday.",
+   "why": "A ship was sunk inside a NATO member's waters, spreading the war's shipping risk to the western Black Sea and the grain trade.",
+   "impact": 4,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-06T06:00:00-04:00",
+   "time_known": false,
+   "source": "BTA (Bulgarian News Agency)",
+   "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgaria-s-exclusive-economic-zone-prompts"
+  },
+  {
+   "id": "2026-10-06-ukraine-drones-moscow",
+   "section": "news",
+   "text": "Ukraine launched about 650 drones at Moscow overnight, killing two people in one of the largest attacks on the Russian capital in two years, Russian officials said.",
+   "detail": "Moscow Mayor Sergei Sobyanin said most of the drones were shot down, 105 of them close to the city. Moscow region Gov. Andrei Vorobyov said one person died in Radumlya and one in Barybino, and a drone set a retail warehouse on fire in Litvinovo. Reports put the injured at six to nine. The 650 figure comes from Russian officials; Ukraine has not confirmed it. Russia's Defense Ministry said it struck Ukraine's Black Sea ports of Chornomorsk and Izmail overnight.",
+   "why": "It is a major escalation of Ukraine's long-range strikes on Russia's capital.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-06T02:11:00-04:00",
+   "source": "France 24 (AFP, Reuters, AP)",
+   "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say"
+  },
+  {
+   "id": "2026-10-06-sp500-record-close",
+   "section": "money",
+   "text": "The S&P 500 closed at a record high Tuesday, its first since August, as Treasury yields eased from their highest levels since 2002.",
+   "detail": "The S&P 500 rose 44.98 points, or 0.6%, to 7,818.93. The Dow gained 253.38 to 51,521.28, and the Nasdaq rose 122.48 to 27,599.79, its second straight record. The 10-year Treasury yield fell to 5.28% from 5.31% late Monday. The S&P 500 is up 23% from its late-March low.",
+   "why": "Stocks hit an all-time high even as the Iran war and high bond yields weigh on the economy.",
+   "impact": 3,
+   "topic": "stocks",
+   "region": "US",
+   "time": "2026-10-06T16:20:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-267ca73e15e09f7e8deb5f6076405f48"
+  },
+  {
+   "id": "2026-10-06-anduril-baltimore-sub-shipyard",
+   "section": "money",
+   "text": "Anduril and the Navy will spend $6.6 billion on a new Baltimore County shipyard to build Virginia-class submarine parts, the White House announced.",
+   "detail": "Anduril is investing $3.7 billion and the Navy committed up to $2.9 billion through a contract for the facility, called Arsenal-2, at Tradepoint Atlantic. Maryland officials said it will create more than 3,100 permanent jobs; initial operations are targeted for 2030. President Trump promoted the project Tuesday.",
+   "why": "It is one of the largest new defense manufacturing investments aimed at the Navy's submarine backlog.",
+   "impact": 3,
+   "topic": "factory",
+   "region": "US",
+   "time": "2026-10-06T14:00:00-04:00",
+   "time_known": false,
+   "source": "Anduril",
+   "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base"
+  },
+  {
+   "id": "2026-10-07-ice-fines-rule-blocked",
+   "section": "news",
+   "text": "A federal judge in Boston blocked the Trump administration's policy of fining migrants up to $1.8 million for not leaving the U.S. after final deportation orders.",
+   "detail": "U.S. District Judge George O'Toole stayed the ICE rule used to impose the fines and barred enforcement of fines issued after June 27, 2025, while a class-action lawsuit brought by two fined migrants moves forward, Reuters reported Monday. He found the fines were likely imposed unlawfully, including because ICE skipped public notice and comment and the Department of Homeland Security did not consider individual circumstances. Since last year the administration has levied fines of $998 a day, applied retroactively for up to five years. DHS said in July it had issued more than 100,000 such fines totaling about $84 billion.",
+   "why": "The order halts collection of more than 100,000 fines worth about $84 billion while the case proceeds.",
+   "impact": 3,
+   "topic": "gavel",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-06T12:49:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/government/us-judge-blocks-trump-policy-fining-migrants-up-18-million-2026-10-06/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 3
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-06-russia-tells-who-no-plague-irkutsk",
+   "section": "health",
+   "text": "Russia told the WHO no plague case has been recorded in Irkutsk and that the dead lab worker's contacts tested negative; about 60% have left quarantine.",
+   "detail": "WHO spokesperson Christian Lindmeier read Russia's official reply at a Geneva briefing Tuesday: \"No case of this dangerous disease has been recorded in the city of Irkutsk,\" and tests of everyone identified as a contact were negative for dangerous pathogens, Reuters reported. Rospotrebnadzor again said testing found no microorganisms linked to the 28-year-old Anti-Plague Institute technician's work, and a Shelekhov district official said about 60% of those quarantined have been released. Russia's reply did not say whether plague was ruled out in the worker herself, whom officials say died Oct. 2 of pneumonia of unknown cause. Secretary of State Marco Rubio said Tuesday that Russia should share more information and that Washington is watching \"hour by hour\"; the WHO still rates the risk to the general public as low.",
+   "why": "Russia's first formal answer to the WHO points away from an outbreak, but it still does not say what killed the lab worker.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-06T06:51:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.telegraphindia.com/world/russia-rules-out-plague-among-contacts-of-dead-lab-worker-as-most-quarantine-patients-are-released/cid/2183414"
+  },
+  {
+   "id": "2026-10-06-evernorth-xrpn-delay",
+   "section": "finance",
+   "text": "Evernorth said an administrative delay moved the expected Armada II deal close to about Oct. 9 and XRPN's Nasdaq debut to about Oct. 12.",
+   "detail": "In an Oct. 6 SEC Form 8-K, Evernorth Holdings said the delay is not expected to affect the closing. Closing remains subject to customary conditions, and Nasdaq trading of Class A shares under ticker XRPN depends on those conditions and listing requirements. The prior schedule had called for a close about Oct. 7 and trading about Oct. 8. Armada II shareholders approved the business combination on Sept. 30.",
+   "why": "Pushes back a closely watched XRP-treasury SPAC close and Nasdaq listing by a few days; dates are still estimates.",
+   "impact": 2,
+   "topic": "coin",
+   "region": "US",
+   "time": "2026-10-06T12:00:00-04:00",
+   "time_known": false,
+   "source": "Evernorth / SEC Form 8-K",
+   "url": "http://archive.fast-edgar.com/20261006/A32Z762GZC2R6ZZK222Q2ZYK8UHRZZ22Z882/"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-05-scotus-long-conference-orders",
+   "section": "news",
+   "text": "The Supreme Court opened its new term by turning away hundreds of appeals, including Second Amendment, COVID vaccine-mandate and \"Let's Go Brandon\" cases.",
+   "detail": "Monday's order list from the justices' Sept. 28 long conference denied review in United States v. Hembree, leaving in place a 5th Circuit ruling that the federal felon-in-possession gun ban was unconstitutional as applied to a man whose prior felony was meth possession. The Court also denied two challenges to Washington state COVID-19 vaccine mandates (Petersen v. Snohomish Regional Fire and Rescue; Roberts v. Ferguson) and left in place a 6th Circuit ruling letting a Michigan school bar \"Let's Go Brandon\" sweatshirts. In Mullin v. National TPS Alliance, it sent the Venezuelan and Haitian Temporary Protected Status case back to the 9th Circuit in light of its June ruling in Mullin v. Doe, and it asked the Solicitor General for views in three mortgage-escrow interest cases. The Court heard its first argument of the term, Suncor Energy v. Boulder County, on whether federal law bars state climate-damage suits against oil companies.",
+   "why": "Denials leave lower-court rulings on gun rights, vaccine mandates and student speech in force for now.",
+   "impact": 4,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-05T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/100526zor_2a34.pdf"
+  },
+  {
+   "id": "2026-10-06-on-peace-tanker-12-injured",
+   "section": "news",
+   "text": "Twelve sailors were injured when a projectile hit the tanker On Peace in the Strait of Hormuz, India's foreign ministry said.",
+   "detail": "India said 12 of the Panama-flagged tanker's 19 crew were hurt, 11 of them Indian, and Oman helped evacuate them to Khasab for treatment. India did not say who carried out the attack. The ship appears to be the tanker UKMTO reported hit Monday evening with an engine-room fire, though that has not been formally confirmed.",
+   "why": "It is the first report of serious crew injuries in the latest wave of Hormuz tanker attacks.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-06T12:00:00-04:00",
+   "time_known": false,
+   "source": "gCaptain, citing India's Ministry of External Affairs",
+   "url": "https://gcaptain.com/a-dozen-seafarers-injured-in-strait-of-hormuz-tanker-attack-india-says/"
+  },
+  {
+   "id": "2026-10-06-eia-oil-output-forecast",
+   "section": "money",
+   "text": "World oil production will fall about 5 million barrels a day this year because of the Iran war, the Energy Information Administration projected.",
+   "detail": "In its Oct. 6 Short-Term Energy Outlook, EIA projected world petroleum production falling from a record 106.3 million barrels a day in 2025 to 101.1 million in 2026, and world demand falling from 104.4 million to 102.4 million. The G7 agreed Friday to release 100 million barrels of diesel and crude from emergency reserves.",
+   "why": "The government's own forecast shows how much the war is cutting global supply, which feeds fuel prices and inflation.",
+   "impact": 3,
+   "topic": "energy",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-10-06T12:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters (via U.S. News)",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-06/oil-prices-stable-as-market-weighs-supply-risks-rising-middle-east-exports"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-07",
+   "when": "2:00 p.m. ET",
+   "text": "FOMC meeting minutes from the Sept. 15–16 meeting, 2:00 p.m. ET.",
+   "tags": [
+    "markets"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-07",
+   "when": "Oct 7–8",
+   "text": "TOKEN2049 Singapore at Marina Bay Sands (crypto industry conference).",
+   "buzz": true,
+   "tags": [
+    "crypto"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "when": "1:00 p.m. ET",
+   "text": "Treasury auctions $39 billion in 10-year notes (reopening), 1:00 p.m. ET.",
+   "detail": "Comes days after the 10-year yield touched its highest level since 2002; demand at the auction is a direct read on appetite for long-term U.S. debt.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

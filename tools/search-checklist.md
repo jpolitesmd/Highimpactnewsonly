@@ -13,11 +13,12 @@ naming the source or search that would have caught it. Keep it to 20 lines or fe
 - Upcoming money calendar: check upcoming.json for same-day buzz:true or markets-tagged official releases (jobs, CPI, PPI, GDP/PCE, FOMC minutes/decision); once BLS/Fed/wire numbers are out, write the money story — do not invent outcomes before the event. [seed, 2026-10-01]
 - Crypto / SEC: prefer section:"finance" (Money → Crypto subtab) with crypto tags for SEC crypto rules and major crypto market-structure stories; ISO20022 items still use finance. Check SEC.gov crypto/digital-asset releases same day. [seed, 2026-10-02]
 - Pneumonic plague Ongoing (thread `pneumonic-plague`): later editions should update when a new confirmed case count, death, or official action lands (CDC/WHO/health-dept or major wire only; do not invent). [seed, 2026-10-04]
+- Federal district courts: search Reuters legal / The Hill court-battles for "judge blocks" + today's date; rulings halting nationwide Trump policies (immigration fines, rules) are Government impact 3 even when the order is dated days earlier and only reported today. Missed 2026-10-05: Boston judge stayed DHS fines up to $1.8M on migrants (100k+ fines, $84B). [audit 2026-10-05]
 
 ## Morning task
 - Policies taking effect today: search "takes effect [today's date]" and "effective [today's date]" (tariffs, import bans, rules). Missed 2026-09-29: U.S. ban on Canadian alcohol, whey and motorcycles took effect 12:01 a.m. [seed, 2026-09-29]
 - Final rules and executive actions: check https://www.federalregister.gov/public-inspection/current for final rules published today; also search "final rule [today's date]" plus agency news pages (transportation.gov, epa.gov). Missed 2026-09-29: Title IX rule; CAFE fuel-economy rule. [seed, 2026-09-29]
-- Monday Oct 5 morning must include the pneumonic plague story (`2026-10-04-irkutsk-plague-lab-death` / thread `pneumonic-plague`); do not drop for impact. [seed, 2026-10-04]
+- Overnight foreign election results: check upcoming.json and search "[country/province] election results" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Québécois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]
 
 ## Evening task
 - Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window — emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]

@@ -23,6 +23,8 @@ Hard limits for every research run. Beats are fill-in-the-blank (low judgment); 
 
 No separate weekend edition. Saturday and Sunday use the same morning and evening path as weekdays. Do not run `edition.py weekend`.
 
+Before dispatching beats, read `tools/x-leads.md` as a candidate list from the X big-story scan; still verify each item and link only its original primary or wire source, never X.
+
 ## Parallel beat bots (exact list)
 
 Dispatch these **in parallel** each research run. Each returns zero or more candidate stories in the beat contract below.

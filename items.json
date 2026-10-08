@@ -1,6 +1,24 @@
 {
- "updated": "2026-10-08T08:18:38-04:00",
+ "updated": "2026-10-08T11:28:42-04:00",
  "items": [
+  {
+   "id": "2026-10-08-it-firms-suspended-us-worker-discrimination",
+   "section": "news",
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "text": "Microsoft, Adobe and six major IT outsourcing firms were suspended from the Labor Department program employers use to sponsor foreign workers for green cards.",
+   "detail": "Vice President JD Vance announced the move Thursday at a White House Fraud Task Force news conference, citing alleged fraud, and said that for every worker Microsoft laid off it hired \"one and a half foreign indentured servants.\" Labor Secretary Keith Sonderling said the department is suspending Cognizant, Infosys, Tata, Wipro, HCL and Capgemini from the Permanent Labor Certification (PERM) program, the required step before an employer can sponsor a worker, including H-1B visa holders, for a green card, and is suspending Microsoft and Adobe because of multiple active federal investigations. Officials gave no end date. Sonderling also said nine universities, including Harvard, Yale and Stanford, will be investigated over allegedly bringing in international students to undercut American wages; Labor Inspector General Anthony D'Esposito said subpoenas had been served. Microsoft did not immediately comment.",
+   "why": "Freezes a key step toward green cards for foreign workers at eight large tech employers as the administration targets alleged abuse of work-visa programs.",
+   "impact": 3,
+   "time": "2026-10-08T10:37:00-04:00",
+   "time_known": false,
+   "source": "AP; Reuters",
+   "url": "https://apnews.com/article/h1b-visa-program-vance-microsoft-e7b3a407f822702b269ee277d21343ea",
+   "added_at": "2026-10-08T11:28:42-04:00"
+  },
   {
    "id": "2026-10-08-russia-denies-second-irkutsk-case",
    "section": "health",

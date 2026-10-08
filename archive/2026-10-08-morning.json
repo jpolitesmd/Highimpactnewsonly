@@ -1,0 +1,249 @@
+{
+ "date": "2026-10-08",
+ "edition": "morning",
+ "subject": "Thursday, Oct 8 - Morning edition",
+ "published": "2026-10-08T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-08-hurricane-isaias-warnings",
+   "section": "news",
+   "text": "Isaias became the Atlantic season's first hurricane, and hurricane warnings now cover the coast from Mississippi to the Florida Panhandle.",
+   "detail": "At 5 a.m. ET Thursday, NOAA Hurricane Hunters put Isaias's top sustained winds at 80 mph, about 420 miles south-southwest of the mouth of the Mississippi River, moving east-northeast at 9 mph. A hurricane warning covers Ocean Springs, Miss., to the Bay/Gulf County line in Florida, and a storm surge warning runs from the mouth of the Mississippi to the Steinhatchee River, with 5 to 7 feet of surge possible from Ocean Springs to Indian Pass and in Mobile Bay. The National Hurricane Center expects 3 to 7 inches of rain, up to 10 in spots, from southeast Louisiana to the Panhandle, and says Isaias should be a strong hurricane by landfall late Friday or early Saturday.",
+   "why": "Coastal Mississippi, Alabama and the Florida Panhandle have about a day and a half to finish preparing, and flooding rain could reach inland.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-08T05:00:00-04:00",
+   "time_known": true,
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT4+shtml/"
+  },
+  {
+   "id": "2026-10-08-oil-brent-104",
+   "section": "money",
+   "text": "Oil prices jumped about 4%, with Brent crude near $104 a barrel, on Gulf tanker attacks and Gulf of Mexico shutdowns ahead of Hurricane Isaias.",
+   "detail": "Brent, the international benchmark, rose 3.8% to about $104 a barrel in early Thursday trading. Tanker attacks tied to the Iran war are at their highest of the conflict, and Shell and Chevron said they were shutting in Gulf of Mexico production as Isaias approaches. The 10-year Treasury yield rose 5 basis points to 5.331%, and Japan's Nikkei fell 1.4%. Prices were from early trading and can move during the day.",
+   "why": "Higher oil and bond yields feed into fuel, shipping and borrowing costs.",
+   "impact": 3,
+   "topic": "markets",
+   "region": "US",
+   "time": "2026-10-08T04:44:00-04:00",
+   "time_known": true,
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat"
+  },
+  {
+   "id": "2026-10-07-houthi-saudi-airports-deaths",
+   "section": "news",
+   "text": "Houthi attacks on airports in Riyadh and Abha killed three people and wounded 36, Saudi Arabia said; the Saudi-led coalition then struck 82 Houthi targets.",
+   "detail": "Saudi Arabia's civil aviation authority said Abha International Airport and Riyadh's King Khalid International Airport were attacked on Oct. 6 and 7; an Egyptian and an Algerian were killed at Abha and a Sudanese national in Riyadh. The Houthis said they fired a ballistic missile at the Riyadh airport, their second claimed attack on it this week; the coalition said that missile was intercepted. The coalition said it then destroyed 82 military targets, including mountain missile sites and command centers, AFP reported.",
+   "why": "The Yemen fighting is now killing people at the Saudi capital's main airport and drawing large Saudi airstrikes.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-07T18:00:00-04:00",
+   "time_known": false,
+   "source": "AFP (via The Straits Times)",
+   "url": "https://www.straitstimes.com/world/middle-east/saudi-arabia-says-three-dead-at-airports-after-houthis-claim-attacks"
+  },
+  {
+   "id": "2026-10-07-dnc-sues-taxpayer-funded-ads",
+   "section": "news",
+   "text": "The Democratic National Committee sued the Trump administration over $20 million in taxpayer-funded TV ads it calls illegal pro-Trump propaganda.",
+   "detail": "The complaint, filed Wednesday in U.S. District Court in Washington, names President Trump, the White House, Homeland Security and the Office of Management and Budget, and asks the court to declare the ads illegal and stop federal money from paying for them. The ads, marked 'Paid for by the U.S. Government,' began airing in September; $20 million has been drawn from a $175 million DHS immigration-enforcement fund, and more than $12 million had been spent so far, AP reported, citing AdImpact. No ruling yet.",
+   "why": "A court test of whether federal money can pay for ads praising the president weeks before the midterms.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-07T17:11:00-04:00",
+   "time_known": false,
+   "source": "DNC complaint; AP",
+   "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/DNC-sues-white-house-trump-taxpayer-funded-campaign-ads.pdf"
+  },
+  {
+   "id": "2026-10-07-texas-executes-jamaal-howard",
+   "section": "news",
+   "text": "Texas executed Jamaal Howard, the first U.S. execution since Tennessee's failed lethal injection of Christa Pike a week earlier.",
+   "detail": "Howard, 46, was pronounced dead at 8:03 p.m. CT Wednesday in Huntsville after a dose of pentobarbital, the same drug used on Pike. He was convicted of killing store clerk Vickie Swartout in a 2000 robbery. The Supreme Court denied his requests to stop the execution; only Justice Jackson said she would grant a stay. AP said it was the 30th U.S. execution this year.",
+   "why": "Executions are going ahead with pentobarbital despite the Pike failure.",
+   "impact": 2,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-07T21:03:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/texas-execution-jamaal-howard-feb0077b1cbf42e2fd49464da30fcb33"
+  },
+  {
+   "id": "2026-10-07-isaias-hurricane-watch-gulf-coast",
+   "section": "news",
+   "text": "Tropical Storm Isaias put the northern Gulf Coast under a hurricane watch, with forecasters warning it could hit as a major hurricane late Friday.",
+   "detail": "The National Hurricane Center's hurricane watch runs from Bay St. Louis, Mississippi, to Indian Pass on the Florida Panhandle, with a storm surge watch from the mouth of the Mississippi River to Yankeetown, Fla., and tropical storm watches on either side. As of 1 p.m. CDT, Hurricane Hunters found Isaias strengthening, with 50 mph winds about 520 miles south-southwest of the mouth of the Mississippi, moving east-northeast at 8 mph. NHC director Michael Brennan said it could reach Category 3 before landfall late Friday or early Saturday. Florida declared a state of emergency for more than a third of its counties, and producers shut in a significant share of Gulf offshore oil and gas output, AP reported.",
+   "why": "Coastal residents from Louisiana to Florida's Big Bend now have formal watches, with energy output and weekend travel already affected.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-07T15:26:00-04:00",
+   "time_known": true,
+   "source": "National Hurricane Center / AP",
+   "url": "https://apnews.com/article/tropical-storm-isaias-gulf-atlantic-440bdecf97a5340547ca3ad291b361df"
+  },
+  {
+   "id": "2026-10-07-ukraine-strike-toll-30",
+   "section": "news",
+   "text": "Russia's overnight attack on Ukraine killed at least 30 people, up from 11 this morning, including 19 in a Pryluky apartment building.",
+   "detail": "A Russian cruise missile hit a residential building in Pryluky, Chernihiv region, killing 19 people, five of them children, and injuring 55, Ukraine's emergency service said as rescuers kept searching the rubble. Authorities count at least 30 dead and 138 injured across Ukraine over the past day, including three in Kyiv and two each in Kremenchuk, Kirovohrad and Sumy regions. Ukraine's Air Force said Russia fired ballistic missiles, 48 cruise missiles (39 stopped) and 130 drones (117 stopped).",
+   "why": "The toll nearly tripled during the day, making it the deadliest Russian strike on Ukraine in about a month.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-07T09:21:00-04:00",
+   "time_known": false,
+   "source": "Kyiv Independent (Ukrainian State Emergency Service)",
+   "url": "https://kyivindependent.com/russian-attacks-kill-at-least-24-injure-more-than-130-over-past-day-rescue-efforts-continue-in-pryluky/"
+  },
+  {
+   "id": "2026-10-07-russia-mass-strike-ukraine",
+   "section": "news",
+   "text": "Russia's overnight missile and drone attack on Ukraine killed at least 11 people, including five in a Pryluky apartment building, Ukraine's president said.",
+   "detail": "President Volodymyr Zelenskyy said Russia fired about 70 missiles, many of them ballistic, plus attack drones at Kyiv and at least 12 regions, with energy infrastructure a key target. A missile hit a five-story apartment building in Pryluky, in the Chernihiv region, killing five and injuring 26, including five children. Two people were killed in Kyiv and two in Oleksandriia, and apartment buildings were damaged in Dnipro and Kremenchuk. The attack came on Vladimir Putin's 74th birthday. Separately, Russian officials said they intercepted almost 900 Ukrainian drones overnight.",
+   "why": "It is one of the deadliest Russian barrages in weeks and again targets Ukraine's power grid ahead of winter.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-07T03:00:00-04:00",
+   "time_known": false,
+   "source": "ABC News (Reuters)",
+   "url": "https://abcnews.com/International/russia-hits-ukrainian-apartment-buildings-deadly-overnight-strike/story?id=137058213"
+  },
+  {
+   "id": "2026-10-07-tanker-acers-hit-off-qatar",
+   "section": "news",
+   "text": "The tanker Acers was hit by multiple projectiles about 50 nautical miles north of Qatar, with casualties, Britain's UKMTO said.",
+   "detail": "UKMTO said the master reported the strike at about 3 p.m. ET Wednesday, about 50 nautical miles north of Madinat ash Shamal, Qatar; it gave no casualty count. Maritime security firm Vanguard Tech identified the ship as the Antigua-flagged, Greek-managed tanker Acers. It is the first reported tanker attack in the western Gulf in weeks, far from the Strait of Hormuz.",
+   "why": "Tanker attacks are spreading beyond Hormuz into Gulf waters off Qatar, Saudi Arabia and Kuwait.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-07T15:00:00-04:00",
+   "time_known": true,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/-/media/ukmto/products/20261007-ukmto_warning_158-26.pdf?rev=3df160b409f54ef4bedbbd2c0ac535fc"
+  },
+  {
+   "id": "2026-10-07-hud-wells-fargo-probe",
+   "section": "money",
+   "text": "Wells Fargo's programs to raise Black homeownership are under a Fair Housing Act investigation by HUD.",
+   "detail": "HUD Secretary Scott Turner announced the probe Oct. 7, and HUD sent a letter to Wells Fargo CEO Charlie Scharf saying it will examine whether the bank offered different products or terms based on race. The programs date to the bank's 2017 pledge of $60 billion in loans to add 250,000 Black homeowners by 2027, expanded in 2022 to refinancing for minority homeowners. Findings could lead to charges or a Justice Department referral; this is an investigation, not a finding.",
+   "why": "A federal civil-rights probe of one of the largest U.S. mortgage lenders over race-focused lending.",
+   "impact": 3,
+   "topic": "banks",
+   "region": "US",
+   "time": "2026-10-07T14:06:00-04:00",
+   "time_known": true,
+   "source": "U.S. Department of Housing and Urban Development",
+   "url": "https://www.hud.gov/news/hud-no-26-081"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-07-pa-measles-1078",
+   "section": "health",
+   "text": "Pennsylvania's measles outbreak reached 1,078 cases in 41 counties this year, with 207 hospitalizations and five deaths, the state health department said.",
+   "detail": "The Oct. 7 update added 74 cases since Oct. 5; the department said more than 40 of them were people who got sick more than two weeks earlier and were reported late. Four cases were in vaccinated people. Statewide MMR doses rose from about 25,000 in a typical month to more than 56,000 in September.",
+   "why": "One of the largest U.S. measles outbreaks in years, with five deaths.",
+   "impact": 3,
+   "topic": "measles",
+   "region": "US",
+   "time": "2026-10-07T12:00:00-04:00",
+   "time_known": false,
+   "source": "Pennsylvania Department of Health",
+   "url": "https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out9"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-06-bulgaria-black-sea-ships-drones",
+   "section": "news",
+   "text": "Drones sank one merchant ship and set another on fire inside Bulgaria's Black Sea economic zone, Bulgaria said; the sunken ship's crew is missing.",
+   "detail": "Sea and air drones hit the two ships about 70 nautical miles east of Byala early Tuesday local time. The Togo-flagged, Turkish-owned Alfa Watan sank and its crew is unaccounted for. The Palau-flagged Able, carrying wheat, caught fire; all 18 crew were rescued and taken to Varna, and one is in critical condition with severe burns. Prime Minister Rumen Radev called the attack \"absolutely unacceptable\" and said the drones were \"clearly either Russian or Ukrainian\"; who launched them has not been established. Bulgaria is in contact with NATO, and President Iliana Iotova called a national security council meeting for Wednesday.",
+   "why": "A ship was sunk inside a NATO member's waters, spreading the war's shipping risk to the western Black Sea and the grain trade.",
+   "impact": 4,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-06T06:00:00-04:00",
+   "time_known": false,
+   "source": "BTA (Bulgarian News Agency)",
+   "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgaria-s-exclusive-economic-zone-prompts"
+  },
+  {
+   "id": "2026-10-06-ukraine-drones-moscow",
+   "section": "news",
+   "text": "Ukraine launched about 650 drones at Moscow overnight, killing two people in one of the largest attacks on the Russian capital in two years, Russian officials said.",
+   "detail": "Moscow Mayor Sergei Sobyanin said most of the drones were shot down, 105 of them close to the city. Moscow region Gov. Andrei Vorobyov said one person died in Radumlya and one in Barybino, and a drone set a retail warehouse on fire in Litvinovo. Reports put the injured at six to nine. The 650 figure comes from Russian officials; Ukraine has not confirmed it. Russia's Defense Ministry said it struck Ukraine's Black Sea ports of Chornomorsk and Izmail overnight.",
+   "why": "It is a major escalation of Ukraine's long-range strikes on Russia's capital.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-06T02:11:00-04:00",
+   "source": "France 24 (AFP, Reuters, AP)",
+   "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say"
+  },
+  {
+   "id": "2026-10-05-scotus-long-conference-orders",
+   "section": "news",
+   "text": "The Supreme Court opened its new term by turning away hundreds of appeals, including Second Amendment, COVID vaccine-mandate and \"Let's Go Brandon\" cases.",
+   "detail": "Monday's order list from the justices' Sept. 28 long conference denied review in United States v. Hembree, leaving in place a 5th Circuit ruling that the federal felon-in-possession gun ban was unconstitutional as applied to a man whose prior felony was meth possession. The Court also denied two challenges to Washington state COVID-19 vaccine mandates (Petersen v. Snohomish Regional Fire and Rescue; Roberts v. Ferguson) and left in place a 6th Circuit ruling letting a Michigan school bar \"Let's Go Brandon\" sweatshirts. In Mullin v. National TPS Alliance, it sent the Venezuelan and Haitian Temporary Protected Status case back to the 9th Circuit in light of its June ruling in Mullin v. Doe, and it asked the Solicitor General for views in three mortgage-escrow interest cases. The Court heard its first argument of the term, Suncor Energy v. Boulder County, on whether federal law bars state climate-damage suits against oil companies.",
+   "why": "Denials leave lower-court rulings on gun rights, vaccine mandates and student speech in force for now.",
+   "impact": 4,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-05T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/100526zor_2a34.pdf"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-08",
+   "when": "1:00 p.m. ET",
+   "text": "Treasury auctions $22 billion in 30-year bonds (reopening), 1:00 p.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "when": "Expected",
+   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC), pushed from Oct. 7.",
+   "detail": "An Oct. 6 SEC filing says an administrative delay moved the expected closing to on or about Oct. 9, with Nasdaq trading as XRPN on or about Oct. 12. The company says the delay is not expected to affect the closing, which still depends on customary conditions.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "when": "Before the open",
+   "text": "Delta Air Lines reports September-quarter results; earnings call 10:00 a.m. ET.",
+   "detail": "Usually the first big U.S. airline to report, and the first look at how higher jet fuel prices hit the quarter.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

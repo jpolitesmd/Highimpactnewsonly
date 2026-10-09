@@ -1,23 +1,11 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "events": [
     {
-      "date": "2026-10-08",
-      "when": "1:00 p.m. ET",
-      "text": "Treasury auctions $22 billion in 30-year bonds (reopening), 1:00 p.m. ET.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
       "date": "2026-10-09",
-      "when": "Expected",
-      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC), pushed from Oct. 7.",
-      "detail": "An Oct. 6 SEC filing says an administrative delay moved the expected closing to on or about Oct. 9, with Nasdaq trading as XRPN on or about Oct. 12. The company says the delay is not expected to affect the closing, which still depends on customary conditions.",
-      "buzz": true,
+      "when": "10:00 a.m. ET",
+      "text": "University of Michigan preliminary October consumer sentiment, 10:00 a.m. ET.",
       "tags": [
-        "crypto",
         "markets"
       ]
     },
@@ -33,9 +21,12 @@
     },
     {
       "date": "2026-10-09",
-      "when": "10:00 a.m. ET",
-      "text": "University of Michigan preliminary October consumer sentiment, 10:00 a.m. ET.",
+      "when": "Expected",
+      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC), pushed from Oct. 7.",
+      "detail": "An Oct. 6 SEC filing says an administrative delay moved the expected closing to on or about Oct. 9, with Nasdaq trading as XRPN on or about Oct. 12. The company says the delay is not expected to affect the closing, which still depends on customary conditions.",
+      "buzz": true,
       "tags": [
+        "crypto",
         "markets"
       ]
     },
@@ -67,10 +58,20 @@
       ]
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-13",
       "when": "Before the open",
-      "text": "Bank of America and Morgan Stanley report third-quarter results, the second day of big-bank earnings.",
-      "detail": "Bank of America releases results about 6:45 a.m. ET with an 8:30 a.m. ET call, per the bank; Morgan Stanley reports before the open with a 9:30 a.m. ET call.",
+      "text": "Johnson & Johnson reports third-quarter results; investor call 8:30 a.m. ET.",
+      "detail": "Press release expected about 6:45 a.m. ET, per the company’s Aug. 31 notice.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "when": "Before the open",
+      "text": "UnitedHealth Group reports third-quarter results before the open; call 8:00 a.m. ET.",
+      "detail": "Date and time per the company’s Sept. 15 release; webcast on unitedhealthgroup.com.",
       "buzz": true,
       "tags": [
         "markets"
@@ -86,6 +87,16 @@
       "date": "2026-10-14",
       "when": "8:30 a.m. ET",
       "text": "September inflation (CPI) report, 8:30 a.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "when": "Before the open",
+      "text": "Bank of America and Morgan Stanley report third-quarter results, the second day of big-bank earnings.",
+      "detail": "Bank of America releases results about 6:45 a.m. ET with an 8:30 a.m. ET call, per the bank; Morgan Stanley reports before the open with a 9:30 a.m. ET call.",
       "buzz": true,
       "tags": [
         "markets"
@@ -152,6 +163,26 @@
       "date": "2026-10-28",
       "when": "2:00 p.m. ET",
       "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "when": "After the close",
+      "text": "Alphabet reports third-quarter results; earnings call 4:30 p.m. ET.",
+      "detail": "Date and call time per Alphabet’s Q3 2026 results conference-call notice.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "when": "After the close",
+      "text": "Microsoft reports fiscal first-quarter results after the close; call 5:30 p.m. ET.",
+      "detail": "Date and webcast time per Microsoft’s Oct. 7 announcement (2:30 p.m. Pacific).",
       "buzz": true,
       "tags": [
         "markets"

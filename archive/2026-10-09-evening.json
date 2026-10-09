@@ -1,0 +1,126 @@
+{
+ "date": "2026-10-09",
+ "edition": "evening",
+ "subject": "Friday, Oct 9 - Evening edition",
+ "published": "2026-10-09T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-09-isaias-major-hurricane",
+   "section": "news",
+   "text": "Hurricane Isaias strengthened to a Category 3 major hurricane with 120 mph winds hours before an expected Friday-night landfall on the northern Gulf Coast.",
+   "detail": "The National Hurricane Center's 1 p.m. CDT advisory put the center about 240 miles south of Pensacola earlier in the day, moving north-northeast at 16 mph, with tropical-storm conditions already starting on the coast. Landfall is expected this evening in the warning area, with weakening after landfall.",
+   "why": "The season's first major U.S. hurricane landfall threat, with life-threatening surge.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-09T14:00:00-04:00",
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.public_a.012.shtml"
+  },
+  {
+   "id": "2026-10-09-us-sanctions-icc",
+   "section": "news",
+   "text": "The International Criminal Court itself was put under U.S. sanctions, blocking its U.S.-linked assets and barring most American dealings with it.",
+   "detail": "Treasury's OFAC added the court to its blocked-persons list Oct. 9 under Executive Order 14203, announced alongside a State Department release. General licenses allow a wind-down through April 7, 2027, and carve out telecom and software services, pensions, and services tied to detainees.",
+   "why": "A first-ever sanction on the whole court, not just its officials.",
+   "impact": 4,
+   "topic": "government",
+   "region": "US",
+   "time": "2026-10-09T11:00:00-04:00",
+   "source": "U.S. Treasury OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20261009"
+  },
+  {
+   "id": "2026-10-09-flydubai-uae-ag-plot-findings",
+   "section": "news",
+   "text": "The UAE attorney general said the Flydubai co-pilot planned to crash FZ1073 into Ben Gurion Airport's passenger terminal in a suicide attack.",
+   "detail": "In a statement carried Friday by the UAE state news agency WAM, Attorney General Hamad Saif Al Shamsi said investigators found the 29-year-old Omani co-pilot had developed a premeditated plot to seize the aircraft and strike the terminal to cause the greatest possible loss of life, and had used two earlier Tel Aviv trips to study the route and airport. He said the suspect confessed in the presence of his lawyer and claimed he acted alone, while investigators keep checking for accomplices or other links. A pilot assigned to the return flight entered the cockpit, restrained the co-pilot with a cabin crew member and passengers, and the crew landed in Tabuk, Saudi Arabia. Flydubai said it is supporting the investigation. No charges have been announced.",
+   "why": "This is the UAE's first official account of the intended target and the plot behind the Sept. 30 attack.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-09T12:00:00-04:00",
+   "time_known": false,
+   "source": "UAE Attorney General (WAM)",
+   "url": "https://www.arnnewscentre.ae/en/news/uae/uae-investigation-updates-reveal-motives-of-flydubai-co-pilots-attack/"
+  },
+  {
+   "id": "2026-10-09-tanker-struck-off-uae",
+   "section": "news",
+   "text": "A fully loaded crude supertanker was hit by an unknown projectile off the UAE coast, outside the Strait of Hormuz, UKMTO said.",
+   "detail": "The strike about 13 nautical miles west of Al Jazeera, UAE, set a fire that was put out; crew status and damage were unknown. Shipping sources named the Panama-flagged GEM NO.2. It follows a tanker strike off Qatar earlier this week.",
+   "why": "Attacks on Gulf shipping are spreading beyond Hormuz.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-09T06:00:00-04:00",
+   "source": "Reuters (via Al Arabiya)",
+   "url": "https://english.alarabiya.net/News/gulf/2026/10/09/vessel-struck-by-unknown-projectile-off-uae-coast-ukmto-says"
+  },
+  {
+   "id": "2026-10-09-nobel-peace-navi-pillay",
+   "section": "news",
+   "text": "The Nobel Peace Prize went to Navi Pillay, the South African jurist and former U.N. human rights chief, for promoting peace and international law.",
+   "detail": "The Norwegian Nobel Committee cited her role in ensuring war crimes, crimes against humanity and genocide are prosecuted. The prize, worth 12 million Swedish crowns, will be presented in Oslo on Dec. 10.",
+   "why": "The world's best-known prize this year backs international courts.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-09T05:00:00-04:00",
+   "source": "Norwegian Nobel Committee",
+   "url": "https://www.nobelpeaceprize.org/press/press-releases/nobel-peace-prize-for-2026"
+  },
+  {
+   "id": "2026-10-09-ice-shooting-manhattan-mamdani",
+   "section": "news",
+   "text": "An ICE officer shot a man in his car with a 5-year-old in the back seat in Manhattan, and Mayor Zohran Mamdani demanded ICE halt city operations.",
+   "detail": "The Dominican man, identified as Oscar Belgal, was wounded in the neck during an arrest Oct. 8 in Marble Hill and is held outside New York state. Homeland Security Secretary Markwayne Mullin said officers did not know the child was in the car and criticized the city's sanctuary policies.",
+   "why": "A sharp new clash between New York City and federal immigration agents.",
+   "impact": 2,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-09T12:00:00-04:00",
+   "source": "AP",
+   "url": "https://apnews.com/live/trump-politics-midterm-elections-news-updates-10-09-2026"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-09",
+   "when": "10:00 a.m. ET",
+   "text": "University of Michigan preliminary October consumer sentiment, 10:00 a.m. ET.",
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "when": "Before the open",
+   "text": "Delta Air Lines reports September-quarter results; earnings call 10:00 a.m. ET.",
+   "detail": "Usually the first big U.S. airline to report, and the first look at how higher jet fuel prices hit the quarter.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "when": "Expected",
+   "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC), pushed from Oct. 7.",
+   "detail": "An Oct. 6 SEC filing says an administrative delay moved the expected closing to on or about Oct. 9, with Nasdaq trading as XRPN on or about Oct. 12. The company says the delay is not expected to affect the closing, which still depends on customary conditions.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  }
+ ]
+}

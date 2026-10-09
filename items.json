@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T15:40:00-04:00",
+  "updated": "2026-10-09T16:50:00-04:00",
   "items": [
     {
       "id": "2026-10-09-cornell-petition-remove-james",
@@ -3008,6 +3008,96 @@
       "source": "N.C. Department of Administration",
       "url": "https://www.doa.nc.gov/news/press-releases/2026/10/08/lowering-us-and-nc-flags-half-staff-honor-durham-firefighter-andrew-brokes",
       "added_at": "2026-10-09T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-09-us-sanctions-icc",
+      "section": "news",
+      "topic": "government",
+      "region": "US",
+      "impact": 4,
+      "time": "2026-10-09T11:00:00-04:00",
+      "text": "The International Criminal Court itself was put under U.S. sanctions, blocking its U.S.-linked assets and barring most American dealings with it.",
+      "detail": "Treasury's OFAC added the court to its blocked-persons list Oct. 9 under Executive Order 14203, announced alongside a State Department release. General licenses allow a wind-down through April 7, 2027, and carve out telecom and software services, pensions, and services tied to detainees.",
+      "why": "A first-ever sanction on the whole court, not just its officials.",
+      "source": "U.S. Treasury OFAC",
+      "url": "https://ofac.treasury.gov/recent-actions/20261009",
+      "added_at": "2026-10-09T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-09-trump-cook-committee-of-inquiry",
+      "section": "money",
+      "money_beat": "rates",
+      "topic": "whitehouse",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-07T12:00:00-04:00",
+      "time_known": false,
+      "text": "Fed Governor Lisa Cook will face a White House panel that will recommend whether President Trump has \"cause\" to fire her.",
+      "detail": "A presidential memorandum dated Oct. 7 and published this week names economic adviser Kevin Hassett, the EEOC chair and the acting Office of Government Ethics director to investigate mortgage-statement allegations. A closed, transcribed hearing of up to four hours is set for Nov. 5 at the White House; Cook may file a follow-up statement by Nov. 10.",
+      "why": "Sets a process for removing a sitting Fed governor after the Supreme Court's Trump v. Cook ruling.",
+      "source": "The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook/",
+      "added_at": "2026-10-09T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-09-isaias-major-hurricane",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "impact": 4,
+      "time": "2026-10-09T14:00:00-04:00",
+      "text": "Hurricane Isaias strengthened to a Category 3 major hurricane with 120 mph winds hours before an expected Friday-night landfall on the northern Gulf Coast.",
+      "detail": "The National Hurricane Center's 1 p.m. CDT advisory put the center about 240 miles south of Pensacola earlier in the day, moving north-northeast at 16 mph, with tropical-storm conditions already starting on the coast. Landfall is expected this evening in the warning area, with weakening after landfall.",
+      "why": "The season's first major U.S. hurricane landfall threat, with life-threatening surge.",
+      "source": "National Hurricane Center",
+      "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.public_a.012.shtml",
+      "added_at": "2026-10-09T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-09-nobel-peace-navi-pillay",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "africa",
+      "impact": 3,
+      "time": "2026-10-09T05:00:00-04:00",
+      "text": "The Nobel Peace Prize went to Navi Pillay, the South African jurist and former U.N. human rights chief, for promoting peace and international law.",
+      "detail": "The Norwegian Nobel Committee cited her role in ensuring war crimes, crimes against humanity and genocide are prosecuted. The prize, worth 12 million Swedish crowns, will be presented in Oslo on Dec. 10.",
+      "why": "The world's best-known prize this year backs international courts.",
+      "source": "Norwegian Nobel Committee",
+      "url": "https://www.nobelpeaceprize.org/press/press-releases/nobel-peace-prize-for-2026",
+      "added_at": "2026-10-09T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-09-tanker-struck-off-uae",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-09T06:00:00-04:00",
+      "text": "A fully loaded crude supertanker was hit by an unknown projectile off the UAE coast, outside the Strait of Hormuz, UKMTO said.",
+      "detail": "The strike about 13 nautical miles west of Al Jazeera, UAE, set a fire that was put out; crew status and damage were unknown. Shipping sources named the Panama-flagged GEM NO.2. It follows a tanker strike off Qatar earlier this week.",
+      "why": "Attacks on Gulf shipping are spreading beyond Hormuz.",
+      "source": "Reuters (via Al Arabiya)",
+      "url": "https://english.alarabiya.net/News/gulf/2026/10/09/vessel-struck-by-unknown-projectile-off-uae-coast-ukmto-says",
+      "added_at": "2026-10-09T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-09-ice-shooting-manhattan-mamdani",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "thread": "deportations-courts",
+      "impact": 2,
+      "time": "2026-10-09T12:00:00-04:00",
+      "text": "An ICE officer shot a man in his car with a 5-year-old in the back seat in Manhattan, and Mayor Zohran Mamdani demanded ICE halt city operations.",
+      "detail": "The Dominican man, identified as Oscar Belgal, was wounded in the neck during an arrest Oct. 8 in Marble Hill and is held outside New York state. Homeland Security Secretary Markwayne Mullin said officers did not know the child was in the car and criticized the city's sanctuary policies.",
+      "why": "A sharp new clash between New York City and federal immigration agents.",
+      "source": "AP",
+      "url": "https://apnews.com/live/trump-politics-midterm-elections-news-updates-10-09-2026",
+      "added_at": "2026-10-09T16:50:00-04:00"
     }
   ]
 }

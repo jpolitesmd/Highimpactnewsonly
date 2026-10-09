@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T11:28:42-04:00",
+ "updated": "2026-10-09T05:55:00-04:00",
  "items": [
   {
    "id": "2026-10-08-it-firms-suspended-us-worker-discrimination",
@@ -2884,6 +2884,93 @@
    "source": "Anduril",
    "url": "https://www.anduril.com/news/anduril-u-s-navy-invest-usd6-6-billion-to-expand-america-s-submarine-industrial-base",
    "added_at": "2026-10-07T05:45:00-04:00"
+  },
+  {
+   "id": "2026-10-09-isaias-gulf-landfall-tonight",
+   "section": "news",
+   "topic": "disaster",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-10-08T22:00:00-04:00",
+   "text": "Hurricane Isaias, now packing 100 mph winds, is expected to hit the northern Gulf Coast late Friday or early Saturday, forecasters said.",
+   "detail": "The National Hurricane Center said Isaias could briefly reach major-hurricane strength early Friday before wind shear weakens it near landfall, most likely near the Alabama-Florida border. A life-threatening storm surge is forecast from the mouth of the Mississippi River to Suwannee, Fla., with hurricane warnings for parts of the Florida Panhandle, southern Alabama and southern Mississippi and up to 15 inches of rain in spots.",
+   "why": "Millions on the Gulf Coast face surge, flooding and long power outages this weekend.",
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.010.shtml",
+   "added_at": "2026-10-09T05:55:00-04:00"
+  },
+  {
+   "id": "2026-10-09-trump-no-iran-strikes-before-midterms",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "thread": "iran-war",
+   "impact": 4,
+   "time": "2026-10-08T12:17:00-04:00",
+   "text": "U.S. strikes on Iran will not resume before the Nov. 3 midterm elections, President Trump said, citing \"productive discussions\" with Tehran.",
+   "detail": "Trump said on Truth Social Thursday that the naval blockade of Iran stays in full force. The post reversed his comments the night before that he was weighing pre-election strikes; Brent crude rose above $104 a barrel Thursday.",
+   "why": "Sets the U.S. military posture in the Iran war for the next three-plus weeks.",
+   "source": "AP",
+   "url": "https://apnews.com/article/422b1799a1a06466279ac265f560e014",
+   "added_at": "2026-10-09T05:55:00-04:00"
+  },
+  {
+   "id": "2026-10-09-us-ukraine-miami-talks",
+   "section": "news",
+   "topic": "government",
+   "region": "US",
+   "thread": "russia-ukraine",
+   "impact": 3,
+   "time": "2026-10-09T03:14:00-04:00",
+   "text": "U.S. envoys Steve Witkoff and Jared Kushner meet Ukrainian officials in Miami Friday on a new joint proposal to end the war, the White House confirmed.",
+   "detail": "A broader session with national-security advisers from the U.K., France and Germany plus NATO, the EU and U.S. European Command is set for 11:30 a.m. ET. Overnight, Russia launched 136 drones at Ukraine, killing one person in Zaporizhzhia, while Russia said it downed 505 Ukrainian drones over 19 regions.",
+   "why": "The first major U.S.-led peace round in months, as strikes on both sides intensify.",
+   "source": "RFE/RL",
+   "url": "https://www.rferl.org/a/us-ukraine-talks-miami-russian-air-strikes/33873365.html",
+   "added_at": "2026-10-09T05:55:00-04:00"
+  },
+  {
+   "id": "2026-10-09-white-house-press-ban-order-extended",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-10-08T12:42:00-04:00",
+   "text": "CNN, MS NOW and Politico keep White House access through at least Tuesday after a federal judge extended his order blocking their ban.",
+   "detail": "U.S. District Judge Timothy Kelly said he will rule by Tuesday on a longer preliminary injunction. The outlets were barred from White House grounds nearly three weeks ago; their lawyer called it viewpoint discrimination.",
+   "why": "Tests how far the White House can exclude news outlets it dislikes.",
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-networks-media-ban-cnn-6459d3612a0a845a0cf1a093acafbe6f",
+   "added_at": "2026-10-09T05:55:00-04:00"
+  },
+  {
+   "id": "2026-10-09-royal-navy-sailor-russia-spy-charge",
+   "section": "news",
+   "topic": "security",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 2,
+   "time": "2026-10-08T08:49:00-04:00",
+   "text": "A Royal Navy intelligence sailor, Teddy Young, 24, was charged in London with preparing to pass protected information to Russia.",
+   "detail": "Prosecutors say he kept sensitive defense and intelligence material and used the dark web to try to contact Russian authorities during his first deployment. He was remanded in custody until an Oct. 16 Old Bailey hearing; police said the case is unrelated to the RAF Fairford alert.",
+   "why": "Another Russia espionage case inside a NATO military.",
+   "source": "AP",
+   "url": "https://apnews.com/article/94b0aed63437ec6c46023a0fea649aba",
+   "added_at": "2026-10-09T05:55:00-04:00"
+  },
+  {
+   "id": "2026-10-09-durham-firefighter-killed",
+   "section": "news",
+   "topic": "pulse",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-10-08T18:00:00-04:00",
+   "text": "Durham, N.C., firefighter Andrew Brokes, 24, was killed in a roof collapse while searching a burning home; Gov. Josh Stein ordered flags lowered.",
+   "detail": "Two other firefighters were hurt at the fire on Marly Drive on Oct. 8. Flags fly at half-staff across North Carolina on Oct. 9.",
+   "why": "A line-of-duty death that has drawn statewide mourning.",
+   "source": "N.C. Department of Administration",
+   "url": "https://www.doa.nc.gov/news/press-releases/2026/10/08/lowering-us-and-nc-flags-half-staff-honor-durham-firefighter-andrew-brokes",
+   "added_at": "2026-10-09T05:55:00-04:00"
   }
  ]
 }

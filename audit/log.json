@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-08",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -38,7 +38,7 @@
       ],
       "misrated": [],
       "checklist_changes": [
-        "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window — emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
+        "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window \u2014 emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
         "- Treasury/OFAC: when Iran wartime pressure is active, check home.treasury.gov press releases and ofac.treasury.gov/recent-actions same day; sectoral determinations + SDN dumps are evening Government copy even if abroad. Missed 2026-10-01: Iran auto + rail sectoral sanctions (Operation Economic Outcast). [audit 2026-10-01]"
       ]
     },
@@ -61,7 +61,7 @@
           "id": "2026-10-05-quebec-pq-minority-government",
           "impact": 3,
           "should_have_caught": "morning",
-          "reason": "Parti Québécois won Quebec's Oct. 5 election (59 of 127 seats, minority; referendum pledged after Trump leaves office); results came after the evening edition and the Oct. 6 morning edition skipped overnight election results."
+          "reason": "Parti Qu\u00e9b\u00e9cois won Quebec's Oct. 5 election (59 of 127 seats, minority; referendum pledged after Trump leaves office); results came after the evening edition and the Oct. 6 morning edition skipped overnight election results."
         },
         {
           "id": "2026-10-05-judge-blocks-dhs-migrant-fines",
@@ -74,7 +74,31 @@
       "checklist_changes": [
         "Trimmed expired one-off: Monday Oct 5 morning plague-story seed (edition shipped).",
         "- Federal district courts: search Reuters legal / The Hill court-battles for \"judge blocks\" + today's date; rulings halting nationwide Trump policies (immigration fines, rules) are Government impact 3 even when the order is dated days earlier and only reported today. Missed 2026-10-05: Boston judge stayed DHS fines up to $1.8M on migrants (100k+ fines, $84B). [audit 2026-10-05]",
-        "- Overnight foreign election results: check upcoming.json and search \"[country/province] election results\" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Québécois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]"
+        "- Overnight foreign election results: check upcoming.json and search \"[country/province] election results\" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Qu\u00e9b\u00e9cois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]"
+      ]
+    },
+    {
+      "run": "2026-10-08T22:14:00-04:00",
+      "day": "2026-10-07",
+      "reference_events": 18,
+      "missed": [
+        {
+          "id": "2026-10-07-tanker-acers-qatar",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "UKMTO Warning 158-26: tanker Acers struck ~51 NM north of Qatar at 1900 UTC / 3:00 p.m. ET with casualties; same-afternoon UKMTO check before evening lock."
+        },
+        {
+          "id": "2026-10-06-afd-saxony-anhalt-landtag-president",
+          "impact": 3,
+          "should_have_caught": "morning",
+          "reason": "AfD\u2019s Tobias Rausch elected Saxony-Anhalt Landtag president Oct 6 (first AfD speaker / first far-right state legislature head since 1945); Just Security Early Edition Oct 7 flagged it; missed Oct 6 evening and Oct 7 morning."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "- Gulf/Hormuz wartime: before evening lock, open UKMTO latest warnings for same-afternoon tanker hits with casualties (not only overnight UKMTO). Missed 2026-10-07 evening: Acers struck ~51NM north of Qatar at 1900 UTC / 3:00 p.m. ET. [audit 2026-10-07]",
+        "- European far-right institutional firsts: after AfD/peer election wins, check same-day or next-morning Landtag speaker / premier votes (Just Security Early Edition often flags). Missed 2026-10-06\u219207 morning: AfD\u2019s Tobias Rausch elected Saxony-Anhalt Landtag president (first for the party / first far-right state legislature head since 1945). [audit 2026-10-07]"
       ]
     }
   ]

@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-10",
+ "edition": "morning",
+ "subject": "Saturday, Oct 10 - Morning edition",
+ "published": "2026-10-10T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-10-isaias-landfall-destin",
+   "section": "news",
+   "text": "Hurricane Isaias hit the Florida Panhandle near Destin as a Category 2 storm, leaving hundreds of thousands without power in Florida and Alabama.",
+   "detail": "The National Hurricane Center said Isaias came ashore around 9:30 p.m. ET Friday with 105 mph winds; a gauge in Panama City Beach showed water 5.6 feet above high tide. It weakened to a post-tropical cyclone early Saturday as it moved through Alabama toward the Tennessee Valley, with flooding rain expected across the Southeast this weekend. Florida, Alabama and Georgia declared states of emergency.",
+   "why": "The first hurricane of a late-starting season struck a populated coast.",
+   "impact": 4,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-09T21:30:00-04:00",
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.update.10100129.shtml"
+  },
+  {
+   "id": "2026-10-10-trump-russia-diesel-deal",
+   "section": "news",
+   "text": "Russian diesel sanctions were waived until April 2027 after President Trump announced a deal with Putin for more than 4 million tons of fuel.",
+   "detail": "Trump said Russia will send over 300,000 tons immediately, 500,000 in November, then more. Treasury's OFAC issued a general license allowing Russian diesel loaded on tankers as of Friday to reach the global market, weeks after Trump signed a Russia sanctions law. Ukraine's Zelenskyy called it a weak decision; Democratic senators called it a betrayal.",
+   "why": "A sharp reversal of U.S. pressure on Russia, aimed at fuel prices before the midterms.",
+   "impact": 4,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-09T15:00:00-04:00",
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-russia-diesel-midterms-12baccc7aade559bf329079b0548c9da"
+  },
+  {
+   "id": "2026-10-09-isaias-major-hurricane",
+   "section": "news",
+   "text": "Hurricane Isaias strengthened to a Category 3 major hurricane with 120 mph winds hours before an expected Friday-night landfall on the northern Gulf Coast.",
+   "detail": "The National Hurricane Center's 1 p.m. CDT advisory put the center about 240 miles south of Pensacola earlier in the day, moving north-northeast at 16 mph, with tropical-storm conditions already starting on the coast. Landfall is expected this evening in the warning area, with weakening after landfall.",
+   "why": "The season's first major U.S. hurricane landfall threat, with life-threatening surge.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-09T14:00:00-04:00",
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.public_a.012.shtml"
+  },
+  {
+   "id": "2026-10-09-us-sanctions-icc",
+   "section": "news",
+   "text": "The International Criminal Court itself was put under U.S. sanctions, blocking its U.S.-linked assets and barring most American dealings with it.",
+   "detail": "Treasury's OFAC added the court to its blocked-persons list Oct. 9 under Executive Order 14203, announced alongside a State Department release. General licenses allow a wind-down through April 7, 2027, and carve out telecom and software services, pensions, and services tied to detainees.",
+   "why": "A first-ever sanction on the whole court, not just its officials.",
+   "impact": 4,
+   "topic": "government",
+   "region": "US",
+   "time": "2026-10-09T11:00:00-04:00",
+   "source": "U.S. Treasury OFAC",
+   "url": "https://ofac.treasury.gov/recent-actions/20261009"
+  },
+  {
+   "id": "2026-10-10-panama-77-earthquake",
+   "section": "news",
+   "text": "A magnitude 7.7 earthquake struck central Panama, damaging more than 400 buildings and injuring at least 27 people, with no deaths reported.",
+   "detail": "The USGS placed the quake near Pitaloza Arriba in Herrera province at 12:56 p.m. local time Friday. Panama's civil protection agency reported damage to homes, 188 schools, 20 health facilities, bridges and roads; more than 80 aftershocks followed, one above magnitude 6.",
+   "why": "One of the strongest quakes to hit Central America in years.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-09T13:56:00-04:00",
+   "source": "AFP",
+   "url": "https://www.afp.com/en/major-earthquake-hits-panama-injures-least-27"
+  },
+  {
+   "id": "2026-10-09-flydubai-uae-ag-plot-findings",
+   "section": "news",
+   "text": "The UAE attorney general said the Flydubai co-pilot planned to crash FZ1073 into Ben Gurion Airport's passenger terminal in a suicide attack.",
+   "detail": "In a statement carried Friday by the UAE state news agency WAM, Attorney General Hamad Saif Al Shamsi said investigators found the 29-year-old Omani co-pilot had developed a premeditated plot to seize the aircraft and strike the terminal to cause the greatest possible loss of life, and had used two earlier Tel Aviv trips to study the route and airport. He said the suspect confessed in the presence of his lawyer and claimed he acted alone, while investigators keep checking for accomplices or other links. A pilot assigned to the return flight entered the cockpit, restrained the co-pilot with a cabin crew member and passengers, and the crew landed in Tabuk, Saudi Arabia. Flydubai said it is supporting the investigation. No charges have been announced.",
+   "why": "This is the UAE's first official account of the intended target and the plot behind the Sept. 30 attack.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-09T12:00:00-04:00",
+   "time_known": false,
+   "source": "UAE Attorney General (WAM)",
+   "url": "https://www.arnnewscentre.ae/en/news/uae/uae-investigation-updates-reveal-motives-of-flydubai-co-pilots-attack/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 1
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-10-09-isaias-gulf-landfall-tonight",
+   "section": "news",
+   "text": "Hurricane Isaias, now packing 100 mph winds, is expected to hit the northern Gulf Coast late Friday or early Saturday, forecasters said.",
+   "detail": "The National Hurricane Center said Isaias could briefly reach major-hurricane strength early Friday before wind shear weakens it near landfall, most likely near the Alabama-Florida border. A life-threatening storm surge is forecast from the mouth of the Mississippi River to Suwannee, Fla., with hurricane warnings for parts of the Florida Panhandle, southern Alabama and southern Mississippi and up to 15 inches of rain in spots.",
+   "why": "Millions on the Gulf Coast face surge, flooding and long power outages this weekend.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-08T22:00:00-04:00",
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.discus.010.shtml"
+  },
+  {
+   "id": "2026-10-09-trump-no-iran-strikes-before-midterms",
+   "section": "news",
+   "text": "U.S. strikes on Iran will not resume before the Nov. 3 midterm elections, President Trump said, citing \"productive discussions\" with Tehran.",
+   "detail": "Trump said on Truth Social Thursday that the naval blockade of Iran stays in full force. The post reversed his comments the night before that he was weighing pre-election strikes; Brent crude rose above $104 a barrel Thursday.",
+   "why": "Sets the U.S. military posture in the Iran war for the next three-plus weeks.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-08T12:17:00-04:00",
+   "source": "AP",
+   "url": "https://apnews.com/article/422b1799a1a06466279ac265f560e014"
+  },
+  {
+   "id": "2026-10-08-hurricane-isaias-warnings",
+   "section": "news",
+   "text": "Isaias became the Atlantic season's first hurricane, and hurricane warnings now cover the coast from Mississippi to the Florida Panhandle.",
+   "detail": "At 5 a.m. ET Thursday, NOAA Hurricane Hunters put Isaias's top sustained winds at 80 mph, about 420 miles south-southwest of the mouth of the Mississippi River, moving east-northeast at 9 mph. A hurricane warning covers Ocean Springs, Miss., to the Bay/Gulf County line in Florida, and a storm surge warning runs from the mouth of the Mississippi to the Steinhatchee River, with 5 to 7 feet of surge possible from Ocean Springs to Indian Pass and in Mobile Bay. The National Hurricane Center expects 3 to 7 inches of rain, up to 10 in spots, from southeast Louisiana to the Panhandle, and says Isaias should be a strong hurricane by landfall late Friday or early Saturday.",
+   "why": "Coastal Mississippi, Alabama and the Florida Panhandle have about a day and a half to finish preparing, and flooding rain could reach inland.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-10-08T05:00:00-04:00",
+   "time_known": true,
+   "source": "National Hurricane Center",
+   "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT4+shtml/"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-12",
+   "when": "Expected",
+   "text": "Evernorth (XRP-treasury company) Class A shares begin Nasdaq trading under ticker XRPN.",
+   "detail": "Evernorth said Oct. 9 it completed its business combination with Armada Acquisition Corp. II, holding about 473 million XRP and about $300 million in gross cash proceeds; it expects to ring the Nasdaq closing bell Oct. 14.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "branch": "judicial",
+   "text": "Supreme Court hears Beaird v. United States.",
+   "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
+  },
+  {
+   "date": "2026-10-13",
+   "when": "7:00 a.m. ET",
+   "text": "JPMorgan Chase reports third-quarter results, kicking off big-bank earnings.",
+   "detail": "Results due about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank. Citigroup, Goldman Sachs and Wells Fargo are also listed for Oct. 13 on public earnings calendars.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

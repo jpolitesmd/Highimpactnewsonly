@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T16:50:00-04:00",
+  "updated": "2026-10-10T05:45:00-04:00",
   "items": [
     {
       "id": "2026-10-09-cornell-petition-remove-james",
@@ -3098,6 +3098,64 @@
       "source": "AP",
       "url": "https://apnews.com/live/trump-politics-midterm-elections-news-updates-10-09-2026",
       "added_at": "2026-10-09T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-10-isaias-landfall-destin",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 4,
+      "time": "2026-10-09T21:30:00-04:00",
+      "text": "Hurricane Isaias hit the Florida Panhandle near Destin as a Category 2 storm, leaving hundreds of thousands without power in Florida and Alabama.",
+      "detail": "The National Hurricane Center said Isaias came ashore around 9:30 p.m. ET Friday with 105 mph winds; a gauge in Panama City Beach showed water 5.6 feet above high tide. It weakened to a post-tropical cyclone early Saturday as it moved through Alabama toward the Tennessee Valley, with flooding rain expected across the Southeast this weekend. Florida, Alabama and Georgia declared states of emergency.",
+      "why": "The first hurricane of a late-starting season struck a populated coast.",
+      "source": "National Hurricane Center",
+      "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.update.10100129.shtml",
+      "added_at": "2026-10-10T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-10-trump-russia-diesel-deal",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "thread": "russia-ukraine",
+      "impact": 4,
+      "time": "2026-10-09T15:00:00-04:00",
+      "text": "Russian diesel sanctions were waived until April 2027 after President Trump announced a deal with Putin for more than 4 million tons of fuel.",
+      "detail": "Trump said Russia will send over 300,000 tons immediately, 500,000 in November, then more. Treasury's OFAC issued a general license allowing Russian diesel loaded on tankers as of Friday to reach the global market, weeks after Trump signed a Russia sanctions law. Ukraine's Zelenskyy called it a weak decision; Democratic senators called it a betrayal.",
+      "why": "A sharp reversal of U.S. pressure on Russia, aimed at fuel prices before the midterms.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-russia-diesel-midterms-12baccc7aade559bf329079b0548c9da",
+      "added_at": "2026-10-10T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-10-panama-77-earthquake",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 3,
+      "time": "2026-10-09T13:56:00-04:00",
+      "text": "A magnitude 7.7 earthquake struck central Panama, damaging more than 400 buildings and injuring at least 27 people, with no deaths reported.",
+      "detail": "The USGS placed the quake near Pitaloza Arriba in Herrera province at 12:56 p.m. local time Friday. Panama's civil protection agency reported damage to homes, 188 schools, 20 health facilities, bridges and roads; more than 80 aftershocks followed, one above magnitude 6.",
+      "why": "One of the strongest quakes to hit Central America in years.",
+      "source": "AFP",
+      "url": "https://www.afp.com/en/major-earthquake-hits-panama-injures-least-27",
+      "added_at": "2026-10-10T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-10-zacharia-press-secretary",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-09T14:30:00-04:00",
+      "text": "Katie Zacharia, a communications adviser at Trump's media company, was named the next White House press secretary, succeeding Karoline Leavitt.",
+      "detail": "Trump announced the pick on Truth Social. Zacharia, an attorney and commentator who briefly worked at the Department of Homeland Security, will be his sixth chief spokesperson across two terms; Leavitt left in August. No start date was announced.",
+      "why": "The new public face of the White House less than four weeks before the midterms.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-white-house-press-secretary-katie-zacharia-aaabf8627035da9bc4cd44173f22e02e",
+      "added_at": "2026-10-10T05:45:00-04:00"
     }
   ]
 }

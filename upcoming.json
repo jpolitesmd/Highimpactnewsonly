@@ -2,39 +2,10 @@
   "updated": "2026-10-08",
   "events": [
     {
-      "date": "2026-10-09",
-      "when": "10:00 a.m. ET",
-      "text": "University of Michigan preliminary October consumer sentiment, 10:00 a.m. ET.",
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "when": "Before the open",
-      "text": "Delta Air Lines reports September-quarter results; earnings call 10:00 a.m. ET.",
-      "detail": "Usually the first big U.S. airline to report, and the first look at how higher jet fuel prices hit the quarter.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "when": "Expected",
-      "text": "Evernorth / Armada II business combination expected to close (XRP-treasury SPAC), pushed from Oct. 7.",
-      "detail": "An Oct. 6 SEC filing says an administrative delay moved the expected closing to on or about Oct. 9, with Nasdaq trading as XRPN on or about Oct. 12. The company says the delay is not expected to affect the closing, which still depends on customary conditions.",
-      "buzz": true,
-      "tags": [
-        "crypto",
-        "markets"
-      ]
-    },
-    {
       "date": "2026-10-12",
       "when": "Expected",
-      "text": "Evernorth Class A shares expected to begin Nasdaq trading under ticker XRPN (moved from Oct. 8).",
-      "detail": "Depends on the deal closing on or about Oct. 9, per the company’s Oct. 6 SEC filing; company projects ~473M XRP at closing if the deal closes.",
+      "text": "Evernorth (XRP-treasury company) Class A shares begin Nasdaq trading under ticker XRPN.",
+      "detail": "Evernorth said Oct. 9 it completed its business combination with Armada Acquisition Corp. II, holding about 473 million XRP and about $300 million in gross cash proceeds; it expects to ring the Nasdaq closing bell Oct. 14.",
       "buzz": true,
       "tags": [
         "crypto",

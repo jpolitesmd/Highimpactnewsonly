@@ -3173,6 +3173,51 @@
       "source": "AP",
       "url": "https://apnews.com/article/trump-white-house-press-secretary-katie-zacharia-aaabf8627035da9bc4cd44173f22e02e",
       "added_at": "2026-10-10T05:45:00-04:00"
+    },
+    {
+      "id": "2026-10-10-riyadh-airport-struck-again",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-10T08:50:00-04:00",
+      "text": "Riyadh's main airport was hit again Saturday when a missile struck the domestic terminals complex, wounding many people, as Houthi attacks on Saudi Arabia mount.",
+      "detail": "A regional official said the missile hit the complex housing terminals 3 and 4 at King Khalid International Airport. Houthi attacks earlier in the week killed three Saudis, including a pilot, and damaged three planes. The Houthis, who did not immediately comment, accused Saudi Arabia of striking Sanaa's airport. Asked about joining Saudi strikes on the Houthis, President Trump said, \"We may. We're going to look at it.\"",
+      "why": "The Iran war's Yemen front is now hitting civilian air travel in the Gulf's biggest economy.",
+      "source": "AP",
+      "url": "https://www.ksat.com/news/world/2026/10/10/the-airport-in-the-saudi-capital-has-been-attacked-again-officials-say/",
+      "added_at": "2026-10-10T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-10-isaias-four-dead",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-10T14:00:00-04:00",
+      "text": "Hurricane Isaias has killed four people, two in Florida and two in Alabama, and about 670,000 customers across four states were still without power Saturday.",
+      "detail": "In Escambia County, Fla., a woman died when a tree fell on her home and a man died of carbon monoxide from a generator running in a garage, Gov. Ron DeSantis and Sheriff Chip Simmons said; Alabama Gov. Kay Ivey confirmed two deaths. Isaias weakened to a post-tropical cyclone after landfall near Destin; forecasters warned of up to 10 inches of rain and flooding in Georgia and the Carolinas.",
+      "why": "Deaths and outages update from this morning's landfall story.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cmje5x80yg70o",
+      "added_at": "2026-10-10T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-10-france-police-protest-injuries",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-10T02:05:00-04:00",
+      "text": "France's police watchdog is investigating 24 cases of alleged force against students in weeks of school protests, including a 14-year-old whose jaw was broken.",
+      "detail": "The officer who fired the tear gas canister at the 14-year-old was placed under formal investigation for assault. Authorities say 700 police officers have been injured and 6,877 people arrested, mostly minors, in more than two weeks of unrest over school conditions that Prime Minister Sebastien Lecornu called the most violent in decades.",
+      "why": "Europe's largest student unrest in years is turning into a policing fight.",
+      "source": "Reuters",
+      "url": "https://www.streetinsider.com/Reuters/French+policing+under+scrutiny+as+student+protest+injuries+mount/27172624.html",
+      "added_at": "2026-10-10T16:50:00-04:00"
     }
   ]
 }

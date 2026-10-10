@@ -1,0 +1,98 @@
+{
+ "date": "2026-10-10",
+ "edition": "evening",
+ "subject": "Saturday, Oct 10 - Evening edition",
+ "published": "2026-10-10T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-10-isaias-four-dead",
+   "section": "news",
+   "text": "Hurricane Isaias has killed four people, two in Florida and two in Alabama, and about 670,000 customers across four states were still without power Saturday.",
+   "detail": "In Escambia County, Fla., a woman died when a tree fell on her home and a man died of carbon monoxide from a generator running in a garage, Gov. Ron DeSantis and Sheriff Chip Simmons said; Alabama Gov. Kay Ivey confirmed two deaths. Isaias weakened to a post-tropical cyclone after landfall near Destin; forecasters warned of up to 10 inches of rain and flooding in Georgia and the Carolinas.",
+   "why": "Deaths and outages update from this morning's landfall story.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-10T14:00:00-04:00",
+   "source": "BBC",
+   "url": "https://www.bbc.com/news/articles/cmje5x80yg70o"
+  },
+  {
+   "id": "2026-10-10-riyadh-airport-struck-again",
+   "section": "news",
+   "text": "Riyadh's main airport was hit again Saturday when a missile struck the domestic terminals complex, wounding many people, as Houthi attacks on Saudi Arabia mount.",
+   "detail": "A regional official said the missile hit the complex housing terminals 3 and 4 at King Khalid International Airport. Houthi attacks earlier in the week killed three Saudis, including a pilot, and damaged three planes. The Houthis, who did not immediately comment, accused Saudi Arabia of striking Sanaa's airport. Asked about joining Saudi strikes on the Houthis, President Trump said, \"We may. We're going to look at it.\"",
+   "why": "The Iran war's Yemen front is now hitting civilian air travel in the Gulf's biggest economy.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-10T08:50:00-04:00",
+   "source": "AP",
+   "url": "https://www.ksat.com/news/world/2026/10/10/the-airport-in-the-saudi-capital-has-been-attacked-again-officials-say/"
+  },
+  {
+   "id": "2026-10-10-ukraine-drones-rostov-terminal",
+   "section": "news",
+   "text": "Ukrainian drones attacked Russia's Rostov region overnight, injuring six and starting a fire in Rostov-on-Don, hours after the U.S. eased sanctions on Russian diesel.",
+   "detail": "Rostov Gov. Yury Slyusar said more than 100 drones were downed over the region. Six people were hurt; apartment buildings and houses in Rostov-on-Don and an unoccupied building in Bataysk were damaged, two vessels were hit at the port of Azov, a railway bridge was damaged and later reopened, and firefighters were putting out a blaze at what he called warehouse industrial facilities. Russia's Defense Ministry said it downed 560 Ukrainian drones over 17 regions. Geolocated video and NASA satellite fire data placed the Rostov-on-Don blaze at an oil-products export terminal linked to the Novoshakhtinsk refinery; neither Moscow nor Kyiv has confirmed the terminal was hit, and no official has said its fuel was bound for the United States. The attack came hours after Treasury licensed Russian diesel sales, including imports into the U.S., through April 7, 2027.",
+   "why": "Kyiv's strikes on Russian fuel infrastructure are colliding with Washington's new deal to bring Russian diesel to market.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-10T02:00:00-04:00",
+   "time_known": false,
+   "source": "Anadolu Agency",
+   "url": "https://www.aa.com.tr/en/eurasia/11-killed-including-3-children-in-overnight-russia-ukraine-strikes/4084270"
+  },
+  {
+   "id": "2026-10-10-france-police-protest-injuries",
+   "section": "news",
+   "text": "France's police watchdog is investigating 24 cases of alleged force against students in weeks of school protests, including a 14-year-old whose jaw was broken.",
+   "detail": "The officer who fired the tear gas canister at the 14-year-old was placed under formal investigation for assault. Authorities say 700 police officers have been injured and 6,877 people arrested, mostly minors, in more than two weeks of unrest over school conditions that Prime Minister Sebastien Lecornu called the most violent in decades.",
+   "why": "Europe's largest student unrest in years is turning into a policing fight.",
+   "impact": 2,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-10T02:05:00-04:00",
+   "source": "Reuters",
+   "url": "https://www.streetinsider.com/Reuters/French+policing+under+scrutiny+as+student+protest+injuries+mount/27172624.html"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 4
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-12",
+   "when": "Expected",
+   "text": "Evernorth (XRP-treasury company) Class A shares begin Nasdaq trading under ticker XRPN.",
+   "detail": "Evernorth said Oct. 9 it completed its business combination with Armada Acquisition Corp. II, holding about 473 million XRP and about $300 million in gross cash proceeds; it expects to ring the Nasdaq closing bell Oct. 14.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "branch": "judicial",
+   "text": "Supreme Court hears Beaird v. United States.",
+   "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
+  },
+  {
+   "date": "2026-10-13",
+   "when": "7:00 a.m. ET",
+   "text": "JPMorgan Chase reports third-quarter results, kicking off big-bank earnings.",
+   "detail": "Results due about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank. Citigroup, Goldman Sachs and Wells Fargo are also listed for Oct. 13 on public earnings calendars.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

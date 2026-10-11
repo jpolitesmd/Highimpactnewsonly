@@ -2,6 +2,24 @@
   "updated": "2026-10-11T05:50:00-04:00",
   "items": [
     {
+      "id": "2026-10-11-who-outbreak-notice-irkutsk",
+      "section": "health",
+      "text": "The WHO issued a formal outbreak notice on the Irkutsk lab worker's death, finding no evidence of ongoing transmission but no confirmed cause.",
+      "detail": "In a Disease Outbreak News report, the WHO said Russia confirmed the 28-year-old Irkutsk Antiplague Research Institute employee died Oct. 2 of severe pneumonia, that she and all contacts tested negative for high-threat pathogens, and that contacts stayed symptom-free. The WHO said it has found no evidence of ongoing transmission, but the lack of a confirmed diagnosis remains a key uncertainty.",
+      "why": "The WHO's official assessment lowers outbreak fears while leaving the cause of death unresolved.",
+      "impact": "3",
+      "topic": "health",
+      "region": "World",
+      "world_region": "asia",
+      "health_beat": "public",
+      "time": "2026-10-10T12:00:00-04:00",
+      "time_known": false,
+      "source": "WHO",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620",
+      "thread": "pneumonic-plague",
+      "added_at": "2026-10-11T08:20:00-04:00"
+    },
+    {
       "id": "2026-10-11-riyadh-airport-12-dead",
       "section": "news",
       "topic": "conflict",

@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-10T13:41:29-04:00",
+  "updated": "2026-10-10T21:43:27-04:00",
   "items": [
+    {
+      "id": "2026-10-10-judge-vacates-doj-voter-roll-policy",
+      "section": "news",
+      "text": "A federal judge struck down the Justice Department's nationwide program for collecting states' unredacted voter rolls, vacating it for the whole country.",
+      "detail": "In a 78-page opinion dated Friday, Oct. 9, U.S. District Judge Sparkle L. Sooknanan of the U.S. District Court for the District of Columbia set aside DOJ's \"Voter List Maintenance Policy\" in Common Cause v. U.S. Department of Justice, brought by Common Cause and four voters against DOJ and the attorney general. Under the policy, begun in May 2025, the Civil Rights Division requested full voter lists, including names, birth dates, addresses and driver's license or partial Social Security numbers, from 49 states and the District of Columbia, shared the data with Homeland Security to run through the SAVE citizenship database, and urged states to remove voters it deemed ineligible. The court said at least 18 states fully cooperated; others refused, and at least 25 federal district courts have dismissed DOJ suits to force them. The judge ruled that no statute, including the 1960 Civil Rights Act, the National Voter Registration Act or the Help America Vote Act, authorizes DOJ to collect and share unredacted statewide rolls; that DOJ ignored the risk of removing citizens based on records known to be unreliable; and that the policy violated the Privacy Act and the Paperwork Reduction Act. She rejected DOJ's request to limit relief to the plaintiffs, citing the APA's ordinary remedy of vacatur. The ruling does not stop states from maintaining their own rolls.",
+      "why": "It halts the federal government's nationwide voter-data and citizenship-check program less than four weeks before the Nov. 3 midterms, including in states that already handed over their rolls.",
+      "impact": 3,
+      "topic": "ballot",
+      "region": "US",
+      "judicial": true,
+      "court": "U.S. District Court for the District of Columbia",
+      "branch": [
+        "judicial"
+      ],
+      "time": "2026-10-10T21:43:27-04:00",
+      "time_known": false,
+      "source": "U.S. District Court for the District of Columbia (opinion)",
+      "url": "https://www.commoncause.org/wp-content/uploads/2026/10/Common-Cause-v-DOJ-decision.pdf",
+      "thread": "midterms-2026",
+      "added_at": "2026-10-10T21:43:27-04:00"
+    },
     {
       "id": "2026-10-10-ukraine-drones-rostov-terminal",
       "section": "news",

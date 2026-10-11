@@ -1,4 +1,12 @@
 {
- "updated": "2026-09-29",
- "corrections": []
+  "updated": "2026-10-11T16:52:00-04:00",
+  "corrections": [
+    {
+      "date": "2026-10-11T16:52:00-04:00",
+      "item_id": "2026-10-11-riyadh-airport-12-dead",
+      "was": "At least 12 people killed",
+      "now": "13 people killed",
+      "why": "Death toll rose after an injured Indian national died Sunday"
+    }
+  ]
 }

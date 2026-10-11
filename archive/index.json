@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-11-evening",
+   "date": "2026-10-11",
+   "edition": "evening",
+   "count": 5,
+   "lead": "Iran called the U.S. response to its seven conditions for reopening the Strait of Hormuz \"insufficient\" as projectiles hit two more tankers in the strait."
+  },
+  {
    "key": "2026-10-11-morning",
    "date": "2026-10-11",
    "edition": "morning",
@@ -176,5 +183,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-11T05:40:51-04:00"
+ "updated": "2026-10-11T16:41:15-04:00"
 }

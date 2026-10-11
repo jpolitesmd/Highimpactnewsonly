@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T05:50:00-04:00",
+  "updated": "2026-10-11T16:52:00-04:00",
   "items": [
     {
       "id": "2026-10-11-who-outbreak-notice-irkutsk",
@@ -28,7 +28,7 @@
       "thread": "iran-war",
       "impact": 4,
       "time": "2026-10-10T20:00:00-04:00",
-      "text": "Riyadh's airport attack Saturday killed at least 12 people and wounded more than 300, Saudi authorities said, and the Houthis claimed the strike.",
+      "text": "Riyadh's airport attack Saturday killed 13 people and wounded more than 300, Saudi authorities said, and the Houthis claimed the strike.",
       "detail": "It was the third Houthi attack this week on King Khalid International Airport; the earlier two killed four people. The missile hit without warning, all flights were diverted and operations were temporarily suspended, and FlightAware counted at least 291 cancellations in 24 hours. The U.S. Embassy told Americans to avoid the airport. President Trump said the U.S. was weighing whether to join Saudi strikes on the Houthis.",
       "why": "The deadliest strike yet on a Gulf civilian airport in the Iran war's Yemen front.",
       "source": "AP",
@@ -3316,6 +3316,97 @@
       "source": "Reuters",
       "url": "https://www.streetinsider.com/Reuters/French+policing+under+scrutiny+as+student+protest+injuries+mount/27172624.html",
       "added_at": "2026-10-10T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-11-trump-energy-ceasefire",
+      "section": "news",
+      "topic": "whitehouse",
+      "region": "US",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-11T11:30:00-04:00",
+      "text": "An energy ceasefire between Russia and Ukraine was announced by President Trump, but Zelensky said the deal was \"news to me\" and Russian strikes continued.",
+      "detail": "\"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed,\" Trump posted Sunday, giving no details. Zelensky told Axios Ukraine would accept it if Putin did, but said Russian drones and airstrikes hit energy sites through the day, including Kharkiv's thermal power station No. 5. The Kremlin gave no sign it was observing a halt.",
+      "why": "Washington is pressing Kyiv to stop its refinery strikes, the most effective weapon it has.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
+      "added_at": "2026-10-11T16:52:00-04:00"
+    },
+    {
+      "id": "2026-10-11-riyadh-airport-hit-again-dammam",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-11T12:00:00-04:00",
+      "text": "Riyadh's King Khalid International Airport was struck again Sunday when a projectile hit Terminal 4, and Dammam's airport was also attacked, Saudi officials said.",
+      "detail": "The strike injured an unspecified number of people and started a fire; Saudi air defenses also intercepted a cruise missile near the Riyadh airport. Houthi spokesman Yahya Saree claimed Saturday's airport strike in a televised speech, and the Houthis named Dammam's airport, an Aramco-linked station and an Eastern Province refinery as targets. The death toll from Saturday's attack rose to 13 after an Indian national died of his injuries.",
+      "why": "The Houthi campaign is spreading from Riyadh to Saudi Arabia's oil region.",
+      "source": "USA Today",
+      "url": "https://www.usatoday.com/story/news/world/2026/10/11/saudi-arabia-airport-struck-houthis-riyadh-attack/92206416007/",
+      "added_at": "2026-10-11T16:52:00-04:00"
+    },
+    {
+      "id": "2026-10-11-iran-rejects-us-hormuz-reply",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-11T12:11:00-04:00",
+      "text": "Iran called the U.S. response to its seven conditions for reopening the Strait of Hormuz \"insufficient\" as projectiles hit two more tankers in the strait.",
+      "detail": "Supreme National Security Council secretary Mohsen Rezaei said Washington must clarify open issues before talks can move and warned regional cables, data centers and AI facilities could become targets if fighting resumes. UKMTO reported an unidentified projectile struck an outbound tanker Sunday afternoon. Separately, U.S. Central Command said a fighter jet disabled the Panama-flagged cargo ship Ocean Molica on Saturday as it tried to run the U.S. blockade of Iranian ports.",
+      "why": "Hormuz talks are stalled while attacks on shipping keep oil markets on edge.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall",
+      "added_at": "2026-10-11T16:52:00-04:00"
+    },
+    {
+      "id": "2026-10-11-guardians-alds-comeback",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-10T23:22:00-04:00",
+      "text": "The Cleveland Guardians beat the White Sox 2-0 in Game 5 to finish a comeback from 0-2 down and reach the AL Championship Series.",
+      "detail": "Gavin Williams had 12 of Cleveland's 21 strikeouts and José Ramírez hit a two-run homer Saturday night. Cleveland is the 11th team to win a best-of-five series after losing the first two games, and the first since the 2017 Yankees. The ALCS against Tampa Bay opens Monday; the Dodgers-Brewers NLCS opens Sunday night.",
+      "why": "A rare playoff comeback sets the final four.",
+      "source": "MLB.com",
+      "url": "http://mlb.com/news/guardians-win-alds-2026",
+      "added_at": "2026-10-11T16:52:00-04:00"
+    },
+    {
+      "id": "2026-10-11-india-youth-protest-crackdown",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-11T09:06:00-04:00",
+      "text": "India's youth protest movement vowed more demonstrations after police detained thousands, including its leaders and opposition politicians, in New Delhi on Saturday.",
+      "detail": "Protesters demand Chief Election Commissioner Gyanesh Kumar resign over a voter-list revision they say favors Prime Minister Modi's BJP. Authorities sealed the Jantar Mantar protest site and suspended trains and metro service; police said Sunday all detainees were released, and protests were called for Mumbai and other cities.",
+      "why": "A voter-roll fight is drawing the biggest youth street protests in India's capital.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next",
+      "added_at": "2026-10-11T16:52:00-04:00"
+    },
+    {
+      "id": "2026-10-11-mandelblit-testifies-netanyahu",
+      "section": "news",
+      "topic": "court",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "time": "2026-10-11T08:00:00-04:00",
+      "text": "Israel's former attorney general Avichai Mandelblit took the witness stand Sunday in Benjamin Netanyahu's corruption trial, weeks before Israel's election.",
+      "detail": "Mandelblit indicted Netanyahu seven years ago on fraud, breach of trust and bribery charges, the first ever against a sitting Israeli prime minister. Israel votes Oct. 27.",
+      "why": "The prosecutor who charged Netanyahu is testifying as voters decide his future.",
+      "source": "AP",
+      "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1",
+      "added_at": "2026-10-11T16:52:00-04:00"
     }
   ]
 }

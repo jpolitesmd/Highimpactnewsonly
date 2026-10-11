@@ -1,0 +1,110 @@
+{
+ "date": "2026-10-11",
+ "edition": "evening",
+ "subject": "Sunday, Oct 11 - Evening edition",
+ "published": "2026-10-11T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-11-iran-rejects-us-hormuz-reply",
+   "section": "news",
+   "text": "Iran called the U.S. response to its seven conditions for reopening the Strait of Hormuz \"insufficient\" as projectiles hit two more tankers in the strait.",
+   "detail": "Supreme National Security Council secretary Mohsen Rezaei said Washington must clarify open issues before talks can move and warned regional cables, data centers and AI facilities could become targets if fighting resumes. UKMTO reported an unidentified projectile struck an outbound tanker Sunday afternoon. Separately, U.S. Central Command said a fighter jet disabled the Panama-flagged cargo ship Ocean Molica on Saturday as it tried to run the U.S. blockade of Iranian ports.",
+   "why": "Hormuz talks are stalled while attacks on shipping keep oil markets on edge.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-11T12:11:00-04:00",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall"
+  },
+  {
+   "id": "2026-10-11-riyadh-airport-hit-again-dammam",
+   "section": "news",
+   "text": "Riyadh's King Khalid International Airport was struck again Sunday when a projectile hit Terminal 4, and Dammam's airport was also attacked, Saudi officials said.",
+   "detail": "The strike injured an unspecified number of people and started a fire; Saudi air defenses also intercepted a cruise missile near the Riyadh airport. Houthi spokesman Yahya Saree claimed Saturday's airport strike in a televised speech, and the Houthis named Dammam's airport, an Aramco-linked station and an Eastern Province refinery as targets. The death toll from Saturday's attack rose to 13 after an Indian national died of his injuries.",
+   "why": "The Houthi campaign is spreading from Riyadh to Saudi Arabia's oil region.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-11T12:00:00-04:00",
+   "source": "USA Today",
+   "url": "https://www.usatoday.com/story/news/world/2026/10/11/saudi-arabia-airport-struck-houthis-riyadh-attack/92206416007/"
+  },
+  {
+   "id": "2026-10-11-trump-energy-ceasefire",
+   "section": "news",
+   "text": "An energy ceasefire between Russia and Ukraine was announced by President Trump, but Zelensky said the deal was \"news to me\" and Russian strikes continued.",
+   "detail": "\"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed,\" Trump posted Sunday, giving no details. Zelensky told Axios Ukraine would accept it if Putin did, but said Russian drones and airstrikes hit energy sites through the day, including Kharkiv's thermal power station No. 5. The Kremlin gave no sign it was observing a halt.",
+   "why": "Washington is pressing Kyiv to stop its refinery strikes, the most effective weapon it has.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-11T11:30:00-04:00",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
+  },
+  {
+   "id": "2026-10-11-india-youth-protest-crackdown",
+   "section": "news",
+   "text": "India's youth protest movement vowed more demonstrations after police detained thousands, including its leaders and opposition politicians, in New Delhi on Saturday.",
+   "detail": "Protesters demand Chief Election Commissioner Gyanesh Kumar resign over a voter-list revision they say favors Prime Minister Modi's BJP. Authorities sealed the Jantar Mantar protest site and suspended trains and metro service; police said Sunday all detainees were released, and protests were called for Mumbai and other cities.",
+   "why": "A voter-roll fight is drawing the biggest youth street protests in India's capital.",
+   "impact": 2,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-11T09:06:00-04:00",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next"
+  },
+  {
+   "id": "2026-10-11-mandelblit-testifies-netanyahu",
+   "section": "news",
+   "text": "Israel's former attorney general Avichai Mandelblit took the witness stand Sunday in Benjamin Netanyahu's corruption trial, weeks before Israel's election.",
+   "detail": "Mandelblit indicted Netanyahu seven years ago on fraud, breach of trust and bribery charges, the first ever against a sitting Israeli prime minister. Israel votes Oct. 27.",
+   "why": "The prosecutor who charged Netanyahu is testifying as voters decide his future.",
+   "impact": 2,
+   "topic": "court",
+   "region": "World",
+   "time": "2026-10-11T08:00:00-04:00",
+   "source": "AP",
+   "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-12",
+   "when": "Expected",
+   "text": "Evernorth (XRP-treasury company) Class A shares begin Nasdaq trading under ticker XRPN.",
+   "detail": "Evernorth said Oct. 9 it completed its business combination with Armada Acquisition Corp. II, holding about 473 million XRP and about $300 million in gross cash proceeds; it expects to ring the Nasdaq closing bell Oct. 14.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "branch": "judicial",
+   "text": "Supreme Court hears Beaird v. United States.",
+   "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
+  },
+  {
+   "date": "2026-10-13",
+   "when": "7:00 a.m. ET",
+   "text": "JPMorgan Chase reports third-quarter results, kicking off big-bank earnings.",
+   "detail": "Results due about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank. Citigroup, Goldman Sachs and Wells Fargo are also listed for Oct. 13 on public earnings calendars.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

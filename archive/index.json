@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-11-morning",
+   "date": "2026-10-11",
+   "edition": "morning",
+   "count": 8,
+   "lead": "Riyadh's airport attack Saturday killed at least 12 people and wounded more than 300, Saudi authorities said, and the Houthis claimed the strike."
+  },
+  {
    "key": "2026-10-10-evening",
    "date": "2026-10-10",
    "edition": "evening",
@@ -169,5 +176,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-10T16:36:50-04:00"
+ "updated": "2026-10-11T05:40:51-04:00"
 }

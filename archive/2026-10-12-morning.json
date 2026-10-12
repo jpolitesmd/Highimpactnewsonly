@@ -1,0 +1,173 @@
+{
+ "date": "2026-10-12",
+ "edition": "morning",
+ "subject": "Monday, Oct 12 - Morning edition",
+ "published": "2026-10-12T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-12-russia-strikes-despite-energy-ceasefire",
+   "section": "news",
+   "text": "Russia kept striking Ukraine's power sites overnight, a day after President Trump announced an energy ceasefire, and Moscow still has not said it agreed.",
+   "detail": "Kharkiv prosecutors said Russian forces hit an energy facility on the city's outskirts Monday, after Sunday-evening strikes on power plants in Kyiv and Kharkiv caused outages; energy and rail sites in the Zhytomyr region were also hit overnight. Zelensky said Ukraine is ready to stop striking Russian energy infrastructure if Russia does the same.",
+   "why": "The truce Trump announced is not holding on the ground.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-12T04:07:00-04:00",
+   "source": "AP via NPR",
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+  },
+  {
+   "id": "2026-10-12-petro-dolphin-sailors-missing",
+   "section": "news",
+   "text": "Two Indian sailors are missing after a drone hit the tanker Petro Dolphin off Oman's Sohar port, as Iran's Guards warned ships running dark will be treated as hostile.",
+   "detail": "India's Foreign Ministry said Monday the two were among 11 Indian crew aboard the Petro Dolphin when it was struck Sunday near the Sohar anchorage, outside the Strait of Hormuz; a second tanker, the Valthera, was hit by a projectile and caught fire, but its crew is safe. Iran's Revolutionary Guard navy said vessels that switch off navigation and identification systems in the strait will be dealt with as hostile, and claimed a third tanker struck a mine there Sunday.",
+   "why": "Attacks on shipping are spreading beyond Hormuz into the Gulf of Oman.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-12T03:19:00-04:00",
+   "source": "AP",
+   "url": "https://apnews.com/article/saudi-arabia-yemen-houthis-october-12-2026-1d422095dcfb4e8d1b51319066bcf445"
+  },
+  {
+   "id": "2026-10-11-judge-blocks-trump-tv-ads",
+   "section": "news",
+   "text": "The taxpayer-funded TV ads promoting President Trump must be canceled, a federal judge in New York ordered Sunday night, including spots set to air that evening.",
+   "detail": "U.S. District Judge Jennifer L. Rochon granted a temporary restraining order sought by Common Cause, SEIU Local 32BJ and others, finding they are likely to succeed in their claim that the roughly $20 million DHS-funded campaign misused appropriations. The order took effect at 6:45 p.m. EDT, bars the government from paying for or placing more of the ads, and lasts two weeks. The administration had told the court the campaign would end Sunday; it is the first known ruling to block the ads, which also face a DNC lawsuit.",
+   "why": "A court has now said federal money likely cannot pay for ads praising the president weeks before the Nov. 3 midterms.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the Southern District of New York",
+   "region": "US",
+   "time": "2026-10-11T18:45:00-04:00",
+   "source": "U.S. District Court for the Southern District of New York (order)",
+   "url": "https://democracyforward.org/wp-content/uploads/2026/10/26-cv-08882-Common-Cause-Order-TRO-2026.10.11.pdf"
+  },
+  {
+   "id": "2026-10-11-north-korea-ballistic-missiles",
+   "section": "news",
+   "text": "North Korea fired several ballistic missiles toward the sea off its east coast Monday, one flying more than 900 kilometers, South Korea's military said.",
+   "detail": "South Korea's Joint Chiefs of Staff detected the launch from the Pyongyang area at about 9:20 a.m. local time and called it an apparent protest of the South's first hypersonic glide vehicle test last week. Japan said the missiles fell outside its exclusive economic zone. North Korea last fired a ballistic missile on Oct. 3.",
+   "why": "Missile tests are speeding up as tensions on the peninsula rise.",
+   "impact": 2,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-11T20:20:00-04:00",
+   "source": "Yonhap",
+   "url": "https://en.yna.co.kr/view/AEN20261012002751315"
+  },
+  {
+   "id": "2026-10-11-iran-rejects-us-hormuz-reply",
+   "section": "news",
+   "text": "Iran called the U.S. response to its seven conditions for reopening the Strait of Hormuz \"insufficient\" as projectiles hit two more tankers in the strait.",
+   "detail": "Supreme National Security Council secretary Mohsen Rezaei said Washington must clarify open issues before talks can move and warned regional cables, data centers and AI facilities could become targets if fighting resumes. UKMTO reported an unidentified projectile struck an outbound tanker Sunday afternoon. Separately, U.S. Central Command said a fighter jet disabled the Panama-flagged cargo ship Ocean Molica on Saturday as it tried to run the U.S. blockade of Iranian ports.",
+   "why": "Hormuz talks are stalled while attacks on shipping keep oil markets on edge.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-11T12:11:00-04:00",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall"
+  },
+  {
+   "id": "2026-10-11-riyadh-airport-hit-again-dammam",
+   "section": "news",
+   "text": "Riyadh's King Khalid International Airport was struck again Sunday when a projectile hit Terminal 4, and Dammam's airport was also attacked, Saudi officials said.",
+   "detail": "The strike injured an unspecified number of people and started a fire; Saudi air defenses also intercepted a cruise missile near the Riyadh airport. Houthi spokesman Yahya Saree claimed Saturday's airport strike in a televised speech, and the Houthis named Dammam's airport, an Aramco-linked station and an Eastern Province refinery as targets. The death toll from Saturday's attack rose to 13 after an Indian national died of his injuries.",
+   "why": "The Houthi campaign is spreading from Riyadh to Saudi Arabia's oil region.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-11T12:00:00-04:00",
+   "source": "USA Today",
+   "url": "https://www.usatoday.com/story/news/world/2026/10/11/saudi-arabia-airport-struck-houthis-riyadh-attack/92206416007/"
+  },
+  {
+   "id": "2026-10-11-trump-energy-ceasefire",
+   "section": "news",
+   "text": "An energy ceasefire between Russia and Ukraine was announced by President Trump, but Zelensky said the deal was \"news to me\" and Russian strikes continued.",
+   "detail": "\"Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed,\" Trump posted Sunday, giving no details. Zelensky told Axios Ukraine would accept it if Putin did, but said Russian drones and airstrikes hit energy sites through the day, including Kharkiv's thermal power station No. 5. The Kremlin gave no sign it was observing a halt.",
+   "why": "Washington is pressing Kyiv to stop its refinery strikes, the most effective weapon it has.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-11T11:30:00-04:00",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
+  },
+  {
+   "id": "2026-10-11-zaporizhzhia-toll-23",
+   "section": "news",
+   "text": "The death toll from Russia's guided-bomb strike on a Zaporizhzhia apartment building rose to 23, including four children, Ukraine's emergency service said.",
+   "detail": "Russian guided aerial bombs hit a five-story residential building in Zaporizhzhia on the morning of Oct. 10. Rescuers finished searching the site Sunday morning with 20 dead counted; the regional emergency service later raised the toll to 23, a figure President Zelensky also gave. At least 32 people were injured.",
+   "why": "It is one of the deadliest single strikes on a Ukrainian city this year.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-11T08:23:00-04:00",
+   "time_known": false,
+   "source": "Ukrainska Pravda, citing Ukraine's State Emergency Service",
+   "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057459/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 4
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-11-guardians-alds-comeback",
+   "section": "sports",
+   "text": "The Cleveland Guardians beat the White Sox 2-0 in Game 5 to finish a comeback from 0-2 down and reach the AL Championship Series.",
+   "detail": "Gavin Williams had 12 of Cleveland's 21 strikeouts and José Ramírez hit a two-run homer Saturday night. Cleveland is the 11th team to win a best-of-five series after losing the first two games, and the first since the 2017 Yankees. The ALCS against Tampa Bay opens Monday; the Dodgers-Brewers NLCS opens Sunday night.",
+   "why": "A rare playoff comeback sets the final four.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-10T23:22:00-04:00",
+   "source": "MLB.com",
+   "url": "http://mlb.com/news/guardians-win-alds-2026"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-12",
+   "when": "Expected",
+   "text": "Evernorth (XRP-treasury company) Class A shares begin Nasdaq trading under ticker XRPN.",
+   "detail": "Evernorth said Oct. 9 it completed its business combination with Armada Acquisition Corp. II, holding about 473 million XRP and about $300 million in gross cash proceeds; it expects to ring the Nasdaq closing bell Oct. 14.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "branch": "judicial",
+   "text": "Supreme Court hears Beaird v. United States.",
+   "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
+  },
+  {
+   "date": "2026-10-13",
+   "when": "7:00 a.m. ET",
+   "text": "JPMorgan Chase reports third-quarter results, kicking off big-bank earnings.",
+   "detail": "Results due about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank. Citigroup, Goldman Sachs and Wells Fargo are also listed for Oct. 13 on public earnings calendars.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

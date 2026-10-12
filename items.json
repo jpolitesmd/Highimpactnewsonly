@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T16:52:00-04:00",
+  "updated": "2026-10-12T05:36:25-04:00",
   "items": [
     {
       "id": "2026-10-11-who-outbreak-notice-irkutsk",
@@ -3407,6 +3407,105 @@
       "source": "AP",
       "url": "https://apnews.com/article/saudi-arabia-houthis-netanyahu-october-11-2026-baa06588f3ebe6dad93695581f68d3c1",
       "added_at": "2026-10-11T16:52:00-04:00"
+    },
+    {
+      "id": "2026-10-11-judge-blocks-trump-tv-ads",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "judicial": true,
+      "court": "U.S. District Court for the Southern District of New York",
+      "branch": [
+        "judicial"
+      ],
+      "thread": "midterms-2026",
+      "impact": 3,
+      "time": "2026-10-11T18:45:00-04:00",
+      "text": "The taxpayer-funded TV ads promoting President Trump must be canceled, a federal judge in New York ordered Sunday night, including spots set to air that evening.",
+      "detail": "U.S. District Judge Jennifer L. Rochon granted a temporary restraining order sought by Common Cause, SEIU Local 32BJ and others, finding they are likely to succeed in their claim that the roughly $20 million DHS-funded campaign misused appropriations. The order took effect at 6:45 p.m. EDT, bars the government from paying for or placing more of the ads, and lasts two weeks. The administration had told the court the campaign would end Sunday; it is the first known ruling to block the ads, which also face a DNC lawsuit.",
+      "why": "A court has now said federal money likely cannot pay for ads praising the president weeks before the Nov. 3 midterms.",
+      "source": "U.S. District Court for the Southern District of New York (order)",
+      "url": "https://democracyforward.org/wp-content/uploads/2026/10/26-cv-08882-Common-Cause-Order-TRO-2026.10.11.pdf",
+      "added_at": "2026-10-12T05:36:25-04:00"
+    },
+    {
+      "id": "2026-10-12-petro-dolphin-sailors-missing",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-12T03:19:00-04:00",
+      "text": "Two Indian sailors are missing after a drone hit the tanker Petro Dolphin off Oman's Sohar port, as Iran's Guards warned ships running dark will be treated as hostile.",
+      "detail": "India's Foreign Ministry said Monday the two were among 11 Indian crew aboard the Petro Dolphin when it was struck Sunday near the Sohar anchorage, outside the Strait of Hormuz; a second tanker, the Valthera, was hit by a projectile and caught fire, but its crew is safe. Iran's Revolutionary Guard navy said vessels that switch off navigation and identification systems in the strait will be dealt with as hostile, and claimed a third tanker struck a mine there Sunday.",
+      "why": "Attacks on shipping are spreading beyond Hormuz into the Gulf of Oman.",
+      "source": "AP",
+      "url": "https://apnews.com/article/saudi-arabia-yemen-houthis-october-12-2026-1d422095dcfb4e8d1b51319066bcf445",
+      "added_at": "2026-10-12T05:36:25-04:00"
+    },
+    {
+      "id": "2026-10-12-russia-strikes-despite-energy-ceasefire",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-12T04:07:00-04:00",
+      "text": "Russia kept striking Ukraine's power sites overnight, a day after President Trump announced an energy ceasefire, and Moscow still has not said it agreed.",
+      "detail": "Kharkiv prosecutors said Russian forces hit an energy facility on the city's outskirts Monday, after Sunday-evening strikes on power plants in Kyiv and Kharkiv caused outages; energy and rail sites in the Zhytomyr region were also hit overnight. Zelensky said Ukraine is ready to stop striking Russian energy infrastructure if Russia does the same.",
+      "why": "The truce Trump announced is not holding on the ground.",
+      "source": "AP via NPR",
+      "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+      "added_at": "2026-10-12T05:36:25-04:00"
+    },
+    {
+      "id": "2026-10-11-north-korea-ballistic-missiles",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-11T20:20:00-04:00",
+      "text": "North Korea fired several ballistic missiles toward the sea off its east coast Monday, one flying more than 900 kilometers, South Korea's military said.",
+      "detail": "South Korea's Joint Chiefs of Staff detected the launch from the Pyongyang area at about 9:20 a.m. local time and called it an apparent protest of the South's first hypersonic glide vehicle test last week. Japan said the missiles fell outside its exclusive economic zone. North Korea last fired a ballistic missile on Oct. 3.",
+      "why": "Missile tests are speeding up as tensions on the peninsula rise.",
+      "source": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261012002751315",
+      "added_at": "2026-10-12T05:36:25-04:00"
+    },
+    {
+      "id": "2026-10-11-zaporizhzhia-toll-23",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-11T08:23:00-04:00",
+      "time_known": false,
+      "text": "The death toll from Russia's guided-bomb strike on a Zaporizhzhia apartment building rose to 23, including four children, Ukraine's emergency service said.",
+      "detail": "Russian guided aerial bombs hit a five-story residential building in Zaporizhzhia on the morning of Oct. 10. Rescuers finished searching the site Sunday morning with 20 dead counted; the regional emergency service later raised the toll to 23, a figure President Zelensky also gave. At least 32 people were injured.",
+      "why": "It is one of the deadliest single strikes on a Ukrainian city this year.",
+      "source": "Ukrainska Pravda, citing Ukraine's State Emergency Service",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/11/8057459/",
+      "added_at": "2026-10-12T05:36:25-04:00"
+    },
+    {
+      "id": "2026-10-10-doj-probes-tv-networks-pool",
+      "section": "news",
+      "topic": "whitehouse",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-10T12:00:00-04:00",
+      "time_known": false,
+      "text": "ABC, CBS, CNN, Fox News and NBC are under Justice Department investigation over whether jointly suspending White House pool coverage broke antitrust law.",
+      "detail": "DOJ said it is examining whether the TV pool's pause in coverage of President Trump, which began Sept. 21 after the White House barred CNN, MS NOW and Politico, was an illegal group boycott under the Sherman Act. Pool coverage has since resumed, and a judge restored the barred outlets' White House access on Sept. 24. The Freedom of the Press Foundation called the probe \"nonsense.\"",
+      "why": "It turns a press-access fight into a federal antitrust case against the biggest TV news networks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/11/trump-doj-white-house-tv-press-pool-antitrust.html",
+      "added_at": "2026-10-12T05:36:25-04:00"
     }
   ]
 }

@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-12T05:36:25-04:00",
+  "updated": "2026-10-12T15:52:00-04:00",
   "items": [
+    {
+      "id": "2026-10-12-cornell-second-recusal-motion",
+      "section": "news",
+      "text": "A second man accused in the Cornell assault case asked a Tompkins County criminal court to bar Attorney General Letitia James from leading any grand jury in the case.",
+      "detail": "Lawyers for Winston Lee, one of seven men named in Jane Doe's civil lawsuit, filed the motion Oct. 9, arguing that James's Sept. 28 social media post supporting Jane Doe shows she prejudged the case. They asked the court to keep James from running the criminal investigation, to poll any future grand jurors on whether they saw her comments, and to schedule arguments. James's office said it is committed to reviewing only the facts, the evidence and the law. This motion is separate from Gillio Lopes's petition in Albany County, which is set for oral arguments on Oct. 29. James remains special prosecutor, no one has been criminally charged, and Lee and Lopes deny the accusations.",
+      "why": "Two defendants are now asking two different courts to remove the state's lead prosecutor before any grand jury hears the case.",
+      "impact": 3,
+      "topic": "court",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "region": "US",
+      "time": "2026-10-09T16:40:00-04:00",
+      "time_known": false,
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/news/us-news/second-defendant-cornell-fraternity-case-seeks-letitia-james-recusal-rcna601930",
+      "added_at": "2026-10-12T15:52:00-04:00",
+      "thread": "cornell-assault-case"
+    },
     {
       "id": "2026-10-11-who-outbreak-notice-irkutsk",
       "section": "health",

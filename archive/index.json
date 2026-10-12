@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-12-evening",
+   "date": "2026-10-12",
+   "edition": "evening",
+   "count": 3,
+   "lead": "U.S. officials warned Ukraine and European allies they could suspend intelligence sharing and PURL weapons buys if Kyiv keeps striking Russian energy sites."
+  },
+  {
    "key": "2026-10-12-morning",
    "date": "2026-10-12",
    "edition": "morning",
@@ -190,5 +197,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-12T05:36:37-04:00"
+ "updated": "2026-10-12T16:46:05-04:00"
 }

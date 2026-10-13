@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-13-morning",
+   "date": "2026-10-13",
+   "edition": "morning",
+   "count": 8,
+   "lead": "A federal rule barring Medicaid and CHIP money for puberty blockers, hormones and gender surgery for minors takes effect today in every state."
+  },
+  {
    "key": "2026-10-12-evening",
    "date": "2026-10-12",
    "edition": "evening",
@@ -197,5 +204,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-12T16:46:05-04:00"
+ "updated": "2026-10-13T05:39:23-04:00"
 }

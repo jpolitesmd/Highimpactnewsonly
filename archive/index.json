@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-13-evening",
+   "date": "2026-10-13",
+   "edition": "evening",
+   "count": 8,
+   "lead": "Bank of America was hit with more than $1.21 billion in federal penalties for anti-money-laundering and sanctions violations, Treasury said."
+  },
+  {
    "key": "2026-10-13-morning",
    "date": "2026-10-13",
    "edition": "morning",
@@ -204,5 +211,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-13T05:39:23-04:00"
+ "updated": "2026-10-13T16:46:11-04:00"
 }

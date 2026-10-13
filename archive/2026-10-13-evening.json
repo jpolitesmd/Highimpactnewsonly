@@ -1,0 +1,172 @@
+{
+ "date": "2026-10-13",
+ "edition": "evening",
+ "subject": "Tuesday, Oct 13 - Evening edition",
+ "published": "2026-10-13T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-13-bank-of-america-1-2b-penalty",
+   "section": "money",
+   "text": "Bank of America was hit with more than $1.21 billion in federal penalties for anti-money-laundering and sanctions violations, Treasury said.",
+   "detail": "Treasury called it the third-largest penalty in its history. The Office of the Comptroller of the Currency's $750 million civil penalty, credited toward the total, is the largest the OCC has ever imposed. In its resolution with FinCEN, the bank admitted it willfully violated the Bank Secrecy Act; Treasury said it failed to report on time more than $5 billion in suspicious transactions, over $1 billion of it tied to national-security risks such as Chinese money-laundering networks and the southwest border. The bank must hire a third party to find unreported transactions and undergo independent reviews. OFAC separately announced an $11.66 million settlement over 475 apparent sanctions violations. The bank said the penalties mean a $1.2 billion third-quarter charge; it reports earnings Wednesday.",
+   "why": "A record OCC penalty against the second-largest U.S. bank, the day before its earnings.",
+   "impact": 3,
+   "topic": "banks",
+   "region": "US",
+   "time": "2026-10-13T16:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of the Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0657"
+  },
+  {
+   "id": "2026-10-13-cornell-frat-party-suspension",
+   "section": "news",
+   "text": "Cornell suspended all parties and social events at its fraternity houses for the rest of the 2026-27 academic year, citing the Jane Doe case.",
+   "detail": "In a letter Tuesday, President Michael Kotlikoff said the suspension covers all Interfraternity Council houses, takes effect immediately and allows a review of whether and how fraternity life can safely continue; any fraternity that holds an in-house party or social event will face an immediate emergency suspension. He apologized for the harm Jane Doe suffered in 2024. Cornell will also add staff to its Office of Civil Rights and victim-advocate office, and is working with the New York State Police so its investigators, who are independent of the university, can investigate on-campus sexual assault reports while Sally Yates's independent review runs. Attorney General Letitia James's separate criminal investigation continues; no one has been criminally charged, and the men named in the civil lawsuit deny the accusations.",
+   "why": "Cornell is acting on campus safety now rather than waiting for its outside review or the state's criminal inquiry.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-13T12:00:00-04:00",
+   "time_known": false,
+   "source": "Cornell University",
+   "url": "https://statements.cornell.edu/2026/20261013-immediate-measures.cfm"
+  },
+  {
+   "id": "2026-10-13-scotus-takes-doge-foia-case",
+   "section": "news",
+   "text": "The Supreme Court agreed to decide whether DOGE must turn over records to a watchdog group under the public-records law.",
+   "detail": "In U.S. DOGE Service v. U.S. District Court for the District of Columbia (No. 25-1103), the justices granted the Trump administration's appeal in Citizens for Responsibility and Ethics in Washington's Freedom of Information Act case. U.S. District Judge Christopher Cooper ruled in April 2025 that DOGE likely is an agency covered by FOIA; the administration says DOGE is an advisory body inside the Executive Office of the President and exempt. The Supreme Court in June 2025 ordered the D.C. Circuit to narrow the judge's discovery orders; the D.C. Circuit refused in July to halt the narrowed disclosure. Arguments are expected early in 2027, with a ruling by summer. The court also agreed to hear Blanche v. Ozurumba (No. 25-1343), on whether cooking at a Nigerian separatist group's camp counts as \"material support\" for terrorism that bars an immigrant from asylum.",
+   "why": "The case will decide how much of the White House's cost-cutting operation the public can see, and sets a test for other EOP offices.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-13T09:30:00-04:00",
+   "time_known": true,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101326zor_qol1.pdf"
+  },
+  {
+   "id": "2026-10-13-kyiv-missiles-no-warning",
+   "section": "news",
+   "text": "Russian ballistic missiles hit Kyiv overnight with no warning from partners, Zelenskyy said, as a strike on a Kharkiv apartment building killed four.",
+   "detail": "Zelenskyy said Russia attacked overnight with more than 100 drones, loitering munitions and ballistic missiles; five ballistic missiles struck civilian infrastructure in Kyiv, where one person was killed and 11 injured, the UN said. In Kharkiv a residential building was destroyed, four people were killed and 41 injured in one evening. Zelenskyy said Ukraine got no intelligence from partners about the missiles headed to Kyiv; Ukrainian officials said U.S. intelligence sharing continues. He said Ukraine has not struck Russian refineries since President Trump announced an energy ceasefire, while Russia keeps hitting Ukraine's energy sites. On Monday U.S. officials warned they could suspend intelligence sharing.",
+   "why": "Early missile warnings save lives, and Washington has threatened to cut off the intelligence that provides them.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-13T09:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-zelenkyy-no-warning-missile-strike-10c54e55f31aded2db95242fdb4fd153"
+  },
+  {
+   "id": "2026-10-13-dhs-work-permit-refugee-rules",
+   "section": "news",
+   "text": "Homeland Security made final its end to automatic work-permit extensions for immigrants awaiting renewal, and cut refugees' time to contest losing status to 10 days.",
+   "detail": "Both rules go on public inspection Tuesday and take effect when published in the Federal Register on Oct. 14. The work-permit rule finalizes, without change, an October 2025 interim rule that ended automatic extensions of employment authorization documents (EADs) for people who file renewals on time in certain categories; renewals must now be approved before the old card lapses. The second, an interim rule, cuts the response period after a notice of intent to terminate refugee status from 30 days to 10, with comments due in 30 days. DHS and the Justice Department also finalized their June 2025 rule speeding civil fines for migrants who fail to leave or who cross illegally, the policy a Boston judge blocked Oct. 6.",
+   "why": "Workers caught in USCIS renewal backlogs can lose the right to work, and refugees get far less time to fight termination.",
+   "impact": 3,
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-13T08:45:00-04:00",
+   "time_known": true,
+   "source": "Federal Register (public inspection)",
+   "url": "https://www.federalregister.gov/public-inspection/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents"
+  },
+  {
+   "id": "2026-10-13-east-potomac-trees-blocked",
+   "section": "news",
+   "text": "The Trump administration may not cut any more trees at Washington's East Potomac Golf Links through Oct. 26, a federal judge ordered.",
+   "detail": "U.S. District Judge Ana Reyes also required three business days' notice before any irreversible change to the public course, which President Trump plans to overhaul. The National Park Service felled about 430 trees there Saturday, a Justice Department lawyer said, after notifying the court just before 5 p.m. Friday; about 99 more were marked for removal. At a nearly four-hour hearing Monday, Reyes told government lawyers they had \"lost credibility\" and ordered Park Service officials to testify about who approved the cutting. The D.C. Preservation League and two golfers brought the suit. A hearing is set for Oct. 19.",
+   "why": "A court has stepped in after hundreds of mature trees on a historic public course came down in one day.",
+   "impact": 2,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-13T14:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-golf-course-04410cbb0deaa1ee77bfc7154b784201"
+  },
+  {
+   "id": "2026-10-13-shkreli-contempt-motion",
+   "section": "news",
+   "text": "Martin Shkreli should be held in contempt for trading drug-company stocks despite a lifetime pharma ban, the FTC and seven states told a federal judge.",
+   "detail": "In filings Tuesday in Manhattan federal court, the FTC and the attorneys general of New York, California, Illinois, North Carolina, Ohio, Pennsylvania and Virginia said Shkreli violated Judge Denise Cote's 2022 injunction by trading stocks of at least 60 pharmaceutical companies and discussing and advising on their businesses on livestreams and social media. They asked the court to force him to sell his pharma holdings, give up his trading profits and face more fines or jail for future violations, and to bar him, his sister and his partner from destroying evidence. The 2022 ban followed his raising the price of the HIV drug Daraprim from $17.50 to $750 a pill. Shkreli's representatives did not immediately comment.",
+   "why": "Regulators are trying to enforce one of the few lifetime industry bans a court has imposed.",
+   "impact": 2,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-13T12:00:00-04:00",
+   "time_known": false,
+   "source": "California Attorney General",
+   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-moves-hold-martin-shkreli-infamous-pharma-bro-contempt"
+  },
+  {
+   "id": "2026-10-13-existing-home-sales-september",
+   "section": "money",
+   "text": "Sales of previously owned U.S. homes rose 1.5% in September to a 3.99 million annual pace but stayed below a year earlier, the Realtors said.",
+   "detail": "The National Association of Realtors said sales fell 2.2% from September 2025; August was revised down to 3.93 million, and the two months were the year's slowest. Inventory rose to 1.60 million homes, the most since November 2019, or 4.8 months of supply. The median price rose 1.3% from a year earlier to $417,500, and homes sat a median 33 days. Freddie Mac's 30-year fixed rate averaged 6.86% in September and was 7.40% as of Oct. 8. October sales come out Nov. 12.",
+   "why": "Higher mortgage rates are keeping the housing market near its slowest pace in years.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-13T10:00:00-04:00",
+   "time_known": true,
+   "source": "National Association of Realtors",
+   "url": "https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-13",
+   "branch": "judicial",
+   "text": "Supreme Court hears Beaird v. United States.",
+   "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
+  },
+  {
+   "date": "2026-10-13",
+   "when": "7:00 a.m. ET",
+   "text": "JPMorgan Chase, Goldman Sachs, Citigroup and Wells Fargo report third-quarter results before the open, kicking off big-bank earnings.",
+   "detail": "JPMorgan results about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank; Reuters lists all four banks for Oct. 13 before the open.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "when": "Before the open",
+   "text": "Johnson & Johnson reports third-quarter results; investor call 8:30 a.m. ET.",
+   "detail": "Press release expected about 6:45 a.m. ET, per the company’s Aug. 31 notice.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

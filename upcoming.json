@@ -1,17 +1,6 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-12",
   "events": [
-    {
-      "date": "2026-10-12",
-      "when": "Expected",
-      "text": "Evernorth (XRP-treasury company) Class A shares begin Nasdaq trading under ticker XRPN.",
-      "detail": "Evernorth said Oct. 9 it completed its business combination with Armada Acquisition Corp. II, holding about 473 million XRP and about $300 million in gross cash proceeds; it expects to ring the Nasdaq closing bell Oct. 14.",
-      "buzz": true,
-      "tags": [
-        "crypto",
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-13",
       "branch": "judicial",
@@ -56,8 +45,19 @@
     },
     {
       "date": "2026-10-14",
+      "when": "2:00 p.m. ET",
+      "text": "Federal Reserve Beige Book on late August and September conditions.",
+      "detail": "Fed lists the Oct. 14 Beige Book covering late August and September conditions.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-14",
       "when": "8:30 a.m. ET",
       "text": "September inflation (CPI) report, 8:30 a.m. ET.",
+      "detail": "BLS also releases Real Earnings for September at the same 8:30 a.m. ET slot.",
       "buzz": true,
       "tags": [
         "markets"
@@ -77,20 +77,30 @@
       "date": "2026-10-15",
       "when": "8:30 a.m. ET",
       "text": "September Producer Price Index (PPI), 8:30 a.m. ET.",
+      "buzz": true,
       "tags": [
         "markets"
-      ],
-      "buzz": true
+      ]
     },
     {
       "date": "2026-10-15",
       "when": "8:30 a.m. ET",
       "text": "September retail sales (Census advance report), 8:30 a.m. ET.",
       "detail": "The government’s most timely read on consumer spending; lands the same morning as the September PPI.",
+      "buzz": true,
       "tags": [
         "markets"
-      ],
-      "buzz": true
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "when": "8:30 a.m. ET",
+      "text": "September U.S. Import and Export Price Indexes, 8:30 a.m. ET.",
+      "detail": "BLS October schedule; trade-price read two days after PPI.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
     },
     {
       "date": "2026-10-19",
@@ -115,6 +125,16 @@
       "when": "4:01 p.m. ET",
       "text": "Netflix reports third-quarter results after the close, about 4:01 p.m. ET.",
       "detail": "Date and time per Netflix investor relations; live management interview follows at 4:45 p.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "when": "8:30 a.m. ET",
+      "text": "September housing starts and building permits (New Residential Construction), 8:30 a.m. ET.",
+      "detail": "Census/HUD joint release; next date on the Census construction schedule and the Aug. 2026 report.",
       "buzz": true,
       "tags": [
         "markets"
@@ -163,10 +183,10 @@
       "date": "2026-10-29",
       "when": "8:30 a.m. ET",
       "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
+      "buzz": true,
       "tags": [
         "markets"
-      ],
-      "buzz": true
+      ]
     },
     {
       "date": "2026-11-03",
@@ -176,10 +196,10 @@
       "date": "2026-11-06",
       "when": "8:30 a.m. ET",
       "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+      "buzz": true,
       "tags": [
         "markets"
-      ],
-      "buzz": true
+      ]
     },
     {
       "date": "2026-12-01",
@@ -190,8 +210,8 @@
     },
     {
       "date": "2026-12-11",
-      "text": "Government funding deadline.",
       "branch": "legislative",
+      "text": "Government funding deadline.",
       "detail": "Congress must pass funding or another stopgap by then to avoid a partial government shutdown."
     }
   ]

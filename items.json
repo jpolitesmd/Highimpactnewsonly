@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-13T05:39:06-04:00",
+  "updated": "2026-10-13T15:39:24-04:00",
   "items": [
+    {
+      "id": "2026-10-13-cornell-frat-party-suspension",
+      "section": "news",
+      "text": "Cornell suspended all parties and social events at its fraternity houses for the rest of the 2026-27 academic year, citing the Jane Doe case.",
+      "detail": "In a letter Tuesday, President Michael Kotlikoff said the suspension covers all Interfraternity Council houses, takes effect immediately and allows a review of whether and how fraternity life can safely continue; any fraternity that holds an in-house party or social event will face an immediate emergency suspension. He apologized for the harm Jane Doe suffered in 2024. Cornell will also add staff to its Office of Civil Rights and victim-advocate office, and is working with the New York State Police so its investigators, who are independent of the university, can investigate on-campus sexual assault reports while Sally Yates's independent review runs. Attorney General Letitia James's separate criminal investigation continues; no one has been criminally charged, and the men named in the civil lawsuit deny the accusations.",
+      "why": "Cornell is acting on campus safety now rather than waiting for its outside review or the state's criminal inquiry.",
+      "impact": 3,
+      "topic": "court",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "region": "US",
+      "time": "2026-10-13T12:00:00-04:00",
+      "time_known": false,
+      "source": "Cornell University",
+      "url": "https://statements.cornell.edu/2026/20261013-immediate-measures.cfm",
+      "added_at": "2026-10-13T15:39:24-04:00",
+      "thread": "cornell-assault-case"
+    },
     {
       "id": "2026-10-13-medicaid-chip-gender-procedures-ban",
       "section": "health",

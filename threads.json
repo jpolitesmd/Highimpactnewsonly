@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-14",
  "threads": [
   {
    "id": "iran-war",
@@ -17,7 +17,7 @@
    "id": "government-funding",
    "title": "Government funding and the Dec. 11 deadline",
    "summary": "Congress funded the government through Dec. 11 with a stopgap law; what happens to federal spending before that deadline.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "trade-tariffs",
@@ -41,7 +41,7 @@
    "id": "college-sports-act",
    "title": "The Protect College Sports Act",
    "summary": "Federal legislation on college athlete pay, agents and benefits.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "midterms-2026",

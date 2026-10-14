@@ -1,6 +1,76 @@
 {
-  "updated": "2026-10-13T16:45:59-04:00",
+  "updated": "2026-10-14T05:39:21-04:00",
   "items": [
+    {
+      "id": "2026-10-14-russia-strikes-kyiv-kharkiv-power",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-14T01:00:00-04:00",
+      "time_known": false,
+      "text": "Russian missiles and drones knocked out power to at least 600,000 Ukrainians overnight, killing three in Kyiv, three days after Trump's announced energy ceasefire.",
+      "detail": "Zelenskyy said the hours-long attack, aimed mainly at Kyiv and Kharkiv, damaged 30 energy facilities and called it \"ostentatious disrespect\" to President Trump's peace effort. Ukraine's air force said Russia launched 39 ballistic and cruise missiles and 128 drones. Russia's defense ministry said it struck four power plants in and around Kyiv and two in Kharkiv, plus other targets, and attacks also hit state railway facilities in five regions. Trump announced the energy ceasefire on Sunday; Zelenskyy says Ukraine has held off strikes on Russian refineries since then.",
+      "why": "It is the largest blow yet to the energy truce Washington announced, heading into Ukraine's heating season.",
+      "source": "Reuters (via CBC)",
+      "url": "https://www.cbc.ca/news/world/russia-attacks-ukraine-energy-infrastructure-9.7379859",
+      "added_at": "2026-10-14T05:39:21-04:00"
+    },
+    {
+      "id": "2026-10-14-judge-blocks-white-house-media-ban",
+      "section": "news",
+      "topic": "court",
+      "branch": [
+        "judicial"
+      ],
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-13T22:00:00-04:00",
+      "time_known": false,
+      "text": "CNN, MS NOW and Politico keep their White House access for the rest of their lawsuit after a federal judge blocked President Trump's ban late Tuesday.",
+      "detail": "U.S. District Judge Timothy Kelly in Washington issued a preliminary injunction, replacing the temporary restraining order he granted Sept. 24, and found the outlets likely to win their free-speech and due-process claims. He wrote that Trump likely banned them because he sees their reporting as biased, and noted the national-security reason came after their passes were pulled. The order has no end date but does not require access to the Oval Office or Air Force One. It is not a final ruling on the merits.",
+      "why": "It keeps three major outlets inside the White House while the court decides whether a president can bar reporters over their coverage.",
+      "source": "AP",
+      "url": "https://apnews.com/article/cnn-ms-now-politico-white-house-1a023a8890e8d25d5d293862f4cd47af",
+      "added_at": "2026-10-14T05:39:21-04:00"
+    },
+    {
+      "id": "2026-10-14-dhs-migrant-fines-final-rule",
+      "section": "news",
+      "topic": "agency",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "impact": 3,
+      "thread": "deportations-courts",
+      "time": "2026-10-14T00:00:00-04:00",
+      "time_known": false,
+      "text": "The Trump administration's rule for fining migrants up to $998 a day for not leaving the U.S. was made final today, after a Boston judge stayed the earlier version.",
+      "detail": "Homeland Security and the Justice Department finalized the June 2025 interim rule with one change: ICE may accept a late appeal when a documented mail delay was beyond the person's control. Appeals are still due within 15 business days. The rule covers fines for failing to leave after a final removal order (up to $998 a day), missing a voluntary-departure deadline and being caught entering illegally. A federal judge in Massachusetts stayed the interim rule and the fines issued under it, finding ICE likely skipped required public comment; the departments say that stay does not stop the final rule from taking effect immediately. DHS also proposed today to end the rule telling USCIS officers to defer to earlier approvals when deciding H-1B, L-1, O-1 and other work-visa extensions; comments are due Nov. 13.",
+      "why": "The administration is trying to restart more than 100,000 fines worth about $84 billion that a court had halted.",
+      "source": "Federal Register (DHS/DOJ final rule)",
+      "url": "https://www.federalregister.gov/documents/2026/10/14/2026-21024/imposition-and-collection-of-civil-penalties-for-certain-immigration-related-violations",
+      "added_at": "2026-10-14T05:39:21-04:00"
+    },
+    {
+      "id": "2026-10-14-asml-supply-short-2028",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "World",
+      "impact": 2,
+      "time": "2026-10-14T01:00:00-04:00",
+      "time_known": true,
+      "text": "ASML, the sole maker of the machines that print advanced AI chips, said its planned supply for 2027 and 2028 will not fully meet customer demand.",
+      "detail": "The Dutch company reported record third-quarter sales of 11.7 billion euros and net income of 5.0 billion euros, up from 9.3 billion and 2.9 billion in the second quarter, with a 57.5% gross margin. It expects fourth-quarter sales of 14.2 billion to 15.2 billion euros and full-year 2026 sales of 44 billion to 45 billion euros. CEO Christophe Fouquet said some customers want to place orders for 2029 and 2030, and ASML is studying ways to add capacity for 2028 beyond the 30% increase it announced earlier.",
+      "why": "A shortage of ASML machines caps how fast chipmakers can expand AI chip output.",
+      "source": "ASML (Q3 2026 results release)",
+      "url": "https://ml-eu.globenewswire.com/Resource/Download/4beff1ba-33cc-4f21-b926-43b673c9708d",
+      "added_at": "2026-10-14T05:39:21-04:00"
+    },
     {
       "id": "2026-10-13-scotus-takes-doge-foia-case",
       "section": "news",

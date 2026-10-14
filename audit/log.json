@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-13",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -99,6 +99,23 @@
       "checklist_changes": [
         "- Gulf/Hormuz wartime: before evening lock, open UKMTO latest warnings for same-afternoon tanker hits with casualties (not only overnight UKMTO). Missed 2026-10-07 evening: Acers struck ~51NM north of Qatar at 1900 UTC / 3:00 p.m. ET. [audit 2026-10-07]",
         "- European far-right institutional firsts: after AfD/peer election wins, check same-day or next-morning Landtag speaker / premier votes (Just Security Early Edition often flags). Missed 2026-10-06\u219207 morning: AfD\u2019s Tobias Rausch elected Saxony-Anhalt Landtag president (first for the party / first far-right state legislature head since 1945). [audit 2026-10-07]"
+      ]
+    },
+    {
+      "run": "2026-10-13T21:55:00-04:00",
+      "day": "2026-10-13",
+      "reference_events": 11,
+      "missed": [
+        {
+          "id": "2026-10-12-omar-home-searched",
+          "impact": 3,
+          "should_have_caught": "morning",
+          "reason": "Homeland Security Investigations executed a DOJ-secured search warrant at Rep. Ilhan Omar's D.C.-area home Monday Oct. 12 (DOJ statement; AP, Reuters), three weeks before the midterms; missed by the Oct. 12 evening edition and the Oct. 13 morning 'Yesterday's biggest stories' group. Checked and not counted: UKMTO 170-26/171-26 Hormuz hits (no casualties or names), Saudi strike on Sanaa fuel depot and Houthi hit on Aramco Dhahran office (limited fire, no injuries), UK blaming IRGC for RAF Fairford plot, OFAC Cartel del Noreste designations."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "- Law enforcement vs. officeholders: search AP/Reuters politics for \"search warrant\" OR \"indicted\" OR \"arrested\" + member of Congress/governor + today's date, including federal holidays; a DOJ-confirmed search or charge against a sitting official is Government impact 3. Missed 2026-10-12 evening and 2026-10-13 morning: HSI searched Rep. Ilhan Omar's home (DOJ confirmed). [audit 2026-10-13]"
       ]
     }
   ]

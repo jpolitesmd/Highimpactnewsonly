@@ -1,52 +1,6 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "events": [
-    {
-      "date": "2026-10-13",
-      "branch": "judicial",
-      "text": "Supreme Court hears Beaird v. United States.",
-      "detail": "Whether courts must still defer to Sentencing Guidelines commentary under Stinson v. United States."
-    },
-    {
-      "date": "2026-10-13",
-      "when": "7:00 a.m. ET",
-      "text": "JPMorgan Chase, Goldman Sachs, Citigroup and Wells Fargo report third-quarter results before the open, kicking off big-bank earnings.",
-      "detail": "JPMorgan results about 7:00 a.m. ET with an 8:30 a.m. ET call, per the bank; Reuters lists all four banks for Oct. 13 before the open.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "when": "Before the open",
-      "text": "Johnson & Johnson reports third-quarter results; investor call 8:30 a.m. ET.",
-      "detail": "Press release expected about 6:45 a.m. ET, per the company’s Aug. 31 notice.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "when": "Before the open",
-      "text": "UnitedHealth Group reports third-quarter results before the open; call 8:00 a.m. ET.",
-      "detail": "Date and time per the company’s Sept. 15 release; webcast on unitedhealthgroup.com.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "when": "10:00 a.m. ET",
-      "text": "September existing-home sales (National Association of Realtors), 10:00 a.m. ET.",
-      "detail": "Per NAR's 2026 statistical release schedule; September pending home sales follow Oct. 20.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-14",
       "branch": "judicial",
@@ -78,6 +32,16 @@
       "when": "Before the open",
       "text": "Bank of America and Morgan Stanley report third-quarter results, the second day of big-bank earnings.",
       "detail": "Bank of America releases results about 6:45 a.m. ET with an 8:30 a.m. ET call, per the bank; Morgan Stanley reports before the open with a 9:30 a.m. ET call.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "when": "About 1:00 a.m. ET",
+      "text": "ASML reports third-quarter results before European trading opens; investor call 9:00 a.m. ET.",
+      "detail": "Release set for 7:00 a.m. Amsterdam time per ASML investor relations; the chip-equipment maker guided Q3 sales of €11 billion to €12 billion.",
       "buzz": true,
       "tags": [
         "markets"
@@ -181,6 +145,16 @@
       ]
     },
     {
+      "date": "2026-10-21",
+      "when": "After the close",
+      "text": "Meta reports third-quarter results after the close; call 4:30 p.m. ET.",
+      "detail": "Date and call time per Meta’s Oct. 12 investor relations release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-28",
       "when": "2:00 p.m. ET",
       "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
@@ -213,6 +187,26 @@
       "date": "2026-10-29",
       "when": "8:30 a.m. ET",
       "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "when": "After the close",
+      "text": "Intel reports third-quarter results after the close; call 5:00 p.m. ET.",
+      "detail": "Date and call time (2 p.m. Pacific) per Intel’s Oct. 6 release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "when": "After the close",
+      "text": "Apple reports fiscal fourth-quarter results; call 5:00 p.m. ET.",
+      "detail": "Per Apple’s investor relations page: results about 4:30 p.m. ET, call 2:00 p.m. Pacific. First earnings call with John Ternus as CEO.",
       "buzz": true,
       "tags": [
         "markets"

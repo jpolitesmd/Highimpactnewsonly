@@ -1,0 +1,131 @@
+{
+ "date": "2026-10-14",
+ "edition": "evening",
+ "subject": "Wednesday, Oct 14 - Evening edition",
+ "published": "2026-10-14T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-14-singapore-ship-sinks-hormuz",
+   "section": "news",
+   "text": "A Singapore-flagged container ship, GFS Pride, sank in the Strait of Hormuz after an unknown projectile hit it, Singapore said; all 21 crew got off safely.",
+   "detail": "Singapore's Maritime and Port Authority said GFS Pride was struck Tuesday, caught fire and sank; no injuries were reported. A second Singapore-flagged container ship, GFS Giselle, took hull damage from a projectile Wednesday but reached a safe anchorage with all 22 crew. Iran's Revolutionary Guards said a ship hit naval mines while using what they called an \"unauthorised\" route. The only other ship reported sunk since the Iran war began in February was the Safeen Prestige in March; the UN's maritime agency counts at least 24 seafarers killed in 106 confirmed incidents.",
+   "why": "A sinking in the strait that carries about a fifth of the world's oil and gas raises the risk for every ship still moving Gulf exports.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-14T11:00:00-04:00",
+   "time_known": false,
+   "source": "BBC (citing Maritime and Port Authority of Singapore)",
+   "url": "https://www.bbc.com/news/articles/crkg7q97z078o"
+  },
+  {
+   "id": "2026-10-14-cpi-september-3-7",
+   "section": "money",
+   "text": "Consumer prices rose 3.7% over the past year in September, up from 3.4% in August, as gasoline jumped 9.1% in a month.",
+   "detail": "The Bureau of Labor Statistics said its consumer price index rose 0.6% in September after 0.4% in August, with gasoline accounting for over half of the monthly gain. Prices excluding food and energy rose 0.3% for the month and 2.6% over the year (2.4% in August). Energy prices are up 20.4% over 12 months and gasoline 34.2%; food was unchanged for the month. Stocks had their worst day since July: the S&P 500 fell 1.1%, the Nasdaq 1.9% and the Dow 0.1%, AP reported. The October report is due Nov. 10.",
+   "why": "Faster inflation squeezes household budgets and raises the odds the Fed lifts rates again at its Oct. 27-28 meeting.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-14T08:30:00-04:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics (CPI release)",
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+  },
+  {
+   "id": "2026-10-14-beige-book-october",
+   "section": "money",
+   "text": "The Fed's Beige Book found most of its 12 districts saw little change in consumer spending, with spending driven by high-income households.",
+   "detail": "Two districts reported moderate growth, three modest, four slight and three no significant change since the prior report. Robust manufacturing growth led Dallas, and six other districts reported modest to moderate factory growth. Most districts reported little or no net change in employment. Auto sales were flat to lower in five of six districts that reported, and Boston, Minneapolis and San Francisco noted fewer Canadian tourists. Information was collected on or before Oct. 5; the report feeds into the Fed's Oct. 27-28 rate meeting.",
+   "why": "It is the Fed's last broad read on the economy before a rate meeting where a hike is in play.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-14T14:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Reserve (Beige Book)",
+   "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm"
+  },
+  {
+   "id": "2026-10-14-doj-tax-fraud-surge",
+   "section": "news",
+   "text": "The Justice Department's first national tax fraud surge brought cases against 76 defendants accused of trying to take more than $490 million from the Treasury.",
+   "detail": "DOJ's new Fraud Division, 35 U.S. attorney's offices and IRS Criminal Investigation ran the surge from early September to Oct. 14. Prosecutors brought 23 actions with new charges against 31 defendants, with an alleged intended loss above $350 million, plus about 39 trials, guilty pleas and sentencings involving 45 others (nearly $140 million). The largest case charges four Texas residents with selling a sham-trust tax shelter that allegedly hid more than $1.5 billion of income and cost the IRS over $200 million. Charges are allegations; defendants are presumed innocent.",
+   "why": "It is the first coordinated nationwide criminal tax sweep under the Fraud Division created in April.",
+   "impact": 2,
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-14T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/dojs-fraud-division-irs-and-irs-ci-expose-more-490m-tax-fraud-national-tax-enforcement-surge"
+  },
+  {
+   "id": "2026-10-14-lutsk-drone-strike",
+   "section": "news",
+   "text": "A Russian drone strike killed six people and injured 13, including a child, in Lutsk in western Ukraine, Ukraine's emergency service said.",
+   "detail": "The State Emergency Service said search and rescue work was finished and one injured person was in critical condition. Drone debris hit a wholesale warehouse, and a nine-story apartment building on Sobornosti Avenue was damaged, officials said. The strike came hours after an overnight Russian attack that cut power to at least 600,000 Ukrainians despite the energy ceasefire Trump announced Sunday.",
+   "why": "Deadly strikes are reaching far western Ukraine even as Washington presses an energy truce.",
+   "impact": 2,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-14T11:10:00-04:00",
+   "time_known": false,
+   "source": "Interfax-Ukraine (citing State Emergency Service)",
+   "url": "https://en.interfax.com.ua/news/general/1220201.html"
+  },
+  {
+   "id": "2026-10-14-bofa-morgan-stanley-q3",
+   "section": "money",
+   "text": "Bank of America's third-quarter profit fell 17% to $6.9 billion after a $1.2 billion federal penalty, while Morgan Stanley's profit rose to $4.9 billion.",
+   "detail": "Bank of America earned 91 cents a share; excluding the penalty for anti-money-laundering and sanctions failures, it would have been $1.08. Revenue rose 3.2% to $30.1 billion but missed estimates as bond trading revenue fell 17% to $2.55 billion, CNBC reported; net interest income rose 7.9% to $16.6 billion. Morgan Stanley reported net revenue of $20.3 billion, up from $18.2 billion a year earlier, and earnings of $3.03 a share, with $232 billion in net new wealth-management assets.",
+   "why": "The second day of big-bank results showed trading slowing at one of the largest U.S. lenders as a record penalty hit its books.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-14T06:45:00-04:00",
+   "time_known": true,
+   "source": "Bank of America (Q3 2026 results, SEC filing)",
+   "url": "https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0000070858-26-000481/bac09302026ex991.htm"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-14",
+   "branch": "judicial",
+   "text": "Supreme Court hears Salazar v. Paramount Global.",
+   "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
+  },
+  {
+   "date": "2026-10-14",
+   "when": "2:00 p.m. ET",
+   "text": "Federal Reserve Beige Book on late August and September conditions.",
+   "detail": "Fed lists the Oct. 14 Beige Book covering late August and September conditions.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "when": "8:30 a.m. ET",
+   "text": "September inflation (CPI) report, 8:30 a.m. ET.",
+   "detail": "BLS also releases Real Earnings for September at the same 8:30 a.m. ET slot.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-14-evening",
+   "date": "2026-10-14",
+   "edition": "evening",
+   "count": 6,
+   "lead": "A Singapore-flagged container ship, GFS Pride, sank in the Strait of Hormuz after an unknown projectile hit it, Singapore said; all 21 crew got off safely."
+  },
+  {
    "key": "2026-10-14-morning",
    "date": "2026-10-14",
    "edition": "morning",
@@ -218,5 +225,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-14T05:39:46-04:00"
+ "updated": "2026-10-14T16:43:15-04:00"
 }

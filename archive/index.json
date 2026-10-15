@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-15-evening",
+   "date": "2026-10-15",
+   "edition": "evening",
+   "count": 8,
+   "lead": "The Dow closed up about 1.1%, more than 500 points, Thursday as investors moved money out of tech stocks and into Treasury bonds."
+  },
+  {
    "key": "2026-10-15-morning",
    "date": "2026-10-15",
    "edition": "morning",
@@ -232,5 +239,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-15T05:43:16-04:00"
+ "updated": "2026-10-15T16:36:31-04:00"
 }

@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-15T05:45:50-04:00",
+  "updated": "2026-10-15T15:33:31-04:00",
   "items": [
+    {
+      "id": "2026-10-14-cornell-faculty-no-confidence-debate",
+      "section": "news",
+      "text": "Cornell's Faculty Senate began debating a no-confidence resolution in the university's administration over its handling of the Jane Doe case.",
+      "detail": "At a Wednesday meeting closed to the media, President Michael Kotlikoff took faculty questions before the debate, acknowledged some missteps and asked for more time to carry out reforms, according to an audio recording obtained by the Associated Press. He said that if Cornell cannot be convinced fraternities can operate safely, it should make that decision, based on research and evidence. He also said he had not read the Cornell Police report on the 2024 allegations, citing confidentiality and policy. Debate resumes Oct. 28, followed by electronic voting; the nonbinding resolution cannot remove him. Attorney General Letitia James's criminal investigation continues; no one has been criminally charged, and the men named in the civil lawsuit deny the accusations.",
+      "why": "Cornell's faculty will formally vote on whether they trust the administration, and the president has now left open ending fraternity life.",
+      "impact": 3,
+      "topic": "court",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "region": "US",
+      "time": "2026-10-14T15:35:00-04:00",
+      "time_known": true,
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/cornell-university-gang-rape-michael-kotlikoff-248d753cd06f2f7764c3f0ea1df5c643",
+      "added_at": "2026-10-15T15:33:31-04:00",
+      "thread": "cornell-assault-case"
+    },
     {
       "id": "2026-10-14-omar-phone-seized-subpoenas",
       "section": "news",

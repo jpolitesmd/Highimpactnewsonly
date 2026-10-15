@@ -1,52 +1,6 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "events": [
-    {
-      "date": "2026-10-14",
-      "branch": "judicial",
-      "text": "Supreme Court hears Salazar v. Paramount Global.",
-      "detail": "How far the Video Privacy Protection Act reaches beyond traditional video providers."
-    },
-    {
-      "date": "2026-10-14",
-      "when": "2:00 p.m. ET",
-      "text": "Federal Reserve Beige Book on late August and September conditions.",
-      "detail": "Fed lists the Oct. 14 Beige Book covering late August and September conditions.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "when": "8:30 a.m. ET",
-      "text": "September inflation (CPI) report, 8:30 a.m. ET.",
-      "detail": "BLS also releases Real Earnings for September at the same 8:30 a.m. ET slot.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "when": "Before the open",
-      "text": "Bank of America and Morgan Stanley report third-quarter results, the second day of big-bank earnings.",
-      "detail": "Bank of America releases results about 6:45 a.m. ET with an 8:30 a.m. ET call, per the bank; Morgan Stanley reports before the open with a 9:30 a.m. ET call.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "when": "About 1:00 a.m. ET",
-      "text": "ASML reports third-quarter results before European trading opens; investor call 9:00 a.m. ET.",
-      "detail": "Release set for 7:00 a.m. Amsterdam time per ASML investor relations; the chip-equipment maker guided Q3 sales of €11 billion to €12 billion.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-15",
       "when": "8:30 a.m. ET",
@@ -125,6 +79,16 @@
       ]
     },
     {
+      "date": "2026-10-20",
+      "when": "7:30 a.m. ET",
+      "text": "GE Aerospace reports third-quarter results; webcast 7:30 a.m. ET.",
+      "detail": "Webcast date and time per GE Aerospace investor relations.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-21",
       "when": "After the close",
       "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
@@ -149,6 +113,46 @@
       "when": "After the close",
       "text": "Meta reports third-quarter results after the close; call 4:30 p.m. ET.",
       "detail": "Date and call time per Meta’s Oct. 12 investor relations release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "when": "Before the open",
+      "text": "Procter & Gamble reports fiscal first-quarter results; webcast 8:30 a.m. ET.",
+      "detail": "Date and time per P&G's Sept. 24 announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "when": "7:00 a.m. ET",
+      "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+      "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "when": "Before the open",
+      "text": "Coca-Cola reports third-quarter results before the NYSE opens; call 8:30 a.m. ET.",
+      "detail": "Timing per Coca-Cola's Sept. 29 announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "when": "10:00 a.m. ET",
+      "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+      "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
       "buzz": true,
       "tags": [
         "markets"

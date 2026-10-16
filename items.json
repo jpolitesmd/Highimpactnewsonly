@@ -19,7 +19,9 @@
       "why": "It is one of the deadliest U.S. elementary school shootings in years, and officials are still investigating how it unfolded.",
       "time": "2026-10-15T20:52:00-04:00",
       "time_known": false,
-      "url": "https://apnews.com/article/oregon-school-shooting-silver-rail-elementary-b0642ec5cd3da0db24227a2798e2c6ce"
+      "url": "https://apnews.com/article/oregon-school-shooting-silver-rail-elementary-b0642ec5cd3da0db24227a2798e2c6ce",
+      "pin": "2026-10-16 morning",
+      "pin_order": 2
     },
     {
       "id": "2026-10-15-ppi-retail-sales-september",
@@ -4530,7 +4532,8 @@
       "source": "Tesla; Reuters",
       "url": "https://www.tesla.com/roadster",
       "added_at": "2026-10-15T21:27:47-04:00",
-      "pin": "2026-10-16 morning"
+      "pin": "2026-10-16 morning",
+      "pin_order": 1
     },
     {
       "id": "2026-10-13-pope-leo-lung-cancer",

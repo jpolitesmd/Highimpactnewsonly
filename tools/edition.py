@@ -33,8 +33,8 @@ def t(it):
     except Exception: return None
 def eligible(it):
     return lv(it) >= (3 if sec(it) in ("news", "money", "finance", "tech") else 4)
-PIN = None  # set by select(): items whose "pin" equals "YYYY-MM-DD morning|evening" lead that edition
-def rank(lst): return sorted(lst, key=lambda i: (0 if PIN and i.get("pin") == PIN else 1, -lv(i), -(t(i).timestamp() if t(i) else 0)))
+PIN = None  # set by select(): items whose "pin" equals "YYYY-MM-DD morning|evening" lead that edition, in "pin_order" (default 1)
+def rank(lst): return sorted(lst, key=lambda i: (i.get("pin_order", 1) if PIN and i.get("pin") == PIN else float("inf"), -lv(i), -(t(i).timestamp() if t(i) else 0)))
 
 
 FRESH = datetime.timedelta(hours=12)  # "new" = happened or was added in the last 12 hours (Today tab rule)

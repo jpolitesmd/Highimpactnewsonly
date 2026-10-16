@@ -4515,6 +4515,21 @@
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/10/11/trump-doj-white-house-tv-press-pool-antitrust.html",
       "added_at": "2026-10-12T05:36:25-04:00"
+    },
+    {
+      "id": "2026-10-15-tesla-roadster-unveiled",
+      "section": "tech",
+      "topic": "tech",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-15T20:55:00-04:00",
+      "time_known": true,
+      "text": "Tesla unveiled its long-delayed next-generation Roadster Thursday night at a SpaceX test site in McGregor, Texas, nearly nine years after first showing it.",
+      "detail": "The reveal was livestreamed starting at 8:55 p.m. ET, two weeks after an Oct. 1 date was scrapped over weather. Tesla's Roadster page now lists three versions: a two-seat road car sold by reservation, a limited-release track version with rear SpaceX cold-gas thrusters that Tesla says reaches 0-60 mph in under 1 second, and an invite-only one-seat version Tesla says \"can fly.\" Tesla says the thruster versions are not approved for public road use. Reuters reported that the $200,000 price from 2017 has not been updated and that reservations are still $50,000; Tesla originally promised deliveries in 2020. Musk has called the car a \"small potato situation\" for Tesla's finances.",
+      "why": "It's Tesla's first new car reveal in years, though even Musk says it won't move the company's finances much.",
+      "source": "Tesla; Reuters",
+      "url": "https://www.tesla.com/roadster",
+      "added_at": "2026-10-15T21:27:47-04:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T16:36:25-04:00",
+  "updated": "2026-10-16T05:37:37-04:00",
   "items": [
     {
       "added_at": "2026-10-15T20:52:00-04:00",
@@ -15,7 +15,7 @@
         "bend"
       ],
       "text": "A 16-year-old shooter killed three children and a teacher at Silver Rail Elementary School in Bend, Oregon, on Thursday, police said; the shooter is dead.",
-      "detail": "The shooting happened about 1 p.m. PT (4 p.m. ET) Thursday. Bend police said they got a call at 12:59 p.m. PT about a person shooting into a car outside Silver Rail Elementary, followed about a minute later by multiple 911 calls reporting that the person had entered the school and opened fire. Officers arrived at 1:02 p.m. and the shooter was down seconds later, police said. Police said there was one suspect and that he is dead; it is not yet clear who shot him, and police said it may have been a bystander. At least two other people were taken to St. Charles Medical Center; their conditions were not released. The shooter's identity has not been released. Bend-La Pine Schools canceled classes and athletic events districtwide for Friday.",
+      "detail": "The shooting happened about 1 p.m. PT (4 p.m. ET) Thursday. Bend police said they got a call at 12:59 p.m. PT about a person shooting into a car outside Silver Rail Elementary, followed about a minute later by multiple 911 calls reporting that the person had entered the school and opened fire. Officers arrived at 1:02 p.m. and the shooter was down seconds later, police said. Police said the attacker forced his way in by shooting at locked doors and was shot by a person at the scene who pursued him into the school; he was found dead inside minutes after the first report. Police Chief Mike Krantz said the children killed were ages 5, 8 and 11. A 7-year-old child and a teacher were taken to the hospital in critical condition. The shooter's identity has not been released. Bend-La Pine Schools canceled classes and athletic events districtwide for Friday.",
       "why": "It is one of the deadliest U.S. elementary school shootings in years, and officials are still investigating how it unfolded.",
       "time": "2026-10-15T20:52:00-04:00",
       "time_known": false,
@@ -4550,6 +4550,58 @@
       "source": "Holy See Press Office; Vatican News",
       "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-surgery-gemelli-hospital-successful.html",
       "added_at": "2026-10-15T21:44:04-04:00"
+    },
+    {
+      "id": "2026-10-15-judge-dismisses-doj-nyc-sanctuary-suit",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "judicial": true,
+      "court": "U.S. District Court for the Eastern District of New York",
+      "branch": [
+        "judicial"
+      ],
+      "thread": "deportations-courts",
+      "impact": 3,
+      "time": "2026-10-15T17:00:00-04:00",
+      "time_known": false,
+      "text": "The Justice Department's lawsuit against New York City's sanctuary laws was thrown out by a federal judge in Brooklyn on Thursday, leaving the city's limits on helping ICE in place.",
+      "detail": "U.S. District Judge Ramón E. Reyes Jr. granted the city's motion to dismiss the suit the administration filed in July 2025. He found the federal government lacked standing to challenge the city's ban on police holding immigrants at federal request because state law already bars that practice, and ruled that federal law does not require local governments to share release dates or other custody information. He rejected the argument that federal law overrides the city's rules, finding the federal government cannot force local governments to assist with immigration enforcement. Mayor Zohran Mamdani called the ruling a victory for New Yorkers.",
+      "why": "It is a court loss for the administration's campaign against sanctuary cities, and the nation's largest city keeps its rules limiting cooperation with ICE.",
+      "source": "U.S. District Court, E.D.N.Y. (opinion via Courthouse News); Reuters",
+      "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/sanctuary-city-dismissed-nyc-eastern-district-new-york.pdf",
+      "added_at": "2026-10-16T05:37:37-04:00"
+    },
+    {
+      "id": "2026-10-15-israel-halts-commercial-goods-gaza",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "time": "2026-10-15T12:00:00-04:00",
+      "time_known": false,
+      "text": "Commercial goods have stopped entering Gaza, Israel said Thursday, blaming merchants protesting Hamas fees; Palestinian importers say Israel made the decision.",
+      "detail": "COGAT, the Israeli military body that oversees humanitarian affairs in Gaza, said no commercial goods had entered for two days after Gazan merchants suspended coordination over a 10,000-shekel (about $3,220) fee Hamas charges per truck and a demand that 30% of sales be in cash. Hamas called the fee a voluntary contribution. The head of Gaza's private truckers union said Israel imposed the halt; aid trucks and some commercial goods from Egypt still entered. COGAT said total daily truck traffic would fall by about half, to around 300.",
+      "why": "Most of Gaza's 2 million people depend on trucked-in supplies, and commercial goods make up a large share of what enters.",
+      "source": "AP",
+      "url": "https://apnews.com/article/israel-netanyahu-gaza-aid-hamas-744d4b8c005b20d94ce6fc952a63e063",
+      "added_at": "2026-10-16T05:37:37-04:00"
+    },
+    {
+      "id": "2026-10-16-brewers-sweep-dodgers-world-series",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-16T02:00:00-04:00",
+      "time_known": false,
+      "text": "The Milwaukee Brewers swept the two-time defending champion Los Angeles Dodgers to reach the World Series for the first time since 1982.",
+      "detail": "Milwaukee won Game 4 of the National League Championship Series 6-4 Thursday night at Dodger Stadium after falling behind 4-0 on a Shohei Ohtani three-run homer. Garrett Mitchell's sixth-inning home run put the Brewers ahead and David Hamilton added a ninth-inning homer. It is the franchise's second World Series trip. Milwaukee will host Game 1 next Friday against the winner of the AL Championship Series between Cleveland and Tampa Bay.",
+      "why": "The defending champions are out, and one of baseball's smallest markets is in the World Series.",
+      "source": "AP; MLB.com",
+      "url": "https://apnews.com/article/brewers-dodgers-score-nlcs-cfd30befcec42a035cbea5cae3bf746c",
+      "added_at": "2026-10-16T05:37:37-04:00"
     }
   ]
 }

@@ -1,6 +1,23 @@
 {
-  "updated": "2026-10-16T05:37:37-04:00",
+  "updated": "2026-10-16T15:32:55-04:00",
   "items": [
+    {
+      "id": "2026-10-16-flydubai-maldivian-pilots-returned",
+      "section": "news",
+      "text": "Maldives police said two Maldivian Flydubai co-pilots held in the UAE in connection with the FZ1073 investigation were sent home Friday and are being questioned.",
+      "detail": "Maldives Police Service spokesperson Ahmed Shiyam said the two pilots arrived in the Maldives on Friday morning and officers met them at Velana International Airport to question them and clarify information about the Sept. 30 incident. He said they have not been arrested and that police will announce any decision to take action against them. Neither the UAE nor the Maldives has said what role, if any, the two had. The UAE attorney general has said the Omani co-pilot confessed and claimed he acted alone, while investigators keep checking for accomplices or other links. No charges have been announced in the case.",
+      "why": "It is the first official word that the investigation has reached other Flydubai pilots, though no link to the plot has been established.",
+      "impact": 3,
+      "topic": "security",
+      "region": "World",
+      "world_region": "mideast",
+      "time": "2026-10-16T08:00:00-04:00",
+      "time_known": false,
+      "source": "Maldives Police Service (Atoll Times)",
+      "url": "https://atolltimes.mv/post/news/17435",
+      "added_at": "2026-10-16T15:32:55-04:00",
+      "thread": "flydubai-cockpit"
+    },
     {
       "added_at": "2026-10-15T20:52:00-04:00",
       "id": "2026-10-15-bend-oregon-elementary-school-shooting",

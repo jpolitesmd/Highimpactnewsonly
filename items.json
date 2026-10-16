@@ -2,6 +2,26 @@
   "updated": "2026-10-15T16:36:25-04:00",
   "items": [
     {
+      "added_at": "2026-10-15T20:52:00-04:00",
+      "id": "2026-10-15-bend-oregon-elementary-school-shooting",
+      "impact": 4,
+      "region": "US",
+      "section": "news",
+      "topic": "crime",
+      "source": "Bend Police Department; Bend-La Pine Schools; AP",
+      "tags": [
+        "school shooting",
+        "oregon",
+        "bend"
+      ],
+      "text": "A 16-year-old shooter killed three children and a teacher at Silver Rail Elementary School in Bend, Oregon, on Thursday, police said; the shooter is dead.",
+      "detail": "Bend police said they got a call at 12:59 p.m. PT about a person shooting into a car outside Silver Rail Elementary, followed about a minute later by multiple 911 calls reporting that the person had entered the school and opened fire. Officers arrived at 1:02 p.m. and the shooter was down seconds later, police said. Police said there was one suspect and that he is dead; it is not yet clear who shot him, and police said it may have been a bystander. At least two other people were taken to St. Charles Medical Center; their conditions were not released. The shooter's identity has not been released. Bend-La Pine Schools canceled classes and athletic events districtwide for Friday.",
+      "why": "It is one of the deadliest U.S. elementary school shootings in years, and officials are still investigating how it unfolded.",
+      "time": "2026-10-15T15:59:00-04:00",
+      "time_known": true,
+      "url": "https://apnews.com/article/oregon-school-shooting-silver-rail-elementary-b0642ec5cd3da0db24227a2798e2c6ce"
+    },
+    {
       "id": "2026-10-15-ppi-retail-sales-september",
       "section": "money",
       "money_beat": "prices",

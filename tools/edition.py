@@ -33,7 +33,8 @@ def t(it):
     except Exception: return None
 def eligible(it):
     return lv(it) >= (3 if sec(it) in ("news", "money", "finance", "tech") else 4)
-def rank(lst): return sorted(lst, key=lambda i: (-lv(i), -(t(i).timestamp() if t(i) else 0)))
+PIN = None  # set by select(): items whose "pin" equals "YYYY-MM-DD morning|evening" lead that edition
+def rank(lst): return sorted(lst, key=lambda i: (0 if PIN and i.get("pin") == PIN else 1, -lv(i), -(t(i).timestamp() if t(i) else 0)))
 
 
 FRESH = datetime.timedelta(hours=12)  # "new" = happened or was added in the last 12 hours (Today tab rule)
@@ -62,7 +63,9 @@ def archived_ids(key):
 
 def select(items, edition, now):
     """Returns (stories, also-today window, groups); groups = [(heading or None, count), ...]."""
+    global PIN
     today = now.date()
+    PIN = f"{today.isoformat()} {edition}"
     if edition == "morning":
         # 1) Big stories overnight (since yesterday's 5 p.m. evening edition), then
         # 2) a recap of yesterday's biggest events that aren't already listed.

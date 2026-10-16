@@ -4529,7 +4529,24 @@
       "why": "It's Tesla's first new car reveal in years, though even Musk says it won't move the company's finances much.",
       "source": "Tesla; Reuters",
       "url": "https://www.tesla.com/roadster",
-      "added_at": "2026-10-15T21:27:47-04:00"
+      "added_at": "2026-10-15T21:27:47-04:00",
+      "pin": "2026-10-16 morning"
+    },
+    {
+      "id": "2026-10-13-pope-leo-lung-cancer",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 4,
+      "time": "2026-10-15T21:44:04-04:00",
+      "time_known": false,
+      "text": "Pope Leo XIV has lung cancer, the Vatican confirmed Tuesday, Oct. 13, after surgeons at Rome's Gemelli Hospital removed the lower lobe of his right lung.",
+      "detail": "The Holy See Press Office said tissue examined during Tuesday's operation confirmed lung adenocarcinoma, as suspected from earlier tests. Surgeons led by Prof. Stefano Margaritora removed the lobe using a video-assisted technique; the operation lasted about 90 minutes with no complications. His schedule is cleared until at least Oct. 20. In a Thursday, Oct. 15 update, his doctors said routine checks were normal, a chest X-ray showed good recovery of the operated lung, he was carrying out daily activities independently, and his recovery is proceeding as expected. The Vatican said he resumed work from the hospital and met with a senior aide. Further tests on the removed tissue are pending.",
+      "why": "The head of the world's 1.4 billion Catholics, 71, is being treated for cancer, with tests still pending on whether further treatment is needed.",
+      "source": "Holy See Press Office; Vatican News",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-surgery-gemelli-hospital-successful.html",
+      "added_at": "2026-10-15T21:44:04-04:00"
     }
   ]
 }

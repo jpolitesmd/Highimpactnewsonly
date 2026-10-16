@@ -1,35 +1,6 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "events": [
-    {
-      "date": "2026-10-15",
-      "when": "8:30 a.m. ET",
-      "text": "September Producer Price Index (PPI), 8:30 a.m. ET.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "when": "8:30 a.m. ET",
-      "text": "September retail sales (Census advance report), 8:30 a.m. ET.",
-      "detail": "The government’s most timely read on consumer spending; lands the same morning as the September PPI.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "when": "2:00 a.m. ET",
-      "text": "TSMC reports third-quarter results; earnings call 2:00 a.m. ET (2 p.m. Taiwan).",
-      "detail": "Date and time per TSMC investor relations. The company guided Q3 revenue of $44.6 billion to $45.8 billion.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-16",
       "when": "8:30 a.m. ET",
@@ -159,6 +130,26 @@
       ]
     },
     {
+      "date": "2026-10-27",
+      "when": "8:30 a.m. ET",
+      "text": "September durable goods orders (Census advance report), 8:30 a.m. ET.",
+      "detail": "Date and time per the Census M3 release schedule; the fuller factory-orders report follows Nov. 3.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "when": "10:30 a.m. ET",
+      "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
+      "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-28",
       "when": "2:00 p.m. ET",
       "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
@@ -201,6 +192,26 @@
       "when": "After the close",
       "text": "Intel reports third-quarter results after the close; call 5:00 p.m. ET.",
       "detail": "Date and call time (2 p.m. Pacific) per Intel’s Oct. 6 release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "when": "9:15 a.m. ET",
+      "text": "European Central Bank interest rate decision; Lagarde press conference follows.",
+      "detail": "Meeting Oct. 28–29 per the ECB calendar; decision at 2:15 p.m. Frankfurt time. The deposit rate is 2.50% after a September hike.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "when": "After the close",
+      "text": "Amazon reports third-quarter results; call 5:00 p.m. ET.",
+      "detail": "Date and call time (2 p.m. Pacific) per Amazon's investor relations announcement.",
       "buzz": true,
       "tags": [
         "markets"

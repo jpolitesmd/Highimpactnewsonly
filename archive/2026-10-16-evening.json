@@ -1,0 +1,130 @@
+{
+ "date": "2026-10-16",
+ "edition": "evening",
+ "subject": "Friday, Oct 16 - Evening edition",
+ "published": "2026-10-16T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-16-brent-110-stocks-fall",
+   "section": "money",
+   "text": "Brent crude oil hit $110 a barrel Friday for the first time since May as Iran stepped up attacks on shipping near the Strait of Hormuz, and stocks fell.",
+   "detail": "U.S. crude (WTI) crossed $100 for the first time since Sept. 21. Iran has said it is increasing strikes in response to the U.S. blockade of its ports and tougher sanctions imposed last month. On Wall Street the Nasdaq fell 2.1%, the S&P 500 1% and the Dow 0.4%, led by AI-linked tech stocks; for the week the Nasdaq fell 4.5%, its worst week since late June, and the S&P 500 fell about 2%. Separately, Rep. Gregory Meeks introduced a bipartisan House bill Friday to block the administration's deal to let Russia release diesel to world markets.",
+   "why": "Oil near $110 feeds straight into fuel and shipping costs while inflation is already running hot.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-16T16:00:00-04:00",
+   "time_known": true,
+   "source": "Reuters / Yahoo Finance (market close)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html"
+  },
+  {
+   "id": "2026-10-16-suspicious-letters-election-offices",
+   "section": "news",
+   "text": "Letters with suspicious powder mailed to election offices and senators nationwide are under FBI investigation, three weeks before Election Day.",
+   "detail": "The FBI and U.S. Postal Inspection Service said they are investigating a series of suspicious mailings to secretary of state and election offices, some containing an unknown substance, and are working to identify who sent them; Capitol Police are also involved. Mailings led to election-office evacuations this week in Louisiana and Oklahoma, and offices from Minnesota to Idaho to Florida reported letters received or intercepted. Letters to the offices of Sens. Amy Klobuchar, Lisa Blunt Rochester, Alex Padilla and Kirsten Gillibrand were intercepted. Wisconsin said tests found the powder it received was not hazardous. No injuries have been reported.",
+   "why": "It is a direct threat to the people running the Nov. 3 midterm vote.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-16T11:27:00-04:00",
+   "time_known": true,
+   "source": "AP (via MPR News)",
+   "url": "https://www.mprnews.org/story/2026/10/16/fbi-investigating-letters-with-suspicious-substances"
+  },
+  {
+   "id": "2026-10-16-saudi-intercepts-yanbu-missile",
+   "section": "news",
+   "text": "A ballistic missile fired toward Yanbu, Saudi Arabia's Red Sea oil export hub, was shot down Friday, the Saudi-led coalition in Yemen said.",
+   "detail": "Coalition spokesman Maj. Gen. Turki Al-Malki said two cruise missiles were also destroyed over the Red Sea and three drones over southern Saudi Arabia and the Riyadh region; no damage was reported. The coalition said it is striking Houthi positions in Taiz and Marib. The UN Security Council on Thursday condemned escalating Houthi attacks on Saudi Arabia, including on airports and energy sites.",
+   "why": "Yanbu is the main route for Saudi oil that avoids the Strait of Hormuz.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-16T10:10:00-04:00",
+   "time_known": false,
+   "source": "Saudi-led coalition statement (Asharq Al-Awsat)",
+   "url": "https://english.aawsat.com/gulf/5330363-coalition-intercepts-ballistic-cruise-missiles-and-uavs"
+  },
+  {
+   "id": "2026-10-16-flydubai-maldivian-pilots-returned",
+   "section": "news",
+   "text": "Maldives police said two Maldivian Flydubai co-pilots held in the UAE in connection with the FZ1073 investigation were sent home Friday and are being questioned.",
+   "detail": "Maldives Police Service spokesperson Ahmed Shiyam said the two pilots arrived in the Maldives on Friday morning and officers met them at Velana International Airport to question them and clarify information about the Sept. 30 incident. He said they have not been arrested and that police will announce any decision to take action against them. Neither the UAE nor the Maldives has said what role, if any, the two had. The UAE attorney general has said the Omani co-pilot confessed and claimed he acted alone, while investigators keep checking for accomplices or other links. No charges have been announced in the case.",
+   "why": "It is the first official word that the investigation has reached other Flydubai pilots, though no link to the plot has been established.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-16T08:00:00-04:00",
+   "time_known": false,
+   "source": "Maldives Police Service (Atoll Times)",
+   "url": "https://atolltimes.mv/post/news/17435"
+  },
+  {
+   "id": "2026-10-16-coast-guard-rescues-16-off-baja",
+   "section": "news",
+   "text": "Sixteen people found floating in the Pacific off Mexico's Baja California were rescued early Friday by the U.S. Coast Guard, which is searching for others.",
+   "detail": "The Coast Guard answered a distress report around 1 a.m. local time and found people in the water about 140 miles west of Ensenada, with no boat in sight; one survivor said as many as 27 people had been aboard. The area is used by smugglers moving migrants to the U.S. by sea. Survivors were taken to San Diego hospitals, including one with a suspected shark bite. Mexican authorities are leading the search with Coast Guard help.",
+   "why": "Sea smuggling routes to California keep turning deadly as land borders tighten.",
+   "impact": 2,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-10-16T12:23:00-04:00",
+   "time_known": false,
+   "source": "AP (via CBC News)",
+   "url": "https://www.cbc.ca/news/world/mexico-ocean-rescue-coast-guard-9.7383598"
+  },
+  {
+   "id": "2026-10-16-press-secretary-zacharia-out",
+   "section": "news",
+   "text": "Katie Zacharia is out as White House press secretary after five days on the job, the White House said Friday.",
+   "detail": "The White House said she is transitioning out of the role and that her next position will be announced later. Her short tenure followed a widely criticized first briefing. President Trump said Friday he was in no rush to name a replacement, and no successor has been named.",
+   "why": "The administration's chief spokesperson job is empty three weeks before the midterms.",
+   "impact": 2,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-16T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-katie-zacharia-press-secretary-c40a8c276f5e2a9d71685a5daba94731"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-16",
+   "when": "8:30 a.m. ET",
+   "text": "September U.S. Import and Export Price Indexes, 8:30 a.m. ET.",
+   "detail": "BLS October schedule; trade-price read two days after PPI.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "branch": "executive",
+   "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+   "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+   "tags": [
+    "crypto"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "branch": "executive",
+   "text": "Comment deadline on the SEC's proposed Regulation Crypto Assets.",
+   "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
+   "tags": [
+    "crypto"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-16-evening",
+   "date": "2026-10-16",
+   "edition": "evening",
+   "count": 6,
+   "lead": "Brent crude oil hit $110 a barrel Friday for the first time since May as Iran stepped up attacks on shipping near the Strait of Hormuz, and stocks fell."
+  },
+  {
    "key": "2026-10-16-morning",
    "date": "2026-10-16",
    "edition": "morning",
@@ -246,5 +253,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-16T05:37:49-04:00"
+ "updated": "2026-10-16T16:41:27-04:00"
 }

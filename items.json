@@ -1,6 +1,189 @@
 {
-  "updated": "2026-10-16T16:41:18-04:00",
+  "updated": "2026-10-17T05:34:22-04:00",
   "items": [
+    {
+      "id": "2026-10-17-trump-waives-graham-act-russia-tariffs",
+      "section": "news",
+      "topic": "whitehouse",
+      "region": "US",
+      "thread": "russia-ukraine",
+      "impact": 4,
+      "time": "2026-10-16T20:00:00-04:00",
+      "time_known": false,
+      "text": "The new Russia sanctions law's tariffs and most of its sanctions were waived by President Trump on Friday, days before 100% duties on big Russian-oil buyers were due.",
+      "detail": "A Friday executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, which Trump signed Sept. 18, waives the law's 500% duty on Russian goods, its 100% duties on the five largest buyers of Russian oil and gas making purchases on or after Oct. 18, and its duties on the top five countries helping Russia evade sanctions, along with most of its sanctions sections. Trump sent Congress a certification that the waiver is in the national interest; it lasts until the President or the Secretary of State decides further action is appropriate. Russia sanctions under earlier executive orders stay in place, and the U.S. Trade Representative will keep monitoring buyers of Russian energy.",
+      "why": "Tariffs aimed at major buyers of Russian oil such as China and India will not start Sunday, while oil prices are already high.",
+      "source": "The White House (executive order)",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+      "tags": [
+        "russia",
+        "sanctions",
+        "tariffs",
+        "oil"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-17-russia-330-drones-missiles-ukraine",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-17T01:00:00-04:00",
+      "time_known": false,
+      "text": "Russia attacked Ukraine overnight with more than 330 drones and missiles, killing one person and injuring at least 24, Ukrainian officials said.",
+      "detail": "Ukraine's Air Force said Russia fired 332 attack drones plus ballistic and cruise missiles, and that 293 were shot down or disabled while 22 sites were hit. One person was killed and 19 injured in the Kherson region and five were hurt in Zaporizhzhia. Russia's Defense Ministry said it struck steel plants, a transformer factory and power sites in Kryvyi Rih, Zaporizhzhia and Zhytomyr. Separate Russian strikes on Friday killed at least eight people and briefly cut power to more than 1 million.",
+      "why": "Another large strike on Ukraine's power and industry came hours after Washington waived the new Russia sanctions.",
+      "source": "Anadolu Agency (Ukrainian Air Force)",
+      "url": "https://www.aa.com.tr/en/russia-ukraine-war/1-killed-24-injured-in-russia-s-attack-on-ukraine/4091629",
+      "tags": [
+        "ukraine",
+        "russia"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-17-irgc-claims-tanker-mine-hormuz",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-16T22:00:00-04:00",
+      "time_known": false,
+      "text": "An oil tanker carrying more than 2 million barrels exploded after hitting a mine in the Strait of Hormuz, Iran's Revolutionary Guards claimed, declaring the strait closed.",
+      "detail": "The Guards' navy said the tanker used a route Iran had not approved and had switched off its tracking. The statement, carried by Reuters late Friday, did not name the ship, owner or flag and gave no casualty figures, and no one else has confirmed it. Separately, Britain's UKMTO shipping agency reported two tankers hit off Saudi Arabia's Jubail on Friday. Hormuz traffic is still about 70% below pre-war levels.",
+      "why": "Iran is claiming a strike on a loaded supertanker on the world's main oil route, with Brent already at $110.",
+      "source": "Reuters (via Al Arabiya)",
+      "url": "https://english.alarabiya.net/News/middle-east/2026/10/17/tanker-explodes-after-hitting-mine-in-strait-of-hormuz-iran-s-irgc",
+      "tags": [
+        "oil",
+        "shipping",
+        "iran"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-17-houthi-missiles-aden-airport",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "time": "2026-10-16T15:00:00-04:00",
+      "time_known": false,
+      "text": "Aden International Airport in Yemen was hit by two Houthi missiles Friday night, landing about 500 meters from a Yemenia jet preparing to leave for Cairo.",
+      "detail": "Yemen's information minister, Moammar al-Eryani, said the missiles landed about 100 meters from the middle of the runway; everyone aboard flight IY612 was safe and no casualties were reported. It was the second attack on the airport in under 10 days and came a day after a Houthi strike on the presidential palace complex in Aden.",
+      "why": "A near miss on a loaded passenger jet as Houthi attacks reach civilian airports.",
+      "source": "AP",
+      "url": "https://apnews.com/article/yemen-houthis-saudi-arabia-aden-attacks-c39ea48032c0e8a76558b0296bb25244",
+      "tags": [
+        "yemen",
+        "houthis"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-16-industrial-production-september",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "factory",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-16T09:15:00-04:00",
+      "time_known": true,
+      "text": "U.S. industrial production rose 0.7% in September, the Federal Reserve said, after a 0.1% gain in August.",
+      "detail": "Manufacturing output rose 0.3%, mining 0.2% and utilities 3.5%, while motor vehicle and parts output fell 3.0%. Industrial output grew at a 2.8% annual rate in the third quarter and was 2.2% above a year earlier. Capacity use rose to 76.9%, 2.5 points below its 1972–2025 average.",
+      "why": "Factory, mining and utility output picked up, a gauge the Fed watches for the economy's health.",
+      "source": "Federal Reserve (G.17)",
+      "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
+      "tags": [
+        "economy",
+        "markets"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-16-opm-ends-time-in-grade",
+      "section": "news",
+      "topic": "agency",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-16T08:45:00-04:00",
+      "time_known": true,
+      "text": "The one-year wait before most federal promotions is ending under an Office of Personnel Management final rule filed Friday.",
+      "detail": "The rule ends the time-in-grade requirement of 52 weeks one grade lower (two grades in some job lines) before promotion to GS-6 and above, effective 90 days after it is published in the Federal Register, scheduled for Oct. 19. A second OPM final rule filed the same day widens when agencies can put workers on paid administrative leave during reorganizations, including deferred-resignation programs and layoff notice periods, effective 30 days after publication.",
+      "why": "Changes promotion and layoff-period rules for the federal civilian workforce.",
+      "source": "Federal Register public inspection (OPM)",
+      "url": "https://public-inspection.federalregister.gov/2026-21319.pdf",
+      "tags": [
+        "federal workforce"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-16-cftc-sportsbook-bets-not-swaps",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "agency",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-16T08:45:00-04:00",
+      "time_known": true,
+      "text": "Sportsbook wagers and casino games are not federally regulated 'swaps,' the Commodity Futures Trading Commission said in a rule filed Friday.",
+      "detail": "The interim final rule puts the CFTC's long-held position into regulation and takes effect when published in the Federal Register, scheduled for Oct. 19; comments are due 30 days later. The agency filed a separate proposed rule on what does count as a swap the same day.",
+      "why": "It marks the line between federally regulated derivatives and state-regulated gambling.",
+      "source": "Federal Register public inspection (CFTC)",
+      "url": "https://public-inspection.federalregister.gov/2026-21376.pdf",
+      "tags": [
+        "cftc",
+        "gambling"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-16-cdc-measles-4410-cases",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "measles",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-16T12:00:00-04:00",
+      "time_known": false,
+      "text": "U.S. measles cases reached 4,410 confirmed this year as of Oct. 15, the CDC said, nearly double last year's full-year total of 2,289.",
+      "detail": "Cases have been reported in 47 jurisdictions, plus 18 among international visitors. There have been 42 new outbreaks this year, and 96% of cases are tied to outbreaks. Kindergarten MMR vaccine coverage has fallen to 92.4%, below the 95% target.",
+      "why": "Measles is spreading at a pace not seen in years, driven by outbreaks in under-vaccinated communities.",
+      "source": "CDC",
+      "url": "https://www.cdc.gov/measles/data-research/index.html",
+      "tags": [
+        "measles",
+        "cdc"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
+    {
+      "id": "2026-10-16-japan-false-quake-alert",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-16T09:40:00-04:00",
+      "time_known": false,
+      "text": "Japan's weather agency apologized after mistakenly sending a magnitude 9.9 earthquake warning to phones, TV and radio across northern and central Japan.",
+      "detail": "The alert went out at 12:40 p.m. Japan time Thursday (11:40 p.m. ET Wednesday) and was canceled eight minutes later. The agency said its system misplaced the quake's center; the real quake was magnitude 6.9 near Russia's Kamchatka Peninsula, and shaking in Japan was minor. The agency apologized Friday and said the fault was fixed; Sapporo trams stopped briefly.",
+      "why": "A false alarm for a quake bigger than 2011's reached millions of phones.",
+      "source": "Kyodo News",
+      "url": "https://english.kyodonews.net/articles/-/88418",
+      "tags": [
+        "japan",
+        "earthquake"
+      ],
+      "added_at": "2026-10-17T05:34:22-04:00"
+    },
     {
       "id": "2026-10-16-brent-110-stocks-fall",
       "section": "money",

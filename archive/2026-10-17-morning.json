@@ -1,0 +1,248 @@
+{
+ "date": "2026-10-17",
+ "edition": "morning",
+ "subject": "Saturday, Oct 17 - Morning edition",
+ "published": "2026-10-17T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-17-trump-waives-graham-act-russia-tariffs",
+   "section": "news",
+   "text": "The new Russia sanctions law's tariffs and most of its sanctions were waived by President Trump on Friday, days before 100% duties on big Russian-oil buyers were due.",
+   "detail": "A Friday executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, which Trump signed Sept. 18, waives the law's 500% duty on Russian goods, its 100% duties on the five largest buyers of Russian oil and gas making purchases on or after Oct. 18, and its duties on the top five countries helping Russia evade sanctions, along with most of its sanctions sections. Trump sent Congress a certification that the waiver is in the national interest; it lasts until the President or the Secretary of State decides further action is appropriate. Russia sanctions under earlier executive orders stay in place, and the U.S. Trade Representative will keep monitoring buyers of Russian energy.",
+   "why": "Tariffs aimed at major buyers of Russian oil such as China and India will not start Sunday, while oil prices are already high.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-16T20:00:00-04:00",
+   "time_known": false,
+   "source": "The White House (executive order)",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
+  },
+  {
+   "id": "2026-10-17-russia-330-drones-missiles-ukraine",
+   "section": "news",
+   "text": "Russia attacked Ukraine overnight with more than 330 drones and missiles, killing one person and injuring at least 24, Ukrainian officials said.",
+   "detail": "Ukraine's Air Force said Russia fired 332 attack drones plus ballistic and cruise missiles, and that 293 were shot down or disabled while 22 sites were hit. One person was killed and 19 injured in the Kherson region and five were hurt in Zaporizhzhia. Russia's Defense Ministry said it struck steel plants, a transformer factory and power sites in Kryvyi Rih, Zaporizhzhia and Zhytomyr. Separate Russian strikes on Friday killed at least eight people and briefly cut power to more than 1 million.",
+   "why": "Another large strike on Ukraine's power and industry came hours after Washington waived the new Russia sanctions.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-17T01:00:00-04:00",
+   "time_known": false,
+   "source": "Anadolu Agency (Ukrainian Air Force)",
+   "url": "https://www.aa.com.tr/en/russia-ukraine-war/1-killed-24-injured-in-russia-s-attack-on-ukraine/4091629"
+  },
+  {
+   "id": "2026-10-17-irgc-claims-tanker-mine-hormuz",
+   "section": "news",
+   "text": "An oil tanker carrying more than 2 million barrels exploded after hitting a mine in the Strait of Hormuz, Iran's Revolutionary Guards claimed, declaring the strait closed.",
+   "detail": "The Guards' navy said the tanker used a route Iran had not approved and had switched off its tracking. The statement, carried by Reuters late Friday, did not name the ship, owner or flag and gave no casualty figures, and no one else has confirmed it. Separately, Britain's UKMTO shipping agency reported two tankers hit off Saudi Arabia's Jubail on Friday. Hormuz traffic is still about 70% below pre-war levels.",
+   "why": "Iran is claiming a strike on a loaded supertanker on the world's main oil route, with Brent already at $110.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-16T22:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters (via Al Arabiya)",
+   "url": "https://english.alarabiya.net/News/middle-east/2026/10/17/tanker-explodes-after-hitting-mine-in-strait-of-hormuz-iran-s-irgc"
+  },
+  {
+   "id": "2026-10-16-brent-110-stocks-fall",
+   "section": "money",
+   "text": "Brent crude oil hit $110 a barrel Friday for the first time since May as Iran stepped up attacks on shipping near the Strait of Hormuz, and stocks fell.",
+   "detail": "U.S. crude (WTI) crossed $100 for the first time since Sept. 21. Iran has said it is increasing strikes in response to the U.S. blockade of its ports and tougher sanctions imposed last month. On Wall Street the Nasdaq fell 2.1%, the S&P 500 1% and the Dow 0.4%, led by AI-linked tech stocks; for the week the Nasdaq fell 4.5%, its worst week since late June, and the S&P 500 fell about 2%. Separately, Rep. Gregory Meeks introduced a bipartisan House bill Friday to block the administration's deal to let Russia release diesel to world markets.",
+   "why": "Oil near $110 feeds straight into fuel and shipping costs while inflation is already running hot.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-16T16:00:00-04:00",
+   "time_known": true,
+   "source": "Reuters / Yahoo Finance (market close)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html"
+  },
+  {
+   "id": "2026-10-17-houthi-missiles-aden-airport",
+   "section": "news",
+   "text": "Aden International Airport in Yemen was hit by two Houthi missiles Friday night, landing about 500 meters from a Yemenia jet preparing to leave for Cairo.",
+   "detail": "Yemen's information minister, Moammar al-Eryani, said the missiles landed about 100 meters from the middle of the runway; everyone aboard flight IY612 was safe and no casualties were reported. It was the second attack on the airport in under 10 days and came a day after a Houthi strike on the presidential palace complex in Aden.",
+   "why": "A near miss on a loaded passenger jet as Houthi attacks reach civilian airports.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-16T15:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/yemen-houthis-saudi-arabia-aden-attacks-c39ea48032c0e8a76558b0296bb25244"
+  },
+  {
+   "id": "2026-10-16-suspicious-letters-election-offices",
+   "section": "news",
+   "text": "Letters with suspicious powder mailed to election offices and senators nationwide are under FBI investigation, three weeks before Election Day.",
+   "detail": "The FBI and U.S. Postal Inspection Service said they are investigating a series of suspicious mailings to secretary of state and election offices, some containing an unknown substance, and are working to identify who sent them; Capitol Police are also involved. Mailings led to election-office evacuations this week in Louisiana and Oklahoma, and offices from Minnesota to Idaho to Florida reported letters received or intercepted. Letters to the offices of Sens. Amy Klobuchar, Lisa Blunt Rochester, Alex Padilla and Kirsten Gillibrand were intercepted. Wisconsin said tests found the powder it received was not hazardous. No injuries have been reported.",
+   "why": "It is a direct threat to the people running the Nov. 3 midterm vote.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-16T11:27:00-04:00",
+   "time_known": true,
+   "source": "AP (via MPR News)",
+   "url": "https://www.mprnews.org/story/2026/10/16/fbi-investigating-letters-with-suspicious-substances"
+  },
+  {
+   "id": "2026-10-16-saudi-intercepts-yanbu-missile",
+   "section": "news",
+   "text": "A ballistic missile fired toward Yanbu, Saudi Arabia's Red Sea oil export hub, was shot down Friday, the Saudi-led coalition in Yemen said.",
+   "detail": "Coalition spokesman Maj. Gen. Turki Al-Malki said two cruise missiles were also destroyed over the Red Sea and three drones over southern Saudi Arabia and the Riyadh region; no damage was reported. The coalition said it is striking Houthi positions in Taiz and Marib. The UN Security Council on Thursday condemned escalating Houthi attacks on Saudi Arabia, including on airports and energy sites.",
+   "why": "Yanbu is the main route for Saudi oil that avoids the Strait of Hormuz.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-16T10:10:00-04:00",
+   "time_known": false,
+   "source": "Saudi-led coalition statement (Asharq Al-Awsat)",
+   "url": "https://english.aawsat.com/gulf/5330363-coalition-intercepts-ballistic-cruise-missiles-and-uavs"
+  },
+  {
+   "id": "2026-10-16-industrial-production-september",
+   "section": "money",
+   "text": "U.S. industrial production rose 0.7% in September, the Federal Reserve said, after a 0.1% gain in August.",
+   "detail": "Manufacturing output rose 0.3%, mining 0.2% and utilities 3.5%, while motor vehicle and parts output fell 3.0%. Industrial output grew at a 2.8% annual rate in the third quarter and was 2.2% above a year earlier. Capacity use rose to 76.9%, 2.5 points below its 1972–2025 average.",
+   "why": "Factory, mining and utility output picked up, a gauge the Fed watches for the economy's health.",
+   "impact": 3,
+   "topic": "factory",
+   "region": "US",
+   "time": "2026-10-16T09:15:00-04:00",
+   "time_known": true,
+   "source": "Federal Reserve (G.17)",
+   "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 3
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-16-cdc-measles-4410-cases",
+   "section": "health",
+   "text": "U.S. measles cases reached 4,410 confirmed this year as of Oct. 15, the CDC said, nearly double last year's full-year total of 2,289.",
+   "detail": "Cases have been reported in 47 jurisdictions, plus 18 among international visitors. There have been 42 new outbreaks this year, and 96% of cases are tied to outbreaks. Kindergarten MMR vaccine coverage has fallen to 92.4%, below the 95% target.",
+   "why": "Measles is spreading at a pace not seen in years, driven by outbreaks in under-vaccinated communities.",
+   "impact": 3,
+   "topic": "measles",
+   "region": "US",
+   "time": "2026-10-16T12:00:00-04:00",
+   "time_known": false,
+   "source": "CDC",
+   "url": "https://www.cdc.gov/measles/data-research/index.html"
+  },
+  {
+   "id": "2026-10-16-brewers-sweep-dodgers-world-series",
+   "section": "sports",
+   "text": "The Milwaukee Brewers swept the two-time defending champion Los Angeles Dodgers to reach the World Series for the first time since 1982.",
+   "detail": "Milwaukee won Game 4 of the National League Championship Series 6-4 Thursday night at Dodger Stadium after falling behind 4-0 on a Shohei Ohtani three-run homer. Garrett Mitchell's sixth-inning home run put the Brewers ahead and David Hamilton added a ninth-inning homer. It is the franchise's second World Series trip. Milwaukee will host Game 1 next Friday against the winner of the AL Championship Series between Cleveland and Tampa Bay.",
+   "why": "The defending champions are out, and one of baseball's smallest markets is in the World Series.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-16T02:00:00-04:00",
+   "time_known": false,
+   "source": "AP; MLB.com",
+   "url": "https://apnews.com/article/brewers-dodgers-score-nlcs-cfd30befcec42a035cbea5cae3bf746c"
+  },
+  {
+   "id": "2026-10-15-tesla-roadster-unveiled",
+   "section": "tech",
+   "text": "Tesla unveiled its long-delayed next-generation Roadster Thursday night at a SpaceX test site in McGregor, Texas, nearly nine years after first showing it.",
+   "detail": "The reveal was livestreamed starting at 8:55 p.m. ET, two weeks after an Oct. 1 date was scrapped over weather. Tesla's Roadster page now lists three versions: a two-seat road car sold by reservation, a limited-release track version with rear SpaceX cold-gas thrusters that Tesla says reaches 0-60 mph in under 1 second, and an invite-only one-seat version Tesla says \"can fly.\" Tesla says the thruster versions are not approved for public road use. Reuters reported that the $200,000 price from 2017 has not been updated and that reservations are still $50,000; Tesla originally promised deliveries in 2020. Musk has called the car a \"small potato situation\" for Tesla's finances.",
+   "why": "It's Tesla's first new car reveal in years, though even Musk says it won't move the company's finances much.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-15T20:55:00-04:00",
+   "time_known": true,
+   "source": "Tesla; Reuters",
+   "url": "https://www.tesla.com/roadster"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-13-pope-leo-lung-cancer",
+   "section": "news",
+   "text": "Pope Leo XIV has lung cancer, the Vatican confirmed Tuesday, Oct. 13, after surgeons at Rome's Gemelli Hospital removed the lower lobe of his right lung.",
+   "detail": "The Holy See Press Office said tissue examined during Tuesday's operation confirmed lung adenocarcinoma, as suspected from earlier tests. Surgeons led by Prof. Stefano Margaritora removed the lobe using a video-assisted technique; the operation lasted about 90 minutes with no complications. His schedule is cleared until at least Oct. 20. In a Thursday, Oct. 15 update, his doctors said routine checks were normal, a chest X-ray showed good recovery of the operated lung, he was carrying out daily activities independently, and his recovery is proceeding as expected. The Vatican said he resumed work from the hospital and met with a senior aide. Further tests on the removed tissue are pending.",
+   "why": "The head of the world's 1.4 billion Catholics, 71, is being treated for cancer, with tests still pending on whether further treatment is needed.",
+   "impact": 4,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-15T21:44:04-04:00",
+   "time_known": false,
+   "source": "Holy See Press Office; Vatican News",
+   "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-surgery-gemelli-hospital-successful.html"
+  },
+  {
+   "id": "2026-10-15-bend-oregon-elementary-school-shooting",
+   "section": "news",
+   "text": "A 16-year-old shooter killed three children and a teacher at Silver Rail Elementary School in Bend, Oregon, on Thursday, police said; the shooter is dead.",
+   "detail": "The shooting happened about 1 p.m. PT (4 p.m. ET) Thursday. Bend police said they got a call at 12:59 p.m. PT about a person shooting into a car outside Silver Rail Elementary, followed about a minute later by multiple 911 calls reporting that the person had entered the school and opened fire. Officers arrived at 1:02 p.m. and the shooter was down seconds later, police said. Police said the attacker forced his way in by shooting at locked doors and was shot by a person at the scene who pursued him into the school; he was found dead inside minutes after the first report. Police Chief Mike Krantz said the children killed were ages 5, 8 and 11. A 7-year-old child and a teacher were taken to the hospital in critical condition. The shooter's identity has not been released. Bend-La Pine Schools canceled classes and athletic events districtwide for Friday.",
+   "why": "It is one of the deadliest U.S. elementary school shootings in years, and officials are still investigating how it unfolded.",
+   "impact": 4,
+   "topic": "crime",
+   "region": "US",
+   "time": "2026-10-15T20:52:00-04:00",
+   "time_known": false,
+   "source": "Bend Police Department; Bend-La Pine Schools; AP",
+   "url": "https://apnews.com/article/oregon-school-shooting-silver-rail-elementary-b0642ec5cd3da0db24227a2798e2c6ce"
+  },
+  {
+   "id": "2026-10-13-medicaid-chip-gender-procedures-ban",
+   "section": "health",
+   "text": "A federal rule barring Medicaid and CHIP money for puberty blockers, hormones and gender surgery for minors takes effect today in every state.",
+   "detail": "The CMS final rule, published Aug. 13 (91 FR 52406), bars federal Medicaid funding for these procedures for patients under 18 and federal CHIP funding for those under 19. Children already on hormone therapy get up to six months of federal funding to taper; that transition does not cover puberty blockers or surgery. In New Hampshire, families suing in Goe v. HHS were denied a temporary restraining order on Oct. 5; their preliminary-injunction request is still pending, and no court has blocked the rule.",
+   "why": "It ends federal payment for this care for low-income children nationwide, shifting the cost to states or families.",
+   "impact": 4,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-13T00:00:00-04:00",
+   "time_known": false,
+   "source": "Federal Register (CMS final rule)",
+   "url": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-19",
+   "branch": "executive",
+   "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+   "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+   "tags": [
+    "crypto"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "branch": "executive",
+   "text": "Comment deadline on the SEC's proposed Regulation Crypto Assets.",
+   "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
+   "tags": [
+    "crypto"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "when": "4:01 p.m. ET",
+   "text": "Netflix reports third-quarter results after the close, about 4:01 p.m. ET.",
+   "detail": "Date and time per Netflix investor relations; live management interview follows at 4:45 p.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

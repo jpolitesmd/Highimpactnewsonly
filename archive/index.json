@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-17-morning",
+   "date": "2026-10-17",
+   "edition": "morning",
+   "count": 8,
+   "lead": "The new Russia sanctions law's tariffs and most of its sanctions were waived by President Trump on Friday, days before 100% duties on big Russian-oil buyers were due."
+  },
+  {
    "key": "2026-10-16-evening",
    "date": "2026-10-16",
    "edition": "evening",
@@ -253,5 +260,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-16T16:41:27-04:00"
+ "updated": "2026-10-17T05:34:22-04:00"
 }

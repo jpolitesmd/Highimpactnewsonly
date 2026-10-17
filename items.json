@@ -1,6 +1,89 @@
 {
-  "updated": "2026-10-17T14:10:12-04:00",
+  "updated": "2026-10-17T16:52:54-04:00",
   "items": [
+    {
+      "id": "2026-10-17-no-kings-vote-early-rallies",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "thread": "midterms-2026",
+      "pin": "2026-10-17 evening",
+      "pin_order": 1,
+      "text": "No Kings rallies against President Trump were held Saturday in cities across the U.S., this time urging people to vote early in the Nov. 3 midterms.",
+      "detail": "The anti-Trump No Kings network, which has staged several nationwide protest days over the past year, billed Saturday's \"No Kings: Vote Early\" events as a day of voter participation, with registration and early-voting information tables, rather than purely a protest. In Washington, marchers crossed Memorial Bridge from Arlington, Virginia, to the Lincoln Memorial. Organizers said events were planned in all 50 states.",
+      "why": "The movement behind some of the largest anti-Trump protests is now turning its turnout toward the midterm elections, about two weeks away.",
+      "impact": 3,
+      "time": "2026-10-17T12:00:00-04:00",
+      "time_known": false,
+      "source": "AP",
+      "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008",
+      "tags": [
+        "no kings",
+        "midterms",
+        "protests"
+      ],
+      "added_at": "2026-10-17T16:52:54-04:00"
+    },
+    {
+      "id": "2026-10-17-pakistan-afghan-taliban-kurram-clash",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "asia",
+      "text": "Pakistani and Afghan Taliban forces exchanged fire Saturday on the border in Pakistan's Upper Kurram district, Pakistan's state media said.",
+      "detail": "Pakistan's state broadcaster said Afghan forces opened fire first, to help militants cross the border, and that the army answered with heavy weapons and destroyed several Afghan posts. Pakistani security sources said several Taliban personnel were killed; neither side's casualty claims have been independently confirmed. The district sits opposite Afghanistan's Paktia province. The two countries have clashed repeatedly since border fighting in October 2025, and Pakistan carried out airstrikes inside Afghanistan on Oct. 1.",
+      "why": "Fighting between two neighbors, one nuclear-armed, keeps flaring along a border Pakistan says militants use to attack it.",
+      "impact": 3,
+      "time": "2026-10-17T08:00:00-04:00",
+      "time_known": false,
+      "source": "AP",
+      "url": "https://apnews.com/article/pakistan-afghanistan-border-clashes-militant-infiltration-af35955a49d8ec9948b4a946bf07d37c",
+      "tags": [
+        "pakistan",
+        "afghanistan"
+      ],
+      "added_at": "2026-10-17T16:52:54-04:00"
+    },
+    {
+      "id": "2026-10-17-pope-leo-leaves-hospital",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "text": "Pope Leo XIV left Rome's Gemelli Hospital and returned to the Vatican on Saturday, four days after surgery that removed part of his right lung for cancer.",
+      "detail": "His doctors, Dr. Luigi Carbone and Prof. Stefano Margaritora, said blood tests and a chest X-ray Saturday morning showed he was fit to be discharged. The Holy See Press Office said he will lead the Angelus prayer from the Apostolic Palace on Sunday. Vatican spokesperson Matteo Bruni said recovery is expected to take about a week; his schedule is cleared until at least Oct. 20, and the Vatican has not announced further treatment. His next major trip, to Uruguay, Argentina and Peru, is set for early November.",
+      "why": "The leader of the world's 1.4 billion Catholics is back at work sooner than expected after a lung cancer operation.",
+      "impact": 2,
+      "time": "2026-10-17T09:45:00-04:00",
+      "time_known": false,
+      "source": "Holy See Press Office",
+      "url": "https://press.vatican.va/content/salastampa/en/comunicazioni/2026/10/17/261017a.html",
+      "tags": [
+        "vatican",
+        "pope"
+      ],
+      "added_at": "2026-10-17T16:52:54-04:00"
+    },
+    {
+      "id": "2026-10-17-settlers-attack-european-diplomats",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "text": "European diplomats visiting the occupied West Bank during the olive harvest were attacked by masked Israeli settlers, and Israeli police opened an investigation.",
+      "detail": "The delegation, near the Palestinian village of Taybeh outside Ramallah, included Belgium's consul general, French and Polish diplomats and Catholic church representatives. A window of a Belgian consulate vehicle was smashed and a French mayor traveling with the group was assaulted. Israeli police said they opened the probe after footage circulated online and would work to identify the suspects. Palestinian officials say at least four Palestinians have been killed and more than 100 injured since the harvest began this month.",
+      "why": "An attack on foreign diplomats raises pressure on Israel from European governments over settler violence.",
+      "impact": 2,
+      "time": "2026-10-17T10:00:00-04:00",
+      "time_known": false,
+      "source": "AP",
+      "url": "https://apnews.com/article/west-bank-israel-european-diplomats-settlers-89ebd068167669db357ad1fa4f3a8758",
+      "tags": [
+        "israel",
+        "west bank"
+      ],
+      "added_at": "2026-10-17T16:52:54-04:00"
+    },
     {
       "id": "2026-10-17-france-cost-of-living-protests-clashes",
       "section": "news",

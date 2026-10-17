@@ -1,6 +1,89 @@
 {
-  "updated": "2026-10-17T05:34:22-04:00",
+  "updated": "2026-10-17T14:10:12-04:00",
   "items": [
+    {
+      "id": "2026-10-17-france-cost-of-living-protests-clashes",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "text": "France's nationwide protests over rising living costs turned violent Saturday, with cars burned and shops looted in Paris and at least 272 people arrested.",
+      "detail": "Tens of thousands marched in cities across France, joining weeks of high-school student protests. In Paris, police used tear gas and water cannons on masked protesters around Place de la République. Interior Minister Laurent Nuñez's office reported a growing number of violent incidents nationwide, including assaults on officers, looting and damage to public buildings; protesters broke into town halls in Marseille and Lille, and the tourist office in Lyon was set on fire. The arrest count is the government's tally as of Saturday afternoon and may rise.",
+      "why": "Weeks of student unrest have widened into one of France's most violent protest days in years, as its presidential campaign takes shape.",
+      "impact": 3,
+      "time": "2026-10-17T12:15:00-04:00",
+      "time_known": false,
+      "source": "AP",
+      "url": "https://apnews.com/article/france-school-protests-yellow-vest-44b9d3ba91ffad4029f975dced7e31cb",
+      "tags": [
+        "france",
+        "protests"
+      ],
+      "added_at": "2026-10-17T14:10:12-04:00"
+    },
+    {
+      "id": "2026-10-17-kenya-ebola-seven-cases",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "World",
+      "world_region": "africa",
+      "text": "Kenya's Ebola cases rose to seven, including three health workers who cared for the country's first patient, the Health Ministry said Saturday.",
+      "detail": "The four new cases are the three health workers, who treated the first patient Oct. 3-4 and had been in quarantine since Oct. 9, and a close male relative of that patient, in quarantine since Oct. 6. All four developed fever before testing positive and are in isolation receiving care. The total includes the first patient, who died in Nairobi. The ministry said the outbreak is the Bundibugyo strain, 128 of 130 known contacts have been traced, and there is no evidence of community spread; it called the risk to the public low.",
+      "why": "Infections among caregivers show Ebola spreading inside Kenya, East Africa's main travel hub.",
+      "impact": 3,
+      "time": "2026-10-17T10:00:00-04:00",
+      "time_known": false,
+      "source": "AP",
+      "url": "https://apnews.com/article/kenya-ebola-congo-uganda-0ae2b2874ae114c2359df58282cf656d",
+      "tags": [
+        "ebola",
+        "kenya"
+      ],
+      "added_at": "2026-10-17T14:10:12-04:00"
+    },
+    {
+      "id": "2026-10-17-irgc-claims-second-tanker-mine",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "text": "A second oil tanker hit a mine in the Strait of Hormuz, Iran's Revolutionary Guards claimed Saturday; no one has independently confirmed it.",
+      "detail": "Iran's official IRNA news agency said both tankers, each carrying about 2 million barrels of crude, caught fire after striking naval mines and the second was left immobilized, and that they had switched off tracking and used a route Iran had not authorized. The Guards did not name either ship. U.S. Central Command's Adm. Brad Cooper has said the strait remains open, with about 400 merchant ships passing through in the past week. This updates this morning's report of the first claimed mine strike.",
+      "why": "Iran is escalating claims of mine attacks on the world's main oil route, with Brent crude near $110.",
+      "impact": 3,
+      "time": "2026-10-17T08:00:00-04:00",
+      "time_known": false,
+      "source": "Reuters (via gCaptain)",
+      "url": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/",
+      "tags": [
+        "oil",
+        "shipping",
+        "iran"
+      ],
+      "added_at": "2026-10-17T14:10:12-04:00"
+    },
+    {
+      "id": "2026-10-17-bangladesh-resort-fire",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "asia",
+      "text": "A fire at a wooden beach resort in Cox's Bazar, Bangladesh, killed 10 people and injured nine Saturday morning, the country's fire service said.",
+      "detail": "The fire broke out early Saturday at the TupTup Resto and Resort on Patuartek Beach in Inani. Six of the dead were from one family. The local deputy commissioner said the fire likely started at a kitchen stove; firefighters brought it under control by late morning and searched the gutted building for more victims.",
+      "why": "Ten people died, six from one family, at a popular resort on Bangladesh's busiest beach coast.",
+      "impact": 2,
+      "time": "2026-10-16T20:30:00-04:00",
+      "time_known": false,
+      "source": "AP",
+      "url": "https://apnews.com/article/bangladesh-fire-beach-resort-c5281f227319202a6a619b97ee595303",
+      "tags": [
+        "fire",
+        "bangladesh"
+      ],
+      "added_at": "2026-10-17T14:10:12-04:00"
+    },
     {
       "id": "2026-10-17-trump-waives-graham-act-russia-tariffs",
       "section": "news",

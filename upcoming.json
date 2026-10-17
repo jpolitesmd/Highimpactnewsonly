@@ -1,16 +1,6 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "events": [
-    {
-      "date": "2026-10-16",
-      "when": "8:30 a.m. ET",
-      "text": "September U.S. Import and Export Price Indexes, 8:30 a.m. ET.",
-      "detail": "BLS October schedule; trade-price read two days after PPI.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-19",
       "branch": "executive",
@@ -60,6 +50,46 @@
       ]
     },
     {
+      "date": "2026-10-20",
+      "when": "10:00 a.m. ET",
+      "text": "September pending home sales (National Association of Realtors), 10:00 a.m. ET.",
+      "detail": "Per NAR's 2026 release schedule; tracks contracts signed in September, a lead on future existing-home sales.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "when": "6:30 a.m. ET",
+      "text": "General Motors reports third-quarter results about 6:30 a.m. ET; call 8:30 a.m. ET.",
+      "detail": "Date and times per GM's investor relations notice.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "when": "After the close",
+      "text": "SpaceX reports third-quarter results after the close; audio webcast 4:30 p.m. ET.",
+      "detail": "Per SpaceX's Oct. 16 investor relations release; second earnings report since its June listing on Nasdaq as SPCX. The webcast will also stream on X.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "when": "After the close",
+      "text": "United Airlines reports third-quarter results and outlook after the close; call Oct. 21 at 10:30 a.m. ET.",
+      "detail": "Timing per United's Sept. 30 announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-21",
       "when": "After the close",
       "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
@@ -84,6 +114,16 @@
       "when": "After the close",
       "text": "Meta reports third-quarter results after the close; call 4:30 p.m. ET.",
       "detail": "Date and call time per Meta’s Oct. 12 investor relations release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "when": "Before the open",
+      "text": "AT&T reports third-quarter results; call 8:30 a.m. ET.",
+      "detail": "Date and call time per AT&T's earnings notice.",
       "buzz": true,
       "tags": [
         "markets"

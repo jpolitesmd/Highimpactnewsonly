@@ -30,7 +30,7 @@
    "time": "2026-10-15T03:04:00-04:00",
    "time_known": false,
    "source": "Reuters",
-   "url": "https://www.streetinsider.com/Reuters/Drone+attack+causes+fire+at+Russias+Ryazan+refinery%2C+regional+governor+says/27188487.html"
+   "url": "https://www.reuters.com/world/drone-attack-causes-fire-russias-ryazan-refinery-regional-governor-says-2026-10-15/"
   },
   {
    "id": "2026-10-15-russia-580-drones-ukraine",
@@ -43,8 +43,8 @@
    "region": "World",
    "time": "2026-10-15T02:38:00-04:00",
    "time_known": false,
-   "source": "Ukrainian Air Force via Hromadske; AP",
-   "url": "https://hromadske.ua/en/war/272555-russia-attacks-ukraine-with-580-drones-and-two-missiles-overnight"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/aerospace-defense/central-ukrainian-region-hit-by-vast-drone-attack-killing-three-2026-10-15/"
   },
   {
    "id": "2026-10-15-tsmc-q3-record-profit",
@@ -58,7 +58,7 @@
    "time": "2026-10-15T01:35:00-04:00",
    "time_known": false,
    "source": "Reuters",
-   "url": "https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551"
+   "url": "https://www.reuters.com/world/asia-pacific/tsmc-q3-profit-jumps-69-record-beating-expectations-2026-10-15/"
   },
   {
    "id": "2026-10-14-scotus-fcc-ad-rate-deadline",
@@ -110,7 +110,7 @@
    "time": "2026-10-14T12:00:00-04:00",
    "time_known": false,
    "source": "AP",
-   "url": "https://www.opb.org/article/2026/10/14/iran-says-a-ship-sank-after-striking-a-mine-in-strait-of-hormuz-and-other-middle-east-developments/"
+   "url": "https://apnews.com/article/saudi-arabia-yemen-strikes-mideast-conflict-riyadh-c81a91347c00b17097c8fafde7e4eeec"
   },
   {
    "id": "2026-10-14-judge-orders-dv-2027-green-card-lottery",
@@ -142,8 +142,8 @@
    "region": "World",
    "time": "2026-10-14T11:00:00-04:00",
    "time_known": false,
-   "source": "BBC (citing Maritime and Port Authority of Singapore)",
-   "url": "https://www.bbc.com/news/articles/crkg7q97z078o"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/asia-pacific/two-singapore-registered-vessels-struck-strait-hormuz-one-sinks-2026-10-14/"
   }
  ],
  "groups": [

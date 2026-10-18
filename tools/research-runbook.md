@@ -48,7 +48,7 @@ Each beat returns a JSON array of **at most 3** objects (may be `[]`). Every obj
   "why": "one short line on why it matters",
   "impact": 3,
   "time": "2026-09-30T15:30:00-04:00",
-  "source": "outlet or primary-doc name",
+  "source": "wire or primary-doc name (link the original, never an outlet carrying wire copy; see task-rules.md)",
   "url": "https://...",
   "thread": "existing-thread-id-or-omit",
   "section": "news|money|sports|health|tech|finance",  // finance = Crypto tab (ISO20022 + crypto markets / SEC crypto rules)

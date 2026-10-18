@@ -14,8 +14,8 @@
    "topic": "ship",
    "region": "World",
    "time": "2026-10-11T12:11:00-04:00",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/iran-says-us-response-its-proposal-reopen-hormuz-was-insufficient-2026-10-11/"
   },
   {
    "id": "2026-10-11-riyadh-airport-hit-again-dammam",
@@ -27,8 +27,8 @@
    "topic": "conflict",
    "region": "World",
    "time": "2026-10-11T12:00:00-04:00",
-   "source": "USA Today",
-   "url": "https://www.usatoday.com/story/news/world/2026/10/11/saudi-arabia-airport-struck-houthis-riyadh-attack/92206416007/"
+   "source": "AP",
+   "url": "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
   },
   {
    "id": "2026-10-11-trump-energy-ceasefire",
@@ -40,8 +40,8 @@
    "topic": "whitehouse",
    "region": "US",
    "time": "2026-10-11T11:30:00-04:00",
-   "source": "The Guardian",
-   "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/trump-says-russia-ukraine-reached-energy-ceasefire-2026-10-11/"
   },
   {
    "id": "2026-10-11-india-youth-protest-crackdown",
@@ -53,8 +53,8 @@
    "topic": "pulse",
    "region": "World",
    "time": "2026-10-11T09:06:00-04:00",
-   "source": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/11/indias-crackdown-on-youth-protesters-what-next"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/india/indian-police-detain-cockroach-movement-founder-abhijeet-dipke-2026-10-10/"
   },
   {
    "id": "2026-10-11-mandelblit-testifies-netanyahu",

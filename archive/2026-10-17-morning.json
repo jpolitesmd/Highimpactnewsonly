@@ -43,8 +43,8 @@
    "region": "World",
    "time": "2026-10-16T22:00:00-04:00",
    "time_known": false,
-   "source": "Reuters (via Al Arabiya)",
-   "url": "https://english.alarabiya.net/News/middle-east/2026/10/17/tanker-explodes-after-hitting-mine-in-strait-of-hormuz-iran-s-irgc"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/irans-guards-say-two-tankers-hit-mines-strait-hormuz-2026-10-17/"
   },
   {
    "id": "2026-10-16-brent-110-stocks-fall",
@@ -57,8 +57,8 @@
    "region": "US",
    "time": "2026-10-16T16:00:00-04:00",
    "time_known": true,
-   "source": "Reuters / Yahoo Finance (market close)",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/"
   },
   {
    "id": "2026-10-17-houthi-missiles-aden-airport",
@@ -85,8 +85,8 @@
    "region": "US",
    "time": "2026-10-16T11:27:00-04:00",
    "time_known": true,
-   "source": "AP (via MPR News)",
-   "url": "https://www.mprnews.org/story/2026/10/16/fbi-investigating-letters-with-suspicious-substances"
+   "source": "AP",
+   "url": "https://apnews.com/article/fbi-postal-service-letters-suspicious-substances-investigation-c90253b9873a27471e63c6f1dcf979e9"
   },
   {
    "id": "2026-10-16-saudi-intercepts-yanbu-missile",
@@ -99,8 +99,8 @@
    "region": "World",
    "time": "2026-10-16T10:10:00-04:00",
    "time_known": false,
-   "source": "Saudi-led coalition statement (Asharq Al-Awsat)",
-   "url": "https://english.aawsat.com/gulf/5330363-coalition-intercepts-ballistic-cruise-missiles-and-uavs"
+   "source": "Reuters (Saudi-led coalition statement)",
+   "url": "https://www.reuters.com/world/middle-east/missiles-hit-aden-airport-saudi-led-coalition-intercepts-missile-headed-yanbu-2026-10-16/"
   },
   {
    "id": "2026-10-16-industrial-production-september",

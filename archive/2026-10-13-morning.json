@@ -43,8 +43,8 @@
    "region": "World",
    "time": "2026-10-12T18:30:00-04:00",
    "time_known": true,
-   "source": "Al Jazeera (AP, Reuters)",
-   "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/"
   },
   {
    "id": "2026-10-12-us-threatens-ukraine-purl-intel",
@@ -101,8 +101,8 @@
    "topic": "war",
    "region": "World",
    "time": "2026-10-12T04:07:00-04:00",
-   "source": "AP via NPR",
-   "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire"
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-yandex-trump-zelenskyy-f621fa788196f204448e7f75fcc78c68"
   },
   {
    "id": "2026-10-12-petro-dolphin-sailors-missing",

@@ -90,8 +90,8 @@
    "region": "US",
    "time": "2026-10-15T16:00:00-04:00",
    "time_known": true,
-   "source": "Wall Street Journal (market close)",
-   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-15-2026"
+   "source": "AP",
+   "url": "https://apnews.com/article/stock-markets-kospi-tech-shares-e889ad7dee2b7dd959f1b8bc87366914"
   },
   {
    "id": "2026-10-15-houthi-missiles-aden-palace",
@@ -104,8 +104,8 @@
    "region": "World",
    "time": "2026-10-15T13:30:00-04:00",
    "time_known": false,
-   "source": "BBC News",
-   "url": "https://www.bbc.com/news/articles/cm62y6lp73zdo"
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/houthis-fire-missiles-presidential-palace-yemens-aden-officials-say-2026-10-15/"
   },
   {
    "id": "2026-10-15-maduro-pleads-not-guilty-torture",
@@ -123,8 +123,8 @@
    "region": "US",
    "time": "2026-10-15T13:30:00-04:00",
    "time_known": false,
-   "source": "BBC News",
-   "url": "https://www.bbc.com/news/articles/cqwyrn1l74zro"
+   "source": "AP",
+   "url": "https://apnews.com/article/maduro-venezuela-criminal-case-ca502461c39b94de9c663d441cbf5c63"
   },
   {
    "id": "2026-10-15-iea-speeds-emergency-oil-diesel",

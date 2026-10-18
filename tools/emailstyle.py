@@ -125,6 +125,7 @@ def open_paper():
         '.hd-inner{width:600px;max-width:100%;margin:0 auto!important}'
         'h3.hd-ink::first-letter{float:left;font-family:\'IM Fell English\',Georgia,\'Times New Roman\',serif;font-weight:400;color:' + ACCENT + ';font-size:2.6em;line-height:.85;padding:.05em .1em 0 0;margin:0 .1em .05em 0}'
         '.newsletter-body,.email-content,body{width:100%!important;min-width:100%!important;margin:0!important;padding:0!important}'
+        '@media (max-width:480px){.hd-seal{width:104px!important;height:104px!important;max-width:104px!important}}'
         '</style>\n'
         f'<div class="hd-root" style="width:100%;min-width:100%;margin:0;padding:0;background-color:{PAPER}">\n'
         f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
@@ -138,7 +139,16 @@ def open_paper():
         f'<p class="hd-inkrule hd-ink" style="margin:0;padding:6px 0 5px;border-top:3px double {INK};'
         f'border-bottom:1px solid {INK};text-align:center;font-family:{SANS};font-size:9px;font-weight:600;'
         f'letter-spacing:1.6px;text-transform:uppercase;color:{INK}">Spin-free news · Ranked by impact</p>\n'
-        f'<p style="margin:16px 0 0;text-align:center;white-space:nowrap;line-height:1.1">'
+        # Eagle seal above the wordmark, as on the site masthead (140px; 104px on phones <=480px).
+        # Always the site's dark seal: the email is always Mail grey, and this self-contained black disc
+        # also reads on white if a client lightens the background. 2x PNG for retina.
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse">'
+        f'<tr><td align="center" style="padding:8px 0 0;text-align:center;line-height:0;font-size:0">'
+        f'<a href="{SITE}/" style="text-decoration:none;border:0">'
+        f'<img class="hd-seal" src="{IMG}/seal.png" alt="High Impact News Daily" width="140" height="140" border="0" '
+        f'style="display:block;margin:0 auto;width:140px;height:140px;max-width:140px;border:0;outline:none;text-decoration:none"></a>'
+        f'</td></tr></table>\n'
+        f'<p style="margin:12px 0 0;text-align:center;white-space:nowrap;line-height:1.1">'
         f'<a href="{SITE}/" style="text-decoration:none">'
         f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">HIGH</span> '
         f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'

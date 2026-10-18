@@ -5,23 +5,6 @@
  "published": "2026-10-12T17:00:00-04:00",
  "items": [
   {
-   "id": "2026-10-12-us-threatens-ukraine-purl-intel",
-   "section": "news",
-   "text": "U.S. officials warned Ukraine and European allies they could suspend intelligence sharing and PURL weapons buys if Kyiv keeps striking Russian energy sites.",
-   "detail": "CNN reported Monday that State Department and Pentagon warnings went out over the weekend, confirming an earlier Financial Times account; a NATO official said PURL supplies were still flowing Monday. PURL is the Europe-funded channel for buying U.S. weapons for Ukraine, including scarce Patriot interceptors. The White House declined comment. The pressure followed President Trump's announced energy ceasefire and his criticism of President Zelensky.",
-   "why": "Cutting intelligence and Patriot supply would immediately weaken Ukraine's air defense.",
-   "impact": 4,
-   "topic": "whitehouse",
-   "branch": [
-    "executive"
-   ],
-   "region": "US",
-   "time": "2026-10-12T09:13:00-04:00",
-   "time_known": true,
-   "source": "CNN",
-   "url": "https://www.cnn.com/2026/10/11/politics/ukraine"
-  },
-  {
    "id": "2026-10-12-eu-russia-sanctions-listings",
    "section": "news",
    "text": "The EU sanctioned nearly 1,600 Russian companies and executives in its largest listings package aimed at Moscow's military industry.",
@@ -38,16 +21,16 @@
   {
    "id": "2026-10-12-evernorth-xrpn-nasdaq",
    "section": "finance",
-   "text": "Evernorth Holdings began Nasdaq trading as XRPN, the first pure-play publicly listed XRP treasury company.",
-   "detail": "Yahoo Finance marked XRPN newly listed effective Oct. 12; shares opened at $16.68, ranged from $16.39 to $19.39, and closed at $16.91 on about 1.28 million shares. Evernorth closed its Armada Acquisition Corp. II merger on Oct. 9 and says it holds about 473 million XRP with roughly $300 million in gross cash proceeds. Warrants trade as XRPNW.",
+   "text": "Evernorth Holdings, which holds about 473 million XRP, was set to begin trading on Nasdaq as XRPN on Oct. 12 after completing its merger with Armada Acquisition Corp. II, the company said.",
+   "detail": "Evernorth said it closed the business combination on Oct. 9 with about $300 million in gross cash proceeds before transaction expenses, from investors including Arrington Capital, SBI Group, Ripple, Pantera Capital, Kraken and GSR. It said it plans to deploy capital across the XRP economy and expected to ring the Nasdaq closing bell on Oct. 14.",
    "why": "Turns a closely watched crypto SPAC into a traded XRP-treasury stock on a federal holiday.",
    "impact": 3,
    "topic": "coin",
    "region": "US",
    "time": "2026-10-12T09:30:00-04:00",
    "time_known": true,
-   "source": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/quote/XRPN/"
+   "source": "Evernorth (press release)",
+   "url": "https://www.evernorth.xyz/press-release-10-09-2026"
   }
  ],
  "groups": [

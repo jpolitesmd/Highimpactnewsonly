@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T16:52:45-04:00",
+  "updated": "2026-10-18T19:30:00-04:00",
   "items": [
     {
       "id": "2026-10-18-us-resumes-missile-intel-ukraine",
@@ -12,11 +12,11 @@
       "impact": 3,
       "time": "2026-10-18T10:00:00-04:00",
       "time_known": false,
-      "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a three-day cutoff, President Zelenskyy said Sunday, thanking the Trump administration.",
-      "detail": "\"It was blocked for some period of time. And then it was deblocked by the American side,\" Zelenskyy told NBC's Meet the Press, saying Ukraine got no U.S. warning during three days of ballistic attacks. He also said a recent slowdown of SpaceX's Starlink service in Ukraine, which hampered front-line drone operations, was \"a message from American government.\" Treasury Secretary Scott Bessent, on the same program, called that charge \"very reckless\" and said President Trump and Secretary of State Marco Rubio have denied anyone in the administration was involved. Russian attacks killed at least 10 Ukrainian civilians over the past day, regional officials said.",
-      "why": "U.S. early-warning intelligence is a key part of Ukraine's air defense as Russia targets its power grid before winter.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/legal/government/us-resumes-intelligence-sharing-with-ukraine-after-pause-zelenskiy-says-2026-10-18/",
+      "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a pause, President Zelenskyy told NBC's Meet the Press on Sunday, thanking the U.S. for restoring them.",
+      "detail": "\"It was blocked for some period of time. And then it was deblocked by American side. We are very thankful for this. Now it works,\" Zelenskyy said, adding that Ukraine got no U.S. warning during three days of ballistic attacks. He said Ukraine's generals and government believe a slowdown of SpaceX's Starlink service was \"the message from American government to limit this speed, and technically SpaceX did it,\" and that speeds are still limited. Treasury Secretary Scott Bessent, on the same program, said President Trump and Secretary of State Marco Rubio \"have categorically said that no one in the Trump administration did that\" and called Zelenskyy's charge \"very reckless.\"",
+      "why": "Only the U.S. can warn Ukraine when Russia launches ballistic missiles, Zelenskyy says, as Russia keeps striking Ukrainian cities.",
+      "source": "NBC News, Meet the Press (transcript); Reuters",
+      "url": "https://www.nbcnews.com/meet-the-press/transcripts/meet-press-october-18-2026-rcna604150",
       "thread": "russia-ukraine",
       "tags": [
         "ukraine",
@@ -339,8 +339,8 @@
       "impact": 3,
       "time": "2026-10-18T02:00:00-04:00",
       "time_known": false,
-      "text": "St. Petersburg was hit by an overnight Ukrainian drone attack that killed one person, injured five and set the city's oil terminal on fire, its governor said.",
-      "detail": "Gov. Alexander Beglov said fires broke out at the oil terminal, an oil depot and industrial warehouses. Online retailer Ozon said its St. Petersburg logistics center caught fire, and VK said one of its Leningrad region data centers was attacked but services kept running. Russia's Defense Ministry said air defenses shot down 1,015 Ukrainian drones over Russian regions overnight.",
+      "text": "A Ukrainian drone attack on oil facilities, logistics and data centers in St. Petersburg and the surrounding Leningrad region killed one person and injured 15, local authorities said Sunday.",
+      "detail": "St. Petersburg Gov. Alexander Beglov said fires broke out at the city's oil terminal, an oil depot and industrial warehouses. Online retailer Ozon said its St. Petersburg logistics hub was on fire, and internet company VK said one of its Leningrad region data centers was attacked by drones but services were running normally. Russia's Defense Ministry said air defenses downed 1,015 Ukrainian drones over Russian regions overnight.",
       "why": "Ukraine's drone war is reaching energy sites in Russia's second-largest city.",
       "source": "Reuters",
       "url": "https://www.reuters.com/world/europe/one-killed-15-injured-ukrainian-drone-attack-st-petersburg-leningrad-region-2026-10-18/",
@@ -610,9 +610,9 @@
       "impact": 3,
       "time": "2026-10-16T22:00:00-04:00",
       "time_known": false,
-      "text": "An oil tanker carrying more than 2 million barrels exploded after hitting a mine in the Strait of Hormuz, Iran's Revolutionary Guards claimed, declaring the strait closed.",
-      "detail": "The Guards' navy said the tanker used a route Iran had not approved and had switched off its tracking. The statement, carried by Reuters late Friday, did not name the ship, owner or flag and gave no casualty figures, and no one else has confirmed it. Separately, Britain's UKMTO shipping agency reported two tankers hit off Saudi Arabia's Jubail on Friday. Hormuz traffic is still about 70% below pre-war levels.",
-      "why": "Iran is claiming a strike on a loaded supertanker on the world's main oil route, with Brent already at $110.",
+      "text": "An oil tanker carrying about 2 million barrels of crude hit a naval mine in the Strait of Hormuz and caught fire, Iran's Revolutionary Guards said, according to Iranian state media.",
+      "detail": "State media said the tanker had switched off its positioning and radar systems and tried to use a route through the strait that Iran had not authorized. The Guards later said a second tanker, also carrying about 2 million barrels, hit a mine and was left immobilized. There was no independent confirmation of either report. Maritime officials said Wednesday that a container ship and a dry bulk carrier sank near the strait after being hit by projectiles.",
+      "why": "Iran is claiming mine strikes on loaded tankers on the world's main oil route.",
       "source": "Reuters",
       "url": "https://www.reuters.com/world/middle-east/irans-guards-say-two-tankers-hit-mines-strait-hormuz-2026-10-17/",
       "tags": [
@@ -1014,9 +1014,9 @@
       "impact": 3,
       "time": "2026-10-15T10:30:00-04:00",
       "time_known": false,
-      "text": "Two chemical tankers off Romania's Black Sea coast were hit by drones, Romania's president said, and seven of one ship's 12 crew are missing.",
-      "detail": "The San Marino-flagged Wine Trader reported blasts and a fire around 7 a.m. local time Thursday about 13 nautical miles off Sulina, at the mouth of the Danube. President Nicușor Dan said it and the Comoros-flagged Yara J, hit Wednesday with its crew safe, were both struck by drones. Helicopters and rescue boats are searching in high waves. Romania's and Bulgaria's leaders were set to discuss whether to request NATO consultations under Article 4, and Dan was due to meet NATO Secretary General Mark Rutte in Brussels. Russia said it hit two cargo ships carrying military cargo to Odesa but did not name them.",
-      "why": "Drone strikes on ships in a NATO member's waters left crew missing and put alliance consultations on the table.",
+      "text": "Two chemical tankers off Romania's Black Sea coast were hit by drones, Romania's president said, and seven of one ship's 12 crew were still missing as of Friday.",
+      "detail": "The San Marino-flagged Wine Trader was struck early Thursday about a mile outside Romanian territorial waters. Five of its 12 crew were rescued, but strong winds and rough seas hampered the search for the rest, which resumed Friday with a Black Hawk helicopter placing four rescuers aboard. The Comoros-flagged Yara J was hit inside Romanian waters late Wednesday; its crew were unharmed and it was towed to Constanta. President Nicușor Dan said both ships were struck by drones, and a NATO military source said the drones came from Russia. Both were anchored near the Sulina canal, which links the Danube to the Black Sea and is a key export route for Ukraine.",
+      "why": "Drone strikes on tankers off a NATO member's coast have left seven sailors missing.",
       "source": "Reuters",
       "url": "https://www.reuters.com/world/romania-resumes-search-seven-missing-sailors-drone-hit-ship-2026-10-16/",
       "added_at": "2026-10-15T16:36:25-04:00"
@@ -1144,11 +1144,11 @@
       "impact": 2,
       "time": "2026-10-14T12:00:00-04:00",
       "time_known": false,
-      "text": "The court ban on taxpayer-funded TV ads promoting President Trump was extended to Nov. 8 after more than 30 ads aired despite the judge's halt order.",
-      "detail": "U.S. District Judge Jennifer L. Rochon extended her Oct. 11 temporary restraining order by two weeks, allowed Common Cause fast-tracked discovery into who paid for the ads and why they kept running over the Columbus Day holiday, and set arguments on a preliminary injunction for Nov. 4. A federal prosecutor apologized in court Wednesday, saying he failed to make sure the agency complied on Sunday night. The roughly $20 million DHS campaign ran on cable news and football telecasts.",
+      "text": "A federal judge extended her order blocking taxpayer-funded TV ads promoting President Trump to Nov. 8 and ordered the government to explain why the ads aired after she halted them.",
+      "detail": "U.S. District Judge Jennifer L. Rochon extended her Oct. 11 temporary restraining order and stay by 14 days, finding good cause. She allowed Common Cause and the other plaintiffs limited expedited discovery for a preliminary-injunction motion due Oct. 22 and set a hearing for Nov. 4. She ordered the government to file declarations by Oct. 15 explaining why the challenged ads aired on Oct. 12, given its lawyers' contrary representations.",
       "why": "The ads stay off the air through the Nov. 3 midterms, and the court is now probing why its order was not followed.",
-      "source": "Courthouse News Service",
-      "url": "https://www.courthousenews.com/taxpayer-funded-trump-tv-ads-continued-to-air-after-judge-ordered-halt/",
+      "source": "U.S. District Court for the Southern District of New York (order)",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.674638/gov.uscourts.nysd.674638.53.0.pdf",
       "added_at": "2026-10-15T05:43:03-04:00"
     },
     {
@@ -1430,11 +1430,11 @@
       "impact": 3,
       "time": "2026-10-14T01:00:00-04:00",
       "time_known": false,
-      "text": "Russian missiles and drones knocked out power to at least 600,000 Ukrainians overnight, killing three in Kyiv, three days after Trump's announced energy ceasefire.",
-      "detail": "Zelenskyy said the hours-long attack, aimed mainly at Kyiv and Kharkiv, damaged 30 energy facilities and called it \"ostentatious disrespect\" to President Trump's peace effort. Ukraine's air force said Russia launched 39 ballistic and cruise missiles and 128 drones. Russia's defense ministry said it struck four power plants in and around Kyiv and two in Kharkiv, plus other targets, and attacks also hit state railway facilities in five regions. Trump announced the energy ceasefire on Sunday; Zelenskyy says Ukraine has held off strikes on Russian refineries since then.",
+      "text": "Russian missiles and drones knocked out power to at least 600,000 Ukrainians overnight and killed three in Kyiv, despite President Trump's claim that both sides had agreed to halt energy strikes.",
+      "detail": "Zelenskyy said the hours-long attack, aimed mainly at Kyiv and Kharkiv, damaged 30 energy facilities, and called it \"ostentatious disrespect\" toward the United States. Ukraine said it shot down only four of 39 missiles. Russia's Defense Ministry said it struck four power plants in and around Kyiv and two in Kharkiv, among other targets, and Prime Minister Sergii Koretskyi said attacks also hit state railway facilities in five regions. Neither Moscow nor Kyiv has confirmed the energy truce Trump announced.",
       "why": "It is the largest blow yet to the energy truce Washington announced, heading into Ukraine's heating season.",
-      "source": "Reuters (via CBC)",
-      "url": "https://www.cbc.ca/news/world/russia-attacks-ukraine-energy-infrastructure-9.7379859",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/russian-strikes-kill-one-hit-energy-facilities-kyiv-mayor-says-2026-10-14/",
       "added_at": "2026-10-14T05:39:21-04:00"
     },
     {
@@ -1796,25 +1796,6 @@
       "added_at": "2026-10-12T16:46:01-04:00"
     },
     {
-      "id": "2026-10-12-us-threatens-ukraine-purl-intel",
-      "section": "news",
-      "topic": "whitehouse",
-      "region": "US",
-      "branch": [
-        "executive"
-      ],
-      "thread": "russia-ukraine",
-      "impact": 4,
-      "time": "2026-10-12T09:13:00-04:00",
-      "time_known": true,
-      "text": "U.S. officials warned Ukraine and European allies they could suspend intelligence sharing and PURL weapons buys if Kyiv keeps striking Russian energy sites.",
-      "detail": "CNN reported Monday that State Department and Pentagon warnings went out over the weekend, confirming an earlier Financial Times account; a NATO official said PURL supplies were still flowing Monday. PURL is the Europe-funded channel for buying U.S. weapons for Ukraine, including scarce Patriot interceptors. The White House declined comment. The pressure followed President Trump's announced energy ceasefire and his criticism of President Zelensky.",
-      "why": "Cutting intelligence and Patriot supply would immediately weaken Ukraine's air defense.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/10/11/politics/ukraine",
-      "added_at": "2026-10-12T16:46:01-04:00"
-    },
-    {
       "id": "2026-10-12-evernorth-xrpn-nasdaq",
       "section": "finance",
       "topic": "coin",
@@ -1825,11 +1806,11 @@
       "impact": 3,
       "time": "2026-10-12T09:30:00-04:00",
       "time_known": true,
-      "text": "Evernorth Holdings began Nasdaq trading as XRPN, the first pure-play publicly listed XRP treasury company.",
-      "detail": "Yahoo Finance marked XRPN newly listed effective Oct. 12; shares opened at $16.68, ranged from $16.39 to $19.39, and closed at $16.91 on about 1.28 million shares. Evernorth closed its Armada Acquisition Corp. II merger on Oct. 9 and says it holds about 473 million XRP with roughly $300 million in gross cash proceeds. Warrants trade as XRPNW.",
+      "text": "Evernorth Holdings, which holds about 473 million XRP, was set to begin trading on Nasdaq as XRPN on Oct. 12 after completing its merger with Armada Acquisition Corp. II, the company said.",
+      "detail": "Evernorth said it closed the business combination on Oct. 9 with about $300 million in gross cash proceeds before transaction expenses, from investors including Arrington Capital, SBI Group, Ripple, Pantera Capital, Kraken and GSR. It said it plans to deploy capital across the XRP economy and expected to ring the Nasdaq closing bell on Oct. 14.",
       "why": "Turns a closely watched crypto SPAC into a traded XRP-treasury stock on a federal holiday.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/XRPN/",
+      "source": "Evernorth (press release)",
+      "url": "https://www.evernorth.xyz/press-release-10-09-2026",
       "added_at": "2026-10-12T16:46:01-04:00"
     },
     {
@@ -5237,9 +5218,9 @@
       "world_region": "asia",
       "impact": 2,
       "time": "2026-10-11T09:06:00-04:00",
-      "text": "India's youth protest movement vowed more demonstrations after police detained thousands, including its leaders and opposition politicians, in New Delhi on Saturday.",
-      "detail": "Protesters demand Chief Election Commissioner Gyanesh Kumar resign over a voter-list revision they say favors Prime Minister Modi's BJP. Authorities sealed the Jantar Mantar protest site and suspended trains and metro service; police said Sunday all detainees were released, and protests were called for Mumbai and other cities.",
-      "why": "A voter-roll fight is drawing the biggest youth street protests in India's capital.",
+      "text": "Police in New Delhi detained the founder and two other leaders of India's Cockroach Janta Party youth movement on Saturday, ahead of a banned protest demanding the chief election commissioner resign.",
+      "detail": "Police met founder Abhijeet Dipke at Delhi airport after he arrived from Mumbai and asked him to call off the protest, which authorities had banned, Indian TV channels reported. Leaders Saurav Das and Ashutosh Ranka were also detained from their flight on landing, the movement said in a statement.",
+      "why": "Authorities moved to stop a youth movement's protest against India's election chief before it reached the streets.",
       "source": "Reuters",
       "url": "https://www.reuters.com/world/india/indian-police-detain-cockroach-movement-founder-abhijeet-dipke-2026-10-10/",
       "added_at": "2026-10-11T16:52:00-04:00"

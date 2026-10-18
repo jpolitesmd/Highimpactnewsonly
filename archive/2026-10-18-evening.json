@@ -7,9 +7,9 @@
   {
    "id": "2026-10-18-us-resumes-missile-intel-ukraine",
    "section": "news",
-   "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a three-day cutoff, President Zelenskyy said Sunday, thanking the Trump administration.",
-   "detail": "\"It was blocked for some period of time. And then it was deblocked by the American side,\" Zelenskyy told NBC's Meet the Press, saying Ukraine got no U.S. warning during three days of ballistic attacks. He also said a recent slowdown of SpaceX's Starlink service in Ukraine, which hampered front-line drone operations, was \"a message from American government.\" Treasury Secretary Scott Bessent, on the same program, called that charge \"very reckless\" and said President Trump and Secretary of State Marco Rubio have denied anyone in the administration was involved. Russian attacks killed at least 10 Ukrainian civilians over the past day, regional officials said.",
-   "why": "U.S. early-warning intelligence is a key part of Ukraine's air defense as Russia targets its power grid before winter.",
+   "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a pause, President Zelenskyy told NBC's Meet the Press on Sunday, thanking the U.S. for restoring them.",
+   "detail": "\"It was blocked for some period of time. And then it was deblocked by American side. We are very thankful for this. Now it works,\" Zelenskyy said, adding that Ukraine got no U.S. warning during three days of ballistic attacks. He said Ukraine's generals and government believe a slowdown of SpaceX's Starlink service was \"the message from American government to limit this speed, and technically SpaceX did it,\" and that speeds are still limited. Treasury Secretary Scott Bessent, on the same program, said President Trump and Secretary of State Marco Rubio \"have categorically said that no one in the Trump administration did that\" and called Zelenskyy's charge \"very reckless.\"",
+   "why": "Only the U.S. can warn Ukraine when Russia launches ballistic missiles, Zelenskyy says, as Russia keeps striking Ukrainian cities.",
    "impact": 3,
    "topic": "war",
    "branch": [
@@ -18,8 +18,8 @@
    "region": "US",
    "time": "2026-10-18T10:00:00-04:00",
    "time_known": false,
-   "source": "Reuters",
-   "url": "https://www.reuters.com/legal/government/us-resumes-intelligence-sharing-with-ukraine-after-pause-zelenskiy-says-2026-10-18/"
+   "source": "NBC News, Meet the Press (transcript); Reuters",
+   "url": "https://www.nbcnews.com/meet-the-press/transcripts/meet-press-october-18-2026-rcna604150"
   },
   {
    "id": "2026-10-18-wainwright-fire-four-killed",

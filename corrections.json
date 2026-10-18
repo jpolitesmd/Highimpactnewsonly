@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T16:52:00-04:00",
+  "updated": "2026-10-18T19:30:00-04:00",
   "corrections": [
     {
       "date": "2026-10-11T16:52:00-04:00",
@@ -7,6 +7,34 @@
       "was": "At least 12 people killed",
       "now": "13 people killed",
       "why": "Death toll rose after an injured Indian national died Sunday"
+    },
+    {
+      "date": "2026-10-18T19:30:00-04:00",
+      "item_id": "2026-10-12-us-threatens-ukraine-purl-intel",
+      "was": "U.S. officials warned they could suspend intelligence sharing and PURL weapons buys if Kyiv keeps striking Russian energy sites (CNN, unnamed sources)",
+      "now": "Story removed",
+      "why": "It rested on anonymous sourcing; no official on the record or wire service confirmed the PURL threat"
+    },
+    {
+      "date": "2026-10-18T19:30:00-04:00",
+      "item_id": "2026-10-18-ukraine-drones-st-petersburg-oil-terminal",
+      "was": "One killed, five injured",
+      "now": "One killed, 15 injured",
+      "why": "Local authorities raised the injury count, Reuters reported"
+    },
+    {
+      "date": "2026-10-18T19:30:00-04:00",
+      "item_id": "2026-10-11-india-youth-protest-crackdown",
+      "was": "Police detained thousands, including the movement's leaders and opposition politicians",
+      "now": "Police detained the movement's founder and two other leaders ahead of a banned protest",
+      "why": "The linked Reuters report does not support the 'thousands detained' figure"
+    },
+    {
+      "date": "2026-10-18T19:30:00-04:00",
+      "item_id": "2026-10-17-irgc-claims-tanker-mine-hormuz",
+      "was": "Tanker exploded; Iran's Guards declared the strait closed",
+      "now": "Tanker hit a mine and caught fire, Iran's Guards said; no independent confirmation",
+      "why": "The linked Reuters report does not carry the closure declaration"
     }
   ]
 }

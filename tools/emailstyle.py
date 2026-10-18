@@ -122,20 +122,24 @@ def open_paper():
         'font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}'
         '.hd-wrap,.hd-inner{background-color:' + PAPER + '!important;color:' + BODY + '!important}'
         '.hd-root,.hd-wrap{width:100%!important;min-width:100%!important}'
-        '.hd-inner{width:600px;max-width:100%;margin:0 auto!important}'
+        '.hd-inner{width:100%!important;max-width:600px!important;margin:0 auto!important}'
+        '.hd-body{overflow-wrap:break-word;word-wrap:break-word}'
+        'img{max-width:100%;height:auto}'
         'h3.hd-ink::first-letter{float:left;font-family:\'IM Fell English\',Georgia,\'Times New Roman\',serif;font-weight:400;color:' + ACCENT + ';font-size:2.6em;line-height:.85;padding:.05em .1em 0 0;margin:0 .1em .05em 0}'
         '.newsletter-body,.email-content,body{width:100%!important;min-width:100%!important;margin:0!important;padding:0!important}'
         '@media (max-width:480px){.hd-seal{width:104px!important;height:104px!important;max-width:104px!important}}'
+        '@media (max-width:400px){.hd-wm-p{font-size:21px!important;letter-spacing:.5px!important}.hd-wm-s{font-size:26px!important;margin:0 2px!important}}'
         '</style>\n'
         f'<div class="hd-root" style="width:100%;min-width:100%;margin:0;padding:0;background-color:{PAPER}">\n'
         f'<table role="presentation" class="hd-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" '
         f'bgcolor="{PAPER}" style="width:100%;min-width:100%;border-collapse:collapse;background-color:{PAPER}">'
         f'<tr><td align="center" valign="top" bgcolor="{PAPER}" style="padding:0;background-color:{PAPER};text-align:center">'
         '<center>'
-        f'<table role="presentation" class="hd-inner" width="600" align="center" cellpadding="0" cellspacing="0" border="0" '
-        f'bgcolor="{PAPER}" style="width:600px;max-width:100%;border-collapse:collapse;background-color:{PAPER};margin:0 auto;text-align:left">'
+        '<!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->'
+        f'<table role="presentation" class="hd-inner" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" '
+        f'bgcolor="{PAPER}" style="width:100%;max-width:600px;border-collapse:collapse;background-color:{PAPER};margin:0 auto;text-align:left">'
         f'<tr><td class="hd-body" bgcolor="{PAPER}" style="padding:6px 16px 20px;background-color:{PAPER};'
-        f'color:{BODY};font-family:{SERIF};font-size:15px;line-height:1.5;text-align:left">\n'
+        f'color:{BODY};font-family:{SERIF};font-size:15px;line-height:1.5;text-align:left;overflow-wrap:break-word;word-wrap:break-word">\n'
         f'<p class="hd-inkrule hd-ink" style="margin:0;padding:6px 0 5px;border-top:3px double {INK};'
         f'border-bottom:1px solid {INK};text-align:center;font-family:{SANS};font-size:9px;font-weight:600;'
         f'letter-spacing:1.6px;text-transform:uppercase;color:{INK}">Spin-free news · Ranked by impact</p>\n'
@@ -146,15 +150,15 @@ def open_paper():
         f'<tr><td align="center" style="padding:8px 0 0;text-align:center;line-height:0;font-size:0">'
         f'<a href="{SITE}/" style="text-decoration:none;border:0">'
         f'<img class="hd-seal" src="{IMG}/seal.png" alt="High Impact News Daily" width="140" height="140" border="0" '
-        f'style="display:block;margin:0 auto;width:140px;height:140px;max-width:140px;border:0;outline:none;text-decoration:none"></a>'
+        f'style="display:block;margin:0 auto;width:140px;max-width:100%;height:auto;border:0;outline:none;text-decoration:none"></a>'
         f'</td></tr></table>\n'
         f'<p style="margin:12px 0 0;text-align:center;white-space:nowrap;line-height:1.1">'
         f'<a href="{SITE}/" style="text-decoration:none">'
-        f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">HIGH</span> '
-        f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
+        f'<span class="hd-ink hd-wm-p" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">HIGH</span> '
+        f'<span class="hd-accent hd-wm-s" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
         f'margin:0 3px;color:{ACCENT}">impact</span> '
-        f'<span class="hd-ink" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">NEWS</span> '
-        f'<span class="hd-accent" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
+        f'<span class="hd-ink hd-wm-p" style="font-family:{DISPLAY};font-size:25px;letter-spacing:1px;color:{INK}">NEWS</span> '
+        f'<span class="hd-accent hd-wm-s" style="font-family:\'Pinyon Script\',\'Snell Roundhand\',cursive;font-size:31px;'
         f'margin:0 3px;color:{ACCENT}">daily</span></a></p>\n'
         f'<p style="margin:8px 0 0;text-align:center;line-height:0"><img src="{IMG}/orn-head.png" alt="" width="260" '
         f'height="20" style="display:inline-block;width:260px;max-width:80%;height:auto;border:0"></p>\n'
@@ -162,7 +166,7 @@ def open_paper():
 
 
 def close_paper():
-    return "</td></tr></table></center></td></tr></table>\n</div>"
+    return "</td></tr></table><!--[if mso]></td></tr></table><![endif]--></center></td></tr></table>\n</div>"
 
 
 def kicker(text):
@@ -203,7 +207,7 @@ def story(it, n, first=False, size=18):
     src = (" " + link((it.get("source") or "Source") + " ↗", it["url"])) if str(it.get("url", "")).startswith("http") else ""
     out.append(f'<p class="hd-muted" style="margin:0;font-family:{SANS};font-size:13px;line-height:1.45;color:{MUTED}">'
                f'<img src="{IMG}/impact-{n}.png" alt="" width="50" height="16" '
-               f'style="width:50px;height:16px;vertical-align:-3px;border:0"> '
+               f'style="width:50px;max-width:100%;height:auto;vertical-align:-3px;border:0"> '
                f'<b class="hd-ink" style="color:{INK}">Impact {n}/5.</b> {e(it.get("why"))}{src}</p>')
     return "\n".join(out)
 

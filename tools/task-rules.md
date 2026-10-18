@@ -22,7 +22,7 @@ Post-push verification and when to commit/report (quiet reporting): see `tools/r
 - 4 and 5 are for actions that are binding, take effect now or on a set date, and reach a large population (a final nationwide rule, a law signed, a final Supreme Court merits decision, a Fed rate change, a major war development).
 - Use 3 when the action is real but temporary, stayed, delayed, only procedural, passed one chamber, or mostly formalizes an earlier court loss. Court orders that pause or allow something while a case continues are 3 unless they immediately change rights or obligations for millions of people.
 - Sports: only a title decided (championship won) or a decisive/elimination game (a Game 7, or a game that sends a series to Game 7) is impact 3+ (a major title 4) and runs in Today and the email; every other result (regular playoff games, series ties, Finals Game 1) is impact 1-2 and appears only on the Sports tab.
-- WNBA stories, including the Finals and a title clinch, are impact 2 (owner rule; overrides the sports line above).
+- WNBA stories, including Finals games, are impact 2 (owner rule), except a WNBA title win, which follows the sports line above (impact 3+, runs in Today and the email).
 - Thin days: confirmed impact ~2–3 stories that pass the workplace-gossip test (would coworkers discuss this?) are a valid fill — primary/wire facts only, no invention.
 - Same story in a later edition: only if something new happened, and the lead says what moved.
 

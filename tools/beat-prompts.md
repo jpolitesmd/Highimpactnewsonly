@@ -93,7 +93,7 @@ Beat: Sports (conditional).
 Run ONLY if a championship / major team title / final-day result falls in the window, including a Sunday or weekend championship wrap.
 If the calendar does not clearly qualify: do zero lookups; reply {"skipped":"no qualifying event","candidates":[]} immediately.
 Otherwise search "[event] final day results"; espn.com or the event's official wrap is fine (≤3 candidates).
-Impact (see task-rules Impact ratings): a title decided or a decisive game (Game 7, or a game that sends a series to Game 7) is 3+ (major title 4) and makes Today/email; all other results are 1-2, Sports tab only. WNBA stays 2.
+Impact (see task-rules Impact ratings): a title decided or a decisive game (Game 7, or a game that sends a series to Game 7) is 3+ (major title 4) and makes Today/email; all other results are 1-2, Sports tab only. WNBA is 2 except a WNBA title win (3+).
 ```
 
 ---

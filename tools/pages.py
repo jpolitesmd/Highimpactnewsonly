@@ -435,7 +435,7 @@ def main():
             open("index.html", "w").write(h[:a] + "".join(snap) + h[b:])
         except (OSError, ValueError):
             pass
-    open("robots.txt", "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
+    open("robots.txt", "w").write(f"User-agent: *\nDisallow: /tools/\nDisallow: /audit/\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
     print(f"pages: {len(order)} edition pages, editions/index.html, sitemap.xml")
 
 

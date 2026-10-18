@@ -1,0 +1,59 @@
+# Publishes the site to GitHub Pages (hinewsdaily.com) on every push to main.
+# Copies every tracked file EXCEPT internal paths (tools/, audit/, app-contract.md, .github/, .gitignore)
+# into _site and deploys it. Internal files stay in the repo for the edition routines; they just aren't served.
+# Also runs after the email workflows finish, because their bot commits (email/sent.txt etc.) don't trigger push workflows.
+name: Deploy site to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["Send edition email", "Send test email", "Check Buttondown setup"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Build _site (repo minus internal files)
+        run: |
+          set -euo pipefail
+          mkdir _site
+          git ls-files -z \
+            | grep -zvE '^(tools/|audit/|\.github/|\.gitignore$|app-contract\.md$)' \
+            | xargs -0 cp --parents -t _site
+          # Guard: internal paths must be absent, reader files present.
+          for p in tools audit app-contract.md .github; do
+            if [ -e "_site/$p" ]; then echo "internal path leaked: $p"; exit 1; fi
+          done
+          for f in index.html CNAME items.json threads.json corrections.json history.json upcoming.json launches.json \
+                   feed.xml sitemap.xml robots.txt favicon.ico media-kit.html vintage.html archive/index.json assets/commute.json; do
+            test -s "_site/$f" || { echo "missing reader file: $f"; exit 1; }
+          done
+          echo "files in _site: $(find _site -type f | wc -l)"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

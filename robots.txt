@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /tools/
+Disallow: /audit/
 Allow: /
 
 Sitemap: https://hinewsdaily.com/sitemap.xml

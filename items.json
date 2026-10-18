@@ -1,6 +1,225 @@
 {
-  "updated": "2026-10-18T05:28:15-04:00",
+  "updated": "2026-10-18T16:52:45-04:00",
   "items": [
+    {
+      "id": "2026-10-18-us-resumes-missile-intel-ukraine",
+      "section": "news",
+      "topic": "war",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 3,
+      "time": "2026-10-18T10:00:00-04:00",
+      "time_known": false,
+      "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a three-day cutoff, President Zelenskyy said Sunday, thanking the Trump administration.",
+      "detail": "\"It was blocked for some period of time. And then it was deblocked by the American side,\" Zelenskyy told NBC's Meet the Press, saying Ukraine got no U.S. warning during three days of ballistic attacks. He also said a recent slowdown of SpaceX's Starlink service in Ukraine, which hampered front-line drone operations, was \"a message from American government.\" Treasury Secretary Scott Bessent, on the same program, called that charge \"very reckless\" and said President Trump and Secretary of State Marco Rubio have denied anyone in the administration was involved. Russian attacks killed at least 10 Ukrainian civilians over the past day, regional officials said.",
+      "why": "U.S. early-warning intelligence is a key part of Ukraine's air defense as Russia targets its power grid before winter.",
+      "source": "The Guardian (with Reuters, AP, AFP)",
+      "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+      "thread": "russia-ukraine",
+      "tags": [
+        "ukraine",
+        "intelligence",
+        "starlink"
+      ],
+      "pin": "2026-10-18 evening",
+      "pin_order": 1,
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-wainwright-fire-four-killed",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 3,
+      "time": "2026-10-18T12:00:00-04:00",
+      "time_known": false,
+      "text": "Four Canadian service members were killed and dozens seriously wounded in Saturday's fire at CFB Wainwright in Alberta, Prime Minister Mark Carney said Sunday.",
+      "detail": "Carney called the fast-moving fire one of the worst tragedies for Canada's Armed Forces on Canadian soil in peacetime and said next of kin have been notified. Those affected came from bases across the country, including reservists and soldiers of Princess Patricia's Canadian Light Infantry. He ordered flags on federal buildings lowered to half-mast. The fire began in a training area at about 4 p.m. local time Saturday; its cause is under investigation.",
+      "why": "It is one of the deadliest peacetime losses for Canada's military at home, and the cause is still unknown.",
+      "source": "Prime Minister of Canada",
+      "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright",
+      "tags": [
+        "canada",
+        "military",
+        "fire"
+      ],
+      "pin": "2026-10-18 evening",
+      "pin_order": 2,
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-super-typhoon-champi-spares-guam",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-18T03:51:00-04:00",
+      "time_known": true,
+      "text": "Super Typhoon Champi passed about 10 miles south of Guam with 150 mph winds, sparing the island a direct hit; typhoon warnings were lifted Sunday.",
+      "detail": "The storm's eye passed south of Merizo at about 4:26 a.m. local time Sunday (2:26 p.m. ET Saturday), as Champi was upgraded to a super typhoon. The National Weather Service canceled the typhoon warning for Guam and Rota at 5:51 p.m. local time, and Gov. Lou Leon Guerrero moved the island to its all-clear readiness level, COR 4, at 6 p.m. A weather service forecaster said preliminary reports showed no widespread significant damage, though far southern Guam, nearest the eye, is still being assessed; 72 of Guam's 98 water wells were running on backup generators Sunday morning. Life-threatening surf and coastal flooding are expected through early Monday.",
+      "why": "About 150,000 Americans live on Guam, home to major U.S. military bases; a direct hit could have been devastating.",
+      "source": "Guam Homeland Security / Office of Civil Defense",
+      "url": "https://ghs.guam.gov/jic-release-no-15-guam-move-cor-4-6-pm-sunday-october-18-2026-stay-out-water",
+      "tags": [
+        "guam",
+        "typhoon",
+        "weather"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-albania-protests-sixth-day",
+      "section": "news",
+      "topic": "protest",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-10-18T12:00:00-04:00",
+      "time_known": false,
+      "text": "Albania's student-led protests reached a sixth day Sunday as Tirana police fired rubber bullets and tear gas and Prime Minister Edi Rama refused to resign.",
+      "detail": "Hundreds of protesters gathered outside the Education Ministry chanting \"Rama, resign.\" The Health Ministry said 65 people were hurt in Saturday's clashes, 37 of them police officers, and 272 have been injured since Tuesday, including 169 officers. On Saturday a fire set by protesters spread into the Supreme Court building. Protesters want better education and jobs and an end to corruption; the unrest grew out of protests against a luxury resort project linked to Jared Kushner. Rama blamed a \"foreign hand\" and asked whether Albanians wanted unrest or European Union membership.",
+      "why": "A week of escalating street violence is testing the government of a NATO member seeking to join the EU.",
+      "source": "Al Jazeera (Reuters, AP)",
+      "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily",
+      "tags": [
+        "albania",
+        "protests"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-tug-hit-off-uae-hormuz-weekly-high",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "time": "2026-10-18T03:30:00-04:00",
+      "time_known": false,
+      "text": "A tugboat off the UAE was hit by two projectiles Sunday, injuring one crew member, capping the war's worst week for ship attacks near Hormuz.",
+      "detail": "Britain's UKMTO said the southbound tug was struck northeast of Khor Fakkan, was damaged and kept sailing, with one minor casualty. UKMTO said at least 10 vessels have been attacked in or near the Strait of Hormuz since last Sunday, a weekly high since the war began in February, and 23 this month. Iranian Foreign Minister Abbas Araghchi said Sunday that Iran's seven-day plan to reopen the strait is still on the table: if the U.S. lifts its blockade of Iranian ports and oil sanctions and ends fighting on all fronts, the strait would reopen on day six and talks would start on day seven.",
+      "why": "Attacks on ships near Hormuz keep oil and shipping costs high while talks to reopen the strait stall.",
+      "source": "UKMTO",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261018-ukmto_warning_177-26.pdf",
+      "thread": "iran-war",
+      "tags": [
+        "shipping",
+        "iran",
+        "hormuz",
+        "oil"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-saada-airstrike-saudi-helicopter",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "time": "2026-10-18T08:00:00-04:00",
+      "time_known": false,
+      "text": "An airstrike on a house in Yemen's Saada province killed at least nine people, including five children, the Houthi-run Health Ministry said Sunday.",
+      "detail": "The strike hit a home in Sahar district and wounded 19, the ministry said; the Houthis blamed Saudi-led coalition aircraft, and the coalition had not commented. Separately, the coalition said a Saudi National Guard AH-6i reconnaissance helicopter crashed in Saudi Arabia's Najran region near the Yemen border because of a technical malfunction, killing its two officers.",
+      "why": "Fighting between Saudi Arabia and the Iran-backed Houthis is intensifying alongside the wider Iran war.",
+      "source": "AP",
+      "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3",
+      "tags": [
+        "yemen",
+        "houthis",
+        "saudi-arabia"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-india-festival-crowd-disasters",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 3,
+      "time": "2026-10-18T02:00:00-04:00",
+      "time_known": false,
+      "text": "A stampede at a Durga Puja festival pavilion in Kolkata, India, killed 19 people, and seven organizers and others were arrested Sunday.",
+      "detail": "The crush began Saturday evening after crowds sheltering from rain were told to leave because the structure might collapse, early reports say; four children and 11 women were among the dead and about 25 were hurt. Police filed a culpable-homicide case, and West Bengal Chief Minister Suvendu Adhikari asked for a probe led by a sitting Calcutta High Court judge. Separately, early Sunday a truck ran over devotees outside a temple in Gwalior, in Madhya Pradesh, during the Navratri festival, killing at least 15, police said.",
+      "why": "Two deadly festival-crowd disasters in one weekend put India's crowd safety under scrutiny during peak holiday crowds.",
+      "source": "AP",
+      "url": "https://apnews.com/article/india-hindu-festival-durga-puja-stampede-ee803af1bef07fab3c1157974be2e876",
+      "tags": [
+        "india",
+        "stampede"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-lithuania-drone-shelter-alert",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-18T00:30:00-04:00",
+      "time_known": false,
+      "text": "Lithuania told residents of central and northern regions to take shelter for about an hour Sunday after a likely drone entered its airspace from Poland.",
+      "detail": "NATO fighter jets were scrambled but could not see the object through clouds and did not shoot it down, and Kaunas airport closed briefly, Lithuania's crisis management center said. Debris believed to be from the drone hit a civilian vehicle, Defense Minister Robertas Kaunas said. Ukraine's foreign ministry later apologized for the possible diversion of its drones, which it said may have been caused by Russian electronic jamming.",
+      "why": "Stray drones from the Ukraine war keep forcing NATO countries to scramble jets and shelter residents.",
+      "source": "Reuters",
+      "url": "https://www.cnbc.com/2026/10/18/lithuania-told-residents-to-seek-shelter-after-detecting-flying-object.html",
+      "thread": "russia-ukraine",
+      "tags": [
+        "lithuania",
+        "nato",
+        "drones"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-kenya-ebola-eighth-case",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "World",
+      "world_region": "africa",
+      "impact": 3,
+      "time": "2026-10-18T12:00:00-04:00",
+      "time_known": false,
+      "text": "Kenya confirmed its eighth Ebola case Sunday, a 49-year-old man who is not a health worker, Health Director-General Patrick Amoth said.",
+      "detail": "Thirty-eight people were tested Sunday and one was positive. The outbreak began with a Kenyan who had lived in Congo, traveled through Uganda, arrived in Nairobi on Oct. 3 and died on Oct. 5; four more cases, including three health workers who treated him, were confirmed Saturday. By Saturday authorities had quarantined 128 of 130 identified contacts for 21 days of monitoring. The Bundibugyo strain has no licensed vaccine or specific treatment.",
+      "why": "Cases are still rising in Nairobi, a major travel hub, from a strain with no approved vaccine.",
+      "source": "AP",
+      "url": "https://apnews.com/article/kenya-ebola-congo-uganda-0b23b5ff00d39345037f2d298e92e24f",
+      "tags": [
+        "ebola",
+        "kenya"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
+    {
+      "id": "2026-10-18-east-potomac-golf-course-closing",
+      "section": "news",
+      "topic": "whitehouse",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 2,
+      "time": "2026-10-18T12:00:00-04:00",
+      "time_known": false,
+      "text": "East Potomac Golf Links, a public course in Washington, will close Nov. 15 for a 15-month redesign, President Trump announced Sunday despite a pending lawsuit.",
+      "detail": "Trump said the rebuilt course will stay open to the public and be able to host events such as the U.S. Open, PGA Championship and Ryder Cup. Park Service crews cut down 430 trees there on Oct. 10 while a lawsuit was pending, and U.S. District Judge Ana Reyes has barred further tree cutting through Oct. 26. Democracy Forward, which represents the challengers, said Sunday it will keep fighting to protect the park.",
+      "why": "It would take a heavily used public course in a national park offline for more than a year while a court fight continues.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-east-potomac-golf-course-ef8daa134bb6c7c08fd528d98aa3e77f",
+      "tags": [
+        "washington-dc",
+        "golf",
+        "national-parks"
+      ],
+      "added_at": "2026-10-18T16:52:45-04:00"
+    },
     {
       "id": "2026-10-17-baghdad-pmf-headquarters-explosion",
       "section": "news",

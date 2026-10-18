@@ -1,0 +1,138 @@
+{
+ "date": "2026-10-18",
+ "edition": "evening",
+ "subject": "Sunday, Oct 18 - Evening edition",
+ "published": "2026-10-18T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-18-us-resumes-missile-intel-ukraine",
+   "section": "news",
+   "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a three-day cutoff, President Zelenskyy said Sunday, thanking the Trump administration.",
+   "detail": "\"It was blocked for some period of time. And then it was deblocked by the American side,\" Zelenskyy told NBC's Meet the Press, saying Ukraine got no U.S. warning during three days of ballistic attacks. He also said a recent slowdown of SpaceX's Starlink service in Ukraine, which hampered front-line drone operations, was \"a message from American government.\" Treasury Secretary Scott Bessent, on the same program, called that charge \"very reckless\" and said President Trump and Secretary of State Marco Rubio have denied anyone in the administration was involved. Russian attacks killed at least 10 Ukrainian civilians over the past day, regional officials said.",
+   "why": "U.S. early-warning intelligence is a key part of Ukraine's air defense as Russia targets its power grid before winter.",
+   "impact": 3,
+   "topic": "war",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-18T10:00:00-04:00",
+   "time_known": false,
+   "source": "The Guardian (with Reuters, AP, AFP)",
+   "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure"
+  },
+  {
+   "id": "2026-10-18-wainwright-fire-four-killed",
+   "section": "news",
+   "text": "Four Canadian service members were killed and dozens seriously wounded in Saturday's fire at CFB Wainwright in Alberta, Prime Minister Mark Carney said Sunday.",
+   "detail": "Carney called the fast-moving fire one of the worst tragedies for Canada's Armed Forces on Canadian soil in peacetime and said next of kin have been notified. Those affected came from bases across the country, including reservists and soldiers of Princess Patricia's Canadian Light Infantry. He ordered flags on federal buildings lowered to half-mast. The fire began in a training area at about 4 p.m. local time Saturday; its cause is under investigation.",
+   "why": "It is one of the deadliest peacetime losses for Canada's military at home, and the cause is still unknown.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "World",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "Prime Minister of Canada",
+   "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright"
+  },
+  {
+   "id": "2026-10-18-albania-protests-sixth-day",
+   "section": "news",
+   "text": "Albania's student-led protests reached a sixth day Sunday as Tirana police fired rubber bullets and tear gas and Prime Minister Edi Rama refused to resign.",
+   "detail": "Hundreds of protesters gathered outside the Education Ministry chanting \"Rama, resign.\" The Health Ministry said 65 people were hurt in Saturday's clashes, 37 of them police officers, and 272 have been injured since Tuesday, including 169 officers. On Saturday a fire set by protesters spread into the Supreme Court building. Protesters want better education and jobs and an end to corruption; the unrest grew out of protests against a luxury resort project linked to Jared Kushner. Rama blamed a \"foreign hand\" and asked whether Albanians wanted unrest or European Union membership.",
+   "why": "A week of escalating street violence is testing the government of a NATO member seeking to join the EU.",
+   "impact": 3,
+   "topic": "protest",
+   "region": "World",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "Al Jazeera (Reuters, AP)",
+   "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily"
+  },
+  {
+   "id": "2026-10-18-kenya-ebola-eighth-case",
+   "section": "health",
+   "text": "Kenya confirmed its eighth Ebola case Sunday, a 49-year-old man who is not a health worker, Health Director-General Patrick Amoth said.",
+   "detail": "Thirty-eight people were tested Sunday and one was positive. The outbreak began with a Kenyan who had lived in Congo, traveled through Uganda, arrived in Nairobi on Oct. 3 and died on Oct. 5; four more cases, including three health workers who treated him, were confirmed Saturday. By Saturday authorities had quarantined 128 of 130 identified contacts for 21 days of monitoring. The Bundibugyo strain has no licensed vaccine or specific treatment.",
+   "why": "Cases are still rising in Nairobi, a major travel hub, from a strain with no approved vaccine.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/kenya-ebola-congo-uganda-0b23b5ff00d39345037f2d298e92e24f"
+  },
+  {
+   "id": "2026-10-18-saada-airstrike-saudi-helicopter",
+   "section": "news",
+   "text": "An airstrike on a house in Yemen's Saada province killed at least nine people, including five children, the Houthi-run Health Ministry said Sunday.",
+   "detail": "The strike hit a home in Sahar district and wounded 19, the ministry said; the Houthis blamed Saudi-led coalition aircraft, and the coalition had not commented. Separately, the coalition said a Saudi National Guard AH-6i reconnaissance helicopter crashed in Saudi Arabia's Najran region near the Yemen border because of a technical malfunction, killing its two officers.",
+   "why": "Fighting between Saudi Arabia and the Iran-backed Houthis is intensifying alongside the wider Iran war.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-18T08:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3"
+  },
+  {
+   "id": "2026-10-18-east-potomac-golf-course-closing",
+   "section": "news",
+   "text": "East Potomac Golf Links, a public course in Washington, will close Nov. 15 for a 15-month redesign, President Trump announced Sunday despite a pending lawsuit.",
+   "detail": "Trump said the rebuilt course will stay open to the public and be able to host events such as the U.S. Open, PGA Championship and Ryder Cup. Park Service crews cut down 430 trees there on Oct. 10 while a lawsuit was pending, and U.S. District Judge Ana Reyes has barred further tree cutting through Oct. 26. Democracy Forward, which represents the challengers, said Sunday it will keep fighting to protect the park.",
+   "why": "It would take a heavily used public course in a national park offline for more than a year while a court fight continues.",
+   "impact": 2,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-east-potomac-golf-course-ef8daa134bb6c7c08fd528d98aa3e77f"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-19",
+   "branch": "executive",
+   "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+   "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-20",
+   "branch": "executive",
+   "text": "Comment deadline on the SEC's proposed Regulation Crypto Assets.",
+   "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-20",
+   "when": "10:00 a.m. ET",
+   "text": "September pending home sales (National Association of Realtors), 10:00 a.m. ET.",
+   "detail": "Per NAR's 2026 release schedule; tracks contracts signed in September, a lead on future existing-home sales.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

@@ -147,7 +147,7 @@ def open_paper():
         # Always the site's dark seal: the email is always Mail grey, and this self-contained black disc
         # also reads on white if a client lightens the background. 2x PNG for retina.
         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse">'
-        f'<tr><td align="center" style="padding:8px 0 0;text-align:center;line-height:0;font-size:0">'
+        f'<tr><td align="center" style="padding:24px 0 0;text-align:center;line-height:0;font-size:0">'
         f'<a href="{SITE}/" style="text-decoration:none;border:0">'
         f'<img class="hd-seal" src="{IMG}/seal.png" alt="High Impact News Daily" width="140" height="140" border="0" '
         f'style="display:block;margin:0 auto;width:140px;max-width:100%;height:auto;border:0;outline:none;text-decoration:none"></a>'

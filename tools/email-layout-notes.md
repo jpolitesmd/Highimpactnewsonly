@@ -81,7 +81,7 @@ Impact meter image inside `story()` at 1e2b3af:
                f'<b class="hd-ink" style="color:{INK}">Impact {n}/5.</b> {e(it.get("why"))}{src}</p>')
 ```
 
-## After: fluid column, max 600px (commit "Email layout: fluid column ...")
+## After: fluid column, max 600px (commit 8a235746acf2db647410d74f9be4d2c0e6eebd62)
 
 - CSS: `.hd-inner{width:100%!important;max-width:600px!important;margin:0 auto!important}`, plus `img{max-width:100%;height:auto}`
   and `overflow-wrap:break-word` on `.hd-body`, so long words or URLs wrap instead of widening the column.
@@ -96,8 +96,13 @@ Impact meter image inside `story()` at 1e2b3af:
 
 ## How to revert
 
-- One command: `git revert <hash of the "Email layout: fluid column" commit>`. That restores the fixed-600px shell above;
+- One command: `git revert 8a235746acf2db647410d74f9be4d2c0e6eebd62`. That restores the fixed-600px shell above;
   the seal-spacing commit and the source-link commits are separate and are not affected.
 - Or paste the "Before" code back into `open_paper()`/`close_paper()` and the impact `<img>` in `story()`.
 - Never run `tools/edition.py` in the real repo to test. It rewrites `email/today.json`, and a push of that file sends to
   subscribers. Test in a scratch copy and render the generated `email/today.json` body in a headless browser.
+
+## Seal spacing (separate commit)
+
+The seal cell's top padding went from 8px to 24px (padding on the `<td>`, not a margin), so the seal sits clearly apart from the
+"SPIN-FREE NEWS · RANKED BY IMPACT" strip. This commit is independent of the column change; revert it on its own if needed.

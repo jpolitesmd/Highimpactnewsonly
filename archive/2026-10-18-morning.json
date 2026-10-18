@@ -1,0 +1,250 @@
+{
+ "date": "2026-10-18",
+ "edition": "morning",
+ "subject": "Sunday, Oct 18 - Morning edition",
+ "published": "2026-10-18T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-18-ukraine-drones-st-petersburg-oil-terminal",
+   "section": "news",
+   "text": "St. Petersburg was hit by an overnight Ukrainian drone attack that killed one person, injured five and set the city's oil terminal on fire, its governor said.",
+   "detail": "Gov. Alexander Beglov said fires broke out at the oil terminal, an oil depot and industrial warehouses. Online retailer Ozon said its St. Petersburg logistics center caught fire, and VK said one of its Leningrad region data centers was attacked but services kept running. Russia's Defense Ministry said air defenses shot down 1,015 Ukrainian drones over Russian regions overnight.",
+   "why": "Ukraine's drone war is reaching energy sites in Russia's second-largest city.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-18T02:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.arabnews.com/world/official-1-killed-5-injured-in-ukrainian-drone-attack-on-russian-city-3006977"
+  },
+  {
+   "id": "2026-10-18-rays-even-alcs-guardians",
+   "section": "sports",
+   "text": "The Tampa Bay Rays beat the Cleveland Guardians 7-3 Saturday to even the American League Championship Series at two games apiece.",
+   "detail": "Junior Caminero's tiebreaking double off Daniel Espino in the sixth inning put Tampa Bay ahead in Game 4 at Cleveland's Progressive Field, the Rays scored three in the seventh after a Chase DeLauter error in right field, and Yandy Díaz added a two-run homer. Rays starter Nick Martinez retired 11 straight batters after Cleveland scored first. Game 5 is Sunday in Cleveland, with Parker Messick facing Drew Rasmussen, and the series is guaranteed to return to Tropicana Field for Game 6 on Monday night. The winner faces the Milwaukee Brewers in the World Series.",
+   "why": "The AL pennant is now a best-of-three, with the World Series set to start Friday.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-17T23:00:00-04:00",
+   "time_known": false,
+   "source": "MLB.com",
+   "url": "https://www.mlb.com/news/junior-caminero-yandy-diaz-jonathan-aranda-lead-rays-in-2026-alcs-game-4"
+  },
+  {
+   "id": "2026-10-18-valkyries-win-wnba-finals-game-1",
+   "section": "sports",
+   "text": "The Golden State Valkyries beat the Atlanta Dream 68-64 Saturday in San Francisco to take Game 1 of the WNBA Finals.",
+   "detail": "Gabby Williams scored 26 points, 16 of them in the second quarter, and made two free throws with 1:18 left to put Golden State ahead and two more with 4.1 seconds to go. No other Valkyrie reached double figures. Allisha Gray scored 19 for Atlanta in her return from a finger injury, and Angel Reese had 14 points and 12 rebounds. Game 2 of the best-of-seven series is Monday night at Chase Center; neither franchise has won a WNBA title.",
+   "why": "One of the two franchises will win its first championship.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-17T22:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/dream-valkyries-wnba-finals-allisha-gray-3b6a12ec1a753c1eb50cff3e205664ae"
+  },
+  {
+   "id": "2026-10-17-cfb-wainwright-fire-deaths",
+   "section": "news",
+   "text": "A fire at Canadian Forces Base Wainwright in Alberta killed and injured people Saturday, Canada's military said; it has not released numbers.",
+   "detail": "The fire started in a training area at about 4 p.m. local time and was whipped by strong winds beyond the base, about 200 kilometres southeast of Edmonton. The Canadian Armed Forces said it will not confirm casualty numbers until next of kin are notified and that the full extent remains under assessment. Defence Minister David McGuinty said he could not recall an incident like it in recent memory and that RCMP were involved, calling it \"soon to be an active and delicate investigation.\"",
+   "why": "It is a deadly incident at one of Canada's main army training bases, and the cause is not yet known.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "World",
+   "time": "2026-10-17T18:00:00-04:00",
+   "time_known": true,
+   "source": "National Defence Canada",
+   "url": "https://www.canada.ca/en/department-national-defence/news/2026/10/incident-at-canadian-forces-base-wainwright.html"
+  },
+  {
+   "id": "2026-10-16-nyala-cattle-market-drone-strike",
+   "section": "news",
+   "text": "A drone strike on a cattle market in Nyala, in Sudan's South Darfur, killed 30 people and wounded 47 on Friday, a hospital source told AFP.",
+   "detail": "The medical source at Nyala Hospital did not say who carried out the strike. The paramilitary Rapid Support Forces blamed the army, saying it used a Turkish-made drone, and said 17 women and five children were among the dead. A military source told AFP the army had stepped up strikes on RSF positions inside Nyala and that all its attacks were aimed at military targets. Nyala, Sudan's second-largest city, is the seat of the RSF's self-declared administration. The strike happened Friday, Oct. 16; this is a catch-up item.",
+   "why": "Sudan's war is killing civilians in Darfur's largest city as the army expands drone strikes on RSF territory.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-17T16:31:00-04:00",
+   "time_known": false,
+   "source": "AFP",
+   "url": "https://www.standardmedia.co.ke/africa/article/2001560304/drone-strike-kills-30-at-cattle-market-in-sudans-darfur"
+  },
+  {
+   "id": "2026-10-17-wichita-truck-youth-soccer-game",
+   "section": "news",
+   "text": "A truck driven through a youth soccer game in Wichita, Kansas, on Saturday killed a 6-year-old boy and a 35-year-old man and sent 11 people to hospitals.",
+   "detail": "Wichita Police Capt. Aaron Moses said the 34-year-old woman driving is in custody. He did not say whether police believe the crash was intentional: \"We are still working to determine how this happened and why this happened.\" The injured range in age from 5 to 68, and two children were also in the truck. Authorities said there is no further threat to the public.",
+   "why": "Police have not yet said how or why a truck ended up on a field full of children.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-17T16:25:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/vehicle-soccer-field-crash-wichita-kansas-197d51c36606af3d2d65516a93b9cc7f"
+  },
+  {
+   "id": "2026-10-17-france-cost-of-living-protests-clashes",
+   "section": "news",
+   "text": "France's nationwide protests over rising living costs turned violent Saturday, with cars burned and shops looted in Paris and at least 272 people arrested.",
+   "detail": "Tens of thousands marched in cities across France, joining weeks of high-school student protests. In Paris, police used tear gas and water cannons on masked protesters around Place de la République. Interior Minister Laurent Nuñez's office reported a growing number of violent incidents nationwide, including assaults on officers, looting and damage to public buildings; protesters broke into town halls in Marseille and Lille, and the tourist office in Lyon was set on fire. The arrest count is the government's tally as of Saturday afternoon and may rise.",
+   "why": "Weeks of student unrest have widened into one of France's most violent protest days in years, as its presidential campaign takes shape.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-17T12:15:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/france-school-protests-yellow-vest-44b9d3ba91ffad4029f975dced7e31cb"
+  },
+  {
+   "id": "2026-10-17-no-kings-vote-early-rallies",
+   "section": "news",
+   "text": "No Kings rallies against President Trump were held Saturday in cities across the U.S., this time urging people to vote early in the Nov. 3 midterms.",
+   "detail": "The anti-Trump No Kings network, which has held marches and demonstrations for nearly two years, billed Saturday's hundreds of planned events as nonpartisan. At the Lincoln Memorial in Washington, a band played for what appeared to be a few hundred people holding signs such as \"VOTE EARLY\" and \"HANDS OFF MY VOTE!\" In Atlanta, City Councilman Michael Julian Bond urged the crowd to get others to vote before the Nov. 3 general election.",
+   "why": "The movement behind nearly two years of anti-Trump protests is now aiming at turnout in the midterm elections, about two weeks away.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-17T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/no-kings-midterm-elections-02d78e3dc4f1f75f8f8a5c327ba79008"
+  },
+  {
+   "id": "2026-10-17-pakistan-afghan-taliban-kurram-clash",
+   "section": "news",
+   "text": "Pakistani and Afghan Taliban forces exchanged fire for hours Saturday along the border in Pakistan's Kurram district, Pakistani security officials said.",
+   "detail": "Pakistani security officials and state media said troops backed by artillery destroyed Taliban posts. The officials also said troops killed an unspecified number of Pakistani Taliban militants trying to cross from eastern Afghanistan. Afghanistan's Taliban government had no immediate comment. The two countries have had repeated border clashes this year, and Pakistan has carried out airstrikes in Afghanistan. Pakistan says Pakistani Taliban leaders shelter in Afghanistan, which Kabul denies.",
+   "why": "Fighting between the two neighbors keeps flaring along a border Pakistan says militants cross to attack it.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-17T08:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/pakistan-afghanistan-border-clashes-militant-infiltration-af35955a49d8ec9948b4a946bf07d37c"
+  },
+  {
+   "id": "2026-10-17-irgc-claims-second-tanker-mine",
+   "section": "news",
+   "text": "A second oil tanker hit a mine in the Strait of Hormuz, Iran's Revolutionary Guards claimed Saturday; no one has independently confirmed it.",
+   "detail": "Iran's official IRNA news agency said both tankers, each carrying about 2 million barrels of crude, caught fire after striking naval mines and the second was left immobilized, and that they had switched off tracking and used a route Iran had not authorized. The Guards did not name either ship. This updates this morning's report of the first claimed mine strike.",
+   "why": "Iran is escalating claims of mine attacks on the world's main oil route, with Brent crude near $110.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-17T08:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters (via gCaptain)",
+   "url": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-17-kenya-ebola-seven-cases",
+   "section": "health",
+   "text": "Kenya's Ebola cases rose to seven, including three health workers who cared for the country's first patient, the Health Ministry said Saturday.",
+   "detail": "The four new cases are the three health workers, who treated the first patient Oct. 3-4 and had been in quarantine since Oct. 9, and a close male relative of that patient, in quarantine since Oct. 6. All four developed fever before testing positive and are in isolation receiving care. The total includes the first patient, who died in Nairobi. The ministry said the outbreak is the Bundibugyo strain, 128 of 130 known contacts have been traced, and there is no evidence of community spread; it called the risk to the public low.",
+   "why": "Infections among caregivers show Ebola spreading inside Kenya, East Africa's main travel hub.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-17T10:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/kenya-ebola-congo-uganda-0ae2b2874ae114c2359df58282cf656d"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-17-trump-waives-graham-act-russia-tariffs",
+   "section": "news",
+   "text": "The new Russia sanctions law's tariffs and most of its sanctions were waived by President Trump on Friday, days before 100% duties on big Russian-oil buyers were due.",
+   "detail": "A Friday executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, which Trump signed Sept. 18, waives the law's 500% duty on Russian goods, its 100% duties on the five largest buyers of Russian oil and gas making purchases on or after Oct. 18, and its duties on the top five countries helping Russia evade sanctions, along with most of its sanctions sections. Trump sent Congress a certification that the waiver is in the national interest; it lasts until the President or the Secretary of State decides further action is appropriate. Russia sanctions under earlier executive orders stay in place, and the U.S. Trade Representative will keep monitoring buyers of Russian energy.",
+   "why": "Tariffs aimed at major buyers of Russian oil such as China and India will not start Sunday, while oil prices are already high.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-16T20:00:00-04:00",
+   "time_known": false,
+   "source": "The White House (executive order)",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
+  },
+  {
+   "id": "2026-10-13-pope-leo-lung-cancer",
+   "section": "news",
+   "text": "Pope Leo XIV has lung cancer, the Vatican confirmed Tuesday, Oct. 13, after surgeons at Rome's Gemelli Hospital removed the lower lobe of his right lung.",
+   "detail": "The Holy See Press Office said tissue examined during Tuesday's operation confirmed lung adenocarcinoma, as suspected from earlier tests. Surgeons led by Prof. Stefano Margaritora removed the lobe using a video-assisted technique; the operation lasted about 90 minutes with no complications. His schedule is cleared until at least Oct. 20. In a Thursday, Oct. 15 update, his doctors said routine checks were normal, a chest X-ray showed good recovery of the operated lung, he was carrying out daily activities independently, and his recovery is proceeding as expected. The Vatican said he resumed work from the hospital and met with a senior aide. Further tests on the removed tissue are pending.",
+   "why": "The head of the world's 1.4 billion Catholics, 71, is being treated for cancer, with tests still pending on whether further treatment is needed.",
+   "impact": 4,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-15T21:44:04-04:00",
+   "time_known": false,
+   "source": "Holy See Press Office; Vatican News",
+   "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-surgery-gemelli-hospital-successful.html"
+  },
+  {
+   "id": "2026-10-15-bend-oregon-elementary-school-shooting",
+   "section": "news",
+   "text": "A 16-year-old shooter killed three children and a teacher at Silver Rail Elementary School in Bend, Oregon, on Thursday, police said; the shooter is dead.",
+   "detail": "The shooting happened about 1 p.m. PT (4 p.m. ET) Thursday. Bend police said they got a call at 12:59 p.m. PT about a person shooting into a car outside Silver Rail Elementary, followed about a minute later by multiple 911 calls reporting that the person had entered the school and opened fire. Officers arrived at 1:02 p.m. and the shooter was down seconds later, police said. Police said the attacker forced his way in by shooting at locked doors and was shot by a person at the scene who pursued him into the school; he was found dead inside minutes after the first report. Police Chief Mike Krantz said the children killed were ages 5, 8 and 11. A 7-year-old child and a teacher were taken to the hospital in critical condition. The shooter's identity has not been released. Bend-La Pine Schools canceled classes and athletic events districtwide for Friday.",
+   "why": "It is one of the deadliest U.S. elementary school shootings in years, and officials are still investigating how it unfolded.",
+   "impact": 4,
+   "topic": "crime",
+   "region": "US",
+   "time": "2026-10-15T20:52:00-04:00",
+   "time_known": false,
+   "source": "Bend Police Department; Bend-La Pine Schools; AP",
+   "url": "https://apnews.com/article/oregon-school-shooting-silver-rail-elementary-b0642ec5cd3da0db24227a2798e2c6ce"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-19",
+   "branch": "executive",
+   "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+   "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-20",
+   "branch": "executive",
+   "text": "Comment deadline on the SEC's proposed Regulation Crypto Assets.",
+   "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-20",
+   "when": "10:00 a.m. ET",
+   "text": "September pending home sales (National Association of Realtors), 10:00 a.m. ET.",
+   "detail": "Per NAR's 2026 release schedule; tracks contracts signed in September, a lead on future existing-home sales.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

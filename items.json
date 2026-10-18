@@ -1,6 +1,177 @@
 {
-  "updated": "2026-10-17T16:52:54-04:00",
+  "updated": "2026-10-18T05:28:15-04:00",
   "items": [
+    {
+      "id": "2026-10-17-baghdad-pmf-headquarters-explosion",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "time": "2026-10-17T12:00:00-04:00",
+      "time_known": false,
+      "text": "An explosion at a Popular Mobilization Forces headquarters in Baghdad on Saturday killed one member and wounded four, security and medical sources told Reuters.",
+      "detail": "The PMF said a stockpile of obsolete ammunition exploded, injuring five people and starting a fire that was later put out. Iraqi Prime Minister Ali Al-Zaidi ordered an investigation, an official statement said. The PMF is an umbrella of mostly Shiite armed factions, some aligned with Iran, that is formally part of Iraq's state security forces.",
+      "why": "The blast hit a base of Iraq's Iran-aligned militia umbrella while the region is at war.",
+      "source": "Reuters",
+      "url": "https://www.arabnews.com/middle-east/explosion-at-iraqi-paramilitary-alliance-base-kills-one-member-sources-say-3006881",
+      "tags": [
+        "iraq",
+        "pmf"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
+    {
+      "id": "2026-10-15-doj-sues-california-noncitizen-mail-ballots",
+      "section": "news",
+      "topic": "election",
+      "region": "US",
+      "thread": "midterms-2026",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "judicial": true,
+      "court": "U.S. District Court for the Central District of California",
+      "impact": 3,
+      "time": "2026-10-15T15:54:00-04:00",
+      "time_known": false,
+      "text": "California was sued by the Justice Department to stop it from counting mail ballots from about 20,000 people DOJ calls likely noncitizens until their citizenship is checked.",
+      "detail": "The suit, filed Oct. 15 in federal court in Los Angeles against the state, Secretary of State Shirley Weber and Los Angeles County Registrar Dean Logan, asks a judge to have those mail ballots set aside and each voter's citizenship confirmed before they are counted in the Nov. 3 election. DOJ says the Department of Homeland Security built the list by checking voter files against federal immigration data. Weber says DOJ has offered no evidence or method behind the list, and Attorney General Rob Bonta said the state will not hold back ballots.",
+      "why": "Voting is underway, and the case decides whether thousands of mailed ballots are counted in the midterms.",
+      "source": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/usao-cdca/pr/united-states-sues-california-after-determining-more-20000-likely-noncitizens-are",
+      "tags": [
+        "elections",
+        "california",
+        "doj"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
+    {
+      "id": "2026-10-16-nyala-cattle-market-drone-strike",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "africa",
+      "impact": 3,
+      "time": "2026-10-17T16:31:00-04:00",
+      "time_known": false,
+      "text": "A drone strike on a cattle market in Nyala, in Sudan's South Darfur, killed 30 people and wounded 47 on Friday, a hospital source told AFP.",
+      "detail": "The medical source at Nyala Hospital did not say who carried out the strike. The paramilitary Rapid Support Forces blamed the army, saying it used a Turkish-made drone, and said 17 women and five children were among the dead. A military source told AFP the army had stepped up strikes on RSF positions inside Nyala and that all its attacks were aimed at military targets. Nyala, Sudan's second-largest city, is the seat of the RSF's self-declared administration. The strike happened Friday, Oct. 16; this is a catch-up item.",
+      "why": "Sudan's war is killing civilians in Darfur's largest city as the army expands drone strikes on RSF territory.",
+      "source": "AFP",
+      "url": "https://www.standardmedia.co.ke/africa/article/2001560304/drone-strike-kills-30-at-cattle-market-in-sudans-darfur",
+      "tags": [
+        "sudan",
+        "darfur",
+        "catch-up"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00",
+      "catch_up": true
+    },
+    {
+      "id": "2026-10-17-cfb-wainwright-fire-deaths",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 3,
+      "time": "2026-10-17T18:00:00-04:00",
+      "time_known": true,
+      "text": "A fire at Canadian Forces Base Wainwright in Alberta killed and injured people Saturday, Canada's military said; it has not released numbers.",
+      "detail": "The fire started in a training area at about 4 p.m. local time and was whipped by strong winds beyond the base, about 200 kilometres southeast of Edmonton. The Canadian Armed Forces said it will not confirm casualty numbers until next of kin are notified and that the full extent remains under assessment. Defence Minister David McGuinty said he could not recall an incident like it in recent memory and that RCMP were involved, calling it \"soon to be an active and delicate investigation.\"",
+      "why": "It is a deadly incident at one of Canada's main army training bases, and the cause is not yet known.",
+      "source": "National Defence Canada",
+      "url": "https://www.canada.ca/en/department-national-defence/news/2026/10/incident-at-canadian-forces-base-wainwright.html",
+      "tags": [
+        "canada",
+        "military",
+        "fire"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
+    {
+      "id": "2026-10-17-wichita-truck-youth-soccer-game",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-17T16:25:00-04:00",
+      "time_known": true,
+      "text": "A truck driven through a youth soccer game in Wichita, Kansas, on Saturday killed a 6-year-old boy and a 35-year-old man and sent 11 people to hospitals.",
+      "detail": "Wichita Police Capt. Aaron Moses said the 34-year-old woman driving is in custody. He did not say whether police believe the crash was intentional: \"We are still working to determine how this happened and why this happened.\" The injured range in age from 5 to 68, and two children were also in the truck. Authorities said there is no further threat to the public.",
+      "why": "Police have not yet said how or why a truck ended up on a field full of children.",
+      "source": "AP",
+      "url": "https://apnews.com/article/vehicle-soccer-field-crash-wichita-kansas-197d51c36606af3d2d65516a93b9cc7f",
+      "tags": [
+        "crash",
+        "kansas"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
+    {
+      "id": "2026-10-18-ukraine-drones-st-petersburg-oil-terminal",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-18T02:00:00-04:00",
+      "time_known": false,
+      "text": "St. Petersburg was hit by an overnight Ukrainian drone attack that killed one person, injured five and set the city's oil terminal on fire, its governor said.",
+      "detail": "Gov. Alexander Beglov said fires broke out at the oil terminal, an oil depot and industrial warehouses. Online retailer Ozon said its St. Petersburg logistics center caught fire, and VK said one of its Leningrad region data centers was attacked but services kept running. Russia's Defense Ministry said air defenses shot down 1,015 Ukrainian drones over Russian regions overnight.",
+      "why": "Ukraine's drone war is reaching energy sites in Russia's second-largest city.",
+      "source": "Reuters",
+      "url": "https://www.arabnews.com/world/official-1-killed-5-injured-in-ukrainian-drone-attack-on-russian-city-3006977",
+      "tags": [
+        "ukraine",
+        "russia",
+        "drones"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
+    {
+      "id": "2026-10-18-valkyries-win-wnba-finals-game-1",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-17T22:30:00-04:00",
+      "time_known": false,
+      "text": "The Golden State Valkyries beat the Atlanta Dream 68-64 Saturday in San Francisco to take Game 1 of the WNBA Finals.",
+      "detail": "Gabby Williams scored 26 points, 16 of them in the second quarter, and made two free throws with 1:18 left to put Golden State ahead and two more with 4.1 seconds to go. No other Valkyrie reached double figures. Allisha Gray scored 19 for Atlanta in her return from a finger injury, and Angel Reese had 14 points and 12 rebounds. Game 2 of the best-of-seven series is Monday night at Chase Center; neither franchise has won a WNBA title.",
+      "why": "One of the two franchises will win its first championship.",
+      "source": "AP",
+      "url": "https://apnews.com/article/dream-valkyries-wnba-finals-allisha-gray-3b6a12ec1a753c1eb50cff3e205664ae",
+      "tags": [
+        "wnba",
+        "finals",
+        "playoffs"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
+    {
+      "id": "2026-10-18-rays-even-alcs-guardians",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-17T23:00:00-04:00",
+      "time_known": false,
+      "text": "The Tampa Bay Rays beat the Cleveland Guardians 7-3 Saturday to even the American League Championship Series at two games apiece.",
+      "detail": "Junior Caminero's tiebreaking double off Daniel Espino in the sixth inning put Tampa Bay ahead in Game 4 at Cleveland's Progressive Field, the Rays scored three in the seventh after a Chase DeLauter error in right field, and Yandy Díaz added a two-run homer. Rays starter Nick Martinez retired 11 straight batters after Cleveland scored first. Game 5 is Sunday in Cleveland, with Parker Messick facing Drew Rasmussen, and the series is guaranteed to return to Tropicana Field for Game 6 on Monday night. The winner faces the Milwaukee Brewers in the World Series.",
+      "why": "The AL pennant is now a best-of-three, with the World Series set to start Friday.",
+      "source": "MLB.com",
+      "url": "https://www.mlb.com/news/junior-caminero-yandy-diaz-jonathan-aranda-lead-rays-in-2026-alcs-game-4",
+      "tags": [
+        "mlb",
+        "alcs",
+        "playoffs"
+      ],
+      "added_at": "2026-10-18T05:28:15-04:00"
+    },
     {
       "id": "2026-10-17-no-kings-vote-early-rallies",
       "section": "news",

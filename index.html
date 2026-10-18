@@ -766,7 +766,7 @@ function renderToday(feed){
   const done=el("div","caughtup"); done.append(el("p","cu-big","You’re caught up."));
   /* "Have more time? Keep reading": the next most important stories, hidden until asked for */
   const shown=new Set(top.map(it=>it.id));
-  const more=items.filter(it=>{const t=new Date(it.time).getTime(); return !shown.has(it.id)&&!isBrk(it)&&!isNaN(t)&&now-t<=72*H&&lvOf(it)>=2;}).sort(byImpact).slice(0,15);
+  const more=items.filter(it=>{const t=new Date(it.time).getTime(); return !shown.has(it.id)&&!isBrk(it)&&!isNaN(t)&&now-t<=72*H&&lvOf(it)>=(secOf(it)==="sports"?3:2);}).sort(byImpact).slice(0,15);
   if(more.length){
     const mw=more.reduce((n,it)=>n+((it.text||"")+" "+(it.detail||"")+" "+(it.why||"")).split(/\s+/).length,0), mm=Math.max(1,Math.round(mw/220));
     done.append(el("p","cu-small","That’s everything that matters most. Put the phone down, or…"));

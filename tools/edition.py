@@ -158,7 +158,8 @@ def main():
     listed = {i["id"] for i in top}
     also = []
     for s in ("health", "sports", "tech", "finance"):
-        c = rank([i for i in items if sec(i) == s and i["id"] not in listed and t(i) and now - t(i) <= window])
+        c = rank([i for i in items if sec(i) == s and i["id"] not in listed and t(i) and now - t(i) <= window
+                  and (s != "sports" or lv(i) >= 3)])  # non-decisive sports (impact 1-2) stay on the Sports tab only
         if c: also.append(c[0])
     week = week_so_far(items, now, listed | {i["id"] for i in also}) if edition == "morning" else []
     nxt = sorted([e for e in upcoming if e.get("date", "") >= date], key=lambda e: e["date"])[:3]

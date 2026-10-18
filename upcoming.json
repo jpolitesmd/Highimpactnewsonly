@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "events": [
     {
       "date": "2026-10-19",
@@ -8,7 +8,8 @@
       "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
       "tags": [
         "crypto"
-      ]
+      ],
+      "buzz": true
     },
     {
       "date": "2026-10-20",
@@ -17,6 +18,17 @@
       "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
       "tags": [
         "crypto"
+      ],
+      "buzz": true
+    },
+    {
+      "date": "2026-10-20",
+      "when": "10:00 a.m. ET",
+      "text": "September pending home sales (National Association of Realtors), 10:00 a.m. ET.",
+      "detail": "Per NAR's 2026 release schedule; tracks contracts signed in September, a lead on future existing-home sales.",
+      "buzz": true,
+      "tags": [
+        "markets"
       ]
     },
     {
@@ -31,9 +43,9 @@
     },
     {
       "date": "2026-10-20",
-      "when": "8:30 a.m. ET",
-      "text": "September housing starts and building permits (New Residential Construction), 8:30 a.m. ET.",
-      "detail": "Census/HUD joint release; next date on the Census construction schedule and the Aug. 2026 report.",
+      "when": "6:30 a.m. ET",
+      "text": "General Motors reports third-quarter results about 6:30 a.m. ET; call 8:30 a.m. ET.",
+      "detail": "Date and times per GM's investor relations notice.",
       "buzz": true,
       "tags": [
         "markets"
@@ -51,19 +63,9 @@
     },
     {
       "date": "2026-10-20",
-      "when": "10:00 a.m. ET",
-      "text": "September pending home sales (National Association of Realtors), 10:00 a.m. ET.",
-      "detail": "Per NAR's 2026 release schedule; tracks contracts signed in September, a lead on future existing-home sales.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "when": "6:30 a.m. ET",
-      "text": "General Motors reports third-quarter results about 6:30 a.m. ET; call 8:30 a.m. ET.",
-      "detail": "Date and times per GM's investor relations notice.",
+      "when": "8:30 a.m. ET",
+      "text": "September housing starts and building permits (New Residential Construction), 8:30 a.m. ET.",
+      "detail": "Census/HUD joint release; next date on the Census construction schedule and the Aug. 2026 report.",
       "buzz": true,
       "tags": [
         "markets"
@@ -92,16 +94,6 @@
     {
       "date": "2026-10-21",
       "when": "After the close",
-      "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
-      "detail": "Tesla already reported 486,532 Q3 deliveries on Oct. 2; profit and cash flow come with the earnings release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "when": "After the close",
       "text": "IBM reports third-quarter results after the close; announcement 5:00 p.m. ET.",
       "detail": "Date and time per IBM investor relations.",
       "buzz": true,
@@ -114,6 +106,16 @@
       "when": "After the close",
       "text": "Meta reports third-quarter results after the close; call 4:30 p.m. ET.",
       "detail": "Date and call time per Meta’s Oct. 12 investor relations release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "when": "After the close",
+      "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
+      "detail": "Tesla already reported 486,532 Q3 deliveries on Oct. 2; profit and cash flow come with the earnings release.",
       "buzz": true,
       "tags": [
         "markets"
@@ -140,20 +142,20 @@
       ]
     },
     {
+      "date": "2026-10-23",
+      "when": "8:00 p.m. ET",
+      "text": "World Series Game 1: Milwaukee Brewers host the American League champion, 8:00 p.m. ET on FOX.",
+      "detail": "Brewers clinched the NL pennant; ALCS still deciding between the Rays and Guardians. Games 1–2 in Milwaukee Oct. 23–24 per MLB’s Oct. 16 start-time announcement.",
+      "buzz": true,
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "date": "2026-10-26",
       "when": "7:00 a.m. ET",
       "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
       "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "Before the open",
-      "text": "Coca-Cola reports third-quarter results before the NYSE opens; call 8:30 a.m. ET.",
-      "detail": "Timing per Coca-Cola's Sept. 29 announcement.",
       "buzz": true,
       "tags": [
         "markets"
@@ -171,6 +173,16 @@
     },
     {
       "date": "2026-10-27",
+      "when": "10:30 a.m. ET",
+      "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
+      "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-27",
       "when": "8:30 a.m. ET",
       "text": "September durable goods orders (Census advance report), 8:30 a.m. ET.",
       "detail": "Date and time per the Census M3 release schedule; the fuller factory-orders report follows Nov. 3.",
@@ -181,9 +193,9 @@
     },
     {
       "date": "2026-10-27",
-      "when": "10:30 a.m. ET",
-      "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
-      "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
+      "when": "Before the open",
+      "text": "Coca-Cola reports third-quarter results before the NYSE opens; call 8:30 a.m. ET.",
+      "detail": "Timing per Coca-Cola's Sept. 29 announcement.",
       "buzz": true,
       "tags": [
         "markets"
@@ -229,16 +241,6 @@
     },
     {
       "date": "2026-10-29",
-      "when": "After the close",
-      "text": "Intel reports third-quarter results after the close; call 5:00 p.m. ET.",
-      "detail": "Date and call time (2 p.m. Pacific) per Intel’s Oct. 6 release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
       "when": "9:15 a.m. ET",
       "text": "European Central Bank interest rate decision; Lagarde press conference follows.",
       "detail": "Meeting Oct. 28–29 per the ECB calendar; decision at 2:15 p.m. Frankfurt time. The deposit rate is 2.50% after a September hike.",
@@ -252,6 +254,37 @@
       "when": "After the close",
       "text": "Amazon reports third-quarter results; call 5:00 p.m. ET.",
       "detail": "Date and call time (2 p.m. Pacific) per Amazon's investor relations announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "when": "After the close",
+      "text": "Coinbase reports third-quarter results after the close; live Q&A on X at 5:00 p.m. ET.",
+      "detail": "Per Coinbase’s Oct. 14 Business Wire notice; materials post on investor.coinbase.com after the close.",
+      "buzz": true,
+      "tags": [
+        "crypto",
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "when": "After the close",
+      "text": "Intel reports third-quarter results after the close; call 5:00 p.m. ET.",
+      "detail": "Date and call time (2 p.m. Pacific) per Intel’s Oct. 6 release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "when": "8:30 a.m. ET",
+      "text": "Third-quarter Employment Cost Index (BLS), 8:30 a.m. ET.",
+      "detail": "Date and time per the BLS ECI release schedule; Fed-watched measure of labor-cost inflation.",
       "buzz": true,
       "tags": [
         "markets"

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-17",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -140,6 +140,23 @@
       "checklist_changes": [
         "- Multistate attorney-general actions: search \"attorneys general sue\" OR \"states sue\" + today's date (AP, Reuters, POLITICO); a coordinated suit by several states against a major company (AI, tech, pharma) is impact 3 even when filed in separate state courts. Missed 2026-10-14 evening and 2026-10-15 morning: eight states sued OpenAI over ChatGPT safety. [audit 2026-10-15]",
         "- After-lock announcements: open AP Top News and Reuters World for anything announced after the 4:30 p.m. ET lock, especially official health news or deaths of world leaders and religious leaders (Vatican press office, palace/government statements); these lead next morning's \"Yesterday\" group at World impact 3-4. Missed 2026-10-14 morning: Vatican confirmed Pope Leo XIV has lung cancer after surgery (announced ~5:27 p.m. ET Oct 13). [audit 2026-10-15]"
+      ]
+    },
+    {
+      "run": "2026-10-17T21:55:00-04:00",
+      "day": "2026-10-16",
+      "reference_events": 12,
+      "missed": [
+        {
+          "id": "2026-10-16-sudan-nyala-market-drone-strike",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "A drone strike on a crowded cattle market in Nyala, South Darfur, killed 30 people and wounded 47 on Oct. 16, a medical source told AFP; the RSF blamed the Sudanese army, which said it hit RSF command positions. AP's Oct. 16 Middle East roundup also flagged it. Missed by the Oct. 16 evening and Oct. 17 morning editions. Checked and not counted: SCOTUS (no orders Oct. 16; conference orders due Monday), NYC sanctuary dismissal, USDA reorganization stay, DV-2027 lottery ruling and Graham Act waiver (all covered), NCAA suit against Ohio Gov. DeWine (narrow), Hurricane Trudy (Cat 2 nearing Mexico's Pacific coast, no landfall as of audit), Oct. 16 FDA approvals (narrow specialty drugs), Margaret Hamilton death (announced Oct. 7-8, outside window)."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "- Mass-casualty attacks in under-covered wars: search AFP/AP for \"Sudan\" OR \"Darfur\" OR \"Sahel\" + \"killed\" + today's date (AP's daily Middle East roundup also flags Sudan); a strike killing 25+ civilians is World impact 3. Missed 2026-10-16 evening and 2026-10-17 morning: drone strike on a Nyala, South Darfur cattle market killed 30, wounded 47 (AFP). [audit 2026-10-17]"
       ]
     }
   ]

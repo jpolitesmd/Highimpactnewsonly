@@ -1,0 +1,152 @@
+{
+ "date": "2026-10-19",
+ "edition": "evening",
+ "subject": "Monday, Oct 19 - Evening edition",
+ "published": "2026-10-19T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-19-scotus-rejects-911-plea-deals",
+   "section": "news",
+   "text": "The 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants stay void after the Supreme Court refused Monday to hear their appeals.",
+   "detail": "The unsigned order denied review in Mohammad v. United States and bin 'Atash v. United States, leaving in place a D.C. Circuit ruling that then-Defense Secretary Lloyd Austin lawfully withdrew the 2024 agreements, which would have traded guilty pleas for life sentences instead of possible death sentences. Justice Brett Kavanaugh did not take part in Mohammed's case. A military judge has set the trial of Mohammed, Mustafa al Hawsawi and Walid bin 'Atash for June 2028. On the same order list, the court also turned away former NLRB member Gwynne Wilcox's challenge to her firing by President Trump, and agreed to hear cases on race in Montgomery County, Md., magnet-school admissions and on the federal ban on home distilling.",
+   "why": "The ruling keeps the death penalty possible in the long-stalled prosecution of the accused planners of the attacks that killed nearly 3,000 people.",
+   "impact": 4,
+   "topic": "courts",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
+  },
+  {
+   "id": "2026-10-19-storm-adam-spain-floods",
+   "section": "news",
+   "text": "Storm Adam's floods have killed at least four people in eastern Spain, where officials kept residents of 145 towns indoors for much of Monday.",
+   "detail": "Valencia regional president Juanfran Pérez Llorca confirmed three deaths in his region: a 79-year-old woman who drowned and a man who had a heart attack, both in Oliva on Monday, and a woman who died at sea in Sagunto on Sunday. A woman swept away by floodwater in Cabrera de Mar, near Barcelona, also died. More than 450 people were rescued and about 800,000 people were under the stay-home order in southern Valencia and northern Alicante, since lifted; some areas got up to 700 liters of rain per square meter. Andalusia's emergency service reported a fifth death Monday, a driver killed when a boulder hit his car in Benaoján, Málaga.",
+   "why": "About 800,000 people were ordered to stay home as the storm hit Spain's Mediterranean coast.",
+   "impact": 3,
+   "topic": "weather",
+   "region": "World",
+   "time": "2026-10-19T11:25:00-04:00",
+   "time_known": false,
+   "source": "RTVE",
+   "url": "https://www.rtve.es/noticias/20261019/dana-adam-tiempo-espana-lunes-19/17272241.shtml"
+  },
+  {
+   "id": "2026-10-19-trump-order-nih-womens-health-division",
+   "section": "health",
+   "text": "A Women's Health Division will be set up at the National Institutes of Health within 90 days, under an executive order President Trump signed Monday.",
+   "detail": "The order directs the Health and Human Services secretary, acting through the NIH director, to place the division within an existing NIH institute or center. Working with NIH's Office of Research on Women's Health, it is to expand review and coordination of research on understudied women's health conditions across all phases of life, including replication studies.",
+   "why": "NIH is the largest public funder of medical research in the U.S.",
+   "impact": 3,
+   "topic": "health",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-19T11:25:00-04:00",
+   "time_known": false,
+   "source": "White House",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life/"
+  },
+  {
+   "id": "2026-10-19-russian-drone-hits-kharkiv-region-park",
+   "section": "news",
+   "text": "A Russian drone struck a crowded park in Nova Vodolaha, in Ukraine's Kharkiv region, Monday afternoon, killing six people, including a 1-year-old girl.",
+   "detail": "The strike hit the town's central park about 4:30 p.m. local time, Kharkiv regional prosecutors said; regional head Oleh Syniehubov said 15 people were wounded, seven of them children. Among the dead were a girl just over a year old, killed in her stroller, her mother, who died in the hospital, and an 11-year-old girl. Prosecutors opened a war-crimes investigation and said the drone appeared to be a jet-powered Geran-3.",
+   "why": "Ukrainian prosecutors are treating the strike on a crowded public park as a war crime.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": true,
+   "source": "Ukrinform (Kharkiv Regional Military Administration)",
+   "url": "https://www.ukrinform.net/rubric-ato/4176041-three-children-among-six-killed-in-russian-strike-on-kharkiv-region-park.html"
+  },
+  {
+   "id": "2026-10-19-dhs-orders-deepseek-removal",
+   "section": "tech",
+   "text": "DeepSeek AI products must be removed from federal civilian agencies' computer systems and purchases, under a Homeland Security Department order filed Monday.",
+   "detail": "The order, \"Exclusion and Removal of DeepSeek Products from Federal Civilian Executive Branch Information Technology Systems and Procurements,\" went on public inspection at the Federal Register on Oct. 19 and is set for formal publication Oct. 20. DeepSeek is a Chinese artificial-intelligence company.",
+   "why": "It bars a major Chinese AI tool across the federal civilian workforce.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-19T08:45:00-04:00",
+   "time_known": true,
+   "source": "Federal Register (Homeland Security Department)",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information"
+  },
+  {
+   "id": "2026-10-19-stocks-ai-rebound",
+   "section": "money",
+   "text": "The Nasdaq rose 1.1% Monday as AI and chip stocks recovered some of last week's losses; the S&P 500 gained 0.4% and the Dow slipped 0.1%.",
+   "detail": "The S&P 500 closed at 7,690.73, the Nasdaq composite at 26,430.89 and the Dow at 51,966.03, down 36 points. Most U.S. stocks outside tech fell. The S&P 500 had its worst week since June last week, and the Nasdaq fell 4.5%.",
+   "why": "Last week's AI selloff was the market's sharpest in months.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-19T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-oil-us-ai-494fbe4361a0360b2f6368e7a6d8f058"
+  },
+  {
+   "id": "2026-10-19-canada-inflation-3-1",
+   "section": "money",
+   "text": "Canada's inflation rate rose to 3.1% in September from 3.0% in August, driven by gasoline prices, Statistics Canada said Monday.",
+   "detail": "Gasoline prices were up 27.8% from a year earlier and fuel oil 57.8%, as crude rose amid the Middle East wars. Excluding gasoline, prices rose 2.2%. Grocery price growth slowed to 1.7%, the smallest yearly rise since May 2024. Month over month, prices rose 0.1% (0.4% seasonally adjusted).",
+   "why": "Canada is the largest U.S. trading partner, and fuel costs are pushing prices up on both sides of the border.",
+   "impact": 2,
+   "topic": "economy",
+   "region": "World",
+   "time": "2026-10-19T08:30:00-04:00",
+   "time_known": true,
+   "source": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 7
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-19",
+   "branch": "executive",
+   "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+   "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-19",
+   "when": "8:00 p.m. ET",
+   "text": "ALCS Game 6: Cleveland Guardians at Tampa Bay Rays, 8:00 p.m. ET on TBS; Rays lead 3-2 and can clinch the AL pennant.",
+   "detail": "Per MLB’s postseason schedule; Game 7, if needed, is Tuesday, Oct. 20, at 8:00 p.m. ET at Tropicana Field. The winner faces the Milwaukee Brewers in the World Series.",
+   "buzz": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "when": "Polls close 10 p.m. ET",
+   "text": "Alberta votes on whether to start the legal process toward a future referendum on leaving Canada; polls close 10 p.m. ET.",
+   "detail": "Per AP: the vote is not a direct independence referendum. Polls are open 9 a.m. to 8 p.m. local time (11 a.m. to 10 p.m. ET). More than 1.35 million Albertans, 43% of eligible voters, voted early. Prime Minister Mark Carney campaigned for a decisive \"no\"; Premier Danielle Smith called the vote but opposes independence.",
+   "tags": [
+    "world",
+    "canada"
+   ]
+  }
+ ]
+}

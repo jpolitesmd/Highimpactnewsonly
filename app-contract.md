@@ -20,7 +20,7 @@ When you change item fields or deep links, update this file in the same PR/commi
 | `/history.json` | `{ year, updated, events[] }` | History tab |
 | `/corrections.json` | `{ updated, corrections[] }` | Corrections tab |
 | `/upcoming.json` | `{ updated, events[] }` | Government “coming up” |
-| `/launches.json` | `{ updated, source?, launches[] }` | Tech launches |
+| `/launches.json` | `{ updated, source?, block?, launches[] }` | Tech launches |
 | `/archive/index.json` | `{ updated?, editions[] }` | Edition index |
 | `/archive/{key}.json` | edition object | Full edition (`key` = `YYYY-MM-DD-morning\|evening`; legacy `-weekend` keys may exist only in old archives, none produced since Oct 3, 2026) |
 | `/email/today.json` | newsletter payload | Optional; not required for UI parity |
@@ -91,7 +91,7 @@ Required: `date`, `text`. Optional: `when`, `branch`, `detail`, `buzz`, `tags`.
 
 ### `launches[]`
 
-Required: `date`, `sort`, `time`, `rocket`, `mission`, `site`.
+Required: `date`, `sort`, `time`, `rocket`, `mission`, `site`. Optional: `note`, `url` (official mission page). Top level may include `block` `{start, end, refreshed}`: the 2-week window the list covers (rebuilt biweekly; see tools/research-runbook.md "Launch block refresh").
 
 ### `archive/index.json` → `editions[]`
 

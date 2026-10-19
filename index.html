@@ -592,6 +592,7 @@ const fmtKey=new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"
 const fmtShort=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",month:"short",day:"numeric"});
 const fmtTime=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit"});
 const fmtWD=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",weekday:"short",month:"short",day:"numeric"});
+const fmtMD=new Intl.DateTimeFormat("en-US",{timeZone:"UTC",month:"short",day:"numeric"});
 /* Folio line above the masthead: volume and edition number, date, and which edition */
 function roman(n){const v=[[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]];let r="";for(const [k,c] of v)while(n>=k){r+=c;n-=k;}return r;}
 function updateFolio(){try{
@@ -962,22 +963,22 @@ function render(){
   if(region==="government"&&sub!=="all"){ shown.sort(byImpact); feed.append(section({judicial:"Court decisions",legislative:"Congressional action",executive:"Executive action"}[sub]+", by impact",shown,true)); tail(); return; }
   shown.sort(byDayThenImpact); byDays(feed,shown); tail();
 }
-/* Upcoming SpaceX launches (launches.json, refreshed by the morning task). Times are Eastern and often slip. */
+/* Upcoming SpaceX launches (launches.json): a 2-week block rebuilt by the biweekly Launch block refresh routine; editions only drop past launches and update slips (tools/research-runbook.md). Times are Eastern and often slip. */
 let launches=null;
 async function loadLaunches(){try{const r=await fetch("launches.json?t="+Date.now(),{cache:"no-store"}); launches=await r.json();}catch(e){launches={launches:[]};} if(region==="tech")render();}
 function launchesSection(feed){
   if(!launches){loadLaunches();return;}
   const today=fmtKey.format(new Date());
-  const ls=(launches.launches||[]).filter(l=>l.date>=today).sort((a,b)=>(a.date+(a.sort||""))<(b.date+(b.sort||""))?-1:1).slice(0,8);
+  const blk=launches.block||null; const ls=(launches.launches||[]).filter(l=>l.date>=today&&(!blk||!blk.end||l.date<=blk.end)).sort((a,b)=>(a.date+(a.sort||""))<(b.date+(b.sort||""))?-1:1).slice(0,8);
   feed.append(secOrn("rocket"));
-  const c=el("section","upcoming up-branch"); const d=el("div","dateline"); d.append(el("span",null,"Upcoming SpaceX launches")); c.append(d);
-  if(!ls.length){c.append(el("p","edition-count","No launches scheduled in the next two weeks.")); feed.append(c); return;}
+  const c=el("section","upcoming up-branch"); const d=el("div","dateline"); d.append(el("span",null,"Upcoming SpaceX launches"+(blk&&blk.start&&blk.end?" · "+fmtMD.format(new Date(blk.start+"T12:00:00Z"))+" – "+fmtMD.format(new Date(blk.end+"T12:00:00Z")):""))); c.append(d);
+  if(!ls.length){c.append(el("p","edition-count","No SpaceX launches left on the official schedule for this block.")); feed.append(c); return;}
   const ul=el("ul","up-list");
   for(const l of ls){const li=el("li"); const when=el("span","up-date"); when.append(document.createTextNode(fmtWD.format(new Date(l.date+"T12:00:00Z")))); when.append(el("span","up-detail",l.time||"Time TBD"));
-    const t=el("span","up-text"); t.append(el("b","up-br",l.rocket+" · ")); t.append(document.createTextNode(l.mission));
+    const t=el("span","up-text"); t.append(el("b","up-br",l.rocket+" · ")); if(l.url){const ma=el("a",null,l.mission); ma.href=l.url; ma.target="_blank"; ma.rel="noopener"; ma.style.color="inherit"; t.append(ma);} else t.append(document.createTextNode(l.mission));
     t.append(el("span","up-detail",l.site+(l.note?" · "+l.note:""))); li.append(when,t); ul.append(li);}
   c.append(ul);
-  const n=el("p","edition-count"); n.append(document.createTextNode("Times are Eastern and often change. ")); const a=el("a",null,"SpaceX launch page ↗"); a.href="https://www.spacex.com/launches"; a.target="_blank"; a.rel="noopener"; a.style.color="var(--accent)"; n.append(a); c.append(n);
+  const n=el("p","edition-count"); n.append(document.createTextNode("Times are Eastern, from SpaceX's official schedule, and often slip or scrub. ")); const a=el("a",null,"SpaceX launch page ↗"); a.href="https://www.spacex.com/launches"; a.target="_blank"; a.rel="noopener"; a.style.color="var(--accent)"; n.append(a); c.append(n);
   feed.append(c);
 }
 

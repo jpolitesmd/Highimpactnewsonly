@@ -132,6 +132,7 @@ Steps:
 1b) Pull same-day upcoming.json items that are buzz:true OR official markets-tagged BLS/Fed releases (jobs, CPI, PPI, GDP, PCE, FOMC minutes/decision) OR crypto-tagged SEC/crypto market-structure events. If Markets-trade (or another beat) returned a matching blurb after the release landed, keep a short money/tech/finance item — do not discard for low impact alone. Prefer section:"finance" (Crypto tab) for SEC crypto rules and major crypto market-structure stories (tags: crypto); ISO20022 items stay section:"finance". Do not publish placeholder stories before the event; only after primary/wire numbers or a confirmed close/listing.
 2) Assign final ids as YYYY-MM-DD-slug; set added_at to {now}.
 3) Merge into items.json (and threads.json / corrections.json when required).
+3b) launches.json: drop launches already past or flown, and update slipped/scrubbed windows from the official SpaceX mission page; never add launches or change the block (that is the biweekly Launch block refresh in tools/research-runbook.md).
 4) Run: python3 tools/edition.py {edition}
 5) Commit as High Impact News Daily <jpolitesmd@users.noreply.github.com> and push main.
 6) Do NOT touch email/breaking.json unless John reverses the no-breaking policy.

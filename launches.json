@@ -1,46 +1,35 @@
 {
- "updated": "2026-09-29",
- "source": "Spaceflight Now launch schedule; RocketLaunch.org",
+ "updated": "2026-10-18T20:30:00-04:00",
+ "block": {"start": "2026-10-19", "end": "2026-11-01", "refreshed": "2026-10-18"},
+ "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages",
  "launches": [
   {
-   "date": "2026-10-01",
-   "sort": "11:10",
-   "time": "11:10 a.m.",
+   "date": "2026-10-19",
+   "sort": "06:30",
+   "time": "6:30–7:30 a.m. window",
    "rocket": "Falcon 9",
-   "mission": "NASA Crew-13 (astronauts to the International Space Station)",
-   "site": "SLC-40, Cape Canaveral Space Force Station, Fla."
+   "mission": "Bandwagon-5 (rideshare, 32 payloads)",
+   "site": "SLC-40, Cape Canaveral Space Force Station, Fla.",
+   "note": "Backup Tue., Oct. 20, same window",
+   "url": "https://www.spacex.com/launches/bandwagon5"
   },
   {
-   "date": "2026-10-01",
-   "sort": "14:18",
-   "time": "2:18 p.m.",
+   "date": "2026-10-20",
+   "sort": "18:14",
+   "time": "6:14–10:14 p.m. window",
    "rocket": "Falcon 9",
-   "mission": "Transporter-18 (about 130 small satellites, rideshare)",
-   "site": "SLC-4E, Vandenberg Space Force Base, Calif."
+   "mission": "Starlink 15-15 (27 Starlink satellites)",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+   "url": "https://www.spacex.com/launches/sl-15-15"
   },
   {
-   "date": "2026-10-01",
-   "sort": "23:53",
-   "time": "11:53 p.m.",
-   "rocket": "Falcon Heavy",
-   "mission": "NROL-97 (National Reconnaissance Office satellite)",
-   "site": "Launch Complex 39A, Kennedy Space Center, Fla."
-  },
-  {
-   "date": "2026-10-05",
-   "sort": "04:06",
-   "time": "4:06 a.m.",
+   "date": "2026-10-24",
+   "sort": "01:29",
+   "time": "1:29–5:29 a.m. window",
    "rocket": "Falcon 9",
-   "mission": "Space Development Agency Tranche 1 Transport Layer A",
-   "site": "SLC-4E, Vandenberg Space Force Base, Calif."
-  },
-  {
-   "date": "2026-10-10",
-   "sort": "99",
-   "time": "Time TBD",
-   "rocket": "Falcon 9",
-   "mission": "Starlink 15-25 (27 Starlink satellites)",
-   "site": "SLC-4E, Vandenberg Space Force Base, Calif."
+   "mission": "Starlink 15-16 (27 Starlink satellites)",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+   "url": "https://www.spacex.com/launches/sl-15-16"
   }
  ]
 }

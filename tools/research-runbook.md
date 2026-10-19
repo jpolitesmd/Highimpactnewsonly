@@ -79,7 +79,7 @@ One editor pass (not parallel with final write):
 3. Drop below-threshold noise; do not invent facts.
 4. Merge keepers into `items.json` (and `threads.json` / `corrections.json` when rules require). Set `added_at` to now ET.
 5. Refresh `upcoming.json` only when the standing cadence calls for it (every ~4 days on morning), not every run.
-6. Launches (every morning and evening edition): open `launches.json` and delete every launch whose date is before today ET or that SpaceX shows as launched; then check each remaining launch on its SpaceX mission page (`url`) or spacex.com/launches and update a slipped date/window, or remove a scrub with no new date. Times in ET; use "Time TBD" if the official page has none. Do **not** add launches or change `block` here; that is the biweekly **Launch block refresh** below. Set `updated` and commit only when the file changed.
+6. Launches (every morning and evening edition): open `launches.json` and delete every launch whose date is before today ET or that SpaceX shows as launched; then check each remaining launch on its SpaceX mission page (`url`) or spacex.com/launches and update a slipped date/window, or remove a scrub with no new date. Times in ET; use "Time TBD" if the official page has none. Also add any new SpaceX launch that SpaceX has posted on its official schedule (spacex.com/launches) or a mission page, but only if its official date falls inside the current `block` (`start`–`end`); same entry fields and rules as the block refresh (official source only, window in ET, "Time TBD" when no time is posted, no entry without an official date). Never change `block`; the full rebuild is the biweekly **Launch block refresh** below. Set `updated` and commit only when the file changed.
 
 ## Publish path
 
@@ -127,7 +127,7 @@ Goal: catch dated events that are loud on social (especially X) days/weeks ahead
 
 ## Launch block refresh
 
-Owner of `launches.json` (Tech & Space page, "Upcoming SpaceX launches · {start} – {end}"). Run by the separate **biweekly** routine; edition runs only prune and update (Editor merge step 6). Work in `/workspace/Highimpactnewsonly`, `git pull` first, never touch `email/`, never run `edition.py`.
+Owner of `launches.json` (Tech & Space page, "Upcoming SpaceX launches · {start} – {end}"). Run by the separate **biweekly** routine; edition runs only prune, update, and add newly posted launches inside the current block (Editor merge step 6). Work in `/workspace/Highimpactnewsonly`, `git pull` first, never touch `email/`, never run `edition.py`.
 
 1. **Block:** `start` = tomorrow ET, `end` = start + 13 days (a rolling 2-week block, e.g. Oct 19 – Nov 1). Set `"block": {"start", "end", "refreshed": today}`.
 2. **Sources (official only):** SpaceX's schedule at https://www.spacex.com/launches (same data as `https://content.spacex.com/api/spacex-website/launches-page-tiles/upcoming`) and each mission page `https://www.spacex.com/launches/<link>`; NASA mission or coverage pages for NASA missions; FAA or Space Force range notices only to confirm a date SpaceX shows. No aggregators (Spaceflight Now, Next Spaceflight, RocketLaunch, Wikipedia), no X.

@@ -106,3 +106,8 @@ Impact meter image inside `story()` at 1e2b3af:
 
 The seal cell's top padding went from 8px to 24px (padding on the `<td>`, not a margin), so the seal sits clearly apart from the
 "SPIN-FREE NEWS · RANKED BY IMPACT" strip. This commit is independent of the column change; revert it on its own if needed.
+
+## Seal centering fix for iOS Mail (Oct 19, 2026)
+
+- The Oct 19 morning email showed the seal flush left in iPhone Mail. The seal `<img>` was `display:block` and centered only by `margin:0 auto`; `align="center"`/`text-align:center` on its td center inline content, not a block image, so once the client dropped the auto margins it fell to the left edge. Reproduced in Chrome by adding `img{margin:0!important}`, which put the old seal at the content edge (left 16px at 390px).
+- Fix: the seal sits in its own centered row (`<td align="center" style="text-align:center">`) inside a fixed-width `<table align="center" width="140" class="hd-seal-t">` (104px on phones via the 480px media query). The `<a>` is a centered block, and the img keeps `display:block; margin:0 auto` with `width="140" height="140"`. It stays centered even with img margins stripped. Fluid column, the #2c2c2e seal and the 24px gap are unchanged. Previews: /workspace/email-seal-preview/v3-390.png and v3-640.png. Revert with `git revert` of this commit.

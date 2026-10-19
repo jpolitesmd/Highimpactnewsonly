@@ -127,7 +127,7 @@ def open_paper():
         'img{max-width:100%;height:auto}'
         'h3.hd-ink::first-letter{float:left;font-family:\'IM Fell English\',Georgia,\'Times New Roman\',serif;font-weight:400;color:' + ACCENT + ';font-size:2.6em;line-height:.85;padding:.05em .1em 0 0;margin:0 .1em .05em 0}'
         '.newsletter-body,.email-content,body{width:100%!important;min-width:100%!important;margin:0!important;padding:0!important}'
-        '@media (max-width:480px){.hd-seal{width:104px!important;height:104px!important;max-width:104px!important}}'
+        '@media (max-width:480px){.hd-seal,.hd-seal-t{width:104px!important;max-width:104px!important}.hd-seal{height:104px!important}}'
         '@media (max-width:400px){.hd-wm-p{font-size:21px!important;letter-spacing:.5px!important}.hd-wm-s{font-size:26px!important;margin:0 2px!important}}'
         '</style>\n'
         f'<div class="hd-root" style="width:100%;min-width:100%;margin:0;padding:0;background-color:{PAPER}">\n'
@@ -146,11 +146,20 @@ def open_paper():
         # Eagle seal above the wordmark, as on the site masthead (140px; 104px on phones <=480px).
         # Always the site's dark seal: the email is always Mail grey, and this self-contained black disc
         # also reads on white if a client lightens the background. 2x PNG for retina.
-        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse">'
-        f'<tr><td align="center" style="padding:24px 0 0;text-align:center;line-height:0;font-size:0">'
-        f'<a href="{SITE}/" style="text-decoration:none;border:0">'
+        # Centering must not depend on CSS margin alone: iOS Mail rendered the old block-level img
+        # (display:block; margin:0 auto, no other centering) flush left. align="center" on the td only
+        # centers inline content, so the img now sits in a fixed-width table with align="center"
+        # (the same mechanism that centers the column), inside its own centered row; the <a> is a
+        # centered block of the same width.
+        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;border-collapse:collapse">'
+        f'<tr><td align="center" valign="top" style="padding:24px 0 0;text-align:center;line-height:0;font-size:0">'
+        f'<table role="presentation" class="hd-seal-t" align="center" width="140" cellpadding="0" cellspacing="0" border="0" '
+        f'style="width:140px;margin:0 auto;border-collapse:collapse">'
+        f'<tr><td align="center" valign="top" style="text-align:center;line-height:0;font-size:0;padding:0">'
+        f'<a href="{SITE}/" style="display:block;text-align:center;margin:0 auto;text-decoration:none;border:0">'
         f'<img class="hd-seal" src="{IMG}/seal.png" alt="High Impact News Daily" width="140" height="140" border="0" '
         f'style="display:block;margin:0 auto;width:140px;max-width:100%;height:auto;border:0;outline:none;text-decoration:none"></a>'
+        f'</td></tr></table>'
         f'</td></tr></table>\n'
         f'<p style="margin:12px 0 0;text-align:center;white-space:nowrap;line-height:1.1">'
         f'<a href="{SITE}/" style="text-decoration:none">'

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "events": [
     {
       "date": "2026-10-19",
@@ -10,6 +10,16 @@
         "crypto"
       ],
       "buzz": true
+    },
+    {
+      "date": "2026-10-19",
+      "when": "8:00 p.m. ET",
+      "text": "ALCS Game 6: Cleveland Guardians at Tampa Bay Rays, 8:00 p.m. ET on TBS; Rays lead 3-2 and can clinch the AL pennant.",
+      "detail": "Per MLB’s postseason schedule; Game 7, if needed, is Tuesday, Oct. 20, at 8:00 p.m. ET at Tropicana Field. The winner faces the Milwaukee Brewers in the World Series.",
+      "buzz": true,
+      "tags": [
+        "sports"
+      ]
     },
     {
       "date": "2026-10-20",
@@ -132,6 +142,16 @@
       ]
     },
     {
+      "date": "2026-10-21",
+      "when": "After the close",
+      "text": "Texas Instruments reports third-quarter results after the close; call 4:30 p.m. ET.",
+      "detail": "Date and call time (3:30 p.m. Central) per TI’s Oct. 1 announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-22",
       "when": "Before the open",
       "text": "Procter & Gamble reports fiscal first-quarter results; webcast 8:30 a.m. ET.",
@@ -145,7 +165,7 @@
       "date": "2026-10-23",
       "when": "8:00 p.m. ET",
       "text": "World Series Game 1: Milwaukee Brewers host the American League champion, 8:00 p.m. ET on FOX.",
-      "detail": "Brewers clinched the NL pennant; ALCS still deciding between the Rays and Guardians. Games 1–2 in Milwaukee Oct. 23–24 per MLB’s Oct. 16 start-time announcement.",
+      "detail": "Brewers clinched the NL pennant; the Rays lead the Guardians 3-2 in the ALCS after a 3-1 Game 5 win Oct. 18. Games 1–2 in Milwaukee Oct. 23–24 per MLB’s postseason schedule.",
       "buzz": true,
       "tags": [
         "sports"

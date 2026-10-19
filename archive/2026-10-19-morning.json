@@ -1,0 +1,210 @@
+{
+ "date": "2026-10-19",
+ "edition": "morning",
+ "subject": "Monday, Oct 19 - Morning edition",
+ "published": "2026-10-19T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-19-canada-lumber-duties-fall",
+   "section": "money",
+   "text": "Duties on most reviewed Canadian softwood lumber fall to about 25% from about 35% starting today, under final Commerce Department reviews.",
+   "detail": "Commerce's annual antidumping and anti-subsidy reviews, covering 2024 shipments and published in the Federal Register Monday, Oct. 19, set new cash-deposit rates for lumber entered on or after today. For about 220 other reviewed companies, the combined rate falls to 24.75% from 35.16% (antidumping 10.64%, down from 20.53%; anti-subsidy 14.11%, down from 14.63%). Company rates: Canfor's antidumping rate falls to 17.00% from 35.47% and West Fraser's to 4.71% from 9.65%; Resolute's are 13.13% antidumping and 12.42% anti-subsidy, and West Fraser's anti-subsidy rate is 15.31%. Exporters never reviewed keep the original 6.04% antidumping and 14.19% anti-subsidy rates.",
+   "why": "Canadian softwood lumber is a major U.S. home-building material, and the duties are paid on lumber brought into the country.",
+   "impact": 3,
+   "topic": "trade",
+   "region": "US",
+   "time": "2026-10-19T00:00:00-04:00",
+   "time_known": false,
+   "source": "Federal Register (Commerce Department, International Trade Administration)",
+   "url": "https://www.federalregister.gov/documents/2026/10/19/2026-21296/certain-softwood-lumber-products-from-canada-final-results-of-antidumping-duty-administrative-review"
+  },
+  {
+   "id": "2026-10-19-indonesia-stocks-six-year-low-msci",
+   "section": "money",
+   "text": "Indonesia's main stock index fell to a six-year low Monday, after index provider MSCI said it may drop the country from its emerging-market indexes.",
+   "detail": "The Jakarta Composite fell more than 5% early Monday, Oct. 19, after an 11.6% plunge Friday, and closed down about 3.6%. MSCI said Friday it is considering moving Indonesia from \"emerging market\" straight to \"standalone\" status over opaque ownership and trading; a final decision is expected by June. The Indonesia Stock Exchange cut its daily down limit for stocks to 7% from 15%. The rupiah weakened to 18,040 per dollar, near June's record low of 18,190. Goldman Sachs estimates a full removal could trigger about $5.6 billion in passive fund outflows. Foreign investors have net sold $4.88 billion of Indonesian stocks this year, Reuters reported.",
+   "why": "A standalone label would cut Southeast Asia's biggest economy out of the indexes most global funds track.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-10-19T05:00:00-04:00",
+   "time_known": false,
+   "source": "CNBC; Reuters",
+   "url": "https://www.cnbc.com/2026/10/19/indonesian-stocks-msci-downgrade-fears-mount.html"
+  },
+  {
+   "id": "2026-10-19-russia-missiles-drones-kyiv",
+   "section": "news",
+   "text": "Russia hit Kyiv with ballistic missiles and drones overnight into Monday, killing one person and injuring eight, local authorities said.",
+   "detail": "The attack damaged buildings and infrastructure in three Kyiv districts, including a medical facility in a 25-story residential building in Solomianskyi, where a fire broke out, a private medical facility and a metro station in Desnianskyi, and schools and a sports facility in Dniprovskyi. Ukraine's Air Force said Russia launched ballistic missiles, cruise missiles and 269 drones across the country; air defenses destroyed or suppressed 243 drones and four missiles, and strikes were recorded at 25 locations. Russia's Defense Ministry called it a \"massive strike\" and said it hit a data center, a drone and missile logistics hub, a drone-parts plant and a locomotive depot, and struck a bulk carrier at sea about 80 miles southwest of Odesa; those are Russian claims.",
+   "why": "Medical facilities, schools and a metro station in the capital were among the sites damaged.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-19T00:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7"
+  },
+  {
+   "id": "2026-10-19-australian-mp-helen-haines-hit-by-suv",
+   "section": "news",
+   "text": "Australian lawmaker Helen Haines was critically injured when an SUV hit her outside her office Monday; police arrested the driver and found a knife.",
+   "detail": "Haines, 65, an independent first elected to Parliament in 2019, was struck by a Toyota Land Cruiser outside her electoral office in Wangaratta, Victoria, police said; her family confirmed her identity. A passerby detained the 43-year-old driver at the scene. Police seized a knife from inside the vehicle and said they are investigating whether it was intentional. Home Affairs Minister Tony Burke said police recorded more than 1,000 threats against politicians in the 2025-26 financial year.",
+   "why": "Australian politicians usually go about their business without security officers.",
+   "impact": 2,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-19T05:05:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/australia-lawmaker-car-attack-da7cd6758cfd082e0a52ee49ab1aedd9"
+  },
+  {
+   "id": "2026-10-19-israel-arrests-10-settler-attacks",
+   "section": "news",
+   "text": "Israeli police arrested 10 people Monday over weekend settler attacks on a Washington Post photographer and European diplomats in the occupied West Bank.",
+   "detail": "Police did not identify the suspects or their roles. On Friday, a crowd of young male settlers beat Post photographer Heidi Levine in the village of Abu Falah, breaking several ribs and vertebrae. On Saturday, masked settlers attacked Belgium's consul general, French and Polish diplomats and Catholic representatives visiting Taybeh. Police said the Shin Bet security agency, the border police and the military took part in the investigation, and that Monday's operation also targeted closed-military-zone violations and illegal construction. U.S. Ambassador Mike Huckabee called the attack on Levine a \"despicable act of terror.\"",
+   "why": "Rights groups say settlers are rarely arrested or punished for attacks on Palestinians.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-19T04:15:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-settlers-violence-levine-west-bank-palestinians-7812cdfd71fc7486322dd95e3547a176"
+  },
+  {
+   "id": "2026-10-19-macron-condemns-riots-2400-arrests",
+   "section": "news",
+   "text": "French President Emmanuel Macron condemned rioting and looting in a televised address Sunday, as arrests from France's cost-of-living protests passed 2,400.",
+   "detail": "Macron voiced the public's \"anger\" and \"shame\" and blamed much of the violence on \"insurrectionist elements from radical far-left groups, joined by numerous criminals.\" He said looters will have to pay for the damage, and he told prefects to work with mayors to protect public buildings and businesses in the coming weeks, including by banning protests when necessary. Authorities put Saturday's turnout at about 550,000 (organizers said 800,000). Paris police reported 855 arrests in the capital region, with 557 people still in custody. Fire gutted Limoges' 19th-century City Hall. Paris police said one person died of a heart attack, and a 17-year-old girl in Mulhouse lost an eye. Saturday's first count was at least 272 arrests.",
+   "why": "The arrest total approaches the nearly 2,000 in a single day of France's 2018 yellow vest protests.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-18T14:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/france-protests-violence-looting-f5ce07c2ef46ad0c02c6ff7018532a59"
+  },
+  {
+   "id": "2026-10-18-wainwright-fire-four-killed",
+   "section": "news",
+   "text": "Four Canadian service members were killed and dozens seriously wounded in Saturday's fire at CFB Wainwright in Alberta, Prime Minister Mark Carney said Sunday.",
+   "detail": "Carney called the fast-moving fire one of the worst tragedies for Canada's Armed Forces on Canadian soil in peacetime and said next of kin have been notified. Those affected came from bases across the country, including reservists and soldiers of Princess Patricia's Canadian Light Infantry. He ordered flags on federal buildings lowered to half-mast. The fire began in a training area at about 4 p.m. local time Saturday; its cause is under investigation.",
+   "why": "It is one of the deadliest peacetime losses for Canada's military at home, and the cause is still unknown.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "World",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "Prime Minister of Canada",
+   "url": "https://www.pm.gc.ca/en/news/speeches/2026/10/18/prime-minister-carney-delivers-remarks-following-tragedy-cfb-wainwright"
+  },
+  {
+   "id": "2026-10-18-albania-protests-sixth-day",
+   "section": "news",
+   "text": "Albania's student-led protests reached a sixth day Sunday as Tirana police fired rubber bullets and tear gas and Prime Minister Edi Rama refused to resign.",
+   "detail": "Hundreds of protesters gathered outside the Education Ministry chanting \"Rama, resign.\" The Health Ministry said 65 people were hurt in Saturday's clashes, 37 of them police officers, and 272 have been injured since Tuesday, including 169 officers. On Saturday a fire set by protesters spread into the Supreme Court building. Protesters want better education and jobs and an end to corruption; the unrest grew out of protests against a luxury resort project linked to Jared Kushner. Rama blamed a \"foreign hand\" and asked whether Albanians wanted unrest or European Union membership.",
+   "why": "A week of escalating street violence is testing the government of a NATO member seeking to join the EU.",
+   "impact": 3,
+   "topic": "protest",
+   "region": "World",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/"
+  },
+  {
+   "id": "2026-10-18-us-resumes-missile-intel-ukraine",
+   "section": "news",
+   "text": "U.S. warnings of Russian ballistic missile launches are reaching Ukraine again after a pause, President Zelenskyy told NBC's Meet the Press on Sunday, thanking the U.S. for restoring them.",
+   "detail": "\"It was blocked for some period of time. And then it was deblocked by American side. We are very thankful for this. Now it works,\" Zelenskyy said, adding that Ukraine got no U.S. warning during three days of ballistic attacks. He said Ukraine's generals and government believe a slowdown of SpaceX's Starlink service was \"the message from American government to limit this speed, and technically SpaceX did it,\" and that speeds are still limited. Treasury Secretary Scott Bessent, on the same program, said President Trump and Secretary of State Marco Rubio \"have categorically said that no one in the Trump administration did that\" and called Zelenskyy's charge \"very reckless.\"",
+   "why": "Only the U.S. can warn Ukraine when Russia launches ballistic missiles, Zelenskyy says, as Russia keeps striking Ukrainian cities.",
+   "impact": 3,
+   "topic": "war",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-18T10:00:00-04:00",
+   "time_known": false,
+   "source": "NBC News, Meet the Press (transcript); Reuters",
+   "url": "https://www.nbcnews.com/meet-the-press/transcripts/meet-press-october-18-2026-rcna604150"
+  },
+  {
+   "id": "2026-10-18-saada-airstrike-saudi-helicopter",
+   "section": "news",
+   "text": "An airstrike on a house in Yemen's Saada province killed at least nine people, including five children, the Houthi-run Health Ministry said Sunday.",
+   "detail": "The strike hit a home in Sahar district and wounded 19, the ministry said; the Houthis blamed Saudi-led coalition aircraft, and the coalition had not commented. Separately, the coalition said a Saudi National Guard AH-6i reconnaissance helicopter crashed in Saudi Arabia's Najran region near the Yemen border because of a technical malfunction, killing its two officers.",
+   "why": "Fighting between Saudi Arabia and the Iran-backed Houthis is intensifying alongside the wider Iran war.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-18T08:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/mideast-israel-palestinians-houthis-october-18-2026-793087dde3cb4435c6b771bae28faff3"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-18-kenya-ebola-eighth-case",
+   "section": "health",
+   "text": "Kenya confirmed its eighth Ebola case Sunday, a 49-year-old man who is not a health worker, Health Director-General Patrick Amoth said.",
+   "detail": "Thirty-eight people were tested Sunday and one was positive. The outbreak began with a Kenyan who had lived in Congo, traveled through Uganda, arrived in Nairobi on Oct. 3 and died on Oct. 5; four more cases, including three health workers who treated him, were confirmed Saturday. By Saturday authorities had quarantined 128 of 130 identified contacts for 21 days of monitoring. The Bundibugyo strain has no licensed vaccine or specific treatment.",
+   "why": "Cases are still rising in Nairobi, a major travel hub, from a strain with no approved vaccine.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-18T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/kenya-ebola-congo-uganda-0b23b5ff00d39345037f2d298e92e24f"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-19",
+   "branch": "executive",
+   "text": "Comment deadline on Treasury's proposed GENIUS Act stablecoin rules.",
+   "detail": "Treasury's proposal sets how the GENIUS Act's limits on issuing, offering and selling payment stablecoins in the U.S. would work. Final rules come later.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-19",
+   "when": "8:00 p.m. ET",
+   "text": "ALCS Game 6: Cleveland Guardians at Tampa Bay Rays, 8:00 p.m. ET on TBS; Rays lead 3-2 and can clinch the AL pennant.",
+   "detail": "Per MLB’s postseason schedule; Game 7, if needed, is Tuesday, Oct. 20, at 8:00 p.m. ET at Tropicana Field. The winner faces the Milwaukee Brewers in the World Series.",
+   "buzz": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "when": "Polls close 10 p.m. ET",
+   "text": "Alberta votes on whether to start the legal process toward a future referendum on leaving Canada; polls close 10 p.m. ET.",
+   "detail": "Per AP: the vote is not a direct independence referendum. Polls are open 9 a.m. to 8 p.m. local time (11 a.m. to 10 p.m. ET). More than 1.35 million Albertans, 43% of eligible voters, voted early. Prime Minister Mark Carney campaigned for a decisive \"no\"; Premier Danielle Smith called the vote but opposes independence.",
+   "tags": [
+    "world",
+    "canada"
+   ]
+  }
+ ]
+}

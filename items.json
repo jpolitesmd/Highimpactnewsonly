@@ -1,6 +1,198 @@
 {
-  "updated": "2026-10-18T19:02:38-04:00",
+  "updated": "2026-10-19T05:34:31-04:00",
   "items": [
+    {
+      "id": "2026-10-19-canada-lumber-duties-fall",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "trade",
+      "region": "US",
+      "thread": "trade-tariffs",
+      "pin": "2026-10-19 morning",
+      "pin_order": 1,
+      "impact": 3,
+      "time": "2026-10-19T00:00:00-04:00",
+      "time_known": false,
+      "text": "Duties on most reviewed Canadian softwood lumber fall to about 25% from about 35% starting today, under final Commerce Department reviews.",
+      "detail": "Commerce's annual antidumping and anti-subsidy reviews, covering 2024 shipments and published in the Federal Register Monday, Oct. 19, set new cash-deposit rates for lumber entered on or after today. For about 220 other reviewed companies, the combined rate falls to 24.75% from 35.16% (antidumping 10.64%, down from 20.53%; anti-subsidy 14.11%, down from 14.63%). Company rates: Canfor's antidumping rate falls to 17.00% from 35.47% and West Fraser's to 4.71% from 9.65%; Resolute's are 13.13% antidumping and 12.42% anti-subsidy, and West Fraser's anti-subsidy rate is 15.31%. Exporters never reviewed keep the original 6.04% antidumping and 14.19% anti-subsidy rates.",
+      "why": "Canadian softwood lumber is a major U.S. home-building material, and the duties are paid on lumber brought into the country.",
+      "source": "Federal Register (Commerce Department, International Trade Administration)",
+      "url": "https://www.federalregister.gov/documents/2026/10/19/2026-21296/certain-softwood-lumber-products-from-canada-final-results-of-antidumping-duty-administrative-review",
+      "tags": [
+        "canada",
+        "lumber",
+        "tariffs",
+        "housing"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-russia-missiles-drones-kyiv",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-19T00:00:00-04:00",
+      "time_known": false,
+      "text": "Russia hit Kyiv with ballistic missiles and drones overnight into Monday, killing one person and injuring eight, local authorities said.",
+      "detail": "The attack damaged buildings and infrastructure in three Kyiv districts, including a medical facility in a 25-story residential building in Solomianskyi, where a fire broke out, a private medical facility and a metro station in Desnianskyi, and schools and a sports facility in Dniprovskyi. Ukraine's Air Force said Russia launched ballistic missiles, cruise missiles and 269 drones across the country; air defenses destroyed or suppressed 243 drones and four missiles, and strikes were recorded at 25 locations. Russia's Defense Ministry called it a \"massive strike\" and said it hit a data center, a drone and missile logistics hub, a drone-parts plant and a locomotive depot, and struck a bulk carrier at sea about 80 miles southwest of Odesa; those are Russian claims.",
+      "why": "Medical facilities, schools and a metro station in the capital were among the sites damaged.",
+      "source": "AP",
+      "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7",
+      "tags": [
+        "ukraine",
+        "russia",
+        "kyiv",
+        "missiles"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-indonesia-stocks-six-year-low-msci",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 3,
+      "time": "2026-10-19T05:00:00-04:00",
+      "time_known": false,
+      "text": "Indonesia's main stock index fell to a six-year low Monday, after index provider MSCI said it may drop the country from its emerging-market indexes.",
+      "detail": "The Jakarta Composite fell more than 5% early Monday, Oct. 19, after an 11.6% plunge Friday, and closed down about 3.6%. MSCI said Friday it is considering moving Indonesia from \"emerging market\" straight to \"standalone\" status over opaque ownership and trading; a final decision is expected by June. The Indonesia Stock Exchange cut its daily down limit for stocks to 7% from 15%. The rupiah weakened to 18,040 per dollar, near June's record low of 18,190. Goldman Sachs estimates a full removal could trigger about $5.6 billion in passive fund outflows. Foreign investors have net sold $4.88 billion of Indonesian stocks this year, Reuters reported.",
+      "why": "A standalone label would cut Southeast Asia's biggest economy out of the indexes most global funds track.",
+      "source": "CNBC; Reuters",
+      "url": "https://www.cnbc.com/2026/10/19/indonesian-stocks-msci-downgrade-fears-mount.html",
+      "tags": [
+        "indonesia",
+        "stocks",
+        "msci",
+        "markets"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-macron-condemns-riots-2400-arrests",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "france-protests",
+      "impact": 3,
+      "time": "2026-10-18T14:00:00-04:00",
+      "time_known": false,
+      "text": "French President Emmanuel Macron condemned rioting and looting in a televised address Sunday, as arrests from France's cost-of-living protests passed 2,400.",
+      "detail": "Macron voiced the public's \"anger\" and \"shame\" and blamed much of the violence on \"insurrectionist elements from radical far-left groups, joined by numerous criminals.\" He said looters will have to pay for the damage, and he told prefects to work with mayors to protect public buildings and businesses in the coming weeks, including by banning protests when necessary. Authorities put Saturday's turnout at about 550,000 (organizers said 800,000). Paris police reported 855 arrests in the capital region, with 557 people still in custody. Fire gutted Limoges' 19th-century City Hall. Paris police said one person died of a heart attack, and a 17-year-old girl in Mulhouse lost an eye. Saturday's first count was at least 272 arrests.",
+      "why": "The arrest total approaches the nearly 2,000 in a single day of France's 2018 yellow vest protests.",
+      "source": "AP",
+      "url": "https://apnews.com/article/france-protests-violence-looting-f5ce07c2ef46ad0c02c6ff7018532a59",
+      "tags": [
+        "france",
+        "protests"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-israel-arrests-10-settler-attacks",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "time": "2026-10-19T04:15:00-04:00",
+      "time_known": false,
+      "text": "Israeli police arrested 10 people Monday over weekend settler attacks on a Washington Post photographer and European diplomats in the occupied West Bank.",
+      "detail": "Police did not identify the suspects or their roles. On Friday, a crowd of young male settlers beat Post photographer Heidi Levine in the village of Abu Falah, breaking several ribs and vertebrae. On Saturday, masked settlers attacked Belgium's consul general, French and Polish diplomats and Catholic representatives visiting Taybeh. Police said the Shin Bet security agency, the border police and the military took part in the investigation, and that Monday's operation also targeted closed-military-zone violations and illegal construction. U.S. Ambassador Mike Huckabee called the attack on Levine a \"despicable act of terror.\"",
+      "why": "Rights groups say settlers are rarely arrested or punished for attacks on Palestinians.",
+      "source": "AP",
+      "url": "https://apnews.com/article/israel-settlers-violence-levine-west-bank-palestinians-7812cdfd71fc7486322dd95e3547a176",
+      "tags": [
+        "israel",
+        "west bank"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-australian-mp-helen-haines-hit-by-suv",
+      "section": "news",
+      "topic": "security",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-19T05:05:00-04:00",
+      "time_known": false,
+      "text": "Australian lawmaker Helen Haines was critically injured when an SUV hit her outside her office Monday; police arrested the driver and found a knife.",
+      "detail": "Haines, 65, an independent first elected to Parliament in 2019, was struck by a Toyota Land Cruiser outside her electoral office in Wangaratta, Victoria, police said; her family confirmed her identity. A passerby detained the 43-year-old driver at the scene. Police seized a knife from inside the vehicle and said they are investigating whether it was intentional. Home Affairs Minister Tony Burke said police recorded more than 1,000 threats against politicians in the 2025-26 financial year.",
+      "why": "Australian politicians usually go about their business without security officers.",
+      "source": "AP",
+      "url": "https://apnews.com/article/australia-lawmaker-car-attack-da7cd6758cfd082e0a52ee49ab1aedd9",
+      "tags": [
+        "australia",
+        "parliament"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-dc-national-guard-member-shot",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-18T23:00:00-04:00",
+      "time_known": false,
+      "text": "A National Guard member was shot in the leg breaking up a fight on Capitol Hill in Washington late Sunday; Guard members shot the gunman, police said.",
+      "detail": "Guard members stepped into a fight outside an establishment near the 400 block of 8th Street SE, less than a block from Eastern Market, shortly after 11 p.m., D.C. police said. One person in the fight opened fire. \"National Guard immediately gave commands to that individual to put down the gun. That individual then pointed the weapon towards National Guard members, who returned fire,\" Interim Police Chief Jeffery Carroll said. Three Guard members fired, hitting the suspect in the abdomen. Both the Guard member and the suspect were hospitalized with non-life-threatening injuries. The suspect is in custody, and police said there is no ongoing threat to the public.",
+      "why": "Police are investigating gunfire between deployed Guard members and a suspect on a busy D.C. street.",
+      "source": "ABC News; WTOP (D.C. police)",
+      "url": "https://abcnews.com/US/dc-police-investigating-shooting-involving-national-guard-member/story?id=137370551",
+      "tags": [
+        "washington-dc",
+        "national-guard"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-usps-bill-senders-foreign-duties",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "agency",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-19T00:00:00-04:00",
+      "time_known": false,
+      "text": "The Postal Service may bill senders for unpaid foreign duties, taxes and import fees on overseas packages, under an interim rule effective today.",
+      "detail": "The interim final rule, published in the Federal Register Monday, Oct. 19, and effective that day, revises USPS's International Mail Manual. Mailers must provide complete, accurate customs data and documents; packages that do not comply may be returned or confiscated, and the mailer may face extra charges. USPS may invoice the mailer for duties, taxes, import fees and related charges not paid in full through its Delivered Duty Paid service, including charges assessed after postage was bought. USPS cited the European Union's end of its duty exemption for most low-value goods as of July 1, 2026, and new EU postal requirements. Comments are due Nov. 18, 2026.",
+      "why": "People and small businesses shipping goods abroad, especially to the EU, could get a bill after the package is sent.",
+      "source": "Federal Register (U.S. Postal Service)",
+      "url": "https://www.federalregister.gov/documents/2026/10/19/2026-21310/customs-requirements-and-payment-procedures-for-certain-customs-charges",
+      "tags": [
+        "usps",
+        "shipping",
+        "customs"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
+    {
+      "id": "2026-10-19-irs-card-payment-rule",
+      "section": "money",
+      "money_beat": "taxes",
+      "topic": "agency",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-19T00:00:00-04:00",
+      "time_known": false,
+      "text": "The IRS gains authority to take credit and debit card tax payments directly, under a Treasury final rule effective today; card payers still bear processing fees.",
+      "detail": "The final rule (TD 10060), published and effective Monday, Oct. 19, carries out a 2019 Taxpayer First Act change. It lifts rules that barred the IRS from paying card-processing fees under its payment contracts. If the IRS pays a fee, it must recover the full amount from the card payer as a separate reimbursement fee, capped at what the IRS pays; that fee is not a tax and is not refundable. It applies to payments made on or after Oct. 19, 2026. The IRS may also keep arrangements in which it pays no fee and card processors charge payers directly. The rule does not set a launch date for a direct IRS card-payment system.",
+      "why": "It changes how the government can accept card payments for taxes.",
+      "source": "Federal Register (Treasury Department/IRS)",
+      "url": "https://www.federalregister.gov/d/2026-21267",
+      "tags": [
+        "irs",
+        "taxes"
+      ],
+      "added_at": "2026-10-19T05:34:31-04:00"
+    },
     {
       "id": "2026-10-18-us-resumes-missile-intel-ukraine",
       "section": "news",
@@ -492,7 +684,8 @@
         "france",
         "protests"
       ],
-      "added_at": "2026-10-17T14:10:12-04:00"
+      "added_at": "2026-10-17T14:10:12-04:00",
+      "thread": "france-protests"
     },
     {
       "id": "2026-10-17-kenya-ebola-seven-cases",
@@ -5147,7 +5340,8 @@
       "why": "Europe's largest student unrest in years is turning into a policing fight.",
       "source": "Reuters",
       "url": "https://www.streetinsider.com/Reuters/French+policing+under+scrutiny+as+student+protest+injuries+mount/27172624.html",
-      "added_at": "2026-10-10T16:50:00-04:00"
+      "added_at": "2026-10-10T16:50:00-04:00",
+      "thread": "france-protests"
     },
     {
       "id": "2026-10-11-trump-energy-ceasefire",

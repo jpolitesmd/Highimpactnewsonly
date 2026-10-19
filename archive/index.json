@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-19-morning",
+   "date": "2026-10-19",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Duties on most reviewed Canadian softwood lumber fall to about 25% from about 35% starting today, under final Commerce Department reviews."
+  },
+  {
    "key": "2026-10-18-evening",
    "date": "2026-10-18",
    "edition": "evening",
@@ -281,5 +288,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-18T16:53:01-04:00"
+ "updated": "2026-10-19T05:34:49-04:00"
 }

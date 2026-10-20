@@ -26,6 +26,9 @@ Post-push verification and when to commit/report (quiet reporting): see `tools/r
 - WNBA stories, including Finals games, are impact 2 (owner rule), except a WNBA title win, which follows the sports line above (impact 3+, runs in Today and the email).
 - Thin days: confirmed impact ~2–3 stories that pass the workplace-gossip test (would coworkers discuss this?) are a valid fill — primary/wire facts only, no invention.
 - Same story in a later edition: only if something new happened, and the lead says what moved.
+- Russia-Ukraine (owner rule): a Russia-Ukraine story may lead an edition or be pinned only for a major turning point: the U.S. permanently ending or drastically changing its support; a side surrendering or conceding; a signed ceasefire or peace deal; U.S. or NATO forces entering the fight; or nuclear use. Routine strikes, casualty counts and battlefield updates run as normal lower-ranked items and never lead or get pinned; if one would lead, lead with the highest-impact story that is not routine Russia-Ukraine.
+- Favor U.S. policy and government actions that directly affect Americans.
+- Trending bump: if tools/x-leads.md labels a story 'Trending: hard' on X AND confirmed primary or wire reports back it, raise its impact by 1, to 4 at most this way; a 5 must still be earned on substance. Trending never makes an unconfirmed story publishable, and it does not override the Russia-Ukraine lead rule or the sports rules.
 
 
 

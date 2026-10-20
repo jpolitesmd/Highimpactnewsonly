@@ -47,6 +47,20 @@
    "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
   },
   {
+   "id": "2026-10-20-doj-fraud-whistleblower-rewards",
+   "section": "news",
+   "text": "The Fraud Whistleblower Incentive Program, a new $25 million Justice Department fund, will pay tipsters $10,000 to $30,000 when their tips lead to fraud charges.",
+   "detail": "The Justice Department's National Fraud Enforcement Division runs the program, and the Treasury Department is committing $25 million to it. Awards are paid at the department's discretion once criminal charges are filed, rather than after a case ends, and tipsters can still qualify for larger awards under other programs. It covers federal health care fraud, with priority on hospice, home health care, day care and special services, and fraud on programs run by the Agriculture Department (such as SNAP), Labor, HHS, HUD, Education, Veterans Affairs, the Department of War and the Small Business Administration. People who took part in the fraud are not eligible. Tips can be submitted now at america.gov/fraud. President Trump announced the program with Vice President JD Vance, who chairs the White House fraud task force.",
+   "why": "Anyone can now collect a federal cash reward for reporting fraud in health care and benefit programs such as SNAP, unemployment and student aid.",
+   "impact": 3,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-10-20T11:41:00-04:00",
+   "time_known": true,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/justice-department-announces-innovative-whistleblower-rewards-program-combat-fraud"
+  },
+  {
    "id": "2026-10-20-trump-signs-10-bills",
    "section": "news",
    "text": "Online dating services must warn users who got messages from members banned for fraud, under one of 10 bills President Trump signed into law Tuesday.",
@@ -120,7 +134,7 @@
  "groups": [
   {
    "heading": null,
-   "count": 8
+   "count": 9
   }
  ],
  "also": [

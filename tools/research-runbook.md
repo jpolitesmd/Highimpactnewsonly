@@ -23,7 +23,7 @@ Hard limits for every research run. Beats are fill-in-the-blank (low judgment); 
 
 No separate weekend edition. Saturday and Sunday use the same morning and evening path as weekdays. Do not run `edition.py weekend`.
 
-Before dispatching beats, read `tools/x-leads.md` as a candidate list from the X big-story scan; still verify each item and link only its original primary or wire source, never X.
+Before dispatching beats, read `tools/x-leads.md` as a candidate list from the X big-story scan; still verify each item and link only its original primary or wire source, never X. When a story x-leads.md labels 'Trending: hard' is confirmed by primary or wire reports, apply the Trending bump in `tools/task-rules.md` Impact ratings (+1, max 4; never for unconfirmed stories; does not override the Russia-Ukraine or sports rules).
 
 ## Parallel beat bots (exact list)
 

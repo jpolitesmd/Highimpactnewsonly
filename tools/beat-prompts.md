@@ -70,6 +70,7 @@ Cite the FR or agency release as source when available.
 Beat: War / foreign policy.
 Major combat shifts, ceasefires, binding UNSC actions, treaty breaks, and strategic military moves by the U.S. or major powers.
 Skip routine diplomatic talk and photo-ops. Prefer wires or official statements for confirmation.
+Russia-Ukraine: routine strikes, casualty counts and battlefield updates are normal lower-ranked items that never lead or get pinned; only a major turning point (U.S. permanently ending or drastically changing support, a side surrendering or conceding, a signed ceasefire or peace deal, U.S. or NATO forces entering the fight, nuclear use) may lead or be pinned (see tools/task-rules.md Impact ratings).
 ```
 
 ## Markets-trade

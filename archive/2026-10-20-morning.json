@@ -1,0 +1,278 @@
+{
+ "date": "2026-10-20",
+ "edition": "morning",
+ "subject": "Tuesday, Oct 20 - Morning edition",
+ "published": "2026-10-20T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-20-russia-strikes-kyiv-region",
+   "section": "news",
+   "text": "Russian missile and drone attacks killed at least four people and wounded 27 in the Kyiv region overnight into Tuesday, regional police said.",
+   "detail": "Kyiv regional police said three people were killed and six wounded at a production and storage building in Obukhiv district, and a woman was killed and 21 people wounded, eight of them children, in Bucha district, where 199 houses and 25 apartment buildings were damaged; Vyshhorod district was also hit. Separately, a drone struck morning commuter traffic near the Kyiv-Odesa highway at the edge of the capital. Officials gave differing early counts for that strike: the Kyiv regional prosecutor's office said three were killed and four hurt in Chabany, and Kyiv Mayor Vitali Klitschko said at least one was killed and six hurt on the city side; those figures are not included in the police total. Ukraine's Air Force said Russia launched 165 drones overnight and 115 were shot down or suppressed. Russia also hit energy sites in the Odesa region. President Volodymyr Zelenskyy was in Oslo seeking more support from Norway and Finland, and said he spoke with Secretary of State Marco Rubio about Patriot interceptors, intelligence sharing and Starlink.",
+   "why": "Russia keeps hitting homes and workplaces around the capital as Ukraine presses allies for more air defense.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-20T02:40:00-04:00",
+   "time_known": false,
+   "source": "AP (Kyiv regional police)",
+   "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996"
+  },
+  {
+   "id": "2026-10-20-alberta-votes-to-stay-in-canada",
+   "section": "news",
+   "text": "Alberta voters rejected starting a path toward leaving Canada in Monday's referendum, with about 77% choosing to remain, early unofficial results showed.",
+   "detail": "With more than 1 million votes counted, 77% backed \"Alberta should remain a province in Canada\" and 23% backed starting the constitutional process toward a binding separation referendum, according to Elections Alberta's unofficial results. The vote was not itself an independence vote. Official results are due Oct. 29. Prime Minister Mark Carney said \"Albertans chose Canada.\" Premier Danielle Smith, who called the vote but opposes independence, is to address the province Tuesday evening. Late poll openings kept more than 100 polling stations open longer. The ballot carried nine other questions.",
+   "why": "It ends, for now, a separatist push in Canada's main oil-producing province amid U.S. trade pressure.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-20T02:02:00-04:00",
+   "time_known": false,
+   "source": "AP (Elections Alberta unofficial results)",
+   "url": "https://apnews.com/article/alberta-canada-referendum-indepence-carney-ed0d58ef051859ce12052e75d2d6e8a0"
+  },
+  {
+   "id": "2026-10-19-rays-win-al-pennant",
+   "section": "sports",
+   "text": "The Tampa Bay Rays won the American League pennant Monday, beating the Cleveland Guardians 7-3 in Game 6, and will face Milwaukee in the World Series.",
+   "detail": "Tampa Bay took the AL Championship Series 4-2 after trailing 1-0 and 2-1, winning the last three games. Yandy Díaz and Junior Caminero each hit two-run homers. Freddy Peralta, named ALCS MVP, allowed one run in 5 1/3 innings. It is the Rays' third pennant and their first World Series trip since 2020. Neither team has won a World Series, so either will be a first-time champion, the first such World Series since 1980. Game 1 is Friday night in Milwaukee.",
+   "why": "The World Series is set, and baseball will crown a first-time champion.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-19T23:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/guardians-rays-score-alcs-game-6-e727b3a485df7dbf0dd866edbff9b22a"
+  },
+  {
+   "id": "2026-10-19-usda-8-billion-harvest-fuel-relief",
+   "section": "money",
+   "text": "U.S. farmers will get $8 billion in one-time payments to offset higher diesel and other harvest costs, under a USDA program announced Monday.",
+   "detail": "The Harvest Fuel Relief program is paid from Commodity Credit Corporation funds and run by the Farm Service Agency. Payments use a uniform formula based on planted acres, USDA cost-of-production estimates and projected yields and prices, not farmers' actual fuel bills. Payment rates for major commodity crops are due in November, with the method for other commodities later. Crop insurance is not required. Applications are not open yet. It follows the $12 billion Farmer Bridge Assistance program.",
+   "why": "It is a large new federal payment to farm country, tied to wartime fuel prices, weeks before the midterms.",
+   "impact": 3,
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-19T21:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Agriculture",
+   "url": "https://www.usda.gov/about-usda/news/press-releases/2026/10/19/trump-administration-announces-8-billion-harvest-fuel-relief-program"
+  },
+  {
+   "id": "2026-10-19-nc-absentee-ballot-rules-stand",
+   "section": "news",
+   "text": "North Carolina's stricter absentee-ballot envelope rules stay in place for the midterms after a federal judge refused Monday to block them.",
+   "detail": "U.S. District Judge Thomas D. Schroeder denied a preliminary injunction in North Carolina Alliance for Retired Americans v. North Carolina State Board of Elections. Voting groups and two voters challenged State Board guidance under which a ballot not sealed inside the inner container-return envelope, or found outside it, is spoiled and must be replaced even if the outer envelope is sealed (2024 guidance had accepted a ballot if either envelope was sealed), and a signature-verification step. The judge cited the Supreme Court's Purcell principle against changing election rules once voting is underway: about 123,828 absentee ballots had been requested as of Oct. 8, the State Board said 31,582 had been cast by the Oct. 14 hearing, in-person early voting began Oct. 15, and Election Day is Nov. 3. Voters whose ballots are spoiled can get a new ballot or vote in person. The North Carolina Republican Party and the RNC joined as defendants. The ruling is preliminary, not a final decision on the merits.",
+   "why": "It sets the mail-ballot rules for a statewide midterm already underway.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the Middle District of North Carolina",
+   "region": "US",
+   "time": "2026-10-19T17:30:00-04:00",
+   "time_known": false,
+   "source": "U.S. District Court, M.D.N.C. (memorandum opinion and order)",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.105848/gov.uscourts.ncmd.105848.60.0.pdf"
+  },
+  {
+   "id": "2026-10-19-scotus-rejects-911-plea-deals",
+   "section": "news",
+   "text": "The 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants stay void after the Supreme Court refused Monday to hear their appeals.",
+   "detail": "The unsigned order denied review in Mohammad v. United States and bin 'Atash v. United States, leaving in place a D.C. Circuit ruling that then-Defense Secretary Lloyd Austin lawfully withdrew the 2024 agreements, which would have traded guilty pleas for life sentences instead of possible death sentences. Justice Brett Kavanaugh did not take part in Mohammed's case. A military judge has set the trial of Mohammed, Mustafa al Hawsawi and Walid bin 'Atash for June 2028. On the same order list, the court also turned away former NLRB member Gwynne Wilcox's challenge to her firing by President Trump, and agreed to hear cases on race in Montgomery County, Md., magnet-school admissions and on the federal ban on home distilling.",
+   "why": "The ruling keeps the death penalty possible in the long-stalled prosecution of the accused planners of the attacks that killed nearly 3,000 people.",
+   "impact": 4,
+   "topic": "courts",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
+  },
+  {
+   "id": "2026-10-19-abyei-market-drone-strike",
+   "section": "news",
+   "text": "A drone strike on a market in Abyei, the disputed Sudan-South Sudan border area, killed at least 73 people Monday, the region's information minister said.",
+   "detail": "Abyei's caretaker information minister, Yohana Akol Ngor, told Reuters about 73 people were killed and 19 wounded. He blamed Sudan's army but gave no evidence. South Sudan's foreign ministry said drones hit a market north of Abyei town; it gave no casualty count and summoned Sudan's ambassador in protest. Doctors Without Borders (MSF) said it was treating more than 20 wounded, including critical and burn cases, at Ameth Bek Hospital. Abyei, an oil-rich area, is claimed by both countries. Sudan's war between its army and the Rapid Support Forces began in April 2023.",
+   "why": "It is one of the deadliest single attacks tied to Sudan's war and has drawn South Sudan into a diplomatic dispute.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-19T12:00:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/africa/drone-strike-disputed-sudan-south-sudan-area-kills-dozens-minister-says-2026-10-20/"
+  },
+  {
+   "id": "2026-10-19-storm-adam-spain-floods",
+   "section": "news",
+   "text": "Storm Adam's floods have killed at least four people in eastern Spain, where officials kept residents of 145 towns indoors for much of Monday.",
+   "detail": "Valencia regional president Juanfran Pérez Llorca confirmed three deaths in his region: a 79-year-old woman who drowned and a man who had a heart attack, both in Oliva on Monday, and a woman who died at sea in Sagunto on Sunday. A woman swept away by floodwater in Cabrera de Mar, near Barcelona, also died. More than 450 people were rescued and about 800,000 people were under the stay-home order in southern Valencia and northern Alicante, since lifted; some areas got up to 700 liters of rain per square meter. Andalusia's emergency service reported a fifth death Monday, a driver killed when a boulder hit his car in Benaoján, Málaga.",
+   "why": "About 800,000 people were ordered to stay home as the storm hit Spain's Mediterranean coast.",
+   "impact": 3,
+   "topic": "weather",
+   "region": "World",
+   "time": "2026-10-19T11:25:00-04:00",
+   "time_known": false,
+   "source": "RTVE",
+   "url": "https://www.rtve.es/noticias/20261019/dana-adam-tiempo-espana-lunes-19/17272241.shtml"
+  },
+  {
+   "id": "2026-10-19-russian-drone-hits-kharkiv-region-park",
+   "section": "news",
+   "text": "A Russian drone struck a crowded park in Nova Vodolaha, in Ukraine's Kharkiv region, Monday afternoon, killing six people, including a 1-year-old girl.",
+   "detail": "The strike hit the town's central park about 4:30 p.m. local time, Kharkiv regional prosecutors said; regional head Oleh Syniehubov said 15 people were wounded, seven of them children. Among the dead were a girl just over a year old, killed in her stroller, her mother, who died in the hospital, and an 11-year-old girl. Prosecutors opened a war-crimes investigation and said the drone appeared to be a jet-powered Geran-3.",
+   "why": "Ukrainian prosecutors are treating the strike on a crowded public park as a war crime.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": true,
+   "source": "Ukrinform (Kharkiv Regional Military Administration)",
+   "url": "https://www.ukrinform.net/rubric-ato/4176041-three-children-among-six-killed-in-russian-strike-on-kharkiv-region-park.html"
+  },
+  {
+   "id": "2026-10-19-dhs-orders-deepseek-removal",
+   "section": "tech",
+   "text": "DeepSeek AI products must be removed from federal civilian agencies' computer systems and purchases, under a Homeland Security Department order filed Monday.",
+   "detail": "The order, \"Exclusion and Removal of DeepSeek Products from Federal Civilian Executive Branch Information Technology Systems and Procurements,\" went on public inspection at the Federal Register on Oct. 19 and is set for formal publication Oct. 20. DeepSeek is a Chinese artificial-intelligence company.",
+   "why": "It bars a major Chinese AI tool across the federal civilian workforce.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-19T08:45:00-04:00",
+   "time_known": true,
+   "source": "Federal Register (Homeland Security Department)",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21447/order-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive-branch-information"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-19-trump-order-nih-womens-health-division",
+   "section": "health",
+   "text": "A Women's Health Division will be set up at the National Institutes of Health within 90 days, under an executive order President Trump signed Monday.",
+   "detail": "The order directs the Health and Human Services secretary, acting through the NIH director, to place the division within an existing NIH institute or center. Working with NIH's Office of Research on Women's Health, it is to expand review and coordination of research on understudied women's health conditions across all phases of life, including replication studies.",
+   "why": "NIH is the largest public funder of medical research in the U.S.",
+   "impact": 3,
+   "topic": "health",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-19T11:25:00-04:00",
+   "time_known": false,
+   "source": "White House",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life/"
+  },
+  {
+   "id": "2026-10-20-micron-taiwan-union-strike",
+   "section": "tech",
+   "text": "Micron workers at the chipmaker's Taoyuan, Taiwan, plant will strike Thursday over bonuses, their union said, adding pressure on a key maker of AI memory chips.",
+   "detail": "The Taoyuan union said the strike will coincide with a mediation meeting between Micron and a separate union at its Taichung operations, Micron's largest in Taiwan, and aims to push the company for a concrete profit-sharing proposal. It did not say how long the strike would last. Micron employs about 15,000 people in Taiwan making DRAM and high-bandwidth memory chips used in AI servers. Mediation with the Taoyuan union failed in September, and members authorized a strike in early October. The Taichung union has not voted on a strike.",
+   "why": "A walkout at a major source of AI memory chips could squeeze an already tight chip supply.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "World",
+   "time": "2026-10-20T00:42:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-19-wfp-cuts-gaza-food-aid",
+   "section": "news",
+   "text": "The World Food Programme is cutting food aid in Gaza by about a third, leaving 500,000 people without its help, because of funding shortfalls.",
+   "detail": "Starting this month WFP supports 1.1 million people in Gaza, down from 1.6 million. Rations are halved to one food parcel instead of two, plus a smaller flour bag; hot meals drop from 250,000 to 150,000 a day, and cash aid shrinks for 75,000 families. In September WFP cut West Bank aid from 400,000 to 200,000 people. WFP says 1.4 million Gazans (67%) remain in crisis-level food insecurity or worse. It received less than half its usual Palestine funding in 2026 and needs $450 million for October 2026 through March 2027.",
+   "why": "Aid has been the main food source for most Gaza families since the October 2025 ceasefire, and winter is coming.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-19T08:00:00-04:00",
+   "time_known": false,
+   "source": "World Food Programme",
+   "url": "https://www.wfp.org/news/funding-cuts-force-wfp-drastically-reduce-lifesaving-assistance-gaza"
+  },
+  {
+   "id": "2026-10-19-indonesia-stocks-six-year-low-msci",
+   "section": "money",
+   "text": "Indonesia's main stock index fell to a six-year low Monday, after index provider MSCI said it may drop the country from its emerging-market indexes.",
+   "detail": "The Jakarta Composite fell more than 5% early Monday, Oct. 19, after an 11.6% plunge Friday, and closed down about 3.6%. MSCI said Friday it is considering moving Indonesia from \"emerging market\" straight to \"standalone\" status over opaque ownership and trading; a final decision is expected by June. The Indonesia Stock Exchange cut its daily down limit for stocks to 7% from 15%. The rupiah weakened to 18,040 per dollar, near June's record low of 18,190. Goldman Sachs estimates a full removal could trigger about $5.6 billion in passive fund outflows. Foreign investors have net sold $4.88 billion of Indonesian stocks this year, Reuters reported.",
+   "why": "A standalone label would cut Southeast Asia's biggest economy out of the indexes most global funds track.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-10-19T05:00:00-04:00",
+   "time_known": false,
+   "source": "CNBC; Reuters",
+   "url": "https://www.cnbc.com/2026/10/19/indonesian-stocks-msci-downgrade-fears-mount.html"
+  },
+  {
+   "id": "2026-10-19-houthi-missiles-kill-53-recruits-shabwa",
+   "section": "news",
+   "text": "Houthi ballistic missiles killed at least 53 security recruits at a Yemeni government training camp in Shabwa province Monday, local authorities said.",
+   "detail": "Three missiles hit the Martyr Ahmed al-Sulaimani Training Center near Ataq, the provincial capital, while new internal security and police recruits were training; Shabwa's provincial government said more than 200 were wounded and the toll could rise. The Houthis' military spokesman said they targeted \"Saudi enemy concentrations\" at the camp. Presidential Leadership Council head Rashad al-Alimi promised a firm response. It is one of the deadliest attacks since fighting resurged this summer. Separately, Saudi Arabia postponed its Future Investment Initiative conference, set for Riyadh Oct. 26-29, to 2027 after Houthi strikes on Riyadh's airport.",
+   "why": "Yemen's war has widened into missile and drone attacks on Saudi Arabia, a major oil producer and U.S. partner.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-19T04:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/yemen-houthis-saudi-fighting-6afad4ec4c22dcccd379152ea87cb0e2"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-20",
+   "branch": "executive",
+   "text": "Comment deadline on the SEC's proposed Regulation Crypto Assets.",
+   "detail": "The proposal would add a safe harbor under which some crypto assets would not be treated as investment contracts under securities law. The SEC must still vote on a final rule.",
+   "tags": [
+    "crypto"
+   ],
+   "buzz": true
+  },
+  {
+   "date": "2026-10-20",
+   "when": "10:00 a.m. ET",
+   "text": "September pending home sales (National Association of Realtors), 10:00 a.m. ET.",
+   "detail": "Per NAR's 2026 release schedule; tracks contracts signed in September, a lead on future existing-home sales.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "when": "4:01 p.m. ET",
+   "text": "Netflix reports third-quarter results after the close, about 4:01 p.m. ET.",
+   "detail": "Date and time per Netflix investor relations; live management interview follows at 4:45 p.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

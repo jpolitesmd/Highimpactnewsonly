@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "threads": [
   {
    "id": "iran-war",
@@ -77,6 +77,12 @@
    "id": "france-protests",
    "title": "France's protests",
    "summary": "Nationwide protests in France over living costs and school conditions, and the government's response.",
+   "status": "active"
+  },
+  {
+   "id": "kenya-ebola",
+   "title": "Ebola in Kenya",
+   "summary": "Kenya's outbreak of the Bundibugyo strain of Ebola, which has no licensed vaccine, centered on Nairobi.",
    "status": "active"
   }
  ]

@@ -1,6 +1,333 @@
 {
-  "updated": "2026-10-19T16:49:00-04:00",
+  "updated": "2026-10-20T05:38:43-04:00",
   "items": [
+    {
+      "id": "2026-10-20-russia-strikes-kyiv-region",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-20T02:40:00-04:00",
+      "time_known": false,
+      "text": "Russian missile and drone attacks killed at least four people and wounded 27 in the Kyiv region overnight into Tuesday, regional police said.",
+      "detail": "Kyiv regional police said three people were killed and six wounded at a production and storage building in Obukhiv district, and a woman was killed and 21 people wounded, eight of them children, in Bucha district, where 199 houses and 25 apartment buildings were damaged; Vyshhorod district was also hit. Separately, a drone struck morning commuter traffic near the Kyiv-Odesa highway at the edge of the capital. Officials gave differing early counts for that strike: the Kyiv regional prosecutor's office said three were killed and four hurt in Chabany, and Kyiv Mayor Vitali Klitschko said at least one was killed and six hurt on the city side; those figures are not included in the police total. Ukraine's Air Force said Russia launched 165 drones overnight and 115 were shot down or suppressed. Russia also hit energy sites in the Odesa region. President Volodymyr Zelenskyy was in Oslo seeking more support from Norway and Finland, and said he spoke with Secretary of State Marco Rubio about Patriot interceptors, intelligence sharing and Starlink.",
+      "why": "Russia keeps hitting homes and workplaces around the capital as Ukraine presses allies for more air defense.",
+      "source": "AP (Kyiv regional police)",
+      "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+      "tags": [
+        "ukraine",
+        "russia",
+        "kyiv",
+        "drones"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-20-alberta-votes-to-stay-in-canada",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 3,
+      "time": "2026-10-20T02:02:00-04:00",
+      "time_known": false,
+      "text": "Alberta voters rejected starting a path toward leaving Canada in Monday's referendum, with about 77% choosing to remain, early unofficial results showed.",
+      "detail": "With more than 1 million votes counted, 77% backed \"Alberta should remain a province in Canada\" and 23% backed starting the constitutional process toward a binding separation referendum, according to Elections Alberta's unofficial results. The vote was not itself an independence vote. Official results are due Oct. 29. Prime Minister Mark Carney said \"Albertans chose Canada.\" Premier Danielle Smith, who called the vote but opposes independence, is to address the province Tuesday evening. Late poll openings kept more than 100 polling stations open longer. The ballot carried nine other questions.",
+      "why": "It ends, for now, a separatist push in Canada's main oil-producing province amid U.S. trade pressure.",
+      "source": "AP (Elections Alberta unofficial results)",
+      "url": "https://apnews.com/article/alberta-canada-referendum-indepence-carney-ed0d58ef051859ce12052e75d2d6e8a0",
+      "tags": [
+        "canada",
+        "alberta",
+        "referendum"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-abyei-market-drone-strike",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "africa",
+      "impact": 3,
+      "time": "2026-10-19T12:00:00-04:00",
+      "time_known": false,
+      "text": "A drone strike on a market in Abyei, the disputed Sudan-South Sudan border area, killed at least 73 people Monday, the region's information minister said.",
+      "detail": "Abyei's caretaker information minister, Yohana Akol Ngor, told Reuters about 73 people were killed and 19 wounded. He blamed Sudan's army but gave no evidence. South Sudan's foreign ministry said drones hit a market north of Abyei town; it gave no casualty count and summoned Sudan's ambassador in protest. Doctors Without Borders (MSF) said it was treating more than 20 wounded, including critical and burn cases, at Ameth Bek Hospital. Abyei, an oil-rich area, is claimed by both countries. Sudan's war between its army and the Rapid Support Forces began in April 2023.",
+      "why": "It is one of the deadliest single attacks tied to Sudan's war and has drawn South Sudan into a diplomatic dispute.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/africa/drone-strike-disputed-sudan-south-sudan-area-kills-dozens-minister-says-2026-10-20/",
+      "tags": [
+        "sudan",
+        "south-sudan",
+        "abyei",
+        "drones"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-nc-absentee-ballot-rules-stand",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. District Court for the Middle District of North Carolina",
+      "branch": [
+        "judicial"
+      ],
+      "region": "US",
+      "thread": "midterms-2026",
+      "impact": 3,
+      "time": "2026-10-19T17:30:00-04:00",
+      "time_known": false,
+      "text": "North Carolina's stricter absentee-ballot envelope rules stay in place for the midterms after a federal judge refused Monday to block them.",
+      "detail": "U.S. District Judge Thomas D. Schroeder denied a preliminary injunction in North Carolina Alliance for Retired Americans v. North Carolina State Board of Elections. Voting groups and two voters challenged State Board guidance under which a ballot not sealed inside the inner container-return envelope, or found outside it, is spoiled and must be replaced even if the outer envelope is sealed (2024 guidance had accepted a ballot if either envelope was sealed), and a signature-verification step. The judge cited the Supreme Court's Purcell principle against changing election rules once voting is underway: about 123,828 absentee ballots had been requested as of Oct. 8, the State Board said 31,582 had been cast by the Oct. 14 hearing, in-person early voting began Oct. 15, and Election Day is Nov. 3. Voters whose ballots are spoiled can get a new ballot or vote in person. The North Carolina Republican Party and the RNC joined as defendants. The ruling is preliminary, not a final decision on the merits.",
+      "why": "It sets the mail-ballot rules for a statewide midterm already underway.",
+      "source": "U.S. District Court, M.D.N.C. (memorandum opinion and order)",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.105848/gov.uscourts.ncmd.105848.60.0.pdf",
+      "tags": [
+        "elections",
+        "north-carolina",
+        "absentee-ballots"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-usda-8-billion-harvest-fuel-relief",
+      "section": "money",
+      "money_beat": "taxes",
+      "topic": "agency",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-19T21:00:00-04:00",
+      "time_known": false,
+      "text": "U.S. farmers will get $8 billion in one-time payments to offset higher diesel and other harvest costs, under a USDA program announced Monday.",
+      "detail": "The Harvest Fuel Relief program is paid from Commodity Credit Corporation funds and run by the Farm Service Agency. Payments use a uniform formula based on planted acres, USDA cost-of-production estimates and projected yields and prices, not farmers' actual fuel bills. Payment rates for major commodity crops are due in November, with the method for other commodities later. Crop insurance is not required. Applications are not open yet. It follows the $12 billion Farmer Bridge Assistance program.",
+      "why": "It is a large new federal payment to farm country, tied to wartime fuel prices, weeks before the midterms.",
+      "source": "U.S. Department of Agriculture",
+      "url": "https://www.usda.gov/about-usda/news/press-releases/2026/10/19/trump-administration-announces-8-billion-harvest-fuel-relief-program",
+      "tags": [
+        "usda",
+        "farmers",
+        "diesel"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-wfp-cuts-gaza-food-aid",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "time": "2026-10-19T08:00:00-04:00",
+      "time_known": false,
+      "text": "The World Food Programme is cutting food aid in Gaza by about a third, leaving 500,000 people without its help, because of funding shortfalls.",
+      "detail": "Starting this month WFP supports 1.1 million people in Gaza, down from 1.6 million. Rations are halved to one food parcel instead of two, plus a smaller flour bag; hot meals drop from 250,000 to 150,000 a day, and cash aid shrinks for 75,000 families. In September WFP cut West Bank aid from 400,000 to 200,000 people. WFP says 1.4 million Gazans (67%) remain in crisis-level food insecurity or worse. It received less than half its usual Palestine funding in 2026 and needs $450 million for October 2026 through March 2027.",
+      "why": "Aid has been the main food source for most Gaza families since the October 2025 ceasefire, and winter is coming.",
+      "source": "World Food Programme",
+      "url": "https://www.wfp.org/news/funding-cuts-force-wfp-drastically-reduce-lifesaving-assistance-gaza",
+      "tags": [
+        "gaza",
+        "food-aid",
+        "wfp"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-rays-win-al-pennant",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-19T23:00:00-04:00",
+      "time_known": false,
+      "text": "The Tampa Bay Rays won the American League pennant Monday, beating the Cleveland Guardians 7-3 in Game 6, and will face Milwaukee in the World Series.",
+      "detail": "Tampa Bay took the AL Championship Series 4-2 after trailing 1-0 and 2-1, winning the last three games. Yandy Díaz and Junior Caminero each hit two-run homers. Freddy Peralta, named ALCS MVP, allowed one run in 5 1/3 innings. It is the Rays' third pennant and their first World Series trip since 2020. Neither team has won a World Series, so either will be a first-time champion, the first such World Series since 1980. Game 1 is Friday night in Milwaukee.",
+      "why": "The World Series is set, and baseball will crown a first-time champion.",
+      "source": "AP",
+      "url": "https://apnews.com/article/guardians-rays-score-alcs-game-6-e727b3a485df7dbf0dd866edbff9b22a",
+      "tags": [
+        "mlb",
+        "alcs",
+        "world-series"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-20-asia-stocks-kospi-drops",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-20T05:00:00-04:00",
+      "time_known": false,
+      "text": "South Korea's Kospi fell 3.7% Tuesday, leading most Asian and European stock markets lower, while U.S. crude oil rose above $105 a barrel.",
+      "detail": "The Kospi closed at 5,552.74 as a run-up in AI stocks reversed. Japan's Nikkei 225 fell 1.3% to 64,075.42, Hong Kong's Hang Seng fell 1.3% to 23,867.74, the Shanghai Composite edged up 0.1% and Australia's S&P/ASX 200 lost 0.3%. In early European trading the CAC 40 dipped 0.4%, Germany's DAX 0.7% and Britain's FTSE 100 0.6%. U.S. crude rose 2.1% to $105.87 a barrel and Brent rose 1.1% to $110.75, per AP's early-morning figures; U.S. stock futures were slightly higher.",
+      "why": "Oil stays above $100 a barrel during the Iran war, keeping fuel and inflation pressure high.",
+      "source": "AP",
+      "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88",
+      "tags": [
+        "stocks",
+        "oil",
+        "asia"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-20-micron-taiwan-union-strike",
+      "section": "tech",
+      "topic": "tech",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-20T00:42:00-04:00",
+      "time_known": false,
+      "text": "Micron workers at the chipmaker's Taoyuan, Taiwan, plant will strike Thursday over bonuses, their union said, adding pressure on a key maker of AI memory chips.",
+      "detail": "The Taoyuan union said the strike will coincide with a mediation meeting between Micron and a separate union at its Taichung operations, Micron's largest in Taiwan, and aims to push the company for a concrete profit-sharing proposal. It did not say how long the strike would last. Micron employs about 15,000 people in Taiwan making DRAM and high-bandwidth memory chips used in AI servers. Mediation with the Taoyuan union failed in September, and members authorized a strike in early October. The Taichung union has not voted on a strike.",
+      "why": "A walkout at a major source of AI memory chips could squeeze an already tight chip supply.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
+      "tags": [
+        "micron",
+        "chips",
+        "taiwan",
+        "labor"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-amanpour-leaving-cnn",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-19T18:00:00-04:00",
+      "time_known": false,
+      "text": "Christiane Amanpour, CNN's chief international anchor, will leave the network in June 2027 after 43 years, she announced Monday.",
+      "detail": "Her PBS show \"Amanpour & Co.\" ends at the close of 2026. Her CNN International show \"Amanpour\" goes weekly in early 2027 and ends in May, and she leaves CNN the following month. She gave no reason. Her exit comes as CNN changes owners: Skydance-owned Paramount closed its $81 billion purchase of Warner Bros. Discovery on Oct. 6. Amanpour, 68, joined CNN as an assistant in Atlanta in 1983.",
+      "why": "One of TV news' best-known foreign correspondents is leaving as CNN changes hands.",
+      "source": "AP",
+      "url": "https://apnews.com/article/cnn-news-network-amanpour-907d3521fbb30a1cf648e3166c3258a5",
+      "tags": [
+        "cnn",
+        "media"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-20-cms-proposes-medicare-pbm-rules",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-20T00:00:00-04:00",
+      "time_known": false,
+      "text": "Medicare drug-plan middlemen would face limits on what they are paid and new disclosure rules, under a CMS proposal published Tuesday.",
+      "detail": "The proposed rule carries out three parts of the Consolidated Appropriations Act, 2026, enacted Feb. 3. For pharmacy benefit managers (PBMs) in Medicare Part D, it would limit the payments they may receive for Part D drugs, require data reporting to plans and CMS, and require disclosure of price-guarantee deals and certain PBM-drugmaker agreements, with money owed back to CMS for violations. It would also cut the generic-drug copay from $1 to $0 for the lowest-income people enrolled in both Medicare and Medicaid starting in 2028, and set accuracy rules for Medicare Advantage provider directories from 2028. Comments are due Dec. 15. CMS says it cannot estimate the financial impact of the PBM provisions.",
+      "why": "It is the first draft of the rules for the PBM overhaul Congress passed for Medicare's drug program.",
+      "source": "Federal Register (Centers for Medicare & Medicaid Services)",
+      "url": "https://www.federalregister.gov/d/2026-21420",
+      "tags": [
+        "medicare",
+        "pbm",
+        "cms"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-fda-approves-jemperli-rectal-cancer",
+      "section": "health",
+      "health_beat": "drugs",
+      "topic": "health",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-19T12:00:00-04:00",
+      "time_known": false,
+      "text": "Jemperli, a GSK immunotherapy, won FDA accelerated approval Monday for some rectal cancers, which may let patients avoid chemotherapy, radiation and surgery.",
+      "detail": "The approval covers adults with previously untreated stage II or III locally advanced rectal cancer whose tumors are mismatch repair deficient (dMMR) or microsatellite instability-high (MSI-H) on an FDA-authorized test. It rests on interim results from the phase 2 AZUR-1 trial of 154 patients given up to nine doses over six months: after a median follow-up of more than two years, almost three-fourths had not needed surgery, radiation or chemotherapy. The FDA finished the review nearly four months early under its National Priority Voucher pilot. Because the approval is accelerated, GSK must keep following patients to confirm lasting benefit.",
+      "why": "It is the first U.S.-approved drug that may spare some rectal cancer patients surgery, radiation and chemotherapy.",
+      "source": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+      "tags": [
+        "fda",
+        "cancer"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-kenya-travel-advisory-level-3",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "US",
+      "thread": "kenya-ebola",
+      "impact": 2,
+      "time": "2026-10-19T12:00:00-04:00",
+      "time_known": false,
+      "text": "The State Department raised its Kenya travel advisory to Level 3, \"Reconsider Travel,\" from Level 2, citing health risks as Kenya fights Ebola.",
+      "detail": "The advisory was renewed Oct. 19 and posted by the U.S. Embassy in Nairobi. It notes CDC travel health notices for Ebola Bundibugyo in Kenya and for Ebola in Congo. Level 4 \"Do Not Travel\" areas remain, including Nairobi's Eastleigh and Kibera neighborhoods and several northern and eastern border counties. Kenya has confirmed eight Ebola cases.",
+      "why": "Washington is now telling Americans to rethink trips to East Africa's main business and travel hub.",
+      "source": "U.S. Embassy in Kenya (State Department)",
+      "url": "https://ke.usembassy.gov/travel-advisory-kenya-level-3-reconsider-travel/",
+      "tags": [
+        "ebola",
+        "kenya",
+        "travel-advisory"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-17-kayem-meat-recall",
+      "section": "health",
+      "health_beat": "drugs",
+      "topic": "health",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-17T12:00:00-04:00",
+      "time_known": false,
+      "text": "Kayem Foods is recalling about 1.58 million pounds of ready-to-eat meat and poultry that may have been stored too warm, USDA said.",
+      "detail": "The Food Safety and Inspection Service said Oct. 17 that the Chelsea, Mass., company is recalling 1,584,361 pounds of products made from about March 31 to Oct. 7, 2026, after a warehouse cooler had temperature problems found through a customer complaint on Oct. 1. Products carry establishment numbers EST. M/P 7839, EST. P 20935A or EST. M 9520 and were shipped to stores and food-service locations nationwide and to Hong Kong. No illnesses have been confirmed. The full product list is on the FSIS recall page.",
+      "why": "It is a large nationwide recall of everyday deli and hot-dog products.",
+      "source": "USDA Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/recalls-alerts/kayem-foods-inc--recalls-meat-and-poultry-products-due-possible-temperature-abuse",
+      "tags": [
+        "recall",
+        "food-safety"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
+    {
+      "id": "2026-10-19-china-q3-gdp-4-5",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-18T22:00:00-04:00",
+      "time_known": false,
+      "text": "China's economy grew 4.5% in the third quarter from a year earlier, up from 4.3% in the second quarter, the National Bureau of Statistics said.",
+      "detail": "Growth for the first three quarters was 4.6%, which the bureau said is in line with the annual target. Industrial output rose 5.3%, with high-tech manufacturing up 14.3%. Retail sales of goods rose only 1.1% in the first three quarters. Goods trade rose 18.8% to 39.94 trillion yuan, with imports up 22.3%. The urban jobless rate was 5.2% in September.",
+      "why": "Growth in the world's second-largest economy affects global demand, trade and commodity prices.",
+      "source": "National Bureau of Statistics of China (via gov.cn)",
+      "url": "https://english.www.gov.cn/archive/statistics/202610/19/content_WS6ad5a59bc6d00ca5f9a0dc86.html",
+      "tags": [
+        "china",
+        "gdp"
+      ],
+      "added_at": "2026-10-20T05:38:43-04:00"
+    },
     {
       "id": "2026-10-19-scotus-rejects-911-plea-deals",
       "section": "news",
@@ -585,7 +912,8 @@
         "ebola",
         "kenya"
       ],
-      "added_at": "2026-10-18T16:52:45-04:00"
+      "added_at": "2026-10-18T16:52:45-04:00",
+      "thread": "kenya-ebola"
     },
     {
       "id": "2026-10-18-east-potomac-golf-course-closing",
@@ -904,7 +1232,8 @@
         "ebola",
         "kenya"
       ],
-      "added_at": "2026-10-17T14:10:12-04:00"
+      "added_at": "2026-10-17T14:10:12-04:00",
+      "thread": "kenya-ebola"
     },
     {
       "id": "2026-10-17-irgc-claims-second-tanker-mine",
@@ -5180,7 +5509,8 @@
       "time": "2026-10-06T04:43:00-04:00",
       "source": "AP",
       "url": "https://apnews.com/article/kenya-congo-ebola-death-nairobi-32ccde1e74048396ad5cb9f9fe47495e",
-      "added_at": "2026-10-06T05:35:40-04:00"
+      "added_at": "2026-10-06T05:35:40-04:00",
+      "thread": "kenya-ebola"
     },
     {
       "id": "2026-10-06-jim-bakker-dies",

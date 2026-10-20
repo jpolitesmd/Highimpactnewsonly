@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-20-morning",
+   "date": "2026-10-20",
+   "edition": "morning",
+   "count": 10,
+   "lead": "The 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants stay void after the Supreme Court refused Monday to hear their appeals."
+  },
+  {
    "key": "2026-10-19-evening",
    "date": "2026-10-19",
    "edition": "evening",
@@ -295,5 +302,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-19T16:49:59-04:00"
+ "updated": "2026-10-20T05:38:50-04:00"
 }

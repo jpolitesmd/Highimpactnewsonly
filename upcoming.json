@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "events": [
     {
       "date": "2026-10-19",
@@ -232,6 +232,16 @@
       ]
     },
     {
+      "date": "2026-10-27",
+      "when": "After the close",
+      "text": "Visa reports fiscal fourth-quarter and full-year results after the close; webcast 5:00 p.m. ET.",
+      "detail": "Date and webcast time (2 p.m. Pacific) per Visa's Oct. 8 Business Wire announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-28",
       "when": "2:00 p.m. ET",
       "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
@@ -258,6 +268,17 @@
       "buzz": true,
       "tags": [
         "markets"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "when": "9:45 a.m. ET",
+      "text": "Bank of Canada interest rate decision and Monetary Policy Report, 9:45 a.m. ET.",
+      "detail": "Per the Bank of Canada's 2026 schedule. The overnight rate target has been 2.25% since late 2025; Governor Tiff Macklem said Oct. 17 the bank expects to raise its inflation forecast, and the Globe and Mail reported Oct. 19 that money markets price about a 75% chance of a quarter-point hike.",
+      "buzz": true,
+      "tags": [
+        "markets",
+        "canada"
       ]
     },
     {
@@ -315,6 +336,26 @@
       "when": "8:30 a.m. ET",
       "text": "Third-quarter Employment Cost Index (BLS), 8:30 a.m. ET.",
       "detail": "Date and time per the BLS ECI release schedule; Fed-watched measure of labor-cost inflation.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "when": "Overnight (Tokyo)",
+      "text": "Bank of Japan interest rate decision and quarterly Outlook Report (meeting Oct. 29–30).",
+      "detail": "Per the BOJ's 2026 meeting schedule. The policy rate is 1.25%, a 31-year high, after a September hike, per Reuters.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "when": "Before the open",
+      "text": "ExxonMobil and Chevron report third-quarter results; Exxon release about 6:30 a.m. ET with a 9:30 a.m. ET call, Chevron call 11:00 a.m. ET.",
+      "detail": "Times per ExxonMobil's Oct. 16 Business Wire release (5:30 and 8:30 a.m. Central) and Chevron's investor events page.",
       "buzz": true,
       "tags": [
         "markets"

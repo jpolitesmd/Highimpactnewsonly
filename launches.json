@@ -1,17 +1,10 @@
 {
- "updated": "2026-10-20T05:38:47-04:00",
- "block": {"start": "2026-10-19", "end": "2026-11-01", "refreshed": "2026-10-18"},
+ "updated": "2026-10-20T16:53:31-04:00",
+ "block": {
+  "start": "2026-10-19",
+  "end": "2026-11-01",
+  "refreshed": "2026-10-18"
+ },
  "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages",
- "launches": [
-  {
-   "date": "2026-10-20",
-   "sort": "07:04",
-   "time": "Window opens 7:04 a.m.",
-   "rocket": "Falcon 9",
-   "mission": "Bandwagon-5 (rideshare, 32 payloads)",
-   "site": "SLC-40, Cape Canaveral Space Force Station, Fla.",
-   "note": "Backup Wed., Oct. 21, window opens 6:30 a.m.",
-   "url": "https://www.spacex.com/launches/bandwagon5"
-  }
- ]
+ "launches": []
 }

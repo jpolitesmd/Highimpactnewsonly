@@ -1,0 +1,264 @@
+{
+ "date": "2026-10-21",
+ "edition": "morning",
+ "subject": "Wednesday, Oct 21 - Morning edition",
+ "published": "2026-10-21T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-21-california-state-workers-strike",
+   "section": "news",
+   "text": "California state workers are on a one-day strike Wednesday, the first in the history of SEIU Local 1000, the largest state-employee union.",
+   "detail": "The union represents more than 100,000 state employees, including auditors, nurses and counselors, and is picketing in cities across the state. Members voted to authorize the strike earlier this month, saying the state has not bargained in good faith since their contract expired in June. The union wants raises of 20% over three years, a larger state contribution to health-care costs and more flexibility for remote work; Gov. Gavin Newsom ordered state workers back to the office four days a week by July 1 and last month vetoed a union-backed bill on office mandates. The California Department of Human Resources said departments have contingency plans and it remains available at the bargaining table.",
+   "why": "Public services in the most populous state may be slower for a day, and the fight over return-to-office rules is spreading to public workers.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-21T00:01:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/california-state-workers-strike-newsom-a3a4f547a612a68360e75e7feaaffb96"
+  },
+  {
+   "id": "2026-10-20-datarepublican-democracy-files-allegations",
+   "section": "news",
+   "text": "X account DataRepublican alleges leaked recordings show progressive groups planned to declare the federal government illegitimate if certain \"red lines\" are crossed. Unverified.",
+   "detail": "UNVERIFIED ALLEGATION. The claims below are DataRepublican's and have not been independently verified; High Impact News Daily has not reviewed the recordings. In posts since Oct. 18 it calls \"The Democracy Files,\" the account says it obtained \"thousands of new transcripts and hundreds of recordings\" from private calls, which it says come from the Renew to Thrive group and associates. It alleges Renew to Thrive sits inside a little-known \"United Democracy Alliance\" that it describes as a \"control plane\" of leaders from groups such as 50501 and Indivisible, and says National Security Leaders for America, led by retired Rear Adm. Michael E. Smith, is credited with \"operationalizing\" it. It says the audio outlines \"a sequence of 'redlines'\" under which the federal government \"should be declared illegitimate,\" with an Insurrection Act invocation against protesters \"one of the most discussed,\" and an earlier post says planned responses include \"handing that legitimacy to Democratic governors.\" It says the audio shows the idea was \"shopped\" to governors, while adding that governors \"do not have to explicitly sign on.\" The account calls this a \"coup\"; that is its characterization. A third post Tuesday night alleges the groups took advice from foreign officials with experience in political transitions abroad, though it says that video \"doesn't prove\" the meeting caused later events. No charges, investigations or official statements about the claims have been announced, and no public response from the named groups or people could be found as of early Wednesday. The account released a book the same week and urges readers to vote Republican.",
+   "why": "The claims are spreading widely online two weeks before the midterms, but none has been confirmed by officials or independent reporting.",
+   "impact": 3,
+   "topic": "security",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-20T21:34:30-04:00",
+   "time_known": true,
+   "source": "DataRepublican on X (unverified allegation; original thread)",
+   "url": "https://x.com/DataRepublican/status/2112364654991409339"
+  },
+  {
+   "id": "2026-10-20-florida-18th-execution-reaves",
+   "section": "news",
+   "text": "Florida executed William Reaves, 77, on Tuesday, its 18th execution this year, for the 1986 killing of a sheriff's deputy.",
+   "detail": "Reaves was pronounced dead at 6:12 p.m. after a three-drug injection at Florida State Prison near Starke. He was convicted of first-degree murder in the shooting death of Indian River County Deputy Richard Raczkoski. He was the eighth Florida prisoner over age 70 executed this year. Florida set a state record of 19 executions last year and would tie it if an execution scheduled for next month is carried out.",
+   "why": "Florida is carrying out executions at a record pace, far ahead of any other state.",
+   "impact": 2,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-20T18:12:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/florida-execution-william-reaves-902a20ec504bc82b17008a6b3771beb2"
+  },
+  {
+   "id": "2026-10-20-faa-certifies-boeing-737-max-10",
+   "section": "tech",
+   "text": "Boeing's 737 Max 10, the largest 737, was cleared by the FAA on Tuesday to carry passengers after years of delays.",
+   "detail": "The FAA issued an amended type certificate and an updated production authorization, so the jet can now be delivered to U.S. and foreign airlines; Boeing says deliveries begin in the coming months. The FAA required changes under the 2020 Aircraft Certification, Safety, and Accountability Act and NTSB recommendations, including an enhanced angle-of-attack sensor system that Boeing says will become standard across the Max family. Boeing says the certification program included nearly 1,000 test flights, and that more than 30 customers have ordered 1,555 Max 10s, over 30% of the Max order book. The plane was introduced in 2017 and originally planned for delivery in 2020. Transportation Secretary Sean Duffy handed over the documents at Boeing's Everett, Wash., plant.",
+   "why": "It is the final regulatory step for a jet airlines have waited years for, and a test of the FAA's tougher post-crash certification rules.",
+   "impact": 3,
+   "topic": "factory",
+   "region": "US",
+   "time": "2026-10-20T15:00:00-04:00",
+   "time_known": false,
+   "source": "Federal Aviation Administration",
+   "url": "https://www.faa.gov/newsroom/federal-aviation-administration-issues-certification-boeing-737-max-10"
+  },
+  {
+   "id": "2026-10-20-iran-tells-munir-no-talks",
+   "section": "news",
+   "text": "Iran will not hold talks with Washington until its demands are met, its leaders told Pakistan's army chief, a key mediator, in Tehran on Tuesday.",
+   "detail": "President Masoud Pezeshkian met Field Marshal Asim Munir to discuss mediation, according to Iranian media. Parliament speaker Mohammad Baqer Qalibaf said the U.S. could not regain Iran's trust until it meets the seven conditions Iran set last month for reopening the Strait of Hormuz, including ending the U.S. blockade of Iran's ports, lifting sanctions on its oil exports and ending hostilities on all regional fronts. Security chief Mohsen Rezaei delivered the same message and said all enriched nuclear material will stay in Iran. Pakistan's earlier mediation helped produce an interim deal in June that unraveled when fighting resumed weeks later. Vice President JD Vance said earlier this month that Iran must make a \"meaningful\" cut in its enrichment capacity to end the eight-month war.",
+   "why": "The war's main diplomatic channel is stalled, with both sides holding to their conditions.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-20T12:45:00-04:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/iran-tells-pakistan-army-chief-no-talks-with-washington-until-demands-are-met-2026-10-20/"
+  },
+  {
+   "id": "2026-10-20-dc-circuit-revives-church-ice-challenge",
+   "section": "news",
+   "text": "A challenge to ICE arrests at churches and synagogues was revived Tuesday when a federal appeals court ruled 27 religious groups can seek to block the policy.",
+   "detail": "A split D.C. Circuit panel (2-1) reversed U.S. District Judge Dabney Friedrich, who had ruled the Christian and Jewish groups lacked standing for a preliminary injunction, and sent the case back for her to reconsider their request. The groups challenge the Jan. 20, 2025, Homeland Security memo that rescinded the decades-old \"sensitive locations\" policy limiting immigration enforcement at places of worship. Judge Florence Pan, joined by Judge Robert Wilkins, wrote that the government \"announced a plan to ramp up enforcement\" and the groups showed a credible threat. Judge Neomi Rao dissented, calling the claimed harms speculative. The ruling does not itself block the policy.",
+   "why": "It reopens the possibility that limits on immigration arrests at houses of worship could be restored while the case continues.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the D.C. Circuit",
+   "region": "US",
+   "time": "2026-10-20T12:00:00-04:00",
+   "time_known": false,
+   "source": "Courthouse News Service (D.C. Circuit opinion)",
+   "url": "https://www.courthousenews.com/dc-circuit-sides-with-religious-groups-in-fight-to-block-ice-church-raids/"
+  },
+  {
+   "id": "2026-10-20-abyei-strike-toll-153",
+   "section": "news",
+   "text": "The death toll from Monday's drone strike on a market in Abyei, on the Sudan-South Sudan border, has risen to at least 153, AP reported Tuesday.",
+   "detail": "The strike hit Amiet Market and a nearby fuel depot, setting off a large fire; the morning edition reported at least 73 dead. Reuters also cited an official saying more than 150 people were killed. Local officials blamed Sudan's military; that has not been independently confirmed. Abyei is claimed by both Sudan and South Sudan.",
+   "why": "It is among the deadliest single attacks of Sudan's war.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-20T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/sudan-drone-strike-fuel-depot-abyei-deaths-f36b3c7d15be6b48efdc35eed7219d6d"
+  },
+  {
+   "id": "2026-10-20-doj-fraud-whistleblower-rewards",
+   "section": "news",
+   "text": "The Fraud Whistleblower Incentive Program, a new $25 million Justice Department fund, will pay tipsters $10,000 to $30,000 when their tips lead to fraud charges.",
+   "detail": "The Justice Department's National Fraud Enforcement Division runs the program, and the Treasury Department is committing $25 million to it. Awards are paid at the department's discretion once criminal charges are filed, rather than after a case ends, and tipsters can still qualify for larger awards under other programs. It covers federal health care fraud, with priority on hospice, home health care, day care and special services, and fraud on programs run by the Agriculture Department (such as SNAP), Labor, HHS, HUD, Education, Veterans Affairs, the Department of War and the Small Business Administration. People who took part in the fraud are not eligible. Tips can be submitted now at america.gov/fraud. President Trump announced the program with Vice President JD Vance, who chairs the White House fraud task force.",
+   "why": "Anyone can now collect a federal cash reward for reporting fraud in health care and benefit programs such as SNAP, unemployment and student aid.",
+   "impact": 3,
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-20T11:41:00-04:00",
+   "time_known": true,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/justice-department-announces-innovative-whistleblower-rewards-program-combat-fraud"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 3
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-20-fda-approves-hibsago-hepatitis-b",
+   "section": "health",
+   "text": "Hibsago, a GSK injection for chronic hepatitis B, won FDA approval Tuesday as the first treatment that may let some patients stop all hepatitis B medicine.",
+   "detail": "The FDA approved Hibsago (bepirovirsen), given with existing antiviral drugs, for certain adults without cirrhosis who have taken antivirals for at least six months, have suppressed virus levels and have hepatitis B surface antigen of 3,000 IU/mL or less. It is the first antisense drug approved for the disease. In two placebo-controlled trials, 24% of patients on Hibsago qualified to stop their existing medicine, versus none on placebo, and 19% still had the virus controlled 24 weeks after stopping all treatment. It carries a boxed warning for serious liver reactions and low platelet counts. The FDA also authorized a Roche test to pick eligible patients.",
+   "why": "Most hepatitis B patients now take antiviral pills for life.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-20T12:00:00-04:00",
+   "time_known": false,
+   "source": "FDA",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+  },
+  {
+   "id": "2026-10-19-rays-win-al-pennant",
+   "section": "sports",
+   "text": "The Tampa Bay Rays won the American League pennant Monday, beating the Cleveland Guardians 7-3 in Game 6, and will face Milwaukee in the World Series.",
+   "detail": "Tampa Bay took the AL Championship Series 4-2 after trailing 1-0 and 2-1, winning the last three games. Yandy Díaz and Junior Caminero each hit two-run homers. Freddy Peralta, named ALCS MVP, allowed one run in 5 1/3 innings. It is the Rays' third pennant and their first World Series trip since 2020. Neither team has won a World Series, so either will be a first-time champion, the first such World Series since 1980. Game 1 is Friday night in Milwaukee.",
+   "why": "The World Series is set, and baseball will crown a first-time champion.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-19T23:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/guardians-rays-score-alcs-game-6-e727b3a485df7dbf0dd866edbff9b22a"
+  },
+  {
+   "id": "2026-10-20-spacex-q3-revenue-161-percent",
+   "section": "tech",
+   "text": "SpaceX's revenue rose 161% to $14.6 billion in the third quarter and it earned $4.4 billion, the company reported Tuesday.",
+   "detail": "A year earlier SpaceX lost $1.1 billion. Its artificial-intelligence segment brought in $7.6 billion, up from $813 million, helped by cloud-services deals and its August purchase of Cursor; Starlink and other connectivity revenue rose 69% to $5.2 billion, with 13.6 million Starlink consumer subscribers. Capital spending reached $48.1 billion in the first nine months. It was SpaceX's second quarterly report since its June listing on Nasdaq.",
+   "why": "The newly public company's results show its spending on AI is now driving most of its revenue.",
+   "impact": 2,
+   "topic": "rocket",
+   "region": "US",
+   "time": "2026-10-20T16:00:00-04:00",
+   "time_known": true,
+   "source": "SpaceX (SEC Form 8-K)",
+   "url": "https://ir.spacex.com/"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-19-scotus-rejects-911-plea-deals",
+   "section": "news",
+   "text": "The 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants stay void after the Supreme Court refused Monday to hear their appeals.",
+   "detail": "The unsigned order denied review in Mohammad v. United States and bin 'Atash v. United States, leaving in place a D.C. Circuit ruling that then-Defense Secretary Lloyd Austin lawfully withdrew the 2024 agreements, which would have traded guilty pleas for life sentences instead of possible death sentences. Justice Brett Kavanaugh did not take part in Mohammed's case. A military judge has set the trial of Mohammed, Mustafa al Hawsawi and Walid bin 'Atash for June 2028. On the same order list, the court also turned away former NLRB member Gwynne Wilcox's challenge to her firing by President Trump, and agreed to hear cases on race in Montgomery County, Md., magnet-school admissions and on the federal ban on home distilling.",
+   "why": "The ruling keeps the death penalty possible in the long-stalled prosecution of the accused planners of the attacks that killed nearly 3,000 people.",
+   "impact": 4,
+   "topic": "courts",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
+  },
+  {
+   "id": "2026-10-20-trump-signs-10-bills",
+   "section": "news",
+   "text": "Online dating services must warn users who got messages from members banned for fraud, under one of 10 bills President Trump signed into law Tuesday.",
+   "detail": "The Romance Scam Prevention Act requires the fraud-ban notices. The other laws make Arizona's Chiricahua National Monument a national park; give ministers and certain religious workers two years to ask the IRS to revoke their exemption from Social Security coverage (the Clergy Act); order Labor Department training to spot human trafficking; order a Commerce study on making in the U.S. high-demand products now imported because of supply limits; extend Interior's authority to collect oil and gas permit fees; and transfer or place in trust land in Arizona, Washington, Alaska and Mississippi.",
+   "why": "New federal rules now apply to dating apps and a new national park is created.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-20T11:00:00-04:00",
+   "time_known": false,
+   "source": "The White House",
+   "url": "https://www.whitehouse.gov/briefings-statements/2026/10/congressional-bills-h-r-227-h-r-837-h-r-1721-h-r-2388-h-r-2481-h-r-3620-h-r-4307-h-r-4467-h-r-6380-and-h-r-7831-signed-into-law/"
+  },
+  {
+   "id": "2026-10-20-uk-typhoons-defend-saudi",
+   "section": "news",
+   "text": "British fighter jets will fly defensive missions over Saudi Arabia to help shoot down Houthi missiles and drones, Britain's Defence Ministry said Tuesday.",
+   "detail": "RAF Typhoon jets will protect Saudi cities and critical infrastructure and will not strike the Houthis, the ministry said. Britain will also send an A400M transport plane and military advisers and extend its air-to-air refueling support for Saudi air operations, including those against Houthi military targets in Yemen. Defence Secretary Wes Streeting cited the Houthis' targeting of King Khalid International Airport in Riyadh. Britain already has air-defense equipment and personnel in the kingdom.",
+   "why": "Britain is joining the air defense of a Gulf ally as Houthi attacks widen.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-20T09:15:00-04:00",
+   "time_known": false,
+   "source": "U.K. Ministry of Defence",
+   "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-21",
+   "when": "After the close",
+   "text": "IBM reports third-quarter results after the close; announcement 5:00 p.m. ET.",
+   "detail": "Date and time per IBM investor relations.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "when": "After the close",
+   "text": "Meta reports third-quarter results after the close; call 4:30 p.m. ET.",
+   "detail": "Date and call time per Meta’s Oct. 12 investor relations release.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "when": "After the close",
+   "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
+   "detail": "Tesla already reported 486,532 Q3 deliveries on Oct. 2; profit and cash flow come with the earnings release.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

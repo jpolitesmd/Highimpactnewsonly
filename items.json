@@ -1,6 +1,145 @@
 {
-  "updated": "2026-10-20T17:15:00-04:00",
+  "updated": "2026-10-21T05:32:53-04:00",
   "items": [
+    {
+      "id": "2026-10-21-california-state-workers-strike",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-21T00:01:00-04:00",
+      "time_known": false,
+      "pin": "2026-10-21 morning",
+      "pin_order": 1,
+      "text": "California state workers are on a one-day strike Wednesday, the first in the history of SEIU Local 1000, the largest state-employee union.",
+      "detail": "The union represents more than 100,000 state employees, including auditors, nurses and counselors, and is picketing in cities across the state. Members voted to authorize the strike earlier this month, saying the state has not bargained in good faith since their contract expired in June. The union wants raises of 20% over three years, a larger state contribution to health-care costs and more flexibility for remote work; Gov. Gavin Newsom ordered state workers back to the office four days a week by July 1 and last month vetoed a union-backed bill on office mandates. The California Department of Human Resources said departments have contingency plans and it remains available at the bargaining table.",
+      "why": "Public services in the most populous state may be slower for a day, and the fight over return-to-office rules is spreading to public workers.",
+      "source": "AP",
+      "url": "https://apnews.com/article/california-state-workers-strike-newsom-a3a4f547a612a68360e75e7feaaffb96",
+      "tags": [
+        "strike",
+        "california",
+        "return-to-office",
+        "unions"
+      ],
+      "added_at": "2026-10-21T05:32:53-04:00"
+    },
+    {
+      "id": "2026-10-20-datarepublican-democracy-files-allegations",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "impact": 3,
+      "alleged": true,
+      "branch": [
+        "executive"
+      ],
+      "thread": "midterms-2026",
+      "time": "2026-10-20T21:34:30-04:00",
+      "time_known": true,
+      "text": "X account DataRepublican alleges leaked recordings show progressive groups planned to declare the federal government illegitimate if certain \"red lines\" are crossed. Unverified.",
+      "detail": "UNVERIFIED ALLEGATION. The claims below are DataRepublican's and have not been independently verified; High Impact News Daily has not reviewed the recordings. In posts since Oct. 18 it calls \"The Democracy Files,\" the account says it obtained \"thousands of new transcripts and hundreds of recordings\" from private calls, which it says come from the Renew to Thrive group and associates. It alleges Renew to Thrive sits inside a little-known \"United Democracy Alliance\" that it describes as a \"control plane\" of leaders from groups such as 50501 and Indivisible, and says National Security Leaders for America, led by retired Rear Adm. Michael E. Smith, is credited with \"operationalizing\" it. It says the audio outlines \"a sequence of 'redlines'\" under which the federal government \"should be declared illegitimate,\" with an Insurrection Act invocation against protesters \"one of the most discussed,\" and an earlier post says planned responses include \"handing that legitimacy to Democratic governors.\" It says the audio shows the idea was \"shopped\" to governors, while adding that governors \"do not have to explicitly sign on.\" The account calls this a \"coup\"; that is its characterization. A third post Tuesday night alleges the groups took advice from foreign officials with experience in political transitions abroad, though it says that video \"doesn't prove\" the meeting caused later events. No charges, investigations or official statements about the claims have been announced, and no public response from the named groups or people could be found as of early Wednesday. The account released a book the same week and urges readers to vote Republican.",
+      "why": "The claims are spreading widely online two weeks before the midterms, but none has been confirmed by officials or independent reporting.",
+      "source": "DataRepublican on X (unverified allegation; original thread)",
+      "url": "https://x.com/DataRepublican/status/2112364654991409339",
+      "tags": [
+        "allegation",
+        "unverified",
+        "x",
+        "midterms",
+        "insurrection-act"
+      ],
+      "added_at": "2026-10-21T05:32:53-04:00"
+    },
+    {
+      "id": "2026-10-20-faa-certifies-boeing-737-max-10",
+      "section": "tech",
+      "topic": "factory",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-20T15:00:00-04:00",
+      "time_known": false,
+      "text": "Boeing's 737 Max 10, the largest 737, was cleared by the FAA on Tuesday to carry passengers after years of delays.",
+      "detail": "The FAA issued an amended type certificate and an updated production authorization, so the jet can now be delivered to U.S. and foreign airlines; Boeing says deliveries begin in the coming months. The FAA required changes under the 2020 Aircraft Certification, Safety, and Accountability Act and NTSB recommendations, including an enhanced angle-of-attack sensor system that Boeing says will become standard across the Max family. Boeing says the certification program included nearly 1,000 test flights, and that more than 30 customers have ordered 1,555 Max 10s, over 30% of the Max order book. The plane was introduced in 2017 and originally planned for delivery in 2020. Transportation Secretary Sean Duffy handed over the documents at Boeing's Everett, Wash., plant.",
+      "why": "It is the final regulatory step for a jet airlines have waited years for, and a test of the FAA's tougher post-crash certification rules.",
+      "source": "Federal Aviation Administration",
+      "url": "https://www.faa.gov/newsroom/federal-aviation-administration-issues-certification-boeing-737-max-10",
+      "tags": [
+        "boeing",
+        "faa",
+        "aviation"
+      ],
+      "added_at": "2026-10-21T05:32:53-04:00"
+    },
+    {
+      "id": "2026-10-20-dc-circuit-revives-church-ice-challenge",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the D.C. Circuit",
+      "branch": [
+        "judicial"
+      ],
+      "region": "US",
+      "thread": "deportations-courts",
+      "impact": 3,
+      "time": "2026-10-20T12:00:00-04:00",
+      "time_known": false,
+      "text": "A challenge to ICE arrests at churches and synagogues was revived Tuesday when a federal appeals court ruled 27 religious groups can seek to block the policy.",
+      "detail": "A split D.C. Circuit panel (2-1) reversed U.S. District Judge Dabney Friedrich, who had ruled the Christian and Jewish groups lacked standing for a preliminary injunction, and sent the case back for her to reconsider their request. The groups challenge the Jan. 20, 2025, Homeland Security memo that rescinded the decades-old \"sensitive locations\" policy limiting immigration enforcement at places of worship. Judge Florence Pan, joined by Judge Robert Wilkins, wrote that the government \"announced a plan to ramp up enforcement\" and the groups showed a credible threat. Judge Neomi Rao dissented, calling the claimed harms speculative. The ruling does not itself block the policy.",
+      "why": "It reopens the possibility that limits on immigration arrests at houses of worship could be restored while the case continues.",
+      "source": "Courthouse News Service (D.C. Circuit opinion)",
+      "url": "https://www.courthousenews.com/dc-circuit-sides-with-religious-groups-in-fight-to-block-ice-church-raids/",
+      "tags": [
+        "immigration",
+        "ice",
+        "religion",
+        "appeals-court"
+      ],
+      "added_at": "2026-10-21T05:32:53-04:00"
+    },
+    {
+      "id": "2026-10-20-ukraine-early-warnings-resume-witkoff-putin",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 2,
+      "time": "2026-10-20T13:30:00-04:00",
+      "time_known": false,
+      "text": "Ukraine is again getting early warnings of Russian missile attacks after a call with Secretary of State Rubio, President Zelenskyy said Tuesday.",
+      "detail": "Zelenskyy said for at least a week Kyiv had not received warnings about ballistic missiles aimed at the capital. Rubio, speaking in India, denied the administration had changed its policy on intelligence sharing or weapons. Norway's prime minister said U.S. envoy Steve Witkoff, who joined Zelenskyy in Oslo, would fly to St. Petersburg on Wednesday to meet Russian leaders. Russian strikes killed at least nine people across Ukraine over the past day, officials said, and caused power outages in 12 regions.",
+      "why": "Missile warnings give Ukrainian civilians time to take cover, and the Witkoff trip is the next step in U.S.-led peace talks.",
+      "source": "AP",
+      "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+      "tags": [
+        "ukraine",
+        "russia",
+        "rubio",
+        "witkoff"
+      ],
+      "added_at": "2026-10-21T05:32:53-04:00"
+    },
+    {
+      "id": "2026-10-20-florida-18th-execution-reaves",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-20T18:12:00-04:00",
+      "time_known": true,
+      "text": "Florida executed William Reaves, 77, on Tuesday, its 18th execution this year, for the 1986 killing of a sheriff's deputy.",
+      "detail": "Reaves was pronounced dead at 6:12 p.m. after a three-drug injection at Florida State Prison near Starke. He was convicted of first-degree murder in the shooting death of Indian River County Deputy Richard Raczkoski. He was the eighth Florida prisoner over age 70 executed this year. Florida set a state record of 19 executions last year and would tie it if an execution scheduled for next month is carried out.",
+      "why": "Florida is carrying out executions at a record pace, far ahead of any other state.",
+      "source": "AP",
+      "url": "https://apnews.com/article/florida-execution-william-reaves-902a20ec504bc82b17008a6b3771beb2",
+      "tags": [
+        "death-penalty",
+        "florida"
+      ],
+      "added_at": "2026-10-21T05:32:53-04:00"
+    },
     {
       "id": "2026-10-20-iran-tells-munir-no-talks",
       "section": "news",

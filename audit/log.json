@@ -1,163 +1,180 @@
 {
-  "updated": "2026-10-17",
-  "audits": [
+ "updated": "2026-10-20",
+ "audits": [
+  {
+   "run": "2026-09-29T21:41:09-04:00",
+   "day": "2026-09-27",
+   "reference_events": 8,
+   "missed": [
     {
-      "run": "2026-09-29T21:41:09-04:00",
-      "day": "2026-09-27",
-      "reference_events": 8,
-      "missed": [
-        {
-          "id": "2026-09-27-presidents-cup-us-wins",
-          "impact": 4,
-          "should_have_caught": "evening",
-          "reason": "Team golf championship decided Sunday afternoon; a 'final day results' sports search would have found it."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "- Sports: on Sundays and weekends search \"[event] final day results\" (Presidents Cup, Ryder Cup, majors, team championships) and open espn.com/golf or the event's Yahoo Sports wrap; team championships decided in the afternoon count as impact 4. Missed 2026-09-27: U.S. won Presidents Cup 17-13. [audit 2026-09-27]"
-      ]
-    },
-    {
-      "run": "2026-10-01T21:37:00-04:00",
-      "day": "2026-10-01",
-      "reference_events": 10,
-      "missed": [
-        {
-          "id": "2026-10-01-ofac-iran-auto-rail",
-          "impact": 3,
-          "should_have_caught": "evening",
-          "reason": "OFAC sectoral sanctions on Iran auto + rail (Operation Economic Outcast); Treasury/OFAC recent-actions same day."
-        },
-        {
-          "id": "2026-10-01-scotus-rhoney-cert",
-          "impact": 3,
-          "should_have_caught": "evening",
-          "reason": "SCOTUS misc. orders granted cert in Rhoney (mandatory ICE detention); midweek order PDF, not only Monday lists."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window — emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
-        "- Treasury/OFAC: when Iran wartime pressure is active, check home.treasury.gov press releases and ofac.treasury.gov/recent-actions same day; sectoral determinations + SDN dumps are evening Government copy even if abroad. Missed 2026-10-01: Iran auto + rail sectoral sanctions (Operation Economic Outcast). [audit 2026-10-01]"
-      ]
-    },
-    {
-      "run": "2026-10-03T21:47:00-04:00",
-      "day": "2026-10-03",
-      "reference_events": 9,
-      "missed": [],
-      "misrated": [],
-      "checklist_changes": [
-        "Trimmed expired one-off: Saturday Oct 3 evening air-ambulance seed (edition already shipped). [audit 2026-10-03]"
-      ]
-    },
-    {
-      "run": "2026-10-06T21:43:00-04:00",
-      "day": "2026-10-05",
-      "reference_events": 12,
-      "missed": [
-        {
-          "id": "2026-10-05-quebec-pq-minority-government",
-          "impact": 3,
-          "should_have_caught": "morning",
-          "reason": "Parti Québécois won Quebec's Oct. 5 election (59 of 127 seats, minority; referendum pledged after Trump leaves office); results came after the evening edition and the Oct. 6 morning edition skipped overnight election results."
-        },
-        {
-          "id": "2026-10-05-judge-blocks-dhs-migrant-fines",
-          "impact": 3,
-          "should_have_caught": "evening",
-          "reason": "Boston federal judge George O'Toole stayed the DHS/ICE civil-penalty rule and fines up to $1.8M (Reuters, Oct. 5); no 'judge blocks' district-court search in the checklist."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "Trimmed expired one-off: Monday Oct 5 morning plague-story seed (edition shipped).",
-        "- Federal district courts: search Reuters legal / The Hill court-battles for \"judge blocks\" + today's date; rulings halting nationwide Trump policies (immigration fines, rules) are Government impact 3 even when the order is dated days earlier and only reported today. Missed 2026-10-05: Boston judge stayed DHS fines up to $1.8M on migrants (100k+ fines, $84B). [audit 2026-10-05]",
-        "- Overnight foreign election results: check upcoming.json and search \"[country/province] election results\" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Québécois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]"
-      ]
-    },
-    {
-      "run": "2026-10-08T22:14:00-04:00",
-      "day": "2026-10-07",
-      "reference_events": 18,
-      "missed": [
-        {
-          "id": "2026-10-07-tanker-acers-qatar",
-          "impact": 3,
-          "should_have_caught": "evening",
-          "reason": "UKMTO Warning 158-26: tanker Acers struck ~51 NM north of Qatar at 1900 UTC / 3:00 p.m. ET with casualties; same-afternoon UKMTO check before evening lock."
-        },
-        {
-          "id": "2026-10-06-afd-saxony-anhalt-landtag-president",
-          "impact": 3,
-          "should_have_caught": "morning",
-          "reason": "AfD’s Tobias Rausch elected Saxony-Anhalt Landtag president Oct 6 (first AfD speaker / first far-right state legislature head since 1945); Just Security Early Edition Oct 7 flagged it; missed Oct 6 evening and Oct 7 morning."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "- Gulf/Hormuz wartime: before evening lock, open UKMTO latest warnings for same-afternoon tanker hits with casualties (not only overnight UKMTO). Missed 2026-10-07 evening: Acers struck ~51NM north of Qatar at 1900 UTC / 3:00 p.m. ET. [audit 2026-10-07]",
-        "- European far-right institutional firsts: after AfD/peer election wins, check same-day or next-morning Landtag speaker / premier votes (Just Security Early Edition often flags). Missed 2026-10-06→07 morning: AfD’s Tobias Rausch elected Saxony-Anhalt Landtag president (first for the party / first far-right state legislature head since 1945). [audit 2026-10-07]"
-      ]
-    },
-    {
-      "run": "2026-10-13T21:55:00-04:00",
-      "day": "2026-10-13",
-      "reference_events": 11,
-      "missed": [
-        {
-          "id": "2026-10-12-omar-home-searched",
-          "impact": 3,
-          "should_have_caught": "morning",
-          "reason": "Homeland Security Investigations executed a DOJ-secured search warrant at Rep. Ilhan Omar's D.C.-area home Monday Oct. 12 (DOJ statement; AP, Reuters), three weeks before the midterms; missed by the Oct. 12 evening edition and the Oct. 13 morning 'Yesterday's biggest stories' group. Checked and not counted: UKMTO 170-26/171-26 Hormuz hits (no casualties or names), Saudi strike on Sanaa fuel depot and Houthi hit on Aramco Dhahran office (limited fire, no injuries), UK blaming IRGC for RAF Fairford plot, OFAC Cartel del Noreste designations."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "- Law enforcement vs. officeholders: search AP/Reuters politics for \"search warrant\" OR \"indicted\" OR \"arrested\" + member of Congress/governor + today's date, including federal holidays; a DOJ-confirmed search or charge against a sitting official is Government impact 3. Missed 2026-10-12 evening and 2026-10-13 morning: HSI searched Rep. Ilhan Omar's home (DOJ confirmed). [audit 2026-10-13]"
-      ]
-    },
-    {
-      "run": "2026-10-15T21:50:00-04:00",
-      "day": "2026-10-14",
-      "reference_events": 14,
-      "missed": [
-        {
-          "id": "2026-10-13-pope-leo-lung-cancer",
-          "impact": 4,
-          "should_have_caught": "morning",
-          "reason": "Holy See Press Office confirmed Oct 13 (~5:27 p.m. ET, after the evening lock) that Pope Leo XIV has lung adenocarcinoma after removal of the lower lobe of his right lung at Gemelli Hospital; schedule cleared until at least Oct 20. Not in the Oct 14 morning edition or any later edition."
-        },
-        {
-          "id": "2026-10-14-eight-states-sue-openai",
-          "impact": 3,
-          "should_have_caught": "evening",
-          "reason": "Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska and West Virginia AGs filed coordinated state-court suits against OpenAI over ChatGPT safety Oct 14 (Reuters, AP, POLITICO, Bloomberg Law ~3:12 p.m. ET); missed by Oct 14 evening and Oct 15 morning. Checked and not counted: DOJ 48-hour letter to California on voter eligibility (threat only), judge blocking ICC-sanction penalties for DAWN (narrow, Oct 13), CREW suit over Kushner role, Trump rally remarks, Sberbank data-center strike, IMO second Hormuz sinking (weeks-old strike)."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "- Multistate attorney-general actions: search \"attorneys general sue\" OR \"states sue\" + today's date (AP, Reuters, POLITICO); a coordinated suit by several states against a major company (AI, tech, pharma) is impact 3 even when filed in separate state courts. Missed 2026-10-14 evening and 2026-10-15 morning: eight states sued OpenAI over ChatGPT safety. [audit 2026-10-15]",
-        "- After-lock announcements: open AP Top News and Reuters World for anything announced after the 4:30 p.m. ET lock, especially official health news or deaths of world leaders and religious leaders (Vatican press office, palace/government statements); these lead next morning's \"Yesterday\" group at World impact 3-4. Missed 2026-10-14 morning: Vatican confirmed Pope Leo XIV has lung cancer after surgery (announced ~5:27 p.m. ET Oct 13). [audit 2026-10-15]"
-      ]
-    },
-    {
-      "run": "2026-10-17T21:55:00-04:00",
-      "day": "2026-10-16",
-      "reference_events": 12,
-      "missed": [
-        {
-          "id": "2026-10-16-sudan-nyala-market-drone-strike",
-          "impact": 3,
-          "should_have_caught": "evening",
-          "reason": "A drone strike on a crowded cattle market in Nyala, South Darfur, killed 30 people and wounded 47 on Oct. 16, a medical source told AFP; the RSF blamed the Sudanese army, which said it hit RSF command positions. AP's Oct. 16 Middle East roundup also flagged it. Missed by the Oct. 16 evening and Oct. 17 morning editions. Checked and not counted: SCOTUS (no orders Oct. 16; conference orders due Monday), NYC sanctuary dismissal, USDA reorganization stay, DV-2027 lottery ruling and Graham Act waiver (all covered), NCAA suit against Ohio Gov. DeWine (narrow), Hurricane Trudy (Cat 2 nearing Mexico's Pacific coast, no landfall as of audit), Oct. 16 FDA approvals (narrow specialty drugs), Margaret Hamilton death (announced Oct. 7-8, outside window)."
-        }
-      ],
-      "misrated": [],
-      "checklist_changes": [
-        "- Mass-casualty attacks in under-covered wars: search AFP/AP for \"Sudan\" OR \"Darfur\" OR \"Sahel\" + \"killed\" + today's date (AP's daily Middle East roundup also flags Sudan); a strike killing 25+ civilians is World impact 3. Missed 2026-10-16 evening and 2026-10-17 morning: drone strike on a Nyala, South Darfur cattle market killed 30, wounded 47 (AFP). [audit 2026-10-17]"
-      ]
+     "id": "2026-09-27-presidents-cup-us-wins",
+     "impact": 4,
+     "should_have_caught": "evening",
+     "reason": "Team golf championship decided Sunday afternoon; a 'final day results' sports search would have found it."
     }
-  ]
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Sports: on Sundays and weekends search \"[event] final day results\" (Presidents Cup, Ryder Cup, majors, team championships) and open espn.com/golf or the event's Yahoo Sports wrap; team championships decided in the afternoon count as impact 4. Missed 2026-09-27: U.S. won Presidents Cup 17-13. [audit 2026-09-27]"
+   ]
+  },
+  {
+   "run": "2026-10-01T21:37:00-04:00",
+   "day": "2026-10-01",
+   "reference_events": 10,
+   "missed": [
+    {
+     "id": "2026-10-01-ofac-iran-auto-rail",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "OFAC sectoral sanctions on Iran auto + rail (Operation Economic Outcast); Treasury/OFAC recent-actions same day."
+    },
+    {
+     "id": "2026-10-01-scotus-rhoney-cert",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "SCOTUS misc. orders granted cert in Rhoney (mandatory ICE detention); midweek order PDF, not only Monday lists."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window — emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
+    "- Treasury/OFAC: when Iran wartime pressure is active, check home.treasury.gov press releases and ofac.treasury.gov/recent-actions same day; sectoral determinations + SDN dumps are evening Government copy even if abroad. Missed 2026-10-01: Iran auto + rail sectoral sanctions (Operation Economic Outcast). [audit 2026-10-01]"
+   ]
+  },
+  {
+   "run": "2026-10-03T21:47:00-04:00",
+   "day": "2026-10-03",
+   "reference_events": 9,
+   "missed": [],
+   "misrated": [],
+   "checklist_changes": [
+    "Trimmed expired one-off: Saturday Oct 3 evening air-ambulance seed (edition already shipped). [audit 2026-10-03]"
+   ]
+  },
+  {
+   "run": "2026-10-06T21:43:00-04:00",
+   "day": "2026-10-05",
+   "reference_events": 12,
+   "missed": [
+    {
+     "id": "2026-10-05-quebec-pq-minority-government",
+     "impact": 3,
+     "should_have_caught": "morning",
+     "reason": "Parti Québécois won Quebec's Oct. 5 election (59 of 127 seats, minority; referendum pledged after Trump leaves office); results came after the evening edition and the Oct. 6 morning edition skipped overnight election results."
+    },
+    {
+     "id": "2026-10-05-judge-blocks-dhs-migrant-fines",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "Boston federal judge George O'Toole stayed the DHS/ICE civil-penalty rule and fines up to $1.8M (Reuters, Oct. 5); no 'judge blocks' district-court search in the checklist."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "Trimmed expired one-off: Monday Oct 5 morning plague-story seed (edition shipped).",
+    "- Federal district courts: search Reuters legal / The Hill court-battles for \"judge blocks\" + today's date; rulings halting nationwide Trump policies (immigration fines, rules) are Government impact 3 even when the order is dated days earlier and only reported today. Missed 2026-10-05: Boston judge stayed DHS fines up to $1.8M on migrants (100k+ fines, $84B). [audit 2026-10-05]",
+    "- Overnight foreign election results: check upcoming.json and search \"[country/province] election results\" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Québécois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]"
+   ]
+  },
+  {
+   "run": "2026-10-08T22:14:00-04:00",
+   "day": "2026-10-07",
+   "reference_events": 18,
+   "missed": [
+    {
+     "id": "2026-10-07-tanker-acers-qatar",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "UKMTO Warning 158-26: tanker Acers struck ~51 NM north of Qatar at 1900 UTC / 3:00 p.m. ET with casualties; same-afternoon UKMTO check before evening lock."
+    },
+    {
+     "id": "2026-10-06-afd-saxony-anhalt-landtag-president",
+     "impact": 3,
+     "should_have_caught": "morning",
+     "reason": "AfD’s Tobias Rausch elected Saxony-Anhalt Landtag president Oct 6 (first AfD speaker / first far-right state legislature head since 1945); Just Security Early Edition Oct 7 flagged it; missed Oct 6 evening and Oct 7 morning."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Gulf/Hormuz wartime: before evening lock, open UKMTO latest warnings for same-afternoon tanker hits with casualties (not only overnight UKMTO). Missed 2026-10-07 evening: Acers struck ~51NM north of Qatar at 1900 UTC / 3:00 p.m. ET. [audit 2026-10-07]",
+    "- European far-right institutional firsts: after AfD/peer election wins, check same-day or next-morning Landtag speaker / premier votes (Just Security Early Edition often flags). Missed 2026-10-06→07 morning: AfD’s Tobias Rausch elected Saxony-Anhalt Landtag president (first for the party / first far-right state legislature head since 1945). [audit 2026-10-07]"
+   ]
+  },
+  {
+   "run": "2026-10-13T21:55:00-04:00",
+   "day": "2026-10-13",
+   "reference_events": 11,
+   "missed": [
+    {
+     "id": "2026-10-12-omar-home-searched",
+     "impact": 3,
+     "should_have_caught": "morning",
+     "reason": "Homeland Security Investigations executed a DOJ-secured search warrant at Rep. Ilhan Omar's D.C.-area home Monday Oct. 12 (DOJ statement; AP, Reuters), three weeks before the midterms; missed by the Oct. 12 evening edition and the Oct. 13 morning 'Yesterday's biggest stories' group. Checked and not counted: UKMTO 170-26/171-26 Hormuz hits (no casualties or names), Saudi strike on Sanaa fuel depot and Houthi hit on Aramco Dhahran office (limited fire, no injuries), UK blaming IRGC for RAF Fairford plot, OFAC Cartel del Noreste designations."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Law enforcement vs. officeholders: search AP/Reuters politics for \"search warrant\" OR \"indicted\" OR \"arrested\" + member of Congress/governor + today's date, including federal holidays; a DOJ-confirmed search or charge against a sitting official is Government impact 3. Missed 2026-10-12 evening and 2026-10-13 morning: HSI searched Rep. Ilhan Omar's home (DOJ confirmed). [audit 2026-10-13]"
+   ]
+  },
+  {
+   "run": "2026-10-15T21:50:00-04:00",
+   "day": "2026-10-14",
+   "reference_events": 14,
+   "missed": [
+    {
+     "id": "2026-10-13-pope-leo-lung-cancer",
+     "impact": 4,
+     "should_have_caught": "morning",
+     "reason": "Holy See Press Office confirmed Oct 13 (~5:27 p.m. ET, after the evening lock) that Pope Leo XIV has lung adenocarcinoma after removal of the lower lobe of his right lung at Gemelli Hospital; schedule cleared until at least Oct 20. Not in the Oct 14 morning edition or any later edition."
+    },
+    {
+     "id": "2026-10-14-eight-states-sue-openai",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska and West Virginia AGs filed coordinated state-court suits against OpenAI over ChatGPT safety Oct 14 (Reuters, AP, POLITICO, Bloomberg Law ~3:12 p.m. ET); missed by Oct 14 evening and Oct 15 morning. Checked and not counted: DOJ 48-hour letter to California on voter eligibility (threat only), judge blocking ICC-sanction penalties for DAWN (narrow, Oct 13), CREW suit over Kushner role, Trump rally remarks, Sberbank data-center strike, IMO second Hormuz sinking (weeks-old strike)."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Multistate attorney-general actions: search \"attorneys general sue\" OR \"states sue\" + today's date (AP, Reuters, POLITICO); a coordinated suit by several states against a major company (AI, tech, pharma) is impact 3 even when filed in separate state courts. Missed 2026-10-14 evening and 2026-10-15 morning: eight states sued OpenAI over ChatGPT safety. [audit 2026-10-15]",
+    "- After-lock announcements: open AP Top News and Reuters World for anything announced after the 4:30 p.m. ET lock, especially official health news or deaths of world leaders and religious leaders (Vatican press office, palace/government statements); these lead next morning's \"Yesterday\" group at World impact 3-4. Missed 2026-10-14 morning: Vatican confirmed Pope Leo XIV has lung cancer after surgery (announced ~5:27 p.m. ET Oct 13). [audit 2026-10-15]"
+   ]
+  },
+  {
+   "run": "2026-10-17T21:55:00-04:00",
+   "day": "2026-10-16",
+   "reference_events": 12,
+   "missed": [
+    {
+     "id": "2026-10-16-sudan-nyala-market-drone-strike",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "A drone strike on a crowded cattle market in Nyala, South Darfur, killed 30 people and wounded 47 on Oct. 16, a medical source told AFP; the RSF blamed the Sudanese army, which said it hit RSF command positions. AP's Oct. 16 Middle East roundup also flagged it. Missed by the Oct. 16 evening and Oct. 17 morning editions. Checked and not counted: SCOTUS (no orders Oct. 16; conference orders due Monday), NYC sanctuary dismissal, USDA reorganization stay, DV-2027 lottery ruling and Graham Act waiver (all covered), NCAA suit against Ohio Gov. DeWine (narrow), Hurricane Trudy (Cat 2 nearing Mexico's Pacific coast, no landfall as of audit), Oct. 16 FDA approvals (narrow specialty drugs), Margaret Hamilton death (announced Oct. 7-8, outside window)."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Mass-casualty attacks in under-covered wars: search AFP/AP for \"Sudan\" OR \"Darfur\" OR \"Sahel\" + \"killed\" + today's date (AP's daily Middle East roundup also flags Sudan); a strike killing 25+ civilians is World impact 3. Missed 2026-10-16 evening and 2026-10-17 morning: drone strike on a Nyala, South Darfur cattle market killed 30, wounded 47 (AFP). [audit 2026-10-17]"
+   ]
+  },
+  {
+   "run": "2026-10-20T21:50:00-04:00",
+   "day": "2026-10-19",
+   "reference_events": 20,
+   "missed": [
+    {
+     "id": "2026-10-19-unc-doj-title-vi-settlement",
+     "impact": 3,
+     "should_have_caught": "evening",
+     "reason": "DOJ and UNC-Chapel Hill announced a no-payment agreement closing 19 Title VI probes (DOJ OPA release ~11:55 a.m. ET Oct 19; Reuters). Agency press-release page check would have caught it."
+    }
+   ],
+   "misrated": [],
+   "checklist_changes": [
+    "- Agency press-release pages: open https://www.justice.gov/news (Office of Public Affairs) and ed.gov press releases each window; DOJ settlements with universities, states or big companies often post only there midday. A deal closing federal probes of a major university is Government impact 3. Missed 2026-10-19 evening and 2026-10-20 morning: UNC-Chapel Hill settled 19 Title VI probes with DOJ/Education (DOJ release 11:55 a.m. ET). [audit 2026-10-20]"
+   ]
+  }
+ ]
 }

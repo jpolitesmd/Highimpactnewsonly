@@ -73,3 +73,9 @@ Post-push verification and when to commit/report (quiet reporting): see `tools/r
 ## Corrections log (corrections.json; shown on the site's Corrections tab)
 - Whenever you change a published story because it was factually wrong, or because later reporting contradicts or materially changes it (a number revised, a ruling reversed, a claim retracted), update the story and append to "corrections": {"date": now ISO, "item_id", "was": what the story said, "now": what we know now, "why": one short line (e.g. "Official count revised by the ministry" or "We misstated the vote")}; set "updated". Do not log routine new developments that the story never got wrong; those are new stories.
 - Weekly check (the normal Sunday evening edition only; there is no separate weekend review): one search for corrections, retractions or revisions to the past week's biggest stories (for example "correction OR retraction OR revised [the week's 3-4 biggest story topics]"). Compare with items.json and log anything that changes a story we published.
+
+## Site analytics (GoatCounter)
+- The site counts anonymous page views with GoatCounter (no cookies, no individual tracking). Dashboard: https://hinewsdaily.goatcounter.com
+- Every published page carries this tag once, right before `</body>`: `<script data-goatcounter="https://hinewsdaily.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>`. tools/pages.py adds it through its shared FOOT template; index.html and vintage.html have it by hand.
+- Any new page template or hand-written HTML page must include the tag (exactly once). If a page ever gets a Content-Security-Policy, allow gc.zgo.at in script-src and hinewsdaily.goatcounter.com in connect-src.
+- The privacy policy in index.html (#privacy) describes this; keep it accurate if analytics change.

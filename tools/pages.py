@@ -209,6 +209,7 @@ if(navigator.clipboard)navigator.clipboard.writeText(u).then(ok,function(){promp
   apply();
 })();
 </script>
+<script data-goatcounter="https://hinewsdaily.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body></html>
 """
 

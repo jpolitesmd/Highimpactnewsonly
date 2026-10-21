@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-21T16:55:06-04:00",
+  "updated": "2026-10-21T17:45:00-04:00",
   "items": [
+    {
+      "id": "2026-10-21-php2shell-critical-php-flaws-fixed",
+      "section": "tech",
+      "topic": "security",
+      "region": "US",
+      "text": "PHP, the programming language behind most websites, released emergency fixes Wednesday for two critical flaws that can let attackers take over web servers remotely.",
+      "detail": "The flaws, CVE-2026-109618 and CVE-2026-109619 (nicknamed \"php2shell\"), are memory-handling bugs that PHP says can allow remote code execution without logging in; PHP rates both 9.2 out of 10 in severity. PHP says every installation serving web requests is at risk, with the danger highest on Apache servers running mod_php, where a demonstrated exploit works before any website code runs. Fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 came out about 9:40 a.m. ET; PHP 8.1 and older get no official update. PHP runs on about 69% of websites whose server language is known, according to tracker W3Techs, including WordPress, Drupal and Magento sites. CISA issued an alert saying it had not seen exploitation as of publication, while security firms watchTowr and Cloudflare reported attack attempts. Governments in the Netherlands, Finland and France took some websites offline as a precaution, Reuters reported, and the FBI warned that the flaws put sensitive data and networks at risk, AP reported. Researchers at Calif, OpenAI and Wiz found the flaws using AI tools and reported them to PHP starting Aug. 11.",
+      "why": "A single flaw in software that runs most of the web exposes millions of sites at once, and attackers began probing within hours.",
+      "impact": 4,
+      "time": "2026-10-21T09:40:00-04:00",
+      "time_known": true,
+      "source": "PHP (php.net security advisory)",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "tags": [
+        "php",
+        "cybersecurity",
+        "cisa",
+        "websites"
+      ],
+      "added_at": "2026-10-21T17:45:00-04:00"
+    },
     {
       "id": "2026-10-21-us-orders-diplomats-leave-saudi",
       "section": "news",

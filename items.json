@@ -1,6 +1,291 @@
 {
-  "updated": "2026-10-21T05:32:53-04:00",
+  "updated": "2026-10-21T16:55:06-04:00",
   "items": [
+    {
+      "id": "2026-10-21-us-orders-diplomats-leave-saudi",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "thread": "iran-war",
+      "impact": 3,
+      "pin": "2026-10-21 evening",
+      "pin_order": 1,
+      "time": "2026-10-21T14:30:00-04:00",
+      "time_known": false,
+      "text": "Non-emergency U.S. diplomats and their families must leave Saudi Arabia, the State Department ordered Wednesday, citing escalating Houthi attacks.",
+      "detail": "State Department spokesperson Tommy Pigott said the order covers \"non-emergency US government employees and their family members in Saudi Arabia only,\" citing Iran-backed Houthi attacks on Saudi civilian airports and other critical infrastructure that have caused civilian casualties and severe travel disruptions. The U.S. Embassy in Riyadh issued a security alert the same day warning of possible further Houthi attacks after recent deadly strikes, including on Riyadh's airport. U.S. officials told Reuters that other U.S. missions in the Gulf will also order family members to leave; the department did not address other missions. Washington had returned some diplomats to the region in recent months after pulling many out when the U.S.-Israeli war on Iran began in late February. The Saudi travel advisory remains Level 3, \"Reconsider Travel.\"",
+      "why": "It signals Washington expects more attacks on a key ally hosting thousands of Americans, and it can limit embassy services there.",
+      "source": "AP",
+      "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b",
+      "tags": [
+        "saudi-arabia",
+        "houthis",
+        "state-department",
+        "embassy"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-scotus-keeps-block-prison-trans-policy",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "branch": [
+        "judicial"
+      ],
+      "impact": 3,
+      "time": "2026-10-21T10:00:00-04:00",
+      "time_known": false,
+      "text": "The Bureau of Prisons' new limits on transgender inmates' care stay blocked after the Supreme Court refused Wednesday to let the policy take effect.",
+      "detail": "In a one-sentence unsigned order in Trump v. Kingdom (No. 26A416), the court denied the administration's application to pause a lower-court injunction; Justices Clarence Thomas and Samuel Alito would have granted it. The February 2026 policy would end hormone therapy and \"social accommodations\" such as wigs and makeup for transgender federal inmates. Senior U.S. District Judge Royce Lamberth blocked it on Aug. 26, and a divided D.C. Circuit panel refused to pause his order. The class-action case continues in the lower courts.",
+      "why": "Federal prisons must keep providing the existing care while the legal fight goes on.",
+      "source": "Supreme Court of the United States (order)",
+      "url": "https://www.supremecourt.gov/orders/courtorders/102126zr_5i36.pdf",
+      "tags": [
+        "supreme-court",
+        "prisons",
+        "transgender"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-occ-genius-act-stablecoin-final-rule",
+      "section": "finance",
+      "topic": "coin",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-21T11:00:00-04:00",
+      "time_known": false,
+      "text": "Stablecoin issuers overseen by the OCC now have final federal rules under the GENIUS Act, which the bank regulator issued Wednesday.",
+      "detail": "The Office of the Comptroller of the Currency's final rule sets requirements for reserve backing, redemption, risk management, custody, licensing, capital and operations for payment-stablecoin issuers under its jurisdiction. It takes effect Jan. 18, 2027; OCC-supervised issuers generally need approval before issuing payment stablecoins in the United States. The OCC said it will announce later when it begins accepting applications and waiver requests, and issuers with substantially complete pending applications may seek waivers.",
+      "why": "It is a core federal rulebook for dollar-backed stablecoins, setting how they must be backed and redeemed.",
+      "source": "Office of the Comptroller of the Currency",
+      "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+      "tags": [
+        "crypto",
+        "stablecoins",
+        "genius-act",
+        "occ"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-doj-snap-fraud-surge-40-defendants",
+      "section": "news",
+      "topic": "agency",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 3,
+      "time": "2026-10-21T12:00:00-04:00",
+      "time_known": false,
+      "text": "SNAP food-aid fraud was the target of a nationwide Justice Department crackdown that charged or convicted more than 40 people, officials said Wednesday.",
+      "detail": "The Justice Department's Fraud Division, the Agriculture Department and USDA's inspector general said the first National USDA Benefits and Program Fraud Enforcement Surge, run Sept. 1 through Oct. 21 with 13 U.S. attorney's offices and the Utah attorney general, involved schemes with nearly $45 million in intended losses, nearly $42 million of it against SNAP. The largest case is an Ohio indictment accusing two Chicago store operators of running about $29.7 million in fake transactions with stolen EBT card data. Other cases include stolen benefits used to buy infant formula for resale and stores trading cash for benefits. Attorney General Todd Blanche and Agriculture Secretary Brooke Rollins announced the results; DOJ said charges are allegations and defendants are presumed innocent.",
+      "why": "SNAP feeds about 1 in 8 Americans, and stolen benefits leave families unable to buy groceries.",
+      "source": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/dojs-fraud-division-department-agriculture-and-usda-oig-uncover-nearly-42m-snap-benefit",
+      "tags": [
+        "snap",
+        "fraud",
+        "justice-department",
+        "usda"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-russia-agrees-resume-ukraine-talks-frees-hubbard",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 3,
+      "time": "2026-10-21T12:00:00-04:00",
+      "time_known": false,
+      "text": "Ukraine peace talks among Russia, Ukraine and the U.S. will resume after Nov. 10, the Kremlin said Wednesday, as Russia freed jailed American Stephen Hubbard.",
+      "detail": "Kremlin aide Yuri Ushakov said Russia agreed in principle to the three-way talks, focused on post-war security arrangements, after President Vladimir Putin met U.S. envoy Steve Witkoff in St. Petersburg; it was Witkoff's ninth in-person meeting with Putin and came a day after he met Ukrainian President Volodymyr Zelenskyy in Oslo. No ceasefire or deal was announced. As the talks began, Putin told Witkoff that Hubbard, a 74-year-old retired teacher detained in April 2022 and sentenced to six years and 10 months on mercenary charges he denies, was at the airport waiting to fly home with him. President Trump said he had asked Putin to free Hubbard and that it was not a prisoner swap.",
+      "why": "Direct three-way talks could restart next month, and an American held for more than four years is coming home.",
+      "source": "AP",
+      "url": "https://apnews.com/article/russia-ukraine-witkoff-putin-trump-zelenskyy-talks-3f00c0c6fd10bab948c2c3f8502e0a91",
+      "tags": [
+        "russia",
+        "ukraine",
+        "detained-americans",
+        "witkoff"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-meta-tesla-q3-results",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-21T16:06:00-04:00",
+      "time_known": true,
+      "text": "Meta's third-quarter revenue rose 26% to $64.6 billion, and Tesla's beat estimates at $28.05 billion, the companies reported after the bell Wednesday.",
+      "detail": "Meta earned $9.86 billion, or $3.83 a share, after a $9.89 billion charge for its settlement with 52 state attorneys general over teen mental health; without it, earnings would have been $7.40 a share. Meta forecast fourth-quarter revenue of $73 billion to $76 billion, said capital spending was $34.91 billion in the quarter, and said headcount fell 15% from a year earlier to 66,775; it also announced a new Class C common stock. Tesla's revenue compared with $28.10 billion a year earlier; net income fell 29% to $787 million, automotive revenue fell 3% to $20.56 billion, and free cash flow was $1.53 billion as capital spending came in at $4.73 billion, below analysts' forecasts.",
+      "why": "Two of the most widely held U.S. stocks reported as AI spending reshapes big tech's profits.",
+      "source": "Meta (investor release)",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "tags": [
+        "earnings",
+        "meta",
+        "tesla",
+        "markets"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-stocks-nasdaq-up-1-percent",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-21T16:00:00-04:00",
+      "time_known": true,
+      "text": "The Nasdaq rose 1.1% Wednesday as a strong SpaceX profit report lifted tech stocks; the S&P 500 gained 0.6% and the Dow 0.7%.",
+      "detail": "The S&P 500 closed at 7,757.17, up 44.60 points; the Dow rose 360.21 points to 52,856.09; and the Nasdaq composite gained 278.04 points to 26,702.86. SpaceX shares rose about 8% after it reported third-quarter revenue up 161%, and Super Micro Computer raised its outlook on demand for AI systems.",
+      "why": "Tech-heavy gains extended a second straight up day for the broad market.",
+      "source": "AP",
+      "url": "https://apnews.com/article/stocks-markets-rates-oil-earnings-ai-4fa93685cd49e51e7ff0d840fdd38b0d",
+      "tags": [
+        "stocks",
+        "markets"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-subtropical-storm-josephine-forms",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-21T16:09:00-04:00",
+      "time_known": true,
+      "text": "Subtropical Storm Josephine formed off the U.S. East Coast Wednesday with 65 mph winds and is forecast to move northeast, away from the United States.",
+      "detail": "At 5 p.m. AST the National Hurricane Center put the storm, formerly the system it tracked as AL93, near 37.4 N, 69.5 W, moving north at 6 mph with a minimum pressure of 990 mb. Before it was named, the NHC said high winds, coastal flooding and dangerous surf were expected along parts of the East Coast for the next few days regardless of development; the slow-moving offshore low has driven coastal flooding and high surf from the Outer Banks to the Jersey Shore this week.",
+      "why": "The storm is not expected to hit land, but its surf and coastal flooding are already affecting East Coast beach communities.",
+      "source": "National Hurricane Center",
+      "url": "https://www.nhc.noaa.gov/",
+      "tags": [
+        "weather",
+        "josephine",
+        "east-coast"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-kissimmee-mayor-espinosa-charged",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-21T11:00:00-04:00",
+      "time_known": false,
+      "text": "Kissimmee Mayor Jackie Espinosa was arrested Wednesday on felony theft and fraud charges over $50,000 in COVID-relief grants, Florida officials said.",
+      "detail": "Attorney General James Uthmeier and Chief Financial Officer Blaise Ingoglia said Espinosa used her position to push the city's Business Boost 2.0 grant program, then took $50,000 from it for her family's businesses after being warned it was prohibited; tenants in her family's buildings received another $40,000. The statewide prosecutor charged her with grand theft ($20,000 to $100,000), a second-degree felony, and scheme to defraud ($50,000 or more), a first-degree felony. The case grew out of a routine state audit of local governments' COVID-relief spending and an FDLE investigation.",
+      "why": "A sitting mayor in the Orlando area faces first-degree felony charges over pandemic aid meant for small businesses.",
+      "source": "Florida Department of Financial Services",
+      "url": "https://myfloridacfo.com/news/pressreleases/press-release-details/2026/10/21/chief-financial-officer-blaise-ingoglia-and-attorney-general-james-uthmeier-announce-criminal-charges-against-kissimmee-mayor-jackie-espinosa",
+      "tags": [
+        "florida",
+        "corruption",
+        "covid-relief"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-treasury-sanctions-iran-shadow-fleet",
+      "section": "news",
+      "topic": "ship",
+      "region": "US",
+      "thread": "iran-war",
+      "impact": 2,
+      "time": "2026-10-21T10:30:00-04:00",
+      "time_known": false,
+      "text": "Iran's shadow-fleet shipping networks were hit with new U.S. Treasury sanctions Wednesday, including a Greek-Panamanian law firm and several cargo vessels.",
+      "detail": "The Office of Foreign Assets Control designated the law firm Karnakis and Karnakis, shipping agents in Singapore and the United Arab Emirates, and several vessels under Executive Order 13902, as part of what Treasury calls Operation Economic Outcast against Iran's oil and shipping revenue. OFAC also issued Iran General Licenses GG and HH allowing limited wind-down, safety and environmental, and cargo-offloading activities, and removed some Belarus and North Korea designations.",
+      "why": "Washington is widening its economic pressure on Iran to the lawyers and agents who keep its tankers moving.",
+      "source": "U.S. Department of the Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0664",
+      "tags": [
+        "iran",
+        "sanctions",
+        "treasury",
+        "shipping"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-tanker-struck-near-hormuz-bukha",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 2,
+      "time": "2026-10-20T21:45:00-04:00",
+      "time_known": true,
+      "text": "A tanker was struck by an unknown projectile near the Strait of Hormuz early Wednesday, 11 nautical miles west of Bukha, Oman, the UKMTO said.",
+      "detail": "The fire was put out, the vessel was at anchor, the crew was safe and no environmental damage was reported, according to the UK Maritime Trade Operations warning (0145 UTC). The U.S. military separately rejected Iran's claim that its mines had struck three tankers in the strait, saying it had cleared mines from international shipping lanes. Brent crude traded near $110 a barrel.",
+      "why": "Attacks on tankers near Hormuz keep oil, and U.S. gasoline prices, high.",
+      "source": "UKMTO",
+      "url": "https://www.ukmto.org/-/media/ukmto/products/20261021-ukmto_warning_179_26.pdf",
+      "tags": [
+        "hormuz",
+        "shipping",
+        "oil"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-21-france-10-year-yield-hits-5-percent",
+      "section": "news",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "france-protests",
+      "impact": 2,
+      "time": "2026-10-21T05:30:00-04:00",
+      "time_known": true,
+      "text": "France's 10-year borrowing cost topped 5% Wednesday for the first time since 2002, amid violent protests and a stalled 2027 budget.",
+      "detail": "The benchmark OAT yield briefly crossed 5% shortly before 11:30 a.m. in Paris, then eased to about 4.98%. Finance Minister Roland Lescure said the government would use Article 49.3 of the constitution to force its budget through without a vote if needed; Prime Minister Sebastien Lecornu is targeting 54 billion euros in spending cuts. France's deficit was 5.1% of GDP last year, and it is under the EU's excessive-deficit procedure.",
+      "why": "Higher French borrowing costs show investors' worry about the euro zone's second-largest economy.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/21/france-protests-bonds-debt.html",
+      "tags": [
+        "france",
+        "bonds",
+        "budget"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
+    {
+      "id": "2026-10-20-nigeria-first-ebola-case",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "World",
+      "world_region": "africa",
+      "thread": "kenya-ebola",
+      "impact": 2,
+      "time": "2026-10-20T12:00:00-04:00",
+      "time_known": false,
+      "text": "Nigeria confirmed its first Ebola case, a woman who arrived in Abuja from Uganda with the Bundibugyo strain, health officials said.",
+      "detail": "She is in isolation and receiving care, and the Nigeria Centre for Disease Control activated its incident-management system; 44 contacts have been identified for tracing and monitoring, according to the government and the World Health Organization, which said it is supporting the response. Kenya separately has nine confirmed cases in a single cluster.",
+      "why": "Ebola has now reached Africa's most populous country, widening the outbreak beyond East Africa.",
+      "source": "Nigeria Federal Ministry of Health",
+      "url": "https://health.gov.ng/wp-content/uploads/2026/10/Immediate-Press-statememnt_confirmed-Ebola-in-Nigeria-1.pdf",
+      "tags": [
+        "ebola",
+        "nigeria"
+      ],
+      "added_at": "2026-10-21T16:55:06-04:00"
+    },
     {
       "id": "2026-10-21-california-state-workers-strike",
       "section": "news",

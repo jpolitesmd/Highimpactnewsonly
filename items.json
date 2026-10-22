@@ -1,6 +1,110 @@
 {
-  "updated": "2026-10-22T05:32:14-04:00",
+  "updated": "2026-10-22T16:44:36-04:00",
   "items": [
+    {
+      "id": "2026-10-22-virginia-senate-leader-lucas-indicted",
+      "section": "news",
+      "topic": "government",
+      "region": "U.S.",
+      "impact": 4,
+      "time": "2026-10-22T09:54:00-04:00",
+      "time_known": false,
+      "text": "Virginia state Sen. L. Louise Lucas, the chamber's top Democrat, was indicted on federal charges of leading an illegal marijuana business with family members.",
+      "detail": "The eight-count indictment unsealed Thursday in the Eastern District of Virginia charges Lucas, 82, and six others, including her two daughters and her grandson, with a racketeering conspiracy involving marijuana distribution, money laundering, honest-services fraud through bribery, maintaining drug-involved premises, possessing firearms in furtherance of drug trafficking, and wire fraud. Prosecutors allege the group acquired and sold 100 kilograms or more of marijuana and that Lucas used her post as chair of the Senate Finance and Appropriations Committee to shield the business and influence legislation; FBI Director Kash Patel put the five-year scheme at an estimated $4.5 million. Lucas, a senator since 1992 and president pro tempore since 2020, surrendered Thursday morning and was due in federal court in Norfolk. Attorney General Todd Blanche said the investigation had run for several years and rejected claims it was political. In a social media post, Lucas did not address the charges but said, \"I will not be intimidated,\" according to Reuters. Virginia's state senators are not on the ballot this year.",
+      "why": "Federal charges against the leader of a state legislature are rare, and they land less than two weeks before the midterm elections.",
+      "source": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/virginia-state-senator-indicted-leading-criminal-marijuana-distribution-enterprise",
+      "tags": [
+        "virginia",
+        "doj",
+        "indictment",
+        "marijuana"
+      ],
+      "added_at": "2026-10-22T16:44:36-04:00"
+    },
+    {
+      "id": "2026-10-22-ai-stock-selloff-nasdaq-falls-2-6",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "markets",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-22T16:00:00-04:00",
+      "time_known": true,
+      "text": "The Nasdaq fell 2.6% Thursday and the S&P 500 lost 1.2%, its worst day since July, as AI stocks tumbled and oil rose.",
+      "detail": "The S&P 500 fell 93.74 points to 7,663.43 and the Nasdaq composite dropped 694 points to 26,008.86, while the Dow Jones Industrial Average edged up 11.89 points to 52,867.98, AP reported; most U.S. stocks actually rose. AI stocks swung lower on worries about high interest rates and heavy spending, after Meta projected billions more in future costs. Brent crude rose 3.7% to $112.80 a barrel, its highest in about five months, after Iran said seven tankers were hit near the Strait of Hormuz and after the attack on a Saudi airport. Treasury yields fell sharply as investors moved into bonds.",
+      "why": "A broad tech selloff and $112 oil hit retirement accounts and fuel costs at the same time.",
+      "source": "AP",
+      "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2",
+      "tags": [
+        "stocks",
+        "oil",
+        "ai"
+      ],
+      "added_at": "2026-10-22T16:44:36-04:00"
+    },
+    {
+      "id": "2026-10-22-treasury-proposes-large-investor-home-ban-rules",
+      "section": "news",
+      "topic": "housing",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-22T12:00:00-04:00",
+      "time_known": false,
+      "text": "Treasury's proposed rules for the law barring large investors from buying single-family homes were released Thursday; the ban starts Jan. 7, 2027.",
+      "detail": "The proposed regulations carry out Section 1001 of the 21st Century ROAD to Housing Act. Starting Jan. 7, 2027, an entity in the business of owning or renting single-family homes that controls at least 350 of them generally may not buy or contract to buy another, unless the purchase falls under an exception such as build-to-rent, renovate-to-rent or programs that help renters buy homes. The proposal sets standards for those exceptions, defines passive investors, and covers foreclosures, loss mitigation and transfers between large investors. Public comments are due 30 days after the rule is published in the Federal Register.",
+      "why": "The rules decide how far the new ban actually reaches in a housing market where many families compete with investors for homes.",
+      "source": "U.S. Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0665",
+      "tags": [
+        "housing",
+        "treasury",
+        "rule"
+      ],
+      "added_at": "2026-10-22T16:44:36-04:00"
+    },
+    {
+      "id": "2026-10-22-moderna-melanoma-vaccine-data-shares-fall",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "business",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-22T14:00:00-04:00",
+      "time_known": false,
+      "text": "Moderna's shares fell as much as 25% Thursday after leaked results showed its melanoma vaccine with Merck cut recurrence or death risk 42%.",
+      "detail": "Screenshots of the Phase 3 INTerpath-001 results leaked online Thursday, and the European Society for Medical Oncology released the study details ahead of their scheduled Saturday presentation. Adding the personalized vaccine, intismeran autogene, to Merck's Keytruda after melanoma surgery lowered the risk of the cancer returning or death by 42% compared with Keytruda alone, after a median 24.6 months of follow-up. The result met the trial's goal but fell slightly short of the 44% seen in an earlier Phase 2 study; investors had expected 40% to 50%. Merck shares fell about 1%. The vaccine is not yet approved.",
+      "why": "It is the first large trial showing a personalized cancer vaccine improving on today's standard melanoma treatment.",
+      "source": "BioPharma Dive",
+      "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/",
+      "tags": [
+        "moderna",
+        "merck",
+        "melanoma",
+        "vaccine"
+      ],
+      "added_at": "2026-10-22T16:44:36-04:00"
+    },
+    {
+      "id": "2026-10-22-commerce-389m-chips-power-chip-awards",
+      "section": "tech",
+      "topic": "technology",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-22T12:00:00-04:00",
+      "time_known": false,
+      "text": "The Commerce Department signed letters of intent for up to $389 million in CHIPS research awards to four companies making power chips.",
+      "detail": "Fusion company Helion would get up to $175 million and Commonwealth Fusion Systems up to $85 million for high-voltage and fusion-related power semiconductors, Vertical Semiconductor $73 million and Sibelco $56 million. Commerce would take minority, non-voting equity stakes. Letters of intent are not final awards.",
+      "why": "The money steers federal chip funding toward the power electronics behind data centers and fusion energy.",
+      "source": "NIST / U.S. Commerce Department",
+      "url": "https://www.nist.gov/news-events/news/2026/10/department-commerce-announces-letters-intent-4-companies-389-million-rd",
+      "tags": [
+        "chips",
+        "commerce",
+        "fusion"
+      ],
+      "added_at": "2026-10-22T16:44:36-04:00"
+    },
     {
       "id": "2026-10-22-saudi-dammam-airport-attack-kills-2",
       "section": "news",

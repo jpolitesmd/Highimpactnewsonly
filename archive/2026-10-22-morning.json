@@ -1,0 +1,264 @@
+{
+ "date": "2026-10-22",
+ "edition": "morning",
+ "subject": "Thursday, Oct 22 - Morning edition",
+ "published": "2026-10-22T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-22-saudi-dammam-airport-attack-kills-2",
+   "section": "news",
+   "text": "Saudi Arabia's King Fahd International Airport in Dammam was attacked late Wednesday, killing two people and injuring eight, Saudi aviation authorities said.",
+   "detail": "Saudi Arabia's General Authority of Civil Aviation said Thursday the dead were a Saudi citizen and an Indian national living in the kingdom; the toll was first reported as one. The eight injured, from Saudi Arabia, India, Yemen, Bangladesh and Nepal, had injuries ranging from minor to severe. Flights were diverted during the attack; the authority said Thursday that operations had resumed and air traffic was back to normal, and that damage was being assessed. Saudi authorities did not say who was responsible, and the Iran-backed Houthi rebels issued no statement; the airport, near Bahrain and Qatar, has been hit before in a wave of Houthi strikes on Saudi airports. Separately on Wednesday, Saudi Arabia's Energy Ministry said debris from an intercepted drone aimed at a processing facility at Saudi Aramco's Shaybah oil field killed a Filipino and a Nepali worker and injured two others; it said oil operations were not affected. The attacks came the same day the State Department ordered non-emergency U.S. diplomats and their families to leave Saudi Arabia.",
+   "why": "Deadly strikes on a major Saudi airport and oil field widen the Gulf war's threat to civilian travel and world oil supply, a day after the U.S. pulled diplomats' families out.",
+   "impact": 4,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-21T20:00:00-04:00",
+   "time_known": false,
+   "source": "AP (Saudi civil aviation authority)",
+   "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+  },
+  {
+   "id": "2026-10-22-iran-says-7-tankers-hit-hormuz",
+   "section": "news",
+   "text": "Seven oil tankers caught fire or were damaged overnight in and near the Strait of Hormuz, Iran's state TV said, citing its Revolutionary Guard navy.",
+   "detail": "Quoting the Guard navy, Iranian state television said four tankers were hit while transferring oil between ships and caught fire, and three were damaged and stopped after hitting naval mines. It gave no casualty figures or flags. The claims have not been independently confirmed: the British military's UK Maritime Trade Operations center had not reported the attacks, though AP notes some shippers have been reluctant to report incidents. If verified, it would be the most vessels damaged in the waterway in one day since the U.S.-Israeli war on Iran began Feb. 28. The Guard again threatened U.S. bases in the region if the U.S. keeps helping guide commercial ships through the strait. Brent crude rose 3.2% to $112.27 a barrel and U.S. crude 2.8% to $99.80 early Thursday; S&P 500 futures were down 1%.",
+   "why": "More attacks on tankers push oil, and U.S. gasoline and diesel prices, higher and raise the risk of a return to all-out war.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-10-22T01:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-united-states-war-hormuz-trump-israel-2abebce2fca2c085e0e0ee717e42cf28"
+  },
+  {
+   "id": "2026-10-22-judge-blocks-dhs-election-door-knocking",
+   "section": "news",
+   "text": "Homeland Security's door-to-door questioning of possible noncitizen voters was blocked in nine states Wednesday night by a federal judge, through Election Day.",
+   "detail": "U.S. District Judge Araceli Martínez-Olguín in San Francisco issued a preliminary injunction barring DHS \"elections-related field operations and field interviews\" likely to involve people officials know or should suspect are U.S. citizens, in California, Connecticut, Georgia, Missouri, Nevada, New York, Pennsylvania, Washington and Wisconsin, until polls close Nov. 3. She found the practice of armed agents questioning residents at their homes about immigration status and voting likely violates the Voting Rights Act's ban on intimidating people who help others vote, and cited a \"high likelihood of error\" in the lists used to pick targets. She wrote that investigating unlawful voting is not itself unlawful. The order is paused until 5 p.m. Friday so the government can appeal. Plaintiffs include San Francisco, Santa Clara, the California Nurses Association, National Nurses United and the Voto Latino Foundation. DHS did not immediately comment; Justice Department lawyers had argued that blocking such investigations would harm the public interest.",
+   "why": "It limits a federal enforcement push in nine states, including several battlegrounds, less than two weeks before the midterms.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the Northern District of California",
+   "region": "US",
+   "time": "2026-10-21T21:30:00-04:00",
+   "time_known": false,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/judge-dhs-noncitizen-voters-ruling/"
+  },
+  {
+   "id": "2026-10-22-russia-strikes-kyiv-after-talks-deal",
+   "section": "news",
+   "text": "Kyiv was hit by Russian ballistic missiles and drones overnight, killing one person and wounding 22, hours after the Kremlin agreed to resume peace talks.",
+   "detail": "Ukraine's State Emergency Service said the strikes damaged homes, transportation infrastructure and other civilian sites in several districts; in the Dniprovskyi district on the Dnipro's east bank, one person was killed and six wounded, including a child. On Wednesday, Kremlin adviser Yuri Ushakov said Vladimir Putin agreed \"in principle\" to restart three-way talks with the U.S. and Ukraine after Nov. 10. Ukrainian President Volodymyr Zelenskyy backed the talks but said, \"We'll see what happens this time.\"",
+   "why": "The attack came within hours of Moscow's agreement to talk, a test of how much the diplomacy changes on the ground.",
+   "impact": 2,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-22T02:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877"
+  },
+  {
+   "id": "2026-10-21-trump-not-negotiating-with-iran",
+   "section": "news",
+   "text": "President Trump said the U.S. is not negotiating with Iran and that \"something one way or the other\" will happen \"fairly soon,\" speaking late Wednesday.",
+   "detail": "Asked on the tarmac after his South Carolina rally whether he was negotiating with the Iranians, Trump said: \"No, I think we're not negotiating with. We are going to have something one way or the other that'll happen fairly soon. Most people seem to think it's after the election, and we're going to see what happens.\" He also said U.S. strikes had \"taken out\" Iran's military, navy and air force. On Ukraine, he said the push for talks is \"the closest I've seen to maybe working out.\" Iran's foreign minister said Wednesday that Tehran remains open to diplomacy but is ready to defend itself.",
+   "why": "It signals possible new U.S. military action on Iran after the Nov. 3 midterms, as tanker attacks rise.",
+   "impact": 2,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-21T23:00:00-04:00",
+   "time_known": false,
+   "source": "White House press pool report",
+   "url": "https://bnonews.com/whpool/0mBQ3-91"
+  },
+  {
+   "id": "2026-10-21-php2shell-critical-php-flaws-fixed",
+   "section": "tech",
+   "text": "PHP, the programming language behind most websites, released emergency fixes Wednesday for two critical flaws that can let attackers take over web servers remotely.",
+   "detail": "The flaws, CVE-2026-109618 and CVE-2026-109619 (nicknamed \"php2shell\"), are memory-handling bugs that PHP says can allow remote code execution without logging in; PHP rates both 9.2 out of 10 in severity. PHP says every installation serving web requests is at risk, with the danger highest on Apache servers running mod_php, where a demonstrated exploit works before any website code runs. Fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 came out about 9:40 a.m. ET; PHP 8.1 and older get no official update. PHP runs on about 69% of websites whose server language is known, according to tracker W3Techs, including WordPress, Drupal and Magento sites. CISA issued an alert saying it had not seen exploitation as of publication, while security firms watchTowr and Cloudflare reported attack attempts. Governments in the Netherlands, Finland and France took some websites offline as a precaution, Reuters reported, and the FBI warned that the flaws put sensitive data and networks at risk, AP reported. Researchers at Calif, OpenAI and Wiz found the flaws using AI tools and reported them to PHP starting Aug. 11.",
+   "why": "A single flaw in software that runs most of the web exposes millions of sites at once, and attackers began probing within hours.",
+   "impact": 4,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-21T09:40:00-04:00",
+   "time_known": true,
+   "source": "PHP (php.net security advisory)",
+   "url": "https://www.php.net/archive/2026.php#2026-10-21-5"
+  },
+  {
+   "id": "2026-10-21-us-orders-diplomats-leave-saudi",
+   "section": "news",
+   "text": "Non-emergency U.S. diplomats and their families must leave Saudi Arabia, the State Department ordered Wednesday, citing escalating Houthi attacks.",
+   "detail": "State Department spokesperson Tommy Pigott said the order covers \"non-emergency US government employees and their family members in Saudi Arabia only,\" citing Iran-backed Houthi attacks on Saudi civilian airports and other critical infrastructure that have caused civilian casualties and severe travel disruptions. The U.S. Embassy in Riyadh issued a security alert the same day warning of possible further Houthi attacks after recent deadly strikes, including on Riyadh's airport. U.S. officials told Reuters that other U.S. missions in the Gulf will also order family members to leave; the department did not address other missions. Washington had returned some diplomats to the region in recent months after pulling many out when the U.S.-Israeli war on Iran began in late February. The Saudi travel advisory remains Level 3, \"Reconsider Travel.\"",
+   "why": "It signals Washington expects more attacks on a key ally hosting thousands of Americans, and it can limit embassy services there.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-21T14:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
+  },
+  {
+   "id": "2026-10-21-meta-ordered-pay-new-mexico-25-billion",
+   "section": "tech",
+   "text": "Meta must pay New Mexico $25 billion for deceiving Facebook users about privacy, a state judge ruled Wednesday, the biggest fine ever against the company.",
+   "detail": "State District Judge Francis J. Mathew wrote that Facebook's deception was intentional: \"Facebook promised users that they (the users) controlled their data. This was false.\" A jury in September found Meta liable for more than 43 million violations of New Mexico consumer-protection law over statements tied to the Cambridge Analytica scandal, in which a personality quiz harvested data from about 87 million profiles. The state had sought $35 billion to $40 billion; Meta argued for $3.4 billion at most. The penalty dwarfs the $5 billion FTC fine of 2019, and under the state constitution the money goes to education. Meta said it is \"confident we will prevail on appeal\" and that the ruling makes it \"all but impossible to do business\" in New Mexico; interest accrues during the appeal. New Mexico was the only state to take these claims to trial.",
+   "why": "The size of the penalty raises the stakes for tech companies' privacy promises to users.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-21T13:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/facebook-penalty-cambridge-analytica-new-mexico-b329f82c3d3db3758a159405acbd4d0e"
+  },
+  {
+   "id": "2026-10-21-doj-snap-fraud-surge-40-defendants",
+   "section": "news",
+   "text": "SNAP food-aid fraud was the target of a nationwide Justice Department crackdown that charged or convicted more than 40 people, officials said Wednesday.",
+   "detail": "The Justice Department's Fraud Division, the Agriculture Department and USDA's inspector general said the first National USDA Benefits and Program Fraud Enforcement Surge, run Sept. 1 through Oct. 21 with 13 U.S. attorney's offices and the Utah attorney general, involved schemes with nearly $45 million in intended losses, nearly $42 million of it against SNAP. The largest case is an Ohio indictment accusing two Chicago store operators of running about $29.7 million in fake transactions with stolen EBT card data. Other cases include stolen benefits used to buy infant formula for resale and stores trading cash for benefits. Attorney General Todd Blanche and Agriculture Secretary Brooke Rollins announced the results; DOJ said charges are allegations and defendants are presumed innocent.",
+   "why": "SNAP feeds about 1 in 8 Americans, and stolen benefits leave families unable to buy groceries.",
+   "impact": 3,
+   "topic": "agency",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-21T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/dojs-fraud-division-department-agriculture-and-usda-oig-uncover-nearly-42m-snap-benefit"
+  },
+  {
+   "id": "2026-10-21-russia-agrees-resume-ukraine-talks-frees-hubbard",
+   "section": "news",
+   "text": "Ukraine peace talks among Russia, Ukraine and the U.S. will resume after Nov. 10, the Kremlin said Wednesday, as Russia freed jailed American Stephen Hubbard.",
+   "detail": "Kremlin aide Yuri Ushakov said Russia agreed in principle to the three-way talks, focused on post-war security arrangements, after President Vladimir Putin met U.S. envoy Steve Witkoff in St. Petersburg; it was Witkoff's ninth in-person meeting with Putin and came a day after he met Ukrainian President Volodymyr Zelenskyy in Oslo. No ceasefire or deal was announced. As the talks began, Putin told Witkoff that Hubbard, a 74-year-old retired teacher detained in April 2022 and sentenced to six years and 10 months on mercenary charges he denies, was at the airport waiting to fly home with him. President Trump said he had asked Putin to free Hubbard and that it was not a prisoner swap.",
+   "why": "Direct three-way talks could restart next month, and an American held for more than four years is coming home.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-21T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-witkoff-putin-trump-zelenskyy-talks-3f00c0c6fd10bab948c2c3f8502e0a91"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-21-occ-genius-act-stablecoin-final-rule",
+   "section": "finance",
+   "text": "Stablecoin issuers overseen by the OCC now have final federal rules under the GENIUS Act, which the bank regulator issued Wednesday.",
+   "detail": "The Office of the Comptroller of the Currency's final rule sets requirements for reserve backing, redemption, risk management, custody, licensing, capital and operations for payment-stablecoin issuers under its jurisdiction. It takes effect Jan. 18, 2027; OCC-supervised issuers generally need approval before issuing payment stablecoins in the United States. The OCC said it will announce later when it begins accepting applications and waiver requests, and issuers with substantially complete pending applications may seek waivers.",
+   "why": "It is a core federal rulebook for dollar-backed stablecoins, setting how they must be backed and redeemed.",
+   "impact": 3,
+   "topic": "coin",
+   "region": "US",
+   "time": "2026-10-21T11:00:00-04:00",
+   "time_known": false,
+   "source": "Office of the Comptroller of the Currency",
+   "url": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-19-scotus-rejects-911-plea-deals",
+   "section": "news",
+   "text": "The 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants stay void after the Supreme Court refused Monday to hear their appeals.",
+   "detail": "The unsigned order denied review in Mohammad v. United States and bin 'Atash v. United States, leaving in place a D.C. Circuit ruling that then-Defense Secretary Lloyd Austin lawfully withdrew the 2024 agreements, which would have traded guilty pleas for life sentences instead of possible death sentences. Justice Brett Kavanaugh did not take part in Mohammed's case. A military judge has set the trial of Mohammed, Mustafa al Hawsawi and Walid bin 'Atash for June 2028. On the same order list, the court also turned away former NLRB member Gwynne Wilcox's challenge to her firing by President Trump, and agreed to hear cases on race in Montgomery County, Md., magnet-school admissions and on the federal ban on home distilling.",
+   "why": "The ruling keeps the death penalty possible in the long-stalled prosecution of the accused planners of the attacks that killed nearly 3,000 people.",
+   "impact": 4,
+   "topic": "courts",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
+  },
+  {
+   "id": "2026-10-21-scotus-keeps-block-prison-trans-policy",
+   "section": "news",
+   "text": "The Bureau of Prisons' new limits on transgender inmates' care stay blocked after the Supreme Court refused Wednesday to let the policy take effect.",
+   "detail": "In a one-sentence unsigned order in Trump v. Kingdom (No. 26A416), the court denied the administration's application to pause a lower-court injunction; Justices Clarence Thomas and Samuel Alito would have granted it. The February 2026 policy would end hormone therapy and \"social accommodations\" such as wigs and makeup for transgender federal inmates. Senior U.S. District Judge Royce Lamberth blocked it on Aug. 26, and a divided D.C. Circuit panel refused to pause his order. The class-action case continues in the lower courts.",
+   "why": "Federal prisons must keep providing the existing care while the legal fight goes on.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-21T10:00:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/102126zr_5i36.pdf"
+  },
+  {
+   "id": "2026-10-21-california-state-workers-strike",
+   "section": "news",
+   "text": "California state workers are on a one-day strike Wednesday, the first in the history of SEIU Local 1000, the largest state-employee union.",
+   "detail": "The union represents more than 100,000 state employees, including auditors, nurses and counselors, and is picketing in cities across the state. Members voted to authorize the strike earlier this month, saying the state has not bargained in good faith since their contract expired in June. The union wants raises of 20% over three years, a larger state contribution to health-care costs and more flexibility for remote work; Gov. Gavin Newsom ordered state workers back to the office four days a week by July 1 and last month vetoed a union-backed bill on office mandates. The California Department of Human Resources said departments have contingency plans and it remains available at the bargaining table.",
+   "why": "Public services in the most populous state may be slower for a day, and the fight over return-to-office rules is spreading to public workers.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-21T00:01:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/california-state-workers-strike-newsom-a3a4f547a612a68360e75e7feaaffb96"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-22",
+   "when": "Before the open",
+   "text": "Procter & Gamble reports fiscal first-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Date and time per P&G's Sept. 24 announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "when": "8:00 p.m. ET",
+   "text": "World Series Game 1: Tampa Bay Rays at Milwaukee Brewers, 8:00 p.m. ET on FOX.",
+   "detail": "The Rays beat the Guardians 7-3 in ALCS Game 6 on Oct. 19 to win the series 4-2, per AP. Games 1–2 in Milwaukee Oct. 23–24 per MLB’s postseason schedule; either team would win its first World Series.",
+   "buzz": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "when": "7:00 a.m. ET",
+   "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

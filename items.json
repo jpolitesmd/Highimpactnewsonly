@@ -1,6 +1,210 @@
 {
-  "updated": "2026-10-21T17:28:19-04:00",
+  "updated": "2026-10-22T05:32:14-04:00",
   "items": [
+    {
+      "id": "2026-10-22-saudi-dammam-airport-attack-kills-2",
+      "section": "news",
+      "topic": "security",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 4,
+      "time": "2026-10-21T20:00:00-04:00",
+      "time_known": false,
+      "text": "Saudi Arabia's King Fahd International Airport in Dammam was attacked late Wednesday, killing two people and injuring eight, Saudi aviation authorities said.",
+      "detail": "Saudi Arabia's General Authority of Civil Aviation said Thursday the dead were a Saudi citizen and an Indian national living in the kingdom; the toll was first reported as one. The eight injured, from Saudi Arabia, India, Yemen, Bangladesh and Nepal, had injuries ranging from minor to severe. Flights were diverted during the attack; the authority said Thursday that operations had resumed and air traffic was back to normal, and that damage was being assessed. Saudi authorities did not say who was responsible, and the Iran-backed Houthi rebels issued no statement; the airport, near Bahrain and Qatar, has been hit before in a wave of Houthi strikes on Saudi airports. Separately on Wednesday, Saudi Arabia's Energy Ministry said debris from an intercepted drone aimed at a processing facility at Saudi Aramco's Shaybah oil field killed a Filipino and a Nepali worker and injured two others; it said oil operations were not affected. The attacks came the same day the State Department ordered non-emergency U.S. diplomats and their families to leave Saudi Arabia.",
+      "why": "Deadly strikes on a major Saudi airport and oil field widen the Gulf war's threat to civilian travel and world oil supply, a day after the U.S. pulled diplomats' families out.",
+      "source": "AP (Saudi civil aviation authority)",
+      "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7",
+      "tags": [
+        "saudi-arabia",
+        "houthis",
+        "airport",
+        "aramco"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-22-iran-says-7-tankers-hit-hormuz",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-22T01:00:00-04:00",
+      "time_known": false,
+      "text": "Seven oil tankers caught fire or were damaged overnight in and near the Strait of Hormuz, Iran's state TV said, citing its Revolutionary Guard navy.",
+      "detail": "Quoting the Guard navy, Iranian state television said four tankers were hit while transferring oil between ships and caught fire, and three were damaged and stopped after hitting naval mines. It gave no casualty figures or flags. The claims have not been independently confirmed: the British military's UK Maritime Trade Operations center had not reported the attacks, though AP notes some shippers have been reluctant to report incidents. If verified, it would be the most vessels damaged in the waterway in one day since the U.S.-Israeli war on Iran began Feb. 28. The Guard again threatened U.S. bases in the region if the U.S. keeps helping guide commercial ships through the strait. Brent crude rose 3.2% to $112.27 a barrel and U.S. crude 2.8% to $99.80 early Thursday; S&P 500 futures were down 1%.",
+      "why": "More attacks on tankers push oil, and U.S. gasoline and diesel prices, higher and raise the risk of a return to all-out war.",
+      "source": "AP",
+      "url": "https://apnews.com/article/iran-united-states-war-hormuz-trump-israel-2abebce2fca2c085e0e0ee717e42cf28",
+      "tags": [
+        "hormuz",
+        "iran",
+        "shipping",
+        "oil"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-22-judge-blocks-dhs-election-door-knocking",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. District Court for the Northern District of California",
+      "branch": [
+        "judicial"
+      ],
+      "region": "US",
+      "thread": "midterms-2026",
+      "impact": 3,
+      "time": "2026-10-21T21:30:00-04:00",
+      "time_known": false,
+      "text": "Homeland Security's door-to-door questioning of possible noncitizen voters was blocked in nine states Wednesday night by a federal judge, through Election Day.",
+      "detail": "U.S. District Judge Araceli Martínez-Olguín in San Francisco issued a preliminary injunction barring DHS \"elections-related field operations and field interviews\" likely to involve people officials know or should suspect are U.S. citizens, in California, Connecticut, Georgia, Missouri, Nevada, New York, Pennsylvania, Washington and Wisconsin, until polls close Nov. 3. She found the practice of armed agents questioning residents at their homes about immigration status and voting likely violates the Voting Rights Act's ban on intimidating people who help others vote, and cited a \"high likelihood of error\" in the lists used to pick targets. She wrote that investigating unlawful voting is not itself unlawful. The order is paused until 5 p.m. Friday so the government can appeal. Plaintiffs include San Francisco, Santa Clara, the California Nurses Association, National Nurses United and the Voto Latino Foundation. DHS did not immediately comment; Justice Department lawyers had argued that blocking such investigations would harm the public interest.",
+      "why": "It limits a federal enforcement push in nine states, including several battlegrounds, less than two weeks before the midterms.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/judge-dhs-noncitizen-voters-ruling/",
+      "tags": [
+        "voting",
+        "dhs",
+        "midterms",
+        "voting-rights-act"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-21-meta-ordered-pay-new-mexico-25-billion",
+      "section": "tech",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-21T13:00:00-04:00",
+      "time_known": false,
+      "text": "Meta must pay New Mexico $25 billion for deceiving Facebook users about privacy, a state judge ruled Wednesday, the biggest fine ever against the company.",
+      "detail": "State District Judge Francis J. Mathew wrote that Facebook's deception was intentional: \"Facebook promised users that they (the users) controlled their data. This was false.\" A jury in September found Meta liable for more than 43 million violations of New Mexico consumer-protection law over statements tied to the Cambridge Analytica scandal, in which a personality quiz harvested data from about 87 million profiles. The state had sought $35 billion to $40 billion; Meta argued for $3.4 billion at most. The penalty dwarfs the $5 billion FTC fine of 2019, and under the state constitution the money goes to education. Meta said it is \"confident we will prevail on appeal\" and that the ruling makes it \"all but impossible to do business\" in New Mexico; interest accrues during the appeal. New Mexico was the only state to take these claims to trial.",
+      "why": "The size of the penalty raises the stakes for tech companies' privacy promises to users.",
+      "source": "AP",
+      "url": "https://apnews.com/article/facebook-penalty-cambridge-analytica-new-mexico-b329f82c3d3db3758a159405acbd4d0e",
+      "tags": [
+        "meta",
+        "facebook",
+        "privacy",
+        "new-mexico"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-21-pope-leo-no-further-cancer-treatment",
+      "section": "news",
+      "topic": "health",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-21T15:16:00-04:00",
+      "time_known": true,
+      "text": "Pope Leo XIV needs no further treatment for lung cancer, his doctors said Wednesday, after tests showed the tumor removed Oct. 13 had not spread.",
+      "detail": "In a statement released by the Holy See Press Office, Dr. Luigi Carbone and Professor Stefano Margaritora said final tissue and molecular tests confirmed a lung adenocarcinoma that was localized, and a follow-up cancer assessment found \"no further treatment is necessary.\" Surgeons removed the lower lobe of his right lung; he returned to the Vatican on Saturday and held his weekly general audience Wednesday.",
+      "why": "It settles the main question about the health of the leader of the world's 1.4 billion Catholics.",
+      "source": "Vatican News (Holy See Press Office)",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-doctors-confirm-no-further-treatment-necessary.html",
+      "tags": [
+        "pope",
+        "vatican",
+        "lung-cancer"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-21-ibm-texas-instruments-q3-results",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-21T16:05:00-04:00",
+      "time_known": false,
+      "text": "IBM's third-quarter revenue rose 5% to $17.1 billion, and Texas Instruments' jumped 28% to $6.06 billion, the companies reported after the bell Wednesday.",
+      "detail": "IBM earned $2.31 a share ($2.95 excluding items), with software revenue up 8% and consulting flat; it kept its forecast of 4% to 5% revenue growth at constant currency for the year and now expects free cash flow to rise by more than $1 billion. Texas Instruments earned $2.62 a share, up from $1.48, with growth in industrial, automotive and data-center chips, and forecast fourth-quarter revenue of $5.80 billion to $6.30 billion.",
+      "why": "The reports gauge business spending on software and AI and demand for the basic chips used in cars and factories.",
+      "source": "IBM (investor release)",
+      "url": "https://newsroom.ibm.com/2026-10-21-IBM-RELEASES-THIRD-QUARTER-RESULTS",
+      "tags": [
+        "earnings",
+        "ibm",
+        "texas-instruments",
+        "chips"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-21-trump-not-negotiating-with-iran",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "thread": "iran-war",
+      "impact": 2,
+      "time": "2026-10-21T23:00:00-04:00",
+      "time_known": false,
+      "text": "President Trump said the U.S. is not negotiating with Iran and that \"something one way or the other\" will happen \"fairly soon,\" speaking late Wednesday.",
+      "detail": "Asked on the tarmac after his South Carolina rally whether he was negotiating with the Iranians, Trump said: \"No, I think we're not negotiating with. We are going to have something one way or the other that'll happen fairly soon. Most people seem to think it's after the election, and we're going to see what happens.\" He also said U.S. strikes had \"taken out\" Iran's military, navy and air force. On Ukraine, he said the push for talks is \"the closest I've seen to maybe working out.\" Iran's foreign minister said Wednesday that Tehran remains open to diplomacy but is ready to defend itself.",
+      "why": "It signals possible new U.S. military action on Iran after the Nov. 3 midterms, as tanker attacks rise.",
+      "source": "White House press pool report",
+      "url": "https://bnonews.com/whpool/0mBQ3-91",
+      "tags": [
+        "iran",
+        "trump"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-21-scotus-asked-revive-big-bend-border-wall",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. Supreme Court",
+      "branch": [
+        "judicial"
+      ],
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-21T15:36:00-04:00",
+      "time_known": true,
+      "text": "Border-wall construction in Texas's Big Bend Sector should be allowed to resume, the Trump administration told the Supreme Court in an emergency request Wednesday.",
+      "detail": "Solicitor General D. John Sauer asked the justices (Mullin v. Friends of the Ruidosa Church, No. 26A560) to pause an Oct. 2 preliminary injunction by a federal district court in western Texas that halts wall construction in the Big Bend Sector unless the government meets the court's conditions; he also asked the court to take up the case and summarily reverse. The district court found DHS's legal waivers for the project likely lacked clear authorization from Congress under the major-questions doctrine. The government says the sector covers nearly a quarter of the U.S.-Mexico border and that the injunction halts already-started construction. Under the 2005 REAL ID Act, such rulings can be reviewed only by the Supreme Court. The application went to Justice Samuel Alito. Plaintiffs are Friends of the Ruidosa Church, the Center for Biological Diversity and a local resident.",
+      "why": "The justices could decide quickly whether wall building resumes along a long, remote stretch of the border that includes national parkland.",
+      "source": "Supreme Court (docket 26A560)",
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a560.html",
+      "tags": [
+        "border-wall",
+        "supreme-court",
+        "texas"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
+    {
+      "id": "2026-10-22-russia-strikes-kyiv-after-talks-deal",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 2,
+      "time": "2026-10-22T02:00:00-04:00",
+      "time_known": false,
+      "text": "Kyiv was hit by Russian ballistic missiles and drones overnight, killing one person and wounding 22, hours after the Kremlin agreed to resume peace talks.",
+      "detail": "Ukraine's State Emergency Service said the strikes damaged homes, transportation infrastructure and other civilian sites in several districts; in the Dniprovskyi district on the Dnipro's east bank, one person was killed and six wounded, including a child. On Wednesday, Kremlin adviser Yuri Ushakov said Vladimir Putin agreed \"in principle\" to restart three-way talks with the U.S. and Ukraine after Nov. 10. Ukrainian President Volodymyr Zelenskyy backed the talks but said, \"We'll see what happens this time.\"",
+      "why": "The attack came within hours of Moscow's agreement to talk, a test of how much the diplomacy changes on the ground.",
+      "source": "AP",
+      "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877",
+      "tags": [
+        "ukraine",
+        "russia",
+        "kyiv"
+      ],
+      "added_at": "2026-10-22T05:32:14-04:00"
+    },
     {
       "id": "2026-10-21-php2shell-critical-php-flaws-fixed",
       "section": "tech",

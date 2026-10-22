@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-22-morning",
+   "date": "2026-10-22",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Saudi Arabia's King Fahd International Airport in Dammam was attacked late Wednesday, killing two people and injuring eight, Saudi aviation authorities said."
+  },
+  {
    "key": "2026-10-21-evening",
    "date": "2026-10-21",
    "edition": "evening",
@@ -323,5 +330,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-21T16:55:40-04:00"
+ "updated": "2026-10-22T05:32:21-04:00"
 }

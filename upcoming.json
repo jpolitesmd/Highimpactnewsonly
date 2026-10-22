@@ -1,41 +1,11 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "events": [
     {
       "date": "2026-10-21",
       "when": "After the close",
       "text": "IBM reports third-quarter results after the close; announcement 5:00 p.m. ET.",
       "detail": "Date and time per IBM investor relations.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "when": "After the close",
-      "text": "Meta reports third-quarter results after the close; call 4:30 p.m. ET.",
-      "detail": "Date and call time per Meta’s Oct. 12 investor relations release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "when": "After the close",
-      "text": "Tesla reports third-quarter results after the close; Q&A webcast 5:30 p.m. ET.",
-      "detail": "Tesla already reported 486,532 Q3 deliveries on Oct. 2; profit and cash flow come with the earnings release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "when": "Before the open",
-      "text": "AT&T reports third-quarter results; call 8:30 a.m. ET.",
-      "detail": "Date and call time per AT&T's earnings notice.",
       "buzz": true,
       "tags": [
         "markets"
@@ -242,6 +212,16 @@
       ]
     },
     {
+      "date": "2026-10-29",
+      "when": "Before the open",
+      "text": "Eli Lilly and Merck report third-quarter results; Merck call 9:00 a.m. ET, Lilly call 10:00 a.m. ET.",
+      "detail": "Dates and call times per Lilly's Oct. 15 PR Newswire release and Merck's Oct. 1 Business Wire release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-30",
       "when": "8:30 a.m. ET",
       "text": "Third-quarter Employment Cost Index (BLS), 8:30 a.m. ET.",
@@ -284,6 +264,16 @@
     {
       "date": "2026-11-03",
       "text": "Midterm elections."
+    },
+    {
+      "date": "2026-11-03",
+      "when": "10:00 a.m. ET",
+      "text": "Pfizer reports third-quarter results; webcast 10:00 a.m. ET.",
+      "detail": "Date and time per Pfizer's investor relations event page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
     },
     {
       "date": "2026-11-06",

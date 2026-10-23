@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-23-evening",
+   "date": "2026-10-23",
+   "edition": "evening",
+   "count": 4,
+   "lead": "Alaska's Senate result could not be certified if Sen. Dan Sullivan loses narrowly, under a Justice Department lawsuit Trump said Friday he ordered."
+  },
+  {
    "key": "2026-10-23-morning",
    "date": "2026-10-23",
    "edition": "morning",
@@ -344,5 +351,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-23T05:27:16-04:00"
+ "updated": "2026-10-23T16:50:13-04:00"
 }

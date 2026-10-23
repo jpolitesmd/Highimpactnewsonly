@@ -1,36 +1,6 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "events": [
-    {
-      "date": "2026-10-21",
-      "when": "After the close",
-      "text": "IBM reports third-quarter results after the close; announcement 5:00 p.m. ET.",
-      "detail": "Date and time per IBM investor relations.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "when": "After the close",
-      "text": "Texas Instruments reports third-quarter results after the close; call 4:30 p.m. ET.",
-      "detail": "Date and call time (3:30 p.m. Central) per TI’s Oct. 1 announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-22",
-      "when": "Before the open",
-      "text": "Procter & Gamble reports fiscal first-quarter results; webcast 8:30 a.m. ET.",
-      "detail": "Date and time per P&G's Sept. 24 announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-23",
       "when": "8:00 p.m. ET",
@@ -222,6 +192,16 @@
       ]
     },
     {
+      "date": "2026-10-29",
+      "when": "After the close",
+      "text": "Starbucks reports fiscal fourth-quarter and full-year results after the close; call 4:15 p.m. ET.",
+      "detail": "Date and call time (1:15 p.m. Pacific) per Starbucks' Oct. 8 Business Wire announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-10-30",
       "when": "8:30 a.m. ET",
       "text": "Third-quarter Employment Cost Index (BLS), 8:30 a.m. ET.",
@@ -270,6 +250,16 @@
       "when": "10:00 a.m. ET",
       "text": "Pfizer reports third-quarter results; webcast 10:00 a.m. ET.",
       "detail": "Date and time per Pfizer's investor relations event page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "when": "After the close",
+      "text": "AMD reports third-quarter results after the close; call 5:00 p.m. ET.",
+      "detail": "Date and call time (2 p.m. Pacific) per AMD's Oct. 6 GlobeNewswire release.",
       "buzz": true,
       "tags": [
         "markets"

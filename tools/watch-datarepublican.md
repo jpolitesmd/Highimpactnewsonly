@@ -11,6 +11,11 @@ Maintained by the DataRepublican files official-response watch routine (runs unt
   - 2026-10-20 3:11 p.m. ET (quoting Democracy Files Part 2): "Every American needs to be aware of what @DataRepublican has uncovered … the American people must not be kept in the dark on something like this" — https://x.com/BasedMikeLee/status/2112622821230915865
   - 2026-10-21 2:09 a.m. ET: "Pray for @DataRepublican" — https://x.com/BasedMikeLee/status/2112788281767383224
 
+- 2026-10-23 — Rep. Tim Burchett (R-Tenn.), personal account @timburchett (tangential comment, not a committee chair, not an official action; logged 2026-10-23 3:10 p.m. ET run so later runs skip it; not sent to John or x-leads because it quotes a post about "DSA plans" and does not name DataRepublican or the Democracy Files groups):
+  - 2026-10-23 9:20 a.m. ET, quoting "The DSA Plans To Incite Nationwide Violence Ahead Of 2028 Election" (https://x.com/i/status/2113613423548543010): "Not a single Democrat member of Congress has condemned this." — https://x.com/timburchett/status/2113621560682504588
+
 ## Checked with nothing found (as of 2026-10-21 9:15 a.m. ET)
 
 No posts on the topic since Oct 18 from Patel/@FBI, the AG (@AGToddBlanche)/@TheJusticeDept, @WhiteHouse/press secretary, Trump, Vance, Stephen Miller, DHS, the War secretary, or the Judiciary/Oversight chairs searched. No DOJ/FBI statement, investigation, subpoena, letter or hearing found; no response from Renew to Thrive, Paul Zeitz, Danielle Reiff, NSL4A, Indivisible or 50501 found; no AP or Reuters coverage of the recordings found.
+
+(As of 2026-10-23 3:10 p.m. ET: still nothing from the senior officials, DOJ/FBI, the named groups, or AP/Reuters.)

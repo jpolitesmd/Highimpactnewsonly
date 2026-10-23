@@ -1,6 +1,188 @@
 {
-  "updated": "2026-10-22T16:44:36-04:00",
+  "updated": "2026-10-23T05:26:23-04:00",
   "items": [
+    {
+      "id": "2026-10-23-scotus-new-hampshire-student-id-voting",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. Supreme Court",
+      "branch": [
+        "judicial"
+      ],
+      "region": "U.S.",
+      "thread": "midterms-2026",
+      "impact": 3,
+      "pin": "2026-10-23 morning",
+      "pin_order": 1,
+      "time": "2026-10-22T17:30:00-04:00",
+      "time_known": false,
+      "text": "New Hampshire can bar student IDs even as backup proof of identity at the polls on Nov. 3, the Supreme Court ruled Thursday, pausing a judge's order.",
+      "detail": "The Court granted Secretary of State David Scanlan's emergency application (Scanlan v. Coalition for Open Democracy, No. 26A512) and paused a federal judge's Oct. 2 and Oct. 5 orders while the case is appealed to the 1st Circuit and, if sought, the Supreme Court. A state law passed this year removed student IDs from the list of accepted photo IDs for getting a ballot; Scanlan's guidance then barred them for any purpose, including under a backup provision that lets officials weigh other evidence of identity. U.S. District Judge Joseph Laplante left the law in place but blocked that guidance. The unsigned order, quoting a 2020 precedent, said lower federal courts \"should ordinarily not alter the election rules on the eve of an election.\" Justice Ketanji Brown Jackson dissented, writing that the judge's order left the state's rule untouched and only corrected a publicized misstatement of what the law requires. The Republican National Committee backed the state. New Hampshire has a closely contested U.S. Senate race this year.",
+      "why": "It settles, for this election, which IDs college students in New Hampshire can use to vote, less than two weeks before Election Day.",
+      "source": "Supreme Court of the United States (order); AP",
+      "url": "https://www.supremecourt.gov/opinions/26pdf/26a512_6j37.pdf",
+      "tags": [
+        "supreme-court",
+        "voting",
+        "new-hampshire",
+        "midterms"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-trump-dpa-150m-refining",
+      "section": "news",
+      "topic": "energy",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-22T19:00:00-04:00",
+      "time_known": false,
+      "text": "Up to $150 million in Defense Production Act money will go to restart a U.S. refinery and expand fuel refining, President Trump announced Thursday.",
+      "detail": "Presidential Determination No. 2026-11, issued under Section 303 of the Defense Production Act, declares domestic petroleum production, refining and logistics capacity essential to national defense. The Energy Department said the Title III money will expand petroleum production, storage and logistics at refineries across the country to raise output of gasoline, diesel and jet fuel, and that project selection is ongoing. Trump announced the plan at a rally in Sioux City, Iowa.",
+      "why": "Fuel prices are climbing with Brent crude near $114 a barrel, and the administration is using wartime powers to add U.S. refining capacity.",
+      "source": "White House; U.S. Department of Energy",
+      "url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-restart-american-refinery-and-expand",
+      "tags": [
+        "energy",
+        "oil",
+        "defense-production-act"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-brent-five-month-high-aramco-evacuates",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "markets",
+      "region": "U.S.",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-23T04:10:00-04:00",
+      "time_known": true,
+      "text": "Brent crude rose above $114 a barrel Friday, its highest since early May, after Saudi Aramco evacuated its headquarters amid Houthi attacks on Saudi Arabia.",
+      "detail": "Brent futures were up 79 cents at $113.96 a barrel by 4:10 a.m. ET, after touching $114.72, the highest since May 4, and are on track for a third straight weekly gain of almost 4%, Reuters reported; U.S. crude was up $1.10 at $100.57. Saudi Aramco on Thursday ordered staff to evacuate its headquarters in Dhahran, on the Gulf near Bahrain, as fighting between Saudi Arabia and Yemen's Iran-aligned Houthis intensified, Reuters reported. Saudi Arabia's state news agency said air defenses intercepted and destroyed drones and missiles aimed at Riyadh and the kingdom's south early Friday.",
+      "why": "Oil above $100 feeds straight into U.S. gasoline, diesel and airfare prices.",
+      "source": "Reuters (via CNBC); Saudi Press Agency",
+      "url": "https://www.cnbc.com/2026/10/23/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia.html",
+      "tags": [
+        "oil",
+        "saudi-arabia",
+        "houthis",
+        "aramco"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-quest-diagnostics-breach-patient-records",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-22T16:30:00-04:00",
+      "time_known": false,
+      "text": "Quest Diagnostics, the national lab company, says hackers got into a test-ordering system and likely accessed some patient records.",
+      "detail": "In a regulatory filing Thursday, Quest said it learned on Oct. 21 of unauthorized access to its Quanum Lab Services Manager, a system some clients use to place test orders and receive or look up results. The company said it believes \"certain patient records\" were accessed, but how many patients and which records were affected is still unknown and under investigation. Quest said it notified federal law enforcement, hired outside cybersecurity experts, and that the incident has not materially disrupted its operations. Quest said the breach was not related to the widely reported PHP security flaw.",
+      "why": "Quest runs lab tests for a large share of U.S. adults, so a breach of patient records could reach many people.",
+      "source": "Quest Diagnostics SEC filing; AP",
+      "url": "https://apnews.com/article/quest-cyber-breach-82dbe1fa6ba06cf6514bc16f73e64fe1",
+      "tags": [
+        "data-breach",
+        "quest",
+        "cybersecurity"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-fifth-circuit-removes-judge-ai-citations",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "branch": [
+        "judicial"
+      ],
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-22T12:00:00-04:00",
+      "time_known": false,
+      "text": "Mississippi's ban on DEI programs in public schools and colleges can be enforced after a federal appeals court threw out a judge's order that cited made-up material.",
+      "detail": "A three-judge 5th Circuit panel on Thursday vacated U.S. District Judge Henry Wingate's preliminary injunction against House Bill 1193 and ordered the case reassigned to a different district judge. Judge Jerry E. Smith, writing for the panel, said Wingate's earlier temporary restraining order listed parties, facts and case citations that do not exist, including a purported 4th Circuit case. Wingate later acknowledged that AI had been used, blaming his law clerk. The 2025 law bars DEI programs and requirements in Mississippi public schools and universities.",
+      "why": "It lets a statewide education law be enforced and is a rare case of an appeals court removing a judge over fabricated material in his own rulings.",
+      "source": "U.S. Court of Appeals for the Fifth Circuit (opinion)",
+      "url": "https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf",
+      "tags": [
+        "courts",
+        "ai",
+        "dei",
+        "mississippi"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-usda-first-screwworm-us-wildlife",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-21T15:00:00-04:00",
+      "time_known": false,
+      "text": "New World screwworm has been found in U.S. wildlife for the first time, in an elk killed by a hunter in Pecos County, Texas, USDA confirmed.",
+      "detail": "The Agriculture Department's Animal and Plant Health Inspection Service said the elk was on a game ranch and was reported after a hunter harvested it. The Texas Animal Health Commission will modify a previously set infested zone, and USDA and Texas Parks and Wildlife are expanding wildlife surveillance in the area. The flesh-eating parasite attacks livestock, wildlife and pets.",
+      "why": "Spread into wild animals makes the livestock pest harder to contain and raises the stakes for U.S. cattle and beef supplies.",
+      "source": "USDA APHIS",
+      "url": "https://aphis-prod.azureedge.us/news/agency-announcements/usda-confirms-first-detection-new-world-screwworm-us-wildlife",
+      "tags": [
+        "screwworm",
+        "usda",
+        "texas",
+        "livestock"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-iphone-duo-goes-on-sale",
+      "section": "tech",
+      "topic": "technology",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-23T05:00:00-04:00",
+      "time_known": false,
+      "text": "Apple's first foldable iPhone, the $1,999 iPhone Duo, goes on sale Friday in the U.S. and more than 70 other countries.",
+      "detail": "Announced Sept. 9, the iPhone Duo has a 7.6-inch inner screen that folds to a 5.4-inch outer screen, the A20 Pro chip and a titanium body, and starts at $1,999 in the U.S. Preorders opened Oct. 16, and it reaches 28 more countries Oct. 30, Apple said.",
+      "why": "Apple's priciest iPhone yet is a test of whether buyers will pay for foldables, a category Apple had stayed out of.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+      "tags": [
+        "apple",
+        "iphone",
+        "trending"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
+    {
+      "id": "2026-10-23-calley-means-resigns-hhs",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-22T14:30:00-04:00",
+      "time_known": false,
+      "text": "Calley Means, a top adviser to Health Secretary Robert F. Kennedy Jr. and a leading MAHA advocate, resigned from the Trump administration Thursday.",
+      "detail": "Means, a senior adviser at the Health and Human Services Department, said he was leaving \"with tremendous respect for President Trump and RFK.\" His departure follows frustration over the stalled food agenda, including the administration's still-unreleased federal definition of ultraprocessed food, AP and other outlets reported.",
+      "why": "It signals strain inside the administration over the Make America Healthy Again food agenda less than two weeks before the midterms.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-maha-healthcare-rfk-jr-945acfc81edf8e837e969d42f01fb2a3",
+      "tags": [
+        "hhs",
+        "maha",
+        "rfk-jr"
+      ],
+      "added_at": "2026-10-23T05:26:23-04:00"
+    },
     {
       "id": "2026-10-22-virginia-senate-leader-lucas-indicted",
       "section": "news",

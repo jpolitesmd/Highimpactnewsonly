@@ -1,0 +1,277 @@
+{
+ "date": "2026-10-23",
+ "edition": "morning",
+ "subject": "Friday, Oct 23 - Morning edition",
+ "published": "2026-10-23T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-23-scotus-new-hampshire-student-id-voting",
+   "section": "news",
+   "text": "New Hampshire can bar student IDs even as backup proof of identity at the polls on Nov. 3, the Supreme Court ruled Thursday, pausing a judge's order.",
+   "detail": "The Court granted Secretary of State David Scanlan's emergency application (Scanlan v. Coalition for Open Democracy, No. 26A512) and paused a federal judge's Oct. 2 and Oct. 5 orders while the case is appealed to the 1st Circuit and, if sought, the Supreme Court. A state law passed this year removed student IDs from the list of accepted photo IDs for getting a ballot; Scanlan's guidance then barred them for any purpose, including under a backup provision that lets officials weigh other evidence of identity. U.S. District Judge Joseph Laplante left the law in place but blocked that guidance. The unsigned order, quoting a 2020 precedent, said lower federal courts \"should ordinarily not alter the election rules on the eve of an election.\" Justice Ketanji Brown Jackson dissented, writing that the judge's order left the state's rule untouched and only corrected a publicized misstatement of what the law requires. The Republican National Committee backed the state. New Hampshire has a closely contested U.S. Senate race this year.",
+   "why": "It settles, for this election, which IDs college students in New Hampshire can use to vote, less than two weeks before Election Day.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Supreme Court",
+   "region": "U.S.",
+   "time": "2026-10-22T17:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order); AP",
+   "url": "https://www.supremecourt.gov/opinions/26pdf/26a512_6j37.pdf"
+  },
+  {
+   "id": "2026-10-23-iphone-duo-goes-on-sale",
+   "section": "tech",
+   "text": "Apple's first foldable iPhone, the $1,999 iPhone Duo, goes on sale Friday in the U.S. and more than 70 other countries.",
+   "detail": "Announced Sept. 9, the iPhone Duo has a 7.6-inch inner screen that folds to a 5.4-inch outer screen, the A20 Pro chip and a titanium body, and starts at $1,999 in the U.S. Preorders opened Oct. 16, and it reaches 28 more countries Oct. 30, Apple said.",
+   "why": "Apple's priciest iPhone yet is a test of whether buyers will pay for foldables, a category Apple had stayed out of.",
+   "impact": 3,
+   "topic": "technology",
+   "region": "U.S.",
+   "time": "2026-10-23T05:00:00-04:00",
+   "time_known": false,
+   "source": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+  },
+  {
+   "id": "2026-10-23-brent-five-month-high-aramco-evacuates",
+   "section": "money",
+   "text": "Brent crude rose above $114 a barrel Friday, its highest since early May, after Saudi Aramco evacuated its headquarters amid Houthi attacks on Saudi Arabia.",
+   "detail": "Brent futures were up 79 cents at $113.96 a barrel by 4:10 a.m. ET, after touching $114.72, the highest since May 4, and are on track for a third straight weekly gain of almost 4%, Reuters reported; U.S. crude was up $1.10 at $100.57. Saudi Aramco on Thursday ordered staff to evacuate its headquarters in Dhahran, on the Gulf near Bahrain, as fighting between Saudi Arabia and Yemen's Iran-aligned Houthis intensified, Reuters reported. Saudi Arabia's state news agency said air defenses intercepted and destroyed drones and missiles aimed at Riyadh and the kingdom's south early Friday.",
+   "why": "Oil above $100 feeds straight into U.S. gasoline, diesel and airfare prices.",
+   "impact": 3,
+   "topic": "markets",
+   "region": "U.S.",
+   "time": "2026-10-23T04:10:00-04:00",
+   "time_known": true,
+   "source": "Reuters (via CNBC); Saudi Press Agency",
+   "url": "https://www.cnbc.com/2026/10/23/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia.html"
+  },
+  {
+   "id": "2026-10-23-trump-dpa-150m-refining",
+   "section": "news",
+   "text": "Up to $150 million in Defense Production Act money will go to restart a U.S. refinery and expand fuel refining, President Trump announced Thursday.",
+   "detail": "Presidential Determination No. 2026-11, issued under Section 303 of the Defense Production Act, declares domestic petroleum production, refining and logistics capacity essential to national defense. The Energy Department said the Title III money will expand petroleum production, storage and logistics at refineries across the country to raise output of gasoline, diesel and jet fuel, and that project selection is ongoing. Trump announced the plan at a rally in Sioux City, Iowa.",
+   "why": "Fuel prices are climbing with Brent crude near $114 a barrel, and the administration is using wartime powers to add U.S. refining capacity.",
+   "impact": 3,
+   "topic": "energy",
+   "region": "U.S.",
+   "time": "2026-10-22T19:00:00-04:00",
+   "time_known": false,
+   "source": "White House; U.S. Department of Energy",
+   "url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-restart-american-refinery-and-expand"
+  },
+  {
+   "id": "2026-10-23-quest-diagnostics-breach-patient-records",
+   "section": "health",
+   "text": "Quest Diagnostics, the national lab company, says hackers got into a test-ordering system and likely accessed some patient records.",
+   "detail": "In a regulatory filing Thursday, Quest said it learned on Oct. 21 of unauthorized access to its Quanum Lab Services Manager, a system some clients use to place test orders and receive or look up results. The company said it believes \"certain patient records\" were accessed, but how many patients and which records were affected is still unknown and under investigation. Quest said it notified federal law enforcement, hired outside cybersecurity experts, and that the incident has not materially disrupted its operations. Quest said the breach was not related to the widely reported PHP security flaw.",
+   "why": "Quest runs lab tests for a large share of U.S. adults, so a breach of patient records could reach many people.",
+   "impact": 3,
+   "topic": "health",
+   "region": "U.S.",
+   "time": "2026-10-22T16:30:00-04:00",
+   "time_known": false,
+   "source": "Quest Diagnostics SEC filing; AP",
+   "url": "https://apnews.com/article/quest-cyber-breach-82dbe1fa6ba06cf6514bc16f73e64fe1"
+  },
+  {
+   "id": "2026-10-22-virginia-senate-leader-lucas-indicted",
+   "section": "news",
+   "text": "Virginia state Sen. L. Louise Lucas, the chamber's top Democrat, was indicted on federal charges of leading an illegal marijuana business with family members.",
+   "detail": "The eight-count indictment unsealed Thursday in the Eastern District of Virginia charges Lucas, 82, and six others, including her two daughters and her grandson, with a racketeering conspiracy involving marijuana distribution, money laundering, honest-services fraud through bribery, maintaining drug-involved premises, possessing firearms in furtherance of drug trafficking, and wire fraud. Prosecutors allege the group acquired and sold 100 kilograms or more of marijuana and that Lucas used her post as chair of the Senate Finance and Appropriations Committee to shield the business and influence legislation; FBI Director Kash Patel put the five-year scheme at an estimated $4.5 million. Lucas, a senator since 1992 and president pro tempore since 2020, surrendered Thursday morning and was due in federal court in Norfolk. Attorney General Todd Blanche said the investigation had run for several years and rejected claims it was political. In a social media post, Lucas did not address the charges but said, \"I will not be intimidated,\" according to Reuters. Virginia's state senators are not on the ballot this year.",
+   "why": "Federal charges against the leader of a state legislature are rare, and they land less than two weeks before the midterm elections.",
+   "impact": 4,
+   "topic": "government",
+   "region": "U.S.",
+   "time": "2026-10-22T09:54:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/virginia-state-senator-indicted-leading-criminal-marijuana-distribution-enterprise"
+  },
+  {
+   "id": "2026-10-22-ai-stock-selloff-nasdaq-falls-2-6",
+   "section": "money",
+   "text": "The Nasdaq fell 2.6% Thursday and the S&P 500 lost 1.2%, its worst day since July, as AI stocks tumbled and oil rose.",
+   "detail": "The S&P 500 fell 93.74 points to 7,663.43 and the Nasdaq composite dropped 694 points to 26,008.86, while the Dow Jones Industrial Average edged up 11.89 points to 52,867.98, AP reported; most U.S. stocks actually rose. AI stocks swung lower on worries about high interest rates and heavy spending, after Meta projected billions more in future costs. Brent crude rose 3.7% to $112.80 a barrel, its highest in about five months, after Iran said seven tankers were hit near the Strait of Hormuz and after the attack on a Saudi airport. Treasury yields fell sharply as investors moved into bonds.",
+   "why": "A broad tech selloff and $112 oil hit retirement accounts and fuel costs at the same time.",
+   "impact": 3,
+   "topic": "markets",
+   "region": "U.S.",
+   "time": "2026-10-22T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2"
+  },
+  {
+   "id": "2026-10-22-moderna-melanoma-vaccine-data-shares-fall",
+   "section": "money",
+   "text": "Moderna's shares fell as much as 25% Thursday after leaked results showed its melanoma vaccine with Merck cut recurrence or death risk 42%.",
+   "detail": "Screenshots of the Phase 3 INTerpath-001 results leaked online Thursday, and the European Society for Medical Oncology released the study details ahead of their scheduled Saturday presentation. Adding the personalized vaccine, intismeran autogene, to Merck's Keytruda after melanoma surgery lowered the risk of the cancer returning or death by 42% compared with Keytruda alone, after a median 24.6 months of follow-up. The result met the trial's goal but fell slightly short of the 44% seen in an earlier Phase 2 study; investors had expected 40% to 50%. Merck shares fell about 1%. The vaccine is not yet approved.",
+   "why": "It is the first large trial showing a personalized cancer vaccine improving on today's standard melanoma treatment.",
+   "impact": 3,
+   "topic": "business",
+   "region": "U.S.",
+   "time": "2026-10-22T14:00:00-04:00",
+   "time_known": false,
+   "source": "BioPharma Dive",
+   "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/"
+  },
+  {
+   "id": "2026-10-23-fifth-circuit-removes-judge-ai-citations",
+   "section": "news",
+   "text": "Mississippi's ban on DEI programs in public schools and colleges can be enforced after a federal appeals court threw out a judge's order that cited made-up material.",
+   "detail": "A three-judge 5th Circuit panel on Thursday vacated U.S. District Judge Henry Wingate's preliminary injunction against House Bill 1193 and ordered the case reassigned to a different district judge. Judge Jerry E. Smith, writing for the panel, said Wingate's earlier temporary restraining order listed parties, facts and case citations that do not exist, including a purported 4th Circuit case. Wingate later acknowledged that AI had been used, blaming his law clerk. The 2025 law bars DEI programs and requirements in Mississippi public schools and universities.",
+   "why": "It lets a statewide education law be enforced and is a rare case of an appeals court removing a judge over fabricated material in his own rulings.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the Fifth Circuit",
+   "region": "U.S.",
+   "time": "2026-10-22T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the Fifth Circuit (opinion)",
+   "url": "https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf"
+  },
+  {
+   "id": "2026-10-22-treasury-proposes-large-investor-home-ban-rules",
+   "section": "news",
+   "text": "Treasury's proposed rules for the law barring large investors from buying single-family homes were released Thursday; the ban starts Jan. 7, 2027.",
+   "detail": "The proposed regulations carry out Section 1001 of the 21st Century ROAD to Housing Act. Starting Jan. 7, 2027, an entity in the business of owning or renting single-family homes that controls at least 350 of them generally may not buy or contract to buy another, unless the purchase falls under an exception such as build-to-rent, renovate-to-rent or programs that help renters buy homes. The proposal sets standards for those exceptions, defines passive investors, and covers foreclosures, loss mitigation and transfers between large investors. Public comments are due 30 days after the rule is published in the Federal Register.",
+   "why": "The rules decide how far the new ban actually reaches in a housing market where many families compete with investors for homes.",
+   "impact": 3,
+   "topic": "housing",
+   "region": "U.S.",
+   "time": "2026-10-22T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0665"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-23-calley-means-resigns-hhs",
+   "section": "health",
+   "text": "Calley Means, a top adviser to Health Secretary Robert F. Kennedy Jr. and a leading MAHA advocate, resigned from the Trump administration Thursday.",
+   "detail": "Means, a senior adviser at the Health and Human Services Department, said he was leaving \"with tremendous respect for President Trump and RFK.\" His departure follows frustration over the stalled food agenda, including the administration's still-unreleased federal definition of ultraprocessed food, AP and other outlets reported.",
+   "why": "It signals strain inside the administration over the Make America Healthy Again food agenda less than two weeks before the midterms.",
+   "impact": 2,
+   "topic": "health",
+   "region": "U.S.",
+   "time": "2026-10-22T14:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-maha-healthcare-rfk-jr-945acfc81edf8e837e969d42f01fb2a3"
+  },
+  {
+   "id": "2026-10-22-commerce-389m-chips-power-chip-awards",
+   "section": "tech",
+   "text": "The Commerce Department signed letters of intent for up to $389 million in CHIPS research awards to four companies making power chips.",
+   "detail": "Fusion company Helion would get up to $175 million and Commonwealth Fusion Systems up to $85 million for high-voltage and fusion-related power semiconductors, Vertical Semiconductor $73 million and Sibelco $56 million. Commerce would take minority, non-voting equity stakes. Letters of intent are not final awards.",
+   "why": "The money steers federal chip funding toward the power electronics behind data centers and fusion energy.",
+   "impact": 2,
+   "topic": "technology",
+   "region": "U.S.",
+   "time": "2026-10-22T12:00:00-04:00",
+   "time_known": false,
+   "source": "NIST / U.S. Commerce Department",
+   "url": "https://www.nist.gov/news-events/news/2026/10/department-commerce-announces-letters-intent-4-companies-389-million-rd"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-22-saudi-dammam-airport-attack-kills-2",
+   "section": "news",
+   "text": "Saudi Arabia's King Fahd International Airport in Dammam was attacked late Wednesday, killing two people and injuring eight, Saudi aviation authorities said.",
+   "detail": "Saudi Arabia's General Authority of Civil Aviation said Thursday the dead were a Saudi citizen and an Indian national living in the kingdom; the toll was first reported as one. The eight injured, from Saudi Arabia, India, Yemen, Bangladesh and Nepal, had injuries ranging from minor to severe. Flights were diverted during the attack; the authority said Thursday that operations had resumed and air traffic was back to normal, and that damage was being assessed. Saudi authorities did not say who was responsible, and the Iran-backed Houthi rebels issued no statement; the airport, near Bahrain and Qatar, has been hit before in a wave of Houthi strikes on Saudi airports. Separately on Wednesday, Saudi Arabia's Energy Ministry said debris from an intercepted drone aimed at a processing facility at Saudi Aramco's Shaybah oil field killed a Filipino and a Nepali worker and injured two others; it said oil operations were not affected. The attacks came the same day the State Department ordered non-emergency U.S. diplomats and their families to leave Saudi Arabia.",
+   "why": "Deadly strikes on a major Saudi airport and oil field widen the Gulf war's threat to civilian travel and world oil supply, a day after the U.S. pulled diplomats' families out.",
+   "impact": 4,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-21T20:00:00-04:00",
+   "time_known": false,
+   "source": "AP (Saudi civil aviation authority)",
+   "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+  },
+  {
+   "id": "2026-10-21-php2shell-critical-php-flaws-fixed",
+   "section": "tech",
+   "text": "PHP, the programming language behind most websites, released emergency fixes Wednesday for two critical flaws that can let attackers take over web servers remotely.",
+   "detail": "The flaws, CVE-2026-109618 and CVE-2026-109619 (nicknamed \"php2shell\"), are memory-handling bugs that PHP says can allow remote code execution without logging in; PHP rates both 9.2 out of 10 in severity. PHP says every installation serving web requests is at risk, with the danger highest on Apache servers running mod_php, where a demonstrated exploit works before any website code runs. Fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 came out about 9:40 a.m. ET; PHP 8.1 and older get no official update. PHP runs on about 69% of websites whose server language is known, according to tracker W3Techs, including WordPress, Drupal and Magento sites. CISA issued an alert saying it had not seen exploitation as of publication, while security firms watchTowr and Cloudflare reported attack attempts. Governments in the Netherlands, Finland and France took some websites offline as a precaution, Reuters reported, and the FBI warned that the flaws put sensitive data and networks at risk, AP reported. Researchers at Calif, OpenAI and Wiz found the flaws using AI tools and reported them to PHP starting Aug. 11.",
+   "why": "A single flaw in software that runs most of the web exposes millions of sites at once, and attackers began probing within hours.",
+   "impact": 4,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-21T09:40:00-04:00",
+   "time_known": true,
+   "source": "PHP (php.net security advisory)",
+   "url": "https://www.php.net/archive/2026.php#2026-10-21-5"
+  },
+  {
+   "id": "2026-10-19-scotus-rejects-911-plea-deals",
+   "section": "news",
+   "text": "The 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants stay void after the Supreme Court refused Monday to hear their appeals.",
+   "detail": "The unsigned order denied review in Mohammad v. United States and bin 'Atash v. United States, leaving in place a D.C. Circuit ruling that then-Defense Secretary Lloyd Austin lawfully withdrew the 2024 agreements, which would have traded guilty pleas for life sentences instead of possible death sentences. Justice Brett Kavanaugh did not take part in Mohammed's case. A military judge has set the trial of Mohammed, Mustafa al Hawsawi and Walid bin 'Atash for June 2028. On the same order list, the court also turned away former NLRB member Gwynne Wilcox's challenge to her firing by President Trump, and agreed to hear cases on race in Montgomery County, Md., magnet-school admissions and on the federal ban on home distilling.",
+   "why": "The ruling keeps the death penalty possible in the long-stalled prosecution of the accused planners of the attacks that killed nearly 3,000 people.",
+   "impact": 4,
+   "topic": "courts",
+   "branch": [
+    "judicial"
+   ],
+   "region": "US",
+   "time": "2026-10-19T09:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States (order list)",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-23",
+   "when": "8:00 p.m. ET",
+   "text": "World Series Game 1: Tampa Bay Rays at Milwaukee Brewers, 8:00 p.m. ET on FOX.",
+   "detail": "The Rays beat the Guardians 7-3 in ALCS Game 6 on Oct. 19 to win the series 4-2, per AP. Games 1–2 in Milwaukee Oct. 23–24 per MLB’s postseason schedule; either team would win its first World Series.",
+   "buzz": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "when": "7:00 a.m. ET",
+   "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:00 a.m. ET",
+   "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+   "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

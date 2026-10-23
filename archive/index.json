@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-23-morning",
+   "date": "2026-10-23",
+   "edition": "morning",
+   "count": 10,
+   "lead": "New Hampshire can bar student IDs even as backup proof of identity at the polls on Nov. 3, the Supreme Court ruled Thursday, pausing a judge's order."
+  },
+  {
    "key": "2026-10-22-evening",
    "date": "2026-10-22",
    "edition": "evening",
@@ -337,5 +344,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-22T16:44:36-04:00"
+ "updated": "2026-10-23T05:27:16-04:00"
 }

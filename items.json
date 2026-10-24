@@ -1,6 +1,154 @@
 {
-  "updated": "2026-10-24T05:31:24-04:00",
+  "updated": "2026-10-24T16:49:13-04:00",
   "items": [
+    {
+      "id": "2026-10-24-iran-open-to-deal-gulf-warning",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-24T11:50:00-04:00",
+      "time_known": false,
+      "pin": "2026-10-24 evening",
+      "pin_order": 1,
+      "text": "Iran said Saturday it is still open to reviving its interim deal with the U.S., even as its military chief vowed U.S. warships will never enter the Gulf.",
+      "detail": "Iran's ambassador to Pakistan, Reza Amiri Moghadam, told AP that Tehran recently offered through Pakistan to reopen the Strait of Hormuz if Washington lifts its naval blockade, and said President Trump rejected it. President Masoud Pezeshkian said on state TV that \"the cowards (Americans) messed everything up\" but that Iran should still try to conclude the deal, Reuters reported. Armed forces chief of staff Ali Abdollahi said U.S. military ships will not be allowed in the Persian Gulf \"under any circumstances and at any time,\" AFP reported. Separately, Saudi air defenses intercepted a Houthi ballistic missile fired at Riyadh on Saturday, the Saudi Press Agency said.",
+      "why": "Iran is signaling it wants a deal while threatening U.S. ships, as Hormuz stays restricted and oil prices stay high.",
+      "source": "AP; Reuters; AFP; Saudi Press Agency",
+      "url": "https://apnews.com/article/pakistan-iran-us-talks-hormuz-45161652890bf4f3d570347b8aae6b22",
+      "tags": [
+        "iran",
+        "hormuz",
+        "houthis"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
+    {
+      "id": "2026-10-24-france-protests-410000-clashes",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "france-protests",
+      "impact": 3,
+      "time": "2026-10-24T12:45:00-04:00",
+      "time_known": false,
+      "text": "About 410,000 people marched across France on Saturday over school funding and living costs, and the Paris march ended in clashes with police.",
+      "detail": "The interior ministry counted 110,000 marchers in Paris; unions put the national total near 800,000. Police fired tear gas and water cannons in Paris and used tear gas in Lyon, Marseille, Strasbourg and other cities. The Paris prosecutor's office said 64 people were arrested in connection with the Paris march. Interior Minister Laurent Nuñez had deployed up to 70,000 officers, and authorities banned rallies in Lyon, Nice and Montpellier. The Louvre, Orsay and other major museums closed for the day.",
+      "why": "The weeks-long movement is the biggest test yet of President Macron's government months before France elects his successor.",
+      "source": "AP",
+      "url": "https://apnews.com/article/france-protests-paris-unrest-ad2fb9206e72e5d1b4ae43fdf7aa96a9",
+      "tags": [
+        "france",
+        "protests"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
+    {
+      "id": "2026-10-24-four-corners-flooding-rescues",
+      "section": "news",
+      "topic": "disaster",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-24T12:00:00-04:00",
+      "time_known": false,
+      "text": "Flooding in the Four Corners region forced at least 20 more overnight rescues in New Mexico's San Juan County, with more rain forecast Saturday.",
+      "detail": "Rescues ran from Farmington west to Shiprock, where power was out and the U.S. 64 bridge was closed; county officials said 200 to 300 people may have been rescued since the flooding began, and by noon Saturday they believed no one else was trapped. Evacuated areas stayed closed, Bloomfield ordered new evacuations as the river rose, and officials said river water is contaminated with raw sewage. In Colorado, La Plata County declared a local disaster and closed the Animas River to all boats. Officials said rivers could rise again with up to another inch of rain.",
+      "why": "Hundreds of people have needed rescue, and the flooding is not over.",
+      "source": "AP; San Juan County, N.M.",
+      "url": "https://apnews.com/article/extreme-weather-flooding-rescues-new-mexico-colorado-331f28a33ea85fba70a4cabe13ee91a3",
+      "tags": [
+        "flooding",
+        "new-mexico",
+        "colorado"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
+    {
+      "id": "2026-10-24-israel-hebron-operation-displaced",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "time": "2026-10-24T09:00:00-04:00",
+      "time_known": false,
+      "text": "Israel's military pressed a multi-day operation in Hebron on Saturday after two soldiers were killed at a checkpoint, displacing hundreds of Palestinians.",
+      "detail": "Two Palestinian gunmen killed two soldiers and wounded three Friday near the city before they were shot dead. The military said it is searching the Al-Jaladah and Ein Deir Baha neighborhoods for militants and weapons and will carry out demolitions. Hebron's mayor said about 1,200 people have been forced from their homes; the governor put the figure at 150 families. A Palestinian prisoners' group said about 70 people were arrested, and Israel closed the entrances to most Palestinian towns in the West Bank. Israel holds its general election Tuesday.",
+      "why": "It is a major West Bank operation days before Israel's election.",
+      "source": "AP; Reuters",
+      "url": "https://apnews.com/article/israel-west-bank-military-operation-election-5995f6958ff503686ad68a8d547daf4d",
+      "tags": [
+        "israel",
+        "west-bank",
+        "hebron"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
+    {
+      "id": "2026-10-24-eagles-nest-fire-suspect",
+      "section": "news",
+      "topic": "pulse",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-23T16:00:00-04:00",
+      "time_known": false,
+      "text": "A fire largely destroyed the Eagle's Nest, the Alpine retreat built for Hitler near Berchtesgaden, Germany, and police detained a suspect.",
+      "detail": "The Kehlsteinhaus burned Friday night. Police suspect arson and detained a 33-year-old German man, who authorities said has a diagnosed mental illness and was placed in a psychiatric facility. No one was hurt. Investigators are still looking into a possible political motive.",
+      "why": "The landmark draws large numbers of tourists and is a well-known World War II site.",
+      "source": "AP",
+      "url": "https://apnews.com/article/germany-hitler-eagles-nest-berchtesgaden-alps-fire-338ec9bbec52ecf52d1c127546d01eed",
+      "tags": [
+        "germany",
+        "fire"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
+    {
+      "id": "2026-10-24-kenya-ebola-second-death",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "World",
+      "world_region": "africa",
+      "thread": "kenya-ebola",
+      "impact": 2,
+      "time": "2026-10-23T14:00:00-04:00",
+      "time_known": false,
+      "text": "Kenya reported its second Ebola death, a 65-year-old relative of the country's first patient who fell ill while in quarantine.",
+      "detail": "Health Cabinet Secretary Aden Duale said she died after receiving supportive care in Nairobi and was buried under strict infection-control rules. Kenya has nine confirmed cases of the Bundibugyo strain, all in one family cluster, and officials said all 135 known contacts have been traced.",
+      "why": "The outbreak remains limited to one cluster, but the death count has doubled.",
+      "source": "AP",
+      "url": "https://apnews.com/article/kenya-ebola-congo-uganda-nigeria-c96067b4b2fc8d3e35a97e32455e996c",
+      "tags": [
+        "ebola",
+        "kenya"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
+    {
+      "id": "2026-10-24-cms-nurses-for-nursing-homes",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-23T12:00:00-04:00",
+      "time_known": false,
+      "text": "CMS launched a $275 million program offering nurses up to $40,000 in student-loan repayment to work three years in rural or short-staffed nursing homes.",
+      "detail": "Nurses without student debt who graduated in the past two years can get a $10,000 stipend instead. CMS is putting in $100 million, funded by penalties collected from nursing homes, and states at least $175 million; all 50 states and D.C. are participating. The agency expects the program to support more than 4,000 nurses. Applications open Oct. 26.",
+      "why": "Nursing-home staffing shortages affect care for millions of older Americans.",
+      "source": "HHS",
+      "url": "https://www.hhs.gov/press-room/cms-launches-275-million-nurses-nursing-homes-initiative.html",
+      "tags": [
+        "nursing-homes",
+        "cms"
+      ],
+      "added_at": "2026-10-24T16:49:07-04:00"
+    },
     {
       "id": "2026-10-23-us-cuts-staff-four-mideast-embassies-iran-plots",
       "section": "news",

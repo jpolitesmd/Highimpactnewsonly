@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-24-evening",
+   "date": "2026-10-24",
+   "edition": "evening",
+   "count": 4,
+   "lead": "Iran said Saturday it is still open to reviving its interim deal with the U.S., even as its military chief vowed U.S. warships will never enter the Gulf."
+  },
+  {
    "key": "2026-10-24-morning",
    "date": "2026-10-24",
    "edition": "morning",
@@ -358,5 +365,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-24T05:31:35-04:00"
+ "updated": "2026-10-24T16:49:18-04:00"
 }

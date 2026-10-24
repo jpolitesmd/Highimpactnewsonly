@@ -1,0 +1,104 @@
+{
+ "date": "2026-10-24",
+ "edition": "evening",
+ "subject": "Saturday, Oct 24 - Evening edition",
+ "published": "2026-10-24T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-24-iran-open-to-deal-gulf-warning",
+   "section": "news",
+   "text": "Iran said Saturday it is still open to reviving its interim deal with the U.S., even as its military chief vowed U.S. warships will never enter the Gulf.",
+   "detail": "Iran's ambassador to Pakistan, Reza Amiri Moghadam, told AP that Tehran recently offered through Pakistan to reopen the Strait of Hormuz if Washington lifts its naval blockade, and said President Trump rejected it. President Masoud Pezeshkian said on state TV that \"the cowards (Americans) messed everything up\" but that Iran should still try to conclude the deal, Reuters reported. Armed forces chief of staff Ali Abdollahi said U.S. military ships will not be allowed in the Persian Gulf \"under any circumstances and at any time,\" AFP reported. Separately, Saudi air defenses intercepted a Houthi ballistic missile fired at Riyadh on Saturday, the Saudi Press Agency said.",
+   "why": "Iran is signaling it wants a deal while threatening U.S. ships, as Hormuz stays restricted and oil prices stay high.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-24T11:50:00-04:00",
+   "time_known": false,
+   "source": "AP; Reuters; AFP; Saudi Press Agency",
+   "url": "https://apnews.com/article/pakistan-iran-us-talks-hormuz-45161652890bf4f3d570347b8aae6b22"
+  },
+  {
+   "id": "2026-10-24-france-protests-410000-clashes",
+   "section": "news",
+   "text": "About 410,000 people marched across France on Saturday over school funding and living costs, and the Paris march ended in clashes with police.",
+   "detail": "The interior ministry counted 110,000 marchers in Paris; unions put the national total near 800,000. Police fired tear gas and water cannons in Paris and used tear gas in Lyon, Marseille, Strasbourg and other cities. The Paris prosecutor's office said 64 people were arrested in connection with the Paris march. Interior Minister Laurent Nuñez had deployed up to 70,000 officers, and authorities banned rallies in Lyon, Nice and Montpellier. The Louvre, Orsay and other major museums closed for the day.",
+   "why": "The weeks-long movement is the biggest test yet of President Macron's government months before France elects his successor.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-24T12:45:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/france-protests-paris-unrest-ad2fb9206e72e5d1b4ae43fdf7aa96a9"
+  },
+  {
+   "id": "2026-10-24-four-corners-flooding-rescues",
+   "section": "news",
+   "text": "Flooding in the Four Corners region forced at least 20 more overnight rescues in New Mexico's San Juan County, with more rain forecast Saturday.",
+   "detail": "Rescues ran from Farmington west to Shiprock, where power was out and the U.S. 64 bridge was closed; county officials said 200 to 300 people may have been rescued since the flooding began, and by noon Saturday they believed no one else was trapped. Evacuated areas stayed closed, Bloomfield ordered new evacuations as the river rose, and officials said river water is contaminated with raw sewage. In Colorado, La Plata County declared a local disaster and closed the Animas River to all boats. Officials said rivers could rise again with up to another inch of rain.",
+   "why": "Hundreds of people have needed rescue, and the flooding is not over.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "U.S.",
+   "time": "2026-10-24T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP; San Juan County, N.M.",
+   "url": "https://apnews.com/article/extreme-weather-flooding-rescues-new-mexico-colorado-331f28a33ea85fba70a4cabe13ee91a3"
+  },
+  {
+   "id": "2026-10-24-israel-hebron-operation-displaced",
+   "section": "news",
+   "text": "Israel's military pressed a multi-day operation in Hebron on Saturday after two soldiers were killed at a checkpoint, displacing hundreds of Palestinians.",
+   "detail": "Two Palestinian gunmen killed two soldiers and wounded three Friday near the city before they were shot dead. The military said it is searching the Al-Jaladah and Ein Deir Baha neighborhoods for militants and weapons and will carry out demolitions. Hebron's mayor said about 1,200 people have been forced from their homes; the governor put the figure at 150 families. A Palestinian prisoners' group said about 70 people were arrested, and Israel closed the entrances to most Palestinian towns in the West Bank. Israel holds its general election Tuesday.",
+   "why": "It is a major West Bank operation days before Israel's election.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-24T09:00:00-04:00",
+   "time_known": false,
+   "source": "AP; Reuters",
+   "url": "https://apnews.com/article/israel-west-bank-military-operation-election-5995f6958ff503686ad68a8d547daf4d"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 4
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-26",
+   "when": "7:00 a.m. ET",
+   "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:00 a.m. ET",
+   "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+   "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:30 a.m. ET",
+   "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
+   "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

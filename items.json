@@ -1,6 +1,60 @@
 {
-  "updated": "2026-10-23T16:50:08-04:00",
+  "updated": "2026-10-23T21:15:50-04:00",
   "items": [
+    {
+      "id": "2026-10-23-fifth-circuit-no-bond-hearings-ice-detainees",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "branch": [
+        "judicial"
+      ],
+      "region": "U.S.",
+      "thread": "deportations-courts",
+      "impact": 3,
+      "time": "2026-10-23T16:00:00-04:00",
+      "time_known": false,
+      "text": "Immigrants held by ICE in Texas, Louisiana and Mississippi have no constitutional right to a bond hearing, the full federal appeals court there ruled Friday.",
+      "detail": "The 5th Circuit, sitting as a full 17-judge court, ruled 10-7 that people who entered the U.S. without being admitted and are held under 8 U.S.C. 1225(b)(2)(A) are not entitled by the Fifth Amendment's due process clause to hearings on whether they are dangerous or likely to flee, however long their deportation cases take. It reversed lower-court orders that had freed three men, two from Mexico and one from Honduras, who had lived in the U.S. 14 to 22 years and were turned over to ICE after traffic stops, and it overturned a July panel ruling that had required bond hearings within 90 days. Judge Cory Wilson wrote for the majority that detainees can end their detention \"at any moment by agreeing to leave the country.\" Judge Leslie Southwick, writing for six dissenters, said the court had built \"an impenetrable wall between the Constitution\" and long-term residents; Judge Dana Douglas wrote that unchecked power to detain indefinitely \"echoes fearfully from history.\" Texas and Louisiana hold the largest numbers of immigration detainees in the country. The ruling deepens a split with other appeals courts, and the Supreme Court agreed this month to decide the related question of whether immigration law itself requires bond hearings. DHS general counsel James Percival called it a \"big win.\" The National Immigration Project, which represents the men, said it opens the door to more people being locked up and is weighing whether to appeal.",
+      "why": "It removes a main path to release for detained immigrants in the states that hold the most of them, while the Supreme Court weighs the issue.",
+      "source": "U.S. Court of Appeals for the Fifth Circuit (en banc opinion)",
+      "url": "https://www.ca5.uscourts.gov/opinions/pub/26/26-50183-CV1.pdf",
+      "tags": [
+        "courts",
+        "immigration",
+        "ice",
+        "detention",
+        "fifth-circuit"
+      ],
+      "added_at": "2026-10-23T21:15:50-04:00"
+    },
+    {
+      "id": "2026-10-21-fifth-circuit-switchblade-ban-unconstitutional",
+      "section": "news",
+      "topic": "court",
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "branch": [
+        "judicial"
+      ],
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-21T18:00:00-04:00",
+      "time_known": false,
+      "text": "The federal law banning interstate sale and shipping of switchblades violates the Second Amendment, a federal appeals court ruled Wednesday.",
+      "detail": "A three-judge 5th Circuit panel (Chief Judge Jennifer Walker Elrod, with Judges Don Willett and Cory Wilson) held that switchblades are protected \"arms\" and that the Justice Department failed to show the 1958 Federal Switchblade Act's limits on making, moving and selling the knives across state lines fit the nation's history of weapons rules. It reinstated the challenge by the group Knife Rights, five individuals and two retailers, and sent it back to the trial court in Texas. The court rejected their challenge to a separate part of the law covering U.S. territories and tribal lands. Knife Rights said the ruling confirms the Second Amendment protects knives. The Justice Department, which had defended the law, did not immediately comment, Reuters reported.",
+      "why": "It is a rare appeals-court ruling striking down a federal weapons law under the Supreme Court's history-based test, and it extends that test to knives.",
+      "source": "U.S. Court of Appeals for the Fifth Circuit (opinion)",
+      "url": "https://www.ca5.uscourts.gov/opinions/pub/25/25-10754-CV0.pdf",
+      "tags": [
+        "courts",
+        "second-amendment",
+        "switchblades",
+        "fifth-circuit"
+      ],
+      "added_at": "2026-10-23T21:15:50-04:00"
+    },
     {
       "id": "2026-10-23-doj-sues-alaska-senate-certification",
       "section": "news",

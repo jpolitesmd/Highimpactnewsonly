@@ -1,0 +1,241 @@
+{
+ "date": "2026-10-24",
+ "edition": "morning",
+ "subject": "Saturday, Oct 24 - Morning edition",
+ "published": "2026-10-24T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-23-us-cuts-staff-four-mideast-embassies-iran-plots",
+   "section": "news",
+   "text": "U.S. embassies in Jordan, Lebanon, Qatar and the UAE are cutting staff after the intelligence chief warned Iranian plots to kill Americans are in \"advanced stages.\"",
+   "detail": "In a memo sent Friday to Secretary of State Marco Rubio, Director of National Intelligence Jay Clayton wrote that Iran has \"substantially increased efforts to target U.S. personnel\" and that \"the lethal plotting efforts by the Iranians against U.S. citizens have reached advanced stages in both the Middle East and certain other countries.\" The memo, copied to CIA Director John Ratcliffe, names no targets or countries and does not say whether attacks are imminent. The four embassies, already under \"restricted operations,\" will stay open and staff are not ordered to leave, unlike in Saudi Arabia, where nonessential personnel and families were ordered out Wednesday. U.S. officials told AP the threats from Iran and Yemen's Houthis are behind the changes and denied they are tied to any new strikes on Iran. At a Florida rally Friday, President Trump said \"we may do another little Epic Fury, or they'll agree,\" referring to the U.S. military campaign against Iran.",
+   "why": "It is the clearest official warning yet that Americans abroad are being targeted as the Iran war stalls, and it shrinks the U.S. diplomatic presence in the region.",
+   "impact": 3,
+   "topic": "security",
+   "region": "U.S.",
+   "time": "2026-10-23T21:42:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799"
+  },
+  {
+   "id": "2026-10-23-cia-contractor-charged-leaking-to-substack",
+   "section": "news",
+   "text": "A CIA contractor was arrested and charged Friday with leaking top-secret intelligence to a romantic partner who published it on her Substack newsletter.",
+   "detail": "The Justice Department said the FBI arrested Ian A. Brinksman, 42, of Washington, D.C., after searching his home, and charged him by criminal complaint in the Eastern District of Virginia with unlawfully transmitting national defense information. Prosecutors say he worked for a U.S. agency from 2020 and from 2022 as a systems-integration developer for a contractor to the same agency, holding a Top Secret/SCI clearance. The FBI affidavit says articles by \"Individual 1\" mirrored classified reports he accessed on at least five occasions in 2026, some at the top-secret level; Reuters identified the newsletter as Capital & Empire by Aída Chávez. CIA Director John Ratcliffe said the agency referred the case. His federal public defender declined to comment. Charges are allegations; he is presumed innocent.",
+   "why": "It is a rare Espionage Act case tied to published reporting, and it comes as the administration pursues leaks during the Iran war.",
+   "impact": 3,
+   "topic": "justice",
+   "region": "U.S.",
+   "time": "2026-10-23T20:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice; Reuters",
+   "url": "https://www.justice.gov/opa/pr/us-government-contractor-arrested-allegedly-leaking-national-defense-information"
+  },
+  {
+   "id": "2026-10-23-trump-revises-canada-section-338-tariff-list",
+   "section": "money",
+   "text": "President Trump's tariffs on Canadian goods under a 1930 trade law will cover a revised product list from Oct. 30, under a proclamation he signed Friday.",
+   "detail": "The proclamation, issued under Section 338 of the Tariff Act of 1930, drops products such as plywood sheets, some paper products, certain machinery and refrigeration equipment, and some packing crates and boxes, and adds certain valves, carpets, waste products and others, the White House said. The tariffs, first announced July 20 and modified Sept. 8, apply whether or not goods qualify under the U.S.-Mexico-Canada Agreement and come on top of Section 232 duties. The White House cited Canada's retaliatory tariffs on about $20 billion of U.S. exports. The tariffs face a challenge at the Court of International Trade.",
+   "why": "It changes which Canadian imports U.S. businesses pay the steep tariff on, starting next week.",
+   "impact": 3,
+   "topic": "trade",
+   "region": "U.S.",
+   "time": "2026-10-23T17:00:00-04:00",
+   "time_known": false,
+   "source": "The White House",
+   "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/"
+  },
+  {
+   "id": "2026-10-23-doe-spr-exchange-lake-charles-refinery",
+   "section": "money",
+   "text": "Up to 400,000 barrels of emergency oil from the Strategic Petroleum Reserve will go to Phillips 66's Lake Charles, La., refinery, the Energy Department said Friday.",
+   "detail": "The department said the exchange from the reserve's West Hackberry site, for immediate delivery, offsets temporary disruptions to crude deliveries to the refinery and supports fuel supplies for Louisiana and nearby markets; Phillips 66 must return the oil plus extra premium barrels. The refinery can process about 264,000 barrels a day. Reuters noted the reserve is already at its lowest level since 1982. A Phillips 66 spokesperson said the company does not anticipate impacts to Lake Charles operations.",
+   "why": "It shows the government using the depleted reserve to keep regional fuel supplies steady while oil prices are at their highest since spring.",
+   "impact": 2,
+   "topic": "energy",
+   "region": "U.S.",
+   "time": "2026-10-23T17:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Energy",
+   "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply"
+  },
+  {
+   "id": "2026-10-23-fifth-circuit-no-bond-hearings-ice-detainees",
+   "section": "news",
+   "text": "Immigrants held by ICE in Texas, Louisiana and Mississippi have no constitutional right to a bond hearing, the full federal appeals court there ruled Friday.",
+   "detail": "The 5th Circuit, sitting as a full 17-judge court, ruled 10-7 that people who entered the U.S. without being admitted and are held under 8 U.S.C. 1225(b)(2)(A) are not entitled by the Fifth Amendment's due process clause to hearings on whether they are dangerous or likely to flee, however long their deportation cases take. It reversed lower-court orders that had freed three men, two from Mexico and one from Honduras, who had lived in the U.S. 14 to 22 years and were turned over to ICE after traffic stops, and it overturned a July panel ruling that had required bond hearings within 90 days. Judge Cory Wilson wrote for the majority that detainees can end their detention \"at any moment by agreeing to leave the country.\" Judge Leslie Southwick, writing for six dissenters, said the court had built \"an impenetrable wall between the Constitution\" and long-term residents; Judge Dana Douglas wrote that unchecked power to detain indefinitely \"echoes fearfully from history.\" Texas and Louisiana hold the largest numbers of immigration detainees in the country. The ruling deepens a split with other appeals courts, and the Supreme Court agreed this month to decide the related question of whether immigration law itself requires bond hearings. DHS general counsel James Percival called it a \"big win.\" The National Immigration Project, which represents the men, said it opens the door to more people being locked up and is weighing whether to appeal.",
+   "why": "It removes a main path to release for detained immigrants in the states that hold the most of them, while the Supreme Court weighs the issue.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the Fifth Circuit",
+   "region": "U.S.",
+   "time": "2026-10-23T16:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the Fifth Circuit (en banc opinion)",
+   "url": "https://www.ca5.uscourts.gov/opinions/pub/26/26-50183-CV1.pdf"
+  },
+  {
+   "id": "2026-10-23-oil-highest-close-stocks-fall-friday",
+   "section": "money",
+   "text": "Brent crude closed at $116.72 a barrel Friday, its highest since April, and the Dow fell 653 points as oil weighed on stocks.",
+   "detail": "The Dow Jones Industrial Average fell 652.82 points, or 1.2%, to 52,215.16; the S&P 500 lost 39.75 points, or 0.5%, to 7,623.68, its second straight weekly loss; and the Nasdaq slipped 53.52 points, or 0.2%, to 25,955.34, a day after its biggest drop since June, Reuters and AP reported. Nearly three of every four S&P 500 stocks fell. Brent rose 3.1% and U.S. crude 3.8% to $103.27, driven by Houthi attacks on Saudi Arabia and a tanker oil spill off the UAE, Reuters reported. Separately, the Energy Department authorized an emergency loan of up to 400,000 barrels from the Strategic Petroleum Reserve to Phillips 66's Lake Charles, La., refinery after a crude-delivery disruption.",
+   "why": "Oil above $100 feeds into gasoline, diesel and airfare prices ahead of next week's Fed meeting.",
+   "impact": 3,
+   "topic": "markets",
+   "region": "U.S.",
+   "time": "2026-10-23T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963"
+  },
+  {
+   "id": "2026-10-23-doj-sues-alaska-senate-certification",
+   "section": "news",
+   "text": "Alaska's Senate result could not be certified if Sen. Dan Sullivan loses narrowly, under a Justice Department lawsuit Trump said Friday he ordered.",
+   "detail": "The suit, United States v. Alaska, filed Thursday in federal court in Alaska against the state Division of Elections, argues that a second candidate on the ballot, Daniel J. Sullivan Jr., will confuse voters. It asks the court to bar certifying the result if Republican Sen. Dan Sullivan loses and would have won had the other Sullivan's votes gone to him, pending an investigation, citing the National Voter Registration Act. \"I'm the one that said do it,\" Trump told reporters Friday as he landed for a rally in Florida. The Alaska Supreme Court earlier kept Daniel J. Sullivan on the ballot; he will appear without a party label, while the senator is listed as the Republican incumbent. Democrat Mary Peltola called the suit \"the corruption AK is fed up with.\" The election is Nov. 3, 11 days after the filing.",
+   "why": "It asks a federal court to hold up a state's certification of a close Senate race that could decide control of the chamber.",
+   "impact": 3,
+   "topic": "elections",
+   "region": "U.S.",
+   "time": "2026-10-23T14:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/alaska-senate-race-sullivan-name-lawsuit-certification-d8f4a3c7b5247cc427a05f796d7c0d82"
+  },
+  {
+   "id": "2026-10-23-jordan-church-funeral-attack-karak",
+   "section": "news",
+   "text": "Gunmen opened fire during a funeral at a Greek Orthodox church in Karak, Jordan, on Friday, killing at least seven people and wounding 40.",
+   "detail": "State television footage showed at least three gunmen approaching the church and firing; a mourner said the shooting began 15 minutes into the service. The government called it an attack \"by unknown assailants\" and said investigations are under way; it did not say whether anyone was caught. Two of the wounded are in critical condition, the health minister said. King Abdullah II vowed \"the harshest penalties,\" Prime Minister Jafar Hassan blamed \"terrorist ideology and blind extremism,\" and Jordan declared three days of national mourning. Karak, about 110 miles south of Amman, has a Christian minority. Arab News reported Saturday that the death toll had risen to eight. U.N. Secretary-General Antonio Guterres condemned the attack.",
+   "why": "It is one of the deadliest attacks in years in Jordan, a key U.S. ally, and targeted its Christian minority.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-23T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/jordan-gunmen-greek-orthodox-church-deaths-karak-19599ce75b9ab6749a1e1bf2ff66f2ab"
+  },
+  {
+   "id": "2026-10-23-oleshky-local-ceasefire-melania-trump",
+   "section": "news",
+   "text": "Russia and Ukraine agreed to a local ceasefire in occupied Oleshky so aid can enter and civilians can leave, in a deal Melania Trump brokered.",
+   "detail": "The White House said the truce in the Kherson-region town starts Oct. 29 and lets non-military teams from both countries visit residents and arrange evacuation to Russia or Ukraine. Ukraine's chief negotiator, ombudsman Dmytro Lubinets, confirmed the deal and told AP the ceasefire will start Tuesday, cover the Kherson region and nearby areas needed for the operation, and last several days. Kremlin spokesman Dmitry Peskov confirmed it, said all civilians who want to leave may do so and that the evacuation will take at least several days, and praised the first lady's role. It is not a wider ceasefire.",
+   "why": "It is an agreed pause in fighting between Russia and Ukraine, limited to one area and a humanitarian operation.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-23T12:00:00-04:00",
+   "time_known": false,
+   "source": "The White House; AP",
+   "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-23-iphone-duo-goes-on-sale",
+   "section": "tech",
+   "text": "Apple's first foldable iPhone, the $1,999 iPhone Duo, goes on sale Friday in the U.S. and more than 70 other countries.",
+   "detail": "Announced Sept. 9, the iPhone Duo has a 7.6-inch inner screen that folds to a 5.4-inch outer screen, the A20 Pro chip and a titanium body, and starts at $1,999 in the U.S. Preorders opened Oct. 16, and it reaches 28 more countries Oct. 30, Apple said.",
+   "why": "Apple's priciest iPhone yet is a test of whether buyers will pay for foldables, a category Apple had stayed out of.",
+   "impact": 3,
+   "topic": "technology",
+   "region": "U.S.",
+   "time": "2026-10-23T05:00:00-04:00",
+   "time_known": false,
+   "source": "Apple Newsroom",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-22-virginia-senate-leader-lucas-indicted",
+   "section": "news",
+   "text": "Virginia state Sen. L. Louise Lucas, the chamber's top Democrat, was indicted on federal charges of leading an illegal marijuana business with family members.",
+   "detail": "The eight-count indictment unsealed Thursday in the Eastern District of Virginia charges Lucas, 82, and six others, including her two daughters and her grandson, with a racketeering conspiracy involving marijuana distribution, money laundering, honest-services fraud through bribery, maintaining drug-involved premises, possessing firearms in furtherance of drug trafficking, and wire fraud. Prosecutors allege the group acquired and sold 100 kilograms or more of marijuana and that Lucas used her post as chair of the Senate Finance and Appropriations Committee to shield the business and influence legislation; FBI Director Kash Patel put the five-year scheme at an estimated $4.5 million. Lucas, a senator since 1992 and president pro tempore since 2020, surrendered Thursday morning and was due in federal court in Norfolk. Attorney General Todd Blanche said the investigation had run for several years and rejected claims it was political. In a social media post, Lucas did not address the charges but said, \"I will not be intimidated,\" according to Reuters. Virginia's state senators are not on the ballot this year.",
+   "why": "Federal charges against the leader of a state legislature are rare, and they land less than two weeks before the midterm elections.",
+   "impact": 4,
+   "topic": "government",
+   "region": "U.S.",
+   "time": "2026-10-22T09:54:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/virginia-state-senator-indicted-leading-criminal-marijuana-distribution-enterprise"
+  },
+  {
+   "id": "2026-10-22-saudi-dammam-airport-attack-kills-2",
+   "section": "news",
+   "text": "Saudi Arabia's King Fahd International Airport in Dammam was attacked late Wednesday, killing two people and injuring eight, Saudi aviation authorities said.",
+   "detail": "Saudi Arabia's General Authority of Civil Aviation said Thursday the dead were a Saudi citizen and an Indian national living in the kingdom; the toll was first reported as one. The eight injured, from Saudi Arabia, India, Yemen, Bangladesh and Nepal, had injuries ranging from minor to severe. Flights were diverted during the attack; the authority said Thursday that operations had resumed and air traffic was back to normal, and that damage was being assessed. Saudi authorities did not say who was responsible, and the Iran-backed Houthi rebels issued no statement; the airport, near Bahrain and Qatar, has been hit before in a wave of Houthi strikes on Saudi airports. Separately on Wednesday, Saudi Arabia's Energy Ministry said debris from an intercepted drone aimed at a processing facility at Saudi Aramco's Shaybah oil field killed a Filipino and a Nepali worker and injured two others; it said oil operations were not affected. The attacks came the same day the State Department ordered non-emergency U.S. diplomats and their families to leave Saudi Arabia.",
+   "why": "Deadly strikes on a major Saudi airport and oil field widen the Gulf war's threat to civilian travel and world oil supply, a day after the U.S. pulled diplomats' families out.",
+   "impact": 4,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-21T20:00:00-04:00",
+   "time_known": false,
+   "source": "AP (Saudi civil aviation authority)",
+   "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+  },
+  {
+   "id": "2026-10-21-php2shell-critical-php-flaws-fixed",
+   "section": "tech",
+   "text": "PHP, the programming language behind most websites, released emergency fixes Wednesday for two critical flaws that can let attackers take over web servers remotely.",
+   "detail": "The flaws, CVE-2026-109618 and CVE-2026-109619 (nicknamed \"php2shell\"), are memory-handling bugs that PHP says can allow remote code execution without logging in; PHP rates both 9.2 out of 10 in severity. PHP says every installation serving web requests is at risk, with the danger highest on Apache servers running mod_php, where a demonstrated exploit works before any website code runs. Fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 came out about 9:40 a.m. ET; PHP 8.1 and older get no official update. PHP runs on about 69% of websites whose server language is known, according to tracker W3Techs, including WordPress, Drupal and Magento sites. CISA issued an alert saying it had not seen exploitation as of publication, while security firms watchTowr and Cloudflare reported attack attempts. Governments in the Netherlands, Finland and France took some websites offline as a precaution, Reuters reported, and the FBI warned that the flaws put sensitive data and networks at risk, AP reported. Researchers at Calif, OpenAI and Wiz found the flaws using AI tools and reported them to PHP starting Aug. 11.",
+   "why": "A single flaw in software that runs most of the web exposes millions of sites at once, and attackers began probing within hours.",
+   "impact": 4,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-21T09:40:00-04:00",
+   "time_known": true,
+   "source": "PHP (php.net security advisory)",
+   "url": "https://www.php.net/archive/2026.php#2026-10-21-5"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-26",
+   "when": "7:00 a.m. ET",
+   "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:00 a.m. ET",
+   "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+   "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:30 a.m. ET",
+   "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
+   "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

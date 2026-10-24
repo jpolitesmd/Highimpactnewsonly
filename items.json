@@ -1,6 +1,178 @@
 {
-  "updated": "2026-10-23T21:15:50-04:00",
+  "updated": "2026-10-24T05:31:24-04:00",
   "items": [
+    {
+      "id": "2026-10-23-us-cuts-staff-four-mideast-embassies-iran-plots",
+      "section": "news",
+      "topic": "security",
+      "region": "U.S.",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-23T21:42:00-04:00",
+      "time_known": false,
+      "text": "U.S. embassies in Jordan, Lebanon, Qatar and the UAE are cutting staff after the intelligence chief warned Iranian plots to kill Americans are in \"advanced stages.\"",
+      "detail": "In a memo sent Friday to Secretary of State Marco Rubio, Director of National Intelligence Jay Clayton wrote that Iran has \"substantially increased efforts to target U.S. personnel\" and that \"the lethal plotting efforts by the Iranians against U.S. citizens have reached advanced stages in both the Middle East and certain other countries.\" The memo, copied to CIA Director John Ratcliffe, names no targets or countries and does not say whether attacks are imminent. The four embassies, already under \"restricted operations,\" will stay open and staff are not ordered to leave, unlike in Saudi Arabia, where nonessential personnel and families were ordered out Wednesday. U.S. officials told AP the threats from Iran and Yemen's Houthis are behind the changes and denied they are tied to any new strikes on Iran. At a Florida rally Friday, President Trump said \"we may do another little Epic Fury, or they'll agree,\" referring to the U.S. military campaign against Iran.",
+      "why": "It is the clearest official warning yet that Americans abroad are being targeted as the Iran war stalls, and it shrinks the U.S. diplomatic presence in the region.",
+      "source": "AP",
+      "url": "https://apnews.com/article/iran-war-houthis-embassies-staffing-rubio-9635852ea973064907ed0b7c0fca4799",
+      "tags": [
+        "iran",
+        "state-department",
+        "embassies",
+        "intelligence"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-23-cia-contractor-charged-leaking-to-substack",
+      "section": "news",
+      "topic": "justice",
+      "region": "U.S.",
+      "impact": 3,
+      "time": "2026-10-23T20:00:00-04:00",
+      "time_known": false,
+      "text": "A CIA contractor was arrested and charged Friday with leaking top-secret intelligence to a romantic partner who published it on her Substack newsletter.",
+      "detail": "The Justice Department said the FBI arrested Ian A. Brinksman, 42, of Washington, D.C., after searching his home, and charged him by criminal complaint in the Eastern District of Virginia with unlawfully transmitting national defense information. Prosecutors say he worked for a U.S. agency from 2020 and from 2022 as a systems-integration developer for a contractor to the same agency, holding a Top Secret/SCI clearance. The FBI affidavit says articles by \"Individual 1\" mirrored classified reports he accessed on at least five occasions in 2026, some at the top-secret level; Reuters identified the newsletter as Capital & Empire by Aída Chávez. CIA Director John Ratcliffe said the agency referred the case. His federal public defender declined to comment. Charges are allegations; he is presumed innocent.",
+      "why": "It is a rare Espionage Act case tied to published reporting, and it comes as the administration pursues leaks during the Iran war.",
+      "source": "U.S. Department of Justice; Reuters",
+      "url": "https://www.justice.gov/opa/pr/us-government-contractor-arrested-allegedly-leaking-national-defense-information",
+      "tags": [
+        "cia",
+        "leaks",
+        "espionage-act",
+        "doj"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-23-jordan-church-funeral-attack-karak",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "time": "2026-10-23T12:00:00-04:00",
+      "time_known": false,
+      "text": "Gunmen opened fire during a funeral at a Greek Orthodox church in Karak, Jordan, on Friday, killing at least seven people and wounding 40.",
+      "detail": "State television footage showed at least three gunmen approaching the church and firing; a mourner said the shooting began 15 minutes into the service. The government called it an attack \"by unknown assailants\" and said investigations are under way; it did not say whether anyone was caught. Two of the wounded are in critical condition, the health minister said. King Abdullah II vowed \"the harshest penalties,\" Prime Minister Jafar Hassan blamed \"terrorist ideology and blind extremism,\" and Jordan declared three days of national mourning. Karak, about 110 miles south of Amman, has a Christian minority. Arab News reported Saturday that the death toll had risen to eight. U.N. Secretary-General Antonio Guterres condemned the attack.",
+      "why": "It is one of the deadliest attacks in years in Jordan, a key U.S. ally, and targeted its Christian minority.",
+      "source": "AP",
+      "url": "https://apnews.com/article/jordan-gunmen-greek-orthodox-church-deaths-karak-19599ce75b9ab6749a1e1bf2ff66f2ab",
+      "tags": [
+        "jordan",
+        "attack",
+        "church"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-23-trump-revises-canada-section-338-tariff-list",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "trade",
+      "region": "U.S.",
+      "thread": "trade-tariffs",
+      "impact": 3,
+      "time": "2026-10-23T17:00:00-04:00",
+      "time_known": false,
+      "text": "President Trump's tariffs on Canadian goods under a 1930 trade law will cover a revised product list from Oct. 30, under a proclamation he signed Friday.",
+      "detail": "The proclamation, issued under Section 338 of the Tariff Act of 1930, drops products such as plywood sheets, some paper products, certain machinery and refrigeration equipment, and some packing crates and boxes, and adds certain valves, carpets, waste products and others, the White House said. The tariffs, first announced July 20 and modified Sept. 8, apply whether or not goods qualify under the U.S.-Mexico-Canada Agreement and come on top of Section 232 duties. The White House cited Canada's retaliatory tariffs on about $20 billion of U.S. exports. The tariffs face a challenge at the Court of International Trade.",
+      "why": "It changes which Canadian imports U.S. businesses pay the steep tariff on, starting next week.",
+      "source": "The White House",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/",
+      "tags": [
+        "tariffs",
+        "canada",
+        "section-338"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-23-doe-spr-exchange-lake-charles-refinery",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "energy",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-23T17:00:00-04:00",
+      "time_known": false,
+      "text": "Up to 400,000 barrels of emergency oil from the Strategic Petroleum Reserve will go to Phillips 66's Lake Charles, La., refinery, the Energy Department said Friday.",
+      "detail": "The department said the exchange from the reserve's West Hackberry site, for immediate delivery, offsets temporary disruptions to crude deliveries to the refinery and supports fuel supplies for Louisiana and nearby markets; Phillips 66 must return the oil plus extra premium barrels. The refinery can process about 264,000 barrels a day. Reuters noted the reserve is already at its lowest level since 1982. A Phillips 66 spokesperson said the company does not anticipate impacts to Lake Charles operations.",
+      "why": "It shows the government using the depleted reserve to keep regional fuel supplies steady while oil prices are at their highest since spring.",
+      "source": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply",
+      "tags": [
+        "oil",
+        "spr",
+        "energy",
+        "refining"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-23-san-francisco-el-nino-local-emergency",
+      "section": "news",
+      "topic": "weather",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-23T14:00:00-04:00",
+      "time_known": false,
+      "text": "San Francisco declared a local emergency Friday to speed preparations for a strong El Niño winter of storms and coastal flooding.",
+      "detail": "Mayor Daniel Lurie's declaration waives certain city contracting rules so departments can quickly buy flood barriers, pumps, generators, first-aid and shelter supplies, puts city government under the Incident Command System, and lets the mayor shift funds between departments. The city cited reports of a potentially record-setting 2026-27 El Niño and already elevated tides along the shoreline; Public Works has more than 20,000 sandbags ready.",
+      "why": "A major U.S. city is treating the coming El Niño winter as an emergency before the first storm arrives.",
+      "source": "City and County of San Francisco, Office of the Mayor",
+      "url": "https://www.sf.gov/news-mayor-lurie-declares-local-emergency-to-strengthen-san-franciscos-el-nino-preparedness",
+      "tags": [
+        "el-nino",
+        "san-francisco",
+        "weather",
+        "flooding"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-22-fda-proposes-cadmium-limits-baby-food",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-22T12:00:00-04:00",
+      "time_known": false,
+      "text": "Baby food makers would face new FDA action levels for cadmium, a heavy metal, under draft guidance the agency proposed this week.",
+      "detail": "The FDA said the proposed action levels for processed foods meant for babies and young children are intended to push manufacturers to lower cadmium, which can be absorbed from soil and pollution; it called the levels achievable with control measures. It also released draft guidance on controlling chemical hazards under its food-safety rules. Comments on the cadmium levels are due Dec. 22, 2026 (docket FDA-2025-D-4023). The step is part of the agency's Closer to Zero effort, which earlier set action levels for lead in baby food and arsenic in infant rice cereal.",
+      "why": "It extends federal limits on heavy metals in baby food to cadmium.",
+      "source": "FDA",
+      "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-advances-closer-zero-initiative-safeguard-food-children",
+      "tags": [
+        "fda",
+        "baby-food",
+        "heavy-metals",
+        "cadmium"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
+    {
+      "id": "2026-10-23-brewers-win-world-series-game-1",
+      "section": "sports",
+      "topic": "sports",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-23T23:09:00-04:00",
+      "time_known": false,
+      "text": "The Milwaukee Brewers beat the Tampa Bay Rays 3-2 in Game 1 of the World Series on Friday night after a game-ending double play was overturned.",
+      "detail": "With the bases loaded in the ninth, a replay review showed shortstop Cooper Pratt's foot was off the bag, wiping out what had been called the final out and letting a run score. Trevor Megill then struck out Jonny DeLuca to end it. Jacob Misiorowski allowed one run over five innings for the win. Milwaukee leads the best-of-seven series 1-0.",
+      "why": "Milwaukee is three wins from its first World Series title.",
+      "source": "AP; MLB.com",
+      "url": "https://www.mlb.com/news/brewers-game-ending-double-play-overturned-world-series-game-1",
+      "tags": [
+        "mlb",
+        "world-series",
+        "brewers",
+        "rays"
+      ],
+      "added_at": "2026-10-24T05:31:24-04:00"
+    },
     {
       "id": "2026-10-23-fifth-circuit-no-bond-hearings-ice-detainees",
       "section": "news",

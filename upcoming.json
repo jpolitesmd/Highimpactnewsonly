@@ -1,16 +1,6 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "events": [
-    {
-      "date": "2026-10-23",
-      "when": "8:00 p.m. ET",
-      "text": "World Series Game 1: Tampa Bay Rays at Milwaukee Brewers, 8:00 p.m. ET on FOX.",
-      "detail": "The Rays beat the Guardians 7-3 in ALCS Game 6 on Oct. 19 to win the series 4-2, per AP. Games 1–2 in Milwaukee Oct. 23–24 per MLB’s postseason schedule; either team would win its first World Series.",
-      "buzz": true,
-      "tags": [
-        "sports"
-      ]
-    },
     {
       "date": "2026-10-26",
       "when": "7:00 a.m. ET",
@@ -242,6 +232,26 @@
       ]
     },
     {
+      "date": "2026-11-02",
+      "when": "10:00 a.m. ET",
+      "text": "October ISM Manufacturing PMI, 10:00 a.m. ET.",
+      "detail": "Date and time per ISM's release calendar; September's reading was 54.5%, the ninth straight month of expansion.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "when": "After the close",
+      "text": "Palantir reports third-quarter results after the close; webcast 5:00 p.m. ET.",
+      "detail": "Date and webcast time per Palantir's Oct. 12 Business Wire announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-11-03",
       "text": "Midterm elections."
     },
@@ -260,6 +270,26 @@
       "when": "After the close",
       "text": "AMD reports third-quarter results after the close; call 5:00 p.m. ET.",
       "detail": "Date and call time (2 p.m. Pacific) per AMD's Oct. 6 GlobeNewswire release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "when": "Before the open",
+      "text": "Uber reports third-quarter results; call 8:00 a.m. ET.",
+      "detail": "Call time (5:00 a.m. Pacific) per Uber's Oct. 5 Business Wire announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "when": "After the close",
+      "text": "Qualcomm reports fiscal fourth-quarter and full-year results after the close; call 4:45 p.m. ET.",
+      "detail": "Date and call time (1:45 p.m. Pacific) per Qualcomm's Oct. 22 PR Newswire release.",
       "buzz": true,
       "tags": [
         "markets"

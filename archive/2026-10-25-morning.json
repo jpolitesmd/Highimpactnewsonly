@@ -1,0 +1,196 @@
+{
+ "date": "2026-10-25",
+ "edition": "morning",
+ "subject": "Sunday, Oct 25 - Morning edition",
+ "published": "2026-10-25T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-25-trump-iran-strike-possible-drone-claim",
+   "section": "news",
+   "text": "President Trump said Saturday a new U.S. strike on Iran is possible but so is a deal, and Iran's army said Sunday it shot down a U.S. drone.",
+   "detail": "Asked how close he was to another attack, Trump said, \"Do you really think I'm going to tell you if I'm going to do it? ... And there's a possibility I will. There's also a possibility we'll have a nice, big, beautiful agreement,\" AP reported. He had recently said he would not hit Iran before the Nov. 3 midterm elections. Early Sunday, Iran's army said its air defenses downed a U.S. LUCAS drone over the southern port city of Bandar Abbas, near the Strait of Hormuz, the Tasnim news agency reported, according to Reuters; the claim came only from Iran. Separately, the Saudi-led coalition said Sunday it intercepted drones and ballistic missiles fired by Yemen's Houthis toward Riyadh and southern Saudi Arabia, Reuters reported, and Riyadh's King Khalid airport reopened two terminals. The State Department reissued Mideast travel advisories Saturday, citing Houthi threats.",
+   "why": "Whether the U.S. resumes strikes on Iran in the final week before the midterms is now openly in play, as attacks spread across the Gulf region.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-25T03:22:00-04:00",
+   "time_known": false,
+   "source": "AP; Reuters",
+   "url": "https://apnews.com/article/mideast-news-october-24-2026-707ad41a79d384ff4715902ce3d60df5"
+  },
+  {
+   "id": "2026-10-24-famu-homecoming-shooting",
+   "section": "news",
+   "text": "A shooting near Florida A&M University's football stadium during homecoming in Tallahassee injured 12 people Saturday night, six of them children.",
+   "detail": "Eleven people were shot and one was hurt while fleeing, Tallahassee Police Chief Lawrence Revell said; at least three were seriously injured. Police said a fight broke out before the shots were fired just before 8 p.m. near Bragg Memorial Stadium, after FAMU's homecoming game. Revell said the victims were six adults and six juveniles, the youngest 11, and that one victim is a FAMU student. He called it an isolated incident involving two or three people. No arrests had been made, and police had no person of interest early Sunday.",
+   "why": "Half of the victims at one of the biggest college homecomings in Florida were children, and whoever fired is still being sought.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-24T19:55:00-04:00",
+   "time_known": false,
+   "source": "AP; Tallahassee Democrat",
+   "url": "https://apnews.com/article/florida-shooting-football-stadium-eece0228b1476cbe0f2a9864c7e4fd4f"
+  },
+  {
+   "id": "2026-10-24-ny-archdiocese-800m-abuse-settlement",
+   "section": "news",
+   "text": "The Archdiocese of New York agreed to pay $800 million to about 1,300 people who say they were sexually abused by clergy, Archbishop Ronald Hicks confirmed Saturday.",
+   "detail": "Hicks confirmed the deal in an email to clergy and said it is not final until the parties sign it, which is scheduled for the week of Nov. 6. It is the second-largest settlement by a U.S. Catholic archdiocese, after Los Angeles agreed to pay $880 million in 2024, and would end more than seven years of lawsuits filed after a 2019 New York law gave survivors more time to sue. The two sides had agreed on a framework in May. Survivors' attorney Jeff Herman said each claimant can take at least $250,000 or seek more through an individual review, and that the archdiocese must publish a list of credibly accused clergy. The archdiocese covers Manhattan, the Bronx, Staten Island and seven counties north of the city, with about 2.5 million Catholics.",
+   "why": "It is among the largest church abuse payouts in U.S. history and closes years of litigation in one of the country's biggest dioceses.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-24T19:35:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/clergy-abuse-legal-settlement-new-york-archdiocese-fc20b55e4373499a7eb2fb663aeb3599"
+  },
+  {
+   "id": "2026-10-24-musk-starlink-ukraine-throttle",
+   "section": "tech",
+   "text": "Ukraine's Starlink satellite links were restored Saturday after more than a week of slowdowns, and Elon Musk said SpaceX had throttled them over drone strikes.",
+   "detail": "Musk wrote on X that Ukraine's military \"violated Starlink terms of service and used it for offensive drone strikes to kill people. That loophole was closed last week,\" and said the U.S. government controls Starshield, SpaceX's military version. President Volodymyr Zelenskyy said speeds were back to normal Saturday morning, and Ukraine's defense minister said connections were stable. Commanders had said the slowdown cost drones and disrupted missions. President Trump said he did not make the call, and Secretary of State Marco Rubio and Defense Secretary Pete Hegseth denied any administration role.",
+   "why": "Ukraine's front-line drones depend on one U.S. company's network, and its owner showed he can slow them down.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "World",
+   "time": "2026-10-24T16:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-starlink-drones-a3a0139dfc23365550306dd66fe43daa"
+  },
+  {
+   "id": "2026-10-24-france-protests-410000-clashes",
+   "section": "news",
+   "text": "About 410,000 people marched across France on Saturday over school funding and living costs, and the Paris march ended in clashes with police.",
+   "detail": "The interior ministry counted 110,000 marchers in Paris; unions put the national total near 800,000. Police fired tear gas and water cannons in Paris and used tear gas in Lyon, Marseille, Strasbourg and other cities. The Paris prosecutor's office said 64 people were arrested in connection with the Paris march. Interior Minister Laurent Nuñez had deployed up to 70,000 officers, and authorities banned rallies in Lyon, Nice and Montpellier. The Louvre, Orsay and other major museums closed for the day.",
+   "why": "The weeks-long movement is the biggest test yet of President Macron's government months before France elects his successor.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "World",
+   "time": "2026-10-24T12:45:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/france-protests-paris-unrest-ad2fb9206e72e5d1b4ae43fdf7aa96a9"
+  },
+  {
+   "id": "2026-10-24-four-corners-flooding-rescues",
+   "section": "news",
+   "text": "Flooding in the Four Corners region forced at least 20 more overnight rescues in New Mexico's San Juan County, with more rain forecast Saturday.",
+   "detail": "Rescues ran from Farmington west to Shiprock, where power was out and the U.S. 64 bridge was closed; county officials said 200 to 300 people may have been rescued since the flooding began, and by noon Saturday they believed no one else was trapped. Evacuated areas stayed closed, Bloomfield ordered new evacuations as the river rose, and officials said river water is contaminated with raw sewage. In Colorado, La Plata County declared a local disaster and closed the Animas River to all boats. Officials said rivers could rise again with up to another inch of rain.",
+   "why": "Hundreds of people have needed rescue, and the flooding is not over.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "U.S.",
+   "time": "2026-10-24T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP; San Juan County, N.M.",
+   "url": "https://apnews.com/article/extreme-weather-flooding-rescues-new-mexico-colorado-331f28a33ea85fba70a4cabe13ee91a3"
+  },
+  {
+   "id": "2026-10-24-iran-open-to-deal-gulf-warning",
+   "section": "news",
+   "text": "Iran said Saturday it is still open to reviving its interim deal with the U.S., even as its military chief vowed U.S. warships will never enter the Gulf.",
+   "detail": "Iran's ambassador to Pakistan, Reza Amiri Moghadam, told AP that Tehran recently offered through Pakistan to reopen the Strait of Hormuz if Washington lifts its naval blockade, and said President Trump rejected it. President Masoud Pezeshkian said on state TV that \"the cowards (Americans) messed everything up\" but that Iran should still try to conclude the deal, Reuters reported. Armed forces chief of staff Ali Abdollahi said U.S. military ships will not be allowed in the Persian Gulf \"under any circumstances and at any time,\" AFP reported. Separately, Saudi air defenses intercepted a Houthi ballistic missile fired at Riyadh on Saturday, the Saudi Press Agency said.",
+   "why": "Iran is signaling it wants a deal while threatening U.S. ships, as Hormuz stays restricted and oil prices stay high.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-24T11:50:00-04:00",
+   "time_known": false,
+   "source": "AP; Reuters; AFP; Saudi Press Agency",
+   "url": "https://apnews.com/article/pakistan-iran-us-talks-hormuz-45161652890bf4f3d570347b8aae6b22"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 3
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 4
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-10-22-virginia-senate-leader-lucas-indicted",
+   "section": "news",
+   "text": "Virginia state Sen. L. Louise Lucas, the chamber's top Democrat, was indicted on federal charges of leading an illegal marijuana business with family members.",
+   "detail": "The eight-count indictment unsealed Thursday in the Eastern District of Virginia charges Lucas, 82, and six others, including her two daughters and her grandson, with a racketeering conspiracy involving marijuana distribution, money laundering, honest-services fraud through bribery, maintaining drug-involved premises, possessing firearms in furtherance of drug trafficking, and wire fraud. Prosecutors allege the group acquired and sold 100 kilograms or more of marijuana and that Lucas used her post as chair of the Senate Finance and Appropriations Committee to shield the business and influence legislation; FBI Director Kash Patel put the five-year scheme at an estimated $4.5 million. Lucas, a senator since 1992 and president pro tempore since 2020, surrendered Thursday morning and was due in federal court in Norfolk. Attorney General Todd Blanche said the investigation had run for several years and rejected claims it was political. In a social media post, Lucas did not address the charges but said, \"I will not be intimidated,\" according to Reuters. Virginia's state senators are not on the ballot this year.",
+   "why": "Federal charges against the leader of a state legislature are rare, and they land less than two weeks before the midterm elections.",
+   "impact": 4,
+   "topic": "government",
+   "region": "U.S.",
+   "time": "2026-10-22T09:54:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/virginia-state-senator-indicted-leading-criminal-marijuana-distribution-enterprise"
+  },
+  {
+   "id": "2026-10-22-saudi-dammam-airport-attack-kills-2",
+   "section": "news",
+   "text": "Saudi Arabia's King Fahd International Airport in Dammam was attacked late Wednesday, killing two people and injuring eight, Saudi aviation authorities said.",
+   "detail": "Saudi Arabia's General Authority of Civil Aviation said Thursday the dead were a Saudi citizen and an Indian national living in the kingdom; the toll was first reported as one. The eight injured, from Saudi Arabia, India, Yemen, Bangladesh and Nepal, had injuries ranging from minor to severe. Flights were diverted during the attack; the authority said Thursday that operations had resumed and air traffic was back to normal, and that damage was being assessed. Saudi authorities did not say who was responsible, and the Iran-backed Houthi rebels issued no statement; the airport, near Bahrain and Qatar, has been hit before in a wave of Houthi strikes on Saudi airports. Separately on Wednesday, Saudi Arabia's Energy Ministry said debris from an intercepted drone aimed at a processing facility at Saudi Aramco's Shaybah oil field killed a Filipino and a Nepali worker and injured two others; it said oil operations were not affected. The attacks came the same day the State Department ordered non-emergency U.S. diplomats and their families to leave Saudi Arabia.",
+   "why": "Deadly strikes on a major Saudi airport and oil field widen the Gulf war's threat to civilian travel and world oil supply, a day after the U.S. pulled diplomats' families out.",
+   "impact": 4,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-10-21T20:00:00-04:00",
+   "time_known": false,
+   "source": "AP (Saudi civil aviation authority)",
+   "url": "https://apnews.com/article/riyadh-saudi-arabia-oil-facility-drones-01c03af3191263452376510a670e8bf7"
+  },
+  {
+   "id": "2026-10-21-php2shell-critical-php-flaws-fixed",
+   "section": "tech",
+   "text": "PHP, the programming language behind most websites, released emergency fixes Wednesday for two critical flaws that can let attackers take over web servers remotely.",
+   "detail": "The flaws, CVE-2026-109618 and CVE-2026-109619 (nicknamed \"php2shell\"), are memory-handling bugs that PHP says can allow remote code execution without logging in; PHP rates both 9.2 out of 10 in severity. PHP says every installation serving web requests is at risk, with the danger highest on Apache servers running mod_php, where a demonstrated exploit works before any website code runs. Fixed versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 came out about 9:40 a.m. ET; PHP 8.1 and older get no official update. PHP runs on about 69% of websites whose server language is known, according to tracker W3Techs, including WordPress, Drupal and Magento sites. CISA issued an alert saying it had not seen exploitation as of publication, while security firms watchTowr and Cloudflare reported attack attempts. Governments in the Netherlands, Finland and France took some websites offline as a precaution, Reuters reported, and the FBI warned that the flaws put sensitive data and networks at risk, AP reported. Researchers at Calif, OpenAI and Wiz found the flaws using AI tools and reported them to PHP starting Aug. 11.",
+   "why": "A single flaw in software that runs most of the web exposes millions of sites at once, and attackers began probing within hours.",
+   "impact": 4,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-10-21T09:40:00-04:00",
+   "time_known": true,
+   "source": "PHP (php.net security advisory)",
+   "url": "https://www.php.net/archive/2026.php#2026-10-21-5"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-26",
+   "when": "7:00 a.m. ET",
+   "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "when": "8:00 p.m. ET",
+   "text": "World Series Game 3: Brewers at Rays, 8:00 p.m. ET on FOX; Games 4 and 5 (if necessary) follow Oct. 27–28 in St. Petersburg.",
+   "detail": "Per MLB's World Series schedule. Milwaukee won Game 1, 3-2, on Oct. 23. Games 6 and 7, if necessary, are Oct. 30–31 in Milwaukee.",
+   "buzz": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:00 a.m. ET",
+   "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+   "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

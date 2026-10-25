@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-25-morning",
+   "date": "2026-10-25",
+   "edition": "morning",
+   "count": 7,
+   "lead": "President Trump said Saturday a new U.S. strike on Iran is possible but so is a deal, and Iran's army said Sunday it shot down a U.S. drone."
+  },
+  {
    "key": "2026-10-24-evening",
    "date": "2026-10-24",
    "edition": "evening",
@@ -365,5 +372,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-24T16:49:18-04:00"
+ "updated": "2026-10-25T05:31:25-04:00"
 }

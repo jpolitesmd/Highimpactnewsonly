@@ -33,7 +33,7 @@ Scan: 2026-10-25 about 4:05 p.m. ET (new leads first; unused leads from earlier 
 
 ## Dropped this scan
 
-- Already in items.json: Iran's LUCAS drone claim and Trump's earlier strike remarks (now an update lead above), Jordan church attack (toll of nine already in the item), CIA contractor leak, Fifth Circuit bond-hearing ruling, FAMU shooting, Brewers.
+- Already in items.json: Iran's LUCAS drone claim and Trump's earlier strike remarks (now an update lead above), Jordan church attack (toll of nine already in the item), CIA contractor leak, Fifth Circuit bond-hearing ruling.
 - Not confirmed by primary or wire sources: explosions near a Tabriz radar site (open-source images only; Iranian officials cite ordnance disposal), the ER nurse/MAGA patient post, DOJ "review" of the Portland Thorns ejections, Florida youth-soccer police call, Iran's warning to Germany (Fars only).
 - Commentary and campaign chatter: Obama's Iran remarks at Ohio and Michigan rallies, Hassett on the economy, Holder on DOJ civil-rights hires, Shapiro abortion remarks, Lummis on the CLARITY Act, Ramaswamy identity debate, Fox GTA VI segment, Bill Gates podcast.
 - Local, foreign-local or minor: Montclair, Calif., DUI crash killing two cyclists (local; could be a later gossip item if a wire picks it up), Nairobi building-collapse dispute, Nigeria Binnari raid (Oct. 23, older), Edo power strike, Kochi crash, Ghana evacuation audit, India gutkha death, Pakistan clash, John Kass site closing, Liz Truss book, BBC hoax.

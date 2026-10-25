@@ -230,63 +230,42 @@
       "date": "2026-10-01",
       "impact": 4,
       "topic": "pulse",
-      "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants under the 2025 Working Families Tax Cut law.",
+      "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants as a provision of the 2025 Working Families Tax Cut law took effect.",
       "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens"
-    },
-    {
-      "date": "2026-10-01",
-      "impact": 3,
-      "topic": "coin",
-      "text": "Treasury began automatically opening Trump Accounts, the new child savings accounts, for about 73 million eligible children.",
-      "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20026/trump-accounts"
-    },
-    {
-      "date": "2026-10-02",
-      "impact": 3,
-      "topic": "globe",
-      "text": "The G7 agreed to release 100 million barrels of emergency oil and diesel over four months as Iran's attacks disrupted the Strait of Hormuz.",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/02/g7-leaders-statement-on-global-energy-security-and-market-stability/"
     },
     {
       "date": "2026-10-09",
       "impact": 4,
       "topic": "court",
-      "text": "The United States put the International Criminal Court itself under sanctions, blocking its U.S.-linked assets and most American dealings with it.",
+      "text": "The United States placed sanctions on the International Criminal Court itself, freezing its U.S.-linked assets and barring most American dealings with it.",
       "url": "https://ofac.treasury.gov/recent-actions/20261009"
     },
     {
       "date": "2026-10-13",
       "impact": 4,
       "topic": "pulse",
-      "text": "A federal rule took effect in every state barring Medicaid and CHIP funding for puberty blockers, hormones and gender surgery for minors.",
+      "text": "A federal ban on Medicaid and CHIP funding for puberty blockers, hormones and gender surgery for minors took effect nationwide.",
       "url": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for"
     },
     {
       "date": "2026-10-16",
       "impact": 4,
       "topic": "trade",
-      "text": "President Trump waived the tariffs and most sanctions in the new Russia sanctions law, a week after easing sanctions on Russian diesel.",
+      "text": "President Trump waived the tariffs and most sanctions of the Russia sanctions law he had signed in September, a week after easing sanctions on Russian diesel.",
       "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
     },
     {
       "date": "2026-10-19",
-      "impact": 3,
+      "impact": 4,
       "topic": "court",
-      "text": "The Supreme Court refused to revive the 9/11 plea deals for Khalid Sheikh Mohammed and two co-defendants, keeping possible death sentences in play.",
+      "text": "The Supreme Court left the 9/11 plea deals voided, keeping the death penalty possible for Khalid Sheikh Mohammed and two co-defendants.",
       "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
     },
     {
-      "date": "2026-10-20",
-      "impact": 3,
-      "topic": "ballot",
-      "text": "Alberta voters rejected starting a path toward leaving Canada, with about 77% choosing to remain in a referendum.",
-      "url": "https://apnews.com/article/alberta-canada-referendum-indepence-carney-ed0d58ef051859ce12052e75d2d6e8a0"
-    },
-    {
       "date": "2026-10-21",
-      "impact": 4,
+      "impact": 3,
       "topic": "conflict",
-      "text": "The State Department ordered non-emergency U.S. diplomats and their families out of Saudi Arabia as Houthi attacks on Saudi airports escalated.",
+      "text": "The United States ordered non-emergency diplomats and their families out of Saudi Arabia as Houthi missile and drone attacks on the kingdom escalated.",
       "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
     }
   ]

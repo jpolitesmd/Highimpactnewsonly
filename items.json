@@ -1,6 +1,170 @@
 {
-  "updated": "2026-10-25T05:40:00-04:00",
+  "updated": "2026-10-25T16:50:00-04:00",
   "items": [
+    {
+      "id": "2026-10-25-trump-iran-deal-or-finish-them-off",
+      "section": "news",
+      "topic": "whitehouse",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "thread": "iran-war",
+      "impact": 3,
+      "pin": "2026-10-25 evening",
+      "pin_order": 1,
+      "time": "2026-10-25T10:00:00-04:00",
+      "time_known": false,
+      "text": "President Trump said Sunday he is deciding whether to make a deal with Iran or \"finish them off,\" but said there would be no strike that day.",
+      "detail": "\"Now, my question is, do I make a deal with them, or do I finish them off?\" Trump said on Fox News' \"Sunday Morning Futures.\" He said the U.S. now controls the Strait of Hormuz and that most Iranian nuclear sites were destroyed, but that the U.S. is watching activity at a site known as Pickaxe Mountain. Asked later whether he planned to attack, he first said he would be foolish to telegraph it, then added, \"No. There will not be a strike today,\" AP reported. Iran's foreign ministry spokesman, Esmail Baghaei, said Tehran has not closed the window of diplomacy and that messages are still being passed to the U.S. through intermediaries, while rejecting U.S. demands he described as \"complete surrender.\" Foreign Minister Abbas Araghchi said a resumed war would not change Iran's positions. The head of U.S. Central Command, Adm. Brad Cooper, flew over the strait and said more than 3,000 commercial ships have passed through it with U.S. military support over the last six months.",
+      "why": "A decision on resuming strikes on Iran rests with the president nine days before the midterm elections, with talks stalled for weeks.",
+      "source": "AP",
+      "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885",
+      "tags": [
+        "iran",
+        "strait-of-hormuz"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-25-machado-returns-to-venezuela",
+      "section": "news",
+      "topic": "globe",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 3,
+      "time": "2026-10-25T11:00:00-04:00",
+      "time_known": false,
+      "text": "María Corina Machado, Venezuela's opposition leader and Nobel Peace Prize winner, returned home Sunday after more than 10 months in exile.",
+      "detail": "\"I am here. With you,\" Machado posted Sunday morning. Her party, Vente Venezuela, released video of her greeting supporters inside a church in Lara state, and her ally Edmundo González, the opposition's former presidential candidate, confirmed she was on Venezuelan soil. She left Venezuela in December to accept the Nobel Peace Prize in Oslo; an adviser said in September she had tried seven times to return and had been blocked each time. Secretary of State Marco Rubio said the conditions allowing her safe return were a direct result of U.S.-backed reconciliation talks that have freed hundreds of political prisoners. It is not yet clear what she plans to do next; she has said she would run for president if an election is held.",
+      "why": "The country's best-known opposition figure is back inside Venezuela as Washington shapes its political future.",
+      "source": "AP",
+      "url": "https://apnews.com/article/venezuela-maria-corina-machado-return-democracy-maduro-e6eff0c2ff962fd9b0f87270b24ef567",
+      "tags": [
+        "venezuela"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-25-brazil-runoff-voting-extended",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 2,
+      "time": "2026-10-25T16:00:00-04:00",
+      "time_known": false,
+      "text": "Brazil's presidential runoff between President Luiz Inácio Lula da Silva and Sen. Flávio Bolsonaro ran two extra hours Sunday after a Supreme Court justice extended voting.",
+      "detail": "Justice Cristiano Zanin granted a request from Lula's campaign, which said authorities in several cities were restricting voters' access to public transportation. Polls had been set to close at 5 p.m. Brasília time (4 p.m. ET); the official count by the electoral court begins once voting ends at 7 p.m. Brasília time (6 p.m. ET). Bolsonaro, the son of imprisoned former President Jair Bolsonaro and an ally of President Trump, led Lula by more than 2.2 million votes in the Oct. 4 first round. About 158.7 million Brazilians are registered to vote.",
+      "why": "Latin America's largest country is choosing between its leftist president and a Trump ally, with the result expected Sunday night.",
+      "source": "AP",
+      "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-latest-b68d2e2e315644e62de8f6839e8ddcff",
+      "tags": [
+        "brazil",
+        "election"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-25-south-florida-coastal-flood-warning",
+      "section": "news",
+      "topic": "weather",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-25T07:43:00-04:00",
+      "time_known": true,
+      "text": "Coastal Palm Beach, Broward and Miami-Dade counties are under a coastal flood warning from 2 a.m. Monday to 8 p.m. Tuesday as king tides reach major flood stage.",
+      "detail": "The National Weather Service in Miami said moderate flooding is expected around each high tide, reaching major flood stage Monday and Tuesday. It said numerous roads may be closed and low-lying homes, businesses and some critical infrastructure will be inundated. Breakers of 8 to 10 feet are expected along the Palm Beach coast, a high surf advisory runs until 2 a.m. Wednesday, and the service expects coastal flood advisories through much of next week after the tides peak.",
+      "why": "Major tidal flooding could close roads across South Florida's coastal cities for two days.",
+      "source": "National Weather Service Miami",
+      "url": "https://forecast.weather.gov/product.php?issuedby=MFL&product=CFW&site=NWS",
+      "tags": [
+        "florida",
+        "flooding",
+        "weather"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-25-newport-oregon-seafood-plant-fire",
+      "section": "news",
+      "topic": "disaster",
+      "region": "U.S.",
+      "impact": 2,
+      "time": "2026-10-25T09:00:00-04:00",
+      "time_known": false,
+      "text": "A fire at a Pacific Seafood plant on the Newport, Oregon, bayfront forced a one-mile \"go now\" evacuation Sunday over possible ammonia contamination.",
+      "detail": "The Lincoln County Sheriff's Office issued a Level 3 evacuation order for a one-mile radius around the plant at 203 SW Bay Blvd. after the fire broke out Sunday morning. Officials opened a shelter at Sam Case Elementary School. No injuries were reported, and the cause is under investigation.",
+      "why": "A chemical risk from the fire emptied part of a working Oregon coastal town.",
+      "source": "AP; Lincoln County Sheriff's Office",
+      "url": "https://apnews.com/article/newport-oregon-fire-evacuation-942a1c72ce7be8f36525be215403538a",
+      "tags": [
+        "oregon",
+        "fire"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-25-kenya-bus-crash-24-killed",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "africa",
+      "impact": 2,
+      "time": "2026-10-25T06:00:00-04:00",
+      "time_known": false,
+      "text": "A bus carrying mourners home from a pastor's funeral collided with a truck on Kenya's Nairobi-Mombasa highway Sunday, killing 24 people.",
+      "detail": "The crash happened near Mtito Andei; about 24 other people were injured, and two of the dead died later in the hospital. Kenya's National Transport and Safety Authority said preliminary reports point to a head-on collision, with improper overtaking a possible factor. It came three weeks after 17 people died in a crash on the same highway.",
+      "why": "It is the second mass-fatality crash in a month on Kenya's main highway.",
+      "source": "AP",
+      "url": "https://apnews.com/article/kenya-bus-crash-mombasa-road-879107e49e932de208f47caeb04904cb",
+      "tags": [
+        "kenya",
+        "crash"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-25-storm-boelo-uk",
+      "section": "news",
+      "topic": "weather",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-25T06:30:00-04:00",
+      "time_known": false,
+      "text": "Storm Boelo killed a man in Scotland and cut power to more than 160,000 properties across the U.K. on Sunday, with gusts above 80 mph.",
+      "detail": "Police Scotland said a 60-year-old man was killed by a falling tree near Castle Douglas in Dumfries and Galloway around 10:30 a.m. The Energy Networks Association said more than 160,000 properties were without power at 3 p.m. local time. The Met Office's amber wind warnings ran into Sunday night, and rail, flight and ferry services were disrupted. It is the second named storm to hit Britain in days, after Storm Austen.",
+      "why": "A second major storm in a week has caused deaths and widespread outages in Britain.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cxdd8gr1vje0o",
+      "tags": [
+        "uk",
+        "storm"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
+    {
+      "id": "2026-10-24-peltola-minor-injuries-car-crash",
+      "section": "news",
+      "topic": "ballot",
+      "region": "U.S.",
+      "thread": "midterms-2026",
+      "impact": 2,
+      "time": "2026-10-24T22:55:00-04:00",
+      "time_known": true,
+      "text": "Mary Peltola, the Democratic Senate candidate in Alaska, had minor injuries in a three-car crash in Anchorage and postponed campaign events.",
+      "detail": "Anchorage police said a westbound vehicle on O'Malley Road rear-ended the car carrying Peltola, which was stopped at the light at Lake Otis Parkway, about 6:55 p.m. Saturday Alaska time, pushing it into a third car. Peltola and the others in her car were taken to a hospital with non-life-threatening injuries, as was the other driver; police said the cause is under investigation. She was headed to the Alaska Federation of Natives banquet and rescheduled events in Fairbanks and Bethel. She faces Republican Sen. Dan Sullivan on Nov. 3.",
+      "why": "She is a candidate in one of the closest Senate races, nine days before the election.",
+      "source": "AP; Anchorage Police Department",
+      "url": "https://apnews.com/article/alaska-natives-senate-peltola-sullivan-crash-accident-9010a81dd98f71e1836153895bc22056",
+      "tags": [
+        "alaska",
+        "senate",
+        "midterms"
+      ],
+      "added_at": "2026-10-25T16:50:00-04:00"
+    },
     {
       "id": "2026-10-25-trump-iran-strike-possible-drone-claim",
       "section": "news",

@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-26-evening",
+   "date": "2026-10-26",
+   "edition": "evening",
+   "count": 7,
+   "lead": "Anthropic, the maker of the Claude AI models, filed publicly Monday to sell shares on the Nasdaq under the ticker \"ANT.\""
+  },
+  {
    "key": "2026-10-26-morning",
    "date": "2026-10-26",
    "edition": "morning",
@@ -386,5 +393,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-26T05:26:42-04:00"
+ "updated": "2026-10-26T16:51:00-04:00"
 }

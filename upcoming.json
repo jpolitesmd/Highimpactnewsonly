@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "events": [
     {
       "date": "2026-10-26",
@@ -15,7 +15,7 @@
       "date": "2026-10-26",
       "when": "8:00 p.m. ET",
       "text": "World Series Game 3: Brewers at Rays, 8:00 p.m. ET on FOX; Games 4 and 5 (if necessary) follow Oct. 27–28 in St. Petersburg.",
-      "detail": "Per MLB's World Series schedule. Milwaukee won Game 1, 3-2, on Oct. 23. Games 6 and 7, if necessary, are Oct. 30–31 in Milwaukee.",
+      "detail": "Per MLB's World Series schedule. Milwaukee leads the series 2-0 after winning Game 1, 3-2, on Oct. 23 and Game 2, 5-4, on Oct. 24. Games 6 and 7, if necessary, are Oct. 30–31 in Milwaukee.",
       "buzz": true,
       "tags": [
         "sports"
@@ -319,6 +319,16 @@
       "date": "2026-11-06",
       "when": "8:30 a.m. ET",
       "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "when": "After the close",
+      "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
+      "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
       "buzz": true,
       "tags": [
         "markets"

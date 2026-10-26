@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "events": [
     {
       "date": "2026-10-26",
@@ -79,6 +79,26 @@
       "buzz": true,
       "tags": [
         "markets"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "when": "All day",
+      "text": "Israel holds a national election.",
+      "detail": "Per AP, Israel's election is Tuesday, Oct. 27, amid threats of renewed fighting with Iran.",
+      "buzz": true,
+      "tags": [
+        "world"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "when": "Time TBA",
+      "text": "Federal court hearing in Los Angeles on the Justice Department's bid to block about 20,000 California ballots.",
+      "detail": "The district court hearing is set for Tuesday; a 9th Circuit panel heard DOJ's emergency appeal Sunday and has not ruled.",
+      "buzz": true,
+      "tags": [
+        "elections"
       ]
     },
     {

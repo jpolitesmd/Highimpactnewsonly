@@ -1,0 +1,176 @@
+{
+ "date": "2026-10-26",
+ "edition": "morning",
+ "subject": "Monday, Oct 26 - Morning edition",
+ "published": "2026-10-26T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-25-lula-wins-brazil-fourth-term",
+   "section": "news",
+   "text": "Brazil's President Luiz Inácio Lula da Silva won a fourth term Sunday, beating Flávio Bolsonaro 51.8% to 48.2% in a runoff, and Bolsonaro refused to concede.",
+   "detail": "With all votes counted, Brazil's electoral court said Lula led by nearly 4.4 million votes. Bolsonaro, the son of imprisoned former President Jair Bolsonaro, asked for the result to be annulled, objecting to Supreme Court Justice Cristiano Zanin's decision, three minutes before polls were due to close, to keep voting open two more hours; both campaigns had requested the extension, Lula's over bus problems in São Paulo and Salvador and Bolsonaro's over heavy rain in the south. Electoral court president Kassio Nunes Marques, a Jair Bolsonaro appointee, said the extension did not affect the results. Bolsonaro led the Oct. 4 first round by more than 2.2 million votes; it is the first time since military rule ended in 1985 that the first-round runner-up won. Lula, a vocal critic of President Trump, takes office again Jan. 5, 2027.",
+   "why": "Latin America's largest economy keeps a leader who has resisted Trump's tariff pressure, and the loser is contesting the result.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-25T20:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
+  },
+  {
+   "id": "2026-10-26-saudi-pakistan-turkey-delegations-tehran",
+   "section": "news",
+   "text": "Saudi Arabia, Pakistan and Turkey sent senior delegations to Tehran on Monday to try to head off renewed war between Iran and the U.S. and Israel.",
+   "detail": "Saudi Defense Minister Khalid bin Salman, Pakistan army chief Field Marshal Asim Munir and Turkish intelligence chief Ibrahim Kalin were to meet Iran's top security officials and negotiators to push for a deal between Tehran and Washington, two regional officials told AP; an Iranian official confirmed their arrival. Saudi Arabia said the aim was to find ways to de-escalate tensions. Qatari mediators were in Tehran on Sunday. Iran's Foreign Ministry spokesman said the window for diplomacy had not closed, while Israeli Prime Minister Benjamin Netanyahu warned Sunday that Iran or its proxies could attack before Israel's election on Tuesday.",
+   "why": "The visits come a day after President Trump said Iran must make a deal or face renewed U.S. strikes, a week before the U.S. midterms.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-26T03:20:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-israel-us-war-10-26-2026-36486edb61b3bf4e0df67e8a17123e44"
+  },
+  {
+   "id": "2026-10-25-ninth-circuit-hears-california-ballots-case",
+   "section": "news",
+   "text": "A federal appeals court panel sharply questioned the Justice Department's bid to stop California from counting about 20,000 ballots from voters it says may be noncitizens.",
+   "detail": "In a rare Sunday hearing, Judge Mark Bennett, a Trump appointee, asked how the court could order relief inconsistent with California law under the Constitution's Elections Clause and said, \"I don't see how we have jurisdiction,\" since the district court has not yet ruled. Judge Gabriel Sanchez, a Biden appointee, pressed DOJ on which third parties supplied its list; the DOJ lawyer could not say. Judge Patrick Bumatay, also a Trump appointee, focused on the harm when noncitizens vote. The panel did not rule. California says the list is inaccurate and complying before the Nov. 3 election would be disruptive; more than 3 million Californians have already voted.",
+   "why": "The ruling decides whether thousands of already-cast ballots are set aside a week before the midterms.",
+   "impact": 3,
+   "topic": "election",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the 9th Circuit",
+   "region": "US",
+   "time": "2026-10-25T18:54:00-04:00",
+   "time_known": false,
+   "source": "Los Angeles Times",
+   "url": "https://www.latimes.com/politics/story/2026-10-25/9th-circuit-hears-arguments-on-20-000-ballots-in-california"
+  },
+  {
+   "id": "2026-10-25-vucic-concedes-serbia-election",
+   "section": "news",
+   "text": "Serbia's longtime leader Aleksandar Vučić conceded Sunday's parliamentary election to a student-led movement that spent two years protesting his government.",
+   "detail": "Vučić said his party projects the Students' List will win 135 to 140 of Parliament's 250 seats and his Serbian Progressive Party about 105. The election commission's preliminary count, with most polling stations reporting, put the Students' List at 52.54% and Vučić's list at 39.29%, on turnout of about 69%. Vučić, who resigned the presidency last month to run for prime minister and had been endorsed by Russian President Vladimir Putin, blamed independent media and alleged foreign interference. The protests began after a train station canopy collapse in Novi Sad killed 16 people in 2024. Crowds celebrated in Belgrade and other cities.",
+   "why": "It ends 14 years of rule by Vučić's party in an EU candidate country that has kept close ties with Russia.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-25T17:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/serbia-election-students-vucic-fdf5def8a20aebc8ae139fd719478775"
+  },
+  {
+   "id": "2026-10-26-jordan-arrests-karak-church-attack",
+   "section": "news",
+   "text": "Jordanian security forces captured three men linked to Friday's deadly attack on a church in Karak after a pre-dawn shootout Monday.",
+   "detail": "Jordan's Public Security Directorate said the suspects were found in an abandoned house in Karak Governorate and opened fire when ordered to surrender; officers returned fire, wounding all three before taking them into custody. No security personnel were hurt, and firearms and ammunition were seized. The attack on a church in the village of Hmoud during a funeral killed nine people and wounded 34, according to the state news agency Petra.",
+   "why": "The arrests follow one of the deadliest attacks in years in Jordan, a key U.S. ally.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-25T22:58:00-04:00",
+   "time_known": false,
+   "source": "Petra (Jordan News Agency)",
+   "url": "https://petra.gov.jo/en/news/security-forces-capture-three-terrorists-involved-in-karak-church-attack-1"
+  },
+  {
+   "id": "2026-10-25-machado-returns-to-venezuela",
+   "section": "news",
+   "text": "María Corina Machado, Venezuela's opposition leader and Nobel Peace Prize winner, returned home Sunday after more than 10 months in exile.",
+   "detail": "\"I am here. With you,\" Machado posted Sunday morning. Her party, Vente Venezuela, released video of her greeting supporters inside a church in Lara state, and her ally Edmundo González, the opposition's former presidential candidate, confirmed she was on Venezuelan soil. She left Venezuela in December to accept the Nobel Peace Prize in Oslo; an adviser said in September she had tried seven times to return and had been blocked each time. Secretary of State Marco Rubio said the conditions allowing her safe return were a direct result of U.S.-backed reconciliation talks that have freed hundreds of political prisoners. It is not yet clear what she plans to do next; she has said she would run for president if an election is held.",
+   "why": "The country's best-known opposition figure is back inside Venezuela as Washington shapes its political future.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-10-25T11:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/venezuela-maria-corina-machado-return-democracy-maduro-e6eff0c2ff962fd9b0f87270b24ef567"
+  },
+  {
+   "id": "2026-10-25-trump-iran-deal-or-finish-them-off",
+   "section": "news",
+   "text": "President Trump said Sunday he is deciding whether to make a deal with Iran or \"finish them off,\" but said there would be no strike that day.",
+   "detail": "\"Now, my question is, do I make a deal with them, or do I finish them off?\" Trump said on Fox News' \"Sunday Morning Futures.\" He said the U.S. now controls the Strait of Hormuz and that most Iranian nuclear sites were destroyed, but that the U.S. is watching activity at a site known as Pickaxe Mountain. Asked later whether he planned to attack, he first said he would be foolish to telegraph it, then added, \"No. There will not be a strike today,\" AP reported. Iran's foreign ministry spokesman, Esmail Baghaei, said Tehran has not closed the window of diplomacy and that messages are still being passed to the U.S. through intermediaries, while rejecting U.S. demands he described as \"complete surrender.\" Foreign Minister Abbas Araghchi said a resumed war would not change Iran's positions. The head of U.S. Central Command, Adm. Brad Cooper, flew over the strait and said more than 3,000 commercial ships have passed through it with U.S. military support over the last six months.",
+   "why": "A decision on resuming strikes on Iran rests with the president nine days before the midterm elections, with talks stalled for weeks.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-25T10:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/mideast-news-october-25-2026-4779a3deeb1a23f59414164532d5c885"
+  },
+  {
+   "id": "2026-10-25-trump-iran-strike-possible-drone-claim",
+   "section": "news",
+   "text": "President Trump said Saturday a new U.S. strike on Iran is possible but so is a deal, and Iran's army said Sunday it shot down a U.S. drone.",
+   "detail": "Asked how close he was to another attack, Trump said, \"Do you really think I'm going to tell you if I'm going to do it? ... And there's a possibility I will. There's also a possibility we'll have a nice, big, beautiful agreement,\" AP reported. He had recently said he would not hit Iran before the Nov. 3 midterm elections. Early Sunday, Iran's army said its air defenses downed a U.S. LUCAS drone over the southern port city of Bandar Abbas, near the Strait of Hormuz, the Tasnim news agency reported, according to Reuters; the claim came only from Iran. Separately, the Saudi-led coalition said Sunday it intercepted drones and ballistic missiles fired by Yemen's Houthis toward Riyadh and southern Saudi Arabia, Reuters reported, and Riyadh's King Khalid airport reopened two terminals. The State Department reissued Mideast travel advisories Saturday, citing Houthi threats.",
+   "why": "Whether the U.S. resumes strikes on Iran in the final week before the midterms is now openly in play, as attacks spread across the Gulf region.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-25T03:22:00-04:00",
+   "time_known": false,
+   "source": "AP; Reuters",
+   "url": "https://apnews.com/article/mideast-news-october-24-2026-707ad41a79d384ff4715902ce3d60df5"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 3
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-26",
+   "when": "7:00 a.m. ET",
+   "text": "Verizon reports third-quarter results; webcast 8:30 a.m. ET.",
+   "detail": "Release and financial tables post about 7:00 a.m. ET on Verizon's investor site, per the company.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "when": "8:00 p.m. ET",
+   "text": "World Series Game 3: Brewers at Rays, 8:00 p.m. ET on FOX; Games 4 and 5 (if necessary) follow Oct. 27–28 in St. Petersburg.",
+   "detail": "Per MLB's World Series schedule. Milwaukee leads the series 2-0 after winning Game 1, 3-2, on Oct. 23 and Game 2, 5-4, on Oct. 24. Games 6 and 7, if necessary, are Oct. 30–31 in Milwaukee.",
+   "buzz": true,
+   "tags": [
+    "sports"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:00 a.m. ET",
+   "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+   "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

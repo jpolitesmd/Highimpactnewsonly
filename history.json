@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "events": [
     {
       "date": "2026-01-03",
@@ -267,6 +267,13 @@
       "topic": "conflict",
       "text": "The United States ordered non-emergency diplomats and their families out of Saudi Arabia as Houthi missile and drone attacks on the kingdom escalated.",
       "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
+    },
+    {
+      "date": "2026-10-25",
+      "impact": 4,
+      "topic": "ballot",
+      "text": "Brazil's Luiz Inácio Lula da Silva won a fourth presidential term, defeating Flávio Bolsonaro 51.8% to 48.2% in a runoff that Bolsonaro refused to concede.",
+      "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
     }
   ]
 }

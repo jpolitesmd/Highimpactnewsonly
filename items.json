@@ -1,6 +1,119 @@
 {
-  "updated": "2026-10-25T16:50:00-04:00",
+  "updated": "2026-10-26T05:26:22-04:00",
   "items": [
+    {
+      "id": "2026-10-25-lula-wins-brazil-fourth-term",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 4,
+      "time": "2026-10-25T20:00:00-04:00",
+      "time_known": false,
+      "text": "Brazil's President Luiz Inácio Lula da Silva won a fourth term Sunday, beating Flávio Bolsonaro 51.8% to 48.2% in a runoff, and Bolsonaro refused to concede.",
+      "detail": "With all votes counted, Brazil's electoral court said Lula led by nearly 4.4 million votes. Bolsonaro, the son of imprisoned former President Jair Bolsonaro, asked for the result to be annulled, objecting to Supreme Court Justice Cristiano Zanin's decision, three minutes before polls were due to close, to keep voting open two more hours; both campaigns had requested the extension, Lula's over bus problems in São Paulo and Salvador and Bolsonaro's over heavy rain in the south. Electoral court president Kassio Nunes Marques, a Jair Bolsonaro appointee, said the extension did not affect the results. Bolsonaro led the Oct. 4 first round by more than 2.2 million votes; it is the first time since military rule ended in 1985 that the first-round runner-up won. Lula, a vocal critic of President Trump, takes office again Jan. 5, 2027.",
+      "why": "Latin America's largest economy keeps a leader who has resisted Trump's tariff pressure, and the loser is contesting the result.",
+      "source": "AP",
+      "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93",
+      "tags": [
+        "brazil",
+        "election"
+      ],
+      "added_at": "2026-10-26T05:26:22-04:00"
+    },
+    {
+      "id": "2026-10-26-saudi-pakistan-turkey-delegations-tehran",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-26T03:20:00-04:00",
+      "time_known": false,
+      "text": "Saudi Arabia, Pakistan and Turkey sent senior delegations to Tehran on Monday to try to head off renewed war between Iran and the U.S. and Israel.",
+      "detail": "Saudi Defense Minister Khalid bin Salman, Pakistan army chief Field Marshal Asim Munir and Turkish intelligence chief Ibrahim Kalin were to meet Iran's top security officials and negotiators to push for a deal between Tehran and Washington, two regional officials told AP; an Iranian official confirmed their arrival. Saudi Arabia said the aim was to find ways to de-escalate tensions. Qatari mediators were in Tehran on Sunday. Iran's Foreign Ministry spokesman said the window for diplomacy had not closed, while Israeli Prime Minister Benjamin Netanyahu warned Sunday that Iran or its proxies could attack before Israel's election on Tuesday.",
+      "why": "The visits come a day after President Trump said Iran must make a deal or face renewed U.S. strikes, a week before the U.S. midterms.",
+      "source": "AP",
+      "url": "https://apnews.com/article/iran-israel-us-war-10-26-2026-36486edb61b3bf4e0df67e8a17123e44",
+      "tags": [
+        "iran",
+        "saudi-arabia",
+        "pakistan",
+        "turkey",
+        "diplomacy"
+      ],
+      "added_at": "2026-10-26T05:26:22-04:00"
+    },
+    {
+      "id": "2026-10-25-ninth-circuit-hears-california-ballots-case",
+      "section": "news",
+      "topic": "election",
+      "region": "US",
+      "thread": "midterms-2026",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the 9th Circuit",
+      "impact": 3,
+      "time": "2026-10-25T18:54:00-04:00",
+      "time_known": false,
+      "text": "A federal appeals court panel sharply questioned the Justice Department's bid to stop California from counting about 20,000 ballots from voters it says may be noncitizens.",
+      "detail": "In a rare Sunday hearing, Judge Mark Bennett, a Trump appointee, asked how the court could order relief inconsistent with California law under the Constitution's Elections Clause and said, \"I don't see how we have jurisdiction,\" since the district court has not yet ruled. Judge Gabriel Sanchez, a Biden appointee, pressed DOJ on which third parties supplied its list; the DOJ lawyer could not say. Judge Patrick Bumatay, also a Trump appointee, focused on the harm when noncitizens vote. The panel did not rule. California says the list is inaccurate and complying before the Nov. 3 election would be disruptive; more than 3 million Californians have already voted.",
+      "why": "The ruling decides whether thousands of already-cast ballots are set aside a week before the midterms.",
+      "source": "Los Angeles Times",
+      "url": "https://www.latimes.com/politics/story/2026-10-25/9th-circuit-hears-arguments-on-20-000-ballots-in-california",
+      "tags": [
+        "elections",
+        "california",
+        "doj",
+        "courts"
+      ],
+      "added_at": "2026-10-26T05:26:22-04:00"
+    },
+    {
+      "id": "2026-10-25-vucic-concedes-serbia-election",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-10-25T17:00:00-04:00",
+      "time_known": false,
+      "text": "Serbia's longtime leader Aleksandar Vučić conceded Sunday's parliamentary election to a student-led movement that spent two years protesting his government.",
+      "detail": "Vučić said his party projects the Students' List will win 135 to 140 of Parliament's 250 seats and his Serbian Progressive Party about 105. The election commission's preliminary count, with most polling stations reporting, put the Students' List at 52.54% and Vučić's list at 39.29%, on turnout of about 69%. Vučić, who resigned the presidency last month to run for prime minister and had been endorsed by Russian President Vladimir Putin, blamed independent media and alleged foreign interference. The protests began after a train station canopy collapse in Novi Sad killed 16 people in 2024. Crowds celebrated in Belgrade and other cities.",
+      "why": "It ends 14 years of rule by Vučić's party in an EU candidate country that has kept close ties with Russia.",
+      "source": "AP",
+      "url": "https://apnews.com/article/serbia-election-students-vucic-fdf5def8a20aebc8ae139fd719478775",
+      "tags": [
+        "serbia",
+        "election"
+      ],
+      "added_at": "2026-10-26T05:26:22-04:00"
+    },
+    {
+      "id": "2026-10-26-jordan-arrests-karak-church-attack",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "time": "2026-10-25T22:58:00-04:00",
+      "time_known": false,
+      "text": "Jordanian security forces captured three men linked to Friday's deadly attack on a church in Karak after a pre-dawn shootout Monday.",
+      "detail": "Jordan's Public Security Directorate said the suspects were found in an abandoned house in Karak Governorate and opened fire when ordered to surrender; officers returned fire, wounding all three before taking them into custody. No security personnel were hurt, and firearms and ammunition were seized. The attack on a church in the village of Hmoud during a funeral killed nine people and wounded 34, according to the state news agency Petra.",
+      "why": "The arrests follow one of the deadliest attacks in years in Jordan, a key U.S. ally.",
+      "source": "Petra (Jordan News Agency)",
+      "url": "https://petra.gov.jo/en/news/security-forces-capture-three-terrorists-involved-in-karak-church-attack-1",
+      "tags": [
+        "jordan",
+        "attack",
+        "church"
+      ],
+      "added_at": "2026-10-26T05:26:22-04:00"
+    },
     {
       "id": "2026-10-25-trump-iran-deal-or-finish-them-off",
       "section": "news",

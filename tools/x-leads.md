@@ -28,10 +28,10 @@ Scan: 2026-10-26 about 4:05 a.m. ET (new leads first; unused leads from earlier 
 
 ## Dropped this scan
 
-- Already in items.json: Trump's "no strike today" remark (in 2026-10-25-trump-iran-deal-or-finish-them-off), U.S. ordered departure from Saudi Arabia (2026-10-21-us-orders-diplomats-leave-saudi), Houthi missile interceptions over Saudi Arabia, Iran plots against U.S. personnel and DNI warning, CIA contractor leak, Fifth Circuit bond-hearing ruling, DOJ SNAP fraud sweep.
-- Old news resurfacing: Army official Andrew Hugg placed on leave after an undercover video (April 2026), Payne Stewart anniversary, Bulgaria 2025 protests, wedding-videographer story (2020).
-- Not confirmed by primary or wire sources: Trump's claim that Rep. Omar's seat is "forfeited," the ER nurse/MAGA patient post, WSJ-style claims of an imminent joint U.S.-Israeli strike from anonymous officials (Jerusalem Post only).
-- Commentary and campaign chatter: Trump's Georgia rally remarks on oil profits, Obama's Iran remarks, Trump's Netanyahu endorsement, Paxton 2020 record, Judge Altman at the Hagee event.
-- Calendar and market previews: Israel's Tuesday election, FOMC Oct. 27-28, big-tech earnings, GDP/PCE, overnight futures and oil moves (Coming Up and markets items handle these when they hit).
-- Local, foreign-local or minor: Delhi building collapse and North Block fire, Nairobi building-collapse dispute, Kochi crash, Jhansi death, Ghana evacuation audit, Nigeria incidents, UAE beach oil slick (Oct. 9 attack), PHP vulnerability (Oct. 21, older), Franklin Templeton ETF filing, China stock slide.
-- Entertainment, sports and viral: NFL games, Jalen Hurts clot review, Manchester United, Looney Tunes, K-pop and Thai concerts, relationship videos, John Kass site closing, BBC hoax.
+- Already in items.json: Trump's "no strike today" remark (in 2026-10-25-trump-iran-deal-or-finish-them-off), U.S. ordered departure from Saudi Arabia (2026-10-21-us-orders-diplomats-leave-saudi), Houthi missile and drone attacks on Saudi Arabia, Iranian plots against U.S. personnel, CIA contractor leak, Fifth Circuit bond-hearing ruling, DOJ SNAP fraud case.
+- Old news resurfacing: Army official Andrew Hugg placed on leave after an undercover video (that happened in April 2026).
+- Not confirmed by primary or wire sources: Trump's rally claim about Rep. Ilhan Omar; anonymous-official claims of an imminent joint U.S.-Israeli strike.
+- Commentary and campaign chatter: Trump's Georgia rally remark on gas prices, Trump's Netanyahu endorsement.
+- Calendar and market previews: Israel's election Tuesday, the FOMC meeting this week, overnight futures and oil moves (Coming Up and markets items handle these when they hit).
+- Older or unconfirmed tech: PHP vulnerability chatter (no vendor confirmation found this scan).
+- Local, entertainment, sports and viral: Delhi and other India local stories, NFL games and the Jalen Hurts review, K-pop, the John Kass site, a BBC hoax, viral videos.

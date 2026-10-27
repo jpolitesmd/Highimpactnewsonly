@@ -1,0 +1,270 @@
+{
+ "date": "2026-10-27",
+ "edition": "morning",
+ "subject": "Tuesday, Oct 27 - Morning edition",
+ "published": "2026-10-27T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-27-cdc-ebola-congo-travel-attestation",
+   "section": "health",
+   "text": "A CDC order will require every air passenger flying into the U.S. to sign a statement that they have not been in Congo in the past 21 days.",
+   "detail": "The order, signed Oct. 22 and published in the Federal Register on Tuesday, applies to flights departing at or after 11:59 p.m. EST on Nov. 3 and runs through Dec. 18 unless changed. It covers every flight landing in the U.S., including connections; airlines must keep each signed statement for 42 days, and knowingly false statements can be prosecuted. Medical-evacuation flights and people CDC exempts on humanitarian grounds are excluded. CDC says Congo's Bundibugyo Ebola outbreak had reached 9,455 confirmed cases and 4,561 deaths as of Oct. 18; the order adds to the entry suspension already in place. Separately, a Swiss woman with Ebola diagnosed in Nigeria was flown to Geneva University Hospitals on Monday and is stable, Geneva health officials said.",
+   "why": "Starting Nov. 3, every international air traveler to the U.S. and every airline flying here must comply.",
+   "impact": 4,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-27T00:00:00-04:00",
+   "time_known": false,
+   "source": "CDC order, Federal Register",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21828/requirement-for-attestation-all-airline-or-other-aircraft-passengers-arriving-in-the-united-states-from-any-foreign-country-andd-controlled-free-pratique-for-airlines-confirming-that-such-passengers-have-not-been-in-the-democratic-republic-of-the-congo-in-the-past-21-days"
+  },
+  {
+   "id": "2026-10-27-florida-coastal-flood-warnings",
+   "section": "news",
+   "text": "Florida's entire Atlantic coast, from Nassau County to the Keys, is under coastal flood warnings, with wind advisories reaching inland to Orlando through 8 p.m. Tuesday.",
+   "detail": "National Weather Service offices in Jacksonville, Melbourne, Miami and Key West issued the warnings early Tuesday, citing moderate to significant flooding at high tide; coastal roads may close and low-lying homes and businesses will flood. The Jacksonville and Melbourne warnings, which include the St. Johns River basin, run until 2 a.m. Friday; Palm Beach, Broward and Miami-Dade warnings run until 8 p.m. Wednesday, with breaking waves of 8 to 13 feet off Palm Beach. Wind advisories for northeast gusts up to 40 mph cover Orange, Seminole, Osceola and the coastal counties until 8 p.m. Tuesday.",
+   "why": "Hundreds of miles of coastline face flooded roads and property, and gusty wind may knock out power in metro areas.",
+   "impact": 3,
+   "topic": "weather",
+   "region": "US",
+   "time": "2026-10-27T02:26:00-04:00",
+   "time_known": true,
+   "source": "National Weather Service",
+   "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3e9586f041a587e23c5ba1dc9cdc61bef95e8aa.001.1"
+  },
+  {
+   "id": "2026-10-27-cms-proposes-aca-annual-reverification",
+   "section": "health",
+   "text": "ACA marketplace enrollees would have to confirm their income, citizenship and residency every year before subsidies renew, under a CMS proposal starting with 2028 coverage.",
+   "detail": "The proposed rule (CMS-9873-P), published in the Federal Register on Tuesday with 30 days for comments, carries out the Working Families Tax Cut law. Marketplaces could not automatically renew advance premium tax credits unless enrollees provide or confirm their information between Aug. 1 and Dec. 31 of the prior year; the first window would open Aug. 1, 2027. CMS's own analysis estimates 332,500 fewer people would enroll each year and about $1.9 billion a year less in premium tax credits starting in 2028.",
+   "why": "It would change how roughly 17 million marketplace enrollees keep their subsidies; it is a proposal, not yet final.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-27T00:00:00-04:00",
+   "time_known": false,
+   "source": "CMS proposed rule, Federal Register",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification"
+  },
+  {
+   "id": "2026-10-27-judge-blocks-east-potomac-tree-removal",
+   "section": "news",
+   "text": "Washington's East Potomac Golf Course can't lose more trees while a lawsuit proceeds, a federal judge ruled Monday; Trump said he will appeal.",
+   "detail": "U.S. District Judge Ana Reyes issued a preliminary injunction that also requires 10 days' written notice before any irreversible change to the 106-year-old public course, and she declined the government's request that she step aside. She wrote that workers cut at least 400 trees over a holiday weekend after the government said it would not. Trump said late Monday he would appeal and that the course will still close Nov. 15 for 15 months of renovation.",
+   "why": "The fight over the president's remaking of public landmarks in the capital now heads to an appeals court.",
+   "impact": 2,
+   "topic": "court",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "region": "US",
+   "time": "2026-10-26T18:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-golf-course-east-potomac-f1fafe7da7796e24b2b0626bc9f9ba42"
+  },
+  {
+   "id": "2026-10-26-anthropic-files-ipo",
+   "section": "tech",
+   "text": "Anthropic, the maker of the Claude AI models, filed publicly Monday to sell shares on the Nasdaq under the ticker \"ANT.\"",
+   "detail": "The S-1 filed with the SEC does not yet set a share count or price range; Goldman Sachs and Morgan Stanley are the lead banks. The filing shows revenue of $16.29 billion for the first half of 2026, up from $1.16 billion a year earlier, and a net loss of $80.7 billion, most of it a $72.4 billion non-cash charge on the value of convertible notes. Anthropic filed confidentially in June; AFP reported it plans to sell shares in mid-November, and AP said the offering could top SpaceX's record $86 billion IPO in June. Separately, Meta on Monday launched a $35 billion stock sale to fund AI spending ($22.5 billion of common stock through forward sales and $12.5 billion of mandatory convertible preferred shares) and plans up to about $60 billion more later.",
+   "why": "One of the leading AI companies is preparing what could be the largest stock market debut ever, as tech giants raise record sums to pay for AI.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-26T09:00:00-04:00",
+   "time_known": false,
+   "source": "Anthropic S-1 (SEC); AP",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+  },
+  {
+   "id": "2026-10-26-brazil-stocks-plunge-lula",
+   "section": "money",
+   "text": "Brazil's main stock index plunged nearly 14% Monday, the first trading day after President Lula's reelection, while U.S. stocks rose.",
+   "detail": "Trading on Brazil's B3 exchange was halted for 30 minutes at the open after the Ibovespa's drop triggered a circuit breaker, and the real fell more than 10% against the dollar, AFP reported. Lula beat Flávio Bolsonaro in Sunday's runoff. In New York, the S&P 500 rose 0.7% to 7,676.77, the Dow added 146.42 points, or 0.3%, to 52,361.58, and the Nasdaq gained 0.8%, led by AI stocks after Anthropic's IPO filing. Verizon reported 406,000 new postpaid phone subscribers in the third quarter, its best third quarter in five years, and raised its 2026 forecast.",
+   "why": "A market crash in Latin America's largest economy hits investors and companies with exposure to Brazil.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-10-26T16:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-oil-earnings-trump-be3a56f58a77c5be863f0289d280be92"
+  },
+  {
+   "id": "2026-10-27-bessent-iranians-dont-pay-taxes",
+   "section": "news",
+   "text": "Treasury Secretary Scott Bessent told Iranians not to pay their taxes and to stock up on fuel, predicting Iran's economy will shrink more than 25%.",
+   "detail": "In an on-camera interview with Iran International on Monday, Bessent said, \"My advice to the Iranian people would be: don't pay your taxes because you're not going to get anything back from the government,\" and said Iran has \"no oil on the water\" and no loadings at Kharg Island. He predicted the economy would contract more than 25% from March 2026 to March 2027 and said the next eight weeks of \"Operation Economic Outcast\" sanctions will be \"even more intense.\" Treasury has not issued a readout. Separately, The New York Times reported, citing two diplomats, that Qatari mediators are working on a five-day deal to reopen the Strait of Hormuz in exchange for lifting the U.S. blockade; neither government has announced one.",
+   "why": "The U.S. is openly urging Iranians to defy their government and promising tougher sanctions while mediators try to reopen Hormuz.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-26T14:48:00-04:00",
+   "time_known": true,
+   "source": "Iran International (on-record interview)",
+   "url": "https://www.iranintl.com/en/202610268489"
+  },
+  {
+   "id": "2026-10-26-egypt-saudi-military-support-tehran-talks",
+   "section": "news",
+   "text": "Egypt's parliament authorized military support to help defend Saudi Arabia from Houthi attacks Monday, as talks in Tehran ended with only a pledge to keep talking.",
+   "detail": "The authorization is limited to defending Saudi Arabia and applies only if Riyadh requests help, AP reported. Talks in Tehran between Iranian leaders and delegations from Saudi Arabia, Pakistan and Turkey ended with an agreement to keep talking and no concrete deal announced. Yemen's Houthis said they attacked pumping stations on Saudi Arabia's East-West pipeline and Riyadh's airport; Saudi Arabia did not confirm the claims.",
+   "why": "The Houthi war on Saudi Arabia is drawing in more countries as the U.S. weighs new strikes on Iran.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-10-26T13:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/egypt-saudi-arabia-military-support-parliament-houthis-0122d6201f904496a080e60e0f983697"
+  },
+  {
+   "id": "2026-10-27-ninth-circuit-dismisses-doj-california-ballots-appeal",
+   "section": "news",
+   "text": "The Justice Department's emergency appeal to set aside about 20,000 California mail ballots was thrown out by a federal appeals court Monday.",
+   "detail": "A 2-1 Ninth Circuit panel granted Los Angeles County's motion to dismiss for lack of jurisdiction and denied DOJ's emergency motion as moot; Judges Bennett and Sanchez concurred and Judge Bumatay dissented. The court said DOJ did not give U.S. District Judge David Carter enough time to rule on its request and called the claimed emergency \"at least in part, a self-constructed one.\" DOJ sued Oct. 15 after sending the state a list of more than 20,000 people it called likely noncitizens. Carter holds a hearing on DOJ's request Tuesday and has said he will rule promptly.",
+   "why": "For now, the federal effort to hold back mail ballots in the nation's largest voting county is stopped, a week before the midterms.",
+   "impact": 3,
+   "topic": "ballot",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the 9th Circuit",
+   "region": "US",
+   "time": "2026-10-26T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the Ninth Circuit (order, No. 26-7070)",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-26-kenya-ebola-contacts-released",
+   "section": "health",
+   "text": "Kenya released its first 20 Ebola contacts from quarantine Monday after 21 days without symptoms, with case counts holding at nine.",
+   "detail": "Health ministry Director-General Patrick Amoth said the seven surviving patients are stable and 98 people still in quarantine will be released in four waves starting Nov. 3. Two patients have died. All cases of the Bundibugyo strain are tied to one cluster linked to the index patient, who died Oct. 5, Reuters reported.",
+   "why": "The outbreak appears contained to one cluster so far.",
+   "impact": 2,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-26T08:00:00-04:00",
+   "time_known": false,
+   "source": "WHO Africa; Reuters",
+   "url": "https://www.afro.who.int/countries/kenya/news/twenty-contacts-kenyas-first-ebola-case-released-quarantine"
+  },
+  {
+   "id": "2026-10-26-openai-gpt-6-1-terra",
+   "section": "tech",
+   "text": "OpenAI released GPT-6.1 Terra Monday, a cheaper model built for computer-use and office tasks, priced at half its predecessor's rate.",
+   "detail": "The model is rolling out to ChatGPT Plus, Pro, Enterprise and Edu users and to developers through the API at $1 per million input tokens and $5 per million output tokens, 50% below GPT-5.6 Terra and GPT-6.1 Sol. OpenAI said it is the first model in its line rated at the \"Critical\" cybersecurity threshold under its Preparedness Framework and published added safeguards.",
+   "why": "Cheaper AI agents that can operate computers are moving into everyday office software.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-26T13:00:00-04:00",
+   "time_known": false,
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-26-doj-charges-48-noncitizen-voting",
+   "section": "news",
+   "text": "Forty-eight noncitizens in five states face federal charges of illegal voting or falsely claiming citizenship to register, the Justice Department announced Monday.",
+   "detail": "The cases are in Pennsylvania, California, Florida, New York and Nevada. Most defendants are lawful permanent residents, according to the Justice Department. They are accused of voting in the 2022 or 2024 federal elections, or in one case a June 2026 primary, and some are also charged with lying about their voting or citizenship claims on naturalization applications. The announcement comes eight days before the Nov. 3 midterms. Charges are accusations; the defendants are presumed innocent.",
+   "why": "The administration is pressing its case on noncitizen voting days before the midterms, as courts weigh related voter-roll fights.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-26T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-48-aliens-election-related-crimes"
+  },
+  {
+   "id": "2026-10-26-microsoft-voluntary-buyouts",
+   "section": "money",
+   "text": "Microsoft offered voluntary buyouts Monday to about 60,000 employees, roughly a quarter of its workforce, as it pours money into AI data centers.",
+   "detail": "Microsoft announced the Voluntary Exit Offer for employees at level 70 and below on participating teams in the U.S., Canada, the U.K. and India. About 60,000 of Microsoft's 223,000 workers are eligible, the company confirmed to GeekWire. Employees decide in early December, and those who accept leave Dec. 31, CNBC reported. Some sales, marketing and engineering teams are not taking part. It follows a voluntary retirement program in April and 4,800 layoffs announced in July. Microsoft reports quarterly results Wednesday.",
+   "why": "One of the largest U.S. employers is shrinking its staff by choice as AI reshapes tech jobs.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-26T12:00:00-04:00",
+   "time_known": false,
+   "source": "Microsoft",
+   "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"
+  },
+  {
+   "id": "2026-10-26-judge-maurene-comey-firing-unlawful",
+   "section": "news",
+   "text": "Maurene Comey's firing as a federal prosecutor was illegal, a federal judge ruled Monday, ordering the Justice Department to reinstate her.",
+   "detail": "U.S. District Judge Jesse Furman in Manhattan found the July 2025 firing of Comey, a daughter of former FBI Director James Comey, violated the Civil Service Reform Act, the separation of powers, federal administrative law and her due-process rights. He ordered retroactive reinstatement with back pay from July 16, 2025, through Dec. 20, 2025, when she started a new job. Comey had worked on the Jeffrey Epstein and Ghislaine Maxwell prosecutions. The Justice Department said it \"disagrees with this decision and will appeal in due course.\" The judge has not yet ruled on her First Amendment claim and ordered further briefing.",
+   "why": "The ruling limits the administration's power to fire career prosecutors without cause.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the Southern District of New York",
+   "region": "US",
+   "time": "2026-10-26T11:30:00-04:00",
+   "time_known": false,
+   "source": "U.S. District Court (S.D.N.Y.) opinion; AP",
+   "url": "https://www.nysd.uscourts.gov/sites/default/files/2026-10/25cv7625%20%5B96%5D%20Opinion%2010.26.2026.pdf"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-27",
+   "when": "10:00 a.m. ET",
+   "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
+   "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "10:30 a.m. ET",
+   "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
+   "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "when": "8:30 a.m. ET",
+   "text": "September durable goods orders (Census advance report), 8:30 a.m. ET.",
+   "detail": "Date and time per the Census M3 release schedule; the fuller factory-orders report follows Nov. 3.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

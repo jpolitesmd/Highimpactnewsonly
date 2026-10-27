@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T16:58:00-04:00",
+ "updated": "2026-10-27T05:33:00-04:00",
  "block": {
   "start": "2026-10-26",
   "end": "2026-11-08",
@@ -8,13 +8,31 @@
  "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
  "launches": [
   {
+   "date": "2026-10-30",
+   "sort": "00:02",
+   "time": "Window opens 12:02 a.m.",
+   "rocket": "Falcon 9",
+   "mission": "Starlink (27 satellites)",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+   "url": "https://www.spacex.com/launches/sl-15-18"
+  },
+  {
    "date": "2026-11-01",
-   "sort": "99",
-   "time": "Time TBD",
+   "sort": "20:56",
+   "time": "Window opens 8:56 p.m.",
    "rocket": "Falcon 9",
    "mission": "USSF-432",
    "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
    "url": "https://www.spacex.com/launches/ussf432"
+  },
+  {
+   "date": "2026-11-05",
+   "sort": "00:14",
+   "time": "Window opens 12:14 a.m.",
+   "rocket": "Falcon 9",
+   "mission": "Starlink (27 satellites)",
+   "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+   "url": "https://www.spacex.com/launches/sl-15-21"
   }
  ]
 }

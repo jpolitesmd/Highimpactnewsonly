@@ -1,6 +1,217 @@
 {
-  "updated": "2026-10-26T16:58:00-04:00",
+  "updated": "2026-10-27T05:33:00-04:00",
   "items": [
+    {
+      "id": "2026-10-27-cdc-ebola-congo-travel-attestation",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "US",
+      "thread": "kenya-ebola",
+      "impact": 4,
+      "time": "2026-10-27T00:00:00-04:00",
+      "time_known": false,
+      "text": "A CDC order will require every air passenger flying into the U.S. to sign a statement that they have not been in Congo in the past 21 days.",
+      "detail": "The order, signed Oct. 22 and published in the Federal Register on Tuesday, applies to flights departing at or after 11:59 p.m. EST on Nov. 3 and runs through Dec. 18 unless changed. It covers every flight landing in the U.S., including connections; airlines must keep each signed statement for 42 days, and knowingly false statements can be prosecuted. Medical-evacuation flights and people CDC exempts on humanitarian grounds are excluded. CDC says Congo's Bundibugyo Ebola outbreak had reached 9,455 confirmed cases and 4,561 deaths as of Oct. 18; the order adds to the entry suspension already in place. Separately, a Swiss woman with Ebola diagnosed in Nigeria was flown to Geneva University Hospitals on Monday and is stable, Geneva health officials said.",
+      "why": "Starting Nov. 3, every international air traveler to the U.S. and every airline flying here must comply.",
+      "source": "CDC order, Federal Register",
+      "url": "https://www.federalregister.gov/public-inspection/2026-21828/requirement-for-attestation-all-airline-or-other-aircraft-passengers-arriving-in-the-united-states-from-any-foreign-country-andd-controlled-free-pratique-for-airlines-confirming-that-such-passengers-have-not-been-in-the-democratic-republic-of-the-congo-in-the-past-21-days",
+      "tags": [
+        "ebola",
+        "cdc",
+        "travel",
+        "congo"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-ninth-circuit-dismisses-doj-california-ballots-appeal",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "thread": "midterms-2026",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the 9th Circuit",
+      "impact": 3,
+      "time": "2026-10-26T12:00:00-04:00",
+      "time_known": false,
+      "text": "The Justice Department's emergency appeal to set aside about 20,000 California mail ballots was thrown out by a federal appeals court Monday.",
+      "detail": "A 2-1 Ninth Circuit panel granted Los Angeles County's motion to dismiss for lack of jurisdiction and denied DOJ's emergency motion as moot; Judges Bennett and Sanchez concurred and Judge Bumatay dissented. The court said DOJ did not give U.S. District Judge David Carter enough time to rule on its request and called the claimed emergency \"at least in part, a self-constructed one.\" DOJ sued Oct. 15 after sending the state a list of more than 20,000 people it called likely noncitizens. Carter holds a hearing on DOJ's request Tuesday and has said he will rule promptly.",
+      "why": "For now, the federal effort to hold back mail ballots in the nation's largest voting county is stopped, a week before the midterms.",
+      "source": "U.S. Court of Appeals for the Ninth Circuit (order, No. 26-7070)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/26/26-7070.pdf",
+      "tags": [
+        "elections",
+        "california",
+        "doj",
+        "courts"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-cms-proposes-aca-annual-reverification",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T00:00:00-04:00",
+      "time_known": false,
+      "text": "ACA marketplace enrollees would have to confirm their income, citizenship and residency every year before subsidies renew, under a CMS proposal starting with 2028 coverage.",
+      "detail": "The proposed rule (CMS-9873-P), published in the Federal Register on Tuesday with 30 days for comments, carries out the Working Families Tax Cut law. Marketplaces could not automatically renew advance premium tax credits unless enrollees provide or confirm their information between Aug. 1 and Dec. 31 of the prior year; the first window would open Aug. 1, 2027. CMS's own analysis estimates 332,500 fewer people would enroll each year and about $1.9 billion a year less in premium tax credits starting in 2028.",
+      "why": "It would change how roughly 17 million marketplace enrollees keep their subsidies; it is a proposal, not yet final.",
+      "source": "CMS proposed rule, Federal Register",
+      "url": "https://www.federalregister.gov/public-inspection/2026-21891/patient-protection-and-affordable-care-act-exchange-pre-eligibility-verification",
+      "tags": [
+        "aca",
+        "cms",
+        "insurance"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-florida-coastal-flood-warnings",
+      "section": "news",
+      "topic": "weather",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T02:26:00-04:00",
+      "time_known": true,
+      "text": "Florida's entire Atlantic coast, from Nassau County to the Keys, is under coastal flood warnings, with wind advisories reaching inland to Orlando through 8 p.m. Tuesday.",
+      "detail": "National Weather Service offices in Jacksonville, Melbourne, Miami and Key West issued the warnings early Tuesday, citing moderate to significant flooding at high tide; coastal roads may close and low-lying homes and businesses will flood. The Jacksonville and Melbourne warnings, which include the St. Johns River basin, run until 2 a.m. Friday; Palm Beach, Broward and Miami-Dade warnings run until 8 p.m. Wednesday, with breaking waves of 8 to 13 feet off Palm Beach. Wind advisories for northeast gusts up to 40 mph cover Orange, Seminole, Osceola and the coastal counties until 8 p.m. Tuesday.",
+      "why": "Hundreds of miles of coastline face flooded roads and property, and gusty wind may knock out power in metro areas.",
+      "source": "National Weather Service",
+      "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f3e9586f041a587e23c5ba1dc9cdc61bef95e8aa.001.1",
+      "tags": [
+        "florida",
+        "flooding",
+        "weather"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-bessent-iranians-dont-pay-taxes",
+      "section": "news",
+      "topic": "whitehouse",
+      "branch": [
+        "executive"
+      ],
+      "region": "US",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-26T14:48:00-04:00",
+      "time_known": true,
+      "text": "Treasury Secretary Scott Bessent told Iranians not to pay their taxes and to stock up on fuel, predicting Iran's economy will shrink more than 25%.",
+      "detail": "In an on-camera interview with Iran International on Monday, Bessent said, \"My advice to the Iranian people would be: don't pay your taxes because you're not going to get anything back from the government,\" and said Iran has \"no oil on the water\" and no loadings at Kharg Island. He predicted the economy would contract more than 25% from March 2026 to March 2027 and said the next eight weeks of \"Operation Economic Outcast\" sanctions will be \"even more intense.\" Treasury has not issued a readout. Separately, The New York Times reported, citing two diplomats, that Qatari mediators are working on a five-day deal to reopen the Strait of Hormuz in exchange for lifting the U.S. blockade; neither government has announced one.",
+      "why": "The U.S. is openly urging Iranians to defy their government and promising tougher sanctions while mediators try to reopen Hormuz.",
+      "source": "Iran International (on-record interview)",
+      "url": "https://www.iranintl.com/en/202610268489",
+      "tags": [
+        "iran",
+        "sanctions",
+        "treasury",
+        "strait-of-hormuz"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-meta-35-billion-stock-sale",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-26T07:46:00-04:00",
+      "time_known": true,
+      "text": "Meta launched a $35 billion stock sale to pay for its AI buildout and plans about $60 billion more next year.",
+      "detail": "The Oct. 26 offering is about $22.5 billion of Class A stock sold through forward agreements plus about $12.5 billion of mandatory convertible preferred shares; a roughly $60 billion at-the-market program is planned once new nonvoting Class C shares begin trading. Separately, Verizon reported 406,000 postpaid phone net additions, its best third quarter in five years, and raised its full-year outlook for a third time.",
+      "why": "It is among the largest stock sales ever by a U.S. company, made to fund AI spending.",
+      "source": "Meta investor release; SEC filings",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+      "tags": [
+        "meta",
+        "ai",
+        "markets",
+        "verizon"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-judge-blocks-east-potomac-tree-removal",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "judicial": true,
+      "impact": 2,
+      "time": "2026-10-26T18:00:00-04:00",
+      "time_known": false,
+      "text": "Washington's East Potomac Golf Course can't lose more trees while a lawsuit proceeds, a federal judge ruled Monday; Trump said he will appeal.",
+      "detail": "U.S. District Judge Ana Reyes issued a preliminary injunction that also requires 10 days' written notice before any irreversible change to the 106-year-old public course, and she declined the government's request that she step aside. She wrote that workers cut at least 400 trees over a holiday weekend after the government said it would not. Trump said late Monday he would appeal and that the course will still close Nov. 15 for 15 months of renovation.",
+      "why": "The fight over the president's remaking of public landmarks in the capital now heads to an appeals court.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-golf-course-east-potomac-f1fafe7da7796e24b2b0626bc9f9ba42",
+      "tags": [
+        "courts",
+        "washington-dc",
+        "trump"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-citizens-sue-trump-press-bans",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "judicial": true,
+      "impact": 2,
+      "time": "2026-10-26T12:00:00-04:00",
+      "time_known": false,
+      "text": "Six citizens sued President Trump in New York federal court, saying his expulsions of reporters from the White House violate the public's First Amendment rights.",
+      "detail": "The Knight First Amendment Institute and Yale Law School's Media Freedom and Information Access Clinic filed Roth v. Trump (No. 1:26-cv-09327, S.D.N.Y.) on Monday with a motion for a preliminary injunction covering the whole press corps. The plaintiffs, including a historian, a civics teacher and a student journalist, argue White House press spaces are a public forum where viewpoint-based exclusions are barred. Earlier this month a judge in Washington blocked the ban for CNN, MS NOW and Politico.",
+      "why": "It is the first challenge to the press bans brought on behalf of the public rather than the news outlets.",
+      "source": "Knight First Amendment Institute (court filing)",
+      "url": "https://knightcolumbia.org/cases/roth-v-trump",
+      "tags": [
+        "press",
+        "first-amendment",
+        "courts"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
+    {
+      "id": "2026-10-27-un-inquiry-russia-energy-attacks",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 2,
+      "time": "2026-10-26T12:00:00-04:00",
+      "time_known": false,
+      "text": "Russia's attacks on Ukraine's power grid were war crimes and crimes against humanity, a UN commission of inquiry found.",
+      "detail": "In a report to the UN General Assembly on Monday, the Independent International Commission of Inquiry on Ukraine said Russian commanders knew the heating plants, power lines and gas facilities they hit were indispensable to civilians, and that attacks in the 2025-26 winter left millions without heat, power and water. It also found Russia's deceptive or coerced recruitment of foreign men to fight amounted to human trafficking. The findings are not binding.",
+      "why": "A formal UN finding adds to the accountability record as Russia's winter strikes on the grid resume.",
+      "source": "UN Commission of Inquiry on Ukraine (OHCHR); Reuters",
+      "url": "https://www.ohchr.org/en/press-releases/2026/10/russian-authorities-committed-crimes-against-humanity-through-attacks",
+      "tags": [
+        "ukraine",
+        "russia",
+        "un"
+      ],
+      "added_at": "2026-10-27T05:33:00-04:00"
+    },
     {
       "id": "2026-10-26-anthropic-files-ipo",
       "section": "tech",

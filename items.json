@@ -1,6 +1,146 @@
 {
-  "updated": "2026-10-27T05:33:00-04:00",
+  "updated": "2026-10-27T19:20:00-04:00",
   "items": [
+    {
+      "id": "2026-10-27-israel-election-exit-polls-no-majority",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 4,
+      "time": "2026-10-27T16:00:00-04:00",
+      "time_known": true,
+      "text": "Israel's election produced no clear winner, exit polls show, with neither Netanyahu's bloc nor his opponents near the 61 seats needed to govern.",
+      "detail": "Polls closed at 10 p.m. Israel time (4 p.m. ET). Exit polls from Channels 11, 12 and 13 gave Netanyahu's bloc 50 of the Knesset's 120 seats and the Jewish-led opposition bloc 52 or 53. Netanyahu's Likud was projected as the largest party with 24 to 25 seats, ahead of Gadi Eisenkot's Yashar! at 21 to 23. Arab-led parties were projected to win a record 17 or 18 seats, up from 10. Pro-government Channel 14 and i24 News showed better numbers for Netanyahu's bloc (60 and 55). Turnout was unusually high. The Central Elections Committee is counting votes, and official results can differ from exit polls; President Isaac Herzog will decide who gets the first chance to form a government, a process that could take weeks.",
+      "why": "The vote decides who leads a key U.S. ally during the war with Iran, and a deadlock could mean weeks of uncertainty or another election.",
+      "source": "AP",
+      "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2",
+      "tags": [
+        "israel",
+        "election",
+        "netanyahu"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
+    {
+      "id": "2026-10-27-fec-filing-system-offline-hacking",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "thread": "midterms-2026",
+      "impact": 3,
+      "time": "2026-10-27T13:46:00-04:00",
+      "time_known": true,
+      "text": "The Federal Election Commission's electronic filing system has been offline since Monday night after hacking attempts, a week before the midterms, Reuters reported.",
+      "detail": "An FEC electronic filings officer wrote in an email seen by Reuters: \"We have a bad actor attempting to breach FEC systems. As a result, we've had to temporarily shut down our web facing services.\" The FEC's status page says filing has been down since about 10 p.m. ET Monday; in a statement the agency said only that the system is offline and its IT staff are working to restore it, and declined to say what caused it. Past reports can still be searched. The outage blocks the 24- and 48-hour reports that show late spending by super PACs and other groups. The FEC does not run elections, and voting is not affected. CISA referred questions to the FEC; the FBI did not immediately comment.",
+      "why": "Until it is fixed, voters can't see who is spending on races in the final days before Nov. 3.",
+      "source": "FEC outage notice; Reuters",
+      "url": "https://api.open.fec.gov/developers/",
+      "tags": [
+        "fec",
+        "midterms",
+        "cybersecurity"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
+    {
+      "id": "2026-10-27-scotus-declines-restore-administrative-closure-rule",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "thread": "deportations-courts",
+      "impact": 3,
+      "time": "2026-10-27T12:30:00-04:00",
+      "time_known": false,
+      "text": "A Biden-era rule letting immigration judges pause some deportation cases stays thrown out after the Supreme Court declined to restore it Tuesday.",
+      "detail": "In a brief unsigned order in City of Baltimore v. Texas (No. 26A500), with no noted dissents, the court refused to pause a June consent judgment between Texas and the Justice Department that vacated the 2024 \"administrative closure\" rule. Chief Judge Reed O'Connor in Wichita Falls entered that judgment the same day Texas sued, at both parties' request. Baltimore, New Haven, Columbus and Centro Legal de la Raza, which called the deal collusive, were denied permission to join the case; their appeal continues at the 5th Circuit.",
+      "why": "Immigration judges lose a tool used to set aside cases while people such as crime victims seek relief from a separate agency.",
+      "source": "Supreme Court order",
+      "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/baltimore-texas-scotus-order.pdf",
+      "tags": [
+        "supreme-court",
+        "immigration"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
+    {
+      "id": "2026-10-27-fbi-searches-cloobeck-home-swalwell-probe",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T07:00:00-07:00",
+      "time_known": true,
+      "text": "FBI agents searched billionaire donor Stephen Cloobeck's Beverly Hills mansion Tuesday in the federal investigation of former Rep. Eric Swalwell.",
+      "detail": "The search began around 7 a.m. PT on North Roxbury Drive. The FBI confirmed an operation \"related to an ongoing criminal investigation\" and said court documents are sealed; AP and ABC7 reported it is tied to the Swalwell probe. Swalwell stayed at the home before he resigned from Congress in April and ended his campaign for governor amid sexual misconduct allegations, which he denies. Cloobeck, who has said he cut ties with Swalwell, was not home; his lawyers said he \"continues to have faith in the judicial process.\" Agents seized Swalwell's devices and searched his Washington home in August.",
+      "why": "It is the latest escalation in a federal criminal probe of a former member of Congress.",
+      "source": "AP",
+      "url": "https://apnews.com/article/eric-swalwell-congress-investigation-fbi-beverly-hills-752acc65276c2a9c46f3d11321e83928",
+      "tags": [
+        "swalwell",
+        "fbi"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
+    {
+      "id": "2026-10-27-boeing-misses-737-delivery-targets",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "factory",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T10:30:00-04:00",
+      "time_known": true,
+      "text": "Boeing shares fell nearly 10% after it said it will miss its 737 production and 500-jet delivery targets this year.",
+      "detail": "CEO Kelly Ortberg said the 737 MAX will reach 47 jets a month in early 2027, not this past summer as planned, because wing production is lagging; Boeing still targets 52 a month in the second half of 2027. Third-quarter revenue rose 4% to $24.2 billion and the net loss narrowed to $116 million from $5.34 billion a year earlier; the adjusted loss of 34 cents a share was wider than the 21 cents analysts expected. Boeing projected $3 billion in free cash flow next year, below Wall Street estimates. Shares fell 9.6% to about $170 in afternoon trading, their worst day since April 2025, Reuters reported.",
+      "why": "Fewer new jets means continued tight airline capacity and a slower recovery for America's largest exporter.",
+      "source": "Boeing; Reuters",
+      "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx",
+      "tags": [
+        "boeing",
+        "earnings"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
+    {
+      "id": "2026-10-27-waltz-cuba-un-embargo-clash",
+      "section": "news",
+      "topic": "globe",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T11:00:00-04:00",
+      "time_known": false,
+      "text": "U.S. Ambassador Mike Waltz and Cuba's foreign minister got into a shouting match at the UN General Assembly during debate on the U.S. embargo.",
+      "detail": "As Waltz accused Havana's leaders of corruption, the Cuban delegation interrupted, and Foreign Minister Bruno Rodriguez accused him of lying and demanded a point of order; the session was briefly suspended. The assembly votes Wednesday on its annual nonbinding resolution condemning the embargo, which passed 165-7 with 12 abstentions last year. The clash follows Secretary of State Marco Rubio's Oct. 23 public call for Cubans to work with the CIA.",
+      "why": "It shows rising U.S.-Cuba tension as the administration signals Cuba is its next target after Iran.",
+      "source": "AP",
+      "url": "https://apnews.com/article/us-cuba-embargo-un-general-assembly-trump-380f15946b20268f08c184c1e5e0d9ab",
+      "tags": [
+        "cuba",
+        "un",
+        "waltz"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
+    {
+      "id": "2026-10-27-consumer-confidence-rises-october",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-27T10:00:00-04:00",
+      "time_known": true,
+      "text": "Consumer confidence rose in October, the Conference Board said, as easing gas prices lifted Americans' mood.",
+      "detail": "The index rose 7.5 points to 91.7 from a revised 84.2 in September. The Present Situation Index rose 8.6 points to 120.4 and the Expectations Index rose 6.9 points to 72.6. The survey cutoff was Oct. 21.",
+      "why": "Confidence is a read on whether households keep spending.",
+      "source": "The Conference Board",
+      "url": "https://www.prnewswire.com/news-releases/us-consumer-confidence-increased-in-october-302920731.html",
+      "tags": [
+        "consumer-confidence"
+      ],
+      "added_at": "2026-10-27T19:20:00-04:00"
+    },
     {
       "id": "2026-10-27-cdc-ebola-congo-travel-attestation",
       "section": "health",

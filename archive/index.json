@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-27-evening",
+   "date": "2026-10-27",
+   "edition": "evening",
+   "count": 7,
+   "lead": "Israel's election produced no clear winner, exit polls show, with neither Netanyahu's bloc nor his opponents near the 61 seats needed to govern."
+  },
+  {
    "key": "2026-10-27-morning",
    "date": "2026-10-27",
    "edition": "morning",
@@ -400,5 +407,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-27T05:33:12-04:00"
+ "updated": "2026-10-27T19:06:44-04:00"
 }

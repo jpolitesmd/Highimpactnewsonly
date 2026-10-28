@@ -1,0 +1,249 @@
+{
+ "date": "2026-10-28",
+ "edition": "morning",
+ "subject": "Wednesday, Oct 28 - Morning edition",
+ "published": "2026-10-28T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-28-epa-proposes-methane-rule-rollback",
+   "section": "news",
+   "text": "The Biden-era methane rules for oil and gas wells would be loosened under an EPA proposal President Trump announced Tuesday at a Texas rally.",
+   "detail": "EPA Administrator Lee Zeldin and Trump unveiled the proposal in Lubbock. It would create separate, lighter standards for low-producing \"marginal\" wells (or, under a second option, for conventional wells), rescind the Super Emitter Program that let certified outside monitors flag large methane leaks, build a repair window into leak rules for covers and vent systems, and return to 95%-efficient flaring as the standard for gas from oil wells instead of requiring it to be piped to market. EPA says the changes would save $45 billion and add an estimated 210 million barrels of oil and 1.41 trillion cubic feet of natural gas. It is a proposal: it takes effect only after a public comment period and a final rule. The 2024 rules, known as OOOOb/c, were estimated to cost $18 billion when finalized.",
+   "why": "Methane is a potent greenhouse gas, and the rules govern leak checks at oil and gas sites nationwide.",
+   "impact": 3,
+   "topic": "energy",
+   "region": "US",
+   "time": "2026-10-27T19:00:00-04:00",
+   "time_known": false,
+   "source": "EPA",
+   "url": "https://www.epa.gov/newsreleases/epa-proposes-major-new-revisions-burdensome-unworkable-biden-era-oil-and-natural-gas"
+  },
+  {
+   "id": "2026-10-28-israel-count-netanyahu-bloc-short",
+   "section": "news",
+   "text": "Israel's vote count puts Netanyahu's bloc ahead but short of a majority, with about three-quarters of ballot boxes counted and no clear winner.",
+   "detail": "Partial Central Elections Committee results with 76.8% of ballot boxes counted (as of 10:58 a.m. Israel time) give Netanyahu's bloc 54 of the Knesset's 120 seats, Gadi Eisenkot's bloc 47 and the Arab-led Joint List and Ra'am 19; 61 are needed to govern. Likud is the largest party. Seat numbers are projections from vote shares and will shift: double-envelope ballots, including soldiers', are counted later. Netanyahu's bloc ran ahead of most exit polls, which had it near 50.",
+   "why": "Neither side has a clear path yet, so weeks of coalition talks or another election are possible.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-28T04:58:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-gaza-iran-28102026-52c6f5a0a720a4ffc08633229e796415"
+  },
+  {
+   "id": "2026-10-28-rays-force-world-series-game-5",
+   "section": "sports",
+   "text": "The Tampa Bay Rays avoided a World Series sweep, rallying for two runs in the 12th inning to beat the Milwaukee Brewers 4-3 and force Game 5.",
+   "detail": "Milwaukee led the series 3-0 and went ahead 3-2 on rookie Cooper Pratt's home run in the top of the 12th. In the bottom half, a throwing error by third baseman Joey Ortiz put the leadoff man on, Jonny DeLuca's single tied it, and pinch-hitter Ben Williamson's bases-loaded chopper won it. The Rays are the fifth team down 3-0 in a World Series to win Game 4; the previous four lost Game 5. Game 5 is Wednesday at 8 p.m. ET at Tropicana Field.",
+   "why": "The Brewers were one inning from their first title; the series goes on.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-28T00:20:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/world-series-brewers-rays-score-game-4-8b8b1c9dba76a30e74ddaca2a929847b"
+  },
+  {
+   "id": "2026-10-28-us-warns-gulf-possible-iran-campaign",
+   "section": "news",
+   "text": "Gulf Arab countries have been told by the U.S. to prepare for a possible \"short, intense\" military campaign against Iran after the midterms, the Wall Street Journal reports.",
+   "detail": "The Journal, citing people briefed on the conversations, said the messages went through diplomatic and military channels; it reported that a Patriot missile-defense battery is moving from Texas to the region, troops have been moved from exposed bases, and another carrier strike group and a Marine expeditionary unit are expected next month. It said Trump has not made a final decision. The White House declined to comment on \"sensitive military plans that may or may not exist\" and said Trump \"keeps all options on the table to ensure that Iran can never have a nuclear weapon.\" At his Lubbock, Texas, rally Tuesday, Trump said, \"You'll see Iran in a couple of weeks.\" Separately, IAEA chief Rafael Grossi told the UN Security Council on Oct. 27 that his agency has seen no activity to repair Iran's nuclear sites damaged in the 2025 and 2026 strikes, but that Iran still has not given inspectors access to verify its roughly 440 kilograms of highly enriched uranium.",
+   "why": "It is the clearest sign yet that the U.S. may resume large-scale strikes on Iran within weeks.",
+   "impact": 3,
+   "topic": "war",
+   "region": "US",
+   "time": "2026-10-27T19:00:00-04:00",
+   "time_known": false,
+   "source": "Wall Street Journal",
+   "url": "https://www.wsj.com/world/middle-east/u-s-warns-gulf-of-possible-short-intense-renewal-of-iran-war-after-midterms-cd1a55e1"
+  },
+  {
+   "id": "2026-10-28-grand-jury-declines-hutchinson-indictment",
+   "section": "news",
+   "text": "Cassidy Hutchinson, the former White House aide who testified against Trump about Jan. 6, will not be indicted after a grand jury refused, people familiar with the case say.",
+   "detail": "A federal grand jury in Washington rejected the Justice Department's request Tuesday, two people familiar with the matter told the AP. The case, handled by DOJ's Civil Rights Division, centered on her 2022 testimony to the House Jan. 6 committee, including her account that Trump lunged for the steering wheel of his vehicle, which Secret Service officials disputed. In a hearing on another matter, a division lawyer told a magistrate judge the grand jury had not agreed to a proposed indictment without naming the defendant. The refusal does not bar prosecutors from trying again. It is the latest grand jury rebuff in cases against people Trump has called political enemies.",
+   "why": "Grand juries rarely refuse prosecutors, and this is another setback for cases against Trump critics.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-27T17:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/cassidy-hutchinson-trump-indictment-65b19759933189cdebb164c5bd80649c"
+  },
+  {
+   "id": "2026-10-27-israel-election-exit-polls-no-majority",
+   "section": "news",
+   "text": "Israel's election produced no clear winner, exit polls show, with neither Netanyahu's bloc nor his opponents near the 61 seats needed to govern.",
+   "detail": "Polls closed at 10 p.m. Israel time (4 p.m. ET). Exit polls from Channels 11, 12 and 13 gave Netanyahu's bloc 50 of the Knesset's 120 seats and the Jewish-led opposition bloc 52 or 53. Netanyahu's Likud was projected as the largest party with 24 to 25 seats, ahead of Gadi Eisenkot's Yashar! at 21 to 23. Arab-led parties were projected to win a record 17 or 18 seats, up from 10. Pro-government Channel 14 and i24 News showed better numbers for Netanyahu's bloc (60 and 55). Turnout was unusually high. The Central Elections Committee is counting votes, and official results can differ from exit polls; President Isaac Herzog will decide who gets the first chance to form a government, a process that could take weeks.",
+   "why": "The vote decides who leads a key U.S. ally during the war with Iran, and a deadlock could mean weeks of uncertainty or another election.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-27T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2"
+  },
+  {
+   "id": "2026-10-27-cdc-ebola-congo-travel-attestation",
+   "section": "health",
+   "text": "A CDC order will require every air passenger flying into the U.S. to sign a statement that they have not been in Congo in the past 21 days.",
+   "detail": "The order, signed Oct. 22 and published in the Federal Register on Tuesday, applies to flights departing at or after 11:59 p.m. EST on Nov. 3 and runs through Dec. 18 unless changed. It covers every flight landing in the U.S., including connections; airlines must keep each signed statement for 42 days, and knowingly false statements can be prosecuted. Medical-evacuation flights and people CDC exempts on humanitarian grounds are excluded. CDC says Congo's Bundibugyo Ebola outbreak had reached 9,455 confirmed cases and 4,561 deaths as of Oct. 18; the order adds to the entry suspension already in place. Separately, a Swiss woman with Ebola diagnosed in Nigeria was flown to Geneva University Hospitals on Monday and is stable, Geneva health officials said.",
+   "why": "Starting Nov. 3, every international air traveler to the U.S. and every airline flying here must comply.",
+   "impact": 4,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-27T00:00:00-04:00",
+   "time_known": false,
+   "source": "CDC order, Federal Register",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21828/requirement-for-attestation-all-airline-or-other-aircraft-passengers-arriving-in-the-united-states-from-any-foreign-country-andd-controlled-free-pratique-for-airlines-confirming-that-such-passengers-have-not-been-in-the-democratic-republic-of-the-congo-in-the-past-21-days"
+  },
+  {
+   "id": "2026-10-27-fec-filing-system-offline-hacking",
+   "section": "news",
+   "text": "The Federal Election Commission's electronic filing system has been offline since Monday night after hacking attempts, a week before the midterms, Reuters reported.",
+   "detail": "An FEC electronic filings officer wrote in an email seen by Reuters: \"We have a bad actor attempting to breach FEC systems. As a result, we've had to temporarily shut down our web facing services.\" The FEC's status page says filing has been down since about 10 p.m. ET Monday; in a statement the agency said only that the system is offline and its IT staff are working to restore it, and declined to say what caused it. Past reports can still be searched. The outage blocks the 24- and 48-hour reports that show late spending by super PACs and other groups. The FEC does not run elections, and voting is not affected. CISA referred questions to the FEC; the FBI did not immediately comment.",
+   "why": "Until it is fixed, voters can't see who is spending on races in the final days before Nov. 3.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-27T13:46:00-04:00",
+   "time_known": true,
+   "source": "FEC outage notice; Reuters",
+   "url": "https://api.open.fec.gov/developers/"
+  },
+  {
+   "id": "2026-10-27-scotus-declines-restore-administrative-closure-rule",
+   "section": "news",
+   "text": "A Biden-era rule letting immigration judges pause some deportation cases stays thrown out after the Supreme Court declined to restore it Tuesday.",
+   "detail": "In a brief unsigned order in City of Baltimore v. Texas (No. 26A500), with no noted dissents, the court refused to pause a June consent judgment between Texas and the Justice Department that vacated the 2024 \"administrative closure\" rule. Chief Judge Reed O'Connor in Wichita Falls entered that judgment the same day Texas sued, at both parties' request. Baltimore, New Haven, Columbus and Centro Legal de la Raza, which called the deal collusive, were denied permission to join the case; their appeal continues at the 5th Circuit.",
+   "why": "Immigration judges lose a tool used to set aside cases while people such as crime victims seek relief from a separate agency.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-27T12:30:00-04:00",
+   "time_known": false,
+   "source": "Supreme Court order",
+   "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/baltimore-texas-scotus-order.pdf"
+  },
+  {
+   "id": "2026-10-27-waltz-cuba-un-embargo-clash",
+   "section": "news",
+   "text": "U.S. Ambassador Mike Waltz and Cuba's foreign minister got into a shouting match at the UN General Assembly during debate on the U.S. embargo.",
+   "detail": "As Waltz accused Havana's leaders of corruption, the Cuban delegation interrupted, and Foreign Minister Bruno Rodriguez accused him of lying and demanded a point of order; the session was briefly suspended. The assembly votes Wednesday on its annual nonbinding resolution condemning the embargo, which passed 165-7 with 12 abstentions last year. The clash follows Secretary of State Marco Rubio's Oct. 23 public call for Cubans to work with the CIA.",
+   "why": "It shows rising U.S.-Cuba tension as the administration signals Cuba is its next target after Iran.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "US",
+   "time": "2026-10-27T11:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/us-cuba-embargo-un-general-assembly-trump-380f15946b20268f08c184c1e5e0d9ab"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-28-cdc-antibiotic-resistance-threats-report",
+   "section": "health",
+   "text": "Drug-resistant germs cause more than 9.3 million infections and 39,000 deaths a year in the U.S., CDC's first full threats report since 2019 estimates.",
+   "detail": "The 2026 Antimicrobial Resistance Threats Report, released Oct. 27 using 2023 data, covers 19 bacteria and fungi ranked urgent, serious or concerning, plus a watch list. Adding C. diff, which is driven by antibiotic use, the total reaches 9.7 million infections and 50,800 deaths a year. CDC changed its methods, so the figures should not be compared with the 2019 report's.",
+   "why": "Resistant infections can be hard or impossible to treat and threaten routine care like surgery and cancer treatment.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-27T12:00:00-04:00",
+   "time_known": false,
+   "source": "CDC",
+   "url": "https://arpsp.cdc.gov/artr/antimicrobial-resistance-threats"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-26-anthropic-files-ipo",
+   "section": "tech",
+   "text": "Anthropic, the maker of the Claude AI models, filed publicly Monday to sell shares on the Nasdaq under the ticker \"ANT.\"",
+   "detail": "The S-1 filed with the SEC does not yet set a share count or price range; Goldman Sachs and Morgan Stanley are the lead banks. The filing shows revenue of $16.29 billion for the first half of 2026, up from $1.16 billion a year earlier, and a net loss of $80.7 billion, most of it a $72.4 billion non-cash charge on the value of convertible notes. Anthropic filed confidentially in June; AFP reported it plans to sell shares in mid-November, and AP said the offering could top SpaceX's record $86 billion IPO in June. Separately, Meta on Monday launched a $35 billion stock sale to fund AI spending ($22.5 billion of common stock through forward sales and $12.5 billion of mandatory convertible preferred shares) and plans up to about $60 billion more later.",
+   "why": "One of the leading AI companies is preparing what could be the largest stock market debut ever, as tech giants raise record sums to pay for AI.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-26T09:00:00-04:00",
+   "time_known": false,
+   "source": "Anthropic S-1 (SEC); AP",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+  },
+  {
+   "id": "2026-10-27-boeing-misses-737-delivery-targets",
+   "section": "money",
+   "text": "Boeing shares fell nearly 10% after it said it will miss its 737 production and 500-jet delivery targets this year.",
+   "detail": "CEO Kelly Ortberg said the 737 MAX will reach 47 jets a month in early 2027, not this past summer as planned, because wing production is lagging; Boeing still targets 52 a month in the second half of 2027. Third-quarter revenue rose 4% to $24.2 billion and the net loss narrowed to $116 million from $5.34 billion a year earlier; the adjusted loss of 34 cents a share was wider than the 21 cents analysts expected. Boeing projected $3 billion in free cash flow next year, below Wall Street estimates. Shares fell 9.6% to about $170 in afternoon trading, their worst day since April 2025, Reuters reported.",
+   "why": "Fewer new jets means continued tight airline capacity and a slower recovery for America's largest exporter.",
+   "impact": 3,
+   "topic": "factory",
+   "region": "US",
+   "time": "2026-10-27T10:30:00-04:00",
+   "time_known": true,
+   "source": "Boeing; Reuters",
+   "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx"
+  },
+  {
+   "id": "2026-10-27-fbi-searches-cloobeck-home-swalwell-probe",
+   "section": "news",
+   "text": "FBI agents searched billionaire donor Stephen Cloobeck's Beverly Hills mansion Tuesday in the federal investigation of former Rep. Eric Swalwell.",
+   "detail": "The search began around 7 a.m. PT on North Roxbury Drive. The FBI confirmed an operation \"related to an ongoing criminal investigation\" and said court documents are sealed; AP and ABC7 reported it is tied to the Swalwell probe. Swalwell stayed at the home before he resigned from Congress in April and ended his campaign for governor amid sexual misconduct allegations, which he denies. Cloobeck, who has said he cut ties with Swalwell, was not home; his lawyers said he \"continues to have faith in the judicial process.\" Agents seized Swalwell's devices and searched his Washington home in August.",
+   "why": "It is the latest escalation in a federal criminal probe of a former member of Congress.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-10-27T07:00:00-07:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/eric-swalwell-congress-investigation-fbi-beverly-hills-752acc65276c2a9c46f3d11321e83928"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-28",
+   "when": "2:00 p.m. ET",
+   "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "when": "After the close",
+   "text": "Alphabet reports third-quarter results; earnings call 4:30 p.m. ET.",
+   "detail": "Date and call time per Alphabet’s Q3 2026 results conference-call notice.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "when": "After the close",
+   "text": "Microsoft reports fiscal first-quarter results after the close; call 5:30 p.m. ET.",
+   "detail": "Date and webcast time per Microsoft’s Oct. 7 announcement (2:30 p.m. Pacific).",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

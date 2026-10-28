@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25",
+ "updated": "2026-10-28",
  "threads": [
   {
    "id": "iran-war",
@@ -83,6 +83,12 @@
    "id": "kenya-ebola",
    "title": "Ebola in Kenya",
    "summary": "Kenya's outbreak of the Bundibugyo strain of Ebola, which has no licensed vaccine, centered on Nairobi.",
+   "status": "active"
+  },
+  {
+   "id": "israel-election",
+   "title": "Israel's election",
+   "summary": "Israel's Oct. 27, 2026 national election, the vote count and the talks to form a government.",
    "status": "active"
   }
  ]

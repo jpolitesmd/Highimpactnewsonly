@@ -1,6 +1,151 @@
 {
-  "updated": "2026-10-27T19:20:00-04:00",
+  "updated": "2026-10-28T05:55:00-04:00",
   "items": [
+    {
+      "id": "2026-10-28-epa-proposes-methane-rule-rollback",
+      "section": "news",
+      "topic": "energy",
+      "region": "US",
+      "impact": 3,
+      "pin": "2026-10-28 morning",
+      "pin_order": 1,
+      "time": "2026-10-27T19:00:00-04:00",
+      "time_known": false,
+      "text": "The Biden-era methane rules for oil and gas wells would be loosened under an EPA proposal President Trump announced Tuesday at a Texas rally.",
+      "detail": "EPA Administrator Lee Zeldin and Trump unveiled the proposal in Lubbock. It would create separate, lighter standards for low-producing \"marginal\" wells (or, under a second option, for conventional wells), rescind the Super Emitter Program that let certified outside monitors flag large methane leaks, build a repair window into leak rules for covers and vent systems, and return to 95%-efficient flaring as the standard for gas from oil wells instead of requiring it to be piped to market. EPA says the changes would save $45 billion and add an estimated 210 million barrels of oil and 1.41 trillion cubic feet of natural gas. It is a proposal: it takes effect only after a public comment period and a final rule. The 2024 rules, known as OOOOb/c, were estimated to cost $18 billion when finalized.",
+      "why": "Methane is a potent greenhouse gas, and the rules govern leak checks at oil and gas sites nationwide.",
+      "source": "EPA",
+      "url": "https://www.epa.gov/newsreleases/epa-proposes-major-new-revisions-burdensome-unworkable-biden-era-oil-and-natural-gas",
+      "tags": [
+        "epa",
+        "methane",
+        "oil",
+        "gas"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-us-warns-gulf-possible-iran-campaign",
+      "section": "news",
+      "topic": "war",
+      "region": "US",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-10-27T19:00:00-04:00",
+      "time_known": false,
+      "text": "Gulf Arab countries have been told by the U.S. to prepare for a possible \"short, intense\" military campaign against Iran after the midterms, the Wall Street Journal reports.",
+      "detail": "The Journal, citing people briefed on the conversations, said the messages went through diplomatic and military channels; it reported that a Patriot missile-defense battery is moving from Texas to the region, troops have been moved from exposed bases, and another carrier strike group and a Marine expeditionary unit are expected next month. It said Trump has not made a final decision. The White House declined to comment on \"sensitive military plans that may or may not exist\" and said Trump \"keeps all options on the table to ensure that Iran can never have a nuclear weapon.\" At his Lubbock, Texas, rally Tuesday, Trump said, \"You'll see Iran in a couple of weeks.\" Separately, IAEA chief Rafael Grossi told the UN Security Council on Oct. 27 that his agency has seen no activity to repair Iran's nuclear sites damaged in the 2025 and 2026 strikes, but that Iran still has not given inspectors access to verify its roughly 440 kilograms of highly enriched uranium.",
+      "why": "It is the clearest sign yet that the U.S. may resume large-scale strikes on Iran within weeks.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/u-s-warns-gulf-of-possible-short-intense-renewal-of-iran-war-after-midterms-cd1a55e1",
+      "notes": "Anonymous-sourced WSJ report; verified against Anadolu full copy. IAEA: https://www.iaea.org/newscenter/statements/director-general-statement-to-the-united-nations-security-council",
+      "tags": [
+        "iran",
+        "gulf",
+        "iaea"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-grand-jury-declines-hutchinson-indictment",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T17:30:00-04:00",
+      "time_known": false,
+      "text": "Cassidy Hutchinson, the former White House aide who testified against Trump about Jan. 6, will not be indicted after a grand jury refused, people familiar with the case say.",
+      "detail": "A federal grand jury in Washington rejected the Justice Department's request Tuesday, two people familiar with the matter told the AP. The case, handled by DOJ's Civil Rights Division, centered on her 2022 testimony to the House Jan. 6 committee, including her account that Trump lunged for the steering wheel of his vehicle, which Secret Service officials disputed. In a hearing on another matter, a division lawyer told a magistrate judge the grand jury had not agreed to a proposed indictment without naming the defendant. The refusal does not bar prosecutors from trying again. It is the latest grand jury rebuff in cases against people Trump has called political enemies.",
+      "why": "Grand juries rarely refuse prosecutors, and this is another setback for cases against Trump critics.",
+      "source": "AP",
+      "url": "https://apnews.com/article/cassidy-hutchinson-trump-indictment-65b19759933189cdebb164c5bd80649c",
+      "tags": [
+        "doj",
+        "jan-6"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-israel-count-netanyahu-bloc-short",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "israel-election",
+      "impact": 3,
+      "time": "2026-10-28T04:58:00-04:00",
+      "time_known": true,
+      "text": "Israel's vote count puts Netanyahu's bloc ahead but short of a majority, with about three-quarters of ballot boxes counted and no clear winner.",
+      "detail": "Partial Central Elections Committee results with 76.8% of ballot boxes counted (as of 10:58 a.m. Israel time) give Netanyahu's bloc 54 of the Knesset's 120 seats, Gadi Eisenkot's bloc 47 and the Arab-led Joint List and Ra'am 19; 61 are needed to govern. Likud is the largest party. Seat numbers are projections from vote shares and will shift: double-envelope ballots, including soldiers', are counted later. Netanyahu's bloc ran ahead of most exit polls, which had it near 50.",
+      "why": "Neither side has a clear path yet, so weeks of coalition talks or another election are possible.",
+      "source": "AP",
+      "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-gaza-iran-28102026-52c6f5a0a720a4ffc08633229e796415",
+      "notes": "Counts verified against Times of Israel CEC liveblog (76.8% counted).",
+      "tags": [
+        "israel",
+        "election",
+        "netanyahu"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-rays-force-world-series-game-5",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-28T00:20:00-04:00",
+      "time_known": false,
+      "text": "The Tampa Bay Rays avoided a World Series sweep, rallying for two runs in the 12th inning to beat the Milwaukee Brewers 4-3 and force Game 5.",
+      "detail": "Milwaukee led the series 3-0 and went ahead 3-2 on rookie Cooper Pratt's home run in the top of the 12th. In the bottom half, a throwing error by third baseman Joey Ortiz put the leadoff man on, Jonny DeLuca's single tied it, and pinch-hitter Ben Williamson's bases-loaded chopper won it. The Rays are the fifth team down 3-0 in a World Series to win Game 4; the previous four lost Game 5. Game 5 is Wednesday at 8 p.m. ET at Tropicana Field.",
+      "why": "The Brewers were one inning from their first title; the series goes on.",
+      "source": "AP",
+      "url": "https://apnews.com/article/world-series-brewers-rays-score-game-4-8b8b1c9dba76a30e74ddaca2a929847b",
+      "tags": [
+        "mlb",
+        "world-series"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-cdc-antibiotic-resistance-threats-report",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-27T12:00:00-04:00",
+      "time_known": false,
+      "text": "Drug-resistant germs cause more than 9.3 million infections and 39,000 deaths a year in the U.S., CDC's first full threats report since 2019 estimates.",
+      "detail": "The 2026 Antimicrobial Resistance Threats Report, released Oct. 27 using 2023 data, covers 19 bacteria and fungi ranked urgent, serious or concerning, plus a watch list. Adding C. diff, which is driven by antibiotic use, the total reaches 9.7 million infections and 50,800 deaths a year. CDC changed its methods, so the figures should not be compared with the 2019 report's.",
+      "why": "Resistant infections can be hard or impossible to treat and threaten routine care like surgery and cancer treatment.",
+      "source": "CDC",
+      "url": "https://arpsp.cdc.gov/artr/antimicrobial-resistance-threats",
+      "tags": [
+        "cdc",
+        "antibiotics"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-cornell-accused-student-dorm",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "thread": "cornell-assault-case",
+      "impact": 2,
+      "time": "2026-10-27T15:00:00-04:00",
+      "time_known": false,
+      "text": "Cornell University will review why a student disciplined in a 2024 fraternity assault case was placed in a shared co-ed dorm room after his suspension.",
+      "detail": "The AP reported that the student returned this fall after a three-semester suspension and was roomed with a student who did not know his past; housing officials kept him there for two weeks after a September lawsuit publicly accused him of rape, a professor told the Faculty Senate. Cornell said it will review whether concerns were raised and whether appropriate accommodations were made. His lawyer says the encounter was consensual. President Michael Kotlikoff faces a possible faculty no-confidence vote; debate resumes Wednesday. New York's attorney general now handles the reopened criminal investigation.",
+      "why": "It adds to pressure on Cornell's leadership over the case.",
+      "source": "AP",
+      "url": "https://apnews.com/article/cornell-gang-rape-28b3984331d3165211b8668371c8b33b",
+      "tags": [
+        "cornell"
+      ],
+      "added_at": "2026-10-28T05:55:00-04:00"
+    },
     {
       "id": "2026-10-27-israel-election-exit-polls-no-majority",
       "section": "news",
@@ -20,7 +165,8 @@
         "election",
         "netanyahu"
       ],
-      "added_at": "2026-10-27T19:20:00-04:00"
+      "added_at": "2026-10-27T19:20:00-04:00",
+      "thread": "israel-election"
     },
     {
       "id": "2026-10-27-fec-filing-system-offline-hacking",

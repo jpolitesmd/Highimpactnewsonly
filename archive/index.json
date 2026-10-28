@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-28-morning",
+   "date": "2026-10-28",
+   "edition": "morning",
+   "count": 10,
+   "lead": "The Biden-era methane rules for oil and gas wells would be loosened under an EPA proposal President Trump announced Tuesday at a Texas rally."
+  },
+  {
    "key": "2026-10-27-evening",
    "date": "2026-10-27",
    "edition": "evening",
@@ -407,5 +414,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-27T19:06:44-04:00"
+ "updated": "2026-10-28T05:41:40-04:00"
 }

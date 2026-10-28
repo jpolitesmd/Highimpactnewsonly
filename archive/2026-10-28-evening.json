@@ -1,0 +1,176 @@
+{
+ "date": "2026-10-28",
+ "edition": "evening",
+ "subject": "Wednesday, Oct 28 - Evening edition",
+ "published": "2026-10-28T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-28-fed-holds-rates-two-dissents",
+   "section": "money",
+   "text": "The Federal Reserve held its key interest rate at 3.75% to 4% Wednesday, but two officials voted to raise it, saying inflation is still too high.",
+   "detail": "The vote was 10-2: Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted a quarter-point increase. The statement says the economy is \"expanding at a strong pace,\" job gains have kept pace with the workforce, inflation \"remains elevated,\" and \"the Committee will deliver price stability.\" At his news conference, Chair Kevin Warsh said energy prices have moved higher again and the Fed will fit its next move to incoming data. He also said the Fed will hold fewer rate-setting meetings: in 2027 one of its eight meetings will be devoted only to long-run strategy, and in 2028 two will be, leaving six for rate decisions. Separately, the Bank of Canada raised its policy rate a quarter point to 2.50% Wednesday, its first increase since July 2023, citing higher, more persistent inflation and energy costs, and said more hikes may be needed.",
+   "why": "The Fed's rate drives what Americans pay on credit cards, car loans and many business loans, and two votes for a hike signal pressure to tighten further.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-28T14:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "id": "2026-10-28-alphabet-microsoft-earnings",
+   "section": "money",
+   "text": "Alphabet shares fell about 7% after hours as AI spending turned its free cash flow sharply negative, while Microsoft rose about 6% on faster cloud growth.",
+   "detail": "Alphabet's third-quarter revenue rose 25% to $127.58 billion, its fastest growth since 2021, and Google Cloud revenue more than doubled to $30.7 billion. But net income fell to $26.17 billion ($2.12 a share) from $34.98 billion, hurt by an $8.66 billion loss on equity holdings, and free cash flow was negative $9.07 billion; capital spending was $51.36 billion. Search revenue rose 12% to $63.35 billion, below estimates. Microsoft said revenue at its Azure cloud business grew 48% to $33.17 billion in the quarter ended September, above estimates. Reuters noted investor worry over Big Tech's debt-funded AI buildout, expected to top $700 billion this year.",
+   "why": "The two companies are among the largest in the stock market, and their AI spending is a key test for the broader market and retirement accounts.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-28T16:05:00-04:00",
+   "time_known": false,
+   "source": "Alphabet; Reuters",
+   "url": "https://abc.xyz/investor/"
+  },
+  {
+   "id": "2026-10-28-spain-high-speed-train-crash-68-dead",
+   "section": "news",
+   "text": "A high-speed train crash in central Spain killed at least 68 people Wednesday when one train slammed into another stopped on the Madrid-Seville line.",
+   "detail": "A Renfe train hit the rear of an Iryo train halted at a red signal near Urda, in Toledo province, just before 9 a.m. local time; the two trains carried about 544 people. The Castilla-La Mancha regional government said 58 people were being treated in hospitals. Transport Minister Óscar Puente said a computer communications failure had stopped traffic and that an \"inexplicable\" decision to let the Renfe train proceed caused the crash. Prime Minister Pedro Sánchez declared three days of mourning, and most parties paused campaigning for Spain's general election. It is Spain's deadliest rail crash since 2013 and the second high-speed collision on the line this year, after a January crash that killed 46. Toll as of Wednesday afternoon ET; it may rise.",
+   "why": "It is one of Europe's worst rail disasters in years and raises safety questions about one of the world's largest high-speed networks.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "World",
+   "time": "2026-10-28T14:50:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77"
+  },
+  {
+   "id": "2026-10-28-dolores-huerta-dies",
+   "section": "news",
+   "text": "Dolores Huerta, who co-founded the United Farm Workers and coined the rallying cry \"Sí, se puede,\" died Wednesday at 96.",
+   "detail": "A family spokesperson told AP she died of cancer at her home in Bakersfield, Calif., surrounded by family. Huerta co-founded the farmworkers' union with César Chávez in the 1960s, helped lead the national grape boycott and negotiated its first contracts, and spent decades organizing for labor, civil and women's rights. She received the Presidential Medal of Freedom in 2012. Earlier this year she said Chávez had sexually abused her in the 1960s. Gov. Gavin Newsom ordered flags at California's Capitol lowered in her honor.",
+   "why": "She was one of the best-known labor and civil rights leaders of the past 60 years.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-28T14:50:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/dolores-huerta-dies-255fd49a5346475dbace4a74994b2c62"
+  },
+  {
+   "id": "2026-10-28-google-gemini-4-carbon",
+   "section": "tech",
+   "text": "Google's new top AI model, Gemini 4 Carbon, is going first only to vetted cyber defenders because of its skill at finding and exploiting software flaws.",
+   "detail": "Google says Carbon leads benchmarks for finding vulnerabilities, validating exploits and writing patches, and ranks first on the Artificial Analysis Intelligence Index; those claims are Google's own. Access starts through Google's Fairwind program for security teams, and Google says it is taking part in the U.S. government's voluntary pre-release model testing. It will open to developers, businesses and consumers later, at introductory pricing of $2 per million input tokens and $10 per million output tokens. CEO Sundar Pichai said on Alphabet's earnings call Wednesday that Carbon outperforms its predecessor, Argon, \"on almost every domain.\"",
+   "why": "AI that can find and exploit security holes could help defenders patch faster, or help attackers if it spreads, so the rollout is being gated.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Google",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+  },
+  {
+   "id": "2026-10-28-nyt-peltola-aides-spoiler-recruitment",
+   "section": "news",
+   "text": "Mary Peltola's campaign aides and Senate Democrats' campaign arm helped recruit a second \"Dan Sullivan\" onto Alaska's ballot, the New York Times reported; both deny it.",
+   "detail": "Citing interviews, text messages and documents prepared for a possible lawsuit, the Times reported that people working with Peltola's campaign and senior aides at the Democratic Senatorial Campaign Committee took part in a broader \"ballot composition project\" to recruit would-be spoilers, including Daniel J. Sullivan, to draw votes from Republican Sen. Dan S. Sullivan. Former campaign manager Elisa Rios told the Times that Peltola was not directly involved but was \"definitely aware\"; the Times said Rios later tried to retract her comments. Peltola's campaign said it \"has no involvement with either Sullivan campaign,\" and the DSCC said it \"is not involved with Dan J. Sullivan.\" The Times noted ballot-stacking is common and generally legal. After the report, President Trump demanded that Peltola and Daniel J. Sullivan be removed from the ballot. A Justice Department suit seeks to block certification of a close result; Judge Sharon Gleason has fast-tracked motions to dismiss it before the Nov. 3 election.",
+   "why": "The Alaska race could decide which party controls the Senate, and the report feeds a federal fight over whether its result can be certified.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-28T09:00:00-04:00",
+   "time_known": false,
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html"
+  },
+  {
+   "id": "2026-10-28-drc-ebola-cases-top-10000",
+   "section": "health",
+   "text": "Congo's Ebola outbreak has passed 10,000 cases, with nearly 5,000 deaths, the World Health Organization said, making it the second-largest Ebola outbreak ever recorded.",
+   "detail": "Congo's Health Ministry counted 10,141 cases as of Monday. The outbreak, caused by the Bundibugyo virus, for which there is no approved vaccine or treatment, has spread to eight provinces; it is the largest of Congo's 17 Ebola outbreaks and second only to West Africa's 2014-2016 epidemic. More than 2,600 people have recovered, and a ring-vaccination trial of the Ervebo vaccine has begun in Bunia. Kenya's count stays at nine cases and two deaths, all linked to its first imported case; 20 contacts have been released from quarantine. The U.N. allotted more than $2 million for Kenya's response. A CDC order announced Tuesday requires air travelers entering the U.S. to attest they have not been in Congo in the past 21 days.",
+   "why": "The outbreak is still growing and has already spread across borders, prompting U.S. travel screening.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-28T09:00:00-04:00",
+   "time_known": false,
+   "source": "UN News (WHO)",
+   "url": "https://news.un.org/en/story/2026/10/1168689"
+  },
+  {
+   "id": "2026-10-28-judge-blocks-trump-ads-dnc-suit",
+   "section": "news",
+   "text": "The taxpayer-funded TV ads promoting President Trump were blocked again Wednesday, this time by a federal judge in Washington in the Democrats' lawsuit.",
+   "detail": "U.S. District Judge Loren AliKhan granted the Democratic National Committee a temporary restraining order barring the administration from developing, airing or distributing the ads, paused a $20 million Office of Management and Budget allocation for them, and ordered DHS and OMB to tell the contractor, LMD Agency, to stop. The order lasts 14 days. It has little practical effect before the Nov. 3 election because a federal judge in New York had already ordered the ads halted through Nov. 8 in a separate case.",
+   "why": "It adds a second court order against using public money for ads promoting the president before the midterms.",
+   "impact": 2,
+   "topic": "court",
+   "branch": "judicial",
+   "judicial": true,
+   "region": "US",
+   "time": "2026-10-28T13:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. District Court for D.C. (order); AP",
+   "url": "https://democrats.org/wp-content/uploads/2026/10/026-TRO-Opinion.pdf"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-28-apple-touchscreen-macbook-pro",
+   "section": "tech",
+   "text": "Apple's first touchscreen Mac is a redesigned MacBook Pro with an OLED display, starting at $2,899 and arriving Nov. 6.",
+   "detail": "The 14- and 16-inch models use a tandem-OLED \"PROLED XDR\" touch display and M5 Pro or M5 Max chips; the 16-inch starts at $3,399. Preorders opened Wednesday. Apple had long resisted touchscreens on Macs. Apple shares closed down about 1%.",
+   "why": "It reverses a years-long Apple stance and raises the price of its top laptop.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-28T10:00:00-04:00",
+   "time_known": false,
+   "source": "Apple",
+   "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-28",
+   "when": "2:00 p.m. ET",
+   "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "when": "After the close",
+   "text": "Alphabet reports third-quarter results; earnings call 4:30 p.m. ET.",
+   "detail": "Date and call time per Alphabet’s Q3 2026 results conference-call notice.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "when": "After the close",
+   "text": "Microsoft reports fiscal first-quarter results after the close; call 5:30 p.m. ET.",
+   "detail": "Date and webcast time per Microsoft’s Oct. 7 announcement (2:30 p.m. Pacific).",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

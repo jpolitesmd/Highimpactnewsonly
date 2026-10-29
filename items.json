@@ -1,6 +1,319 @@
 {
-  "updated": "2026-10-29T05:45:00-04:00",
+  "updated": "2026-10-29T16:55:00-04:00",
   "items": [
+    {
+      "id": "2026-10-29-judge-strikes-medicaid-medically-frail-definition",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "US",
+      "judicial": true,
+      "court": "U.S. District Court for the District of Massachusetts",
+      "branch": [
+        "judicial"
+      ],
+      "impact": 3,
+      "pin": "2026-10-29 evening",
+      "pin_order": 1,
+      "time": "2026-10-29T13:00:00-04:00",
+      "time_known": false,
+      "text": "A Trump administration rule narrowing who counts as \"medically frail\" under new Medicaid work requirements was struck down by a federal judge in Boston on Thursday.",
+      "detail": "U.S. District Judge Richard Stearns sided with 25 states and the District of Columbia, ruling that CMS unlawfully limited the exemption to people whose physical, mental or behavioral health condition \"significantly impairs\" their ability to meet the work requirement. He vacated that language and permanently barred its enforcement; California's attorney general said the order also gives the states a six-month stay of enforcement to absorb errors or delays from the changes. Stearns upheld other challenged parts of the rule, including a one-year look-back for diagnoses and one self-attestation per enrollment period. Under the 2025 law, most adults 19 to 64 must log 80 hours a month of work, community service or schooling to keep Medicaid starting Jan. 1, 2027.",
+      "why": "The exemption decides which seriously ill enrollees must prove they work to keep their health coverage.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-medicaid-chronically-ill-work-requirements-656719bd7c8358d9d5290cf54f81255b",
+      "notes": "Facts checked against NBC/Reuters copy and California AG release (oag.ca.gov). x-leads 4:15 p.m.",
+      "tags": [
+        "medicaid",
+        "work-requirements",
+        "cms",
+        "courts"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-q3-gdp-september-pce",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "chart",
+      "region": "US",
+      "thread": "rates-inflation",
+      "impact": 3,
+      "pin": "2026-10-29 evening",
+      "pin_order": 2,
+      "time": "2026-10-29T08:30:00-04:00",
+      "time_known": true,
+      "text": "The U.S. economy grew at a 3.4% annual rate in the third quarter, up from 2.2% in the spring, while September inflation rose to 3.6%.",
+      "detail": "The Bureau of Economic Analysis's advance estimate credited investment (led by business inventories and computer equipment), consumer spending and government spending, partly offset by lower exports. Sales to private domestic buyers rose at a 4.9% rate. In a separate report, the PCE price index, the Federal Reserve's preferred inflation gauge, rose 0.5% in September and 3.6% from a year earlier; excluding food and energy, prices rose 0.3% on the month and 3.1% on the year. Personal income rose 0.2% and spending 0.5%, but inflation-adjusted spending was flat and the saving rate was 3.8%. The second GDP estimate is due Nov. 25.",
+      "why": "Strong growth with rising inflation is the mix that has two Fed officials already pushing for a rate hike.",
+      "source": "Bureau of Economic Analysis",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "notes": "PCE: https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026 . Upcoming.json buzz/markets release matured.",
+      "tags": [
+        "gdp",
+        "pce",
+        "inflation",
+        "bea"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-judge-bars-race-based-immigration-stops-socal",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "judicial": true,
+      "court": "U.S. District Court for the Central District of California",
+      "branch": [
+        "judicial"
+      ],
+      "thread": "deportations-courts",
+      "impact": 3,
+      "time": "2026-10-29T10:00:00-04:00",
+      "time_known": false,
+      "text": "Immigration agents in Southern California may not stop people just for looking Latino or working-class, a federal judge ruled in an order made public Thursday.",
+      "detail": "U.S. District Judge Maame Ewusi-Mensah Frimpong's preliminary injunction, issued last week, requires individualized reasonable suspicion before an immigration stop. She cited \"a mountain of evidence,\" including body-camera footage and agents' text messages using slurs for Latinos. The order covers Los Angeles, Orange, Riverside, San Bernardino, Ventura, Santa Barbara and San Luis Obispo counties and exempts ports of entry and checkpoints. The Supreme Court stayed her earlier, broader order last year; she said the new request rests on different evidence and legal theories, and noted the ruling is not a final finding of an unlawful policy. The administration filed a notice of appeal to the 9th Circuit on Wednesday. DHS has denied racial profiling.",
+      "why": "It limits how immigration sweeps can be carried out across the nation's most populous metro region while the case continues.",
+      "source": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-10-29/federal-judge-blocks-racial-profiling-stops",
+      "notes": "ACLU SoCal release and CourtListener docket (Vasquez Perdomo) confirm; AP/Reuters copy not found within caps.",
+      "tags": [
+        "immigration",
+        "ice",
+        "courts",
+        "california"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-dol-finalizes-pbm-disclosure-rule",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 3,
+      "time": "2026-10-29T12:00:00-04:00",
+      "time_known": false,
+      "text": "Pharmacy benefit managers must disclose rebates, fees and spread-pricing profits to large employer health plans under a final Labor Department rule issued Thursday.",
+      "detail": "The rule covers PBMs, and brokers and consultants affiliated with them, that serve self-insured plans generally with 100 or more participants or employees. They must disclose direct and indirect pay, including drugmaker rebates and fees, spread compensation, pharmacy clawbacks, price-protection payments and formulary-placement incentives, before a contract is signed or renewed and then every six months (quarterly on request). Plans may audit the disclosures at least once a year. It applies to plan years starting on or after July 1, 2027. The department projects about $22 billion in lower drug costs for employers and workers over 10 years, Healthcare Dive reported.",
+      "why": "Employers that cover most working Americans will be able to see what their drug middlemen actually earn.",
+      "source": "U.S. Department of Labor",
+      "url": "https://beta.dol.gov/policy-regulations/pay-benefits/health-plans/improving-transparency-pharmacy-benefit-manager-fee-disclosure",
+      "tags": [
+        "pbm",
+        "drug-prices",
+        "erisa",
+        "labor-department"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-doj-operation-ghostbusters-student-aid-fraud",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 3,
+      "time": "2026-10-29T11:00:00-04:00",
+      "time_known": true,
+      "text": "A Justice Department crackdown on \"ghost student\" fraud, which used stolen identities to collect federal student aid, has charged five people and seized $750,000 in crypto.",
+      "detail": "Announced Thursday in Alexandria, Va., Operation Ghostbusters targets rings that filed fake FAFSA applications in the names of Americans whose identities were stolen, enrolled the \"ghost students\" and routed aid refunds through U.S. money mules to accounts tied to Kenyan nationals. Charges so far include three people arrested on a New Jersey complaint (about $1.5 million intended loss), a Kenyan national indicted Oct. 21 in Virginia (about $1.4 million) and a case in Nebraska. DOJ called the cryptocurrency seizure the first international seizure of its kind in Kenya. USA Today reported more than 40 open cases across 26 FBI field offices.",
+      "why": "The scheme drained aid meant for low-income students and stole the identities of Americans who never applied to college.",
+      "source": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan",
+      "tags": [
+        "doj",
+        "fraud",
+        "student-aid"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-fired-general-sylvia-doj-leak-referral",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 3,
+      "time": "2026-10-29T10:00:00-04:00",
+      "time_known": false,
+      "text": "Lt. Gen. Brett Sylvia, the Joint Staff's top planner fired by Defense Secretary Pete Hegseth, faces a Justice Department referral over alleged leaks, Pentagon officials say.",
+      "detail": "Hegseth removed Sylvia this week as director for strategy, plans and policy (J5), the second general ousted from that post under Hegseth, as President Trump weighs renewed strikes on Iran. Pentagon spokesman Sean Parnell said Thursday that after \"an extensive Air Force OSI investigation\" the department took personnel action and referred the matter to the Justice Department for \"potential further legal action,\" without naming Sylvia. A senior Pentagon official told ABC News and The Hill that Sylvia leaked classified information about the Iran and Ukraine wars to journalists and failed three polygraphs. The Joint Staff withdrew an initial statement thanking him for his service. Sylvia has not been charged, and no replacement has been named.",
+      "why": "The firing removes the officer who coordinates war plans for the Joint Chiefs during the Iran war.",
+      "source": "AP",
+      "url": "https://apnews.com/article/general-firing-hegseth-pentagon-leaks-346ce31afab5dfc2cacc5efac502bc6d",
+      "notes": "Firing first reported late Oct. 28 (AP 6726895f); new Oct. 29: DOJ referral. Leak/polygraph claims attributed to anonymous Pentagon official (ABC, The Hill).",
+      "tags": [
+        "pentagon",
+        "hegseth",
+        "leaks"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-amazon-intel-earnings",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-29T16:05:00-04:00",
+      "time_known": false,
+      "text": "Amazon's cloud sales grew 39%, the fastest in nearly five years, but AI spending turned its free cash flow into a $42 billion yearly outflow.",
+      "detail": "Third-quarter sales rose 12% to $201.9 billion and operating income reached $28.1 billion, a record 13.9% margin; Amazon Web Services revenue was $46.0 billion. Net income slipped to $20.7 billion ($1.89 a share) from $21.2 billion a year earlier, when it included gains on Amazon's Anthropic stake. Amazon still expects about $220 billion in capital spending this year and forecast fourth-quarter sales of $240 billion to $247 billion. Separately, Intel shares fell about 20% after hours when it forecast weaker fourth-quarter sales, citing a PC slowdown it expects to last at least through the first half of next year.",
+      "why": "The two reports show how heavily AI spending is weighing on tech giants' cash and stock prices.",
+      "source": "Amazon",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "notes": "Intel: CNBC https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html (Intel release quoted). Upcoming.json buzz items matured.",
+      "tags": [
+        "amazon",
+        "intel",
+        "earnings",
+        "ai"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-patrick-stewart-dies",
+      "section": "news",
+      "topic": "pulse",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-29T12:00:00-04:00",
+      "time_known": false,
+      "text": "Patrick Stewart, the stage actor who played Captain Jean-Luc Picard on \"Star Trek: The Next Generation\" and Professor X in \"X-Men,\" has died at 86.",
+      "detail": "He died Wednesday at home in Los Angeles after \"a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia,\" spokesperson Kelly Bush Novak said, with his wife, Sunny Ozell, at his side. A veteran of more than 60 Royal Shakespeare Company productions, he won three Olivier Awards, was knighted in 2010 and reprised Professor X in \"Avengers: Doomsday,\" due in December.",
+      "why": "He was one of the best-known actors of his generation on stage and screen.",
+      "source": "AP",
+      "url": "https://apnews.com/article/patrick-stewart-dies-8b38054ff74d4187a32158d78e345ad7",
+      "notes": "Details per CBS News; death announced Oct. 29. Trending hard on X but entertainment: no bump.",
+      "tags": [
+        "obituary",
+        "entertainment"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-ecb-holds-rates",
+      "section": "money",
+      "money_beat": "rates",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-29T09:15:00-04:00",
+      "time_known": true,
+      "text": "The European Central Bank held its deposit rate at 2.5% Thursday, pausing after a September hike even as energy costs push euro-zone inflation higher.",
+      "detail": "The main refinancing and marginal lending rates stay at 2.65% and 2.90%. The ECB said rising energy prices pose upside risks to inflation and downside risks to growth, while underlying inflation and wages have stayed broadly stable; it will decide meeting by meeting and is not pre-committing to a path. Euro-zone inflation is 3.8%, and after the decision markets priced about a 67% chance of a December hike, CNBC reported.",
+      "why": "Europe's central bank is weighing more hikes as the energy shock from the Iran war spreads.",
+      "source": "European Central Bank",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "tags": [
+        "ecb",
+        "interest-rates"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-dnipro-train-station-drone-strike",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 2,
+      "time": "2026-10-29T04:00:00-04:00",
+      "time_known": false,
+      "text": "A Russian drone hit a crowded platform at the main train station in Dnipro, Ukraine, on Thursday, killing at least 13 people, the United Nations said.",
+      "detail": "The jet-powered drone struck as a commuter train was preparing to leave for Zaporizhzhia. Ukrainian officials later put the death toll at 14, with about 14 injured, including an 11-year-old boy, BBC and DW reported.",
+      "why": "It is one of the deadliest single strikes on a Ukrainian civilian site this fall.",
+      "source": "UN News",
+      "url": "https://news.un.org/en/story/2026/10/1168702",
+      "notes": "Routine Russia-Ukraine strike: never lead (owner rule).",
+      "tags": [
+        "ukraine",
+        "russia"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-hhs-peptides-compounding-enforcement-discretion",
+      "section": "health",
+      "health_beat": "drugs",
+      "topic": "health",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "impact": 3,
+      "time": "2026-10-28T12:00:00-04:00",
+      "time_known": false,
+      "text": "Six unapproved peptides, including BPC-157 and TB-500, can now be made by compounding pharmacies without federal enforcement under a temporary HHS policy.",
+      "detail": "The six are BPC-157, epitalon, KPV, MOTS-c, semax and TB-500, promoted online for healing, skin and longevity. The notice, filed Wednesday and set for Federal Register publication Oct. 30, is not FDA approval: compounders need patient-specific prescriptions, FDA-registered suppliers and certificates of analysis, and must now report side effects. It applies while FDA works on a rule to add the peptides to the list of ingredients compounders may use; an FDA advisory panel narrowly backed that in July, though agency scientists found too little data on safety and effectiveness. HHS says the move steers people away from the gray market; consumer-safety groups called it dangerous.",
+      "why": "Popular wellness peptides move from gray-market sales into pharmacies without proof they are safe or work.",
+      "source": "Federal Register (HHS)",
+      "url": "https://www.federalregister.gov/public-inspection/2026-22192/enforcement-discretion-policy-regarding-503a-compounding-using-certain-peptide-bulk-drug-substances",
+      "notes": "Details per NBC News (Oct. 28). Not in either Oct. 29 edition; site-only.",
+      "tags": [
+        "fda",
+        "hhs",
+        "compounding",
+        "peptides"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-28-robotics-machinery-section-232-talks",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "trade",
+      "region": "US",
+      "branch": [
+        "executive"
+      ],
+      "thread": "trade-tariffs",
+      "impact": 2,
+      "time": "2026-10-28T17:00:00-04:00",
+      "time_known": false,
+      "text": "Imported robots and industrial machinery threaten national security, President Trump found Wednesday under Section 232, but he ordered trade talks rather than tariffs for now.",
+      "detail": "The proclamation directs the Commerce secretary and U.S. trade representative to negotiate agreements with trading partners, and has Commerce flag any need for further action; the president may still adjust imports. The White House said the U.S. makes less robotics and industrial equipment than it uses. Section 232 tariffs already cover steel, aluminum, copper, autos, trucks, lumber, semiconductors, pharmaceuticals, polysilicon and drones.",
+      "why": "It opens the door to tariffs on equipment that nearly every U.S. factory buys.",
+      "source": "The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+      "notes": "Verified against White House fact sheet. Site-only (Oct. 28).",
+      "tags": [
+        "tariffs",
+        "section-232",
+        "manufacturing"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
+    {
+      "id": "2026-10-29-dream-force-wnba-finals-game-7",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-29T15:30:00-04:00",
+      "time_known": false,
+      "text": "The Atlanta Dream beat the Golden State Valkyries 80-69 Thursday in Atlanta to tie the WNBA Finals 3-3 and force a deciding Game 7.",
+      "detail": "Allisha Gray scored 23 points, making 5 of 7 3-pointers, and Rhyne Howard added 21; Angel Reese had 15 points and 14 rebounds. Gabby Williams led Golden State with 26. Atlanta led 46-26 at halftime. Game 7 is Saturday at Chase Center in San Francisco, with both teams seeking a first title.",
+      "why": "The title will be decided in one game Saturday.",
+      "source": "AP",
+      "url": "https://apnews.com/article/valkyries-dream-score-wnba-finals-a0fa402df0aa5f91b59c2dde371709c6",
+      "notes": "Box details per CBS Atlanta. WNBA rule: impact 2, Sports tab only.",
+      "tags": [
+        "wnba"
+      ],
+      "added_at": "2026-10-29T16:55:00-04:00"
+    },
     {
       "id": "2026-10-29-brewers-win-world-series",
       "section": "sports",

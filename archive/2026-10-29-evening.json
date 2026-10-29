@@ -1,0 +1,178 @@
+{
+ "date": "2026-10-29",
+ "edition": "evening",
+ "subject": "Thursday, Oct 29 - Evening edition",
+ "published": "2026-10-29T17:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-29-judge-strikes-medicaid-medically-frail-definition",
+   "section": "health",
+   "text": "A Trump administration rule narrowing who counts as \"medically frail\" under new Medicaid work requirements was struck down by a federal judge in Boston on Thursday.",
+   "detail": "U.S. District Judge Richard Stearns sided with 25 states and the District of Columbia, ruling that CMS unlawfully limited the exemption to people whose physical, mental or behavioral health condition \"significantly impairs\" their ability to meet the work requirement. He vacated that language and permanently barred its enforcement; California's attorney general said the order also gives the states a six-month stay of enforcement to absorb errors or delays from the changes. Stearns upheld other challenged parts of the rule, including a one-year look-back for diagnoses and one self-attestation per enrollment period. Under the 2025 law, most adults 19 to 64 must log 80 hours a month of work, community service or schooling to keep Medicaid starting Jan. 1, 2027.",
+   "why": "The exemption decides which seriously ill enrollees must prove they work to keep their health coverage.",
+   "impact": 3,
+   "topic": "health",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the District of Massachusetts",
+   "region": "US",
+   "time": "2026-10-29T13:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-medicaid-chronically-ill-work-requirements-656719bd7c8358d9d5290cf54f81255b"
+  },
+  {
+   "id": "2026-10-29-q3-gdp-september-pce",
+   "section": "money",
+   "text": "The U.S. economy grew at a 3.4% annual rate in the third quarter, up from 2.2% in the spring, while September inflation rose to 3.6%.",
+   "detail": "The Bureau of Economic Analysis's advance estimate credited investment (led by business inventories and computer equipment), consumer spending and government spending, partly offset by lower exports. Sales to private domestic buyers rose at a 4.9% rate. In a separate report, the PCE price index, the Federal Reserve's preferred inflation gauge, rose 0.5% in September and 3.6% from a year earlier; excluding food and energy, prices rose 0.3% on the month and 3.1% on the year. Personal income rose 0.2% and spending 0.5%, but inflation-adjusted spending was flat and the saving rate was 3.8%. The second GDP estimate is due Nov. 25.",
+   "why": "Strong growth with rising inflation is the mix that has two Fed officials already pushing for a rate hike.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-29T08:30:00-04:00",
+   "time_known": true,
+   "source": "Bureau of Economic Analysis",
+   "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+  },
+  {
+   "id": "2026-10-29-amazon-intel-earnings",
+   "section": "money",
+   "text": "Amazon's cloud sales grew 39%, the fastest in nearly five years, but AI spending turned its free cash flow into a $42 billion yearly outflow.",
+   "detail": "Third-quarter sales rose 12% to $201.9 billion and operating income reached $28.1 billion, a record 13.9% margin; Amazon Web Services revenue was $46.0 billion. Net income slipped to $20.7 billion ($1.89 a share) from $21.2 billion a year earlier, when it included gains on Amazon's Anthropic stake. Amazon still expects about $220 billion in capital spending this year and forecast fourth-quarter sales of $240 billion to $247 billion. Separately, Intel shares fell about 20% after hours when it forecast weaker fourth-quarter sales, citing a PC slowdown it expects to last at least through the first half of next year.",
+   "why": "The two reports show how heavily AI spending is weighing on tech giants' cash and stock prices.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-29T16:05:00-04:00",
+   "time_known": false,
+   "source": "Amazon",
+   "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+  },
+  {
+   "id": "2026-10-29-dol-finalizes-pbm-disclosure-rule",
+   "section": "health",
+   "text": "Pharmacy benefit managers must disclose rebates, fees and spread-pricing profits to large employer health plans under a final Labor Department rule issued Thursday.",
+   "detail": "The rule covers PBMs, and brokers and consultants affiliated with them, that serve self-insured plans generally with 100 or more participants or employees. They must disclose direct and indirect pay, including drugmaker rebates and fees, spread compensation, pharmacy clawbacks, price-protection payments and formulary-placement incentives, before a contract is signed or renewed and then every six months (quarterly on request). Plans may audit the disclosures at least once a year. It applies to plan years starting on or after July 1, 2027. The department projects about $22 billion in lower drug costs for employers and workers over 10 years, Healthcare Dive reported.",
+   "why": "Employers that cover most working Americans will be able to see what their drug middlemen actually earn.",
+   "impact": 3,
+   "topic": "health",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Department of Labor",
+   "url": "https://beta.dol.gov/policy-regulations/pay-benefits/health-plans/improving-transparency-pharmacy-benefit-manager-fee-disclosure"
+  },
+  {
+   "id": "2026-10-29-patrick-stewart-dies",
+   "section": "news",
+   "text": "Patrick Stewart, the stage actor who played Captain Jean-Luc Picard on \"Star Trek: The Next Generation\" and Professor X in \"X-Men,\" has died at 86.",
+   "detail": "He died Wednesday at home in Los Angeles after \"a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia,\" spokesperson Kelly Bush Novak said, with his wife, Sunny Ozell, at his side. A veteran of more than 60 Royal Shakespeare Company productions, he won three Olivier Awards, was knighted in 2010 and reprised Professor X in \"Avengers: Doomsday,\" due in December.",
+   "why": "He was one of the best-known actors of his generation on stage and screen.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/patrick-stewart-dies-8b38054ff74d4187a32158d78e345ad7"
+  },
+  {
+   "id": "2026-10-29-doj-operation-ghostbusters-student-aid-fraud",
+   "section": "news",
+   "text": "A Justice Department crackdown on \"ghost student\" fraud, which used stolen identities to collect federal student aid, has charged five people and seized $750,000 in crypto.",
+   "detail": "Announced Thursday in Alexandria, Va., Operation Ghostbusters targets rings that filed fake FAFSA applications in the names of Americans whose identities were stolen, enrolled the \"ghost students\" and routed aid refunds through U.S. money mules to accounts tied to Kenyan nationals. Charges so far include three people arrested on a New Jersey complaint (about $1.5 million intended loss), a Kenyan national indicted Oct. 21 in Virginia (about $1.4 million) and a case in Nebraska. DOJ called the cryptocurrency seizure the first international seizure of its kind in Kenya. USA Today reported more than 40 open cases across 26 FBI field offices.",
+   "why": "The scheme drained aid meant for low-income students and stole the identities of Americans who never applied to college.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-29T11:00:00-04:00",
+   "time_known": true,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan"
+  },
+  {
+   "id": "2026-10-29-judge-bars-race-based-immigration-stops-socal",
+   "section": "news",
+   "text": "Immigration agents in Southern California may not stop people just for looking Latino or working-class, a federal judge ruled in an order made public Thursday.",
+   "detail": "U.S. District Judge Maame Ewusi-Mensah Frimpong's preliminary injunction, issued last week, requires individualized reasonable suspicion before an immigration stop. She cited \"a mountain of evidence,\" including body-camera footage and agents' text messages using slurs for Latinos. The order covers Los Angeles, Orange, Riverside, San Bernardino, Ventura, Santa Barbara and San Luis Obispo counties and exempts ports of entry and checkpoints. The Supreme Court stayed her earlier, broader order last year; she said the new request rests on different evidence and legal theories, and noted the ruling is not a final finding of an unlawful policy. The administration filed a notice of appeal to the 9th Circuit on Wednesday. DHS has denied racial profiling.",
+   "why": "It limits how immigration sweeps can be carried out across the nation's most populous metro region while the case continues.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the Central District of California",
+   "region": "US",
+   "time": "2026-10-29T10:00:00-04:00",
+   "time_known": false,
+   "source": "Los Angeles Times",
+   "url": "https://www.latimes.com/california/story/2026-10-29/federal-judge-blocks-racial-profiling-stops"
+  },
+  {
+   "id": "2026-10-29-fired-general-sylvia-doj-leak-referral",
+   "section": "news",
+   "text": "Lt. Gen. Brett Sylvia, the Joint Staff's top planner fired by Defense Secretary Pete Hegseth, faces a Justice Department referral over alleged leaks, Pentagon officials say.",
+   "detail": "Hegseth removed Sylvia this week as director for strategy, plans and policy (J5), the second general ousted from that post under Hegseth, as President Trump weighs renewed strikes on Iran. Pentagon spokesman Sean Parnell said Thursday that after \"an extensive Air Force OSI investigation\" the department took personnel action and referred the matter to the Justice Department for \"potential further legal action,\" without naming Sylvia. A senior Pentagon official told ABC News and The Hill that Sylvia leaked classified information about the Iran and Ukraine wars to journalists and failed three polygraphs. The Joint Staff withdrew an initial statement thanking him for his service. Sylvia has not been charged, and no replacement has been named.",
+   "why": "The firing removes the officer who coordinates war plans for the Joint Chiefs during the Iran war.",
+   "impact": 3,
+   "topic": "security",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-29T10:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/general-firing-hegseth-pentagon-leaks-346ce31afab5dfc2cacc5efac502bc6d"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-10-29",
+   "when": "8:30 a.m. ET",
+   "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "when": "9:15 a.m. ET",
+   "text": "European Central Bank interest rate decision; Lagarde press conference follows.",
+   "detail": "Meeting Oct. 28–29 per the ECB calendar; decision at 2:15 p.m. Frankfurt time. The deposit rate is 2.50% after a September hike.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "when": "After the close",
+   "text": "Amazon reports third-quarter results; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2 p.m. Pacific) per Amazon's investor relations announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

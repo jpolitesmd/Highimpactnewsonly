@@ -1,146 +1,6 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "events": [
-    {
-      "date": "2026-10-27",
-      "when": "10:00 a.m. ET",
-      "text": "September new-home sales (Census New Residential Sales), 10:00 a.m. ET.",
-      "detail": "Census release schedule; August sales ran at a 684,000 annual pace.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "10:30 a.m. ET",
-      "text": "Boeing reports third-quarter results; call 10:30 a.m. ET.",
-      "detail": "Date and call time per Boeing's Sept. 30 investor relations release; CEO Kelly Ortberg and CFO Jay Malave will discuss results and outlook.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "8:30 a.m. ET",
-      "text": "September durable goods orders (Census advance report), 8:30 a.m. ET.",
-      "detail": "Date and time per the Census M3 release schedule; the fuller factory-orders report follows Nov. 3.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "Before the open",
-      "text": "Coca-Cola reports third-quarter results before the NYSE opens; call 8:30 a.m. ET.",
-      "detail": "Timing per Coca-Cola's Sept. 29 announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "After the close",
-      "text": "Visa reports fiscal fourth-quarter and full-year results after the close; webcast 5:00 p.m. ET.",
-      "detail": "Date and webcast time (2 p.m. Pacific) per Visa's Oct. 8 Business Wire announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "10:00 a.m. ET",
-      "text": "October Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
-      "detail": "Release date per the Conference Board. The index fell 6.7 points to 81.9 in September; the Expectations Index fell for a third straight month.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "All day",
-      "text": "Israel holds a national election.",
-      "detail": "Per AP, Israel's election is Tuesday, Oct. 27, amid threats of renewed fighting with Iran.",
-      "buzz": true,
-      "tags": [
-        "world"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "Time TBA",
-      "text": "Federal court hearing in Los Angeles on the Justice Department's bid to block about 20,000 California ballots.",
-      "detail": "The district court hearing is set for Tuesday; a 9th Circuit panel heard DOJ's emergency appeal Sunday and has not ruled.",
-      "buzz": true,
-      "tags": [
-        "elections"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "when": "8:00 p.m. ET",
-      "text": "World Series Game 4: Brewers at Rays, 8:00 p.m. ET on FOX; Milwaukee can clinch its first title.",
-      "detail": "Per MLB.com, Milwaukee leads the series 3-0 after a 10-1 win in Game 3 on Oct. 26. Game 5, if necessary, is Oct. 28 in St. Petersburg; Games 6 and 7, if necessary, are Oct. 30–31 in Milwaukee.",
-      "buzz": true,
-      "tags": [
-        "sports"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "when": "2:00 p.m. ET",
-      "text": "Federal Reserve interest rate decision (meeting Oct. 27–28).",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "when": "After the close",
-      "text": "Alphabet reports third-quarter results; earnings call 4:30 p.m. ET.",
-      "detail": "Date and call time per Alphabet’s Q3 2026 results conference-call notice.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "when": "After the close",
-      "text": "Microsoft reports fiscal first-quarter results after the close; call 5:30 p.m. ET.",
-      "detail": "Date and webcast time per Microsoft’s Oct. 7 announcement (2:30 p.m. Pacific).",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "when": "9:45 a.m. ET",
-      "text": "Bank of Canada interest rate decision and Monetary Policy Report, 9:45 a.m. ET.",
-      "detail": "Per the Bank of Canada's 2026 schedule. The overnight rate target has been 2.25% since late 2025; Governor Tiff Macklem said Oct. 17 the bank expects to raise its inflation forecast, and the Globe and Mail reported Oct. 19 that money markets price about a 75% chance of a quarter-point hike.",
-      "buzz": true,
-      "tags": [
-        "markets",
-        "canada"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "when": "8:00 p.m. ET",
-      "text": "World Series Game 5 (if necessary): Brewers at Rays in St. Petersburg.",
-      "detail": "Played only if Tampa Bay wins Game 4 on Oct. 27; schedule per MLB.",
-      "buzz": true,
-      "tags": [
-        "sports"
-      ]
-    },
     {
       "date": "2026-10-29",
       "when": "8:30 a.m. ET",
@@ -262,6 +122,26 @@
       ]
     },
     {
+      "date": "2026-10-30",
+      "when": "8:00 p.m. ET",
+      "text": "World Series Game 6 (if necessary): Rays at Brewers in Milwaukee.",
+      "detail": "Milwaukee leads 3-1 after Tampa Bay won Game 4 4-3 in 12 innings on Oct. 27 (AP); played only if the Rays also win Game 5 on Oct. 28. Schedule per MLB.",
+      "buzz": true,
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "when": "8:00 p.m. ET",
+      "text": "World Series Game 7 (if necessary): Rays at Brewers in Milwaukee.",
+      "detail": "Played only if the series is tied 3-3; schedule per MLB.",
+      "buzz": true,
+      "tags": [
+        "sports"
+      ]
+    },
+    {
       "date": "2026-11-02",
       "when": "After the close",
       "text": "Apple reports fiscal fourth-quarter results; call 5:00 p.m. ET.",
@@ -330,6 +210,16 @@
       "when": "After the close",
       "text": "Qualcomm reports fiscal fourth-quarter and full-year results after the close; call 4:45 p.m. ET.",
       "detail": "Date and call time (1:45 p.m. Pacific) per Qualcomm's Oct. 22 PR Newswire release.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "when": "7:00 a.m. ET",
+      "text": "Bank of England interest rate decision, minutes, and November Monetary Policy Report (noon London time).",
+      "detail": "Per the Bank of England's 2026 MPC calendar. Bank Rate is 3.75%; in September the committee voted 6-3 to hold, with three members favoring a quarter-point increase.",
       "buzz": true,
       "tags": [
         "markets"

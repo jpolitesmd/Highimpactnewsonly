@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-29-morning",
+   "date": "2026-10-29",
+   "edition": "morning",
+   "count": 8,
+   "lead": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays 4-1 in Game 5 Wednesday night."
+  },
+  {
    "key": "2026-10-28-evening",
    "date": "2026-10-28",
    "edition": "evening",
@@ -421,5 +428,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-28T16:43:37-04:00"
+ "updated": "2026-10-29T05:35:40-04:00"
 }

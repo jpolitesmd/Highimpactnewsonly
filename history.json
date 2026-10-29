@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "events": [
     {
       "date": "2026-01-03",
@@ -274,6 +274,13 @@
       "topic": "ballot",
       "text": "Brazil's Luiz Inácio Lula da Silva won a fourth presidential term, defeating Flávio Bolsonaro 51.8% to 48.2% in a runoff that Bolsonaro refused to concede.",
       "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
+    },
+    {
+      "date": "2026-10-28",
+      "impact": 4,
+      "topic": "sports",
+      "text": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays four games to one.",
+      "url": "https://apnews.com/article/brewers-rays-world-series-game-5-971f9fb8cad75042fc7f9919dd91c159"
     }
   ]
 }

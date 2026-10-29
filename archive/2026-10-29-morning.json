@@ -1,0 +1,252 @@
+{
+ "date": "2026-10-29",
+ "edition": "morning",
+ "subject": "Thursday, Oct 29 - Morning edition",
+ "published": "2026-10-29T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-29-brewers-win-world-series",
+   "section": "sports",
+   "text": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays 4-1 in Game 5 Wednesday night.",
+   "detail": "Milwaukee took the Series four games to one at Tropicana Field in St. Petersburg, Fla. Jacob Misiorowski threw 5 2/3 scoreless innings and rookie Cooper Pratt had two hits and two RBIs. Catcher William Contreras was named Series MVP after hitting .381 (8-for-21) with four RBIs; his sixth-inning RBI double scored Christian Yelich for a 3-0 lead. He threw out four would-be base stealers and won 10 of 13 challenges in the first World Series with automated ball-strike reviews. The Rays became the third team to lose their first three World Series.",
+   "why": "It is Milwaukee's first championship in baseball's smallest market.",
+   "impact": 4,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-28T23:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/brewers-rays-world-series-game-5-971f9fb8cad75042fc7f9919dd91c159"
+  },
+  {
+   "id": "2026-10-29-judge-rejects-california-ballot-segregation",
+   "section": "news",
+   "text": "The Trump administration's bid to make California set aside ballots from up to 20,000 suspected noncitizens was rejected by a federal judge Wednesday.",
+   "detail": "U.S. District Judge David O. Carter wrote that holding the ballots \"would wreak havoc and disrupt the election that is already underway\" and risk disenfranchising citizens, likening it to a voter purge barred within 90 days of an election. More than 3.7 million Californians have already voted. The Justice Department, which sued in mid-October saying counties missed a 48-hour deadline to review its list, appealed Wednesday evening. DOJ made a similar request in Washington state this week.",
+   "why": "Ballots already cast in California will be processed normally while the appeal goes forward.",
+   "impact": 3,
+   "topic": "court",
+   "branch": "judicial",
+   "judicial": true,
+   "court": "U.S. District Court for the Central District of California",
+   "region": "US",
+   "time": "2026-10-28T19:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/california-noncitizen-voting-trump-midterm-lawsuit-481bed64919ad193e80e051d28beb2c0"
+  },
+  {
+   "id": "2026-10-29-north-korea-fires-missiles",
+   "section": "news",
+   "text": "North Korea fired about a dozen short-range ballistic missiles toward the sea off its east coast Thursday, South Korea's military said.",
+   "detail": "The Joint Chiefs of Staff said the missiles were launched from the Wonsan area around 12:30 p.m. local time and flew about 250 kilometers, with analysis under way with the United States. The launch came after Seoul offered talks to ease border tensions over a recent land mine blast. It follows another launch on Oct. 12.",
+   "why": "It is North Korea's second missile barrage this month.",
+   "impact": 2,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-10-28T23:30:00-04:00",
+   "time_known": true,
+   "source": "Yonhap",
+   "url": "https://en.yna.co.kr/view/AEN20261029012400315"
+  },
+  {
+   "id": "2026-10-28-fed-holds-rates-two-dissents",
+   "section": "money",
+   "text": "The Federal Reserve held its key interest rate at 3.75% to 4% Wednesday, but two officials voted to raise it, saying inflation is still too high.",
+   "detail": "The vote was 10-2: Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted a quarter-point increase. The statement says the economy is \"expanding at a strong pace,\" job gains have kept pace with the workforce, inflation \"remains elevated,\" and \"the Committee will deliver price stability.\" At his news conference, Chair Kevin Warsh said energy prices have moved higher again and the Fed will fit its next move to incoming data. He also said the Fed will hold fewer rate-setting meetings: in 2027 one of its eight meetings will be devoted only to long-run strategy, and in 2028 two will be, leaving six for rate decisions. Separately, the Bank of Canada raised its policy rate a quarter point to 2.50% Wednesday, its first increase since July 2023, citing higher, more persistent inflation and energy costs, and said more hikes may be needed.",
+   "why": "The Fed's rate drives what Americans pay on credit cards, car loans and many business loans, and two votes for a hike signal pressure to tighten further.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-28T14:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "id": "2026-10-28-alphabet-microsoft-earnings",
+   "section": "money",
+   "text": "Alphabet shares fell about 7% after hours as AI spending turned its free cash flow sharply negative, while Microsoft rose about 6% on faster cloud growth.",
+   "detail": "Alphabet's third-quarter revenue rose 25% to $127.58 billion, its fastest growth since 2021, and Google Cloud revenue more than doubled to $30.7 billion. But net income fell to $26.17 billion ($2.12 a share) from $34.98 billion, hurt by an $8.66 billion loss on equity holdings, and free cash flow was negative $9.07 billion; capital spending was $51.36 billion. Search revenue rose 12% to $63.35 billion, below estimates. Microsoft said revenue at its Azure cloud business grew 48% to $33.17 billion in the quarter ended September, above estimates. Reuters noted investor worry over Big Tech's debt-funded AI buildout, expected to top $700 billion this year.",
+   "why": "The two companies are among the largest in the stock market, and their AI spending is a key test for the broader market and retirement accounts.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-28T16:05:00-04:00",
+   "time_known": false,
+   "source": "Alphabet; Reuters",
+   "url": "https://abc.xyz/investor/"
+  },
+  {
+   "id": "2026-10-29-vance-letter-iran-rezaei",
+   "section": "news",
+   "text": "Vice President JD Vance wrote to Iran's top security official seeking to restart talks, saying any negotiations \"require discussions on the nuclear issue,\" a U.S. official said.",
+   "detail": "The letter to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, was first reported by The Wall Street Journal; Axios, citing a U.S. official, called it the most senior U.S. outreach to Iran in several months. It comes as President Trump weighs resuming major combat operations after the midterms. Trump told reporters the letter was \"basically\" about getting medical supplies to people who are not well. Iran wants the U.S. naval blockade lifted and frozen funds released first; the U.S. wants nuclear talks before sanctions relief.",
+   "why": "It is the highest-level U.S. attempt in months to head off renewed war with Iran.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-28T16:00:00-04:00",
+   "time_known": false,
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/10/28/vance-iran-nuclear-talks-letter"
+  },
+  {
+   "id": "2026-10-28-spain-high-speed-train-crash-68-dead",
+   "section": "news",
+   "text": "A high-speed train crash in central Spain killed at least 68 people Wednesday when one train slammed into another stopped on the Madrid-Seville line.",
+   "detail": "A Renfe train hit the rear of an Iryo train halted at a red signal near Urda, in Toledo province, just before 9 a.m. local time; the two trains carried about 544 people. The Castilla-La Mancha regional government said 58 people were being treated in hospitals. Transport Minister Óscar Puente said a computer communications failure had stopped traffic and that an \"inexplicable\" decision to let the Renfe train proceed caused the crash. Prime Minister Pedro Sánchez declared three days of mourning, and most parties paused campaigning for Spain's general election. It is Spain's deadliest rail crash since 2013 and the second high-speed collision on the line this year, after a January crash that killed 46. Toll as of Wednesday afternoon ET; it may rise.",
+   "why": "It is one of Europe's worst rail disasters in years and raises safety questions about one of the world's largest high-speed networks.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "World",
+   "time": "2026-10-28T14:50:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/train-accident-spain-4f65471a0e36f448d7ee9efe0768cd77"
+  },
+  {
+   "id": "2026-10-28-dolores-huerta-dies",
+   "section": "news",
+   "text": "Dolores Huerta, who co-founded the United Farm Workers and coined the rallying cry \"Sí, se puede,\" died Wednesday at 96.",
+   "detail": "A family spokesperson told AP she died of cancer at her home in Bakersfield, Calif., surrounded by family. Huerta co-founded the farmworkers' union with César Chávez in the 1960s, helped lead the national grape boycott and negotiated its first contracts, and spent decades organizing for labor, civil and women's rights. She received the Presidential Medal of Freedom in 2012. Earlier this year she said Chávez had sexually abused her in the 1960s. Gov. Gavin Newsom ordered flags at California's Capitol lowered in her honor.",
+   "why": "She was one of the best-known labor and civil rights leaders of the past 60 years.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-28T14:50:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/dolores-huerta-dies-255fd49a5346475dbace4a74994b2c62"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 3
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-28-drc-ebola-cases-top-10000",
+   "section": "health",
+   "text": "Congo's Ebola outbreak has passed 10,000 cases, with nearly 5,000 deaths, the World Health Organization said, making it the second-largest Ebola outbreak ever recorded.",
+   "detail": "Congo's Health Ministry counted 10,141 cases as of Monday. The outbreak, caused by the Bundibugyo virus, for which there is no approved vaccine or treatment, has spread to eight provinces; it is the largest of Congo's 17 Ebola outbreaks and second only to West Africa's 2014-2016 epidemic. More than 2,600 people have recovered, and a ring-vaccination trial of the Ervebo vaccine has begun in Bunia. Kenya's count stays at nine cases and two deaths, all linked to its first imported case; 20 contacts have been released from quarantine. The U.N. allotted more than $2 million for Kenya's response. A CDC order announced Tuesday requires air travelers entering the U.S. to attest they have not been in Congo in the past 21 days.",
+   "why": "The outbreak is still growing and has already spread across borders, prompting U.S. travel screening.",
+   "impact": 3,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-10-28T09:00:00-04:00",
+   "time_known": false,
+   "source": "UN News (WHO)",
+   "url": "https://news.un.org/en/story/2026/10/1168689"
+  },
+  {
+   "id": "2026-10-28-rays-force-world-series-game-5",
+   "section": "sports",
+   "text": "The Tampa Bay Rays avoided a World Series sweep, rallying for two runs in the 12th inning to beat the Milwaukee Brewers 4-3 and force Game 5.",
+   "detail": "Milwaukee led the series 3-0 and went ahead 3-2 on rookie Cooper Pratt's home run in the top of the 12th. In the bottom half, a throwing error by third baseman Joey Ortiz put the leadoff man on, Jonny DeLuca's single tied it, and pinch-hitter Ben Williamson's bases-loaded chopper won it. The Rays are the fifth team down 3-0 in a World Series to win Game 4; the previous four lost Game 5. Game 5 is Wednesday at 8 p.m. ET at Tropicana Field.",
+   "why": "The Brewers were one inning from their first title; the series goes on.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-28T00:20:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/world-series-brewers-rays-score-game-4-8b8b1c9dba76a30e74ddaca2a929847b"
+  },
+  {
+   "id": "2026-10-28-google-gemini-4-carbon",
+   "section": "tech",
+   "text": "Google's new top AI model, Gemini 4 Carbon, is going first only to vetted cyber defenders because of its skill at finding and exploiting software flaws.",
+   "detail": "Google says Carbon leads benchmarks for finding vulnerabilities, validating exploits and writing patches, and ranks first on the Artificial Analysis Intelligence Index; those claims are Google's own. Access starts through Google's Fairwind program for security teams, and Google says it is taking part in the U.S. government's voluntary pre-release model testing. It will open to developers, businesses and consumers later, at introductory pricing of $2 per million input tokens and $10 per million output tokens. CEO Sundar Pichai said on Alphabet's earnings call Wednesday that Carbon outperforms its predecessor, Argon, \"on almost every domain.\"",
+   "why": "AI that can find and exploit security holes could help defenders patch faster, or help attackers if it spreads, so the rollout is being gated.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-28T12:00:00-04:00",
+   "time_known": false,
+   "source": "Google",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-27-israel-election-exit-polls-no-majority",
+   "section": "news",
+   "text": "Israel's election produced no clear winner, exit polls show, with neither Netanyahu's bloc nor his opponents near the 61 seats needed to govern.",
+   "detail": "Polls closed at 10 p.m. Israel time (4 p.m. ET). Exit polls from Channels 11, 12 and 13 gave Netanyahu's bloc 50 of the Knesset's 120 seats and the Jewish-led opposition bloc 52 or 53. Netanyahu's Likud was projected as the largest party with 24 to 25 seats, ahead of Gadi Eisenkot's Yashar! at 21 to 23. Arab-led parties were projected to win a record 17 or 18 seats, up from 10. Pro-government Channel 14 and i24 News showed better numbers for Netanyahu's bloc (60 and 55). Turnout was unusually high. The Central Elections Committee is counting votes, and official results can differ from exit polls; President Isaac Herzog will decide who gets the first chance to form a government, a process that could take weeks.",
+   "why": "The vote decides who leads a key U.S. ally during the war with Iran, and a deadlock could mean weeks of uncertainty or another election.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-27T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2"
+  },
+  {
+   "id": "2026-10-27-cdc-ebola-congo-travel-attestation",
+   "section": "health",
+   "text": "A CDC order will require every air passenger flying into the U.S. to sign a statement that they have not been in Congo in the past 21 days.",
+   "detail": "The order, signed Oct. 22 and published in the Federal Register on Tuesday, applies to flights departing at or after 11:59 p.m. EST on Nov. 3 and runs through Dec. 18 unless changed. It covers every flight landing in the U.S., including connections; airlines must keep each signed statement for 42 days, and knowingly false statements can be prosecuted. Medical-evacuation flights and people CDC exempts on humanitarian grounds are excluded. CDC says Congo's Bundibugyo Ebola outbreak had reached 9,455 confirmed cases and 4,561 deaths as of Oct. 18; the order adds to the entry suspension already in place. Separately, a Swiss woman with Ebola diagnosed in Nigeria was flown to Geneva University Hospitals on Monday and is stable, Geneva health officials said.",
+   "why": "Starting Nov. 3, every international air traveler to the U.S. and every airline flying here must comply.",
+   "impact": 4,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-27T00:00:00-04:00",
+   "time_known": false,
+   "source": "CDC order, Federal Register",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21828/requirement-for-attestation-all-airline-or-other-aircraft-passengers-arriving-in-the-united-states-from-any-foreign-country-andd-controlled-free-pratique-for-airlines-confirming-that-such-passengers-have-not-been-in-the-democratic-republic-of-the-congo-in-the-past-21-days"
+  },
+  {
+   "id": "2026-10-26-anthropic-files-ipo",
+   "section": "tech",
+   "text": "Anthropic, the maker of the Claude AI models, filed publicly Monday to sell shares on the Nasdaq under the ticker \"ANT.\"",
+   "detail": "The S-1 filed with the SEC does not yet set a share count or price range; Goldman Sachs and Morgan Stanley are the lead banks. The filing shows revenue of $16.29 billion for the first half of 2026, up from $1.16 billion a year earlier, and a net loss of $80.7 billion, most of it a $72.4 billion non-cash charge on the value of convertible notes. Anthropic filed confidentially in June; AFP reported it plans to sell shares in mid-November, and AP said the offering could top SpaceX's record $86 billion IPO in June. Separately, Meta on Monday launched a $35 billion stock sale to fund AI spending ($22.5 billion of common stock through forward sales and $12.5 billion of mandatory convertible preferred shares) and plans up to about $60 billion more later.",
+   "why": "One of the leading AI companies is preparing what could be the largest stock market debut ever, as tech giants raise record sums to pay for AI.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-10-26T09:00:00-04:00",
+   "time_known": false,
+   "source": "Anthropic S-1 (SEC); AP",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-29",
+   "when": "8:30 a.m. ET",
+   "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "when": "9:15 a.m. ET",
+   "text": "European Central Bank interest rate decision; Lagarde press conference follows.",
+   "detail": "Meeting Oct. 28–29 per the ECB calendar; decision at 2:15 p.m. Frankfurt time. The deposit rate is 2.50% after a September hike.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "when": "After the close",
+   "text": "Amazon reports third-quarter results; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2 p.m. Pacific) per Amazon's investor relations announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "date": "2026-10-30",
+ "edition": "morning",
+ "subject": "Friday, Oct 30 - Morning edition",
+ "published": "2026-10-30T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-29-binance-hack-6-3-billion-north-korea",
+   "section": "finance",
+   "text": "Binance, the world's biggest crypto exchange, lost about $6.3 billion to hackers in the largest crypto theft ever; blockchain firms blame North Korea.",
+   "detail": "Most of the theft unfolded in about 20 minutes beginning late Thursday, Reuters reported. U.S. blockchain analysis firms TRM Labs and Chainalysis said they were highly confident North Korea was responsible; TRM tied it to TraderTraitor, the unit the FBI blamed for the $1.5 billion Bybit hack in 2025. There is no U.S. government attribution yet, and North Korea did not respond to Reuters. Binance halted withdrawals, said user funds are safe and that it will cover the losses, and expects withdrawals to resume within 48 hours; it said a hacked engineer's laptop may have been the entry point. About $3 billion has been located and frozen, including nearly $1.57 billion by Tether and more than $800 million by Circle. Bitcoin hit a six-week low of $76,368 before steadying, and Coinbase shares fell 4.8%.",
+   "why": "It is the largest crypto theft on record, at an exchange with 335 million registered users, and it shook crypto prices.",
+   "impact": 4,
+   "topic": "coin",
+   "region": "US",
+   "time": "2026-10-29T22:00:00-04:00",
+   "time_known": false,
+   "source": "Binance (security incident update); Reuters",
+   "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+  },
+  {
+   "id": "2026-10-28-flavio-bolsonaro-miami-parole",
+   "section": "news",
+   "text": "Flávio Bolsonaro, defeated in Brazil's runoff, reached Miami on Wednesday, Oct. 28, entering on one-year U.S. humanitarian parole after President Trump approved his entry.",
+   "detail": "Bolsonaro, his wife Fernanda and their two daughters crossed into Argentina at Puerto Iguazú at 10:50 p.m. Tuesday, Argentina's migration authority said, then took a private charter to Guayaquil, Ecuador, and flew on to Miami-Opa Locka Executive Airport, landing about 9:30 a.m. ET, AP reported. A senior State Department official had said the U.S. would issue the family visas, and Trump said he approved, calling the election \"really strange.\" U.S. Customs and Border Protection entry records reported by O Globo and CNN Brasil show the family was admitted under \"DT\" discretionary parole, a temporary humanitarian permission valid until Oct. 27, 2027 that is not a visa or asylum. Brazil's Supreme Court had ordered him to hand over his passports by noon Tuesday in corruption and money-laundering probes, and police canceled them when he did not. Bolsonaro, who denies wrongdoing, said: \"I did not flee Brazil; I left for the sake of Brazil.\" President Lula called the departure \"shameful.\"",
+   "why": "The U.S. let in a foreign candidate who refused to concede and left his country while under criminal investigation.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-30T05:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/brazil-election-flavio-bolsonaro-ecuador-argentina-9fc1f409ed993403736dbae07bd74bd8"
+  },
+  {
+   "id": "2026-10-30-education-accreditation-final-rule",
+   "section": "news",
+   "text": "College accreditors must focus on student outcomes and make viewpoint-neutral decisions under a final Education Department rule published Friday, effective July 1, 2027.",
+   "detail": "Accreditors decide which colleges can take part in federal student aid, more than $100 billion a year in Pell Grants and loans, the department said. The rule, which carries out President Trump's executive order on accreditation, requires accreditor decisions to be neutral on viewpoint and ideology (except for agencies with a religious mission), says accreditors may not have standards that encourage race-based admissions targets, and adds reviews of student achievement, academic freedom and intellectual diversity. It makes it easier for colleges to switch accreditors or use more than one, drops geographic limits and the \"two-year rule\" for new accreditors, and adds a tougher review of the biggest institutional accreditors. Colleges must give students written reasons when they deny transfer credit, accept comparable credits and offer an appeal.",
+   "why": "It changes the gatekeepers for every college that takes federal student aid.",
+   "impact": 3,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-10-30T05:00:00-04:00",
+   "time_known": false,
+   "source": "Federal Register (Education Department final rule)",
+   "url": "https://www.federalregister.gov/d/2026-22174"
+  },
+  {
+   "id": "2026-10-29-israel-final-results-netanyahu-loses-majority",
+   "section": "news",
+   "text": "Israel's final election results show Prime Minister Benjamin Netanyahu's bloc lost its majority, winning 53 of 120 seats; no side has the 61 needed.",
+   "detail": "The main opposition bloc led by Gadi Eisenkot won 48 seats and Arab-led parties a historic 19, after record Arab turnout. Netanyahu's Likud is the largest party with 27 seats, per the Central Elections Committee's final count reported by Ynet. Netanyahu stays in charge while parties negotiate; Israel's president will assign someone to try to form a government next week, and if no one can, a new election could be held early next year. Netanyahu's party has made unsubstantiated claims of election interference by Arab-led parties.",
+   "why": "Netanyahu, Israel's longest-serving leader and a central figure in the Iran war, could lose power or face another election.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-29T17:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674"
+  },
+  {
+   "id": "2026-10-29-doj-subpoenas-alaska-campaigns",
+   "section": "news",
+   "text": "The Justice Department's probe of Alaska's second \"Dan Sullivan\" widened with grand jury subpoenas, including to Mary Peltola's campaign; Peltola denies knowing about the effort.",
+   "detail": "A person familiar with the matter told AP that subpoenas for grand jury testimony or documents, plus records-preservation demands, went out after the New York Times reported Peltola's campaign appeared to help recruit Dan J. Sullivan Jr. onto the ballot; a source told Reuters there were more than 40, with more expected, including to Dan J. Sullivan's campaign. Separately on Thursday, the department amended its lawsuit in Anchorage federal court that seeks to block quick certification of a close Senate result, adding a constitutional claim and alleging Peltola's campaign and the Democratic Senatorial Campaign Committee misled Judge Sharon Gleason. Alaska's elections division called that \"gamesmanship,\" and the campaign and DSCC asked the judge to dismiss the case before Election Day. Gov. Mike Dunleavy ordered state police to investigate. Peltola told voters in Juneau she \"knew nothing about any other candidate on the ballot except for me and the incumbent,\" Sen. Dan Sullivan; her campaign says it has no involvement with either Sullivan campaign.",
+   "why": "The race could decide Senate control, and a federal criminal probe is now running into the final days before the Nov. 3 vote.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-29T17:01:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/alaska-peltola-senate-dan-sullivan-democrats-dunleavy-c391cc7b546384c7adde9aebc9973620"
+  },
+  {
+   "id": "2026-10-29-ecb-holds-rates",
+   "section": "money",
+   "text": "Christine Lagarde will step down as European Central Bank president on Feb. 7, 2027, months before her term ends, the ECB announced Thursday.",
+   "detail": "Lagarde, 70, told the ECB's Governing Council and European Council President António Costa, who said the process to pick her successor starts immediately; the European Council will appoint the next president under the EU treaty. She has led the ECB since November 2019, and her term was due to run until October 2027. She said she wants \"the freedom of speech, the freedom of expression and the freedom to engage on matters that are not monetary policy matters,\" Reuters reported. The same day, the ECB held its deposit rate at 2.5%, pausing after a September hike even as energy costs push euro-zone inflation, now 3.8%, higher.",
+   "why": "Europe's top central banker is leaving as the bank weighs more rate hikes against an energy-driven rise in inflation.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-10-29T06:00:00-04:00",
+   "time_known": false,
+   "source": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+  },
+  {
+   "id": "2026-10-29-ninth-circuit-pauses-dv-lottery-order",
+   "section": "news",
+   "text": "The 2027 diversity visa lottery can stay closed for now: a federal appeals court paused a judge's order forcing the State Department to open it.",
+   "detail": "In a published order Thursday in Red Eagle Law v. Rubio, Ninth Circuit Judges M. Margaret McKeown, N. Randy Smith and Holly A. Thomas granted the government's emergency stay of the Oct. 14 injunction, which had required the department to announce registration by Oct. 29, open it by Nov. 1 and notify selectees by Dec. 3. The court said the government is likely to win because the immigration law firm that sued, the only plaintiff, is not within the program's zone of interests; Judge Smith, concurring, said the firm also had not shown standing. The stay lasts while the appeal continues. The program offers up to 55,000 green cards a year to people from countries with low immigration to the U.S.; the department had skipped the DV-2027 registration without explanation.",
+   "why": "Up to 55,000 green cards for 2027 are again on hold, with the lottery's usual fall registration window passing.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the Ninth Circuit",
+   "region": "US",
+   "time": "2026-10-29T17:00:00-04:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the Ninth Circuit (order)",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/29/26-6943.pdf"
+  },
+  {
+   "id": "2026-10-29-amazon-intel-earnings",
+   "section": "money",
+   "text": "Amazon's cloud sales grew 39%, the fastest in nearly five years, but AI spending turned its free cash flow into a $42 billion yearly outflow.",
+   "detail": "Third-quarter sales rose 12% to $201.9 billion and operating income reached $28.1 billion, a record 13.9% margin; Amazon Web Services revenue was $46.0 billion. Net income slipped to $20.7 billion ($1.89 a share) from $21.2 billion a year earlier, when it included gains on Amazon's Anthropic stake. Amazon still expects about $220 billion in capital spending this year and forecast fourth-quarter sales of $240 billion to $247 billion. Separately, Intel shares fell about 20% after hours when it forecast weaker fourth-quarter sales, citing a PC slowdown it expects to last at least through the first half of next year.",
+   "why": "The two reports show how heavily AI spending is weighing on tech giants' cash and stock prices.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-29T16:05:00-04:00",
+   "time_known": false,
+   "source": "Amazon",
+   "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+  },
+  {
+   "id": "2026-10-29-patrick-stewart-dies",
+   "section": "news",
+   "text": "Patrick Stewart, the stage actor who played Captain Jean-Luc Picard on \"Star Trek: The Next Generation\" and Professor X in \"X-Men,\" has died at 86.",
+   "detail": "He died Wednesday at home in Los Angeles after \"a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia,\" spokesperson Kelly Bush Novak said, with his wife, Sunny Ozell, at his side. A veteran of more than 60 Royal Shakespeare Company productions, he won three Olivier Awards, was knighted in 2010 and reprised Professor X in \"Avengers: Doomsday,\" due in December.",
+   "why": "He was one of the best-known actors of his generation on stage and screen.",
+   "impact": 3,
+   "topic": "pulse",
+   "region": "US",
+   "time": "2026-10-29T12:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/patrick-stewart-dies-8b38054ff74d4187a32158d78e345ad7"
+  },
+  {
+   "id": "2026-10-29-doj-operation-ghostbusters-student-aid-fraud",
+   "section": "news",
+   "text": "A Justice Department crackdown on \"ghost student\" fraud, which used stolen identities to collect federal student aid, has charged five people and seized $750,000 in crypto.",
+   "detail": "Announced Thursday in Alexandria, Va., Operation Ghostbusters targets rings that filed fake FAFSA applications in the names of Americans whose identities were stolen, enrolled the \"ghost students\" and routed aid refunds through U.S. money mules to accounts tied to Kenyan nationals. Charges so far include three people arrested on a New Jersey complaint (about $1.5 million intended loss), a Kenyan national indicted Oct. 21 in Virginia (about $1.4 million) and a case in Nebraska. DOJ called the cryptocurrency seizure the first international seizure of its kind in Kenya. USA Today reported more than 40 open cases across 26 FBI field offices.",
+   "why": "The scheme drained aid meant for low-income students and stole the identities of Americans who never applied to college.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "executive"
+   ],
+   "region": "US",
+   "time": "2026-10-29T11:00:00-04:00",
+   "time_known": true,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-29-judge-strikes-medicaid-medically-frail-definition",
+   "section": "health",
+   "text": "A Trump administration rule narrowing who counts as \"medically frail\" under new Medicaid work requirements was struck down by a federal judge in Boston on Thursday.",
+   "detail": "U.S. District Judge Richard Stearns sided with 25 states and the District of Columbia, ruling that CMS unlawfully limited the exemption to people whose physical, mental or behavioral health condition \"significantly impairs\" their ability to meet the work requirement. He vacated that language and permanently barred its enforcement; California's attorney general said the order also gives the states a six-month stay of enforcement to absorb errors or delays from the changes. Stearns upheld other challenged parts of the rule, including a one-year look-back for diagnoses and one self-attestation per enrollment period. Under the 2025 law, most adults 19 to 64 must log 80 hours a month of work, community service or schooling to keep Medicaid starting Jan. 1, 2027.",
+   "why": "The exemption decides which seriously ill enrollees must prove they work to keep their health coverage.",
+   "impact": 3,
+   "topic": "health",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the District of Massachusetts",
+   "region": "US",
+   "time": "2026-10-29T13:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-medicaid-chronically-ill-work-requirements-656719bd7c8358d9d5290cf54f81255b"
+  },
+  {
+   "id": "2026-10-29-brewers-win-world-series",
+   "section": "sports",
+   "text": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays 4-1 in Game 5 Wednesday night.",
+   "detail": "Milwaukee took the Series four games to one at Tropicana Field in St. Petersburg, Fla. Jacob Misiorowski threw 5 2/3 scoreless innings and rookie Cooper Pratt had two hits and two RBIs. Catcher William Contreras was named Series MVP after hitting .381 (8-for-21) with four RBIs; his sixth-inning RBI double scored Christian Yelich for a 3-0 lead. He threw out four would-be base stealers and won 10 of 13 challenges in the first World Series with automated ball-strike reviews. The Rays became the third team to lose their first three World Series.",
+   "why": "It is Milwaukee's first championship in baseball's smallest market.",
+   "impact": 4,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-28T23:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/brewers-rays-world-series-game-5-971f9fb8cad75042fc7f9919dd91c159"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-28-fed-holds-rates-two-dissents",
+   "section": "money",
+   "text": "The Federal Reserve held its key interest rate at 3.75% to 4% Wednesday, but two officials voted to raise it, saying inflation is still too high.",
+   "detail": "The vote was 10-2: Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted a quarter-point increase. The statement says the economy is \"expanding at a strong pace,\" job gains have kept pace with the workforce, inflation \"remains elevated,\" and \"the Committee will deliver price stability.\" At his news conference, Chair Kevin Warsh said energy prices have moved higher again and the Fed will fit its next move to incoming data. He also said the Fed will hold fewer rate-setting meetings: in 2027 one of its eight meetings will be devoted only to long-run strategy, and in 2028 two will be, leaving six for rate decisions. Separately, the Bank of Canada raised its policy rate a quarter point to 2.50% Wednesday, its first increase since July 2023, citing higher, more persistent inflation and energy costs, and said more hikes may be needed.",
+   "why": "The Fed's rate drives what Americans pay on credit cards, car loans and many business loans, and two votes for a hike signal pressure to tighten further.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-28T14:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "id": "2026-10-27-israel-election-exit-polls-no-majority",
+   "section": "news",
+   "text": "Israel's election produced no clear winner, exit polls show, with neither Netanyahu's bloc nor his opponents near the 61 seats needed to govern.",
+   "detail": "Polls closed at 10 p.m. Israel time (4 p.m. ET). Exit polls from Channels 11, 12 and 13 gave Netanyahu's bloc 50 of the Knesset's 120 seats and the Jewish-led opposition bloc 52 or 53. Netanyahu's Likud was projected as the largest party with 24 to 25 seats, ahead of Gadi Eisenkot's Yashar! at 21 to 23. Arab-led parties were projected to win a record 17 or 18 seats, up from 10. Pro-government Channel 14 and i24 News showed better numbers for Netanyahu's bloc (60 and 55). Turnout was unusually high. The Central Elections Committee is counting votes, and official results can differ from exit polls; President Isaac Herzog will decide who gets the first chance to form a government, a process that could take weeks.",
+   "why": "The vote decides who leads a key U.S. ally during the war with Iran, and a deadlock could mean weeks of uncertainty or another election.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-27T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2"
+  },
+  {
+   "id": "2026-10-27-cdc-ebola-congo-travel-attestation",
+   "section": "health",
+   "text": "A CDC order will require every air passenger flying into the U.S. to sign a statement that they have not been in Congo in the past 21 days.",
+   "detail": "The order, signed Oct. 22 and published in the Federal Register on Tuesday, applies to flights departing at or after 11:59 p.m. EST on Nov. 3 and runs through Dec. 18 unless changed. It covers every flight landing in the U.S., including connections; airlines must keep each signed statement for 42 days, and knowingly false statements can be prosecuted. Medical-evacuation flights and people CDC exempts on humanitarian grounds are excluded. CDC says Congo's Bundibugyo Ebola outbreak had reached 9,455 confirmed cases and 4,561 deaths as of Oct. 18; the order adds to the entry suspension already in place. Separately, a Swiss woman with Ebola diagnosed in Nigeria was flown to Geneva University Hospitals on Monday and is stable, Geneva health officials said.",
+   "why": "Starting Nov. 3, every international air traveler to the U.S. and every airline flying here must comply.",
+   "impact": 4,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-27T00:00:00-04:00",
+   "time_known": false,
+   "source": "CDC order, Federal Register",
+   "url": "https://www.federalregister.gov/public-inspection/2026-21828/requirement-for-attestation-all-airline-or-other-aircraft-passengers-arriving-in-the-united-states-from-any-foreign-country-andd-controlled-free-pratique-for-airlines-confirming-that-such-passengers-have-not-been-in-the-democratic-republic-of-the-congo-in-the-past-21-days"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-10-30",
+   "when": "8:30 a.m. ET",
+   "text": "Third-quarter Employment Cost Index (BLS), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS ECI release schedule; Fed-watched measure of labor-cost inflation.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "when": "Overnight (Tokyo)",
+   "text": "Bank of Japan interest rate decision and quarterly Outlook Report (meeting Oct. 29–30).",
+   "detail": "Per the BOJ's 2026 meeting schedule. The policy rate is 1.25%, a 31-year high, after a September hike, per Reuters.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "when": "Before the open",
+   "text": "ExxonMobil and Chevron report third-quarter results; Exxon release about 6:30 a.m. ET with a 9:30 a.m. ET call, Chevron call 11:00 a.m. ET.",
+   "detail": "Times per ExxonMobil's Oct. 16 Business Wire release (5:30 and 8:30 a.m. Central) and Chevron's investor events page.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

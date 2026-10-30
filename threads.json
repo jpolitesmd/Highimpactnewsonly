@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "threads": [
   {
    "id": "iran-war",
@@ -59,7 +59,7 @@
    "id": "flydubai-cockpit",
    "title": "The Flydubai cockpit attack",
    "summary": "The investigation of a co-pilot's attack on the captain of a Dubai-to-Tel Aviv Flydubai flight that diverted to Saudi Arabia.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "air-ambulance-search",
@@ -71,7 +71,7 @@
    "id": "pneumonic-plague",
    "title": "Pneumonic plague",
    "summary": "Watch on the fatal illness of an Irkutsk Anti-Plague Institute employee after reports of a plague lab exposure; federal officials call it pneumonia of unknown cause.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "france-protests",
@@ -89,6 +89,12 @@
    "id": "israel-election",
    "title": "Israel's election",
    "summary": "Israel's Oct. 27, 2026 national election, the vote count and the talks to form a government.",
+   "status": "active"
+  },
+  {
+   "id": "brazil-election",
+   "title": "Brazil's election and Flávio Bolsonaro",
+   "summary": "Lula's runoff win over Flávio Bolsonaro, who refused to concede and left Brazil for the United States while under criminal investigation.",
    "status": "active"
   }
  ]

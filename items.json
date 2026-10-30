@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T16:38:00-04:00",
+  "updated": "2026-10-30T05:43:00-04:00",
   "items": [
     {
       "id": "2026-10-29-judge-strikes-medicaid-medically-frail-definition",
@@ -207,19 +207,23 @@
       "topic": "chart",
       "region": "World",
       "world_region": "europe",
-      "impact": 2,
-      "time": "2026-10-29T09:15:00-04:00",
-      "time_known": true,
-      "text": "The European Central Bank held its deposit rate at 2.5% Thursday, pausing after a September hike even as energy costs push euro-zone inflation higher.",
-      "detail": "The main refinancing and marginal lending rates stay at 2.65% and 2.90%. The ECB said rising energy prices pose upside risks to inflation and downside risks to growth, while underlying inflation and wages have stayed broadly stable; it will decide meeting by meeting and is not pre-committing to a path. Euro-zone inflation is 3.8%, and after the decision markets priced about a 67% chance of a December hike, CNBC reported.",
-      "why": "Europe's central bank is weighing more hikes as the energy shock from the Iran war spreads.",
+      "impact": 3,
+      "time": "2026-10-29T06:00:00-04:00",
+      "time_known": false,
+      "text": "Christine Lagarde will step down as European Central Bank president on Feb. 7, 2027, months before her term ends, the ECB announced Thursday.",
+      "detail": "Lagarde, 70, told the ECB's Governing Council and European Council President António Costa, who said the process to pick her successor starts immediately; the European Council will appoint the next president under the EU treaty. She has led the ECB since November 2019, and her term was due to run until October 2027. She said she wants \"the freedom of speech, the freedom of expression and the freedom to engage on matters that are not monetary policy matters,\" Reuters reported. The same day, the ECB held its deposit rate at 2.5%, pausing after a September hike even as energy costs push euro-zone inflation, now 3.8%, higher.",
+      "why": "Europe's top central banker is leaving as the bank weighs more rate hikes against an energy-driven rise in inflation.",
       "source": "European Central Bank",
-      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
       "tags": [
         "ecb",
-        "interest-rates"
+        "interest-rates",
+        "lagarde"
       ],
-      "added_at": "2026-10-29T16:38:00-04:00"
+      "added_at": "2026-10-30T05:43:00-04:00",
+      "pin": "2026-10-30 morning",
+      "pin_order": 2,
+      "notes": "Owner-directed catch-up: Lagarde's same-day announcement was missed Oct. 29 evening; bundled with the rate-hold card. Rate decision: https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html . Reuters says she leaves 'eight months' early (Feb. 7 to Oct. 31, 2027 is about 8.8 months)."
     },
     {
       "id": "2026-10-29-dnipro-train-station-drone-strike",
@@ -1118,7 +1122,8 @@
         "stocks",
         "verizon"
       ],
-      "added_at": "2026-10-26T16:58:00-04:00"
+      "added_at": "2026-10-26T16:58:00-04:00",
+      "thread": "brazil-election"
     },
     {
       "id": "2026-10-26-judge-maurene-comey-firing-unlawful",
@@ -1270,7 +1275,8 @@
         "brazil",
         "election"
       ],
-      "added_at": "2026-10-26T05:26:22-04:00"
+      "added_at": "2026-10-26T05:26:22-04:00",
+      "thread": "brazil-election"
     },
     {
       "id": "2026-10-26-saudi-pakistan-turkey-delegations-tehran",
@@ -1427,7 +1433,8 @@
         "brazil",
         "election"
       ],
-      "added_at": "2026-10-25T16:50:00-04:00"
+      "added_at": "2026-10-25T16:50:00-04:00",
+      "thread": "brazil-election"
     },
     {
       "id": "2026-10-25-south-florida-coastal-flood-warning",
@@ -9481,6 +9488,236 @@
       "source": "AP; MLB.com",
       "url": "https://apnews.com/article/brewers-dodgers-score-nlcs-cfd30befcec42a035cbea5cae3bf746c",
       "added_at": "2026-10-16T05:37:37-04:00"
+    },
+    {
+      "id": "2026-10-29-binance-hack-6-3-billion-north-korea",
+      "section": "finance",
+      "topic": "coin",
+      "region": "US",
+      "impact": 4,
+      "pin": "2026-10-30 morning",
+      "pin_order": 1,
+      "time": "2026-10-29T22:00:00-04:00",
+      "time_known": false,
+      "text": "Binance, the world's biggest crypto exchange, lost about $6.3 billion to hackers in the largest crypto theft ever; blockchain firms blame North Korea.",
+      "detail": "Most of the theft unfolded in about 20 minutes beginning late Thursday, Reuters reported. U.S. blockchain analysis firms TRM Labs and Chainalysis said they were highly confident North Korea was responsible; TRM tied it to TraderTraitor, the unit the FBI blamed for the $1.5 billion Bybit hack in 2025. There is no U.S. government attribution yet, and North Korea did not respond to Reuters. Binance halted withdrawals, said user funds are safe and that it will cover the losses, and expects withdrawals to resume within 48 hours; it said a hacked engineer's laptop may have been the entry point. About $3 billion has been located and frozen, including nearly $1.57 billion by Tether and more than $800 million by Circle. Bitcoin hit a six-week low of $76,368 before steadying, and Coinbase shares fell 4.8%.",
+      "why": "It is the largest crypto theft on record, at an exchange with 335 million registered users, and it shook crypto prices.",
+      "source": "Binance (security incident update); Reuters",
+      "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+      "notes": "Facts verified against full Reuters copy (Oct. 30, 4:52 a.m. ET, carried by USA Today) and Reuters TRM report; reuters.com URL not found, AP page blocked fetching. Substance impact 3; Trending: hard on X (Binance #1 U.S. trend) and confirmed, so +1 bump to 4.",
+      "tags": [
+        "crypto",
+        "binance",
+        "hack",
+        "north-korea"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-28-flavio-bolsonaro-miami-parole",
+      "section": "news",
+      "topic": "whitehouse",
+      "region": "US",
+      "impact": 3,
+      "thread": "brazil-election",
+      "time": "2026-10-30T05:30:00-04:00",
+      "time_known": false,
+      "text": "Flávio Bolsonaro, defeated in Brazil's runoff, reached Miami on Wednesday, Oct. 28, entering on one-year U.S. humanitarian parole after President Trump approved his entry.",
+      "detail": "Bolsonaro, his wife Fernanda and their two daughters crossed into Argentina at Puerto Iguazú at 10:50 p.m. Tuesday, Argentina's migration authority said, then took a private charter to Guayaquil, Ecuador, and flew on to Miami-Opa Locka Executive Airport, landing about 9:30 a.m. ET, AP reported. A senior State Department official had said the U.S. would issue the family visas, and Trump said he approved, calling the election \"really strange.\" U.S. Customs and Border Protection entry records reported by O Globo and CNN Brasil show the family was admitted under \"DT\" discretionary parole, a temporary humanitarian permission valid until Oct. 27, 2027 that is not a visa or asylum. Brazil's Supreme Court had ordered him to hand over his passports by noon Tuesday in corruption and money-laundering probes, and police canceled them when he did not. Bolsonaro, who denies wrongdoing, said: \"I did not flee Brazil; I left for the sake of Brazil.\" President Lula called the departure \"shameful.\"",
+      "why": "The U.S. let in a foreign candidate who refused to concede and left his country while under criminal investigation.",
+      "source": "AP",
+      "url": "https://apnews.com/article/brazil-election-flavio-bolsonaro-ecuador-argentina-9fc1f409ed993403736dbae07bd74bd8",
+      "notes": "Owner-directed catch-up (missed Oct. 28 evening and both Oct. 29 editions). AP facts verified via full AP copy carried by The Independent (apnews.com blocked fetching). Parole status from CBP records per O Globo, CNN Brasil and CBN; AP and the State Department described visas, which the entry record does not show. Bolsonaro quote per BBC.",
+      "tags": [
+        "brazil",
+        "bolsonaro",
+        "immigration",
+        "parole"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-29-doj-subpoenas-alaska-campaigns",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "impact": 3,
+      "thread": "midterms-2026",
+      "time": "2026-10-29T17:01:00-04:00",
+      "time_known": true,
+      "text": "The Justice Department's probe of Alaska's second \"Dan Sullivan\" widened with grand jury subpoenas, including to Mary Peltola's campaign; Peltola denies knowing about the effort.",
+      "detail": "A person familiar with the matter told AP that subpoenas for grand jury testimony or documents, plus records-preservation demands, went out after the New York Times reported Peltola's campaign appeared to help recruit Dan J. Sullivan Jr. onto the ballot; a source told Reuters there were more than 40, with more expected, including to Dan J. Sullivan's campaign. Separately on Thursday, the department amended its lawsuit in Anchorage federal court that seeks to block quick certification of a close Senate result, adding a constitutional claim and alleging Peltola's campaign and the Democratic Senatorial Campaign Committee misled Judge Sharon Gleason. Alaska's elections division called that \"gamesmanship,\" and the campaign and DSCC asked the judge to dismiss the case before Election Day. Gov. Mike Dunleavy ordered state police to investigate. Peltola told voters in Juneau she \"knew nothing about any other candidate on the ballot except for me and the incumbent,\" Sen. Dan Sullivan; her campaign says it has no involvement with either Sullivan campaign.",
+      "why": "The race could decide Senate control, and a federal criminal probe is now running into the final days before the Nov. 3 vote.",
+      "source": "AP",
+      "url": "https://apnews.com/article/alaska-peltola-senate-dan-sullivan-democrats-dunleavy-c391cc7b546384c7adde9aebc9973620",
+      "notes": "AP facts per AP News Summary (Oct. 30, 4:02 a.m.); subpoena count per Reuters (Oct. 29, 5:01 p.m.); amended suit and filings per CNBC. Update to 2026-10-28-nyt-peltola-aides-spoiler-recruitment (official action). Trending: moderate.",
+      "tags": [
+        "alaska",
+        "senate",
+        "peltola",
+        "sullivan",
+        "doj"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-29-ninth-circuit-pauses-dv-lottery-order",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "judicial": true,
+      "court": "U.S. Court of Appeals for the Ninth Circuit",
+      "branch": [
+        "judicial"
+      ],
+      "impact": 3,
+      "thread": "deportations-courts",
+      "time": "2026-10-29T17:00:00-04:00",
+      "time_known": false,
+      "text": "The 2027 diversity visa lottery can stay closed for now: a federal appeals court paused a judge's order forcing the State Department to open it.",
+      "detail": "In a published order Thursday in Red Eagle Law v. Rubio, Ninth Circuit Judges M. Margaret McKeown, N. Randy Smith and Holly A. Thomas granted the government's emergency stay of the Oct. 14 injunction, which had required the department to announce registration by Oct. 29, open it by Nov. 1 and notify selectees by Dec. 3. The court said the government is likely to win because the immigration law firm that sued, the only plaintiff, is not within the program's zone of interests; Judge Smith, concurring, said the firm also had not shown standing. The stay lasts while the appeal continues. The program offers up to 55,000 green cards a year to people from countries with low immigration to the U.S.; the department had skipped the DV-2027 registration without explanation.",
+      "why": "Up to 55,000 green cards for 2027 are again on hold, with the lottery's usual fall registration window passing.",
+      "source": "U.S. Court of Appeals for the Ninth Circuit (order)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/29/26-6943.pdf",
+      "notes": "Update to 2026-10-14-judge-orders-dv-2027-green-card-lottery. Order filed Oct. 29 (time not stated; Bloomberg Law reported it 9:21 p.m. ET).",
+      "tags": [
+        "immigration",
+        "diversity-visa",
+        "ninth-circuit"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-29-israel-final-results-netanyahu-loses-majority",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "thread": "israel-election",
+      "time": "2026-10-29T17:30:00-04:00",
+      "time_known": false,
+      "text": "Israel's final election results show Prime Minister Benjamin Netanyahu's bloc lost its majority, winning 53 of 120 seats; no side has the 61 needed.",
+      "detail": "The main opposition bloc led by Gadi Eisenkot won 48 seats and Arab-led parties a historic 19, after record Arab turnout. Netanyahu's Likud is the largest party with 27 seats, per the Central Elections Committee's final count reported by Ynet. Netanyahu stays in charge while parties negotiate; Israel's president will assign someone to try to form a government next week, and if no one can, a new election could be held early next year. Netanyahu's party has made unsubstantiated claims of election interference by Arab-led parties.",
+      "why": "Netanyahu, Israel's longest-serving leader and a central figure in the Iran war, could lose power or face another election.",
+      "source": "AP",
+      "url": "https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674",
+      "notes": "AP facts per AP News Summary (Oct. 30, 4:02 a.m.); party seats per Ynet (Central Elections Committee final count). Exact release time unknown; after the Oct. 29 evening lock.",
+      "tags": [
+        "israel",
+        "election",
+        "netanyahu"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-30-education-accreditation-final-rule",
+      "section": "news",
+      "topic": "agency",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-30T05:00:00-04:00",
+      "time_known": false,
+      "text": "College accreditors must focus on student outcomes and make viewpoint-neutral decisions under a final Education Department rule published Friday, effective July 1, 2027.",
+      "detail": "Accreditors decide which colleges can take part in federal student aid, more than $100 billion a year in Pell Grants and loans, the department said. The rule, which carries out President Trump's executive order on accreditation, requires accreditor decisions to be neutral on viewpoint and ideology (except for agencies with a religious mission), says accreditors may not have standards that encourage race-based admissions targets, and adds reviews of student achievement, academic freedom and intellectual diversity. It makes it easier for colleges to switch accreditors or use more than one, drops geographic limits and the \"two-year rule\" for new accreditors, and adds a tougher review of the biggest institutional accreditors. Colleges must give students written reasons when they deny transfer credit, accept comparable credits and offer an appeal.",
+      "why": "It changes the gatekeepers for every college that takes federal student aid.",
+      "source": "Federal Register (Education Department final rule)",
+      "url": "https://www.federalregister.gov/d/2026-22174",
+      "notes": "Public inspection filed Oct. 29, 8:45 a.m.; publishes Oct. 30.",
+      "tags": [
+        "education",
+        "accreditation",
+        "higher-ed",
+        "final-rule"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-30-boj-holds-rates-inflation-target-met",
+      "section": "money",
+      "money_beat": "rates",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-10-29T23:15:00-04:00",
+      "time_known": false,
+      "text": "The Bank of Japan held its key rate at 1.25% Friday and said underlying inflation is now in line with its 2% goal for the first time.",
+      "detail": "The vote was 8-1; board member Hajime Takata wanted a hike to 1.5%. The rate stays at its highest since 1995. The bank raised its fiscal 2027 inflation forecast to 2.6% from 2.4% and voted unanimously to sell its stock ETF holdings faster, about 860 billion yen a year at book value starting in January 2027, up from about 330 billion. It is the first time the BOJ has called underlying inflation \"generally consistent\" with the target since adopting it in 2013, CNBC reported.",
+      "why": "Japan is moving further from decades of rock-bottom rates, which can ripple through global bond markets.",
+      "source": "Bank of Japan",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+      "notes": "upcoming.json buzz item matured. Forecast and 'first time' framing per CNBC.",
+      "tags": [
+        "boj",
+        "japan",
+        "interest-rates"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-29-hormuz-tanker-explosives-attached-hull",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-10-29T18:12:00-04:00",
+      "time_known": false,
+      "text": "A tanker in the Strait of Hormuz caught fire Thursday after a small boat attached two explosive devices to its hull, Britain's maritime agency said; the crew was safe.",
+      "detail": "The blasts above the waterline, 25 nautical miles northeast of Khasab, Oman, set the engine room on fire and briefly disabled the ship, UKMTO said; the fire was put out, there was no environmental damage, and the tanker continued to its next port. It was not clear who was behind the attack, Reuters reported. Ships in and around the strait have been attacked repeatedly since the U.S.-Iran war began in February.",
+      "why": "It is a new way of attacking ships in the route for about a fifth of the world's oil.",
+      "source": "UKMTO",
+      "url": "https://www.ukmto.org/",
+      "notes": "Facts per full Reuters copy (Arab News, Oct. 30). Iran's claims that four tankers hit mines are unconfirmed and omitted. Trending: moderate.",
+      "tags": [
+        "hormuz",
+        "shipping",
+        "iran"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-29-oregon-helicopter-midair-collision",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-29T14:00:00-04:00",
+      "time_known": false,
+      "text": "Two helicopters collided in midair near McMinnville, Ore., on Thursday, killing three people, including a 22-year-old flight instructor and her student.",
+      "detail": "A 1995 Robinson R22 from a flight school and a 2018 Airbus AS350B3 came down in a farm field next to Highway 233 around 2 p.m. local time, the Yamhill County Sheriff's Office said. The dead are instructor Maddie Aasbo, 22, of Texas, a student pilot from the United Kingdom who has not been named, and Tyler Delane Sturdevant, 38, of Newberg, the Airbus's only occupant. The FAA and NTSB are investigating.",
+      "why": "A rare midair collision near a busy flight-training airport.",
+      "source": "OPB (Yamhill County Sheriff's Office)",
+      "url": "https://www.opb.org/article/2026/10/29/helicopter-crash-mcminville-investigation-faa-ntsb/",
+      "tags": [
+        "aviation",
+        "crash",
+        "oregon"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-30-medicare-dialysis-payment-2027",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T05:00:00-04:00",
+      "time_known": false,
+      "text": "Medicare will pay dialysis centers about 2.7% more in 2027, roughly $240 million, under a final CMS rule published Friday.",
+      "detail": "The base payment per treatment rises to $297.52 from $281.71, which now includes $12.85 for phosphate binders folded into the bundle. Because coinsurance rises with payments, patients' share goes up about 2.7%, roughly $50 million, CMS estimated. The rule takes effect Jan. 1, 2027, and also updates the dialysis quality incentive program and payment for patients with acute kidney injury.",
+      "why": "Medicare covers most Americans on dialysis for kidney failure.",
+      "source": "Federal Register (CMS final rule)",
+      "url": "https://www.federalregister.gov/d/2026-22194",
+      "tags": [
+        "medicare",
+        "dialysis",
+        "cms"
+      ],
+      "added_at": "2026-10-30T05:43:00-04:00"
     }
   ]
 }

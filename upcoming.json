@@ -1,96 +1,6 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "events": [
-    {
-      "date": "2026-10-29",
-      "when": "8:30 a.m. ET",
-      "text": "Q3 GDP advance estimate and September personal income/outlays (PCE), 8:30 a.m. ET.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "9:15 a.m. ET",
-      "text": "European Central Bank interest rate decision; Lagarde press conference follows.",
-      "detail": "Meeting Oct. 28–29 per the ECB calendar; decision at 2:15 p.m. Frankfurt time. The deposit rate is 2.50% after a September hike.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "After the close",
-      "text": "Amazon reports third-quarter results; call 5:00 p.m. ET.",
-      "detail": "Date and call time (2 p.m. Pacific) per Amazon's investor relations announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "After the close",
-      "text": "Coinbase reports third-quarter results after the close; live Q&A on X at 5:00 p.m. ET.",
-      "detail": "Per Coinbase’s Oct. 14 Business Wire notice; materials post on investor.coinbase.com after the close.",
-      "buzz": true,
-      "tags": [
-        "crypto",
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "After the close",
-      "text": "Intel reports third-quarter results after the close; call 5:00 p.m. ET.",
-      "detail": "Date and call time (2 p.m. Pacific) per Intel’s Oct. 6 release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "Before the open",
-      "text": "Caterpillar reports third-quarter results about 6:30 a.m. ET; call 8:30 a.m. ET.",
-      "detail": "Release time (5:30 a.m. Central) per Caterpillar's Oct. 15 announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "Before the open",
-      "text": "Mastercard reports third-quarter results; call 9:00 a.m. ET.",
-      "detail": "Date and call time per Mastercard's Oct. 8 Business Wire announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "Before the open",
-      "text": "Eli Lilly and Merck report third-quarter results; Merck call 9:00 a.m. ET, Lilly call 10:00 a.m. ET.",
-      "detail": "Dates and call times per Lilly's Oct. 15 PR Newswire release and Merck's Oct. 1 Business Wire release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-29",
-      "when": "After the close",
-      "text": "Starbucks reports fiscal fourth-quarter and full-year results after the close; call 4:15 p.m. ET.",
-      "detail": "Date and call time (1:15 p.m. Pacific) per Starbucks' Oct. 8 Business Wire announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-10-30",
       "when": "8:30 a.m. ET",
@@ -196,6 +106,16 @@
       ]
     },
     {
+      "date": "2026-11-04",
+      "when": "10:00 a.m. ET",
+      "text": "October ISM Services PMI, 10:00 a.m. ET.",
+      "detail": "Date and time per ISM's 2026 release calendar; September's reading was 54.9%, per ISM.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-11-05",
       "when": "7:00 a.m. ET",
       "text": "Bank of England interest rate decision, minutes, and November Monetary Policy Report (noon London time).",
@@ -209,6 +129,16 @@
       "date": "2026-11-06",
       "when": "8:30 a.m. ET",
       "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "when": "8:30 a.m. ET",
+      "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
+      "detail": "Date and time per the BLS CPI release schedule.",
       "buzz": true,
       "tags": [
         "markets"

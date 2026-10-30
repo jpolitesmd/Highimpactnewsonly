@@ -1,6 +1,154 @@
 {
-  "updated": "2026-10-30T05:43:00-04:00",
+  "updated": "2026-10-30T16:58:00-04:00",
   "items": [
+    {
+      "id": "2026-10-30-tech-selloff-nasdaq-intel",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 4,
+      "time": "2026-10-30T16:00:00-04:00",
+      "time_known": true,
+      "text": "The Nasdaq fell 3.4% Friday, Wall Street's worst day since June, as Intel lost about 30% in its worst day since 1974.",
+      "detail": "The Nasdaq Composite closed at 25,283.66, down 901.06 points, per Nasdaq, and is more than 8% below its Oct. 6 record close. The S&P 500 fell about 2% and the Dow about 1%, Reuters reported, and all three indexes posted a weekly loss. Intel fell after weaker-than-expected guidance that cited a plant shutdown in Israel and soft PC demand; AMD dropped about 12%, Nvidia about 5% and the chip index nearly 9%, while Amazon slipped about 2% after its earnings, on worries that AI spending is not yet paying off. The Nasdaq is headed for its worst month since early 2025.",
+      "why": "Big tech stocks make up a large share of many Americans' 401(k) and index funds.",
+      "source": "AP; Nasdaq (index close)",
+      "url": "https://apnews.com/article/stock-markets-ai-alphabet-oil-16c266731fdf64178f38070af2b42497",
+      "tags": [
+        "stocks",
+        "nasdaq",
+        "intel",
+        "ai"
+      ],
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
+    {
+      "id": "2026-10-30-cdc-flu-hospitalizations-week-42",
+      "section": "health",
+      "health_beat": "public",
+      "topic": "health",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-30T12:00:00-04:00",
+      "time_known": false,
+      "text": "Flu hospitalizations hit their highest rate for this point in the season since 2010-11, CDC's weekly report said Friday, with the first child death reported.",
+      "detail": "In the week ending Oct. 24, the estimated hospitalization rate was 1.9 to 2.5 per 100,000 after accounting for reporting delays, CDC's FluView said; hospitals reported 6,100 flu admissions nationally. Nearly all cases are influenza A(H1N1). CDC estimates at least 1 million illnesses, 16,000 hospitalizations and 900 deaths so far this season. Flu activity is still low nationally but rising in many areas and higher than usual for October; CDC said an early start does not necessarily mean a worse peak. The first pediatric flu death of the 2026-27 season was reported this week.",
+      "why": "An early H1N1-driven flu season could strain hospitals heading into the holidays.",
+      "source": "CDC FluView",
+      "url": "https://www.cdc.gov/fluview/surveillance/2026-week-42.html",
+      "tags": [
+        "flu",
+        "cdc",
+        "h1n1"
+      ],
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
+    {
+      "id": "2026-10-30-novaya-gazeta-to-close",
+      "section": "news",
+      "topic": "globe",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-10-30T09:00:00-04:00",
+      "time_known": false,
+      "text": "Novaya Gazeta, Russia's best-known independent newspaper, said it will close on Nov. 9 after pressure from the authorities.",
+      "detail": "In an editorial titled \"They have killed us,\" the paper led by Nobel Peace Prize laureate Dmitry Muratov blamed Russian authorities and security services, saying it received an eviction order and its reader-donation system was shut down. It plans one final issue. There was no immediate Kremlin comment, AP reported. The paper, founded in 1993, suspended print publication in 2022 after Russia's full-scale invasion of Ukraine; Novaya Gazeta Europe operates separately from abroad.",
+      "why": "It removes one of the last major independent news outlets inside Russia.",
+      "source": "AP",
+      "url": "https://apnews.com/article/novaya-gazeta-muratov-russia-crackdown-putin-war-ukraine-f73ceb88bd2ef1c65e786a336e6e12db",
+      "tags": [
+        "russia",
+        "press freedom"
+      ],
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
+    {
+      "id": "2026-10-30-treasury-minnesota-fraud-measures",
+      "section": "news",
+      "topic": "agency",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T13:00:00-04:00",
+      "time_known": false,
+      "text": "Treasury's new fraud measures, announced in Minnesota Friday, warn banks about $8 billion in suspicious overseas wire payments and charity scams.",
+      "detail": "Speaking in St. Cloud alongside other senior officials, Treasury Secretary Scott Bessent said Treasury has stopped nearly $190 million tied to overseas fraud and returned more than $100 million to U.S. victims. FinCEN issued an alert on more than $8 billion in potentially suspicious wire payments from 2021 to 2025 sent through U.S. money services businesses at the direction of foreign agents, and a notice on sham charities, fraud and embezzlement at nonprofits. Treasury also noted that Salim Said, a Feeding Our Future co-conspirator, was sentenced this week to 30 years in prison.",
+      "why": "Minnesota has become the center of the administration's push against benefits fraud.",
+      "source": "U.S. Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0670",
+      "tags": [
+        "fraud",
+        "treasury",
+        "fincen",
+        "minnesota"
+      ],
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
+    {
+      "id": "2026-10-30-fort-bragg-contractor-leak-charges",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T12:00:00-04:00",
+      "time_known": false,
+      "text": "A former Fort Bragg security contractor is charged with posting classified military-operation images online and stealing Army night-vision goggles, the Justice Department said Friday.",
+      "detail": "James Thomas Ashbacher, 37, of Spring Lake, N.C., was arrested Tuesday after an indictment was unsealed charging him with unlawfully transmitting and retaining national defense information and theft of government property. Prosecutors say he held a Top Secret/SCI clearance while working at the Army Special Operations Command facility, posted classified photos and videos to social media, and kept a classified award write-up and a missing unit night-vision system at home. An indictment is only an allegation.",
+      "why": "It is the latest in a string of classified-leak cases as the Pentagon cracks down on disclosures.",
+      "source": "U.S. Justice Department",
+      "url": "https://www.justice.gov/opa/pr/former-us-government-contractor-arrested-allegedly-leaking-national-defense-information-and",
+      "tags": [
+        "doj",
+        "classified",
+        "leaks"
+      ],
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
+    {
+      "id": "2026-10-30-employment-cost-index-q3",
+      "section": "money",
+      "money_beat": "jobs",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T08:30:00-04:00",
+      "time_known": true,
+      "text": "Worker pay costs rose 0.8% in the third quarter, the Labor Department said Friday, but wages trailed inflation over the past year.",
+      "detail": "Compensation costs for civilian workers rose 3.4% over the 12 months through September; wages and salaries rose 3.1% and benefits 3.9%. Adjusted for inflation, private-sector wages and salaries fell 0.6% over the year. Private health-benefit costs rose 6.4%. The Fed watches the Employment Cost Index as a gauge of wage-driven inflation.",
+      "why": "Pay is not keeping up with prices for many workers.",
+      "source": "Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/news.release/eci.nr0.htm",
+      "tags": [
+        "wages",
+        "bls",
+        "eci"
+      ],
+      "thread": "rates-inflation",
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
+    {
+      "id": "2026-10-30-exxon-chevron-q3-profits",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "energy",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T07:00:00-04:00",
+      "time_known": false,
+      "text": "ExxonMobil and Chevron beat profit forecasts Friday as high oil and diesel prices lifted third-quarter earnings.",
+      "detail": "Exxon earned $15.4 billion, or $17.5 billion ($4.23 a share) excluding items, above the $4.12 analysts expected, on revenue of $113.16 billion; its Gulf Coast refineries ran at full capacity. Chevron earned $9.9 billion, or $5.06 a share, on $67.8 billion in revenue, with refineries at 98% utilization, the companies and AP reported.",
+      "why": "Big oil's gains reflect the high fuel prices Americans are paying during the Iran war.",
+      "source": "AP",
+      "url": "https://apnews.com/article/exxonmobil-chevron-diesel-oil-852851049c1ede6811516fe92700dcbe",
+      "tags": [
+        "oil",
+        "earnings",
+        "exxon",
+        "chevron"
+      ],
+      "added_at": "2026-10-30T16:58:00-04:00"
+    },
     {
       "id": "2026-10-29-judge-strikes-medicaid-medically-frail-definition",
       "section": "health",

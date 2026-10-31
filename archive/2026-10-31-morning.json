@@ -1,0 +1,236 @@
+{
+ "date": "2026-10-31",
+ "edition": "morning",
+ "subject": "Saturday, Oct 31 - Morning edition",
+ "published": "2026-10-31T06:00:00-04:00",
+ "items": [
+  {
+   "id": "2026-10-31-wsj-iran-damage-us-bases",
+   "section": "news",
+   "text": "Iranian strikes have damaged 274 structures at 24 bases used by U.S. forces, with repairs priced at $5 billion or more, a Wall Street Journal investigation found.",
+   "detail": "The Journal's review of satellite imagery covered installations with a U.S. presence in Kuwait, Bahrain, Jordan, Saudi Arabia, Qatar, the UAE and Iraq. U.S. officials told the paper the Pentagon's internal estimate is at least $5 billion, and one assessment runs as high as $15 billion; those costs are not in the military's $47.1 billion war-cost estimate. After the July ceasefire collapsed, Iran increasingly targeted buildings housing troops, the Journal reported. The Pentagon has not publicly detailed the damage and declined to comment.",
+   "why": "It is the fullest public accounting yet of what the war has cost U.S. bases.",
+   "impact": 3,
+   "topic": "war",
+   "region": "US",
+   "time": "2026-10-31T00:30:00-04:00",
+   "time_known": true,
+   "source": "Wall Street Journal",
+   "url": "https://www.wsj.com/world/middle-east/iran-war-us-bases-damage-88db3224"
+  },
+  {
+   "id": "2026-10-30-judge-halts-doj-threats-election-officials",
+   "section": "news",
+   "text": "The Justice Department must stop threatening to prosecute election officials over alleged noncitizen voters, a federal judge ordered Friday, days before the midterms.",
+   "detail": "U.S. District Judge Trina Thompson in San Francisco issued a temporary restraining order barring the Justice Department and the Department of Homeland Security from demanding that election officials in any state segregate ballots, remove voters from the rolls or halt ballot processing based on the administration's lists of alleged noncitizen voters, and from threats of criminal prosecution. Officials who handle ballots in line with the law \"do not violate federal criminal law\" even if a voter is alleged to be ineligible, she wrote. The administration must also tell her about any search warrants or grand jury subpoenas seeking election materials tied to those lists. The order, in a suit by unions and civil rights groups including the NAACP and LULAC, expires Nov. 16. The Justice Department had no immediate comment.",
+   "why": "It limits federal pressure on the people who run and count the Nov. 3 vote.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-10-30T21:16:00-04:00",
+   "time_known": false,
+   "source": "CNN",
+   "url": "https://edition.cnn.com/2026/10/30/politics/emergency-order-halts-doj-pressure-campaign-election-officials"
+  },
+  {
+   "id": "2026-10-30-poland-constitutional-tribunal-crisis",
+   "section": "news",
+   "text": "Poland's Constitutional Tribunal plunged into crisis Friday as its president was suspended and police secured the court, and President Karol Nawrocki turned his plane back to Warsaw.",
+   "detail": "A judge elected by the current parliament ordered the tribunal's president, Bogdan Swieczkowski, and his deputy to stop their duties; the tribunal's leadership called it illegal. Police were deployed after objects were thrown at officers during protests outside. Nawrocki, an ally of the former Law and Justice (PiS) government, cut short a flight to Senegal, saying the president \"must be in Poland.\" Justice Minister Waldemar Zurek asked to lift the two judges' immunity, and Prime Minister Donald Tusk said restoring the rule of law is the government's duty. PiS leader Jaroslaw Kaczynski called it a coup; the U.S. ambassador urged restraint.",
+   "why": "A fight over control of a NATO ally's top court has turned into a standoff between its president and government.",
+   "impact": 3,
+   "topic": "court",
+   "region": "World",
+   "time": "2026-10-30T16:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/poland-european-union-justice-protests-police-tribunal-67eda2e3a151e00038d85a5e894a2a72"
+  },
+  {
+   "id": "2026-10-30-patriot-sale-ukraine-approved",
+   "section": "news",
+   "text": "The State Department approved a possible $2.1 billion sale of 500 Patriot interceptor missiles to Ukraine on Friday, paid for by allies, not U.S. funds.",
+   "detail": "Canada, Germany and Norway are covering the cost through a U.S. program, along with Ukrainian funds financed by an EU loan, the department said; Lockheed Martin is the main contractor. The proposed sale goes to Congress for review, and no delivery schedule was announced. President Volodymyr Zelenskyy has said Ukraine is short of Patriot missiles to stop Russian ballistic missiles.",
+   "why": "Patriots are Ukraine's main defense against Russian ballistic missiles.",
+   "impact": 2,
+   "topic": "war",
+   "region": "US",
+   "time": "2026-10-30T18:00:00-04:00",
+   "time_known": false,
+   "source": "AP (State Department)",
+   "url": "https://apnews.com/article/trump-ukraine-zelenskyy-patriots-arms-sale-3016a2a6fc0088017478aabeebe75e81"
+  },
+  {
+   "id": "2026-10-30-tech-selloff-nasdaq-intel",
+   "section": "money",
+   "text": "The Nasdaq fell 3.4% Friday, Wall Street's worst day since June, as Intel lost about 30% in its worst day since 1974.",
+   "detail": "The Nasdaq Composite closed at 25,283.66, down 901.06 points, per Nasdaq, and is more than 8% below its Oct. 6 record close. The S&P 500 fell about 2% and the Dow about 1%, Reuters reported, and all three indexes posted a weekly loss. Intel fell after weaker-than-expected guidance that cited a plant shutdown in Israel and soft PC demand; AMD dropped about 12%, Nvidia about 5% and the chip index nearly 9%, while Amazon slipped about 2% after its earnings, on worries that AI spending is not yet paying off. The Nasdaq is headed for its worst month since early 2025.",
+   "why": "Big tech stocks make up a large share of many Americans' 401(k) and index funds.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-30T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP; Nasdaq (index close)",
+   "url": "https://apnews.com/article/stock-markets-ai-alphabet-oil-16c266731fdf64178f38070af2b42497"
+  },
+  {
+   "id": "2026-10-30-novaya-gazeta-to-close",
+   "section": "news",
+   "text": "Novaya Gazeta, Russia's best-known independent newspaper, said it will close on Nov. 9 after pressure from the authorities.",
+   "detail": "In an editorial titled \"They have killed us,\" the paper led by Nobel Peace Prize laureate Dmitry Muratov blamed Russian authorities and security services, saying it received an eviction order and its reader-donation system was shut down. It plans one final issue. There was no immediate Kremlin comment, AP reported. The paper, founded in 1993, suspended print publication in 2022 after Russia's full-scale invasion of Ukraine; Novaya Gazeta Europe operates separately from abroad.",
+   "why": "It removes one of the last major independent news outlets inside Russia.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-10-30T09:00:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/novaya-gazeta-muratov-russia-crackdown-putin-war-ukraine-f73ceb88bd2ef1c65e786a336e6e12db"
+  },
+  {
+   "id": "2026-10-28-flavio-bolsonaro-miami-parole",
+   "section": "news",
+   "text": "Flávio Bolsonaro, defeated in Brazil's runoff, reached Miami on Wednesday, Oct. 28, entering on one-year U.S. humanitarian parole after President Trump approved his entry.",
+   "detail": "Bolsonaro, his wife Fernanda and their two daughters crossed into Argentina at Puerto Iguazú at 10:50 p.m. Tuesday, Argentina's migration authority said, then took a private charter to Guayaquil, Ecuador, and flew on to Miami-Opa Locka Executive Airport, landing about 9:30 a.m. ET, AP reported. A senior State Department official had said the U.S. would issue the family visas, and Trump said he approved, calling the election \"really strange.\" U.S. Customs and Border Protection entry records reported by O Globo and CNN Brasil show the family was admitted under \"DT\" discretionary parole, a temporary humanitarian permission valid until Oct. 27, 2027 that is not a visa or asylum. Brazil's Supreme Court had ordered him to hand over his passports by noon Tuesday in corruption and money-laundering probes, and police canceled them when he did not. Bolsonaro, who denies wrongdoing, said: \"I did not flee Brazil; I left for the sake of Brazil.\" President Lula called the departure \"shameful.\"",
+   "why": "The U.S. let in a foreign candidate who refused to concede and left his country while under criminal investigation.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-10-30T05:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/brazil-election-flavio-bolsonaro-ecuador-argentina-9fc1f409ed993403736dbae07bd74bd8"
+  },
+  {
+   "id": "2026-10-30-education-accreditation-final-rule",
+   "section": "news",
+   "text": "College accreditors must focus on student outcomes and make viewpoint-neutral decisions under a final Education Department rule published Friday, effective July 1, 2027.",
+   "detail": "Accreditors decide which colleges can take part in federal student aid, more than $100 billion a year in Pell Grants and loans, the department said. The rule, which carries out President Trump's executive order on accreditation, requires accreditor decisions to be neutral on viewpoint and ideology (except for agencies with a religious mission), says accreditors may not have standards that encourage race-based admissions targets, and adds reviews of student achievement, academic freedom and intellectual diversity. It makes it easier for colleges to switch accreditors or use more than one, drops geographic limits and the \"two-year rule\" for new accreditors, and adds a tougher review of the biggest institutional accreditors. Colleges must give students written reasons when they deny transfer credit, accept comparable credits and offer an appeal.",
+   "why": "It changes the gatekeepers for every college that takes federal student aid.",
+   "impact": 3,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-10-30T05:00:00-04:00",
+   "time_known": false,
+   "source": "Federal Register (Education Department final rule)",
+   "url": "https://www.federalregister.gov/d/2026-22174"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 4
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-30-cdc-flu-hospitalizations-week-42",
+   "section": "health",
+   "text": "Flu hospitalizations hit their highest rate for this point in the season since 2010-11, CDC's weekly report said Friday, with the first child death reported.",
+   "detail": "In the week ending Oct. 24, the estimated hospitalization rate was 1.9 to 2.5 per 100,000 after accounting for reporting delays, CDC's FluView said; hospitals reported 6,100 flu admissions nationally. Nearly all cases are influenza A(H1N1). CDC estimates at least 1 million illnesses, 16,000 hospitalizations and 900 deaths so far this season. Flu activity is still low nationally but rising in many areas and higher than usual for October; CDC said an early start does not necessarily mean a worse peak. The first pediatric flu death of the 2026-27 season was reported this week.",
+   "why": "An early H1N1-driven flu season could strain hospitals heading into the holidays.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-10-30T12:00:00-04:00",
+   "time_known": false,
+   "source": "CDC FluView",
+   "url": "https://www.cdc.gov/fluview/surveillance/2026-week-42.html"
+  },
+  {
+   "id": "2026-10-29-binance-hack-6-3-billion-north-korea",
+   "section": "finance",
+   "text": "Binance, the world's biggest crypto exchange, lost about $6.3 billion to hackers in the largest crypto theft ever; blockchain firms blame North Korea.",
+   "detail": "Most of the theft unfolded in about 20 minutes beginning late Thursday, Reuters reported. U.S. blockchain analysis firms TRM Labs and Chainalysis said they were highly confident North Korea was responsible; TRM tied it to TraderTraitor, the unit the FBI blamed for the $1.5 billion Bybit hack in 2025. There is no U.S. government attribution yet, and North Korea did not respond to Reuters. Binance halted withdrawals, said user funds are safe and that it will cover the losses, and expects withdrawals to resume within 48 hours; it said a hacked engineer's laptop may have been the entry point. About $3 billion has been located and frozen, including nearly $1.57 billion by Tether and more than $800 million by Circle. Bitcoin hit a six-week low of $76,368 before steadying, and Coinbase shares fell 4.8%.",
+   "why": "It is the largest crypto theft on record, at an exchange with 335 million registered users, and it shook crypto prices.",
+   "impact": 4,
+   "topic": "coin",
+   "region": "US",
+   "time": "2026-10-29T22:00:00-04:00",
+   "time_known": false,
+   "source": "Binance (security incident update); Reuters",
+   "url": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-10-29-brewers-win-world-series",
+   "section": "sports",
+   "text": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays 4-1 in Game 5 Wednesday night.",
+   "detail": "Milwaukee took the Series four games to one at Tropicana Field in St. Petersburg, Fla. Jacob Misiorowski threw 5 2/3 scoreless innings and rookie Cooper Pratt had two hits and two RBIs. Catcher William Contreras was named Series MVP after hitting .381 (8-for-21) with four RBIs; his sixth-inning RBI double scored Christian Yelich for a 3-0 lead. He threw out four would-be base stealers and won 10 of 13 challenges in the first World Series with automated ball-strike reviews. The Rays became the third team to lose their first three World Series.",
+   "why": "It is Milwaukee's first championship in baseball's smallest market.",
+   "impact": 4,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-28T23:30:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/brewers-rays-world-series-game-5-971f9fb8cad75042fc7f9919dd91c159"
+  },
+  {
+   "id": "2026-10-28-fed-holds-rates-two-dissents",
+   "section": "money",
+   "text": "The Federal Reserve held its key interest rate at 3.75% to 4% Wednesday, but two officials voted to raise it, saying inflation is still too high.",
+   "detail": "The vote was 10-2: Governor Lisa Cook and Cleveland Fed President Beth Hammack wanted a quarter-point increase. The statement says the economy is \"expanding at a strong pace,\" job gains have kept pace with the workforce, inflation \"remains elevated,\" and \"the Committee will deliver price stability.\" At his news conference, Chair Kevin Warsh said energy prices have moved higher again and the Fed will fit its next move to incoming data. He also said the Fed will hold fewer rate-setting meetings: in 2027 one of its eight meetings will be devoted only to long-run strategy, and in 2028 two will be, leaving six for rate decisions. Separately, the Bank of Canada raised its policy rate a quarter point to 2.50% Wednesday, its first increase since July 2023, citing higher, more persistent inflation and energy costs, and said more hikes may be needed.",
+   "why": "The Fed's rate drives what Americans pay on credit cards, car loans and many business loans, and two votes for a hike signal pressure to tighten further.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-10-28T14:00:00-04:00",
+   "time_known": true,
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+   "id": "2026-10-27-israel-election-exit-polls-no-majority",
+   "section": "news",
+   "text": "Israel's election produced no clear winner, exit polls show, with neither Netanyahu's bloc nor his opponents near the 61 seats needed to govern.",
+   "detail": "Polls closed at 10 p.m. Israel time (4 p.m. ET). Exit polls from Channels 11, 12 and 13 gave Netanyahu's bloc 50 of the Knesset's 120 seats and the Jewish-led opposition bloc 52 or 53. Netanyahu's Likud was projected as the largest party with 24 to 25 seats, ahead of Gadi Eisenkot's Yashar! at 21 to 23. Arab-led parties were projected to win a record 17 or 18 seats, up from 10. Pro-government Channel 14 and i24 News showed better numbers for Netanyahu's bloc (60 and 55). Turnout was unusually high. The Central Elections Committee is counting votes, and official results can differ from exit polls; President Isaac Herzog will decide who gets the first chance to form a government, a process that could take weeks.",
+   "why": "The vote decides who leads a key U.S. ally during the war with Iran, and a deadlock could mean weeks of uncertainty or another election.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "World",
+   "time": "2026-10-27T16:00:00-04:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-3b5a0fd078208155337ee9a0b9fbfde2"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-02",
+   "when": "After the close",
+   "text": "Apple reports fiscal fourth-quarter results; call 5:00 p.m. ET.",
+   "detail": "Per Apple’s investor relations page: results about 4:30 p.m. ET, call 2:00 p.m. Pacific. First earnings call with John Ternus as CEO.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "when": "10:00 a.m. ET",
+   "text": "October ISM Manufacturing PMI, 10:00 a.m. ET.",
+   "detail": "Date and time per ISM's release calendar; September's reading was 54.5%, the ninth straight month of expansion.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "when": "After the close",
+   "text": "Palantir reports third-quarter results after the close; webcast 5:00 p.m. ET.",
+   "detail": "Date and webcast time per Palantir's Oct. 12 Business Wire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

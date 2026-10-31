@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-31-morning",
+   "date": "2026-10-31",
+   "edition": "morning",
+   "count": 8,
+   "lead": "The Nasdaq fell 3.4% Friday, Wall Street's worst day since June, as Intel lost about 30% in its worst day since 1974."
+  },
+  {
    "key": "2026-10-30-evening",
    "date": "2026-10-30",
    "edition": "evening",
@@ -449,5 +456,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-30T16:39:49-04:00"
+ "updated": "2026-10-31T05:34:34-04:00"
 }

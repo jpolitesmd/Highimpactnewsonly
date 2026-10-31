@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T16:58:00-04:00",
+  "updated": "2026-10-31T05:50:00-04:00",
   "items": [
     {
       "id": "2026-10-30-tech-selloff-nasdaq-intel",
@@ -9866,6 +9866,201 @@
         "cms"
       ],
       "added_at": "2026-10-30T05:43:00-04:00"
+    },
+    {
+      "id": "2026-10-30-judge-halts-doj-threats-election-officials",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "impact": 3,
+      "thread": "midterms-2026",
+      "time": "2026-10-30T21:16:00-04:00",
+      "time_known": false,
+      "text": "The Justice Department must stop threatening to prosecute election officials over alleged noncitizen voters, a federal judge ordered Friday, days before the midterms.",
+      "detail": "U.S. District Judge Trina Thompson in San Francisco issued a temporary restraining order barring the Justice Department and the Department of Homeland Security from demanding that election officials in any state segregate ballots, remove voters from the rolls or halt ballot processing based on the administration's lists of alleged noncitizen voters, and from threats of criminal prosecution. Officials who handle ballots in line with the law \"do not violate federal criminal law\" even if a voter is alleged to be ineligible, she wrote. The administration must also tell her about any search warrants or grand jury subpoenas seeking election materials tied to those lists. The order, in a suit by unions and civil rights groups including the NAACP and LULAC, expires Nov. 16. The Justice Department had no immediate comment.",
+      "why": "It limits federal pressure on the people who run and count the Nov. 3 vote.",
+      "source": "CNN",
+      "url": "https://edition.cnn.com/2026/10/30/politics/emergency-order-halts-doj-pressure-campaign-election-officials",
+      "notes": "Facts checked against full CNN story and full Reuters copy (Oct. 30). reuters.com URL not found.",
+      "tags": [
+        "elections",
+        "justice-department",
+        "courts"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-31-wsj-iran-damage-us-bases",
+      "section": "news",
+      "topic": "war",
+      "region": "US",
+      "impact": 3,
+      "thread": "iran-war",
+      "time": "2026-10-31T00:30:00-04:00",
+      "time_known": true,
+      "text": "Iranian strikes have damaged 274 structures at 24 bases used by U.S. forces, with repairs priced at $5 billion or more, a Wall Street Journal investigation found.",
+      "detail": "The Journal's review of satellite imagery covered installations with a U.S. presence in Kuwait, Bahrain, Jordan, Saudi Arabia, Qatar, the UAE and Iraq. U.S. officials told the paper the Pentagon's internal estimate is at least $5 billion, and one assessment runs as high as $15 billion; those costs are not in the military's $47.1 billion war-cost estimate. After the July ceasefire collapsed, Iran increasingly targeted buildings housing troops, the Journal reported. The Pentagon has not publicly detailed the damage and declined to comment.",
+      "why": "It is the fullest public accounting yet of what the war has cost U.S. bases.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/world/middle-east/iran-war-us-bases-damage-88db3224",
+      "notes": "WSJ paywalled; figures checked across multiple pickups of the Oct. 31 story. All figures attributed to the Journal.",
+      "tags": [
+        "iran",
+        "pentagon",
+        "military"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-30-poland-constitutional-tribunal-crisis",
+      "section": "news",
+      "topic": "court",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-10-30T16:30:00-04:00",
+      "time_known": false,
+      "text": "Poland's Constitutional Tribunal plunged into crisis Friday as its president was suspended and police secured the court, and President Karol Nawrocki turned his plane back to Warsaw.",
+      "detail": "A judge elected by the current parliament ordered the tribunal's president, Bogdan Swieczkowski, and his deputy to stop their duties; the tribunal's leadership called it illegal. Police were deployed after objects were thrown at officers during protests outside. Nawrocki, an ally of the former Law and Justice (PiS) government, cut short a flight to Senegal, saying the president \"must be in Poland.\" Justice Minister Waldemar Zurek asked to lift the two judges' immunity, and Prime Minister Donald Tusk said restoring the rule of law is the government's duty. PiS leader Jaroslaw Kaczynski called it a coup; the U.S. ambassador urged restraint.",
+      "why": "A fight over control of a NATO ally's top court has turned into a standoff between its president and government.",
+      "source": "AP",
+      "url": "https://apnews.com/article/poland-european-union-justice-protests-police-tribunal-67eda2e3a151e00038d85a5e894a2a72",
+      "notes": "Facts checked against full Reuters copy (NBC, Oct. 30) and Anadolu briefing. Impact 2 on substance + Trending: hard bump. Coup language attributed.",
+      "tags": [
+        "poland",
+        "courts",
+        "europe"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-28-spain-urda-train-crash",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-10-28T03:53:00-04:00",
+      "time_known": true,
+      "text": "A high-speed train crash near Urda, Spain, killed at least 69 people Wednesday; investigators say a signaling failure began a chain of errors before the collision.",
+      "detail": "A Renfe train carrying 386 people slammed into the back of a stopped Iryo train on the Madrid-Seville line at an estimated 160 to 200 km/h (about 100 to 125 mph), and more than 200 people were hurt. Spain's accident investigation agency, AITAT, said in a first report that the line's LZB train-control system failed 22 minutes earlier and that a chain of failures, instructions and actions led to the crash without safety barriers working; it reached no final conclusions. It is Spain's second deadly crash on the same line this year after 46 died near Adamuz in January, and it comes a month before national elections.",
+      "why": "Two of Spain's worst rail disasters in one year have shaken trust in Europe's largest high-speed network.",
+      "source": "BBC (AITAT preliminary report)",
+      "url": "https://www.bbc.co.uk/news/articles/ckn9rq8204l0o",
+      "notes": "Catch-up: missed Oct. 28-30. AITAT figures via its Oct. 29 information note as reported by Railway Innovation (railin.net). AP fetch timed out.",
+      "tags": [
+        "spain",
+        "rail",
+        "crash"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-30-ninth-circuit-idaho-abortion-stay",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "court",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T15:00:00-04:00",
+      "time_known": false,
+      "text": "Idaho can enforce its abortion ban against a doctor treating patients whose health, not just life, is at risk while the state appeals, a divided appeals court ruled Friday.",
+      "detail": "A 2-1 Ninth Circuit panel paused U.S. District Judge Lynn Winmill's ruling that barred Idaho from prosecuting maternal-fetal medicine specialist Dr. Stacy Seyb for abortions needed to prevent serious harm to a patient's health; the injunction had been narrowed to Seyb during the appeal. The majority said Idaho is likely to win under the Supreme Court's 2022 Dobbs decision. Judge Marsha Berzon dissented, writing that some women with serious complications will have to continue pregnancies \"at serious, permanent risk to their health.\" The first brief is due Dec. 18.",
+      "why": "It keeps Idaho's near-total ban in force with no health exception during the appeal.",
+      "source": "Courthouse News Service",
+      "url": "https://www.courthousenews.com/idaho-gets-green-light-to-enforce-abortion-ban-in-health-risk-cases/",
+      "tags": [
+        "abortion",
+        "idaho",
+        "courts"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-30-nfl-sunday-ticket-verdict-revived",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "court",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-10-30T13:00:00-04:00",
+      "time_known": false,
+      "text": "The NFL's loss in the \"Sunday Ticket\" antitrust case was revived Friday when a federal appeals court reinstated the jury's verdict and ordered a new trial on damages.",
+      "detail": "A Ninth Circuit panel ruled the trial judge was wrong to throw out the subscribers' expert testimony and the verdict that the NFL's TV deals inflated Sunday Ticket prices. But it agreed the jury's $4.7 billion award ($4.6 billion for about 24 million residential subscribers and $96 million for bars and restaurants) was miscalculated, so a new jury will set damages, which can be tripled under antitrust law. The award itself was not restored.",
+      "why": "The league again faces a multibillion-dollar bill over how it sold out-of-market games.",
+      "source": "U.S. Court of Appeals for the Ninth Circuit (opinion)",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/24-5493/24-5493-2026-10-30.html",
+      "tags": [
+        "nfl",
+        "antitrust",
+        "courts"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-30-patriot-sale-ukraine-approved",
+      "section": "news",
+      "topic": "war",
+      "region": "US",
+      "impact": 2,
+      "thread": "russia-ukraine",
+      "time": "2026-10-30T18:00:00-04:00",
+      "time_known": false,
+      "text": "The State Department approved a possible $2.1 billion sale of 500 Patriot interceptor missiles to Ukraine on Friday, paid for by allies, not U.S. funds.",
+      "detail": "Canada, Germany and Norway are covering the cost through a U.S. program, along with Ukrainian funds financed by an EU loan, the department said; Lockheed Martin is the main contractor. The proposed sale goes to Congress for review, and no delivery schedule was announced. President Volodymyr Zelenskyy has said Ukraine is short of Patriot missiles to stop Russian ballistic missiles.",
+      "why": "Patriots are Ukraine's main defense against Russian ballistic missiles.",
+      "source": "AP (State Department)",
+      "url": "https://apnews.com/article/trump-ukraine-zelenskyy-patriots-arms-sale-3016a2a6fc0088017478aabeebe75e81",
+      "notes": "Facts checked against NBC News and Anadolu reports of the State Department release.",
+      "tags": [
+        "ukraine",
+        "arms-sale"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-30-oman-tanker-riti-crew-evacuated",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-10-30T08:30:00-04:00",
+      "time_known": false,
+      "text": "Oman's navy evacuated all 25 crew from the tanker RITI on Friday after it was attacked and caught fire just off Oman's Musandam coast near the Strait of Hormuz.",
+      "detail": "Oman's Maritime Security Centre said the Panama-flagged vessel was targeted 1.6 nautical miles offshore and the crew received medical care; it gave no other details. Separately, Britain's UKMTO said another vessel caught fire after being hit by an unidentified projectile 40 nautical miles south of Iran's Lavan Island, with all crew reported safe. U.S. Central Command denied an Iranian claim that it destroyed a U.S. unmanned surface vessel in the strait.",
+      "why": "Attacks on ships near Hormuz keep rising and push up oil and shipping costs.",
+      "source": "Oman Maritime Security Centre",
+      "url": "https://www.omanobserver.om/article/1198850/oman/community/royal-navy-of-oman-evacuates-25-crew-members-from-an-attacked-vessel",
+      "notes": "Reuters copy (Oct. 30) confirms. Lavan Island and CENTCOM lines per Anadolu briefing.",
+      "tags": [
+        "hormuz",
+        "shipping",
+        "oman"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-10-29-cornell-state-police-sex-assault",
+      "section": "news",
+      "topic": "security",
+      "region": "US",
+      "impact": 2,
+      "thread": "cornell-assault-case",
+      "time": "2026-10-29T16:00:00-04:00",
+      "time_known": false,
+      "text": "New York State Police will investigate sexual assault complaints at Cornell University under an agreement Gov. Kathy Hochul announced Thursday.",
+      "detail": "Complaints that would normally go to Cornell's campus police will be referred to State Police unless the person reporting asks otherwise, Hochul said; Cornell said survivors can also choose campus police, Ithaca police or the Tompkins County sheriff. State Police cases will be independent of the university, which will assist and share records. The deal lasts through the independent review now under way after a former student's account of a fraternity-house gang rape.",
+      "why": "It takes sex-crime investigations out of the university's hands after criticism of how Cornell handled one.",
+      "source": "Office of Gov. Kathy Hochul",
+      "url": "https://www.governor.ny.gov/news/statement-governor-hochul-0",
+      "notes": "Cornell statement Oct. 29: https://statements.cornell.edu/2026/20261029-agreement-with-new-york-state-police.cfm",
+      "tags": [
+        "cornell",
+        "new-york"
+      ],
+      "added_at": "2026-10-31T05:50:00-04:00"
     }
   ]
 }

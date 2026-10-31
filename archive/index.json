@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-10-31-evening",
+   "date": "2026-10-31",
+   "edition": "evening",
+   "count": 7,
+   "lead": "Trump's planned 250-foot \"Triumphal Arch\" faces a new lawsuit from Virginia and the District of Columbia, filed days before construction is set to begin."
+  },
+  {
    "key": "2026-10-31-morning",
    "date": "2026-10-31",
    "edition": "morning",
@@ -456,5 +463,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-31T05:34:34-04:00"
+ "updated": "2026-10-31T16:39:59-04:00"
 }

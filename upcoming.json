@@ -1,36 +1,6 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "events": [
-    {
-      "date": "2026-10-30",
-      "when": "8:30 a.m. ET",
-      "text": "Third-quarter Employment Cost Index (BLS), 8:30 a.m. ET.",
-      "detail": "Date and time per the BLS ECI release schedule; Fed-watched measure of labor-cost inflation.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "when": "Overnight (Tokyo)",
-      "text": "Bank of Japan interest rate decision and quarterly Outlook Report (meeting Oct. 29–30).",
-      "detail": "Per the BOJ's 2026 meeting schedule. The policy rate is 1.25%, a 31-year high, after a September hike, per Reuters.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-10-30",
-      "when": "Before the open",
-      "text": "ExxonMobil and Chevron report third-quarter results; Exxon release about 6:30 a.m. ET with a 9:30 a.m. ET call, Chevron call 11:00 a.m. ET.",
-      "detail": "Times per ExxonMobil's Oct. 16 Business Wire release (5:30 and 8:30 a.m. Central) and Chevron's investor events page.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-11-02",
       "when": "After the close",
@@ -160,6 +130,16 @@
       "when": "After the close",
       "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
       "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "when": "Before the open",
+      "text": "Disney reports fiscal fourth-quarter and full-year results before the open; webcast 8:30 a.m. ET.",
+      "detail": "Date and webcast time per Disney's Oct. 12 Business Wire announcement.",
       "buzz": true,
       "tags": [
         "markets"

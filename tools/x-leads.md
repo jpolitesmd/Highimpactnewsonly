@@ -13,10 +13,13 @@ Scan: Sunday, Nov. 1, 2026, about 12:10 p.m. EST (midday). U.S. trends are NFL S
 - **Carried over (not yet run): Canada-EU "Alliance for the Future"; Canada to negotiate an "ever-closer association" with the EU.** PMO, https://www.pm.gc.ca/en/news/news-releases/2026/10/30/canada-and-european-union-announce-new-alliance-future-create-greater ; European Council, https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/ ; AP, https://apnews.com/article/canada-eu-carney-trump-d8543b3d496dd2b98d68b4ca13e7f2f8 . Section: World. EU text says "ever-closer association," not "associate member." Trending: moderate. First seen Oct. 31.
 - **Carried over (not yet run): NYT investigation on cuts to U.S. science capacity (2,000+ NIH grants delayed or canceled, NSF withheld $1.4 billion).** Find the nytimes.com link; Quartz on NSF, https://qz.com/national-science-foundation-withheld-research-funds-congress-103126 . Section: Health (Research) or Government. Attribute figures to the NYT. Trending: low. First seen Oct. 31.
 - **Carried over (not yet run): Hackers publish names and assignments of 40,000+ DHS employees; DHS confirms a potential breach.** NPR, https://www.npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice ; WIRED, https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/ . Section: Government. Do not link leaked data. Trending: moderate. First seen Oct. 30.
+- **Carried over (not yet run; "workplace gossip" grade): U.S. Embassy in Moscow warned of a possible mass-casualty attack at the Tsaritsyno museum park; FSB acted on the tip; no attack, site reopened.** Embassy security alert Oct. 31 urged Americans to avoid Tsaritsyno Museum-Reserve; FSB said it received the information and was taking action; museum closed and evacuated, reopened Nov. 1. Sources: Moscow Times, https://www.themoscowtimes.com/2026/10/31/us-embassy-warns-of-potential-mass-casualty-event-in-moscow-2-a94144 ; RIA Novosti (FSB), https://ria.ru/20261031/fsb-2128348352.html ; find the alert at https://ru.usembassy.gov/ . Section: World. Not in items.json. Impact 1-2. Trending: low (one X news summary). Seen 4:05 a.m. EST.
 - **Carried over update candidate: Pennsylvania measles outbreak (1,338 cases); CDC national count near 4,850.** PA DOH, https://www.pa.gov/agencies/health/newsroom/pa-department-of-health-provides-statewide-update-on-measles-out12 . Confirm the CDC weekly number at https://www.cdc.gov/measles/data-research/ before using. Trending: low.
 
 ## Watch
 
+- Dammam, Saudi Arabia: Iranian state media (IRNA, Mehr) report a "Yemeni strike" and large fire at an industrial complex Nov. 1; Saudi authorities have not commented and it is unverified. Run only if Saudi officials, the Saudi-led coalition, or AP/Reuters confirm.
+- Cyclone Murasu landfall overnight Nov. 2-3 (EST Monday afternoon); get damage figures.
 - Judge Tanya Chutkan on the Arlington "triumphal arch" suit: no ruling yet; NCPC vote and possible construction start Nov. 5.
 - Iran: any U.S. strike decision, CENTCOM statement, or Doha talks outcome; UK response to Iran's designations.
 - Fairfield shooting: arrest not yet reported.
@@ -27,12 +30,6 @@ Scan: Sunday, Nov. 1, 2026, about 12:10 p.m. EST (midday). U.S. trends are NFL S
 - Daylight saving time ended 2 a.m. today; times are now EST.
 - Binance phased withdrawal restart today; proof-of-reserves report Monday, Nov. 2 (update 2026-10-29-binance-hack-6-3-billion-north-korea).
 - Possible Afghan deportation flight Monday, Nov. 2. Midterm elections Tuesday, Nov. 3.
-- Dammam, Saudi Arabia: Iranian state media (IRNA, Mehr) report a "Yemeni strike" and large fire at an industrial complex Nov. 1; Saudi authorities have not commented and it is unverified. Run only if Saudi officials, the Saudi-led coalition, or AP/Reuters confirm.
-- Cyclone Murasu landfall overnight Nov. 2-3 (EST Monday afternoon); get damage figures.
-
-## Calendar check
-
-- Possible Afghan deportation flight Monday, Nov. 2. Binance proof-of-reserves report Monday, Nov. 2. Midterm elections Tuesday, Nov. 3.
 
 ## Dropped this scan
 

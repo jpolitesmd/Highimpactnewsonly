@@ -1,6 +1,137 @@
 {
-  "updated": "2026-11-01T05:52:00-05:00",
+  "updated": "2026-11-01T17:00:00-05:00",
   "items": [
+    {
+      "id": "2026-11-01-stevens-endorses-rogers-michigan-senate",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "impact": 4,
+      "thread": "midterms-2026",
+      "time": "2026-11-01T12:00:00-05:00",
+      "time_known": false,
+      "text": "Rep. Haley Stevens, the Democrat who lost Michigan's Senate primary to Abdul El-Sayed, endorsed Republican Mike Rogers on Sunday, two days before the election.",
+      "detail": "Stevens announced the endorsement after attending a service with Rogers at a Detroit church, the same day she was uninvited from a joint event with El-Sayed. \"Abdul said I was no longer welcome in his campaign and that I should stay away, and he's right,\" she said in a video. \"And that's why I am endorsing Mike Rogers.\" Stevens said she would vote for other Democrats and called her choice \"more a statement about standing together against hate\"; she has criticized El-Sayed for not doing enough to reassure Jewish and Black voters. El-Sayed told reporters, \"I actually don't think about Haley Stevens,\" and said voters care about costs, schools and health care. Michigan Democrats condemned the move and President Trump praised it. The Trump-backed Rogers faces El-Sayed Tuesday in one of the races expected to decide Senate control.",
+      "why": "A defeated Democrat crossing over in a toss-up race could shift votes in a contest that may decide which party controls the Senate.",
+      "source": "AP",
+      "url": "https://apnews.com/article/elsayed-michigan-stevens-democrats-unity-midterms-d7053bbd0ed2fd70756896c6e4b66a27",
+      "notes": "Quotes checked against AP, NPR and MLive copies. Substance impact 3; x-leads 'Trending: hard' (Haley Stevens No. 1 U.S. trend) and wire-confirmed, so +1 bump to 4. Not a History entry (endorsement, not a turning point).",
+      "tags": [
+        "michigan",
+        "senate",
+        "midterms"
+      ],
+      "added_at": "2026-11-01T17:00:00-05:00"
+    },
+    {
+      "id": "2026-11-01-judge-dismisses-doj-alaska-senate-suit",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "thread": "midterms-2026",
+      "time": "2026-11-01T12:30:00-05:00",
+      "time_known": false,
+      "text": "The Justice Department's lawsuit to hold up certification of Alaska's Senate race if Sen. Dan Sullivan loses was dismissed Sunday by a federal judge; DOJ appealed.",
+      "detail": "U.S. District Judge Sharon Gleason in Anchorage ruled the United States lacked standing and denied leave to amend, writing that the government offered \"no workable plan\" to set aside ballots cast for Daniel J. Sullivan, a second candidate with a similar name, and investigate them while keeping votes secret. She added that ordering such a change on the eve of the election would likely confuse voters. The department filed a notice of appeal to the 9th Circuit the same day; a spokesperson said the court ruled on procedural grounds and \"Alaskan voters deserve a fair election.\" A separate federal criminal probe into how Daniel J. Sullivan got on the ballot continues. Sullivan faces Democrat Mary Peltola in Tuesday's ranked-choice election.",
+      "why": "It removes, for now, a federal route to delaying the result in a race that could decide Senate control.",
+      "source": "AP",
+      "url": "https://apnews.com/article/alaska-senate-dan-sullivan-peltola-investigation-b35acffc8b55ef58679d9b8395760f98",
+      "notes": "Order: U.S. v. State of Alaska, No. 3:26-cv-00376-SLG (D. Alaska), copy at electionlawblog.org; appeal per CNN/Bloomberg Law; AP page blocked fetching, facts checked against AP summary, CNN and Axios.",
+      "tags": [
+        "alaska",
+        "senate",
+        "doj",
+        "courts"
+      ],
+      "added_at": "2026-11-01T17:00:00-05:00"
+    },
+    {
+      "id": "2026-11-01-binance-resumes-withdrawals",
+      "section": "finance",
+      "topic": "coin",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-11-01T10:30:00-05:00",
+      "time_known": false,
+      "text": "Binance reopened withdrawals in phases Sunday after its $6.3 billion hack, and customers pulled a net $3.6 billion in the first nine and a half hours.",
+      "detail": "The exchange said it has covered 95% of the stolen assets and is still buying the less-liquid remainder, and that \"Binance will bear the financial impact of the stolen funds.\" Withdrawals restarted network by network, beginning with bitcoin, with some networks still partly suspended and delays expected. Between 6 a.m. and 3:30 p.m. UTC (1 a.m. to 10:30 a.m. ET) it processed $4.6 billion in withdrawals and $1.0 billion in deposits, a net outflow equal to 2.1% of assets it holds, it said. The FBI said Saturday that the North Korean group TraderTraitor carried out the theft. Binance plans a proof-of-reserves report Monday and a fuller incident report later.",
+      "why": "It is the first test of whether the world's largest crypto exchange can hold customer money after the biggest crypto theft on record.",
+      "source": "Binance",
+      "url": "https://www.binance.com/en/support/announcement/detail/73911fb819b240f88b88256bdd318eda",
+      "notes": "Update to 2026-10-29-binance-hack-6-3-billion-north-korea. Outflow figures per Binance as reported by TechCrunch; also Reuters (Nov. 1) and AFP. Proof-of-reserves date per x-leads calendar/Binance.",
+      "tags": [
+        "crypto",
+        "binance",
+        "hack"
+      ],
+      "added_at": "2026-11-01T17:00:00-05:00"
+    },
+    {
+      "id": "2026-11-01-iran-qatar-doha-talks-third-day",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-11-01T08:30:00-05:00",
+      "time_known": false,
+      "text": "Iran's talks with Qatari mediators ran a third straight day in Doha on Sunday with no deal, as Tehran's foreign minister urged U.S. \"rationality.\"",
+      "detail": "Foreign Minister Abbas Araqchi said talks on a \"two-day proposal\" were continuing but had reached no final conclusion; he said Saturday the plan would reopen the Strait of Hormuz within two days of an agreement with Washington. An official briefed on the talks told Reuters they are coordinated with Washington. Trump said Sunday his Saturday call with Israeli Prime Minister Benjamin Netanyahu was \"good\"; Axios, citing a U.S. and an Israeli source, reported Netanyahu pressed for strikes right after Tuesday's midterms, which neither government confirmed. Trump has said the U.S. will not attack Iran before the vote.",
+      "why": "The talks are the main channel for reopening Hormuz and avoiding renewed U.S. strikes after the election.",
+      "source": "AP",
+      "url": "https://apnews.com/article/mideast-news-november-1-2026-b918f44d8f212d7daf7f2f9a98c91a0b",
+      "notes": "Araqchi quotes per AP and Reuters (Nov. 1); Trump 'good' call per Reuters; Netanyahu urging attributed to Axios anonymous sources (WH, PMO declined comment). Follow-up to 2026-10-31-trump-iran-one-or-two-sites-rubio-no-decision.",
+      "tags": [
+        "iran",
+        "qatar",
+        "hormuz",
+        "israel"
+      ],
+      "added_at": "2026-11-01T17:00:00-05:00"
+    },
+    {
+      "id": "2026-11-01-bulgaria-iotova-wins-runoff",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-11-01T13:00:00-05:00",
+      "time_known": true,
+      "text": "Bulgaria's acting president, Iliana Iotova, won Sunday's presidential runoff over former caretaker premier Andrey Gyurov, exit polls and early official results show.",
+      "detail": "Five exit polls gave Iotova 50.7% to 52.5% against 43.4% to 44.7% for Gyurov, with pollsters calling a reversal highly unlikely; early Central Election Commission returns with about 17% of precincts counted had her near 58%. Turnout was under 30%. Iotova, 61, has served as acting head of state since Rumen Radev resigned in January; she favors dialogue with Moscow and opposes more military aid to Ukraine, while Gyurov backs Kyiv. She would be the first woman directly elected Bulgaria's president, a largely ceremonial post with a role in foreign policy and naming caretaker governments. Final results are due within three days.",
+      "why": "An EU and NATO member on the Black Sea, where drones have hit ships off its coast, elected a president skeptical of aid to Ukraine.",
+      "source": "Bulgarian National Radio",
+      "url": "https://bnrnews.bg/en/post/551552/exit-poll-iliana-iotova-is-bulgarias-new-president",
+      "notes": "Polls closed 8 p.m. Sofia (1 p.m. ET). Exit-poll range and background per bne IntelliNews; CEC partial count per Blitz. Not final official result.",
+      "tags": [
+        "bulgaria",
+        "election"
+      ],
+      "added_at": "2026-11-01T17:00:00-05:00"
+    },
+    {
+      "id": "2026-11-01-nyc-marathon-almgren-chepkirui",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-11-01T11:30:00-05:00",
+      "time_known": false,
+      "text": "Sweden's Andreas Almgren won the New York City Marathon in his first marathon, and Kenya's Sheila Chepkirui won the women's race for the second time.",
+      "detail": "Almgren finished in 2:06:01, the third-fastest time in the race's history, 13 seconds ahead of Italy's Yemaneberhan Crippa. Chepkirui won in 2:24:36; American Jessica McClain edged two-time winner Hellen Obiri for second, the first U.S. woman in the top three since 2018. Zouhair Talbi was sixth in the fastest New York time by a U.S. man. Switzerland's Marcel Hug won the men's wheelchair race for an eighth time and Catherine Debrunner the women's. About 60,000 runners started the race, which marked 50 years on its five-borough course.",
+      "why": "New York's is the world's largest marathon and the year's last major.",
+      "source": "AP",
+      "url": "https://apnews.com/article/almgren-sweden-debut-nyc-marathon-c32d7b0c7710fd369d67759f024f0ba2",
+      "notes": "Times per World Athletics results. World Marathon Major title decided, impact 3.",
+      "tags": [
+        "marathon",
+        "new-york"
+      ],
+      "added_at": "2026-11-01T17:00:00-05:00"
+    },
     {
       "id": "2026-11-01-eu-2-euro-parcel-handling-fee",
       "section": "money",
@@ -10317,7 +10448,7 @@
       "time": "2026-10-31T00:30:00-04:00",
       "time_known": true,
       "text": "Iranian strikes have damaged 274 structures at 24 bases used by U.S. forces, with repairs priced at $5 billion or more, a Wall Street Journal investigation found.",
-      "detail": "The Journal's review of satellite imagery covered installations with a U.S. presence in Kuwait, Bahrain, Jordan, Saudi Arabia, Qatar, the UAE and Iraq. U.S. officials told the paper the Pentagon's internal estimate is at least $5 billion, and one assessment runs as high as $15 billion; those costs are not in the military's $47.1 billion war-cost estimate. After the July ceasefire collapsed, Iran increasingly targeted buildings housing troops, the Journal reported. The Pentagon has not publicly detailed the damage and declined to comment.",
+      "detail": "The Journal's review of satellite imagery covered installations with a U.S. presence in Kuwait, Bahrain, Jordan, Saudi Arabia, Qatar, the UAE and Iraq. U.S. officials told the paper the Pentagon's internal estimate is at least $5 billion, and one assessment runs as high as $15 billion; those costs are not in the military's $47.1 billion war-cost estimate. After the July ceasefire collapsed, Iran increasingly targeted buildings housing troops, the Journal reported. The Pentagon has not publicly detailed the damage and declined to comment. A separate AP analysis of satellite imagery, published Oct. 31, found more than 115 Iranian or Iranian-backed strikes through August damaged or destroyed structures at 26 bases and other sites with U.S. equipment, hitting early-warning and air-defense systems first.",
       "why": "It is the fullest public accounting yet of what the war has cost U.S. bases.",
       "source": "Wall Street Journal",
       "url": "https://www.wsj.com/world/middle-east/iran-war-us-bases-damage-88db3224",

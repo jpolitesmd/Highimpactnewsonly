@@ -1,6 +1,182 @@
 {
-  "updated": "2026-10-31T16:55:00-04:00",
+  "updated": "2026-11-01T05:52:00-05:00",
   "items": [
+    {
+      "id": "2026-11-01-eu-2-euro-parcel-handling-fee",
+      "section": "money",
+      "money_beat": "prices",
+      "topic": "trade",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-10-31T19:00:00-04:00",
+      "time_known": false,
+      "text": "A new EU fee of 2 euros per item on online purchases shipped from outside the bloc took effect Sunday, on top of the 3-euro duty in place since July.",
+      "detail": "The European Commission's Union handling fee applies to e-commerce goods sent to consumers from outside the EU regardless of value, per distinct item, and is meant to cover rising customs costs. Ireland's Revenue service says the fee is non-refundable and does not apply to gifts between private individuals; under the EU reform, non-EU platforms and sellers are responsible for import formalities and payments. The EU says 5.9 billion low-value e-commerce items entered in 2025, more than 90% from China. It applies from Nov. 1 (midnight in Brussels, 7 p.m. ET Saturday).",
+      "why": "It raises the cost of cheap overseas online orders, such as from Temu and Shein, across the EU's 27 countries.",
+      "source": "European Commission",
+      "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+      "notes": "Non-refundable and gift exemption per Revenue.ie guidance. Temu/Shein named only as examples of non-EU platforms in 'why'.",
+      "tags": [
+        "eu",
+        "tariffs",
+        "e-commerce"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-10-31-france-protests-third-weekend",
+      "section": "news",
+      "topic": "protest",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "thread": "france-protests",
+      "time": "2026-10-31T18:00:00-04:00",
+      "time_known": false,
+      "text": "France's third weekend of cost-of-living protests drew about 320,000 people Saturday, fewer than the week before, and police arrested 565 after clashes with rioters.",
+      "detail": "The Interior Ministry counted some 320,000 marchers nationwide, including 70,000 in Paris; organizers said nearly half a million. Four police officers and a gendarme were injured in Paris, three burned by Molotov cocktails; Interior Minister Laurent Nunez called one firebombing an \"attempted murder.\" A night curfew from 11 p.m. to 6 a.m. was imposed Saturday and Sunday in Paris's Republique and Chatelet-Les Halles areas. The next protest day is Nov. 5.",
+      "why": "Sustained unrest adds pressure in France months before a presidential election.",
+      "source": "AFP",
+      "url": "https://www.afp.com/en/clashes-break-out-hundreds-thousands-protest-france",
+      "notes": "Earlier weekends 410,000 and 550,000 per Interior Ministry (franceinfo); not stated in AFP text, so left out.",
+      "tags": [
+        "france",
+        "protests"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-11-01-kstovo-refinery-drone-attack",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "thread": "russia-ukraine",
+      "time": "2026-11-01T01:00:00-05:00",
+      "time_known": false,
+      "text": "A \"massive\" Ukrainian drone attack overnight left an industrial plant in Russia's Kstovo district with \"significant damage,\" the regional governor said; Ukrainian media said it was a major refinery.",
+      "detail": "Nizhny Novgorod Gov. Gleb Nikitin said more than 100 drones were destroyed, there were no casualties according to preliminary information, and some homes could see temporary cuts to power, heat and hot water during repairs. He did not name the plant. Ukrainian media and war-monitoring channels identified it as Lukoil's Kstovo refinery (Lukoil-Nizhegorodnefteorgsintez). Russian Deputy Prime Minister Alexander Novak said Ukraine had resumed refinery strikes after a pause, according to AFP.",
+      "why": "Ukraine has resumed strikes on Russian oil refineries after a pause.",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/11/01/russia-says-massive-drone-attack-targeted-industrial-enterprise-amid-reports-oil-refinery-",
+      "notes": "AFP copy (Arab News) confirms governor quotes and resumption. Refinery ID attributed to Ukrainian media; Lukoil/General Staff not confirmed. Routine Russia-Ukraine: never lead.",
+      "tags": [
+        "russia",
+        "ukraine",
+        "energy"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-10-30-qatar-lng-carrier-al-mayeda-hit",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-10-30T18:00:00-04:00",
+      "time_known": false,
+      "text": "Qatar's LNG carrier Al Mayeda was hit by \"unidentified objects\" in the Gulf on Friday evening, its owner Nakilat said; no crew were hurt.",
+      "detail": "Qatar Gas Transport Company (Nakilat) said the ship was struck while transiting the Arabian Gulf on Oct. 30, is in a safe condition and operational, caused no environmental impact, and that damage is being assessed in coordination with regional maritime security authorities. It did not say where the ship was or who was responsible.",
+      "why": "A hit on a Qatari gas tanker adds energy-shipping risk in the Gulf during the Iran war.",
+      "source": "Nakilat",
+      "url": "https://www.nakilat.com/al-mayeda-vessel-incident-in-the-arabian-gulf/",
+      "notes": "Statement posted about 1 a.m. ET Nov. 1. Not merged with UKMTO's Lavan Island report (Oct. 30 RITI item) since no source links them.",
+      "tags": [
+        "hormuz",
+        "shipping",
+        "qatar",
+        "lng"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-11-01-iran-designates-uk-navy-raf-terrorist",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-11-01T03:00:00-05:00",
+      "time_known": false,
+      "text": "Iran designated Britain's Royal Navy and Royal Air Force \"terrorist\" organizations and MI6 a \"hostile group\" on Sunday.",
+      "detail": "The Iranian Foreign Ministry, in a statement carried by state news agency IRNA, said the step followed a Supreme National Security Council resolution and answered Britain's July 13 move to bring Iran's Islamic Revolutionary Guard Corps under its State Threats Act 2026. Tehran also accused London of joining the U.S.-Israeli war on Iran by providing bases, and said the British government bears responsibility for the consequences. No British government response had been reported by early Sunday.",
+      "why": "It widens Iran's confrontation to a U.S. ally whose forces operate in the Gulf.",
+      "source": "Anadolu Agency",
+      "url": "https://www.aa.com.tr/en/middle-east/iran-designates-british-navy-air-force-as-terrorist-organizations/4107764",
+      "notes": "Ministry statement text also via Tasnim and TASS; no AP/Reuters copy or UK FCDO response found at 5:50 a.m.",
+      "tags": [
+        "iran",
+        "uk"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-10-31-trump-iran-one-or-two-sites-rubio-no-decision",
+      "section": "news",
+      "topic": "conflict",
+      "region": "US",
+      "impact": 3,
+      "thread": "iran-war",
+      "time": "2026-10-31T21:00:00-04:00",
+      "time_known": false,
+      "text": "Trump said Saturday that \"one or two\" Iranian nuclear sites remain and the U.S. could hit them \"in ten minutes,\" while Rubio said no strike decision has been made.",
+      "detail": "Speaking to reporters at a Halloween party at Mar-a-Lago, Trump said the U.S. is \"not in that much of a hurry\" because it has \"knocked down their Navy\" and air force, mentioned the Pickaxe Mountain site, and said talks with Iran are \"going fine\" but Tehran is \"not very reliable.\" Earlier Saturday, Secretary of State Marco Rubio, hosting G20 foreign ministers in Atlanta, said Trump \"hasn't made a decision\" on resuming strikes and prefers a diplomatic solution. The Wall Street Journal, citing people familiar with it, reported that Trump spoke by phone with Israeli Prime Minister Benjamin Netanyahu on Saturday; neither government has described the call.",
+      "why": "It signals renewed U.S. strikes on Iran remain an option days before the midterms as talks stall.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/live-news/us-iran-war-trump-israel-strait-hormuz-10-31-26",
+      "notes": "Trump quotes on camera (Fox News, Iran International, Israel Hayom consistent); Rubio also per AFP (Arab News copy). No AP/Reuters text found for the quote by 5:50 a.m. Netanyahu call attributed to WSJ (people familiar).",
+      "tags": [
+        "iran",
+        "trump",
+        "rubio"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-10-31-judge-dismisses-trump-wsj-suit",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-10-31T18:00:00-04:00",
+      "time_known": false,
+      "text": "Trump's $10 billion defamation lawsuit against The Wall Street Journal and Rupert Murdoch was dismissed for good Saturday by a federal judge in Miami.",
+      "detail": "U.S. District Judge Darrin Gayles dismissed the amended suit with prejudice, meaning it cannot be refiled, ruling that Trump did not plausibly allege the Journal acted with actual malice, the standard set by the Supreme Court's 1964 New York Times v. Sullivan decision. \"Grasping at straws, the Amended Complaint attempts to manufacture flaws with the investigation,\" Gayles wrote, calling the paper's work a \"thoughtful and detailed investigation.\" The suit was over a July 2025 story on a sexually suggestive letter bearing Trump's name in a 2003 album for Jeffrey Epstein's 50th birthday; Trump denies writing it. Gayles first dismissed the case in April and allowed an amended complaint, filed in May. The White House did not respond to AP's request for comment; CNBC reported Trump plans to appeal.",
+      "why": "It ends, at the trial-court level, the president's highest-profile suit against a major newspaper.",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-media-lawsuit-wall-street-journal-dismissed-f27c9fa832044f2f9edea9b1fbbba061",
+      "notes": "Full AP text verified via member copy (the-journal.com); CNBC for 20-page ruling and appeal plan; Reuters copy consistent.",
+      "tags": [
+        "trump",
+        "media",
+        "courts"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
+    {
+      "id": "2026-10-31-valkyries-win-wnba-title",
+      "section": "sports",
+      "topic": "sports",
+      "region": "US",
+      "impact": 4,
+      "time": "2026-10-31T22:15:00-04:00",
+      "time_known": false,
+      "text": "The Golden State Valkyries won the WNBA championship in only their second season, beating the Atlanta Dream 68-63 Saturday in the first Game 7 in Finals history.",
+      "detail": "Gabby Williams scored 30 points, 28 of them in the second half, and was named Finals MVP; she joined Penny Taylor (Phoenix, 2007) as the only players to score 30 or more in a winner-take-all Finals game. Golden State won the series 4-3 before 18,064 fans at Chase Center in San Francisco. Kiah Stokes had 13 rebounds and won her fourth title. For Atlanta, Jordin Canada scored 18, Allisha Gray 16, and Angel Reese had 8 points and 12 rebounds. It was Atlanta's fourth Finals loss.",
+      "why": "A 2025 expansion team won a major U.S. pro title faster than almost any franchise in modern history.",
+      "source": "AP",
+      "url": "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4",
+      "notes": "Full AP text verified via ESPN's AP copy (recap gameId 401918311); AP page blocks fetching. Championship: sports rule impact 4, no trending bump.",
+      "tags": [
+        "wnba"
+      ],
+      "added_at": "2026-11-01T05:52:00-05:00"
+    },
     {
       "id": "2026-10-31-dc-virginia-sue-trump-arch",
       "pin": "2026-10-31 evening",

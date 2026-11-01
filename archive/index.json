@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-01-morning",
+   "date": "2026-11-01",
+   "edition": "morning",
+   "count": 9,
+   "lead": "The Golden State Valkyries won the WNBA championship in only their second season, beating the Atlanta Dream 68-63 Saturday in the first Game 7 in Finals history."
+  },
+  {
    "key": "2026-10-31-evening",
    "date": "2026-10-31",
    "edition": "evening",
@@ -463,5 +470,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-10-31T16:39:59-04:00"
+ "updated": "2026-11-01T05:30:52-05:00"
 }

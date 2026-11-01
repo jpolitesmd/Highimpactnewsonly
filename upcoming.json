@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "events": [
     {
       "date": "2026-11-02",
@@ -146,11 +146,31 @@
       ]
     },
     {
+      "date": "2026-11-18",
+      "when": "2:00 p.m. ET",
+      "text": "Minutes of the Fed's Oct. 27-28 meeting, 2:00 p.m. ET.",
+      "detail": "The Fed releases minutes three weeks after each policy decision, per its FOMC calendar page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-12-01",
       "when": "December",
       "branch": "judicial",
       "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
       "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+    },
+    {
+      "date": "2026-12-09",
+      "when": "2:00 p.m. ET",
+      "text": "Fed interest-rate decision and new economic projections, ending the Dec. 8-9 meeting.",
+      "detail": "Meeting dates per the Fed's FOMC calendar; this meeting includes a Summary of Economic Projections.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
     },
     {
       "date": "2026-12-11",

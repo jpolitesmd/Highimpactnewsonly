@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-02-morning",
+   "date": "2026-11-02",
+   "edition": "morning",
+   "count": 8,
+   "lead": "A business jet that crashed into a Greenacres, Fla., neighborhood Sunday, killing all nine aboard, went into a steep dive after its pilots reported icing and turbulence."
+  },
+  {
    "key": "2026-11-01-evening",
    "date": "2026-11-01",
    "edition": "evening",
@@ -477,5 +484,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-01T16:49:13-05:00"
+ "updated": "2026-11-02T05:29:19-05:00"
 }

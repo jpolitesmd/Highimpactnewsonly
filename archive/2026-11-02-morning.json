@@ -1,0 +1,179 @@
+{
+ "date": "2026-11-02",
+ "edition": "morning",
+ "subject": "Monday, Nov 2 - Morning edition",
+ "published": "2026-11-02T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-01-greenacres-learjet-crash",
+   "section": "news",
+   "text": "A business jet that crashed into a Greenacres, Fla., neighborhood Sunday, killing all nine aboard, went into a steep dive after its pilots reported icing and turbulence.",
+   "detail": "The Learjet 60, flying from Austin-Bergstrom International Airport in Texas to North Eleuthera in the Bahamas, crashed near a busy Palm Beach County roadway at 12:50 p.m. Sunday, Transportation Secretary Sean Duffy said, calling it a \"horrific tragedy.\" Cruising east at 35,000 feet, the pilots reported turbulence, icing and precipitation and asked to climb 2,000 feet; moments later the jet dove at up to 30,000 feet per minute, beyond its design limits, according to air traffic control recordings and flight tracking data reported by AP. A pilot declared an emergency before impact. Gov. Ron DeSantis said there were no immediate reports of anyone hurt on the ground. About 600 residents of a nearby mobile home community were evacuated. The victims have not been identified. The NTSB leads the investigation with FAA support and scheduled a media briefing Monday in West Palm Beach.",
+   "why": "It is one of the deadliest U.S. plane crashes this year, and it came down feet from homes and traffic.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-11-02T01:58:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39"
+  },
+  {
+   "id": "2026-11-02-fbi-interviews-alaska-sullivan-donors",
+   "section": "news",
+   "text": "The Justice Department appealed the dismissal of its Alaska Senate lawsuit, as FBI agents questioned donors to Dan J. Sullivan, the candidate sharing Sen. Dan Sullivan's name.",
+   "detail": "A federal judge dismissed the department's suit, which sought to block certification of the race if Republican Sen. Dan S. Sullivan loses, on Sunday, and the department quickly appealed. FBI agents interviewed donors in Petersburg, Alaska, on Friday and Saturday as federal authorities expanded a monthslong criminal probe into allegations that Democratic campaigners recruited candidates to run against the senator; donors said agents asked whether they had felt deceived or meant to give to the senator, and one said agents cited possible \"campaign finance\" violations. Dan J. Sullivan's campaign raised $7,150, mostly from Petersburg. He has said he entered the race on his own and had no contact with Democrat Mary Peltola's campaign; Peltola denies any role. No charges have been filed. Tuesday's race could decide Senate control.",
+   "why": "A federal criminal probe is reaching ordinary donors two days before a race that may decide the Senate.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-01T21:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/dan-sullivan-peltola-alaska-senate-dirty-trick-ebb965811fbc1c894089071b37e0011b"
+  },
+  {
+   "id": "2026-11-02-oil-falls-iran-talks",
+   "section": "money",
+   "text": "Oil fell about 4% early Monday, pushing U.S. crude below $100 a barrel, on hopes that Qatar-mediated talks could end the Iran war.",
+   "detail": "Brent crude for January fell 3.9% to $109.00 a barrel and U.S. West Texas Intermediate for December fell 4.1% to $99.85 as of 4:07 a.m. ET. Secretary of State Marco Rubio said over the weekend that President Trump has not made a decision and would \"prefer to do it peacefully.\" Brent ended October at a six-month high on concern fighting could resume after Tuesday's midterms. OPEC+ kept December output targets unchanged on Sunday.",
+   "why": "Oil prices feed straight into gasoline, diesel and shipping costs Americans pay.",
+   "impact": 2,
+   "topic": "energy",
+   "region": "US",
+   "time": "2026-11-02T04:07:00-05:00",
+   "time_known": true,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+  },
+  {
+   "id": "2026-11-02-oleshky-truce-ends-kherson-attacks",
+   "section": "news",
+   "text": "Russia resumed attacks on Ukraine's Kherson region after the six-day Oleshky truce expired Sunday night, and Kyiv said Russian forces used the pause to reinforce.",
+   "detail": "The truce, brokered through first lady Melania Trump with Pope Leo's involvement, began Oct. 27 and expired at 2100 GMT (4 p.m. ET) Sunday after Moscow refused an extension, Ukrainian officials said; nearly 800 people were evacuated. Ukraine's General Staff said Russia rotated units, fortified positions and delivered ammunition during the pause; Kremlin spokesman Dmitry Peskov suggested Ukraine had also regrouped, calling it \"standard practice.\" A drone hit central Kherson on Monday, damaging a medical facility. Separately, President Zelenskyy told Fox News that Ukraine would halt strikes on Russian refineries for a month if the U.S. supplied Patriot interceptors for that month.",
+   "why": "The longest local pause in the war is over, and fighting is expected to intensify around Kherson.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-02T03:00:00-05:00",
+   "time_known": false,
+   "source": "RFE/RL",
+   "url": "https://www.rferl.org/a/zelenskyy-patriot-missile-russia-refinery-trump/33888449.html"
+  },
+  {
+   "id": "2026-11-02-saudi-intercepts-houthi-missile",
+   "section": "news",
+   "text": "Saudi air defenses intercepted and destroyed a Houthi ballistic missile fired toward southern Saudi Arabia on Monday, the Saudi Defense Ministry said.",
+   "detail": "Saudi Civil Defense issued warnings in Taif, Abha, Najran and Khamis Mushait as a precaution and lifted them after the threat passed. No casualties or target were reported. The Iran-aligned Houthis have attacked Saudi energy infrastructure in recent weeks.",
+   "why": "Houthi missile fire at Saudi Arabia widens the Gulf war's threat to oil supplies.",
+   "impact": 2,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-02T01:21:00-05:00",
+   "time_known": false,
+   "source": "Saudi Defense Ministry (via Arab News)",
+   "url": "https://www.arabnews.com/saudi-arabia/air-defenses-intercept-destroy-ballistic-missile-launched-toward-southern-saudi-arabia-3009380"
+  },
+  {
+   "id": "2026-11-01-stevens-endorses-rogers-michigan-senate",
+   "section": "news",
+   "text": "Rep. Haley Stevens, the Democrat who lost Michigan's Senate primary to Abdul El-Sayed, endorsed Republican Mike Rogers on Sunday, two days before the election.",
+   "detail": "Stevens announced the endorsement after attending a service with Rogers at a Detroit church, the same day she was uninvited from a joint event with El-Sayed. \"Abdul said I was no longer welcome in his campaign and that I should stay away, and he's right,\" she said in a video. \"And that's why I am endorsing Mike Rogers.\" Stevens said she would vote for other Democrats and called her choice \"more a statement about standing together against hate\"; she has criticized El-Sayed for not doing enough to reassure Jewish and Black voters. El-Sayed told reporters, \"I actually don't think about Haley Stevens,\" and said voters care about costs, schools and health care. Michigan Democrats condemned the move and President Trump praised it. The Trump-backed Rogers faces El-Sayed Tuesday in one of the races expected to decide Senate control.",
+   "why": "A defeated Democrat crossing over in a toss-up race could shift votes in a contest that may decide which party controls the Senate.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-01T12:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/elsayed-michigan-stevens-democrats-unity-midterms-d7053bbd0ed2fd70756896c6e4b66a27"
+  },
+  {
+   "id": "2026-11-01-judge-dismisses-doj-alaska-senate-suit",
+   "section": "news",
+   "text": "The Justice Department's lawsuit to hold up certification of Alaska's Senate race if Sen. Dan Sullivan loses was dismissed Sunday by a federal judge; DOJ appealed.",
+   "detail": "U.S. District Judge Sharon Gleason in Anchorage ruled the United States lacked standing and denied leave to amend, writing that the government offered \"no workable plan\" to set aside ballots cast for Daniel J. Sullivan, a second candidate with a similar name, and investigate them while keeping votes secret. She added that ordering such a change on the eve of the election would likely confuse voters. The department filed a notice of appeal to the 9th Circuit the same day; a spokesperson said the court ruled on procedural grounds and \"Alaskan voters deserve a fair election.\" A separate federal criminal probe into how Daniel J. Sullivan got on the ballot continues. Sullivan faces Democrat Mary Peltola in Tuesday's ranked-choice election.",
+   "why": "It removes, for now, a federal route to delaying the result in a race that could decide Senate control.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-01T12:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/alaska-senate-dan-sullivan-peltola-investigation-b35acffc8b55ef58679d9b8395760f98"
+  },
+  {
+   "id": "2026-11-01-binance-resumes-withdrawals",
+   "section": "finance",
+   "text": "Binance reopened withdrawals in phases Sunday after its $6.3 billion hack, and customers pulled a net $3.6 billion in the first nine and a half hours.",
+   "detail": "The exchange said it has covered 95% of the stolen assets and is still buying the less-liquid remainder, and that \"Binance will bear the financial impact of the stolen funds.\" Withdrawals restarted network by network, beginning with bitcoin, with some networks still partly suspended and delays expected. Between 6 a.m. and 3:30 p.m. UTC (1 a.m. to 10:30 a.m. ET) it processed $4.6 billion in withdrawals and $1.0 billion in deposits, a net outflow equal to 2.1% of assets it holds, it said. The FBI said Saturday that the North Korean group TraderTraitor carried out the theft. Binance plans a proof-of-reserves report Monday and a fuller incident report later.",
+   "why": "It is the first test of whether the world's largest crypto exchange can hold customer money after the biggest crypto theft on record.",
+   "impact": 3,
+   "topic": "coin",
+   "region": "US",
+   "time": "2026-11-01T10:30:00-05:00",
+   "time_known": false,
+   "source": "Binance",
+   "url": "https://www.binance.com/en/support/announcement/detail/73911fb819b240f88b88256bdd318eda"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 3
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-10-31-valkyries-win-wnba-title",
+   "section": "sports",
+   "text": "The Golden State Valkyries won the WNBA championship in only their second season, beating the Atlanta Dream 68-63 Saturday in the first Game 7 in Finals history.",
+   "detail": "Gabby Williams scored 30 points, 28 of them in the second half, and was named Finals MVP; she joined Penny Taylor (Phoenix, 2007) as the only players to score 30 or more in a winner-take-all Finals game. Golden State won the series 4-3 before 18,064 fans at Chase Center in San Francisco. Kiah Stokes had 13 rebounds and won her fourth title. For Atlanta, Jordin Canada scored 18, Allisha Gray 16, and Angel Reese had 8 points and 12 rebounds. It was Atlanta's fourth Finals loss.",
+   "why": "A 2025 expansion team won a major U.S. pro title faster than almost any franchise in modern history.",
+   "impact": 4,
+   "topic": "sports",
+   "region": "US",
+   "time": "2026-10-31T22:15:00-04:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-02",
+   "when": "After the close",
+   "text": "Apple reports fiscal fourth-quarter results; call 5:00 p.m. ET.",
+   "detail": "Per Apple’s investor relations page: results about 4:30 p.m. ET, call 2:00 p.m. Pacific. First earnings call with John Ternus as CEO.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "when": "10:00 a.m. ET",
+   "text": "October ISM Manufacturing PMI, 10:00 a.m. ET.",
+   "detail": "Date and time per ISM's release calendar; September's reading was 54.5%, the ninth straight month of expansion.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "when": "After the close",
+   "text": "Palantir reports third-quarter results after the close; webcast 5:00 p.m. ET.",
+   "detail": "Date and webcast time per Palantir's Oct. 12 Business Wire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-02-evening",
+   "date": "2026-11-02",
+   "edition": "evening",
+   "count": 8,
+   "lead": "The false-statements case against two former FBI officials over the Hunter Biden laptop was dismissed Monday by a federal magistrate judge who called it \"weaponization.\""
+  },
+  {
    "key": "2026-11-02-morning",
    "date": "2026-11-02",
    "edition": "morning",
@@ -484,5 +491,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-02T05:29:19-05:00"
+ "updated": "2026-11-02T16:44:49-05:00"
 }

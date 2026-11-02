@@ -1,6 +1,200 @@
 {
-  "updated": "2026-11-02T05:47:00-05:00",
+  "updated": "2026-11-02T16:50:00-05:00",
   "items": [
+    {
+      "id": "2026-11-02-doj-asks-scotus-california-mail-ballots",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "thread": "midterms-2026",
+      "branch": [
+        "executive",
+        "judicial"
+      ],
+      "judicial": true,
+      "court": "Supreme Court of the United States",
+      "impact": 4,
+      "time": "2026-11-02T11:13:00-05:00",
+      "time_known": true,
+      "text": "California's mail ballots from about 20,000 people the government suspects are noncitizens are now before the Supreme Court, after the Trump administration asked it Monday to order them set aside.",
+      "detail": "Solicitor General D. John Sauer filed an emergency application (No. 26A624), submitted to Justice Elena Kagan, seeking an injunction pending appeal and an immediate administrative order, after a district court and a divided Ninth Circuit panel refused. California says the federal list is unreliable and includes many citizens. The Court set no deadline and had not acted by Monday evening; Election Day is Tuesday.",
+      "why": "The Court could decide on the eve of the midterms whether thousands of cast ballots count.",
+      "source": "Supreme Court of the United States",
+      "url": "https://www.supremecourt.gov/DocketPDF/26/26A624/431463/20261102111302952_California%20Application.pdf",
+      "notes": "AP: https://apnews.com/article/midterm-elections-immigration-voter-fraud-trump-48998968a23a4af2f59eaea3dba4d2f3 . Trending: hard (bump 3 to 4).",
+      "tags": [
+        "supreme-court",
+        "california",
+        "mail-ballots",
+        "noncitizen-voting"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-judge-dismisses-ex-fbi-officials-case",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 4,
+      "time": "2026-11-02T14:00:00-05:00",
+      "time_known": false,
+      "text": "The false-statements case against two former FBI officials over the Hunter Biden laptop was dismissed Monday by a federal magistrate judge who called it \"weaponization.\"",
+      "detail": "Ruling from the bench for about an hour, U.S. Magistrate Judge Zia Faruqui of the District of Columbia found no probable cause on any element of the charge that Nikki Floris and Bradley Benavides lied to the House Judiciary Committee in 2023. The Justice Department said it \"disagrees\" and is \"evaluating all options\"; it could appeal to the chief judge or seek a grand jury indictment.",
+      "why": "A judge rejected at the first step a prosecution of former FBI officials brought by this Justice Department.",
+      "source": "AP",
+      "url": "https://apnews.com/article/fbi-hunter-biden-laptop-justice-department-101ccd65d10b5f779985747eb0045b52",
+      "notes": "CBS: https://www.cbsnews.com/news/judge-dismisses-ex-fbi-officials-hunter-biden-case/ . Follows 2026-10-23-ex-fbi-officials-charged-lying-congress-hunter-biden. Trending: hard (bump 3 to 4).",
+      "tags": [
+        "fbi",
+        "justice-department",
+        "hunter-biden"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-marvell-to-buy-lumentum",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-11-02T07:00:00-05:00",
+      "time_known": false,
+      "text": "Lumentum is being bought by Marvell in an all-stock deal valued at $115 billion, one of the largest tech acquisitions ever, the companies said Monday.",
+      "detail": "Lumentum holders would get 4.5 Marvell shares for each share, and Marvell holders would own about 67% of the combined company, which targets AI data-center connections. The deal needs shareholder and regulatory approval and is expected to close in the first half of 2028.",
+      "why": "It is one of the biggest bets yet on the hardware that links AI data centers.",
+      "source": "Marvell Technology",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+      "notes": "8-K: https://investor.marvell.com/sec-filings/all-sec-filings/content/0001193125-26-442714/0001193125-26-442714.pdf",
+      "tags": [
+        "mergers",
+        "ai",
+        "chips"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-arizona-florida-flooding",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-11-02T12:00:00-05:00",
+      "time_known": false,
+      "text": "Oak Creek in Sedona, Ariz., rose from about 3 feet to nearly 18 feet in what officials called unprecedented flooding, forcing more than 100 homes to evacuate.",
+      "detail": "Oak Creek's flow hit about 20,000 cubic feet per second Sunday evening, about 100 times normal; evacuation orders also covered Camp Verde, Cottonwood, Rimrock and Winslow, Gila County ordered all of Gisela evacuated, and state police made rooftop helicopter rescues. No deaths were reported. In Florida, the National Weather Service declared a flash flood emergency Monday morning for Palm Bay, Melbourne and West Melbourne after 12 to 15 inches of rain, closing Brevard County schools.",
+      "why": "Flooding hit two states at once, with rescues and evacuations in Arizona and closed schools in Florida.",
+      "source": "AP",
+      "url": "https://apnews.com/article/sedona-arizona-pagosa-springs-colorado-southwest-flooding-bb4bb89daf78484fb97496dfd88c4a10",
+      "notes": "KNAU: https://www.knau.org/knau-and-arizona-news/2026-11-02/oak-creek-reaches-nearly-18-feet-as-unprecedented-flooding-strikes-region ; NWS Melbourne flash flood emergency 7:56 a.m. EST.",
+      "tags": [
+        "flooding",
+        "arizona",
+        "florida"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-apple-q4-results",
+      "section": "tech",
+      "topic": "tech",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-11-02T16:30:00-05:00",
+      "time_known": true,
+      "text": "Apple's revenue rose 12% to a September-quarter record of $114.5 billion in CEO John Ternus' first earnings report, the company said Monday.",
+      "detail": "Net income was $30.7 billion, or $2.10 a share, including about 5 cents from tariff refunds. iPhone revenue was $57.6 billion and services revenue a record $31.6 billion. Fiscal 2026 revenue was a record $479 billion. Revenue beat analysts' $113.4 billion estimate (LSEG, via CNBC).",
+      "why": "It is the first read on Apple under its new CEO going into the holiday season.",
+      "source": "Apple (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20261102433950/en/Apple-reports-fourth-quarter-results",
+      "tags": [
+        "apple",
+        "earnings"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-ism-manufacturing-october",
+      "section": "money",
+      "money_beat": "jobs",
+      "topic": "factory",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-11-02T10:00:00-05:00",
+      "time_known": true,
+      "text": "U.S. factory activity grew for a 10th straight month in October as the ISM manufacturing index rose to 55.5 from 54.5.",
+      "detail": "Production rose to 59.0, its highest since November 2021; new orders were 55.5, employment 52.4 and prices 75.2, down from 77.9. Readings above 50 signal growth. Stocks closed mixed: the Dow rose 0.6% while the S&P 500 fell 0.3% and the Nasdaq 0.7% on a chip-stock slide, as oil fell on Iran deal hopes.",
+      "why": "Factories are still expanding, though input prices remain high.",
+      "source": "Institute for Supply Management",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+      "thread": "rates-inflation",
+      "tags": [
+        "ism",
+        "manufacturing"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-ntsb-greenacres-learjet-update",
+      "section": "news",
+      "topic": "disaster",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-11-02T13:00:00-05:00",
+      "time_known": false,
+      "text": "The Learjet that crashed in Greenacres, Fla., may have started breaking apart in midair, the NTSB said Monday, after its crew reported icing at about 35,000 feet.",
+      "detail": "The crew of the Learjet 60 reported light clear icing, moderate turbulence and precipitation before a rapid descent and a mayday call, investigators said; weather at cruise altitude is a focus. All nine aboard died Sunday and one person on the ground was hurt.",
+      "why": "It is the first official account of what went wrong before the crash.",
+      "source": "AP",
+      "url": "https://apnews.com/article/florida-deadly-plane-crash-fireball-233076d167e2f48eaef7965376dd8ee0",
+      "tags": [
+        "ntsb",
+        "plane-crash",
+        "florida"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-ukraine-russia-fake-alert-hacks",
+      "section": "news",
+      "topic": "security",
+      "region": "World",
+      "world_region": "europe",
+      "thread": "russia-ukraine",
+      "impact": 2,
+      "time": "2026-11-02T08:00:00-05:00",
+      "time_known": false,
+      "text": "Government emergency apps in Ukraine and Russia sent fake nuclear and chemical alerts after hackers broke in, officials in both countries said Monday.",
+      "detail": "Ukraine's Air Alert app pushed false alerts late Sunday; the air force said \"There is no radiation threat,\" and the app was suspended and restored. Russia's emergencies ministry called its incident early Monday a \"massive cyberattack\" and said the public warning system itself was not affected. It is unclear whether the attacks are linked.",
+      "why": "Hackers turned official warning apps against the public in a war zone.",
+      "source": "AP",
+      "url": "https://apnews.com/article/russia-ukraine-cyberattacks-emergency-apps-717372f7bbf4e8a805bc918f06f9730f",
+      "tags": [
+        "cyberattack",
+        "ukraine",
+        "russia"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
+    {
+      "id": "2026-11-02-colombia-planadas-attack",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "americas",
+      "impact": 2,
+      "time": "2026-11-01T21:00:00-05:00",
+      "time_known": false,
+      "text": "An explosives attack near a military base in Planadas, Colombia, killed four civilians, including a 2-month-old baby, President Abelardo de la Espriella said.",
+      "detail": "The mayor said attackers fired gas-cylinder rockets at the base Sunday night, hitting a hospital and homes. No group has claimed it.",
+      "why": "It is among the deadliest recent attacks on civilians in Colombia's armed conflict.",
+      "source": "AP",
+      "url": "https://apnews.com/article/colombia-attack-military-base-civilians-killed-war-de-la-espriella-1792da34edec45c24aa3117f4426a91b",
+      "tags": [
+        "colombia"
+      ],
+      "added_at": "2026-11-02T16:50:00-05:00"
+    },
     {
       "id": "2026-11-01-greenacres-learjet-crash",
       "section": "news",

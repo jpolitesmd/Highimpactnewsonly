@@ -32,7 +32,7 @@ Scan: Monday, Nov. 2, 2026, about 4:10 a.m. EST (pre-morning). U.S. trends are m
 
 ## Calendar check
 
-- ISM manufacturing 10 a.m. today; JOLTS Tuesday; ISM services and ADP Wednesday; October jobs report Friday, Nov. 6 (confirm on BLS/ISM calendars). Earnings this week include Palantir, AMD, Qualcomm, Uber and Shopify (Nov. 3).
+- ISM manufacturing 10 a.m. today; JOLTS Tuesday; ISM services and ADP Wednesday; October jobs report Friday, Nov. 6 (confirm on BLS/ISM calendars). Earnings this week include Apple, Palantir, AMD, Qualcomm and Uber (confirm dates).
 - Binance proof-of-reserves report due today (update 2026-11-01-binance-resumes-withdrawals).
 - Trump scheduled to speak at the Lincoln Memorial Reflecting Pool about 2 p.m. EST today (confirm on the White House schedule).
 - Midterm elections Tuesday, Nov. 3.

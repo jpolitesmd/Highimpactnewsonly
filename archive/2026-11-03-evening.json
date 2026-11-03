@@ -1,0 +1,160 @@
+{
+ "date": "2026-11-03",
+ "edition": "evening",
+ "subject": "Tuesday, Nov 3 - Evening edition",
+ "published": "2026-11-03T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-03-trump-says-israel-aid-ends",
+   "section": "news",
+   "text": "U.S. aid to Israel of about $4 billion a year will end after this year, President Trump said Tuesday, adding that Israel can still buy American weapons.",
+   "detail": "In a phone interview with Fox News Channel's \"Fox & Friends\" on Election Day, Trump said he and Prime Minister Benjamin Netanyahu agreed to it months ago, that Netanyahu proposed it, and that the U.S. would \"help Israel if they need it.\" He did not say how the cutoff would work. The current 2016 memorandum of understanding provides $3.8 billion a year ($3.3 billion in military financing and $500 million for missile defense) through 2028, and the money is appropriated by Congress. Netanyahu's office declined to comment Tuesday.",
+   "why": "Israel is the largest recipient of U.S. military aid, and ending it would reverse a decades-old commitment.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-03T08:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2"
+  },
+  {
+   "id": "2026-11-03-election-day-voting-problems",
+   "section": "news",
+   "text": "Election Day voting ran with relatively few problems, AP reported, though ballot scanners failed across Westchester County, N.Y., and Florida moved 21 polling sites after flooding.",
+   "detail": "In Westchester, scanners rejected ballots from poll opening after what officials described as a programming update; voters filled out paper ballots placed in sealed emergency bags, which officials said will be counted after polls close at 9 p.m. In Florida, Gov. Ron DeSantis's Executive Order 26-227 declared emergencies in seven counties, and the state Division of Elections listed temporary sites for 30 precincts in eight counties, including Brevard, Broward and Palm Beach.",
+   "why": "Delays in places like Westchester could slow vote counts.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-03T16:10:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf"
+  },
+  {
+   "id": "2026-11-03-guam-results-ada-limtiaco",
+   "section": "news",
+   "text": "Guam's governor's office goes to Republicans Tony Ada and E.J. Calvo, and Democrat Alicia Limtiaco unseated Del. James Moylan, final unofficial results show.",
+   "detail": "Guam Election Commission unofficial results gave Ada-Calvo 15,945 votes (51.45%) to 14,925 for Democrats Therese Terlaje and Sabina Perez; Terlaje conceded. Limtiaco led Moylan, a Republican, 15,645 (51%) to 14,983 for Guam's non-voting seat in the U.S. House. Guam votes about 15 hours ahead of the East Coast, so these are the first 2026 midterm results. Results are unofficial until certified; off-island absentee ballots are counted Nov. 19.",
+   "why": "They are the first results of the midterms, including a House delegate seat changing parties.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-03T10:30:00-05:00",
+   "time_known": false,
+   "source": "Guam Election Commission",
+   "url": "https://gec.guam.gov/category/results/"
+  },
+  {
+   "id": "2026-11-03-ninth-circuit-reinstates-doj-ballot-warnings-stay",
+   "section": "news",
+   "text": "The Justice Department may again warn election officials they risk prosecution for counting flagged ballots, after the full Ninth Circuit reinstated a stay Tuesday morning.",
+   "detail": "In SEIU v. Department of Justice (No. 26-7303), a 2-1 panel on Monday stayed a San Francisco judge's order that barred DOJ from demanding that officials set aside ballots of voters it calls likely noncitizens and from warning of prosecution. A majority of active judges vacated that stay overnight and took the case en banc; on Election Day morning the en banc court reinstated the stay. Chief Judge Mary Murguia, joined by Judges Gould, Owens, H.A. Thomas and Desai, dissented. The district court's temporary restraining order would otherwise run through Nov. 16. Separately, U.S. District Judge Tanya Chutkan in Washington late Monday barred DOJ and Homeland Security from sending states lists of suspected noncitizen voters or asking them to separate those ballots, in a Privacy Act case (Reuters).",
+   "why": "Election officials in California and other states are counting ballots under shifting court orders about federal prosecution threats.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the Ninth Circuit",
+   "region": "US",
+   "time": "2026-11-03T09:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the Ninth Circuit",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/03/26-7303.pdf"
+  },
+  {
+   "id": "2026-11-03-russia-hits-ukraine-grid-abu-dhabi-talks",
+   "section": "news",
+   "text": "Ukraine's power grid was hit by Russia's largest attack on its energy system this year, cutting power and water in Kyiv ahead of U.S.-brokered talks set for Nov. 10-11.",
+   "detail": "Ukraine said Russia launched 289 drones, 17 ballistic missiles and 59 cruise missiles overnight, hitting energy sites in 10 regions; damage to a Kyiv regional power hub forced emergency blackouts along with water and public-transit outages. Private energy company DTEK said three of its five thermal plants stopped generating. U.S., Russian and Ukrainian negotiators are due to meet again in Abu Dhabi on Nov. 10-11.",
+   "why": "The strike comes as winter nears and days before the next round of peace talks.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-03T08:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-missile-drone-attack-electricity-c10dbc6b621e196606fc79caab0eaad5"
+  },
+  {
+   "id": "2026-11-03-tanker-hit-off-oman",
+   "section": "news",
+   "text": "A tanker was hit by two unidentified projectiles in its engine room about 14 nautical miles northeast of Limah, Oman, Tuesday, the UK Maritime Trade Operations center said.",
+   "detail": "UKMTO said the strike happened at 1900 GMT (2 p.m. ET) near the Strait of Hormuz, with no casualties or environmental damage reported, and advised ships to transit with caution.",
+   "why": "Attacks on shipping near Hormuz continue as U.S.-Iran talks go on.",
+   "impact": 2,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-11-03T14:00:00-05:00",
+   "time_known": true,
+   "source": "Anadolu Agency (UKMTO)",
+   "url": "https://www.aa.com.tr/en/middle-east/tanker-hit-by-2-projectiles-off-oman-uk-maritime-agency/4110596"
+  },
+  {
+   "id": "2026-11-03-cftc-equity-perps",
+   "section": "money",
+   "text": "Perpetual futures on individual U.S. stocks can begin trading on CFTC-registered exchanges, Commodity Futures Trading Commission Chairman Michael Selig said Tuesday.",
+   "detail": "Selig's statement treats the contracts, which have no expiration date, as security futures under joint CFTC and SEC oversight, open to exchanges also notice-registered with the SEC to trade security futures. Perpetual futures have been widely traded in crypto markets offshore; Kalshi has filed listing standards for security futures with the SEC.",
+   "why": "It opens a new, leveraged way to trade single stocks on U.S. exchanges.",
+   "impact": 2,
+   "topic": "markets",
+   "region": "US",
+   "time": "2026-11-03T11:00:00-05:00",
+   "time_known": false,
+   "source": "CFTC",
+   "url": "https://www.cftc.gov/PressRoom/PressReleases/9319-26"
+  },
+  {
+   "id": "2026-11-03-jolts-september",
+   "section": "money",
+   "text": "Job openings were little changed at 7.5 million in September, the Labor Department said Tuesday, while the number of people quitting jobs rose to 3.4 million.",
+   "detail": "The openings rate was 4.5%. Hires were 5.4 million, total separations 5.3 million and layoffs and discharges 1.6 million. August openings were revised up 111,000 to 7.2 million.",
+   "why": "More quitting usually signals workers feel confident about finding new jobs.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-03T10:00:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-03",
+   "text": "Midterm elections."
+  },
+  {
+   "date": "2026-11-03",
+   "when": "10:00 a.m. ET",
+   "text": "Pfizer reports third-quarter results; webcast 10:00 a.m. ET.",
+   "detail": "Date and time per Pfizer's investor relations event page.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "when": "After the close",
+   "text": "AMD reports third-quarter results after the close; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2 p.m. Pacific) per AMD's Oct. 6 GlobeNewswire release.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

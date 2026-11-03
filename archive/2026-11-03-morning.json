@@ -1,0 +1,212 @@
+{
+ "date": "2026-11-03",
+ "edition": "morning",
+ "subject": "Tuesday, Nov 3 - Morning edition",
+ "published": "2026-11-03T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-02-us-strikes-iran-qeshm-island",
+   "section": "news",
+   "text": "Iran's Qeshm Island in the Strait of Hormuz was hit Monday by limited U.S. \"defensive\" strikes on surface-to-air missiles used against U.S. aircraft, U.S. officials said.",
+   "detail": "A U.S. official, speaking on condition of anonymity, said the strikes targeted \"Iranians using surface to air missiles against U.S. assets\"; Iranian state TV reported explosions on the island. The strikes appeared limited rather than a return to full hostilities, AP reported, and came on the eve of the midterms after President Trump had said the U.S. would not launch new strikes before them. The Wall Street Journal first reported the strikes. The administration was last known to have attacked in early September; a U.S. naval blockade of Iranian oil continues and a third aircraft carrier is heading to the region. Hours earlier, Vice President JD Vance said he and Trump \"feel pretty good\" about a possible negotiated settlement; Qatari mediators held two rounds of talks with Iran last week.",
+   "why": "It is the first known U.S. strike on Iran in about two months, as talks to end the war continue.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "US",
+   "time": "2026-11-02T21:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309"
+  },
+  {
+   "id": "2026-11-02-doj-asks-scotus-california-mail-ballots",
+   "section": "news",
+   "text": "California's mail ballots from about 20,000 people the government flagged as likely noncitizens will not be set aside, after the Supreme Court denied the Trump administration's emergency request Monday.",
+   "detail": "The Court's brief order denied the Justice Department's application (No. 26A624) for an injunction pending appeal, without explanation and with no noted dissents, after a district court and a divided Ninth Circuit panel had refused. Also Monday, Chief Judge James Boasberg in Washington barred the Justice Department and Homeland Security from demanding that California election officials segregate ballots based on the federal lists, writing that the executive branch \"has likely violated the Constitution's Elections Clause.\" California says the federal list is unreliable and includes many citizens.",
+   "why": "The ruling leaves California's count of more than 6 million returned mail ballots on its normal path on Election Day.",
+   "impact": 4,
+   "topic": "ballot",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "Supreme Court of the United States",
+   "region": "US",
+   "time": "2026-11-02T17:55:00-05:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States",
+   "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a624.html"
+  },
+  {
+   "id": "2026-11-03-komyshuvakha-aid-site-toll-31",
+   "section": "news",
+   "text": "The death toll from Russia's bombing of a humanitarian aid site in Komyshuvakha, Ukraine, rose to 31 Tuesday, with nearly 50 people still missing, the regional governor said.",
+   "detail": "Russian bunker-busting bombs hit a school used to hand out aid in the Zaporizhzhia region village on Monday, then a shelter where residents had taken cover; the dead include four police officers and two rescue workers, acting regional head Mykhailo Semikin said, calling it one of the region's worst civilian tolls of the full-scale war. Three days of mourning were declared. Overnight, Russia fired 289 drones, 17 ballistic missiles and 59 cruise missiles across nine regions, targeting power plants and forcing emergency power cuts, President Volodymyr Zelenskyy said; at least 62 people were wounded in the Kharkiv region and one was killed in the Dnipro area. Russia said it shot down 856 Ukrainian drones, and a Ukrainian drone damaged an oil refinery in Yaroslavl.",
+   "why": "It is among the deadliest single Russian attacks on civilians in the region since the full-scale invasion.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-03T05:12:00-05:00",
+   "time_known": false,
+   "source": "Interfax-Ukraine; AP",
+   "url": "https://en.interfax.com.ua/news/general/1230412.html"
+  },
+  {
+   "id": "2026-11-03-rba-raises-rate-4-85",
+   "section": "money",
+   "text": "Australia's central bank raised its key interest rate a quarter point to 4.85% Tuesday, saying inflation is broadly based and now expected to stay high longer.",
+   "detail": "The Reserve Bank of Australia's board voted 6-3 for the increase; three members wanted to hold at 4.60%. Its statement said inflation is partly driven by higher fuel and commodity prices tied to the Middle East conflict and by AI-related demand for technology goods, and is not expected to reach the top of its 2-3% target until late 2027, about three quarters later than forecast. It said the economy is slowing, home prices have fallen significantly and unemployment has risen. The bank posted no other releases with the decision.",
+   "why": "It shows the Iran war's oil shock still pushing major central banks to tighten.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-11-02T22:30:00-05:00",
+   "time_known": true,
+   "source": "Reserve Bank of Australia",
+   "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html"
+  },
+  {
+   "id": "2026-11-02-judge-dismisses-doj-harvard-admissions-suit",
+   "section": "news",
+   "text": "The Justice Department's lawsuit demanding Harvard's applicant-level admissions records was dismissed Monday by a federal judge in Boston, who said the government skipped required steps.",
+   "detail": "U.S. District Judge Myong Joun found the department had not taken required steps before suing: \"the agency must advise the recipient of its failure to comply and determine that compliance cannot be secured by voluntary means,\" he wrote. He said the ruling does not decide whether Harvard has discriminated, whether agencies may lawfully seek applicant-level data, or whether Harvard may ultimately have to provide it. The department, which began a compliance review in 2025, had sought five years of admissions data, including race, grades, test scores and essays, to check whether Harvard still considers race after the Supreme Court's 2023 ban on affirmative action.",
+   "why": "It is another court loss for the administration in its fight with Harvard, though the government can refile.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. District Court for the District of Massachusetts",
+   "region": "US",
+   "time": "2026-11-02T17:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/harvard-trump-admissions-records-justice-ecd2585d3e6b6af5efaabb8ff078bc0d"
+  },
+  {
+   "id": "2026-11-02-judge-dismisses-ex-fbi-officials-case",
+   "section": "news",
+   "text": "The false-statements case against two former FBI officials over the Hunter Biden laptop was dismissed Monday by a federal magistrate judge who called it \"weaponization.\"",
+   "detail": "Ruling from the bench for about an hour, U.S. Magistrate Judge Zia Faruqui of the District of Columbia found no probable cause on any element of the charge that Nikki Floris and Bradley Benavides lied to the House Judiciary Committee in 2023. The Justice Department said it \"disagrees\" and is \"evaluating all options\"; it could appeal to the chief judge or seek a grand jury indictment.",
+   "why": "A judge rejected at the first step a prosecution of former FBI officials brought by this Justice Department.",
+   "impact": 4,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-02T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/fbi-hunter-biden-laptop-justice-department-101ccd65d10b5f779985747eb0045b52"
+  },
+  {
+   "id": "2026-11-01-greenacres-learjet-crash",
+   "section": "news",
+   "text": "A business jet that crashed into a Greenacres, Fla., neighborhood Sunday, killing all nine aboard, went into a steep dive after its pilots reported icing and turbulence.",
+   "detail": "The Learjet 60, flying from Austin-Bergstrom International Airport in Texas to North Eleuthera in the Bahamas, crashed near a busy Palm Beach County roadway at 12:50 p.m. Sunday, Transportation Secretary Sean Duffy said, calling it a \"horrific tragedy.\" Cruising east at 35,000 feet, the pilots reported turbulence, icing and precipitation and asked to climb 2,000 feet; moments later the jet dove at up to 30,000 feet per minute, beyond its design limits, according to air traffic control recordings and flight tracking data reported by AP. A pilot declared an emergency before impact. Gov. Ron DeSantis said there were no immediate reports of anyone hurt on the ground. About 600 residents of a nearby mobile home community were evacuated. The victims have not been identified. The NTSB leads the investigation with FAA support and scheduled a media briefing Monday in West Palm Beach.",
+   "why": "It is one of the deadliest U.S. plane crashes this year, and it came down feet from homes and traffic.",
+   "impact": 4,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-11-02T01:58:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/palm-beach-plane-crash-ffdee609e7916ff7fcd178d2b8e69b39"
+  },
+  {
+   "id": "2026-11-02-doj-charges-63-election-crimes",
+   "section": "news",
+   "text": "Charges against 63 people for illegal voting and related election crimes were announced by the Justice Department on Monday, the eve of the midterms.",
+   "detail": "The cases, in federal districts from North Carolina and California to Tennessee, Pennsylvania and Nevada, include noncitizens accused of voting in federal elections, false claims of U.S. citizenship to register or vote, and one fraudulent out-of-state voter registration; the department says four are in the country illegally and most others are lawful permanent residents. Most alleged votes date to the 2022 and 2024 elections. Attorney General Todd Blanche called it \"the largest surge of voter-fraud arrests\" since Trump returned to office; the department says it has charged 239 people with voting-fraud-related offenses under this administration. Charges are accusations; defendants are presumed innocent.",
+   "why": "The administration is pressing its noncitizen-voting push into Election Day.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-02T14:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-63-individuals-election-related-crimes"
+  },
+  {
+   "id": "2026-11-02-arizona-florida-flooding",
+   "section": "news",
+   "text": "Oak Creek in Sedona, Ariz., rose from about 3 feet to nearly 18 feet in what officials called unprecedented flooding, forcing more than 100 homes to evacuate.",
+   "detail": "Oak Creek's flow hit about 20,000 cubic feet per second Sunday evening, about 100 times normal; evacuation orders also covered Camp Verde, Cottonwood, Rimrock and Winslow, Gila County ordered all of Gisela evacuated, and state police made rooftop helicopter rescues. No deaths were reported. In Florida, the National Weather Service declared a flash flood emergency Monday morning for Palm Bay, Melbourne and West Melbourne after 12 to 15 inches of rain, closing Brevard County schools.",
+   "why": "Flooding hit two states at once, with rescues and evacuations in Arizona and closed schools in Florida.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-11-02T12:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/sedona-arizona-pagosa-springs-colorado-southwest-flooding-bb4bb89daf78484fb97496dfd88c4a10"
+  },
+  {
+   "id": "2026-11-02-marvell-to-buy-lumentum",
+   "section": "money",
+   "text": "Lumentum is being bought by Marvell in an all-stock deal valued at $115 billion, one of the largest tech acquisitions ever, the companies said Monday.",
+   "detail": "Lumentum holders would get 4.5 Marvell shares for each share, and Marvell holders would own about 67% of the combined company, which targets AI data-center connections. The deal needs shareholder and regulatory approval and is expected to close in the first half of 2028.",
+   "why": "It is one of the biggest bets yet on the hardware that links AI data centers.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-02T07:00:00-05:00",
+   "time_known": false,
+   "source": "Marvell Technology",
+   "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-02-apple-q4-results",
+   "section": "tech",
+   "text": "Apple's revenue rose 12% to a September-quarter record of $114.5 billion in CEO John Ternus' first earnings report, the company said Monday.",
+   "detail": "Net income was $30.7 billion, or $2.10 a share, including about 5 cents from tariff refunds. iPhone revenue was $57.6 billion and services revenue a record $31.6 billion. Fiscal 2026 revenue was a record $479 billion. Revenue beat analysts' $113.4 billion estimate (LSEG, via CNBC).",
+   "why": "It is the first read on Apple under its new CEO going into the holiday season.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-02T16:30:00-05:00",
+   "time_known": true,
+   "source": "Apple (Business Wire)",
+   "url": "https://www.businesswire.com/news/home/20261102433950/en/Apple-reports-fourth-quarter-results"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-03",
+   "text": "Midterm elections."
+  },
+  {
+   "date": "2026-11-03",
+   "when": "10:00 a.m. ET",
+   "text": "Pfizer reports third-quarter results; webcast 10:00 a.m. ET.",
+   "detail": "Date and time per Pfizer's investor relations event page.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "when": "After the close",
+   "text": "AMD reports third-quarter results after the close; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2 p.m. Pacific) per AMD's Oct. 6 GlobeNewswire release.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

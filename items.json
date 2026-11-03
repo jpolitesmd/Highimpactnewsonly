@@ -1,6 +1,146 @@
 {
-  "updated": "2026-11-02T16:50:00-05:00",
+  "updated": "2026-11-03T05:33:55-05:00",
   "items": [
+    {
+      "id": "2026-11-02-us-strikes-iran-qeshm-island",
+      "section": "news",
+      "topic": "conflict",
+      "region": "US",
+      "impact": 4,
+      "thread": "iran-war",
+      "time": "2026-11-02T21:30:00-05:00",
+      "time_known": false,
+      "text": "Iran's Qeshm Island in the Strait of Hormuz was hit Monday by limited U.S. \"defensive\" strikes on surface-to-air missiles used against U.S. aircraft, U.S. officials said.",
+      "detail": "A U.S. official, speaking on condition of anonymity, said the strikes targeted \"Iranians using surface to air missiles against U.S. assets\"; Iranian state TV reported explosions on the island. The strikes appeared limited rather than a return to full hostilities, AP reported, and came on the eve of the midterms after President Trump had said the U.S. would not launch new strikes before them. The Wall Street Journal first reported the strikes. The administration was last known to have attacked in early September; a U.S. naval blockade of Iranian oil continues and a third aircraft carrier is heading to the region. Hours earlier, Vice President JD Vance said he and Trump \"feel pretty good\" about a possible negotiated settlement; Qatari mediators held two rounds of talks with Iran last week.",
+      "why": "It is the first known U.S. strike on Iran in about two months, as talks to end the war continue.",
+      "source": "AP",
+      "url": "https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309",
+      "notes": "Verified against full AP copy at WTOP (wtop.com/world/2026/11/where-things-stand-on-iran-after-a-tense-weekend/). Central Command has not commented publicly. Trending: hard (bump 3 to 4).",
+      "tags": [
+        "iran",
+        "strait-of-hormuz",
+        "qeshm",
+        "military"
+      ],
+      "added_at": "2026-11-03T05:33:55-05:00"
+    },
+    {
+      "id": "2026-11-02-judge-dismisses-doj-harvard-admissions-suit",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "branch": [
+        "judicial"
+      ],
+      "judicial": true,
+      "court": "U.S. District Court for the District of Massachusetts",
+      "time": "2026-11-02T17:00:00-05:00",
+      "time_known": false,
+      "text": "The Justice Department's lawsuit demanding Harvard's applicant-level admissions records was dismissed Monday by a federal judge in Boston, who said the government skipped required steps.",
+      "detail": "U.S. District Judge Myong Joun found the department had not taken required steps before suing: \"the agency must advise the recipient of its failure to comply and determine that compliance cannot be secured by voluntary means,\" he wrote. He said the ruling does not decide whether Harvard has discriminated, whether agencies may lawfully seek applicant-level data, or whether Harvard may ultimately have to provide it. The department, which began a compliance review in 2025, had sought five years of admissions data, including race, grades, test scores and essays, to check whether Harvard still considers race after the Supreme Court's 2023 ban on affirmative action.",
+      "why": "It is another court loss for the administration in its fight with Harvard, though the government can refile.",
+      "source": "AP",
+      "url": "https://apnews.com/article/harvard-trump-admissions-records-justice-ecd2585d3e6b6af5efaabb8ff078bc0d",
+      "notes": "Verified against full AP copy at WTOP (Nov. 2, 6:42 p.m.).",
+      "tags": [
+        "harvard",
+        "admissions",
+        "justice-department"
+      ],
+      "added_at": "2026-11-03T05:33:55-05:00"
+    },
+    {
+      "id": "2026-11-02-doj-charges-63-election-crimes",
+      "section": "news",
+      "topic": "ballot",
+      "region": "US",
+      "impact": 3,
+      "thread": "midterms-2026",
+      "time": "2026-11-02T14:00:00-05:00",
+      "time_known": false,
+      "text": "Charges against 63 people for illegal voting and related election crimes were announced by the Justice Department on Monday, the eve of the midterms.",
+      "detail": "The cases, in federal districts from North Carolina and California to Tennessee, Pennsylvania and Nevada, include noncitizens accused of voting in federal elections, false claims of U.S. citizenship to register or vote, and one fraudulent out-of-state voter registration; the department says four are in the country illegally and most others are lawful permanent residents. Most alleged votes date to the 2022 and 2024 elections. Attorney General Todd Blanche called it \"the largest surge of voter-fraud arrests\" since Trump returned to office; the department says it has charged 239 people with voting-fraud-related offenses under this administration. Charges are accusations; defendants are presumed innocent.",
+      "why": "The administration is pressing its noncitizen-voting push into Election Day.",
+      "source": "U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-63-individuals-election-related-crimes",
+      "tags": [
+        "justice-department",
+        "noncitizen-voting",
+        "election"
+      ],
+      "added_at": "2026-11-03T05:33:55-05:00"
+    },
+    {
+      "id": "2026-11-03-komyshuvakha-aid-site-toll-31",
+      "section": "news",
+      "topic": "war",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "thread": "russia-ukraine",
+      "time": "2026-11-03T05:12:00-05:00",
+      "time_known": false,
+      "text": "The death toll from Russia's bombing of a humanitarian aid site in Komyshuvakha, Ukraine, rose to 31 Tuesday, with nearly 50 people still missing, the regional governor said.",
+      "detail": "Russian bunker-busting bombs hit a school used to hand out aid in the Zaporizhzhia region village on Monday, then a shelter where residents had taken cover; the dead include four police officers and two rescue workers, acting regional head Mykhailo Semikin said, calling it one of the region's worst civilian tolls of the full-scale war. Three days of mourning were declared. Overnight, Russia fired 289 drones, 17 ballistic missiles and 59 cruise missiles across nine regions, targeting power plants and forcing emergency power cuts, President Volodymyr Zelenskyy said; at least 62 people were wounded in the Kharkiv region and one was killed in the Dnipro area. Russia said it shot down 856 Ukrainian drones, and a Ukrainian drone damaged an oil refinery in Yaroslavl.",
+      "why": "It is among the deadliest single Russian attacks on civilians in the region since the full-scale invasion.",
+      "source": "Interfax-Ukraine; AP",
+      "url": "https://en.interfax.com.ua/news/general/1230412.html",
+      "notes": "Toll 31 from Interfax-Ukraine (12:12 Kyiv, Nov. 3). Other facts from AP (Nov. 3, 5:24 a.m., full copy at WTOP): https://apnews.com/article/russia-ukraine-humanitarian-attack-drones-power-264da8725dc2bb1f0039a698a59af9fc",
+      "tags": [
+        "ukraine",
+        "russia",
+        "zaporizhzhia",
+        "civilians"
+      ],
+      "added_at": "2026-11-03T05:33:55-05:00"
+    },
+    {
+      "id": "2026-11-03-rba-raises-rate-4-85",
+      "section": "money",
+      "money_beat": "rates",
+      "topic": "chart",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 3,
+      "thread": "rates-inflation",
+      "time": "2026-11-02T22:30:00-05:00",
+      "time_known": true,
+      "text": "Australia's central bank raised its key interest rate a quarter point to 4.85% Tuesday, saying inflation is broadly based and now expected to stay high longer.",
+      "detail": "The Reserve Bank of Australia's board voted 6-3 for the increase; three members wanted to hold at 4.60%. Its statement said inflation is partly driven by higher fuel and commodity prices tied to the Middle East conflict and by AI-related demand for technology goods, and is not expected to reach the top of its 2-3% target until late 2027, about three quarters later than forecast. It said the economy is slowing, home prices have fallen significantly and unemployment has risen. The bank posted no other releases with the decision.",
+      "why": "It shows the Iran war's oil shock still pushing major central banks to tighten.",
+      "source": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+      "tags": [
+        "central-banks",
+        "australia",
+        "interest-rates"
+      ],
+      "added_at": "2026-11-03T05:33:55-05:00"
+    },
+    {
+      "id": "2026-11-03-indian-seafarer-killed-off-oman",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-11-03T01:30:00-05:00",
+      "time_known": false,
+      "text": "An Indian national was killed in an attack Monday evening on the commercial vessel MSV Al Jusufi near Limah, Oman; 13 other Indians aboard were rescued, India said.",
+      "detail": "India's Ministry of External Affairs condemned the attack and said its embassy in Oman is working with Omani authorities to bring home the survivors and the remains of the dead crew member. Calling continuing attacks on commercial shipping in the region \"deeply concerning,\" the ministry urged immediate de-escalation and a negotiated end to the conflict. It did not say who carried out the attack.",
+      "why": "Attacks near the Strait of Hormuz keep killing civilian sailors as talks to end the war continue.",
+      "source": "India Ministry of External Affairs (DD News)",
+      "url": "https://ddnews.gov.in/en/india-condemns-attack-on-commercial-vessel-off-oman-coast-one-indian-killed-13-rescued/",
+      "tags": [
+        "india",
+        "oman",
+        "shipping",
+        "strait-of-hormuz"
+      ],
+      "added_at": "2026-11-03T05:33:55-05:00"
+    },
     {
       "id": "2026-11-02-doj-asks-scotus-california-mail-ballots",
       "section": "news",
@@ -14,21 +154,21 @@
       "judicial": true,
       "court": "Supreme Court of the United States",
       "impact": 4,
-      "time": "2026-11-02T11:13:00-05:00",
-      "time_known": true,
-      "text": "California's mail ballots from about 20,000 people the government suspects are noncitizens are now before the Supreme Court, after the Trump administration asked it Monday to order them set aside.",
-      "detail": "Solicitor General D. John Sauer filed an emergency application (No. 26A624), submitted to Justice Elena Kagan, seeking an injunction pending appeal and an immediate administrative order, after a district court and a divided Ninth Circuit panel refused. California says the federal list is unreliable and includes many citizens. The Court set no deadline and had not acted by Monday evening; Election Day is Tuesday.",
-      "why": "The Court could decide on the eve of the midterms whether thousands of cast ballots count.",
+      "time": "2026-11-02T17:55:00-05:00",
+      "time_known": false,
+      "text": "California's mail ballots from about 20,000 people the government flagged as likely noncitizens will not be set aside, after the Supreme Court denied the Trump administration's emergency request Monday.",
+      "detail": "The Court's brief order denied the Justice Department's application (No. 26A624) for an injunction pending appeal, without explanation and with no noted dissents, after a district court and a divided Ninth Circuit panel had refused. Also Monday, Chief Judge James Boasberg in Washington barred the Justice Department and Homeland Security from demanding that California election officials segregate ballots based on the federal lists, writing that the executive branch \"has likely violated the Constitution's Elections Clause.\" California says the federal list is unreliable and includes many citizens.",
+      "why": "The ruling leaves California's count of more than 6 million returned mail ballots on its normal path on Election Day.",
       "source": "Supreme Court of the United States",
-      "url": "https://www.supremecourt.gov/DocketPDF/26/26A624/431463/20261102111302952_California%20Application.pdf",
-      "notes": "AP: https://apnews.com/article/midterm-elections-immigration-voter-fraud-trump-48998968a23a4af2f59eaea3dba4d2f3 . Trending: hard (bump 3 to 4).",
+      "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a624.html",
+      "notes": "AP: https://apnews.com/article/midterm-elections-immigration-voter-fraud-trump-48998968a23a4af2f59eaea3dba4d2f3 . Trending: hard (bump 3 to 4). Updated 2026-11-03 morning: Court denied the application Monday evening (docket). AP: https://apnews.com/article/midterm-elections-immigration-voter-fraud-trump-48998968a23a4af2f59eaea3dba4d2f3 ; Boasberg order, D.D.C. 26-cv-3072, Nov. 2.",
       "tags": [
         "supreme-court",
         "california",
         "mail-ballots",
         "noncitizen-voting"
       ],
-      "added_at": "2026-11-02T16:50:00-05:00"
+      "added_at": "2026-11-03T05:33:55-05:00"
     },
     {
       "id": "2026-11-02-judge-dismisses-ex-fbi-officials-case",

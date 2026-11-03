@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-03-morning",
+   "date": "2026-11-03",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Iran's Qeshm Island in the Strait of Hormuz was hit Monday by limited U.S. \"defensive\" strikes on surface-to-air missiles used against U.S. aircraft, U.S. officials said."
+  },
+  {
    "key": "2026-11-02-evening",
    "date": "2026-11-02",
    "edition": "evening",
@@ -491,5 +498,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-02T16:44:49-05:00"
+ "updated": "2026-11-03T05:34:13-05:00"
 }

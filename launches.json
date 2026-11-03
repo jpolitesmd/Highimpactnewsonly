@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:29:31-05:00",
+ "updated": "2026-11-03T05:33:55-05:00",
  "block": {
   "start": "2026-11-02",
   "end": "2026-11-15",
@@ -8,14 +8,14 @@
  "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
  "launches": [
   {
-   "date": "2026-11-03",
-   "sort": "20:28",
-   "time": "8:28 p.m.–12:28 a.m. window",
+   "date": "2026-11-06",
+   "sort": "19:46",
+   "time": "7:46–11:46 p.m. window",
    "rocket": "Falcon 9",
    "mission": "USSF-432",
    "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
    "url": "https://www.spacex.com/launches/ussf432",
-   "note": "Backup: Wed., Nov. 4 at 8:14 p.m."
+   "note": "Backup: Sat., Nov. 7 at 7:32 p.m."
   }
  ]
 }

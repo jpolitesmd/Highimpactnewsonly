@@ -1,90 +1,6 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "events": [
-    {
-      "date": "2026-11-02",
-      "when": "After the close",
-      "text": "Apple reports fiscal fourth-quarter results; call 5:00 p.m. ET.",
-      "detail": "Per Apple’s investor relations page: results about 4:30 p.m. ET, call 2:00 p.m. Pacific. First earnings call with John Ternus as CEO.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "when": "10:00 a.m. ET",
-      "text": "October ISM Manufacturing PMI, 10:00 a.m. ET.",
-      "detail": "Date and time per ISM's release calendar; September's reading was 54.5%, the ninth straight month of expansion.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "when": "After the close",
-      "text": "Palantir reports third-quarter results after the close; webcast 5:00 p.m. ET.",
-      "detail": "Date and webcast time per Palantir's Oct. 12 Business Wire announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "when": "10:30 p.m. ET",
-      "text": "Reserve Bank of Australia interest rate decision and quarterly Statement on Monetary Policy (2:30 p.m. Sydney time, Nov. 3).",
-      "detail": "Per the RBA's 2026 meeting calendar and its Coming Up page; the governor holds a media conference an hour later.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "text": "Midterm elections."
-    },
-    {
-      "date": "2026-11-03",
-      "when": "10:00 a.m. ET",
-      "text": "Pfizer reports third-quarter results; webcast 10:00 a.m. ET.",
-      "detail": "Date and time per Pfizer's investor relations event page.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "when": "After the close",
-      "text": "AMD reports third-quarter results after the close; call 5:00 p.m. ET.",
-      "detail": "Date and call time (2 p.m. Pacific) per AMD's Oct. 6 GlobeNewswire release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "when": "Before the open",
-      "text": "Shopify reports third-quarter results before the open; call 8:30 a.m. ET.",
-      "detail": "Date and call time per Shopify's Oct. 6 GlobeNewswire announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-03",
-      "when": "10:00 a.m. ET",
-      "text": "September Job Openings and Labor Turnover Survey (JOLTS), 10:00 a.m. ET.",
-      "detail": "Date and time per the BLS 2026 release schedule.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-11-04",
       "when": "Before the open",
@@ -157,6 +73,16 @@
       ]
     },
     {
+      "date": "2026-11-12",
+      "when": "After the close",
+      "text": "Cisco reports fiscal first-quarter results after the close; call 4:30 p.m. ET.",
+      "detail": "Date and call time (1:30 p.m. Pacific) per Cisco's Nov. 3 newsroom announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-11-13",
       "when": "8:30 a.m. ET",
       "text": "October Producer Price Index (PPI), 8:30 a.m. ET.",
@@ -191,6 +117,16 @@
       "when": "2:00 p.m. ET",
       "text": "Minutes of the Fed's Oct. 27-28 meeting, 2:00 p.m. ET.",
       "detail": "The Fed releases minutes three weeks after each policy decision, per its FOMC calendar page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "when": "Before the open",
+      "text": "Walmart reports fiscal third-quarter results; call 8:00 a.m. ET.",
+      "detail": "Per Walmart's corporate events page: materials about 6 a.m. Central, call 7 a.m. Central.",
       "buzz": true,
       "tags": [
         "markets"

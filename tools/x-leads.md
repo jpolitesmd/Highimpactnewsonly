@@ -25,7 +25,7 @@ Dropped as stale this scan (several days old with no new development): Reuters "
 
 ## Watch
 
-- Remaining uncalled House and Senate races (Alaska Sullivan-Peltola, others): use AP calls only. Westchester (NY-17 Lawler-Conley) count after the scanner failures.
+- Remaining uncalled House and Senate races: use AP calls only. Westchester (NY-17 Lawler-Conley) count after the scanner failures.
 - GOP leadership fallout: conservatives on X are blaming Senate Majority Leader Thune over the SAVE Act; run only if a senator or leadership acts on the record (a challenge, statement, or vote).
 - Iran: Nov. 4 embassy-anniversary rallies (state media; ceremonial, not news). Israeli chemical-weapons warning reported via X summaries; needs a named wire report before running. Fars hotel "target" list; run only an official response (Yamaha MotoGP withdrawal from Qatar needs a team or MotoGP statement). Tucker Carlson nuclear claim still unconfirmed.
 - Arlington "triumphal arch": NCPC vote and possible construction start Nov. 5.
@@ -38,6 +38,6 @@ Dropped as stale this scan (several days old with no new development): Reuters "
 ## Dropped this scan
 
 - Wrong or unconfirmed X result claims: "Abbott wins fourth term" (AP called Texas for Hinojosa), X Senate seat counts ("51-39," "56 seats"), Florida GOP turnout percentages (partisan turnout claims), stolen-election hashtags.
-- Commentary and reaction: Thune/SAVE Act blame threads, James Woods post, Fetterman "irrelevant" posts, Mamdani credit threads, CNN voter clip, Hasan Piker stream bet, "vote blue in a red state" debate, property-tax memes, "obvious ballot questions" posts.
+- Commentary and reaction: Thune/SAVE Act blame threads, James Woods post, Mamdani credit threads, CNN voter clip, Hasan Piker stream bet, "vote blue in a red state" debate, property-tax memes, "obvious ballot questions" posts.
 - Minor or local results without national impact on their own: Asheville mayor, individual House winners (Lander, Jeffries, Ford, Stelson, Dandiya) except as examples in the lead card, Indiana secretary of state.
 - Iran: Pakistan army chief "Hindu-Jewish ties" remark (secondhand claim from an Iranian official), Minab drone debris video (unconfirmed), Tehran billboards (propaganda display), viral "war has started" posts (false), Pahlavi Freedom Prize (Nov. 7 ceremony; minor).

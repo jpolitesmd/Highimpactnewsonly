@@ -1,0 +1,233 @@
+{
+ "date": "2026-11-04",
+ "edition": "morning",
+ "subject": "Wednesday, Nov 4 - Morning edition",
+ "published": "2026-11-04T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-04-democrats-win-house-senate",
+   "section": "news",
+   "text": "Congress will be controlled by Democrats in January after they won both the House and the Senate in Tuesday's midterm elections, AP projected.",
+   "detail": "AP called the Senate for Democrats late Tuesday and the House early Wednesday. Democrats flipped at least seven Republican-held Senate seats: Kansas (Adam Hamilton over Sen. Roger Marshall, the state's first Democratic senator since 1932), Iowa (Josh Turek over Rep. Ashley Hinson), Texas (James Talarico over Ken Paxton), Ohio (Sherrod Brown over Sen. Jon Husted), Maine (Troy Jackson over Sen. Susan Collins), North Carolina (Roy Cooper) and South Carolina (Annie Andrews). They held Georgia (Sen. Jon Ossoff), Michigan (Abdul El-Sayed) and New Hampshire (Chris Pappas). In the House they flipped more than two dozen districts. As of 4 a.m. Eastern, Senate races in Alaska and Mississippi were still uncalled. Hakeem Jeffries is in line to become the first Black House speaker. Trump wrote that he \"wasn't on the Ballot,\" vowed to veto Democratic bills and told Fox News he would accept the results; Senate Majority Leader John Thune vowed to resist the new majority's agenda. The new Congress is sworn in in January.",
+   "why": "Democratic majorities can block Trump's legislation, reject his nominees in the Senate and open investigations of his administration for the last two years of his term.",
+   "impact": 5,
+   "topic": "capitol",
+   "region": "US",
+   "time": "2026-11-04T01:33:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+  },
+  {
+   "id": "2026-11-04-democrats-win-governorships-texas-georgia",
+   "section": "news",
+   "text": "Governors' offices in Texas, Georgia, Ohio and Iowa flipped to Democrats Tuesday, giving the party a majority of governorships for the first time since 2006, AP reported.",
+   "detail": "In Texas, Gina Hinojosa ousted third-term Republican Gov. Greg Abbott, becoming the first Democrat elected statewide there since 1994. In Georgia, Keisha Lance Bottoms became the first Black woman elected governor of any U.S. state. Amy Acton beat Vivek Ramaswamy in Ohio, and Rob Sand beat Zach Lahn in Iowa. Republicans held Florida, where Byron Donalds became the nation's first Black Republican elected governor. Democratic Govs. Kathy Hochul (N.Y.), Josh Shapiro (Pa.), JB Pritzker (Ill.), Wes Moore (Md.), Maura Healey (Mass.) and Tina Kotek (Ore.) won reelection, and Xavier Becerra won California. Thirty-six states elected governors.",
+   "why": "Governors control state responses to Trump's agenda on the National Guard, immigration enforcement, federal aid conditions and election rules.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-03T23:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/governors-midterm-election-trump-states-2026-7d58b1e0d9eb193fd7d83890a717ce1a"
+  },
+  {
+   "id": "2026-11-04-ballot-measures-abortion-redistricting",
+   "section": "news",
+   "text": "Abortion-rights measures won in Missouri, Virginia and Nevada on Tuesday, and Missouri voters rejected the state's 2025 Republican congressional map, AP reported.",
+   "detail": "Missouri voters defeated an amendment that would have reimposed most abortion restrictions. Virginia added a \"fundamental right to reproductive freedom\" to its constitution, covering abortion through the first two trimesters, and Nevada gave final approval to a right to abortion until fetal viability. Idaho voters rejected an abortion-rights measure. Maryland approved an amendment paving the way for new congressional districts in 2028. Florida approved a property tax break that triples the $50,000 homestead exemption for non-school taxes next year and raises it to $250,000 in 2028. California and Colorado rejected voter ID measures; Ohio, North Carolina and Nevada approved them. Nebraska and Arizona passed transgender restrictions. Voters decided 145 questions in more than three dozen states.",
+   "why": "The results set abortion law in several states and shape House district lines for the 2028 election.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-03T23:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470"
+  },
+  {
+   "id": "2026-11-03-spokane-county-deputies-shot",
+   "section": "news",
+   "text": "Two Spokane County, Wash., SWAT deputies were critically wounded and three people died, including the gunman, after a domestic violence call Tuesday near Spangle.",
+   "detail": "The call came in around 2:25 p.m. Pacific time, Sheriff John Nowels said. A woman was also wounded, with injuries that are not life-threatening.",
+   "why": "Shootings that critically wound multiple officers on one call are rare.",
+   "impact": 2,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-11-03T17:25:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/washington-deputies-shot-spokane-359e696c4354758db4ba95f0a36fbb29"
+  },
+  {
+   "id": "2026-11-03-trump-says-israel-aid-ends",
+   "section": "news",
+   "text": "U.S. aid to Israel of about $4 billion a year will end after this year, President Trump said Tuesday, adding that Israel can still buy American weapons.",
+   "detail": "In a phone interview with Fox News Channel's \"Fox & Friends\" on Election Day, Trump said he and Prime Minister Benjamin Netanyahu agreed to it months ago, that Netanyahu proposed it, and that the U.S. would \"help Israel if they need it.\" He did not say how the cutoff would work. The current 2016 memorandum of understanding provides $3.8 billion a year ($3.3 billion in military financing and $500 million for missile defense) through 2028, and the money is appropriated by Congress. Netanyahu's office declined to comment Tuesday.",
+   "why": "Israel is the largest recipient of U.S. military aid, and ending it would reverse a decades-old commitment.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-03T08:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-israel-military-aid-hardware-5cad93330300b2d45a9665d5eccb2ab2"
+  },
+  {
+   "id": "2026-11-03-election-day-voting-problems",
+   "section": "news",
+   "text": "Election Day voting ran with relatively few problems, AP reported, though ballot scanners failed across Westchester County, N.Y., and Florida moved 21 polling sites after flooding.",
+   "detail": "In Westchester, scanners rejected ballots from poll opening after what officials described as a programming update; voters filled out paper ballots placed in sealed emergency bags, which officials said will be counted after polls close at 9 p.m. In Florida, Gov. Ron DeSantis's Executive Order 26-227 declared emergencies in seven counties, and the state Division of Elections listed temporary sites for 30 precincts in eight counties, including Brevard, Broward and Palm Beach.",
+   "why": "Delays in places like Westchester could slow vote counts.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-03T16:10:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/midterms-election-day-voting-polls-trump-ba3037eed7bd816cc084bb1c4a2e6ccf"
+  },
+  {
+   "id": "2026-11-03-greenland-parliament-approves-us-defense-deal",
+   "section": "news",
+   "text": "Greenland's parliament approved a defense agreement with the U.S. and Denmark on Tuesday that opens the way for more American military bases on the island.",
+   "detail": "The vote was 16-0 with seven abstentions. The deal, signed in September by President Trump, Danish Prime Minister Mette Frederiksen and Greenland Prime Minister Jens-Frederik Nielsen at the U.N. General Assembly, lets the U.S. modernize and expand Pituffik Space Base. Greenland stays under Danish control, and the agreement would still apply if it becomes independent. It takes effect only after Denmark's parliament approves it; Danish lawmakers debate it later this month. No U.S. Senate approval is required.",
+   "why": "It settles, for now, a dispute that began with Trump's threats to take the island.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-11-03T12:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/greenland-trump-denmark-us-33824857ac4312c5ebd53821187ecc13"
+  },
+  {
+   "id": "2026-11-03-guam-results-ada-limtiaco",
+   "section": "news",
+   "text": "Guam's governor's office goes to Republicans Tony Ada and E.J. Calvo, and Democrat Alicia Limtiaco unseated Del. James Moylan, final unofficial results show.",
+   "detail": "Guam Election Commission unofficial results gave Ada-Calvo 15,945 votes (51.45%) to 14,925 for Democrats Therese Terlaje and Sabina Perez; Terlaje conceded. Limtiaco led Moylan, a Republican, 15,645 (51%) to 14,983 for Guam's non-voting seat in the U.S. House. Guam votes about 15 hours ahead of the East Coast, so these are the first 2026 midterm results. Results are unofficial until certified; off-island absentee ballots are counted Nov. 19.",
+   "why": "They are the first results of the midterms, including a House delegate seat changing parties.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-03T10:30:00-05:00",
+   "time_known": false,
+   "source": "Guam Election Commission",
+   "url": "https://gec.guam.gov/category/results/"
+  },
+  {
+   "id": "2026-11-03-ninth-circuit-reinstates-doj-ballot-warnings-stay",
+   "section": "news",
+   "text": "The Justice Department may again warn election officials they risk prosecution for counting flagged ballots, after the full Ninth Circuit reinstated a stay Tuesday morning.",
+   "detail": "In SEIU v. Department of Justice (No. 26-7303), a 2-1 panel on Monday stayed a San Francisco judge's order that barred DOJ from demanding that officials set aside ballots of voters it calls likely noncitizens and from warning of prosecution. A majority of active judges vacated that stay overnight and took the case en banc; on Election Day morning the en banc court reinstated the stay. Chief Judge Mary Murguia, joined by Judges Gould, Owens, H.A. Thomas and Desai, dissented. The district court's temporary restraining order would otherwise run through Nov. 16. Separately, U.S. District Judge Tanya Chutkan in Washington late Monday barred DOJ and Homeland Security from sending states lists of suspected noncitizen voters or asking them to separate those ballots, in a Privacy Act case (Reuters).",
+   "why": "Election officials in California and other states are counting ballots under shifting court orders about federal prosecution threats.",
+   "impact": 3,
+   "topic": "court",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "U.S. Court of Appeals for the Ninth Circuit",
+   "region": "US",
+   "time": "2026-11-03T09:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the Ninth Circuit",
+   "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/11/03/26-7303.pdf"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-11-02-us-strikes-iran-qeshm-island",
+   "section": "news",
+   "text": "Iran's Qeshm Island in the Strait of Hormuz was hit Monday by limited U.S. \"defensive\" strikes on surface-to-air missiles used against U.S. aircraft, U.S. officials said.",
+   "detail": "A U.S. official, speaking on condition of anonymity, said the strikes targeted \"Iranians using surface to air missiles against U.S. assets\"; Iranian state TV reported explosions on the island. The strikes appeared limited rather than a return to full hostilities, AP reported, and came on the eve of the midterms after President Trump had said the U.S. would not launch new strikes before them. The Wall Street Journal first reported the strikes. The administration was last known to have attacked in early September; a U.S. naval blockade of Iranian oil continues and a third aircraft carrier is heading to the region. Hours earlier, Vice President JD Vance said he and Trump \"feel pretty good\" about a possible negotiated settlement; Qatari mediators held two rounds of talks with Iran last week.",
+   "why": "It is the first known U.S. strike on Iran in about two months, as talks to end the war continue.",
+   "impact": 4,
+   "topic": "conflict",
+   "region": "US",
+   "time": "2026-11-02T21:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-us-trump-netanyahu-israel-war-b4519ef86bafe2672e0855d7a48ce309"
+  },
+  {
+   "id": "2026-11-02-doj-asks-scotus-california-mail-ballots",
+   "section": "news",
+   "text": "California's mail ballots from about 20,000 people the government flagged as likely noncitizens will not be set aside, after the Supreme Court denied the Trump administration's emergency request Monday.",
+   "detail": "The Court's brief order denied the Justice Department's application (No. 26A624) for an injunction pending appeal, without explanation and with no noted dissents, after a district court and a divided Ninth Circuit panel had refused. Also Monday, Chief Judge James Boasberg in Washington barred the Justice Department and Homeland Security from demanding that California election officials segregate ballots based on the federal lists, writing that the executive branch \"has likely violated the Constitution's Elections Clause.\" California says the federal list is unreliable and includes many citizens.",
+   "why": "The ruling leaves California's count of more than 6 million returned mail ballots on its normal path on Election Day.",
+   "impact": 4,
+   "topic": "ballot",
+   "branch": [
+    "executive",
+    "judicial"
+   ],
+   "judicial": true,
+   "court": "Supreme Court of the United States",
+   "region": "US",
+   "time": "2026-11-02T17:55:00-05:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States",
+   "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a624.html"
+  },
+  {
+   "id": "2026-11-02-judge-dismisses-ex-fbi-officials-case",
+   "section": "news",
+   "text": "The false-statements case against two former FBI officials over the Hunter Biden laptop was dismissed Monday by a federal magistrate judge who called it \"weaponization.\"",
+   "detail": "Ruling from the bench for about an hour, U.S. Magistrate Judge Zia Faruqui of the District of Columbia found no probable cause on any element of the charge that Nikki Floris and Bradley Benavides lied to the House Judiciary Committee in 2023. The Justice Department said it \"disagrees\" and is \"evaluating all options\"; it could appeal to the chief judge or seek a grand jury indictment.",
+   "why": "A judge rejected at the first step a prosecution of former FBI officials brought by this Justice Department.",
+   "impact": 4,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-02T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/fbi-hunter-biden-laptop-justice-department-101ccd65d10b5f779985747eb0045b52"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-04",
+   "when": "Before the open",
+   "text": "Uber reports third-quarter results; call 8:00 a.m. ET.",
+   "detail": "Call time (5:00 a.m. Pacific) per Uber's Oct. 5 Business Wire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "when": "After the close",
+   "text": "Qualcomm reports fiscal fourth-quarter and full-year results after the close; call 4:45 p.m. ET.",
+   "detail": "Date and call time (1:45 p.m. Pacific) per Qualcomm's Oct. 22 PR Newswire release.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "when": "10:00 a.m. ET",
+   "text": "October ISM Services PMI, 10:00 a.m. ET.",
+   "detail": "Date and time per ISM's 2026 release calendar; September's reading was 54.9%, per ISM.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

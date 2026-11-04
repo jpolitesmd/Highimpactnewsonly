@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updated": "2026-11-01",
+  "updated": "2026-11-04",
   "events": [
     {
       "date": "2026-01-03",
@@ -288,6 +288,13 @@
       "topic": "sports",
       "text": "The Golden State Valkyries won the WNBA championship in their second season, beating the Atlanta Dream 68-63 in the first Game 7 in Finals history.",
       "url": "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4"
+    },
+    {
+      "date": "2026-11-03",
+      "impact": 5,
+      "topic": "capitol",
+      "text": "Democrats won control of both the House and the Senate in the midterm elections, flipping at least seven Republican-held Senate seats in a rebuke of President Trump.",
+      "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
     }
   ]
 }

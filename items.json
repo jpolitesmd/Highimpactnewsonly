@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:55:00-05:00",
+  "updated": "2026-11-05T05:35:00-05:00",
   "items": [
     {
       "id": "2026-11-04-johnson-steps-aside-jordan-scalise",
@@ -11678,6 +11678,124 @@
         "new-york"
       ],
       "added_at": "2026-10-31T05:50:00-04:00"
+    },
+    {
+      "id": "2026-11-05-massie-forces-hegseth-impeachment-vote",
+      "section": "news",
+      "topic": "capitol",
+      "region": "US",
+      "impact": 4,
+      "thread": "iran-war",
+      "branch": "legislative",
+      "time": "2026-11-04T21:00:00-05:00",
+      "time_known": false,
+      "text": "Rep. Thomas Massie says he will force a House vote next week to impeach Defense Secretary Pete Hegseth over the Iran war and other military actions.",
+      "detail": "Massie's eight articles of impeachment say the Iran war violated the War Powers Resolution and that Hegseth ignored civilian-casualty laws. They also cite drug-boat strikes that killed at least 221 people, retaliation against Sen. Mark Kelly, the seizure of Nicolás Maduro and Cilia Flores, and an unauthorized war in Yemen. Massie told CNN he will trigger the vote when Congress returns. He said he would drop the effort if Hegseth resigns. As a privileged resolution, it must get floor action within two legislative days, though the House could vote to table it. President Trump said Hegseth is \"doing a very good job.\" A Pentagon spokesman said Hegseth \"will not back down.\"",
+      "why": "A simple House majority would impeach a sitting war-time defense secretary, though removal requires two-thirds of the Senate.",
+      "source": "Rep. Thomas Massie (press release)",
+      "url": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395853",
+      "notes": "Articles PDF on massie.house.gov. Timing and quotes cross-checked with CNN (Nov 4, updated 10:04 PM ET); privileged-resolution procedure per Roll Call. Trending: hard on X (rated 3 on substance, +1 bump to 4).",
+      "tags": [
+        "hegseth",
+        "impeachment",
+        "massie",
+        "house",
+        "iran"
+      ],
+      "added_at": "2026-11-05T05:35:00-05:00"
+    },
+    {
+      "id": "2026-11-05-tankers-hit-qatar-hormuz",
+      "section": "news",
+      "topic": "ship",
+      "region": "World",
+      "world_region": "mideast",
+      "thread": "iran-war",
+      "impact": 3,
+      "time": "2026-11-04T18:20:00-05:00",
+      "time_known": true,
+      "text": "Two projectiles struck a tanker off northern Qatar overnight, and Iran's Revolutionary Guards said two tankers and a tug caught fire near Hormuz.",
+      "detail": "The British military's UKMTO said the tanker was hit about 50 nautical miles north of Madinat ash Shamal, Qatar, at 2320 UTC Wednesday. The crew's condition and the extent of the damage were not confirmed. Separately, the IRGC said one tanker hit a mine south of the Strait of Hormuz. It said a supertanker leaving the strait caught fire, and a tug helping it also caught fire. The IRGC said the ships had tried to use unauthorized routes. Qatar is mediating between the U.S. and Iran. A Qatari LNG carrier was hit on Oct. 30.",
+      "why": "Attacks on Gulf shipping keep pressure on oil and gas prices while cease-fire talks continue.",
+      "source": "AP",
+      "url": "https://apnews.com/article/mideast-iran-war-hormuz-tankers-a35d13806844d99fda93de0a19de57fa",
+      "notes": "UKMTO Warning 196-26 (primary PDF) for the Qatar strike; IRGC statement per Reuters (via Dawn/Telegraph India). AP fetch timed out; facts from primary and Reuters copies.",
+      "tags": [
+        "hormuz",
+        "shipping",
+        "ukmto",
+        "qatar",
+        "irgc"
+      ],
+      "added_at": "2026-11-05T05:35:00-05:00"
+    },
+    {
+      "id": "2026-11-05-medicare-2027-payment-rules",
+      "section": "health",
+      "health_beat": "policy",
+      "topic": "health",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-11-04T17:00:00-05:00",
+      "time_known": false,
+      "text": "Medicare finalized its 2027 doctor-pay rule, cutting the basic payment rate about 2% as a one-year 2.5% boost expires.",
+      "detail": "The conversion factor for doctors who do not qualify under alternative payment models drops 2.31%, to $32.63. For doctors who qualify, it drops 1.83%, to $32.95. When an office visit and a minor same-day procedure are billed together, the lower-cost service will be paid at 80%. Starting April 1, 2027, approved ACOs may reduce or waive Part B cost-sharing for many services. The rule also writes into regulation the new law limiting Medicare eligibility to citizens, green-card holders and a few other groups. The rule takes effect Jan. 1, 2027. CMS also finalized its 2027 hospital outpatient and home health payment rules.",
+      "why": "These rates set what Medicare pays doctors next year, which affects access for millions of seniors.",
+      "source": "CMS (fact sheet)",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-final-rule",
+      "notes": "Full CMS fact sheet and HHS press release (Nov 4); filed for Federal Register public inspection Nov 4 at 5 PM ET (CMS-1848-F, CMS-1850-F, CMS-1844-F). OPPS figures not stated pending full-text check.",
+      "tags": [
+        "medicare",
+        "cms",
+        "physician-fee-schedule",
+        "opps"
+      ],
+      "added_at": "2026-11-05T05:35:00-05:00"
+    },
+    {
+      "id": "2026-11-05-aer-lingus-bomb-threat-diversion",
+      "section": "news",
+      "topic": "security",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-11-05T04:00:00-05:00",
+      "time_known": false,
+      "text": "An Aer Lingus flight from Dublin to Rome diverted to a French military air base Thursday after a bomb threat and landed safely.",
+      "detail": "France's prime minister's office said the Airbus A320 landed at the Evreux base in Normandy. The French air force said it sent jets to escort the plane. Earlier this week, hoax threats against LOT, SAS, Wizz Air and Ryanair flights forced diversions.",
+      "why": "Repeated threats are disrupting European air travel and pulling in military escorts.",
+      "source": "AP",
+      "url": "https://apnews.com/article/flight-diverted-france-bomb-threat-dublin-rome-6585ff565ee1ccb9f19b73074aa2fec4",
+      "notes": "AP News Summary text; cross-checked with DW (AFP/Reuters). Follows 2026-11-03-europe-flight-bomb-hoaxes.",
+      "tags": [
+        "aviation",
+        "bomb-threats",
+        "europe",
+        "aer-lingus"
+      ],
+      "added_at": "2026-11-05T05:35:00-05:00"
+    },
+    {
+      "id": "2026-11-05-qualcomm-q4-results",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-11-04T16:27:00-05:00",
+      "time_known": true,
+      "text": "Qualcomm's quarterly revenue fell 8% to $10.3 billion as handset chip sales dropped, while automotive chip revenue rose 89%.",
+      "detail": "Qualcomm said handset chip revenue fell 26% to $5.1 billion. Automotive revenue reached a record $2 billion. The company projected first-quarter fiscal 2027 revenue of $10.4 billion to $11.2 billion. It said it is raising chip prices to cover higher wafer, packaging and memory costs. Qualcomm reiterated its $5 billion data-center revenue target for fiscal 2027.",
+      "why": "Chipmakers' results show how AI and rising input costs are reshaping the industry.",
+      "source": "Qualcomm (earnings release)",
+      "url": "https://investor.qualcomm.com/news-events/press-releases",
+      "notes": "Full release text via MarketScreener copy (published 4:27 PM ET Nov 4).",
+      "tags": [
+        "qualcomm",
+        "earnings",
+        "chips"
+      ],
+      "added_at": "2026-11-05T05:35:00-05:00"
     }
   ]
 }

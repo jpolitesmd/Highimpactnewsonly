@@ -1,36 +1,6 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "events": [
-    {
-      "date": "2026-11-04",
-      "when": "Before the open",
-      "text": "Uber reports third-quarter results; call 8:00 a.m. ET.",
-      "detail": "Call time (5:00 a.m. Pacific) per Uber's Oct. 5 Business Wire announcement.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "when": "After the close",
-      "text": "Qualcomm reports fiscal fourth-quarter and full-year results after the close; call 4:45 p.m. ET.",
-      "detail": "Date and call time (1:45 p.m. Pacific) per Qualcomm's Oct. 22 PR Newswire release.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "when": "10:00 a.m. ET",
-      "text": "October ISM Services PMI, 10:00 a.m. ET.",
-      "detail": "Date and time per ISM's 2026 release calendar; September's reading was 54.9%, per ISM.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-11-05",
       "when": "7:00 a.m. ET",
@@ -50,6 +20,16 @@
         "markets"
       ],
       "detail": "Date and time per the BLS 2026 release schedule."
+    },
+    {
+      "date": "2026-11-09",
+      "when": "After the close",
+      "text": "Rocket Lab reports third-quarter results after the close; call 5:00 p.m. ET.",
+      "detail": "Date and call time (2:00 p.m. Pacific) per Rocket Lab's Oct. 20 GlobeNewswire announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
     },
     {
       "date": "2026-11-10",
@@ -77,6 +57,16 @@
       "when": "After the close",
       "text": "Cisco reports fiscal first-quarter results after the close; call 4:30 p.m. ET.",
       "detail": "Date and call time (1:30 p.m. Pacific) per Cisco's Nov. 3 newsroom announcement.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "when": "After the close",
+      "text": "Applied Materials reports fiscal fourth-quarter and full-year results; call 4:30 p.m. ET.",
+      "detail": "Date and call time (1:30 p.m. Pacific) per Applied Materials' Oct. 22 GlobeNewswire announcement.",
       "buzz": true,
       "tags": [
         "markets"
@@ -113,10 +103,30 @@
       ]
     },
     {
+      "date": "2026-11-17",
+      "when": "Before the open",
+      "text": "Home Depot reports third-quarter results; call 9:00 a.m. ET.",
+      "detail": "Date and time per Home Depot's investor relations events page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
       "date": "2026-11-18",
       "when": "2:00 p.m. ET",
       "text": "Minutes of the Fed's Oct. 27-28 meeting, 2:00 p.m. ET.",
       "detail": "The Fed releases minutes three weeks after each policy decision, per its FOMC calendar page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "when": "Before the open",
+      "text": "Target reports third-quarter results; call 8:00 a.m. ET.",
+      "detail": "Date and call time per Target's investor relations events page.",
       "buzz": true,
       "tags": [
         "markets"

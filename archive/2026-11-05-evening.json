@@ -1,0 +1,150 @@
+{
+ "date": "2026-11-05",
+ "edition": "evening",
+ "subject": "Thursday, Nov 5 - Evening edition",
+ "published": "2026-11-05T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-05-nasdaq-correction-ai-selloff",
+   "section": "money",
+   "text": "The Nasdaq composite fell 5.5% Thursday to 24,315, closing in a correction more than 10% below its Oct. 6 record, as AI and chip stocks sold off.",
+   "detail": "The S&P 500 fell 4.4%, or about 335 points, to 7,353.73, its worst day since April 2025. The Dow Jones industrial average sank 1,833 points, or 3.4%, to 51,523.06, wiping out Wednesday's post-election rally. Nvidia fell about 9%; the Philadelphia semiconductor index plunged about 11%. Investors weighed weak chip outlooks, including Qualcomm's, and concern that Democratic wins in Congress and in states such as Texas could slow data-center buildout. The Nasdaq's Oct. 6 record close was 27,599.79.",
+   "why": "A one-day rout put the tech-heavy Nasdaq into a formal correction and erased the market's midterm bounce.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-05T16:00:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+  },
+  {
+   "id": "2026-11-05-dhillon-resigns-doj-civil-rights",
+   "section": "news",
+   "text": "Harmeet Dhillon resigned as head of the Justice Department's Civil Rights Division, Attorney General Todd Blanche said Thursday.",
+   "detail": "Blanche said he accepted her resignation after about 18 months in the post. Dhillon said she had told White House chief of staff Susie Wiles weeks earlier that she planned to leave after the midterms and would return to private practice. She was the first senior Justice Department official to exit after Democrats won Congress on Tuesday. Under Dhillon the division overhauled priorities, pursued university and voter-roll cases, and saw a large share of career lawyers leave.",
+   "why": "It is the first high-level Justice Department departure after the midterm defeat.",
+   "impact": 4,
+   "topic": "doj",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-05T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/justice-department-civil-rights-division-harmeet-dhillon-db3ad709a2ff5a48c5d3a9e3f71963d6"
+  },
+  {
+   "id": "2026-11-05-judge-blocks-afghan-deportation-flights",
+   "section": "news",
+   "text": "A New York federal judge temporarily blocked the Trump administration from deporting detained Afghans to Afghanistan or Pakistan through Saturday.",
+   "detail": "U.S. District Judge Valerie Caproni ordered the government to honor ICE's statement that it had no planned or confirmed charter or commercial flights for those removals through Nov. 7. Rights groups and dozens of lawmakers had warned of a Louisiana charter flight of about 150 Afghans via Pakistan. ICE said no such flights were planned or confirmed this week. The order does not decide the case's merits.",
+   "why": "It pauses a reported mass removal of Afghans while the court reviews safety claims.",
+   "impact": 3,
+   "topic": "court",
+   "branch": "judicial",
+   "judicial": "district",
+   "court": "SDNY",
+   "region": "US",
+   "time": "2026-11-05T10:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/afghans-deportation-pakistan-trump-immigration-a419fbb329b96480d806d9ffbd52ccb4"
+  },
+  {
+   "id": "2026-11-05-bank-of-england-raises-rate-4pct",
+   "section": "money",
+   "text": "The Bank of England raised Bank Rate to 4% from 3.75%, its first increase since August 2023, citing energy-driven inflation from the Middle East war.",
+   "detail": "The Monetary Policy Committee voted 8-1 for a quarter-point hike; Catherine L. Mann favored 4.25%. UK CPI was 3.5% in September and is projected to reach about 5% by mid-2027. Governor Andrew Bailey said the move should not be seen as the start of an inevitable long sequence of hikes, but that another increase is likely unless the Middle East conflict is resolved. The next decision is Dec. 17.",
+   "why": "Britain's central bank tightened for the first time in more than three years as war-driven energy costs lift inflation.",
+   "impact": 3,
+   "topic": "bank",
+   "region": "World",
+   "time": "2026-11-05T07:00:00-05:00",
+   "time_known": true,
+   "source": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+  },
+  {
+   "id": "2026-11-05-raman-defeats-bass-la-mayor",
+   "section": "news",
+   "text": "Nithya Raman defeated Mayor Karen Bass to become the next mayor of Los Angeles, and Bass conceded Thursday.",
+   "detail": "AP projected Raman the winner. Returns showed Raman with about 52% to Bass's 48%. Raman, a City Council member, will take office in December. The race was part of Tuesday's midterm balloting.",
+   "why": "Los Angeles is choosing new leadership after Bass's first term.",
+   "impact": 2,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-05T12:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/los-angeles-mayor-nithya-raman-a86250b9e833ea907a88623e9c1caaab"
+  },
+  {
+   "id": "2026-11-05-russell-brand-convicted",
+   "section": "news",
+   "text": "Russell Brand was convicted in London of one count of rape and three counts of sexual assault against four women; sentencing is Monday.",
+   "detail": "A Southwark Crown Court jury found Brand, 51, guilty after a four-week trial of offenses from 2004 to 2009. He was acquitted of two rape counts and one attempted indecent assault. The Crown Prosecution Service said he used his celebrity status to commit the crimes. He was remanded in custody; the judge said a significant custodial term is inevitable. Sentencing is Nov. 9.",
+   "why": "A high-profile UK criminal conviction ends a four-week trial.",
+   "impact": 2,
+   "topic": "court",
+   "region": "World",
+   "time": "2026-11-05T09:00:00-05:00",
+   "time_known": false,
+   "source": "Crown Prosecution Service",
+   "url": "https://www.cps.gov.uk/national-news-london-south/news/russell-brand-convicted-non-recent-sexual-offences-against-four"
+  },
+  {
+   "id": "2026-11-05-jobless-claims-productivity",
+   "section": "money",
+   "text": "Initial jobless claims fell to 189,000 last week, the fewest since mid-July, and third-quarter productivity rose at a 3.6% annual rate.",
+   "detail": "The Labor Department said claims for the week ended Oct. 31 dropped 6,000 from a revised 195,000; the four-week average was 194,750. Separately, BLS said nonfarm productivity rose 3.6% as output grew 3.7% and hours 0.1%, and unit labor costs fell 0.7%, the first decline in more than a year. The October jobs report is due Friday.",
+   "why": "Low layoffs and stronger productivity are the last labor snapshots before Friday's jobs report.",
+   "impact": 2,
+   "topic": "jobs",
+   "region": "US",
+   "time": "2026-11-05T08:30:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/layoffs-unemployment-economy-039c8e6b655b7bc3dd5e2836bbb2ecc9"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 7
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-05",
+   "when": "7:00 a.m. ET",
+   "text": "Bank of England interest rate decision, minutes, and November Monetary Policy Report (noon London time).",
+   "detail": "Per the Bank of England's 2026 MPC calendar. Bank Rate is 3.75%; in September the committee voted 6-3 to hold, with three members favoring a quarter-point increase.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "when": "8:30 a.m. ET",
+   "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ],
+   "detail": "Date and time per the BLS 2026 release schedule."
+  },
+  {
+   "date": "2026-11-09",
+   "when": "After the close",
+   "text": "Rocket Lab reports third-quarter results after the close; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2:00 p.m. Pacific) per Rocket Lab's Oct. 20 GlobeNewswire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

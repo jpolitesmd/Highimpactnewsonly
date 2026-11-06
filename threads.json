@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T16:50:00-05:00",
+ "updated": "2026-11-06T05:50:00-05:00",
  "threads": [
   {
    "id": "iran-war",
@@ -95,6 +95,12 @@
    "id": "brazil-election",
    "title": "Brazil's election and Flávio Bolsonaro",
    "summary": "Lula's runoff win over Flávio Bolsonaro, who refused to concede and left Brazil for the United States while under criminal investigation.",
+   "status": "active"
+  },
+  {
+   "id": "trump-arch",
+   "title": "Trump's Memorial Circle arch",
+   "summary": "Lawsuits and approvals over the 250-foot arch President Trump wants to build at Memorial Circle near Arlington National Cemetery.",
    "status": "active"
   }
  ]

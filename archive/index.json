@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-06-morning",
+   "date": "2026-11-06",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Japan's Nikkei fell 6% into a bear market and South Korea's Kospi fell 6% Friday, extending Wall Street's AI-driven selloff."
+  },
+  {
    "key": "2026-11-05-evening",
    "date": "2026-11-05",
    "edition": "evening",
@@ -533,5 +540,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-05T16:46:40-05:00"
+ "updated": "2026-11-06T05:30:56-05:00"
 }

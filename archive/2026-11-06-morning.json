@@ -1,0 +1,273 @@
+{
+ "date": "2026-11-06",
+ "edition": "morning",
+ "subject": "Friday, Nov 6 - Morning edition",
+ "published": "2026-11-06T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-06-asia-stocks-nikkei-bear-market-kospi",
+   "section": "money",
+   "text": "Japan's Nikkei fell 6% into a bear market and South Korea's Kospi fell 6% Friday, extending Wall Street's AI-driven selloff.",
+   "detail": "The Nikkei 225 closed down 5.96% at 57,434.77 after falling as much as 7.09%, its first close below 60,000 since May and more than 20% under its June record of 72,831.73. The Kospi closed down 6.02% at 5,059.69; it plunged more than 8% at the open, which halted trading for 20 minutes, and SK hynix fell 10.44% and Samsung Electronics 6.35%. Hong Kong's Hang Seng fell 1.3% and Australia's ASX 200 0.5%. Thursday on Wall Street the S&P 500 fell 4.4%, the Nasdaq 5.5% and the Philadelphia semiconductor index about 12%. Analysts quoted by Yonhap and the Japan Times tied the selling to fears that a Democratic Congress will slow AI data-center construction and tighten AI rules.",
+   "why": "The AI-stock rout that began on Wall Street has now spread to Asia's chip-heavy markets.",
+   "impact": 4,
+   "topic": "stocks",
+   "region": "World",
+   "time": "2026-11-06T02:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
+  },
+  {
+   "id": "2026-11-05-judge-chutkan-blocks-trump-arch-construction",
+   "section": "news",
+   "text": "A federal judge barred construction of President Trump's 250-foot arch for 14 days, shortly after a planning commission approved the project 8-4.",
+   "detail": "U.S. District Judge Tanya Chutkan granted the temporary restraining order sought by the District of Columbia and Virginia, blocking construction, excavation, demolition, land-disturbing work, utility installation and road closures at Memorial Circle. In a 33-page opinion she found the project likely violates federal law, that construction threatens irreparable harm and that a halt is in the public interest. She was unpersuaded by recent administration declarations that the arch has national-security value, saying they appear nowhere in the planning documents. The government must notify contractors and report to the court by Nov. 9. The National Capital Planning Commission had voted 8-4 late Thursday after hearing from about 100 opponents; the Justice Department had said excavation could begin within days. The administration argues Congress authorized the arch when it approved the Potomac bridge more than a century ago.",
+   "why": "The order stops work the administration had planned to start immediately while the legal fight continues.",
+   "impact": 3,
+   "topic": "court",
+   "branch": "judicial",
+   "region": "US",
+   "time": "2026-11-05T23:45:00-05:00",
+   "time_known": false,
+   "source": "UPI",
+   "url": "https://www.upi.com/Top_News/US/2026/11/06/juge-blocks-arch-construction/8551793947888"
+  },
+  {
+   "id": "2026-11-05-judge-blocks-doj-washington-ballot-demands",
+   "section": "news",
+   "text": "A federal judge barred the Justice Department from demanding that Washington state set aside ballots on a list of about 400 suspected noncitizens.",
+   "detail": "U.S. District Judge Jamal Whitehead in Seattle granted in part a 14-day temporary restraining order. It bars DOJ and Homeland Security from demanding that Washington officials set aside a registered voter's ballot because the name is on the federal list, and from threatening officials with prosecution for counting ballots as state law requires. Prosecutors sent the list Oct. 26; the judge noted Washington found it included citizens who had already shown proof of citizenship, and that nothing in the record shows anyone on it was charged. Relying on the Ninth Circuit's United States v. California, he wrote that the government \"did not ask\" but directed the state. The order is narrow: it does not stop DOJ from investigating or prosecuting anyone who votes unlawfully, sharing information, or asking for cooperation. A hearing on a longer injunction is set for Nov. 18.",
+   "why": "It limits federal pressure on Washington's ballot count while counties finish counting before the Nov. 24 certification deadline.",
+   "impact": 3,
+   "topic": "court",
+   "branch": "judicial",
+   "court": "district",
+   "region": "US",
+   "time": "2026-11-05T19:21:00-05:00",
+   "time_known": true,
+   "source": "U.S. District Court, Western District of Washington (order)",
+   "url": "https://www.democracydocket.com/wp-content/uploads/2026/11/Order-granting-TRO.pdf"
+  },
+  {
+   "id": "2026-11-05-paraguay-congress-rejects-pena-resignation-impeachment",
+   "section": "news",
+   "text": "Paraguay's Congress refused to accept President Santiago Peña's resignation and opened an impeachment trial over the collapse of Ueno Bank.",
+   "detail": "The central bank took over Ueno Bank on Tuesday after finding a severe capital shortfall; the lender says it has more than 3 million customers in a country of about 6.4 million and held roughly $800 million or more in public funds. Peña, who owned shares in the bank's controlling group until last year, announced his resignation by video just as the Chamber of Deputies unanimously approved impeachment. Colorado Party deputies then left a joint session, leaving it without a quorum, so the resignation was not accepted; opposition lawmakers said accepting it would make him a senator for life with legal protections. The Senate opened the trial Thursday night and summoned Peña to present his defense Friday at 10 a.m. local time. Removal needs 30 of 45 senators, and Vice President Pedro Alliana would take over. The attorney general ordered criminal investigations, and Peña says he will cooperate.",
+   "why": "A sitting U.S.-allied president faces removal days after a bank failure froze savings for much of the country.",
+   "impact": 3,
+   "topic": "government",
+   "region": "World",
+   "time": "2026-11-05T19:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/ueno-bank-collapse-paraguay-banking-crisis-santiago-pena-impeachment-eccea1c9a64808b5cd7e6e1d5542084f"
+  },
+  {
+   "id": "2026-11-05-trump-weighs-resuming-iran-strikes",
+   "section": "news",
+   "text": "President Trump said he will decide \"soon\" whether to resume large-scale strikes on Iran after meeting his national security advisers; no order has been given.",
+   "detail": "Asked after the meeting, Trump said: \"Now we will make a decision... I would rather not destroy the rest of the country if possible, but maybe I will have to. You'll know soon enough.\" Axios, citing U.S. officials, reports he is weighing new strikes, continued economic pressure, or a deal with concessions to Iran, and that U.S. Central Command is finalizing preparations but has received no new directive. Qatari mediators are discussing a two-day confidence-building proposal under which the U.S. would lift its naval blockade and release some frozen funds, Iran would invite IAEA inspectors, and the Strait of Hormuz would then reopen. Iran's Mohsen Rezaei said in Moscow that Iran will not reopen the strait or negotiate until the U.S. meets seven conditions. The USS Theodore Roosevelt carrier group will not reach the region before mid-November.",
+   "why": "The decision could restart the U.S.-Iran war or open a path to ending it.",
+   "impact": 3,
+   "topic": "war",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-05T18:00:00-05:00",
+   "time_known": false,
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
+  },
+  {
+   "id": "2026-11-05-nasdaq-correction-ai-selloff",
+   "section": "money",
+   "text": "The Nasdaq composite fell 5.5% Thursday to 24,315, closing in a correction more than 10% below its Oct. 6 record, as AI and chip stocks sold off.",
+   "detail": "The S&P 500 fell 4.4%, or about 335 points, to 7,353.73, its worst day since April 2025. The Dow Jones industrial average sank 1,833 points, or 3.4%, to 51,523.06, wiping out Wednesday's post-election rally. Nvidia fell about 9%; the Philadelphia semiconductor index plunged about 11%. Investors weighed weak chip outlooks, including Qualcomm's, and concern that Democratic wins in Congress and in states such as Texas could slow data-center buildout. The Nasdaq's Oct. 6 record close was 27,599.79.",
+   "why": "A one-day rout put the tech-heavy Nasdaq into a formal correction and erased the market's midterm bounce.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-05T16:00:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+  },
+  {
+   "id": "2026-11-05-dhillon-resigns-doj-civil-rights",
+   "section": "news",
+   "text": "Harmeet Dhillon resigned as head of the Justice Department's Civil Rights Division, Attorney General Todd Blanche said Thursday.",
+   "detail": "Blanche said he accepted her resignation after about 18 months in the post. Dhillon said she had told White House chief of staff Susie Wiles weeks earlier that she planned to leave after the midterms and would return to private practice. She was the first senior Justice Department official to exit after Democrats won Congress on Tuesday. Under Dhillon the division overhauled priorities, pursued university and voter-roll cases, and saw a large share of career lawyers leave.",
+   "why": "It is the first high-level Justice Department departure after the midterm defeat.",
+   "impact": 4,
+   "topic": "doj",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-05T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/justice-department-civil-rights-division-harmeet-dhillon-db3ad709a2ff5a48c5d3a9e3f71963d6"
+  },
+  {
+   "id": "2026-11-05-doj-criminal-probe-supreme-court-roe-leak",
+   "section": "news",
+   "text": "The Justice Department is pursuing a criminal investigation into the 2022 Supreme Court abortion-ruling leak, The New York Times reported; DOJ declined to comment.",
+   "detail": "The Times, citing people familiar with the inquiry, reports that prosecutors have sent grand jury subpoenas for testimony and sought information from people who worked at the court when the draft Dobbs opinion reached Politico in May 2022. U.S. Attorney Jeanine Pirro in Washington is overseeing the probe and assigned prosecutor Carlton Davis. It is unclear what law prosecutors believe was broken or whether they have new evidence; some possibly relevant laws have five-year limits that would expire in the spring. Fox News, citing its own sources, says the probe has run at least a year and that it is unclear who received subpoenas. The Justice Department and the U.S. attorney's office declined to comment, and the court's spokeswoman did not respond. The court's own 2023 investigation did not identify the leaker.",
+   "why": "It is the first reported criminal case over the leak and could pull the Supreme Court's staff and internal records into a federal investigation.",
+   "impact": 3,
+   "topic": "doj",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-05T14:50:00-05:00",
+   "time_known": true,
+   "source": "Fox News (citing The New York Times)",
+   "url": "https://www.foxnews.com/politics/doj-launches-criminal-probe-supreme-court-leak-exposed-ruling-overturning-roe-v-wade"
+  },
+  {
+   "id": "2026-11-05-herzog-eisenkot-67-recommendations",
+   "section": "news",
+   "text": "A majority of 67 Israeli lawmakers backed Gadi Eisenkot for prime minister and 46 backed Netanyahu; President Herzog will name his pick Sunday.",
+   "detail": "Herzog finished two days of consultations Thursday and said that, although the result appears clear, he must judge who can actually form a government, citing \"mutual vetoes between the blocs and within the blocs.\" He will hold personal talks with party leaders over the weekend and announce the mandate Sunday, Nov. 8. Eisenkot's Yashar party and five others recommended him, including both Arab-led parties, though Eisenkot has ruled out sitting with them; United Torah Judaism recommended no one. Netanyahu's Likud, with 27 seats, leads a bloc that won 53. The chosen candidate gets 28 days to form a coalition, with a possible 14-day extension; Netanyahu stays caretaker prime minister meanwhile.",
+   "why": "Herzog's choice starts the clock on Israel's next government after the Oct. 27 election.",
+   "impact": 3,
+   "topic": "government",
+   "region": "World",
+   "time": "2026-11-05T13:00:00-05:00",
+   "time_known": false,
+   "source": "Al Jazeera (with AFP and AP)",
+   "url": "https://www.aljazeera.com/news/2026/11/6/israels-herzog-to-name-a-candidate-to-form-government-on-sunday"
+  },
+  {
+   "id": "2026-11-05-newsom-commutes-all-california-death-sentences",
+   "section": "news",
+   "text": "California Gov. Gavin Newsom announced he will change all 548 death sentences in the state to life in prison without parole.",
+   "detail": "His office says the action applies to every person under sentence of death (529 men and 19 women), releases no one, grants no parole eligibility and leaves convictions and restitution orders in place. Because the California Constitution requires the state Supreme Court to review clemency for people twice convicted of felonies, his request has gone to the court; The Marshall Project reports that covers more than half of those affected and that, if approved, it would be the largest mass commutation of death sentences in U.S. history. California's last execution was in 2006, and Newsom imposed an execution moratorium in 2019. His term ends in January.",
+   "why": "The Marshall Project estimates it would cut the number of people sentenced to death nationwide by nearly a third, if approved.",
+   "impact": 3,
+   "topic": "government",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-05T12:00:00-05:00",
+   "time_known": false,
+   "source": "Office of Gov. Gavin Newsom",
+   "url": "https://www.gov.ca.gov/2026/11/05/governor-newsom-releases-letter-to-california-on-the-death-penalty/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-05-moderna-health-canada-flu-mrna-vaccines",
+   "section": "health",
+   "text": "Health Canada authorized Moderna's mRNA flu vaccine and its combined flu-COVID vaccine for adults 50 and older, Moderna said.",
+   "detail": "Moderna says Canada is the first country to authorize both mFLUSIVA (flu) and mCOFLU (flu plus COVID-19). Moderna says the FDA approved mFLUSIVA in August 2026 and the European Commission authorized the combination vaccine in April 2026. In a 40,800-adult Phase 3 trial, mFLUSIVA showed 26.6% relative efficacy against flu-like illness versus a standard-dose vaccine in adults 50 and older. Moderna said it is working with Canadian authorities on availability and gave no date.",
+   "why": "It extends approvals of Moderna's mRNA flu vaccine beyond the U.S. and adds a flu-COVID combination for older adults in Canada.",
+   "impact": 2,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-11-05T17:20:00-05:00",
+   "time_known": true,
+   "source": "Moderna (release via Newswire)",
+   "url": "https://www.newswire.com/news/health-canada-authorizes-modernas-mrna-influenza-and-combination-influenza-and"
+  },
+  {
+   "id": "2026-11-05-openai-gpt-6-cyber",
+   "section": "tech",
+   "text": "OpenAI launched GPT-6 Cyber, a model for vulnerability discovery and exploit testing, limited to approved security customers.",
+   "detail": "OpenAI says the model scored 48.5% on its ExploitGym test versus 32.1% for its prior cyber model, and that its researchers used it to find 81 previously unknown high-severity Firefox vulnerabilities and to develop working exploits for 948 Linux kernel flaws. It rates the model \"Critical\" in cybersecurity under its Preparedness Framework. Access is initially through the API and Codex for select approved Daybreak Red customers, with wider access to come. All figures are OpenAI's.",
+   "why": "A top AI lab is releasing a model it classifies at its highest cyber-risk tier, with access restricted to vetted defenders.",
+   "impact": 2,
+   "topic": "technology",
+   "region": "US",
+   "time": "2026-11-05T12:00:00-05:00",
+   "time_known": false,
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-11-04-democrats-win-house-senate",
+   "section": "news",
+   "text": "Congress will be controlled by Democrats in January after they won both the House and the Senate in Tuesday's midterm elections, AP projected.",
+   "detail": "AP called the Senate for Democrats late Tuesday and the House early Wednesday. Democrats flipped at least seven Republican-held Senate seats: Kansas (Adam Hamilton over Sen. Roger Marshall, the state's first Democratic senator since 1932), Iowa (Josh Turek over Rep. Ashley Hinson), Texas (James Talarico over Ken Paxton), Ohio (Sherrod Brown over Sen. Jon Husted), Maine (Troy Jackson over Sen. Susan Collins), North Carolina (Roy Cooper) and South Carolina (Annie Andrews). They held Georgia (Sen. Jon Ossoff), Michigan (Abdul El-Sayed) and New Hampshire (Chris Pappas). In the House they flipped more than two dozen districts. As of 4 a.m. Eastern, Senate races in Alaska and Mississippi were still uncalled. Hakeem Jeffries is in line to become the first Black House speaker. Trump wrote that he \"wasn't on the Ballot,\" vowed to veto Democratic bills and told Fox News he would accept the results; Senate Majority Leader John Thune vowed to resist the new majority's agenda. The new Congress is sworn in in January.",
+   "why": "Democratic majorities can block Trump's legislation, reject his nominees in the Senate and open investigations of his administration for the last two years of his term.",
+   "impact": 5,
+   "topic": "capitol",
+   "region": "US",
+   "time": "2026-11-04T01:33:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+  },
+  {
+   "id": "2026-11-05-massie-forces-hegseth-impeachment-vote",
+   "section": "news",
+   "text": "Rep. Thomas Massie says he will force a House vote next week to impeach Defense Secretary Pete Hegseth over the Iran war and other military actions.",
+   "detail": "Massie's eight articles of impeachment say the Iran war violated the War Powers Resolution and that Hegseth ignored civilian-casualty laws. They also cite drug-boat strikes that killed at least 221 people, retaliation against Sen. Mark Kelly, the seizure of Nicolás Maduro and Cilia Flores, and an unauthorized war in Yemen. Massie told CNN he will trigger the vote when Congress returns. He said he would drop the effort if Hegseth resigns. As a privileged resolution, it must get floor action within two legislative days, though the House could vote to table it. President Trump said Hegseth is \"doing a very good job.\" A Pentagon spokesman said Hegseth \"will not back down.\"",
+   "why": "A simple House majority would impeach a sitting war-time defense secretary, though removal requires two-thirds of the Senate.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-04T21:00:00-05:00",
+   "time_known": false,
+   "source": "Rep. Thomas Massie (press release)",
+   "url": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395853"
+  },
+  {
+   "id": "2026-11-04-johnson-steps-aside-jordan-scalise",
+   "section": "news",
+   "text": "Speaker Mike Johnson will not seek to lead House Republicans in the new Congress, setting up a race between Steve Scalise and Jim Jordan.",
+   "detail": "Johnson told staff on a Wednesday morning call and wrote colleagues that the job's demands on his family drove the decision; he is expected to stay in the House as a rank-and-file member from Louisiana, AP reported, citing two people familiar with his decision. Majority Leader Steve Scalise and Judiciary Committee Chairman Jim Jordan each announced bids in letters to colleagues. House Republicans plan to elect their leaders Tuesday, Nov. 10, when Democrats will take the majority in January after Tuesday's midterms.",
+   "why": "The next House Republican leader will run the minority's response to a Democratic House expected to open investigations of the Trump administration.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-04T11:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/speaker-johnson-house-republicans-elections-b8490666bc9fb634fad8c9222f1483ec"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-06",
+   "when": "8:30 a.m. ET",
+   "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ],
+   "detail": "Date and time per the BLS 2026 release schedule."
+  },
+  {
+   "date": "2026-11-09",
+   "when": "After the close",
+   "text": "Rocket Lab reports third-quarter results after the close; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2:00 p.m. Pacific) per Rocket Lab's Oct. 20 GlobeNewswire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "when": "8:30 a.m. ET",
+   "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS CPI release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

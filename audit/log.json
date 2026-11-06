@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:50:00-04:00",
+  "updated": "2026-11-05T21:58:00-05:00",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -38,7 +38,7 @@
       ],
       "misrated": [],
       "checklist_changes": [
-        "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window — emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
+        "- Supreme Court: open https://www.supremecourt.gov/orders/ordersofthecourt/ each window \u2014 emergency mid-afternoon orders AND that day's miscellaneous-order PDFs on non-Monday days (cert grants can land midweek). Orders/decisions count as impact 4. Missed 2026-09-29: third-country deportation stay; missed 2026-10-01: cert in Rhoney (mandatory ICE detention). [audit 2026-10-01]",
         "- Treasury/OFAC: when Iran wartime pressure is active, check home.treasury.gov press releases and ofac.treasury.gov/recent-actions same day; sectoral determinations + SDN dumps are evening Government copy even if abroad. Missed 2026-10-01: Iran auto + rail sectoral sanctions (Operation Economic Outcast). [audit 2026-10-01]"
       ]
     },
@@ -61,7 +61,7 @@
           "id": "2026-10-05-quebec-pq-minority-government",
           "impact": 3,
           "should_have_caught": "morning",
-          "reason": "Parti Québécois won Quebec's Oct. 5 election (59 of 127 seats, minority; referendum pledged after Trump leaves office); results came after the evening edition and the Oct. 6 morning edition skipped overnight election results."
+          "reason": "Parti Qu\u00e9b\u00e9cois won Quebec's Oct. 5 election (59 of 127 seats, minority; referendum pledged after Trump leaves office); results came after the evening edition and the Oct. 6 morning edition skipped overnight election results."
         },
         {
           "id": "2026-10-05-judge-blocks-dhs-migrant-fines",
@@ -74,7 +74,7 @@
       "checklist_changes": [
         "Trimmed expired one-off: Monday Oct 5 morning plague-story seed (edition shipped).",
         "- Federal district courts: search Reuters legal / The Hill court-battles for \"judge blocks\" + today's date; rulings halting nationwide Trump policies (immigration fines, rules) are Government impact 3 even when the order is dated days earlier and only reported today. Missed 2026-10-05: Boston judge stayed DHS fines up to $1.8M on migrants (100k+ fines, $84B). [audit 2026-10-05]",
-        "- Overnight foreign election results: check upcoming.json and search \"[country/province] election results\" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Québécois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]"
+        "- Overnight foreign election results: check upcoming.json and search \"[country/province] election results\" for votes that closed after the evening edition (Canada, Europe, Latin America); a change of government is World impact 3-4 for the next morning. Missed 2026-10-05: Parti Qu\u00e9b\u00e9cois won a Quebec minority government (59 of 127 seats), CAQ wiped out. [audit 2026-10-05]"
       ]
     },
     {
@@ -92,13 +92,13 @@
           "id": "2026-10-06-afd-saxony-anhalt-landtag-president",
           "impact": 3,
           "should_have_caught": "morning",
-          "reason": "AfD’s Tobias Rausch elected Saxony-Anhalt Landtag president Oct 6 (first AfD speaker / first far-right state legislature head since 1945); Just Security Early Edition Oct 7 flagged it; missed Oct 6 evening and Oct 7 morning."
+          "reason": "AfD\u2019s Tobias Rausch elected Saxony-Anhalt Landtag president Oct 6 (first AfD speaker / first far-right state legislature head since 1945); Just Security Early Edition Oct 7 flagged it; missed Oct 6 evening and Oct 7 morning."
         }
       ],
       "misrated": [],
       "checklist_changes": [
         "- Gulf/Hormuz wartime: before evening lock, open UKMTO latest warnings for same-afternoon tanker hits with casualties (not only overnight UKMTO). Missed 2026-10-07 evening: Acers struck ~51NM north of Qatar at 1900 UTC / 3:00 p.m. ET. [audit 2026-10-07]",
-        "- European far-right institutional firsts: after AfD/peer election wins, check same-day or next-morning Landtag speaker / premier votes (Just Security Early Edition often flags). Missed 2026-10-06→07 morning: AfD’s Tobias Rausch elected Saxony-Anhalt Landtag president (first for the party / first far-right state legislature head since 1945). [audit 2026-10-07]"
+        "- European far-right institutional firsts: after AfD/peer election wins, check same-day or next-morning Landtag speaker / premier votes (Just Security Early Edition often flags). Missed 2026-10-06\u219207 morning: AfD\u2019s Tobias Rausch elected Saxony-Anhalt Landtag president (first for the party / first far-right state legislature head since 1945). [audit 2026-10-07]"
       ]
     },
     {
@@ -250,6 +250,30 @@
       "misrated": [],
       "checklist_changes": [
         "Widened the law-enforcement line to cover grand-jury subpoenas of election officials and workers and after-lock evening scoops, with the California miss."
+      ]
+    },
+    {
+      "run": "2026-11-05T21:58:00-05:00",
+      "day": "2026-11-05",
+      "reference_events": 10,
+      "missed": [
+        {
+          "id": "2026-11-05-doj-criminal-probe-supreme-court-roe-leak",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "NYT reported ~2:50 p.m. ET (Fox, Mediaite followed) that DOJ, led by D.C. U.S. Attorney Jeanine Pirro, has run a criminal probe for at least a year into the 2022 Roe draft-opinion leak and has sent grand-jury subpoenas to people who worked at the court. Not in the Nov 5 evening edition."
+        },
+        {
+          "id": "2026-11-05-herzog-consultations-eisenkot-67",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "After Israel's final results (covered Oct 29), parties recommended Gadi Eisenkot as PM with 67 of 120 MKs vs. 46 for Netanyahu; President Herzog said he would announce his mandate decision Sunday (AP Mideast roundup, Times of Israel, Arab News). Government-formation follow-up not covered."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "Added the Roe-leak probe miss to the law-enforcement line, with a same-day leak/investigation scoop search.",
+        "Added the Herzog consultations miss to the next-steps line, with a government-formation check for elections we ran."
       ]
     }
   ]

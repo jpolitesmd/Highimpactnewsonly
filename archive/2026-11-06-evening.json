@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-06",
+ "edition": "evening",
+ "subject": "Friday, Nov 6 - Evening edition",
+ "published": "2026-11-06T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-06-miller-wiles-chief-of-staff",
+   "section": "news",
+   "text": "Stephen Miller will become White House chief of staff on Monday, replacing Susie Wiles after Republicans lost Congress.",
+   "detail": "President Trump said Friday that Miller, the deputy chief of staff for policy and a longtime immigration hardliner, takes over Nov. 9. Wiles, the first woman to serve as White House chief of staff, submitted her resignation Thursday night and will move to the Trump Political Operation. The change comes after Democrats won both chambers of Congress in Tuesday's midterms.",
+   "why": "It is the top White House staff change after the midterm defeat.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-06T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/susie-wiles-trump-miller-midterms-95690fe076f6bb8cfe2bf77435a1910d"
+  },
+  {
+   "id": "2026-11-06-october-jobs",
+   "section": "money",
+   "text": "U.S. employers added 165,000 jobs in October and the unemployment rate edged to 4.1%, the Labor Department reported.",
+   "detail": "Nonfarm payrolls rose 165,000, well above the 48,000 average monthly gain over the prior 12 months. The unemployment rate changed little at 4.1% from 4.2% in September. August was revised up by 53,000 to +186,000 and September up by 31,000 to +60,000, a combined +84,000. Average hourly earnings rose 0.4% to $38.00, up 3.1% over the year. Gains were led by professional and business services (+70,000), health care (+42,000) and transportation and warehousing (+25,000); manufacturing added 19,000. People working part time for economic reasons rose by 339,000 to 4.8 million.",
+   "why": "The main monthly jobs gauge came in much stronger than the recent trend, three days after the midterms.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-06T08:30:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+   "id": "2026-11-06-fincen-mexc-cutoff",
+   "section": "finance",
+   "text": "FinCEN ordered U.S. banks to cut off crypto exchange MEXC Global over at least $16 billion in illicit flows, including to Iran and Russia.",
+   "detail": "Under Operation Economic Outcast, the Section 9714(a) order bars U.S. financial institutions from processing funds transfers involving Seychelles-incorporated MEXC Global, effective 30 days after Federal Register publication. Treasury said the platform facilitated at least $16 billion in illicit finance from May 2021 to May 2026, including nearly $1.5 billion tied to Russian sanctions evasion and about $22 million linked to Iran's Central Bank and the IRGC-Qods Force. The same day, OFAC designated eight Canada-based money services businesses for enabling Iranian digital-asset channels.",
+   "why": "It severs a major crypto exchanger from the U.S. financial system over Iran and Russia evasion.",
+   "impact": 3,
+   "topic": "sanctions",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-06T12:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0685"
+  },
+  {
+   "id": "2026-11-06-wisconsin-measles-infant-death",
+   "section": "health",
+   "text": "A Wisconsin infant died of measles, the state's first measles death since 1990, amid a 431-case outbreak.",
+   "detail": "The Wisconsin Department of Health Services said Nov. 5 that a coroner listed measles as the immediate cause of death for an infant tied to the southwestern Wisconsin outbreak and released no further personal details. As of Nov. 3 the state had 431 measles cases in 13 counties, the most in more than 35 years, with nine hospitalizations. DHS said it has delivered 2,000 MMR doses to local health departments since Aug. 1.",
+   "why": "Wisconsin recorded its first measles death in 36 years as cases hit a multi-decade high.",
+   "impact": 3,
+   "topic": "measles",
+   "region": "US",
+   "time": "2026-11-06T10:00:00-05:00",
+   "time_known": false,
+   "source": "Wisconsin DHS",
+   "url": "https://www.dhs.wisconsin.gov/news/releases/110526.htm"
+  },
+  {
+   "id": "2026-11-06-bessent-greer-china-busan",
+   "section": "money",
+   "text": "Treasury and the U.S. trade representative pressed China to fully implement Busan rare-earth and farm commitments.",
+   "detail": "Secretary Scott Bessent and USTR Jamieson Greer spoke Friday with Chinese Vice Premier He Lifeng about the bilateral economic relationship and the Busan arrangement. Bessent emphasized full and immediate implementation and said the United States will closely assess concrete results. Greer stressed agricultural purchases, rare earths and other critical minerals.",
+   "why": "It is the first high-level U.S. push for Busan follow-through after the midterms.",
+   "impact": 2,
+   "topic": "trade",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-06T11:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0684"
+  },
+  {
+   "id": "2026-11-06-mccaysville-copperhill-flooding",
+   "section": "news",
+   "text": "Record flash flooding submerged McCaysville, Ga., and Copperhill, Tenn., and crews rescued more than 80 people.",
+   "detail": "Overnight storms dumped roughly 8 to 11 inches of rain; the Toccoa/Ocoee River at Copperhill crested at a record 18.05 feet. AP reported buildings submerged toward rooftops, more than 80 rescues across the twin towns, and continued debris, road damage, boil-water advisories and downtown restrictions Friday as waters receded.",
+   "why": "A record river crest put two border towns under water and forced mass rescues.",
+   "impact": 2,
+   "topic": "weather",
+   "region": "US",
+   "time": "2026-11-06T09:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/mccaysville-fannin-flooding-rescue-evacuations-6e0a283ff54238cba9677602f5e0878e"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-06",
+   "when": "8:30 a.m. ET",
+   "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ],
+   "detail": "Date and time per the BLS 2026 release schedule."
+  },
+  {
+   "date": "2026-11-09",
+   "when": "After the close",
+   "text": "Rocket Lab reports third-quarter results after the close; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2:00 p.m. Pacific) per Rocket Lab's Oct. 20 GlobeNewswire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "when": "8:30 a.m. ET",
+   "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS CPI release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

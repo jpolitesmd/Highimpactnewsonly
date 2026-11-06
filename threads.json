@@ -1,107 +1,107 @@
 {
- "updated": "2026-11-06T05:50:00-05:00",
- "threads": [
-  {
-   "id": "iran-war",
-   "title": "The U.S.-Iran war and the Strait of Hormuz",
-   "summary": "The war between the U.S., Israel and Iran, now in its seventh month, and talks over reopening the Strait of Hormuz, the route for about a fifth of the world's oil.",
-   "status": "active"
-  },
-  {
-   "id": "russia-ukraine",
-   "title": "Russia's war in Ukraine",
-   "summary": "Russian strikes on Ukraine, Ukraine's response and U.S. aid.",
-   "status": "active"
-  },
-  {
-   "id": "government-funding",
-   "title": "Government funding and the Dec. 11 deadline",
-   "summary": "Congress funded the government through Dec. 11 with a stopgap law; what happens to federal spending before that deadline.",
-   "status": "closed"
-  },
-  {
-   "id": "trade-tariffs",
-   "title": "Tariffs and trade deals",
-   "summary": "U.S. tariff actions and trade agreements with China, Canada and others.",
-   "status": "active"
-  },
-  {
-   "id": "deportations-courts",
-   "title": "Deportation policy in the courts",
-   "summary": "Court rulings on the administration's deportation policies, including removals to third countries.",
-   "status": "active"
-  },
-  {
-   "id": "rates-inflation",
-   "title": "Inflation and interest rates",
-   "summary": "Federal Reserve decisions, inflation and jobs reports, and Treasury yields.",
-   "status": "active"
-  },
-  {
-   "id": "college-sports-act",
-   "title": "The Protect College Sports Act",
-   "summary": "Federal legislation on college athlete pay, agents and benefits.",
-   "status": "closed"
-  },
-  {
-   "id": "midterms-2026",
-   "title": "The 2026 midterm elections",
-   "summary": "Court rulings, election rules and results for the Nov. 3, 2026 elections.",
-   "status": "active"
-  },
-  {
-   "id": "cornell-assault-case",
-   "title": "The Cornell fraternity assault case",
-   "summary": "Criminal and campus reviews of a 2024 Cornell fraternity sexual-assault case after a civil lawsuit and the local prosecutor’s earlier decision not to charge.",
-   "status": "active"
-  },
-  {
-   "id": "flydubai-cockpit",
-   "title": "The Flydubai cockpit attack",
-   "summary": "The investigation of a co-pilot's attack on the captain of a Dubai-to-Tel Aviv Flydubai flight that diverted to Saudi Arabia.",
-   "status": "closed"
-  },
-  {
-   "id": "air-ambulance-search",
-   "title": "The Bermuda–Boston air ambulance search",
-   "summary": "The Coast Guard search for six people after a Gulfstream G100 air ambulance vanished on a Bermuda-to-Boston flight and debris was found off Nantucket.",
-   "status": "closed"
-  },
-  {
-   "id": "pneumonic-plague",
-   "title": "Pneumonic plague",
-   "summary": "Watch on the fatal illness of an Irkutsk Anti-Plague Institute employee after reports of a plague lab exposure; federal officials call it pneumonia of unknown cause.",
-   "status": "closed"
-  },
-  {
-   "id": "france-protests",
-   "title": "France's protests",
-   "summary": "Nationwide protests in France over living costs and school conditions, and the government's response.",
-   "status": "active"
-  },
-  {
-   "id": "kenya-ebola",
-   "title": "Ebola in Kenya",
-   "summary": "Kenya's outbreak of the Bundibugyo strain of Ebola, which has no licensed vaccine, centered on Nairobi.",
-   "status": "active"
-  },
-  {
-   "id": "israel-election",
-   "title": "Israel's election",
-   "summary": "Israel's Oct. 27, 2026 national election, the vote count and the talks to form a government.",
-   "status": "active"
-  },
-  {
-   "id": "brazil-election",
-   "title": "Brazil's election and Flávio Bolsonaro",
-   "summary": "Lula's runoff win over Flávio Bolsonaro, who refused to concede and left Brazil for the United States while under criminal investigation.",
-   "status": "active"
-  },
-  {
-   "id": "trump-arch",
-   "title": "Trump's Memorial Circle arch",
-   "summary": "Lawsuits and approvals over the 250-foot arch President Trump wants to build at Memorial Circle near Arlington National Cemetery.",
-   "status": "active"
-  }
- ]
+  "updated": "2026-11-06T16:55:00-05:00",
+  "threads": [
+    {
+      "id": "iran-war",
+      "title": "The U.S.-Iran war and the Strait of Hormuz",
+      "summary": "The war between the U.S., Israel and Iran, now in its seventh month, and talks over reopening the Strait of Hormuz, the route for about a fifth of the world's oil.",
+      "status": "active"
+    },
+    {
+      "id": "russia-ukraine",
+      "title": "Russia's war in Ukraine",
+      "summary": "Russian strikes on Ukraine, Ukraine's response and U.S. aid.",
+      "status": "active"
+    },
+    {
+      "id": "government-funding",
+      "title": "Government funding and the Dec. 11 deadline",
+      "summary": "Congress funded the government through Dec. 11 with a stopgap law; what happens to federal spending before that deadline.",
+      "status": "closed"
+    },
+    {
+      "id": "trade-tariffs",
+      "title": "Tariffs and trade deals",
+      "summary": "U.S. tariff actions and trade agreements with China, Canada and others.",
+      "status": "active"
+    },
+    {
+      "id": "deportations-courts",
+      "title": "Deportation policy in the courts",
+      "summary": "Court rulings on the administration's deportation policies, including removals to third countries.",
+      "status": "active"
+    },
+    {
+      "id": "rates-inflation",
+      "title": "Inflation and interest rates",
+      "summary": "Federal Reserve decisions, inflation and jobs reports, and Treasury yields.",
+      "status": "active"
+    },
+    {
+      "id": "college-sports-act",
+      "title": "The Protect College Sports Act",
+      "summary": "Federal legislation on college athlete pay, agents and benefits.",
+      "status": "closed"
+    },
+    {
+      "id": "midterms-2026",
+      "title": "The 2026 midterm elections",
+      "summary": "Court rulings, election rules and results for the Nov. 3, 2026 elections.",
+      "status": "active"
+    },
+    {
+      "id": "cornell-assault-case",
+      "title": "The Cornell fraternity assault case",
+      "summary": "Criminal and campus reviews of a 2024 Cornell fraternity sexual-assault case after a civil lawsuit and the local prosecutor’s earlier decision not to charge.",
+      "status": "active"
+    },
+    {
+      "id": "flydubai-cockpit",
+      "title": "The Flydubai cockpit attack",
+      "summary": "The investigation of a co-pilot's attack on the captain of a Dubai-to-Tel Aviv Flydubai flight that diverted to Saudi Arabia.",
+      "status": "closed"
+    },
+    {
+      "id": "air-ambulance-search",
+      "title": "The Bermuda–Boston air ambulance search",
+      "summary": "The Coast Guard search for six people after a Gulfstream G100 air ambulance vanished on a Bermuda-to-Boston flight and debris was found off Nantucket.",
+      "status": "closed"
+    },
+    {
+      "id": "pneumonic-plague",
+      "title": "Pneumonic plague",
+      "summary": "Watch on the fatal illness of an Irkutsk Anti-Plague Institute employee after reports of a plague lab exposure; federal officials call it pneumonia of unknown cause.",
+      "status": "closed"
+    },
+    {
+      "id": "france-protests",
+      "title": "France's protests",
+      "summary": "Nationwide protests in France over living costs and school conditions, and the government's response.",
+      "status": "active"
+    },
+    {
+      "id": "kenya-ebola",
+      "title": "Ebola in Kenya",
+      "summary": "Kenya's outbreak of the Bundibugyo strain of Ebola, which has no licensed vaccine, centered on Nairobi.",
+      "status": "active"
+    },
+    {
+      "id": "israel-election",
+      "title": "Israel's election",
+      "summary": "Israel's Oct. 27, 2026 national election, the vote count and the talks to form a government.",
+      "status": "active"
+    },
+    {
+      "id": "brazil-election",
+      "title": "Brazil's election and Flávio Bolsonaro",
+      "summary": "Lula's runoff win over Flávio Bolsonaro, who refused to concede and left Brazil for the United States while under criminal investigation.",
+      "status": "active"
+    },
+    {
+      "id": "trump-arch",
+      "title": "Trump's Memorial Circle arch",
+      "summary": "Lawsuits and approvals over the 250-foot arch President Trump wants to build at Memorial Circle near Arlington National Cemetery.",
+      "status": "active"
+    }
+  ]
 }

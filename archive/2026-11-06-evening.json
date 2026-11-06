@@ -34,10 +34,10 @@
    "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
   },
   {
-   "id": "2026-11-06-fincen-mexc-cutoff",
+   "id": "2026-11-06-fincen-crypto-exchange-cutoff",
    "section": "finance",
-   "text": "FinCEN ordered U.S. banks to cut off crypto exchange MEXC Global over at least $16 billion in illicit flows, including to Iran and Russia.",
-   "detail": "Under Operation Economic Outcast, the Section 9714(a) order bars U.S. financial institutions from processing funds transfers involving Seychelles-incorporated MEXC Global, effective 30 days after Federal Register publication. Treasury said the platform facilitated at least $16 billion in illicit finance from May 2021 to May 2026, including nearly $1.5 billion tied to Russian sanctions evasion and about $22 million linked to Iran's Central Bank and the IRGC-Qods Force. The same day, OFAC designated eight Canada-based money services businesses for enabling Iranian digital-asset channels.",
+   "text": "FinCEN ordered U.S. banks to cut off a major Seychelles crypto exchange over at least $16 billion in illicit flows, including to Iran and Russia.",
+   "detail": "Under Operation Economic Outcast, the Section 9714(a) order bars U.S. financial institutions from processing funds transfers involving the Seychelles-incorporated convertible virtual currency exchanger named in Treasury's Nov. 6 release, effective 30 days after Federal Register publication. Treasury said the platform facilitated at least $16 billion in illicit finance from May 2021 to May 2026, including nearly $1.5 billion tied to Russian sanctions evasion and about $22 million linked to Iran's Central Bank and the IRGC-Qods Force. The same day, OFAC designated eight Canada-based money services businesses for enabling Iranian digital-asset channels.",
    "why": "It severs a major crypto exchanger from the U.S. financial system over Iran and Russia evasion.",
    "impact": 3,
    "topic": "sanctions",

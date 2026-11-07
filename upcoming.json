@@ -1,25 +1,15 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-06",
   "events": [
     {
-      "date": "2026-11-05",
-      "when": "7:00 a.m. ET",
-      "text": "Bank of England interest rate decision, minutes, and November Monetary Policy Report (noon London time).",
-      "detail": "Per the Bank of England's 2026 MPC calendar. Bank Rate is 3.75%; in September the committee voted 6-3 to hold, with three members favoring a quarter-point increase.",
+      "date": "2026-11-07",
+      "when": "Overnight NZ / early Saturday ET",
+      "text": "New Zealand general election; preliminary results after polls close 7:00 p.m. NZDT (1:00 a.m. ET Saturday).",
+      "detail": "Election day per Elections NZ. Voting places open 9:00 a.m.-7:00 p.m. NZDT; preliminary results release progressively from 7:00 p.m. NZDT on electionresults.govt.nz. Official results due Nov. 27.",
       "buzz": true,
       "tags": [
-        "markets"
+        "world"
       ]
-    },
-    {
-      "date": "2026-11-06",
-      "when": "8:30 a.m. ET",
-      "text": "October Employment Situation (jobs report), 8:30 a.m. ET.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ],
-      "detail": "Date and time per the BLS 2026 release schedule."
     },
     {
       "date": "2026-11-09",
@@ -49,6 +39,16 @@
       "buzz": true,
       "tags": [
         "crypto",
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "when": "2:00 a.m. ET",
+      "text": "UK third-quarter GDP first estimate (and September monthly GDP), 7:00 a.m. London time.",
+      "detail": "Release listed on the Office for National Statistics calendar for Nov. 12, 2026.",
+      "buzz": true,
+      "tags": [
         "markets"
       ]
     },
@@ -127,6 +127,16 @@
       "when": "Before the open",
       "text": "Target reports third-quarter results; call 8:00 a.m. ET.",
       "detail": "Date and call time per Target's investor relations events page.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "when": "After the close",
+      "text": "Palo Alto Networks reports fiscal first-quarter results after the close; webcast 4:30 p.m. ET.",
+      "detail": "Date and webcast time (1:30 p.m. Pacific) per Palo Alto Networks' Nov. 3 press release.",
       "buzz": true,
       "tags": [
         "markets"

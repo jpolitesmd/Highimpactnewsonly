@@ -1,0 +1,226 @@
+{
+ "date": "2026-11-07",
+ "edition": "morning",
+ "subject": "Saturday, Nov 7 - Morning edition",
+ "published": "2026-11-07T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-06-us-minor-strikes-iran-qeshm",
+   "section": "news",
+   "text": "President Trump said the U.S. carried out \"minor\" strikes Friday on an Iranian air-defense system, as Iranian media reported explosions on Qeshm Island.",
+   "detail": "Speaking to reporters in West Palm Beach on Friday evening, Trump said Iranians \"built a little bit of an anti-aircraft device, and we knocked it out in about 15 minutes, maybe five.\" Iranian state media reported two explosions in the Suza area of Qeshm Island in the Strait of Hormuz. The strikes are the first since Tuesday's midterms; the U.S. also carried out limited \"defensive\" strikes on Qeshm on Monday. Trump did not give further target details. CENTCOM said the situation was \"relatively calm\" and separately offered up to $20 million for information on Iran's nuclear program. Trump said mediators are still talking to Iran.",
+   "why": "It is the first confirmed U.S. strike since the midterms, as Trump has both threatened broader action and floated a deal.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "US",
+   "time": "2026-11-06T21:11:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-war-nuclear-program-negotiations-trump-53ed5d271b9aef6f880aebc133ea6a55"
+  },
+  {
+   "id": "2026-11-07-new-zealand-election-preliminary",
+   "section": "news",
+   "text": "New Zealand's National Party narrowly leads Labour in preliminary election results, with the new Opportunity Party crossing 5% as a potential kingmaker.",
+   "detail": "With most voting places reporting on election night (polls closed 7:00 p.m. NZDT / 1:00 a.m. ET Saturday), the Electoral Commission's preliminary count put National around 29.3% and Labour around 29.1%, projecting roughly 42 seats for National and 35 for Labour. Greens, ACT and New Zealand First remain in contention; the centrist Opportunity Party is on about 6% and about 7 seats, entering parliament for the first time. Special votes are still to come; official results are due Nov. 27. No government has been formed. Opportunity leader Qiulae Wong said the party is open to working with either major bloc and would talk first with the party that wins the most seats. Prime Minister Christopher Luxon had ruled out working with Opportunity before election night; National figures said it was too early to say.",
+   "why": "A neck-and-neck result and a new centrist party leave New Zealand's next government unsettled until specials and coalition talks finish.",
+   "impact": 3,
+   "topic": "election",
+   "region": "World",
+   "time": "2026-11-07T04:00:00-05:00",
+   "time_known": false,
+   "source": "New Zealand Electoral Commission / BBC",
+   "url": "https://electionresults.govt.nz/"
+  },
+  {
+   "id": "2026-11-06-doj-dismisses-california-noncitizen-ballot-suit",
+   "section": "news",
+   "text": "The Justice Department voluntarily dropped its lawsuit seeking to segregate about 20,000 California mail ballots it said were cast by likely noncitizens.",
+   "detail": "In a Rule 41(a)(1) notice filed Friday in U.S. v. California (C.D. Cal. No. 2:26-cv-12025), DOJ said the Supreme Court's Nov. 2 denial of emergency relief and the fact that the challenged ballots would already be commingled by a Nov. 13 hearing left no segregating relief available. California Attorney General Rob Bonta announced the dismissal the same day, saying the administration quit rather than face an evidentiary hearing on its list. The case is distinct from the Washington state TRO and earlier California emergency-denial cards; it closes the California suit.",
+   "why": "It ends the federal effort to set aside the California ballots after four consecutive court losses, including at the Supreme Court.",
+   "impact": 3,
+   "topic": "doj",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-06T20:00:00-05:00",
+   "time_known": false,
+   "source": "DOJ notice via California OAG",
+   "url": "https://oag.ca.gov/system/files/attachments/press-docs/11-6-2026-voluntary-dismissal.pdf"
+  },
+  {
+   "id": "2026-11-06-openai-11b-funding-1-25t",
+   "section": "tech",
+   "text": "OpenAI closed about $11 billion in new funding at a $1.25 trillion valuation, Bloomberg reported, citing people familiar.",
+   "detail": "Bloomberg said the $11 billion was an initial close; the broader round could reach about $20 billion in coming weeks, down from an earlier target near $30 billion at a higher valuation amid the AI-stock rout. Reuters, citing a source and investors, separately said SoftBank and MGX participated and that the valuation came down from about $1.5 trillion sought earlier. No company investor-relations release was posted. Separately, Bloomberg reported Microsoft is winding down a 2023 arrangement renting Oracle AI-cloud capacity after declining to renew, citing older-generation Nvidia chips that no longer met its specs; Oracle said demand for its AI infrastructure remains strong.",
+   "why": "It marks a still-huge private raise at a lower target after the AI selloff, as cloud partners rethink rented capacity.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-06T17:00:00-05:00",
+   "time_known": false,
+   "source": "Bloomberg (via The Verge); Reuters",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+  },
+  {
+   "id": "2026-11-06-miller-wiles-chief-of-staff",
+   "section": "news",
+   "text": "Stephen Miller will become White House chief of staff on Monday, replacing Susie Wiles after Republicans lost Congress.",
+   "detail": "President Trump said Friday that Miller, the deputy chief of staff for policy and a longtime immigration hardliner, takes over Nov. 9. Wiles, the first woman to serve as White House chief of staff, submitted her resignation Thursday night and will move to the Trump Political Operation. The change comes after Democrats won both chambers of Congress in Tuesday's midterms.",
+   "why": "It is the top White House staff change after the midterm defeat.",
+   "impact": 4,
+   "topic": "whitehouse",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-06T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/susie-wiles-trump-miller-midterms-95690fe076f6bb8cfe2bf77435a1910d"
+  },
+  {
+   "id": "2026-11-06-october-jobs",
+   "section": "money",
+   "text": "U.S. employers added 165,000 jobs in October and the unemployment rate edged to 4.1%, the Labor Department reported.",
+   "detail": "Nonfarm payrolls rose 165,000, well above the 48,000 average monthly gain over the prior 12 months. The unemployment rate changed little at 4.1% from 4.2% in September. August was revised up by 53,000 to +186,000 and September up by 31,000 to +60,000, a combined +84,000. Average hourly earnings rose 0.4% to $38.00, up 3.1% over the year. Gains were led by professional and business services (+70,000), health care (+42,000) and transportation and warehousing (+25,000); manufacturing added 19,000. People working part time for economic reasons rose by 339,000 to 4.8 million.",
+   "why": "The main monthly jobs gauge came in much stronger than the recent trend, three days after the midterms.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-06T08:30:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+   "id": "2026-11-06-asia-stocks-nikkei-bear-market-kospi",
+   "section": "money",
+   "text": "Japan's Nikkei fell 6% into a bear market and South Korea's Kospi fell 6% Friday, extending Wall Street's AI-driven selloff.",
+   "detail": "The Nikkei 225 closed down 5.96% at 57,434.77 after falling as much as 7.09%, its first close below 60,000 since May and more than 20% under its June record of 72,831.73. The Kospi closed down 6.02% at 5,059.69; it plunged more than 8% at the open, which halted trading for 20 minutes, and SK hynix fell 10.44% and Samsung Electronics 6.35%. Hong Kong's Hang Seng fell 1.3% and Australia's ASX 200 0.5%. Thursday on Wall Street the S&P 500 fell 4.4%, the Nasdaq 5.5% and the Philadelphia semiconductor index about 12%. Analysts quoted by Yonhap and the Japan Times tied the selling to fears that a Democratic Congress will slow AI data-center construction and tighten AI rules. Taiwan's Financial Supervisory Commission said it will cut the daily intraday borrowed short-sale limit to 3% of a stock's 30-day average volume from 30% and raise short-sale margin to 130%, effective Nov. 9, and stood ready to use the National Stabilization Fund after the Taiex fell about 4.5% Friday.",
+   "why": "The AI-stock rout that began on Wall Street has now spread to Asia's chip-heavy markets.",
+   "impact": 4,
+   "topic": "stocks",
+   "region": "World",
+   "time": "2026-11-06T02:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/markets-japan-nikkei-oil-ai-bba6f0bf9035a6e6b1c4fef3e8230b89"
+  },
+  {
+   "id": "2026-11-06-fincen-crypto-exchange-cutoff",
+   "section": "finance",
+   "text": "FinCEN ordered U.S. banks to cut off a major Seychelles crypto exchange over at least $16 billion in illicit flows, including to Iran and Russia.",
+   "detail": "Under Operation Economic Outcast, the Section 9714(a) order bars U.S. financial institutions from processing funds transfers involving the Seychelles-incorporated convertible virtual currency exchanger named in Treasury's Nov. 6 release, effective 30 days after Federal Register publication. Treasury said the platform facilitated at least $16 billion in illicit finance from May 2021 to May 2026, including nearly $1.5 billion tied to Russian sanctions evasion and about $22 million linked to Iran's Central Bank and the IRGC-Qods Force. The same day, OFAC designated eight Canada-based money services businesses for enabling Iranian digital-asset channels.",
+   "why": "It severs a major crypto exchanger from the U.S. financial system over Iran and Russia evasion.",
+   "impact": 3,
+   "topic": "sanctions",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-06T12:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0685"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 4
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-06-wisconsin-measles-infant-death",
+   "section": "health",
+   "text": "A Wisconsin infant died of measles, the state's first measles death since 1990, amid a 431-case outbreak.",
+   "detail": "The Wisconsin Department of Health Services said Nov. 5 that a coroner listed measles as the immediate cause of death for an infant tied to the southwestern Wisconsin outbreak and released no further personal details. As of Nov. 3 the state had 431 measles cases in 13 counties, the most in more than 35 years, with nine hospitalizations. DHS said it has delivered 2,000 MMR doses to local health departments since Aug. 1.",
+   "why": "Wisconsin recorded its first measles death in 36 years as cases hit a multi-decade high.",
+   "impact": 3,
+   "topic": "measles",
+   "region": "US",
+   "time": "2026-11-06T10:00:00-05:00",
+   "time_known": false,
+   "source": "Wisconsin DHS",
+   "url": "https://www.dhs.wisconsin.gov/news/releases/110526.htm"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-11-04-democrats-win-house-senate",
+   "section": "news",
+   "text": "Congress will be controlled by Democrats in January after they won both the House and the Senate in Tuesday's midterm elections, AP projected.",
+   "detail": "AP called the Senate for Democrats late Tuesday and the House early Wednesday. Democrats flipped at least seven Republican-held Senate seats: Kansas (Adam Hamilton over Sen. Roger Marshall, the state's first Democratic senator since 1932), Iowa (Josh Turek over Rep. Ashley Hinson), Texas (James Talarico over Ken Paxton), Ohio (Sherrod Brown over Sen. Jon Husted), Maine (Troy Jackson over Sen. Susan Collins), North Carolina (Roy Cooper) and South Carolina (Annie Andrews). They held Georgia (Sen. Jon Ossoff), Michigan (Abdul El-Sayed) and New Hampshire (Chris Pappas). In the House they flipped more than two dozen districts. As of 4 a.m. Eastern, Senate races in Alaska and Mississippi were still uncalled. Hakeem Jeffries is in line to become the first Black House speaker. Trump wrote that he \"wasn't on the Ballot,\" vowed to veto Democratic bills and told Fox News he would accept the results; Senate Majority Leader John Thune vowed to resist the new majority's agenda. The new Congress is sworn in in January.",
+   "why": "Democratic majorities can block Trump's legislation, reject his nominees in the Senate and open investigations of his administration for the last two years of his term.",
+   "impact": 5,
+   "topic": "capitol",
+   "region": "US",
+   "time": "2026-11-04T01:33:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+  },
+  {
+   "id": "2026-11-05-nasdaq-correction-ai-selloff",
+   "section": "money",
+   "text": "The Nasdaq composite fell 5.5% Thursday to 24,315, closing in a correction more than 10% below its Oct. 6 record, as AI and chip stocks sold off.",
+   "detail": "The S&P 500 fell 4.4%, or about 335 points, to 7,353.73, its worst day since April 2025. The Dow Jones industrial average sank 1,833 points, or 3.4%, to 51,523.06, wiping out Wednesday's post-election rally. Nvidia fell about 9%; the Philadelphia semiconductor index plunged about 11%. Investors weighed weak chip outlooks, including Qualcomm's, and concern that Democratic wins in Congress and in states such as Texas could slow data-center buildout. The Nasdaq's Oct. 6 record close was 27,599.79. On Friday the Nasdaq rebounded 1.1% to 24,579.42 and the S&P 500 rose 0.3% to 7,376.86, while the Dow slipped 0.5% to 51,285.73, as chip stocks recovered some of Thursday's losses after a strong October jobs report.",
+   "why": "A one-day rout put the tech-heavy Nasdaq into a formal correction and erased the market's midterm bounce.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-05T16:00:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e"
+  },
+  {
+   "id": "2026-11-05-dhillon-resigns-doj-civil-rights",
+   "section": "news",
+   "text": "Harmeet Dhillon resigned as head of the Justice Department's Civil Rights Division, Attorney General Todd Blanche said Thursday.",
+   "detail": "Blanche said he accepted her resignation after about 18 months in the post. Dhillon said she had told White House chief of staff Susie Wiles weeks earlier that she planned to leave after the midterms and would return to private practice. She was the first senior Justice Department official to exit after Democrats won Congress on Tuesday. Under Dhillon the division overhauled priorities, pursued university and voter-roll cases, and saw a large share of career lawyers leave.",
+   "why": "It is the first high-level Justice Department departure after the midterm defeat.",
+   "impact": 4,
+   "topic": "doj",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-05T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/justice-department-civil-rights-division-harmeet-dhillon-db3ad709a2ff5a48c5d3a9e3f71963d6"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-07",
+   "when": "Overnight NZ / early Saturday ET",
+   "text": "New Zealand general election; preliminary results after polls close 7:00 p.m. NZDT (1:00 a.m. ET Saturday).",
+   "detail": "Election day per Elections NZ. Voting places open 9:00 a.m.-7:00 p.m. NZDT; preliminary results release progressively from 7:00 p.m. NZDT on electionresults.govt.nz. Official results due Nov. 27.",
+   "buzz": true,
+   "tags": [
+    "world"
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "when": "After the close",
+   "text": "Rocket Lab reports third-quarter results after the close; call 5:00 p.m. ET.",
+   "detail": "Date and call time (2:00 p.m. Pacific) per Rocket Lab's Oct. 20 GlobeNewswire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "when": "8:30 a.m. ET",
+   "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS CPI release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

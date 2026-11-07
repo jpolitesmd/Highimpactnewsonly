@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-07-evening",
+   "date": "2026-11-07",
+   "edition": "evening",
+   "count": 8,
+   "lead": "A gunman killed six people and wounded at least 15 in Kraków's Main Market Square on Saturday; Poland's defense minister called it an act of terror."
+  },
+  {
    "key": "2026-11-07-morning",
    "date": "2026-11-07",
    "edition": "morning",
@@ -554,5 +561,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-07T05:31:14-05:00"
+ "updated": "2026-11-07T16:47:58-05:00"
 }

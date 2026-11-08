@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "events": [
-    {
-      "date": "2026-11-07",
-      "when": "Overnight NZ / early Saturday ET",
-      "text": "New Zealand general election; preliminary results after polls close 7:00 p.m. NZDT (1:00 a.m. ET Saturday).",
-      "detail": "Election day per Elections NZ. Voting places open 9:00 a.m.-7:00 p.m. NZDT; preliminary results release progressively from 7:00 p.m. NZDT on electionresults.govt.nz. Official results due Nov. 27.",
-      "buzz": true,
-      "tags": [
-        "world"
-      ]
-    },
     {
       "date": "2026-11-09",
       "when": "After the close",
@@ -84,6 +74,16 @@
     },
     {
       "date": "2026-11-17",
+      "when": "8:30 a.m. ET",
+      "text": "October retail sales, 8:30 a.m. ET.",
+      "detail": "Advance Monthly Sales for Retail and Food Services, per the Census Bureau economic indicator calendar.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-17",
       "when": "After the close",
       "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
       "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
@@ -147,6 +147,16 @@
       "when": "Before the open",
       "text": "Walmart reports fiscal third-quarter results; call 8:00 a.m. ET.",
       "detail": "Per Walmart's corporate events page: materials about 6 a.m. Central, call 7 a.m. Central.",
+      "buzz": true,
+      "tags": [
+        "markets"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "when": "10:00 a.m. ET",
+      "text": "November Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
+      "detail": "Release date per the Conference Board. The index rose 7.5 points to 91.7 in October, up from 84.2 in September.",
       "buzz": true,
       "tags": [
         "markets"

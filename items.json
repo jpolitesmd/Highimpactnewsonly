@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:47:55-05:00",
+  "updated": "2026-11-08T05:40:00-05:00",
   "items": [
     {
       "id": "2026-11-05-judge-reyes-iran-deportation-notice",
@@ -12897,6 +12897,98 @@
         "flooding"
       ],
       "added_at": "2026-11-07T16:47:55-05:00"
+    },
+    {
+      "id": "2026-11-08-houthi-missiles-riyadh-aramco-tower",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "thread": "iran-war",
+      "time": "2026-11-08T01:00:00-05:00",
+      "time_known": false,
+      "text": "Saudi Aramco's tower in Riyadh was damaged by falling debris Sunday after Saudi air defenses intercepted missiles fired at the capital by Yemen's Houthis.",
+      "detail": "The Saudi-led coalition said it destroyed two ballistic missiles aimed at Riyadh and later two cruise missiles and a drone over the Riyadh and southern regions; another missile aimed at the Eastern Province was also intercepted. Saudi Arabia's Energy Ministry called it an attempted attack on an Aramco administrative building and said shrapnel caused limited damage and no injuries; witnesses saw blown-out windows across several floors of the tower in the King Abdullah Financial District. Civil Defense alerts in Riyadh and other cities were lifted after the danger passed. The Houthis had not claimed the attack. It follows Saturday's airstrikes near Sanaa that the Houthi-run health ministry blamed on Saudi Arabia. Separately, the United Arab Emirates said it rescued 22 crew members after a fire broke out aboard a cargo ship in the Sea of Oman.",
+      "why": "The renewed Saudi-Houthi fighting is now reaching the Saudi capital and the state oil company at the center of world oil supply.",
+      "source": "AP",
+      "url": "https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60",
+      "notes": "AP page times out in fetch; facts verified against AP lede/search text, Reuters copy (Ynet, Devdiscourse), Saudi Energy Ministry and coalition statements via Arab News. Houthi-ministry toll update to 33 for Sanaa (Al Jazeera only) not used.",
+      "tags": [
+        "saudi-arabia",
+        "houthis",
+        "yemen",
+        "aramco",
+        "missiles"
+      ],
+      "added_at": "2026-11-08T05:40:00-05:00"
+    },
+    {
+      "id": "2026-11-08-poland-mourning-krakow",
+      "section": "news",
+      "topic": "security",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-11-08T03:00:00-05:00",
+      "time_known": false,
+      "text": "Poland began two days of national mourning Sunday, and police said the three people found dead at the Kraków gunman's home were his parents and sister.",
+      "detail": "The 24-year-old suspect, who authorities say held far-right, ultranationalist views, is in critical condition in a hospital after police shot him during Saturday's attack, which killed six people and wounded 15 in the Old Town's Main Square. The family home is in Ostrowiec Świętokrzyski, about 150 kilometers (93 miles) northeast of Kraków, where police said several firearms were seized; he and his father belonged to a shooting club. A British national was among the dead, and the wounded include citizens of Austria, Britain, Germany, Portugal and Russia. Two police officers who stopped the attacker are hospitalized, one in critical condition. Prime Minister Donald Tusk called it far-right terrorism; the square stayed partly sealed off Sunday.",
+      "why": "Officials are treating Poland's rare mass shooting as terrorism as the country takes stock of the dead.",
+      "source": "AP",
+      "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-69a65400657ffd0c8b3fa104bd472b97",
+      "notes": "AP page times out; facts verified against AP News Summary 4:58 a.m. EST (Cadillac News) and DW (AFP, AP, dpa, Reuters). Age now 24 per AP (Saturday card said 25).",
+      "tags": [
+        "poland",
+        "krakow",
+        "shooting",
+        "terrorism"
+      ],
+      "added_at": "2026-11-08T05:40:00-05:00"
+    },
+    {
+      "id": "2026-11-08-japan-quake-aichi-22-injured",
+      "section": "news",
+      "topic": "disaster",
+      "region": "World",
+      "world_region": "asia",
+      "impact": 2,
+      "time": "2026-11-07T11:04:00-05:00",
+      "time_known": true,
+      "text": "A magnitude 5.7 earthquake struck central Japan early Sunday, injuring at least 22 people in Aichi and Shizuoka prefectures; no tsunami warning was issued.",
+      "detail": "The quake hit at 1:04 a.m. local time (11:04 a.m. EST Saturday) about 40 kilometers deep in western Shizuoka Prefecture, the Japan Meteorological Agency said, and registered upper 5 on Japan's intensity scale in Chita, Aichi. Shaking reached Hamamatsu, Kyoto and Nara. Injuries included people who fell on stairs while fleeing, and store windows shattered. The operator of the Hamaoka nuclear plant in Shizuoka reported no abnormalities, and some train service was suspended.",
+      "why": "It was the strongest shaking in Aichi, home to Japan's auto industry, in about three decades.",
+      "source": "AP",
+      "url": "https://apnews.com/article/earthquake-japan-170119b720b08d9f40028e5bc40feb17",
+      "notes": "AP page times out; verified against AP News Summary, Kyodo digest and Anadolu (citing Kyodo/JMA).",
+      "tags": [
+        "japan",
+        "earthquake"
+      ],
+      "added_at": "2026-11-08T05:40:00-05:00"
+    },
+    {
+      "id": "2026-11-08-iran-hangs-three-karaj",
+      "section": "news",
+      "topic": "conflict",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "thread": "iran-war",
+      "time": "2026-11-08T01:30:00-05:00",
+      "time_known": false,
+      "text": "Iran hanged three men Sunday over January's anti-government protests in Karaj, its judiciary said, accusing them of armed unrest and working for Israel and the U.S.",
+      "detail": "The judiciary named the men as Hassan Divband (rendered Dioband by Reuters), Hamid Kazemi and Reza Zanganeh and said they used firearms, grenades and Molotov cocktails, set fire to public facilities and damaged an electricity substation, causing power outages. The Supreme Court upheld their death sentences and their assets were ordered confiscated; eight co-defendants received prison terms of five to 10 years. Rights groups have said protest cases relied on rushed trials and coerced confessions.",
+      "why": "The executions extend Iran's wave of hangings tied to the January uprising.",
+      "source": "Iran's judiciary (Tasnim); Reuters",
+      "url": "https://www.tasnimnews.ir/en/news/2026/11/08/3743177/three-men-hanged-in-iran-over-armed-involvement-in-january-unrest",
+      "notes": "Verified against Reuters copy on CNBC. Original Reuters URL not found; links the judiciary account via Tasnim.",
+      "tags": [
+        "iran",
+        "executions",
+        "protests"
+      ],
+      "added_at": "2026-11-08T05:40:00-05:00"
     }
   ]
 }

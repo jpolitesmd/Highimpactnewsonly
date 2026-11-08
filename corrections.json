@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T19:02:38-04:00",
+  "updated": "2026-11-08T16:55:00-05:00",
   "corrections": [
     {
       "date": "2026-10-11T16:52:00-04:00",
@@ -35,6 +35,13 @@
       "was": "Tanker exploded; Iran's Guards declared the strait closed",
       "now": "Tanker hit a mine and caught fire, Iran's Guards said; no independent confirmation",
       "why": "The linked Reuters report does not carry the closure declaration"
+    },
+    {
+      "date": "2026-11-08T16:55:00-05:00",
+      "item_id": "2026-11-07-sanaa-strikes-27-killed",
+      "was": "At least 27 killed and 36 wounded, per the Houthi-run health ministry",
+      "now": "At least 33 killed and 39 wounded, per the ministry (Reuters could not verify)",
+      "why": "The ministry raised its toll, Reuters reported"
     }
   ]
 }

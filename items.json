@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T05:40:00-05:00",
+  "updated": "2026-11-08T16:55:00-05:00",
   "items": [
     {
       "id": "2026-11-05-judge-reyes-iran-deportation-notice",
@@ -12819,8 +12819,8 @@
       "thread": "iran-war",
       "time": "2026-11-07T10:00:00-05:00",
       "time_known": false,
-      "text": "Airstrikes on a village near Yemen's capital killed at least 27 people, mostly women and children, the Houthi-run health ministry said, blaming Saudi Arabia.",
-      "detail": "The ministry said the strikes Saturday hit homes in Bani Hushaysh, a Houthi stronghold east of Sanaa, and wounded 36. A Sanaa hospital director said many victims, including first responders, remained under rubble. The toll could not be independently verified; Saudi Arabia did not immediately comment. It is one of the deadliest reported attacks since fighting between Saudi Arabia and the Houthis resumed in July as a spillover of the U.S.-Iran conflict, shattering a 2022 U.N.-brokered truce.",
+      "text": "Airstrikes on a village near Yemen's capital killed at least 33 people, mostly women and children, the Houthi-run health ministry said, blaming Saudi Arabia.",
+      "detail": "The ministry said the strikes Saturday hit homes in Bani Hushaysh, a Houthi stronghold east of Sanaa, and wounded 39; the ministry earlier put the toll at 27 killed and 36 wounded. Saudi Arabia's Center for International Communication said it was investigating the report. A Sanaa hospital director said many victims, including first responders, remained under rubble. The toll could not be independently verified; Saudi Arabia did not immediately comment. It is one of the deadliest reported attacks since fighting between Saudi Arabia and the Houthis resumed in July as a spillover of the U.S.-Iran conflict, shattering a 2022 U.N.-brokered truce.",
       "why": "The renewed Saudi-Houthi war is deepening one of the world's worst humanitarian crises.",
       "source": "AP",
       "url": "https://apnews.com/article/yemen-houthi-saudi-attacks-1b5aef5b86be2e96e1cd8a18165afaf6",
@@ -12831,7 +12831,8 @@
         "saudi-arabia",
         "airstrikes"
       ],
-      "added_at": "2026-11-07T16:47:55-05:00"
+      "added_at": "2026-11-07T16:47:55-05:00",
+      "updated_at": "2026-11-08T16:55:00-05:00"
     },
     {
       "id": "2026-11-07-trump-offers-dana-white-press-secretary",
@@ -12989,6 +12990,148 @@
         "protests"
       ],
       "added_at": "2026-11-08T05:40:00-05:00"
+    },
+    {
+      "id": "2026-11-08-eisenkot-receives-mandate",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 3,
+      "thread": "israel-election",
+      "time": "2026-11-08T10:07:00-05:00",
+      "text": "Gadi Eisenkot formally received the mandate to form Israel's next government Sunday, starting a 28-day clock to build a coalition of at least 61 seats.",
+      "detail": "President Isaac Herzog handed the Yashar party leader the mandate at the President's Residence in Jerusalem, saying representatives of 67 incoming lawmakers recommended Eisenkot, against 46 for Prime Minister Benjamin Netanyahu. Herzog may grant up to 14 more days if needed. Eisenkot said Israel is in a state of emergency \"approaching a point of no return,\" called for a \"national emergency government\" and urged Likud and Religious Zionism lawmakers to join a government under his leadership; Netanyahu has called for a unity government. Likud remains the largest party, and Eisenkot's bloc lacks a clear majority.",
+      "why": "It moves Israel's post-election coalition fight from announcement to a formal deadline that decides whether Netanyahu is replaced.",
+      "source": "AP",
+      "url": "https://apnews.com/article/israel-elections-netanyahu-eisenkot-bec07675825bee5895315e2ea1cb5751",
+      "notes": "AP page times out; facts verified against Jerusalem Post, ynet and AFP (Dawn) accounts of the ceremony. Saturday card announced the choice; this is the formal handover.",
+      "tags": [
+        "israel",
+        "election",
+        "eisenkot",
+        "netanyahu",
+        "herzog"
+      ],
+      "time_known": false,
+      "added_at": "2026-11-08T16:55:00-05:00"
+    },
+    {
+      "id": "2026-11-08-blanche-democrats-prosecution",
+      "section": "news",
+      "topic": "doj",
+      "impact": 3,
+      "time": "2026-11-08T09:30:00-05:00",
+      "text": "Attorney General Todd Blanche said Democratic lawmakers' threats against the administration could be criminal, but he did not announce an investigation or name a crime.",
+      "detail": "Asked on CNN's \"State of the Union\" whether the Democratic rhetoric was a crime, Blanche said, \"It depends on what's said. So yes, there could be,\" and added that he is not saying every case would be prosecuted. He said he would be \"very worried\" if he were on the House Oversight Committee, whose incoming chair, Rep. Robert Garcia, told Trump allies to \"lawyer up,\" and that Justice Department lawyers will defend administration officials, including incoming chief of staff Stephen Miller, if oversight turns improper. He said, \"I welcome oversight.\" Garcia has said Democrats \"are not going to be intimidated.\" Saturday, Trump said he was ordering a Justice Department inquiry into Democrats' alleged threats; no investigation has been announced.",
+      "why": "It is the attorney general's first on-air response to Trump's order, days before Democrats take over House oversight.",
+      "source": "CNN (State of the Union); AP",
+      "url": "https://apnews.com/article/congress-trump-democrats-investigations-impeachment-hegseth-blanche-a0a0593fab46dc8a24e89b03737d7a85",
+      "notes": "AP page times out; quotes verified against CNN transcript text carried by The Hill, MS NOW and Newsweek. Follows 2026-11-07-trump-orders-doj-probe-democrats.",
+      "tags": [
+        "doj",
+        "blanche",
+        "democrats",
+        "oversight",
+        "garcia"
+      ],
+      "time_known": false,
+      "added_at": "2026-11-08T16:55:00-05:00",
+      "region": "US",
+      "pin": "2026-11-08 evening"
+    },
+    {
+      "id": "2026-11-08-fincen-mexc-ofac-canada-msbs",
+      "section": "news",
+      "topic": "sanctions",
+      "impact": 3,
+      "time": "2026-11-08T08:30:00-05:00",
+      "text": "Treasury on Friday cut crypto exchange MEXC Global off from U.S. banks, saying it moved at least $16 billion in illicit funds, and sanctioned eight Canadian money businesses linked to Iran.",
+      "detail": "FinCEN's order under section 9714 of the Combating Russian Money Laundering Act bars U.S. financial institutions from transmitting funds to or from MEXC Global and takes effect 30 days after Federal Register publication. Treasury said MEXC moved at least $16 billion between May 2021 and May 2026 tied to Iranian, North Korean and Russian sanctions evasion and cybercrime, including about $22 million for Iran's central bank and the IRGC. It does not freeze user assets. Separately, OFAC designated eight Canadian money services businesses that convert Iranian rials into digital assets, some tied to IRGC-linked addresses and to convicted trafficker Ryan Wedding's laundering. Both actions were announced Friday as part of Operation Economic Outcast; MEXC has said operations are normal.",
+      "why": "It extends the Iran-war sanctions campaign into crypto channels and a major offshore exchange.",
+      "source": "U.S. Treasury (FinCEN and OFAC)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0685",
+      "notes": "Treasury press releases read in full (sb0685 FinCEN; sb0686 OFAC https://home.treasury.gov/news/press-releases/sb0686). Action dated Nov. 6; first run here.",
+      "tags": [
+        "treasury",
+        "fincen",
+        "ofac",
+        "crypto",
+        "iran",
+        "sanctions"
+      ],
+      "thread": "iran-war",
+      "time_known": false,
+      "added_at": "2026-11-08T16:55:00-05:00",
+      "region": "US"
+    },
+    {
+      "id": "2026-11-08-krakow-terror-probe-victims",
+      "section": "news",
+      "topic": "security",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 3,
+      "time": "2026-11-08T12:00:00-05:00",
+      "text": "Polish prosecutors opened a terrorism investigation into the Kraków shooting, and officials said four of the six people killed were Polish.",
+      "detail": "The regional governor said the dead were four women and two men: three of the women and one man were Polish, one man was from the United Kingdom and one woman was from Austria. The wounded include citizens of Britain, Portugal, Russia, Germany and Austria. The national prosecutor's office said it is investigating the killing of six people with a firearm and the attempted murder of many others, including police officers. Interior Minister Marcin Kierwiński, who said Saturday the 24-year-old suspect was drawn to far-right ideologies, said Sunday that was one hypothesis police are checking and that officials are \"not passing any verdicts.\" Police have not publicly named the suspect.",
+      "why": "It narrows what is officially known about the suspect's motive after Saturday's far-right claims.",
+      "source": "AP",
+      "url": "https://apnews.com/article/poland-krakow-shooting-dead-guns-7f0f816ff970e37557130bd74fd92939",
+      "notes": "AP page not fetched; victim nationalities per x-leads/AP; prosecutor probe per Guardian (agencies); Kierwiński hedge per RMF24 (TVN24 interview). Earlier Kraków cards attributed the far-right view to officials.",
+      "tags": [
+        "poland",
+        "krakow",
+        "shooting",
+        "terrorism"
+      ],
+      "time_known": false,
+      "added_at": "2026-11-08T16:55:00-05:00"
+    },
+    {
+      "id": "2026-11-08-atiku-nomination-voided",
+      "section": "news",
+      "topic": "ballot",
+      "region": "World",
+      "world_region": "africa",
+      "impact": 2,
+      "time": "2026-11-08T08:00:00-05:00",
+      "text": "A Nigerian court voided Atiku Abubakar's nomination as the opposition African Democratic Congress candidate for January's presidential election; the party said it will appeal.",
+      "detail": "A Federal High Court judge in Abuja set aside the processes that produced the ADC's leadership and Atiku's nomination, after a former party official argued the officials were not chosen at a national convention. The ADC called the ruling a politically motivated attempt to weaken the opposition and said it would go to the Court of Appeal. Atiku, vice president from 1999 to 2007 and runner-up in the last election, won the ADC ticket in May. Ruling was Thursday; the election is Jan. 16.",
+      "why": "It could remove one of the two main challengers to President Bola Tinubu two months before the vote.",
+      "source": "Reuters",
+      "url": "https://theprint.in/world/nigerian-court-voids-candidacy-of-opposition-adcs-atiku-for-2027-election/3091814/",
+      "notes": "Reuters copy via ThePrint (wire page); AP confirms (apnews.com/article/nigeria-election-atiku-abubakar-court-e37403f0930a889b9e48b4e93eca2fd3). Ruling Nov. 5; first run here.",
+      "tags": [
+        "nigeria",
+        "atiku",
+        "election",
+        "court"
+      ],
+      "time_known": false,
+      "added_at": "2026-11-08T16:55:00-05:00"
+    },
+    {
+      "id": "2026-11-08-gaza-sand-cliff-collapse",
+      "section": "news",
+      "topic": "weather",
+      "region": "World",
+      "world_region": "mideast",
+      "impact": 2,
+      "time": "2026-11-08T12:00:00-05:00",
+      "text": "A sand cliff collapsed onto tents at a displacement camp in Gaza's Deir al-Balah after heavy rain, killing five people, including three children, Gaza's Civil Defense said.",
+      "detail": "Rescuers recovered five bodies, including a woman and three children, and pulled five injured people out alive; the search for missing people continues. Gaza's government media office said about 70,000 tents were flooded or damaged in the storm that began Saturday.",
+      "why": "Winter storms are turning Gaza's tent shelters into deadly hazards for displaced families.",
+      "source": "WAFA (Gaza Civil Defense)",
+      "url": "https://english.wafa.ps/Pages/Details/176754",
+      "notes": "Toll from Gaza Civil Defense; also carried by Arab News and Middle East Eye. Follows 2026-11-07-gaza-rain-floods-tents.",
+      "tags": [
+        "gaza",
+        "weather",
+        "flooding"
+      ],
+      "time_known": false,
+      "added_at": "2026-11-08T16:55:00-05:00"
     }
   ]
 }

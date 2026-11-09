@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-07T05:31:11-05:00",
+  "updated": "2026-11-09T04:32:00-05:00",
   "block": {
-    "start": "2026-11-02",
-    "end": "2026-11-15",
-    "refreshed": "2026-11-02"
+    "start": "2026-11-09",
+    "end": "2026-11-22",
+    "refreshed": "2026-11-09"
   },
   "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
   "launches": [
@@ -19,12 +19,22 @@
     },
     {
       "date": "2026-11-12",
-      "sort": "99",
-      "time": "Time TBD",
+      "sort": "23:23",
+      "time": "11:23 p.m.–3:23 a.m. window",
       "rocket": "Falcon 9",
       "mission": "USSF-317",
       "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
-      "url": "https://www.spacex.com/launches/ussf317"
+      "url": "https://www.spacex.com/launches/ussf317",
+      "note": "Backup: Fri., Nov. 13 at 11:09 p.m."
+    },
+    {
+      "date": "2026-11-13",
+      "sort": "17:45",
+      "time": "5:45–7:00 p.m. window",
+      "rocket": "Starship",
+      "mission": "Starship Flight 15",
+      "site": "Pad 2, Starbase, Texas",
+      "url": "https://www.spacex.com/launches/starship-flight-15"
     }
   ]
 }

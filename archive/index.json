@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-09-morning",
+   "date": "2026-11-09",
+   "edition": "morning",
+   "count": 10,
+   "lead": "Trump's deportation crackdown \"might be too tough,\" the president said on 60 Minutes, adding a deal with Democrats on long-term immigrants is \"doable.\""
+  },
+  {
    "key": "2026-11-08-evening",
    "date": "2026-11-08",
    "edition": "evening",
@@ -575,5 +582,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-08T17:01:02-05:00"
+ "updated": "2026-11-09T05:30:26-05:00"
 }

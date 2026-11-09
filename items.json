@@ -1,6 +1,181 @@
 {
-  "updated": "2026-11-09T05:30:22-05:00",
+  "updated": "2026-11-09T16:58:00-05:00",
   "items": [
+    {
+      "id": "2026-11-09-massie-hegseth-impeachment-filed",
+      "section": "news",
+      "topic": "capitol",
+      "region": "US",
+      "impact": 4,
+      "branch": "legislative",
+      "time": "2026-11-09T14:00:00-05:00",
+      "time_known": false,
+      "text": "Defense Secretary Pete Hegseth faces a forced House impeachment vote after Rep. Thomas Massie filed eight articles Monday, mostly over the Iran war.",
+      "detail": "Massie, a Kentucky Republican retiring at the end of the year, filed the resolution as privileged as the House returned Monday for its first session since the midterms, which requires House leaders to bring it to the floor within two legislative days, by Wednesday; Republicans can instead move to table it or refer it to committee by majority vote. Three articles charge waging the Iran war without a declaration, authorization or imminent threat, in violation of the War Powers Resolution; others cite ignoring civilian-casualty laws, the Caribbean and Eastern Pacific boat strikes, the capture of Venezuela's Nicolás Maduro without congressional approval, strikes on Yemen, and the effort to punish Sen. Mark Kelly. A simple House majority would impeach; removal would need two-thirds of the Senate.",
+      "why": "It is the first House vote on removing a sitting defense secretary during the Iran war, and it tests Republican unity after the midterm losses.",
+      "source": "AP",
+      "url": "https://apnews.com/article/hegseth-pentagon-briefing-congress-impeachment-f5303cfb626ae2ef7a4a3f660f5519df",
+      "thread": "iran-war",
+      "notes": "Impact 3 on substance, +1 trending bump (x-leads: Trending hard). Follows 2026-11-05-massie-forces-hegseth-impeachment-vote. Article list confirmed by NPR and NBC.",
+      "tags": [
+        "hegseth",
+        "impeachment",
+        "congress",
+        "iran"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-scotus-big-bend-wall-stay",
+      "section": "news",
+      "topic": "court",
+      "region": "US",
+      "impact": 3,
+      "branch": "judicial",
+      "time": "2026-11-09T15:00:00-05:00",
+      "time_known": false,
+      "text": "Border wall construction in Texas's Big Bend region can resume after the Supreme Court paused a judge's order blocking it, 8-1.",
+      "detail": "In an unsigned order in Mullin v. Friends of the Ruidosa Church, the court stayed U.S. District Judge Kathleen Cardone's Oct. 2 preliminary injunction while the case continues, saying the government is \"exceedingly likely to prevail\" that she lacked jurisdiction; the law lets courts hear only constitutional claims against the Homeland Security secretary's environmental-law waivers, and \"there is no such thing as a 'constitutional' major-questions claim.\" The court cited border security and costs of nearly $500,000 a day from the halt. It declined to summarily reverse. Justice Ketanji Brown Jackson would have denied the stay. This is not a final ruling on the waivers.",
+      "why": "It reopens construction of border barriers and roads along a remote stretch of the Rio Grande near Big Bend National Park.",
+      "source": "Supreme Court of the United States",
+      "url": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf",
+      "notes": "AP: https://apnews.com/article/supreme-court-trump-border-wall-cd5697e9502b4ae32e1c14300de02985 . Follows 2026-10-21-scotus-asked-revive-big-bend-border-wall. Stay pending appeal = impact 3 per task-rules.",
+      "tags": [
+        "supreme-court",
+        "border-wall",
+        "texas"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-mullin-daca-no-amnesty",
+      "section": "news",
+      "topic": "immigration",
+      "region": "US",
+      "impact": 3,
+      "branch": "executive",
+      "time": "2026-11-09T12:00:00-05:00",
+      "time_known": false,
+      "text": "DACA recipients could get permanent legal status through a bipartisan deal, Homeland Security Secretary Markwayne Mullin said, but \"amnesty is never going to be a solution.\"",
+      "detail": "Mullin told reporters Monday that President Trump encouraged him to work with Democrats who had reached out, that no concrete policy changes have been discussed yet, and that any DACA fix is up to Congress. His comments followed Trump's Sunday 60 Minutes interview saying the deportation crackdown \"might be too tough\" and a deal on long-term immigrants is \"doable.\"",
+      "why": "It is the administration's first signal of what a post-midterm immigration deal could and could not include for about half a million DACA recipients.",
+      "source": "AP",
+      "url": "https://apnews.com/article/border-security-mullin-drone-trump-deportations-56acd4d76925046a8dea8231eff7e80c",
+      "thread": "deportations-courts",
+      "notes": "Follows 2026-11-09-trump-deportation-too-tough. Substance 2 (statement, not policy) +1 trending bump (DACA / NO AMNESTY trending hard).",
+      "tags": [
+        "daca",
+        "immigration",
+        "dhs"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-doj-civil-division-shumate-resigns",
+      "section": "news",
+      "topic": "doj",
+      "region": "US",
+      "impact": 3,
+      "branch": "executive",
+      "time": "2026-11-09T12:00:00-05:00",
+      "time_known": false,
+      "text": "Brett Shumate, head of the Justice Department's Civil Division, resigned Monday, the fourth senior DOJ official to leave since the midterms, Attorney General Todd Blanche announced.",
+      "detail": "Shumate follows Civil Rights Division chief Harmeet Dhillon, National Security Division head John Eisenberg and Miami U.S. Attorney Jason Reding Quiñones. Blanche credited the Civil Division with suits against sanctuary policies, settlements over corporate DEI practices, and closing clinics that provided gender-affirming care to minors. It was not clear whether the administration will seek Senate-confirmed replacements before Republicans lose Senate control in January.",
+      "why": "The Civil Division defends the administration's policies in court, and its leadership exit adds to a widening post-election departure wave at DOJ.",
+      "source": "ABC News",
+      "url": "https://abcnews.com/US/doj-leadership-shakeup-continues-civil-division-chief-steps/story?id=137976350",
+      "notes": "Also reported by Reuters and USA Today. Departure-wave check per search-checklist.",
+      "tags": [
+        "doj",
+        "resignation"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-stocks-rally-oil-falls-nvidia",
+      "section": "money",
+      "money_beat": "markets",
+      "topic": "chart",
+      "region": "US",
+      "impact": 3,
+      "time": "2026-11-09T16:00:00-05:00",
+      "time_known": true,
+      "text": "Stocks had their best day since April Monday, with the S&P 500 up 2.3%, as oil prices fell and Nvidia sank on its CEO probe.",
+      "detail": "The S&P 500 rose to 7,549.94, the Dow gained 1,104 points (2.2%) to 52,389.75 and the Nasdaq climbed 2.7% to 25,253.14, recovering most of last week's midterm-driven selloff in AI stocks. Brent crude fell more than 5% to about $92.60 a barrel on hopes for Iran diplomacy. Nvidia fell 4.3% after its board opened an independent investigation into reports that CEO Jensen Huang was the target of a foreign intelligence effort.",
+      "why": "Lower oil prices and a rebound in stocks ease some of last week's market damage, while Nvidia's slide shows the weight of the Huang probe.",
+      "source": "AP",
+      "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b",
+      "notes": "Closing numbers from AP 'How major US stock indexes fared'. Substance 2 + trending bump (Nvidia trending hard). Follows 2026-11-09-nvidia-board-probe-huang.",
+      "tags": [
+        "stocks",
+        "oil",
+        "nvidia"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-novaya-gazeta-closes-moscow",
+      "section": "news",
+      "topic": "globe",
+      "region": "World",
+      "world_region": "europe",
+      "impact": 2,
+      "time": "2026-11-09T07:00:00-05:00",
+      "time_known": false,
+      "text": "Novaya Gazeta, Russia's leading independent newspaper, closed its Moscow office Monday after three decades, citing state pressure.",
+      "detail": "Authorities had labeled the paper a \"foreign agent,\" ordered it out of its Moscow premises and barred Russian banks from processing reader donations. Nobel Peace Prize-winning founding editor Dmitry Muratov said the constitution's guarantees of political and civil rights had \"ceased to function\"; Kremlin spokesman Dmitry Peskov called it part of a \"rotational process\" in the media market. Six of its journalists, including Anna Politkovskaya, were killed since 1993.",
+      "why": "It removes one of the last independent newsrooms operating inside Russia.",
+      "source": "AP",
+      "url": "https://apnews.com/article/russian-newspaper-media-novaya-gazeta-closure-01cca444cb9636ee74a57979b0dcd604",
+      "notes": "Follows 2026-10-30-novaya-gazeta-to-close (announcement). Details checked against DW (with AFP/AP/Reuters).",
+      "tags": [
+        "russia",
+        "press-freedom"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-rocket-lab-q3-record-revenue",
+      "section": "tech",
+      "topic": "rocket",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-11-09T16:05:00-05:00",
+      "time_known": true,
+      "text": "Rocket Lab reported record third-quarter revenue of $268 million, up 73% from a year earlier, with its backlog up 52% to about $3.6 billion.",
+      "detail": "The company posted a net loss of $79.7 million, or 12 cents a share, and its first positive GAAP operating cash flow of $7.2 million. It signed about $1 billion in new launch contracts, including more than $515 million for its Neutron rocket, whose first launch is now targeted for no earlier than 2027. Fourth-quarter revenue guidance is $270 million to $290 million.",
+      "why": "Rocket Lab is the second-busiest U.S. launch company, and Neutron's timing matters for competition with SpaceX.",
+      "source": "Rocket Lab (company release)",
+      "url": "https://investors.rocketlabcorp.com/news",
+      "notes": "From upcoming.json buzz item (Rocket Lab Q3 results after the close). GlobeNewswire release 4:05 p.m. ET.",
+      "tags": [
+        "rocket-lab",
+        "space",
+        "earnings"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
+    {
+      "id": "2026-11-09-dc-studios-gunn-safran-out",
+      "section": "news",
+      "topic": "business",
+      "region": "US",
+      "impact": 2,
+      "time": "2026-11-09T13:00:00-05:00",
+      "time_known": false,
+      "text": "DC Studios chiefs James Gunn and Peter Safran are stepping down after four years, Skydance said, naming former Marvel executive Jeremy Latcham to lead it Dec. 1.",
+      "detail": "Latcham, a founding member of the Marvel Cinematic Universe team, becomes president and chief creative officer of DC Studios. Gunn and Safran return to creative work, including Gunn's Superman sequel Man of Tomorrow, due July 9, 2027, and The Batman Part II, now in production. Their 2025 Superman earned more than $618 million worldwide.",
+      "why": "It is the biggest leadership change at Warner Bros.' superhero studio since Skydance took over the company.",
+      "source": "Skydance",
+      "url": "https://www.skydance.com/news/press/skydance-names-jeremy-latcham-president-and-chief-creative-officer-dc-studios",
+      "notes": "Workplace-gossip tier; AP also: https://apnews.com/article/dc-studios-james-gunn-skydance-9e9885f9ee047a1289153c68eb395a0d",
+      "tags": [
+        "entertainment",
+        "skydance",
+        "dc"
+      ],
+      "added_at": "2026-11-09T16:58:00-05:00"
+    },
     {
       "id": "2026-11-09-trump-deportation-too-tough",
       "section": "news",

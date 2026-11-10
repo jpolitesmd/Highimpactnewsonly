@@ -1,0 +1,259 @@
+{
+ "date": "2026-11-10",
+ "edition": "morning",
+ "subject": "Tuesday, Nov 10 - Morning edition",
+ "published": "2026-11-10T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-10-trump-iran-war-effectively-over",
+   "section": "news",
+   "text": "The Iran war is \"militarily effectively over,\" President Trump said Monday after meeting Qatar's prime minister, adding that renewed U.S. strikes are \"quite unlikely.\"",
+   "detail": "In a surprise White House briefing-room appearance, Trump said, \"Iran militarily is effectively over. We're just keeping it the status quo,\" and that Iran has been \"decapitated,\" but he is still seeking a long-term solution to Iran's nuclear program. He said he saw \"positive momentum\" and a \"good chance\" the war could end, but \"we're locked and loaded, ready to go for any reason that changes.\" In a Truth Social post he said Gulf allies including Qatar, Saudi Arabia and the UAE \"would prefer the status quo.\" Trump gave no sign of a troop drawdown and said the naval blockade on Iranian oil continues: \"We're keeping it going.\" Qatar's prime minister, Sheikh Mohammed bin Abdulrahman Al Thani, said they discussed \"ways to progress the US-Iran talks.\" No deal has been announced.",
+   "why": "It is Trump's clearest signal yet that he is moving away from resuming strikes, though the blockade lifting energy costs stays in place.",
+   "impact": 3,
+   "topic": "war",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-09T17:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-us-war-trump-qatar-c38770b168faf5e094e96c1e1e212cff"
+  },
+  {
+   "id": "2026-11-10-abu-dhabi-us-russia-ukraine-talks",
+   "section": "news",
+   "text": "U.S.-brokered talks between Russia and Ukraine began Tuesday in Abu Dhabi, their first three-way meeting since February.",
+   "detail": "U.S. envoys Steve Witkoff and Jared Kushner lead the American side in the two-day talks; Ukraine's delegation is led by Rustem Umerov and Russia's by Kremlin aide Vladimir Medinsky. Umerov said Kyiv's priorities are ending hostilities, reliable postwar security guarantees, economic recovery and humanitarian measures; Russian Foreign Minister Sergey Lavrov said security issues would top the agenda. Moscow still demands Ukraine withdraw from four regions and abandon its NATO bid, which Kyiv rejects. Overnight, Ukraine's air force said Russia launched 162 drones and a ballistic missile.",
+   "why": "It is the first direct round in nine months on ending Europe's biggest war since World War II.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-10T03:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-putin-zelenskyy-uae-3d878a3e56d5df5bd198a6d20c824d18"
+  },
+  {
+   "id": "2026-11-10-senate-advances-permitting-overhaul",
+   "section": "news",
+   "text": "A bipartisan bill to speed permits for power plants, transmission lines and other energy projects cleared its first Senate test vote Monday, 73-25.",
+   "detail": "The Senate invoked cloture on the motion to proceed to H.R. 2347, the vehicle for the Bipartisan American Affordability and Jobs Act, its first major action since the midterms; 51 Republicans, 21 Democrats and one independent voted yes. The 494-page bill, written by Sens. Martin Heinrich, Sheldon Whitehouse, Shelley Moore Capito and Mike Lee, would limit how long lawsuits and reviews under the National Environmental Policy Act and Clean Water Act can run, protect already issued permits, expand federal power to site big interstate transmission lines and make data-center developers pay for grid upgrades they need. President Trump backs it; some environmental groups and the National Congress of American Indians oppose it, and House Democratic leader Hakeem Jeffries said he is still reviewing it. Debate resumes at noon Tuesday with roll-call votes expected; the bill still needs final Senate passage and House approval.",
+   "why": "It could change how fast new power and grid projects get built as electricity demand from data centers climbs.",
+   "impact": 3,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-09T17:30:00-05:00",
+   "time_known": true,
+   "source": "U.S. Senate Daily Press",
+   "url": "https://www.dailypress.senate.gov/monday-november-9-2026/"
+  },
+  {
+   "id": "2026-11-10-trump-fbi-huang-probe",
+   "section": "tech",
+   "text": "The FBI is looking into Nvidia CEO Jensen Huang's affair with a woman alleged to be a Chinese agent, President Trump said, adding Huang will be \"in good shape.\"",
+   "detail": "\"I know the FBI is looking into it in terms of something else, and I think that he'll be in good shape,\" Trump said at Monday's White House briefing, calling Huang \"a very honorable man\" and saying Huang told him he \"had absolutely no idea that the person in question was a spy.\" China's foreign ministry called the spy allegation \"unsubstantiated\" and \"nothing but smears against China.\" Huang has apologized for the affair and said he supports Nvidia's independent board investigation and will cooperate fully. Trump is due to meet Xi Jinping at the APEC summit in Shenzhen next week.",
+   "why": "It confirms a federal counterintelligence look at the head of the world's most important AI chipmaker.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-09T17:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/china-denies-spy-jensen-huang-nvidia-3345b9f05c54d58909e88f6dcb9c1cd8"
+  },
+  {
+   "id": "2026-11-10-china-trade-surplus-1-trillion",
+   "section": "money",
+   "text": "China's trade surplus topped $1 trillion for a second straight year, as October exports jumped 35% from a year earlier, customs data showed.",
+   "detail": "China logged a $1.04 trillion surplus from January through October. October's surplus was $105.3 billion, down from $133.5 billion in September; imports also rose. Strong demand for high-tech goods such as computer chips and autos drove exports.",
+   "why": "China's export surge is behind tariff fights with the U.S. and other trading partners.",
+   "impact": 2,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-09T22:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/china-trade-economy-trump-surplus-0fc56d7bd8bbff86ce6672bb67691f22"
+  },
+  {
+   "id": "2026-11-09-massie-hegseth-impeachment-filed",
+   "section": "news",
+   "text": "Defense Secretary Pete Hegseth faces a forced House impeachment vote after Rep. Thomas Massie filed eight articles Monday, mostly over the Iran war.",
+   "detail": "Massie, a Kentucky Republican retiring at the end of the year, filed the resolution as privileged as the House returned Monday for its first session since the midterms, which requires House leaders to bring it to the floor within two legislative days, by Wednesday; Republicans can instead move to table it or refer it to committee by majority vote. Three articles charge waging the Iran war without a declaration, authorization or imminent threat, in violation of the War Powers Resolution; others cite ignoring civilian-casualty laws, the Caribbean and Eastern Pacific boat strikes, the capture of Venezuela's Nicolás Maduro without congressional approval, strikes on Yemen, and the effort to punish Sen. Mark Kelly. A simple House majority would impeach; removal would need two-thirds of the Senate.",
+   "why": "It is the first House vote on removing a sitting defense secretary during the Iran war, and it tests Republican unity after the midterm losses.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-09T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/hegseth-pentagon-briefing-congress-impeachment-f5303cfb626ae2ef7a4a3f660f5519df"
+  },
+  {
+   "id": "2026-11-09-stocks-rally-oil-falls-nvidia",
+   "section": "money",
+   "text": "Stocks had their best day since April Monday, with the S&P 500 up 2.3%, as oil prices fell and Nvidia sank on its CEO probe.",
+   "detail": "The S&P 500 rose to 7,549.94, the Dow gained 1,104 points (2.2%) to 52,389.75 and the Nasdaq climbed 2.7% to 25,253.14, recovering most of last week's midterm-driven selloff in AI stocks. Brent crude fell more than 5% to about $92.60 a barrel on hopes for Iran diplomacy. Nvidia fell 4.3% after its board opened an independent investigation into reports that CEO Jensen Huang was the target of a foreign intelligence effort.",
+   "why": "Lower oil prices and a rebound in stocks ease some of last week's market damage, while Nvidia's slide shows the weight of the Huang probe.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-09T16:00:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b"
+  },
+  {
+   "id": "2026-11-09-scotus-big-bend-wall-stay",
+   "section": "news",
+   "text": "Border wall construction in Texas's Big Bend region can resume after the Supreme Court paused a judge's order blocking it, 8-1.",
+   "detail": "In an unsigned order in Mullin v. Friends of the Ruidosa Church, the court stayed U.S. District Judge Kathleen Cardone's Oct. 2 preliminary injunction while the case continues, saying the government is \"exceedingly likely to prevail\" that she lacked jurisdiction; the law lets courts hear only constitutional claims against the Homeland Security secretary's environmental-law waivers, and \"there is no such thing as a 'constitutional' major-questions claim.\" The court cited border security and costs of nearly $500,000 a day from the halt. It declined to summarily reverse. Justice Ketanji Brown Jackson would have denied the stay. This is not a final ruling on the waivers.",
+   "why": "It reopens construction of border barriers and roads along a remote stretch of the Rio Grande near Big Bend National Park.",
+   "impact": 3,
+   "topic": "court",
+   "branch": "judicial",
+   "region": "US",
+   "time": "2026-11-09T15:00:00-05:00",
+   "time_known": false,
+   "source": "Supreme Court of the United States",
+   "url": "https://www.supremecourt.gov/opinions/26pdf/26a560_onkq.pdf"
+  },
+  {
+   "id": "2026-11-09-mullin-daca-no-amnesty",
+   "section": "news",
+   "text": "DACA recipients could get permanent legal status through a bipartisan deal, Homeland Security Secretary Markwayne Mullin said, but \"amnesty is never going to be a solution.\"",
+   "detail": "Mullin told reporters Monday that President Trump encouraged him to work with Democrats who had reached out, that no concrete policy changes have been discussed yet, and that any DACA fix is up to Congress. His comments followed Trump's Sunday 60 Minutes interview saying the deportation crackdown \"might be too tough\" and a deal on long-term immigrants is \"doable.\"",
+   "why": "It is the administration's first signal of what a post-midterm immigration deal could and could not include for about half a million DACA recipients.",
+   "impact": 3,
+   "topic": "immigration",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-09T12:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/border-security-mullin-drone-trump-deportations-56acd4d76925046a8dea8231eff7e80c"
+  },
+  {
+   "id": "2026-11-09-doj-civil-division-shumate-resigns",
+   "section": "news",
+   "text": "Brett Shumate, head of the Justice Department's Civil Division, resigned Monday, the fourth senior DOJ official to leave since the midterms, Attorney General Todd Blanche announced.",
+   "detail": "Shumate follows Civil Rights Division chief Harmeet Dhillon, National Security Division head John Eisenberg and Miami U.S. Attorney Jason Reding Quiñones. Blanche credited the Civil Division with suits against sanctuary policies, settlements over corporate DEI practices, and closing clinics that provided gender-affirming care to minors. It was not clear whether the administration will seek Senate-confirmed replacements before Republicans lose Senate control in January.",
+   "why": "The Civil Division defends the administration's policies in court, and its leadership exit adds to a widening post-election departure wave at DOJ.",
+   "impact": 3,
+   "topic": "doj",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-09T12:00:00-05:00",
+   "time_known": false,
+   "source": "ABC News",
+   "url": "https://abcnews.com/US/doj-leadership-shakeup-continues-civil-division-chief-steps/story?id=137976350"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-09-cms-drug-negotiation-final-rule",
+   "section": "health",
+   "text": "Medicare's drug price negotiation program was written into a final rule, effective Dec. 5, governing prices from 2029.",
+   "detail": "The CMS final rule (CMS-4215-F), published in the Federal Register Monday, codifies how Medicare negotiates prices for high-cost drugs, starting with the 2029 price year. It sets a policy for fixed-combination drugs and a temporary price floor for qualifying small biotech drugs in 2029 and 2030.",
+   "why": "It locks in the rules for Medicare's price talks on the most costly drugs.",
+   "impact": 2,
+   "topic": "health",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-09T08:45:00-05:00",
+   "time_known": false,
+   "source": "Federal Register (CMS)",
+   "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program"
+  },
+  {
+   "id": "2026-11-09-nvidia-board-probe-huang",
+   "section": "tech",
+   "text": "Nvidia's board opened an independent investigation after reports that CEO Jensen Huang was the target of a foreign intelligence effort.",
+   "detail": "The board said Sunday a committee of independent directors, advised by outside independent counsel, will investigate the reporting; it said it has \"no reason to believe that either national security or NVIDIA secrets were compromised,\" that it has confidence in Huang, and that he will remain CEO and cooperate. In an email to employees, Huang wrote, \"I was unfaithful to my wife,\" apologized, and said, \"I am committed to protecting NVIDIA and supporting America's national security.\" AP, citing The New York Times, said Huang had told the board of a relationship with a business executive whom U.S. intelligence determined was gathering information for Beijing. China's Foreign Ministry called the spying claim groundless. Nvidia shares fell about 4% to 5% in premarket trading Monday, CNBC reported. The company reports earnings Nov. 17.",
+   "why": "It puts a national-security question over the head of the leading maker of AI chips.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-08T18:00:00-05:00",
+   "time_known": false,
+   "source": "Nvidia Board of Directors",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-11-10-france-blames-iran-supermarket-cyberattack",
+   "section": "news",
+   "text": "France blamed Iran's Revolutionary Guard for the October cyberattack that disabled refrigerators at about 700 supermarkets, and summoned Iran's ambassador.",
+   "detail": "The French Foreign Ministry attributed the Oct. 11-12 attack to Shahid Kaveh, a cyber unit of the Revolutionary Guard's electronic and cyber center, and called it the first purely sabotage-driven cyber campaign on French soil; it caused fires and food losses estimated at tens of millions of euros. Foreign Minister Jean-Noël Barrot called it \"unprecedented in both its scale and its level of aggression\" and said France will seek European sanctions on those responsible. The Paris prosecutor opened a judicial investigation against the unit's head and two deputies; attackers remotely forced abnormal defrost cycles and switched off temperature alarms. Iran has not formally responded. U.S. agencies warned Nov. 5 that attackers are targeting similar refrigeration controllers in the U.S.",
+   "why": "It is a rare state attribution of a cyberattack that physically damaged everyday infrastructure, the kind U.S. agencies just warned about.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-11-09T11:00:00-05:00",
+   "time_known": false,
+   "source": "French Ministry for Europe and Foreign Affairs",
+   "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france"
+  },
+  {
+   "id": "2026-11-09-us-china-truce-extensions",
+   "section": "money",
+   "text": "U.S.-China trade truce measures were extended by both sides, with China keeping its extra 24% tariff on U.S. goods suspended for two more months.",
+   "detail": "China's tariff commission said the 24% additional tariff stays suspended for two months from 1:01 p.m. Beijing time Tuesday, while a 10% extra tariff remains; its transport ministry extended the suspension of special port fees on U.S.-linked ships to Jan. 10, 2027, with its probe on hold. Beijing cited the consensus from the leaders' meeting in September. On the U.S. side, the trade representative extended the pause on Section 301 port fees for Chinese-linked ships and duties on Chinese ship-to-shore cranes and cargo equipment through 11:59 p.m. ET Jan. 9, 2027, \"to allow for further discussion with China,\" and the Commerce Department's Bureau of Industry and Security kept its \"Affiliates Rule\" export-control expansion on hold through Jan. 10, 2027 (Federal Register, Nov. 9).",
+   "why": "It keeps the truce's tariff and shipping-fee pauses from lapsing for importers, exporters and shippers.",
+   "impact": 3,
+   "topic": "trade",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-09T00:00:00-05:00",
+   "time_known": false,
+   "source": "USTR; China's finance ministry (State Council Tariff Commission); Federal Register",
+   "url": "https://ustr.gov/sites/default/files/files/Issue_Areas/Enforcement/Section%20301/USTR%20Sec%20301%20Ships%20FRN%20Further%20Suspension.pdf"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-10",
+   "when": "8:30 a.m. ET",
+   "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS CPI release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "when": "Deadline",
+   "text": "SEC deadline to approve, reject, or open proceedings on Nasdaq ISE's proposed listing rules for options on spot crypto ETFs (SR-ISE-2026-42).",
+   "detail": "Date designated in an SEC Federal Register notice (Release 34-106448). The SEC can act earlier or extend review by opening proceedings.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "2:00 a.m. ET",
+   "text": "UK third-quarter GDP first estimate (and September monthly GDP), 7:00 a.m. London time.",
+   "detail": "Release listed on the Office for National Statistics calendar for Nov. 12, 2026.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T05:30:00-05:00",
+  "updated": "2026-11-10T17:05:00-05:00",
   "block": {
     "start": "2026-11-09",
     "end": "2026-11-22",
@@ -18,13 +18,13 @@
       "note": "Backup: Fri., Nov. 13 at 11:09 p.m."
     },
     {
-      "date": "2026-11-13",
-      "sort": "17:45",
-      "time": "5:45–7:00 p.m. window",
-      "rocket": "Starship",
-      "mission": "Starship Flight 15",
-      "site": "Pad 2, Starbase, Texas",
-      "url": "https://www.spacex.com/launches/starship-flight-15"
+      "date": "2026-11-16",
+      "sort": "99",
+      "time": "Time TBD",
+      "rocket": "Falcon 9",
+      "mission": "USSF-266",
+      "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+      "url": "https://www.spacex.com/launches/ussf266"
     }
   ]
 }

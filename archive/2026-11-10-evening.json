@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-10",
+ "edition": "evening",
+ "subject": "Tuesday, Nov 10 - Evening edition",
+ "published": "2026-11-10T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
+   "section": "news",
+   "text": "Jim Jordan will lead House Republicans in the minority after beating Steve Scalise 106-73, while Senate Republicans kept John Thune as their leader.",
+   "detail": "Jordan, the Ohio Republican who chairs the Judiciary Committee and co-founded the Freedom Caucus, won a secret-ballot vote of Republicans who will serve in the next Congress over Majority Leader Steve Scalise of Louisiana; Speaker Mike Johnson did not run. Tom Emmer of Minnesota beat August Pfluger of Texas for whip, the No. 2 minority post, and Lisa McClain of Michigan kept the conference chair job. In the Senate, Republicans first voted 31-15 to hold elections Tuesday rather than delay them, then re-elected Thune as leader, John Barrasso as whip and Tom Cotton as conference chair by acclamation. Both parties' leaders take their new minority roles when the new Congress convenes in January.",
+   "why": "These are the Republicans who will face the new Democratic majorities in both chambers starting in January.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T14:22:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/republicans-minority-leader-scalise-jordan-election-9452bdcf8c16ba84b44fe537ebce0de8"
+  },
+  {
+   "id": "2026-11-10-hegseth-calls-impeachment-farce",
+   "section": "news",
+   "text": "Defense Secretary Pete Hegseth called the effort to impeach him \"a farce\" in his first Pentagon news conference in six months, hours before a scheduled House vote.",
+   "detail": "Hegseth said the operations cited in Rep. Thomas Massie's eight articles, including the Iran war, strikes on suspected drug boats and actions in Venezuela and Yemen, were lawful orders from the commander in chief and called the charges \"partisan policy disagreements.\" The House scheduled a procedural vote for about 5:30 p.m. ET Tuesday on whether to block or refer the resolution; if that fails, Massie said he will seek a separate vote on each article. Removal would require a House impeachment and a two-thirds Senate vote; retiring Sen. Thom Tillis said he is \"likely to vote against Hegseth\" if a trial comes.",
+   "why": "A House vote to impeach a sitting defense secretary in wartime would be nearly without precedent.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-10T10:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0"
+  },
+  {
+   "id": "2026-11-10-october-cpi-0-4",
+   "section": "money",
+   "text": "Consumer prices rose 0.4% in October, after 0.6% in September, the Labor Department said; prices excluding food and energy rose 0.3%.",
+   "detail": "Shelter rose 0.3% and accounted for over 30% of the monthly increase; food rose 0.5% and energy 0.7%, with gasoline up 1.0%. Used cars and trucks and communication fell. Core prices rose 0.3% for a third straight month. BLS published no 12-month inflation rates because it collected no October 2025 data during the 2025 government shutdown. Separately, real average hourly earnings for all employees were unchanged from September, as hourly pay and prices both rose 0.4%.",
+   "why": "A hotter monthly price gain feeds into the Federal Reserve's next rate decision and household budgets.",
+   "impact": 4,
+   "topic": "money",
+   "region": "US",
+   "time": "2026-11-10T08:30:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+  },
+  {
+   "id": "2026-11-10-nvidia-board-hires-wachtell-shares-slide",
+   "section": "tech",
+   "text": "Nvidia's independent directors hired former acting U.S. Attorney Joon Kim and the law firm Wachtell Lipton to investigate CEO Jensen Huang, as the stock fell again.",
+   "detail": "The board said the probe will examine whether company secrets or national security were compromised after Huang told staff he had an affair with a woman U.S. officials reportedly believe worked for Chinese intelligence; she has not been charged. Nvidia shares closed down about 5.5% Tuesday at $168.89 after a 4.3% drop Monday, and Reuters reported Microsoft briefly passed Nvidia as the world's second-most valuable company, the first time since June 2025. Reuters said it could not verify a report by The Information on the woman's role in chip sales to China.",
+   "why": "Nvidia is one of the largest weights in U.S. stock indexes and retirement funds.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-10T16:00:00-05:00",
+   "time_known": true,
+   "source": "Nvidia (independent board members)",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+  },
+  {
+   "id": "2026-11-10-tanker-struck-off-oman",
+   "section": "news",
+   "text": "A tanker was struck by an unknown projectile off Oman near the Strait of Hormuz, the British military's maritime agency UKMTO said; the crew is safe.",
+   "detail": "UKMTO said the master of the tanker reported the hit at 1338 UTC (8:38 a.m. ET) Tuesday about 19 nautical miles northeast of Lima, Oman. No environmental damage was reported, and the master will assess damage at first light. The tanker was not named and UKMTO did not say who fired. Iran's Revolutionary Guards claimed further attacks that have not been independently confirmed.",
+   "why": "Attacks near Hormuz threaten one of the world's main oil shipping lanes during the Iran war.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-11-10T08:38:00-05:00",
+   "time_known": true,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/-/media/ukmto/products/20261110-ukmto_warning_201_26.pdf?rev=f047f3d39cdd4b40b9eb0c7f74f7ed22"
+  },
+  {
+   "id": "2026-11-10-us-skips-un-rights-review",
+   "section": "news",
+   "text": "The U.N. review of the U.S. human rights record was postponed to January after the Trump administration skipped it for a second time.",
+   "detail": "The U.N. Human Rights Council in Geneva agreed to move the Universal Periodic Review of the United States to Jan. 18-29, 2027, after Washington did not attend Tuesday's rescheduled session. Every U.N. member state goes through the review about every four to five years.",
+   "why": "The U.S. has stepped back from U.N. rights bodies under the Trump administration.",
+   "impact": 2,
+   "topic": "globe",
+   "region": "US",
+   "time": "2026-11-10T09:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/human-rights-council-united-states-7bca68b35c6d4a4c6a414289605c8322"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-10",
+   "when": "8:30 a.m. ET",
+   "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS CPI release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "when": "Deadline",
+   "text": "SEC deadline to approve, reject, or open proceedings on Nasdaq ISE's proposed listing rules for options on spot crypto ETFs (SR-ISE-2026-42).",
+   "detail": "Date designated in an SEC Federal Register notice (Release 34-106448). The SEC can act earlier or extend review by opening proceedings.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "2:00 a.m. ET",
+   "text": "UK third-quarter GDP first estimate (and September monthly GDP), 7:00 a.m. London time.",
+   "detail": "Release listed on the Office for National Statistics calendar for Nov. 12, 2026.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

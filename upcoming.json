@@ -1,16 +1,6 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "events": [
-    {
-      "date": "2026-11-10",
-      "when": "8:30 a.m. ET",
-      "text": "October Consumer Price Index (CPI), 8:30 a.m. ET.",
-      "detail": "Date and time per the BLS CPI release schedule.",
-      "buzz": true,
-      "tags": [
-        "markets"
-      ]
-    },
     {
       "date": "2026-11-11",
       "when": "Deadline",

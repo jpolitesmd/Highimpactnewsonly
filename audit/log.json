@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T21:55:00-05:00",
+  "updated": "2026-11-10T21:55:00-05:00",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -297,6 +297,29 @@
       "misrated": [],
       "checklist_changes": [
         "Added a departure-wave line (search for more exits from the same agency after a senior resignation runs) plus CEO product-ending announcements, with the DOJ and Cybertruck misses."
+      ]
+    },
+    {
+      "run": "2026-11-10T21:55:00-05:00",
+      "day": "2026-11-09/2026-11-10",
+      "reference_events": 12,
+      "missed": [
+        {
+          "id": "2026-11-09-trump-questions-midterm-honesty",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "Trump on Truth Social Nov 9 asked whether the midterm 'Election' was honest and blamed 'machines', days after saying he would accept results (NBC, BBC, POLITICO, Washington Post). Not in Nov 9 evening or Nov 10 morning editions."
+        },
+        {
+          "id": "2026-11-10-indonesia-vp-gibran-offers-resignation",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "Indonesian VP Gibran Rakabuming Raka offered to resign in a meeting with President Prabowo on Nov 10 over court rulings on his credentials; State Secretary Prasetyo Hadi confirmed (AP, Antara, Jakarta Post). Not in Nov 10 evening edition."
+        }
+      ],
+      "misrated": [],
+      "checklist_changes": [
+        "Added a line for leaders' own statements (Trump Truth Social reversals written up by wires) and foreign leadership resignations, with the two misses."
       ]
     }
   ]

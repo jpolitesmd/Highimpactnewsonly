@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T05:35:00-05:00",
+ "updated": "2026-11-11T16:46:33-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -14047,6 +14047,85 @@
     "crash"
    ],
    "added_at": "2026-11-11T05:35:00-05:00"
+  },
+  {
+   "id": "2026-11-11-bessent-moves-military-base",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-11T11:00:00-05:00",
+   "time_known": false,
+   "text": "Treasury Secretary Scott Bessent has moved from his Washington home to a U.S. military base after Iranian threats against his life, people familiar with the move told Reuters.",
+   "detail": "The New York Times first reported the move; the base was not named. A Treasury spokesperson said Bessent \"will not be deterred by the Iranian regime's threats and remains committed to executing Operation Economic Outcast and maintaining the blockade.\" A source said concerns grew because a published aerial photo let his Georgetown home be located. The Times said at least a half dozen top officials have moved to bases or secure housing over the past year. Iran has previously denied plotting to attack officials on U.S. soil. The move follows Tuesday's federal indictment of three Iran-backed operatives over nearly 20 attacks and attempted attacks in Europe and the U.S.",
+   "why": "Bessent runs the U.S. economic pressure campaign against Iran, and the move shows how seriously officials are treating Iranian threats on U.S. soil.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-nyt-reports-2026-11-11/",
+   "thread": "iran-war",
+   "tags": [
+    "iran",
+    "treasury"
+   ],
+   "added_at": "2026-11-11T16:46:33-05:00",
+   "pin": "2026-11-11 evening"
+  },
+  {
+   "id": "2026-11-11-stocks-ai-rebound-close",
+   "section": "money",
+   "topic": "chart",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-11T16:00:00-05:00",
+   "time_known": true,
+   "text": "U.S. stocks rose Wednesday as AI shares rebounded, with the S&P 500 up 1.3% and nearly back from last week's AI-driven sell-off.",
+   "detail": "The Associated Press reported the S&P 500 rose 98.45 points to 7,619.38, within 2.6% of its October record. The Nasdaq rose 1.6% to 25,466.19 and the Dow rose 254.60 points, or 0.5%, to 52,486.49. CoreWeave led the gains after reporting stronger summer results than analysts expected. The bond market was closed for Veterans Day, and oil prices rose.",
+   "why": "The rebound came a day after hotter October inflation raised bets on a December Fed rate hike.",
+   "source": "Associated Press",
+   "url": "https://www.seattletimes.com/business/how-major-us-stock-indexes-fared-wednesday-11-11-2026/",
+   "money_beat": "markets",
+   "thread": "rates-inflation",
+   "added_at": "2026-11-11T16:46:33-05:00"
+  },
+  {
+   "id": "2026-11-11-trump-arlington-iran-total-victory",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-11T11:30:00-05:00",
+   "time_known": false,
+   "text": "President Trump used his Veterans Day speech at Arlington National Cemetery to defend the Iran war, saying it will end \"soon\" with \"total victory.\"",
+   "detail": "\"America did not start a war with Iran. Iran has been waging war on America since 1979,\" Trump said after laying a wreath at the Tomb of the Unknown Soldier. \"We want to make sure we have a total victory. Not a 93% victory.\" He said \"we lost 18 beautiful souls\"; Pentagon casualty figures list 23 U.S. service members killed and at least 865 wounded in connection with the war. He also said his planned triumphal arch near the cemetery would be dedicated \"soon.\" On Tuesday, nine Kennedy family members asked a federal court to block the arch, saying it would shadow President John F. Kennedy's grave.",
+   "why": "It is the president's latest word on how and when the war ends, a week after midterms in which the war was a major issue.",
+   "source": "Fox News",
+   "url": "https://www.foxnews.com/politics/trump-defends-iran-war-during-veterans-day-address-says-making-world-safer",
+   "notes": "Quotes match AP video of the speech; Pentagon toll via Spectrum News (DCAS). Kennedy filing per CNN/NPR.",
+   "thread": "iran-war",
+   "tags": [
+    "iran",
+    "veterans-day",
+    "arch"
+   ],
+   "added_at": "2026-11-11T16:46:33-05:00"
+  },
+  {
+   "id": "2026-11-10-trump-bbc-suit-proceeds",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-10T18:00:00-05:00",
+   "time_known": false,
+   "text": "President Trump's $10 billion defamation suit against the BBC can go forward, a federal judge in Florida ruled, rejecting the BBC's bid to dismiss it.",
+   "detail": "U.S. District Judge Jeffrey T. Kuntz denied the motion to dismiss the defamation claim over a Panorama edit that joined parts of Trump's Jan. 6, 2021, speech nearly 55 minutes apart, writing, \"This was not trimming around the edges.\" He dismissed a separate Florida unfair-trade-practices claim and said proof of the claims and damages is for later. The BBC said it was \"surprised by this decision but respect[s] the Court's authority.\"",
+   "why": "The case now moves toward trial-stage fights over one of the world's largest public broadcasters.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/trump-bbc-defamation-case-us-judge-denies-motion-to-dismiss/",
+   "tags": [
+    "bbc",
+    "defamation"
+   ],
+   "added_at": "2026-11-11T16:46:33-05:00"
   }
  ]
 }

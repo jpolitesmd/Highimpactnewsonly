@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-11-evening",
+   "date": "2026-11-11",
+   "edition": "evening",
+   "count": 3,
+   "lead": "Treasury Secretary Scott Bessent has moved from his Washington home to a U.S. military base after Iranian threats against his life, people familiar with the move told Reuters."
+  },
+  {
    "key": "2026-11-11-morning",
    "date": "2026-11-11",
    "edition": "morning",
@@ -610,5 +617,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-11T05:23:02-05:00"
+ "updated": "2026-11-11T16:47:02-05:00"
 }

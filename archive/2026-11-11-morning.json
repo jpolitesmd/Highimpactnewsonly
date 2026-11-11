@@ -1,0 +1,241 @@
+{
+ "date": "2026-11-11",
+ "edition": "morning",
+ "subject": "Wednesday, Nov 11 - Morning edition",
+ "published": "2026-11-11T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-10-house-refers-hegseth-impeachment",
+   "section": "news",
+   "text": "The resolution to impeach Defense Secretary Pete Hegseth was sent to the House Judiciary Committee on a 211-204 vote, blocking a floor vote on removing him.",
+   "detail": "The House voted Tuesday at 6:02 p.m. ET on a motion to refer Rep. Thomas Massie's resolution (H. Res. 1655) to committee: 210 Republicans and one independent voted yes; 203 Democrats and Massie, a Kentucky Republican, voted no; 18 members did not vote (7 Republicans, 11 Democrats), the House Clerk's roll call shows. The articles accused Hegseth over his conduct in office and his handling of the Iran war. The committee is not required to act, and Democrats take control of the House and Senate in January.",
+   "why": "It ends, for now, the first impeachment push against a sitting defense secretary in wartime.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T18:02:00-05:00",
+   "time_known": true,
+   "source": "House Clerk (Roll Call 317)",
+   "url": "https://clerk.house.gov/Votes/2026317?RollCallNum=317"
+  },
+  {
+   "id": "2026-11-11-iran-designates-argentina-forces",
+   "section": "news",
+   "text": "Iran declared Argentina's navy and air force \"terrorist organizations,\" in reply to Argentina's March listing of Iran's Revolutionary Guard.",
+   "detail": "Iran's Foreign Ministry said it acted under a 2019 law allowing reciprocal steps against countries that back the U.S. designation of the Revolutionary Guard, and said Argentina would bear responsibility for the consequences; it named no specific measures. Argentina's government designated the Guard a terrorist group on March 31, citing the 1992 Israeli Embassy and 1994 AMIA bombings in Buenos Aires, which killed 29 and 85 people. Iran denies involvement.",
+   "why": "It widens the diplomatic fallout of the Iran war into Latin America.",
+   "impact": 2,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-11T02:00:00-05:00",
+   "time_known": false,
+   "source": "Iran Foreign Ministry",
+   "url": "https://en.mfa.ir/portal/newsview/797510"
+  },
+  {
+   "id": "2026-11-11-ust-luga-port-drone-fire",
+   "section": "news",
+   "text": "Russia's Baltic oil port of Ust-Luga caught fire after a Ukrainian drone attack overnight, injuring three workers, the regional governor said.",
+   "detail": "Leningrad region Governor Alexander Drozdenko said about 150 drones were shot down over the region and a transformer substation was shut down. Lithuania, Latvia and Estonia warned of a drone threat, and Finland imposed temporary partial airspace and maritime curbs. In the Smolensk region, the governor said drone debris hit an apartment building in Yartsevo, killing two people. The strikes came as Russian and Ukrainian delegations began a second day of U.S.-brokered talks in Abu Dhabi.",
+   "why": "Ust-Luga is one of Russia's main export outlets for oil, fuel and grain.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-11T00:00:00-05:00",
+   "time_known": false,
+   "source": "RIA Novosti (Leningrad governor)",
+   "url": "https://ria.ru/20261111/ataka-2130778512.html"
+  },
+  {
+   "id": "2026-11-10-north-hollywood-minivan-crash",
+   "section": "news",
+   "text": "A minivan crashed into people outside a Los Angeles Metro station in North Hollywood at rush hour Tuesday, killing three, authorities said.",
+   "detail": "The vehicle ended up under a food vendor's tent at the busy Lankershim and Chandler boulevards intersection just before 6 p.m. local time. The driver, a man in his 60s, and at least two others were critically injured. Police have not given a cause.",
+   "why": "It is one of the deadliest pedestrian crashes in Los Angeles this year.",
+   "impact": 2,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-11-10T20:55:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/los-angeles-car-into-pedestrians-6b8fc32f9fea3956e42b77f5d98f0825"
+  },
+  {
+   "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
+   "section": "news",
+   "text": "Jim Jordan will lead House Republicans in the minority after beating Steve Scalise 106-73, while Senate Republicans kept John Thune as their leader.",
+   "detail": "Jordan, the Ohio Republican who chairs the Judiciary Committee and co-founded the Freedom Caucus, won a secret-ballot vote of Republicans who will serve in the next Congress over Majority Leader Steve Scalise of Louisiana; Speaker Mike Johnson did not run. Tom Emmer of Minnesota beat August Pfluger of Texas for whip, the No. 2 minority post, and Lisa McClain of Michigan kept the conference chair job. In the Senate, Republicans first voted 31-15 to hold elections Tuesday rather than delay them, then re-elected Thune as leader, John Barrasso as whip and Tom Cotton as conference chair by acclamation. Both parties' leaders take their new minority roles when the new Congress convenes in January.",
+   "why": "These are the Republicans who will face the new Democratic majorities in both chambers starting in January.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T14:22:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/republicans-minority-leader-scalise-jordan-election-9452bdcf8c16ba84b44fe537ebce0de8"
+  },
+  {
+   "id": "2026-11-10-hegseth-calls-impeachment-farce",
+   "section": "news",
+   "text": "Defense Secretary Pete Hegseth called the effort to impeach him \"a farce\" in his first Pentagon news conference in six months, hours before a scheduled House vote.",
+   "detail": "Hegseth said the operations cited in Rep. Thomas Massie's eight articles, including the Iran war, strikes on suspected drug boats and actions in Venezuela and Yemen, were lawful orders from the commander in chief and called the charges \"partisan policy disagreements.\" The House scheduled a procedural vote for about 5:30 p.m. ET Tuesday on whether to block or refer the resolution; if that fails, Massie said he will seek a separate vote on each article. Removal would require a House impeachment and a two-thirds Senate vote; retiring Sen. Thom Tillis said he is \"likely to vote against Hegseth\" if a trial comes.",
+   "why": "A House vote to impeach a sitting defense secretary in wartime would be nearly without precedent.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-10T10:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0"
+  },
+  {
+   "id": "2026-11-10-october-cpi-0-4",
+   "section": "money",
+   "text": "Consumer prices rose 0.4% in October, after 0.6% in September, the Labor Department said; prices excluding food and energy rose 0.3%.",
+   "detail": "Shelter rose 0.3% and accounted for over 30% of the monthly increase; food rose 0.5% and energy 0.7%, with gasoline up 1.0%. Used cars and trucks and communication fell. Core prices rose 0.3% for a third straight month. BLS published no 12-month inflation rates because it collected no October 2025 data during the 2025 government shutdown. Separately, real average hourly earnings for all employees were unchanged from September, as hourly pay and prices both rose 0.4%.",
+   "why": "A hotter monthly price gain feeds into the Federal Reserve's next rate decision and household budgets.",
+   "impact": 4,
+   "topic": "money",
+   "region": "US",
+   "time": "2026-11-10T08:30:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+  },
+  {
+   "id": "2026-11-10-nvidia-board-hires-wachtell-shares-slide",
+   "section": "tech",
+   "text": "Nvidia's independent directors hired former acting U.S. Attorney Joon Kim and the law firm Wachtell Lipton to investigate CEO Jensen Huang, as the stock fell again.",
+   "detail": "The board said the probe will examine whether company secrets or national security were compromised after Huang told staff he had an affair with a woman U.S. officials reportedly believe worked for Chinese intelligence; she has not been charged. Nvidia shares closed down about 5.5% Tuesday at $168.89 after a 4.3% drop Monday, and Reuters reported Microsoft briefly passed Nvidia as the world's second-most valuable company, the first time since June 2025. Reuters said it could not verify a report by The Information on the woman's role in chip sales to China.",
+   "why": "Nvidia is one of the largest weights in U.S. stock indexes and retirement funds.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-10T16:00:00-05:00",
+   "time_known": true,
+   "source": "Nvidia (independent board members)",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+  },
+  {
+   "id": "2026-11-10-iran-backed-plot-indictment-fairford",
+   "section": "news",
+   "text": "Three Iran-backed operatives were charged in Manhattan with roles in nearly 20 attacks and attempted attacks in Europe and the U.S., including a plot against Britain's RAF Fairford.",
+   "detail": "The eight-count superseding indictment unsealed Tuesday charges Mohammad Baqer Saad Dawood al-Saadi, a dual Iranian-Iraqi national; Mohsen Mohajeri, an Iranian national; and Mohammad Ali al-Hassani, an Iraqi national, with terrorism offenses in support of Iran's Revolutionary Guard and Kata'ib Hizballah. Prosecutors allege al-Hassani orchestrated the September plot at RAF Fairford, which then housed U.S. military aircraft and personnel, and that al-Saadi, jailed in New York since his May arrest, passed coded messages through third parties to help coordinate it. Only al-Saadi is in custody. The charges are allegations.",
+   "why": "Prosecutors tie an Iran-linked network to attacks on Jewish communities and a base used by U.S. forces during the Iran war.",
+   "impact": 3,
+   "topic": "doj",
+   "region": "US",
+   "time": "2026-11-10T15:00:00-05:00",
+   "time_known": false,
+   "source": "Justice Department",
+   "url": "https://www.justice.gov/opa/pr/three-iranian-backed-operatives-indicted-their-roles-nearly-20-terrorist-attacks-and"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-10-tsmc-october-revenue-record",
+   "section": "tech",
+   "text": "TSMC, the world's biggest contract chipmaker, reported October revenue of about NT$586.9 billion, up 59.7% from a year earlier.",
+   "detail": "Revenue rose 14.7% from September. January-October revenue totaled NT$4,485.62 billion, up 43.3% from the same period of 2025. TSMC makes chips for Nvidia, Apple and other major tech companies.",
+   "why": "TSMC's sales are a direct read on demand for AI chips.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "World",
+   "time": "2026-11-10T04:30:00-05:00",
+   "time_known": false,
+   "source": "TSMC",
+   "url": "https://pr.tsmc.com/english/news/3349"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-11-09-massie-hegseth-impeachment-filed",
+   "section": "news",
+   "text": "Defense Secretary Pete Hegseth faces a forced House impeachment vote after Rep. Thomas Massie filed eight articles Monday, mostly over the Iran war.",
+   "detail": "Massie, a Kentucky Republican retiring at the end of the year, filed the resolution as privileged as the House returned Monday for its first session since the midterms, which requires House leaders to bring it to the floor within two legislative days, by Wednesday; Republicans can instead move to table it or refer it to committee by majority vote. Three articles charge waging the Iran war without a declaration, authorization or imminent threat, in violation of the War Powers Resolution; others cite ignoring civilian-casualty laws, the Caribbean and Eastern Pacific boat strikes, the capture of Venezuela's Nicolás Maduro without congressional approval, strikes on Yemen, and the effort to punish Sen. Mark Kelly. A simple House majority would impeach; removal would need two-thirds of the Senate.",
+   "why": "It is the first House vote on removing a sitting defense secretary during the Iran war, and it tests Republican unity after the midterm losses.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-09T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/hegseth-pentagon-briefing-congress-impeachment-f5303cfb626ae2ef7a4a3f660f5519df"
+  },
+  {
+   "id": "2026-11-10-us-soldier-arrested-uk-russia-spying",
+   "section": "news",
+   "text": "A senior U.S. Army soldier assigned to a NATO headquarters was arrested in England on suspicion of spying for Russia, British police said.",
+   "detail": "The 41-year-old, who was not named, was arrested Tuesday near Gloucester under sections 1 and 3 of the U.K. National Security Act 2023, covering obtaining or disclosing protected information and assisting a foreign intelligence service; police said the allegations relate to Russia. He served with NATO's Allied Rapid Reaction Corps at Imjin Barracks and remains in custody in London. FBI Director Kash Patel said the case involves allegations of espionage; Army Counterintelligence Command called him a \"senior soldier.\" He has not been charged.",
+   "why": "An espionage case inside a NATO headquarters raises concern about insider threats to allied forces.",
+   "impact": 3,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-11-10T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/us-soldier-espionage-britain-russia-f1a3d4abf8233d064e246e4de0ad21f4"
+  },
+  {
+   "id": "2026-11-10-tanker-struck-off-oman",
+   "section": "news",
+   "text": "A tanker was struck by an unknown projectile off Oman near the Strait of Hormuz, the British military's maritime agency UKMTO said; the crew is safe.",
+   "detail": "UKMTO said the master of the tanker reported the hit at 1338 UTC (8:38 a.m. ET) Tuesday about 19 nautical miles northeast of Lima, Oman. No environmental damage was reported, and the master will assess damage at first light. The tanker was not named and UKMTO did not say who fired. Iran's Revolutionary Guards claimed further attacks that have not been independently confirmed.",
+   "why": "Attacks near Hormuz threaten one of the world's main oil shipping lanes during the Iran war.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-11-10T08:38:00-05:00",
+   "time_known": true,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/-/media/ukmto/products/20261110-ukmto_warning_201_26.pdf?rev=f047f3d39cdd4b40b9eb0c7f74f7ed22"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-11",
+   "when": "Deadline",
+   "text": "SEC deadline to approve, reject, or open proceedings on Nasdaq ISE's proposed listing rules for options on spot crypto ETFs (SR-ISE-2026-42).",
+   "detail": "Date designated in an SEC Federal Register notice (Release 34-106448). The SEC can act earlier or extend review by opening proceedings.",
+   "buzz": true,
+   "tags": [
+    "crypto",
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "2:00 a.m. ET",
+   "text": "UK third-quarter GDP first estimate (and September monthly GDP), 7:00 a.m. London time.",
+   "detail": "Release listed on the Office for National Statistics calendar for Nov. 12, 2026.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "After the close",
+   "text": "Cisco reports fiscal first-quarter results after the close; call 4:30 p.m. ET.",
+   "detail": "Date and call time (1:30 p.m. Pacific) per Cisco's Nov. 3 newsroom announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

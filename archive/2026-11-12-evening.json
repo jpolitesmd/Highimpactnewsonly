@@ -1,0 +1,132 @@
+{
+ "date": "2026-11-12",
+ "edition": "evening",
+ "subject": "Thursday, Nov 12 - Evening edition",
+ "published": "2026-11-12T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-12-huang-resigns-nvidia-ceo",
+   "section": "tech",
+   "text": "Nvidia CEO Jensen Huang resigned effective immediately, and finance chief Colette Kress will serve as interim CEO while the board searches for a successor.",
+   "detail": "Nvidia's board said Thursday it accepted Huang's resignation as president, CEO and director; it will consider internal and external candidates. Kress, CFO since 2013, keeps that job while serving as interim CEO. Harvey C. Jones, a former Synopsys CEO on the board since 1993, was named Nvidia's first-ever board chair. The resignation follows Huang's admission Sunday of an affair with a Megaspeed executive whom U.S. officials believe is a Chinese spy, and a New York Times report of a second relationship with an Nvidia executive who reports to him. Nvidia shares fell as much as 14% Thursday before recovering about half of that loss, the Associated Press reported. Nvidia still plans to report quarterly results Tuesday, Nov. 17.",
+   "why": "Huang founded Nvidia in 1993 and led it to the center of the AI boom as the world's most valuable chipmaker.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T08:00:00-05:00",
+   "time_known": false,
+   "source": "NVIDIA (company release)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
+  },
+  {
+   "id": "2026-11-12-microsoft-365-outage",
+   "section": "tech",
+   "text": "Microsoft's Outlook, Teams and other 365 services went down for hours Thursday, with more than 130,000 Outlook problem reports at the peak.",
+   "detail": "Downdetector logged more than 130,000 Outlook reports at 1:27 p.m. ET, Reuters reported. Microsoft said a large number of servers became unexpectedly unavailable after failing automated health checks, pushing load onto the rest of its systems; it paused all deployments and configuration changes and restarted servers. Exchange Online, Teams, SharePoint Online, Microsoft 365 Copilot and Defender XDR were listed as affected. As of about 4 p.m. ET Microsoft said a new health-check method was returning servers to service and was being applied more broadly, and that recent configuration updates were a potential cause still under investigation.",
+   "why": "Hundreds of millions of workers rely on Outlook and Teams for email and meetings.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T13:27:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/"
+  },
+  {
+   "id": "2026-11-12-trump-no-iran-deal-needed",
+   "section": "news",
+   "text": "President Trump said the U.S. does not need a deal with Iran, days after saying talks to end the war were progressing; oil prices rose.",
+   "detail": "\"We don't need a deal with Iran. Those days have long since passed. We've got their money, Hundreds of Billions of Dollars, and we've got their Strait!\" Trump wrote on Truth Social Thursday. On Sunday he had said new strikes were highly unlikely as talks progressed. Brent crude rose 1.9% to $94.48 a barrel and U.S. crude 2% to $88.19 during the day, CNBC reported; both had fallen sharply in November on hopes the war was ending.",
+   "why": "The post casts doubt on talks to end the U.S.-Iran war and the shipping disruption in the Strait of Hormuz.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-12T08:00:00-05:00",
+   "time_known": false,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+  },
+  {
+   "id": "2026-11-12-stocks-dip-nvidia-oil",
+   "section": "money",
+   "text": "U.S. stocks slipped 0.4% Thursday, absorbing a sharp early drop in Nvidia shares and higher oil prices.",
+   "detail": "The S&P 500 fell 26.98 points to 7,592.40, the Dow fell 189.40 points to 52,297.09 and the Nasdaq fell 100.10 points to 25,366.09, all down 0.4%. The Russell 2000 fell 1.7%. Nvidia dropped 14% early after its CEO resigned, then halved the loss as other AI chip stocks rose. The S&P 500 is still up 2.9% for the week.",
+   "why": "Markets held steady through the exit of the AI boom's best-known CEO.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-12T16:00:00-05:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://www.stamfordadvocate.com/business/article/how-major-us-stock-indexes-fared-thursday-22527877.php"
+  },
+  {
+   "id": "2026-11-12-operation-tornado-dark-web-arrests",
+   "section": "news",
+   "text": "A Justice Department-led crackdown on dark-web drug sellers, Operation TorNado, led to 354 arrests in 14 countries, officials said.",
+   "detail": "DOJ said the operation by its Joint Criminal Opioid and Darknet Enforcement team, the largest in that team's history, seized 5.7 metric tons of drugs, 209 firearms and more than $234 million in cryptocurrency and cash. It targeted vendors who sold opioids, fentanyl and other drugs to tens of thousands of U.S. residents.",
+   "why": "Officials called it the biggest dark-web narcotics takedown of its kind.",
+   "impact": 2,
+   "topic": "doj",
+   "region": "US",
+   "time": "2026-11-12T15:30:00-05:00",
+   "time_known": false,
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/international-law-enforcement-operation-targeting-opioid-and-fentanyl-traffickers-dark-web"
+  },
+  {
+   "id": "2026-11-12-logan-circle-gym-shooting",
+   "section": "news",
+   "text": "A gunman killed one person and wounded four at and near a Washington gym in Logan Circle, then fatally shot himself, police said.",
+   "detail": "Interim D.C. police chief Jeffery Carroll said one person was killed inside VIDA Fitness at 15th and P streets NW and four others were injured, one seriously, some at a construction site across the street. The suspect died of a self-inflicted gunshot wound while barricaded in his apartment. Nearly a dozen nearby public schools locked down and residents sheltered in place until police gave the all-clear around 11:15 a.m.",
+   "why": "The shooting shut down one of the capital's busiest neighborhoods for hours.",
+   "impact": 2,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-11-12T09:30:00-05:00",
+   "time_known": false,
+   "source": "Axios",
+   "url": "https://www.axios.com/local/washington-dc/2026/11/12/logan-circle-shooting-dc-barricade"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-12",
+   "when": "2:00 a.m. ET",
+   "text": "UK third-quarter GDP first estimate (and September monthly GDP), 7:00 a.m. London time.",
+   "detail": "Release listed on the Office for National Statistics calendar for Nov. 12, 2026.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "After the close",
+   "text": "Cisco reports fiscal first-quarter results after the close; call 4:30 p.m. ET.",
+   "detail": "Date and call time (1:30 p.m. Pacific) per Cisco's Nov. 3 newsroom announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "After the close",
+   "text": "Applied Materials reports fiscal fourth-quarter and full-year results; call 4:30 p.m. ET.",
+   "detail": "Date and call time (1:30 p.m. Pacific) per Applied Materials' Oct. 22 GlobeNewswire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

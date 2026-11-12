@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T16:46:33-05:00",
+ "updated": "2026-11-12T05:40:00-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -14126,6 +14126,134 @@
     "defamation"
    ],
    "added_at": "2026-11-11T16:46:33-05:00"
+  },
+  {
+   "id": "2026-11-11-colom-wins-mississippi-senate",
+   "section": "news",
+   "topic": "ballot",
+   "region": "US",
+   "impact": 4,
+   "thread": "midterms-2026",
+   "pin": "2026-11-12 morning",
+   "time": "2026-11-11T17:55:00-05:00",
+   "time_known": true,
+   "text": "Democrat Scott Colom won Mississippi's U.S. Senate race, defeating Republican Sen. Cindy Hyde-Smith and becoming the state's first Black senator since Reconstruction.",
+   "detail": "The AP called the race just before 6 p.m. ET Wednesday, after a Jackson County update put Colom ahead by 4,669 votes of 962,237 counted, about half a percentage point. Hyde-Smith conceded in a video: \"While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters.\" Mississippi has no recount law, and counties must certify results by Friday. The AP says the win gives Democrats 55 Senate seats in the new Congress, a net gain of eight. Alaska is the last uncalled Senate race.",
+   "why": "It widens the Democrats' Senate majority and is the first Democratic Senate win in Mississippi since 1982.",
+   "source": "AP",
+   "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346",
+   "notes": "Verified against AP copy on PBS NewsHour and AP race-call explainer; concession quote per Axios. Resolves 2026-11-04-alaska-mississippi-senate-uncalled for Mississippi. Trending: hard (+1).",
+   "tags": [
+    "midterms",
+    "senate",
+    "mississippi"
+   ],
+   "added_at": "2026-11-12T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-12-nvidia-board-weighs-huang-ouster",
+   "section": "tech",
+   "topic": "tech",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-12T04:34:00-05:00",
+   "time_known": true,
+   "text": "Nvidia's board met late Wednesday to decide whether to remove CEO Jensen Huang, and its shares fell about 6% before the market opened Thursday.",
+   "detail": "CNBC confirmed the meeting after The Wall Street Journal reported the board was preparing to oust Huang; no decision had been announced by early Thursday. The New York Times reported Wednesday that Huang had a second extramarital relationship, with an Nvidia executive who reports to him; Huang admitted on Sunday to an affair with a Megaspeed executive whom U.S. intelligence officials believe is a Chinese spy, and the board opened an investigation. Nvidia's bylaws let a majority of its 11 directors remove the CEO. Shares were down 6.3% in premarket trading at 4:34 a.m. ET, after falling more than 8% after hours Wednesday; Bernstein cut its price target to $200 from $400.",
+   "why": "Nvidia is the world's most valuable chipmaker and the center of the AI boom, and Huang has led it since founding it in 1993.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+   "notes": "Board meeting also per Reuters source (via Guardian/TNW). No Nvidia release or 8-K on a decision as of 5:40 a.m. ET. Trending: hard (+1). Follows 2026-11-10-nvidia-board-hires-wachtell-shares-slide.",
+   "tags": [
+    "nvidia",
+    "stocks"
+   ],
+   "added_at": "2026-11-12T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-11-white-house-warns-garcia-oversight",
+   "section": "news",
+   "topic": "capitol",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-11T09:00:00-05:00",
+   "time_known": false,
+   "text": "The White House's top lawyer warned incoming House Oversight chair Robert Garcia that Democrats' planned investigations of the administration \"may cross the line into blatant criminality.\"",
+   "detail": "In a three-page letter dated Monday, White House counsel Will Scharf wrote that congressional investigations need a \"legitimate legislative purpose\" and that \"issuing unlawful subpoenas with the intention of depriving citizens of their constitutional rights and privileges may warrant further investigation.\" The letter announced no charges or probe. Garcia, a California Democrat expected to lead the committee when Democrats take the House in January, replied that \"Congress' authority comes from Article I of the Constitution, not from the permission of the White House.\"",
+   "why": "It previews a fight over subpoenas between the administration and the new Democratic House.",
+   "source": "PBS News (letter text)",
+   "url": "https://www.pbs.org/newshour/politics/read-the-letter-the-white-houses-top-lawyer-sent-rep-garcia-over-threats-to-investigate-trump",
+   "notes": "Quotes cross-checked with CBS News and ABC News; also in AP news summary.",
+   "thread": "midterms-2026",
+   "tags": [
+    "congress",
+    "oversight",
+    "white-house"
+   ],
+   "added_at": "2026-11-12T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-11-brooklyn-building-collapse",
+   "section": "news",
+   "topic": "disaster",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-11T16:01:00-05:00",
+   "time_known": true,
+   "text": "A three-story Brooklyn apartment building collapsed into a neighboring construction pit Wednesday, killing two people and injuring 17, including seven children.",
+   "detail": "The building at 1321 Flatbush Ave. in Flatbush fell just after 4 p.m. into an excavation site next door and sheared the wall off an adjacent building, the FDNY said. Four people were critically injured and a firefighter had minor injuries. Fire Commissioner Lillian Bonsignore said officials did not know how many people had been inside, and the search continued Thursday morning. Mayor Zohran Mamdani said the Department of Buildings and law enforcement will investigate the cause.",
+   "why": "It is New York City's deadliest building collapse in years and puts construction next to occupied buildings under scrutiny.",
+   "source": "NBC New York",
+   "url": "https://www.nbcnewyork.com/brooklyn/multiple-people-pulled-from-rubble-after-building-collapses-in-brooklyn-fdny/6570689/",
+   "notes": "Figures per FDNY via NBC New York, NYT live updates and ABC7; AP brief confirms 2 dead.",
+   "tags": [
+    "new-york",
+    "collapse"
+   ],
+   "added_at": "2026-11-12T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-11-ss-united-states-reef",
+   "section": "news",
+   "topic": "ship",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-11T19:00:00-05:00",
+   "time_known": false,
+   "text": "The SS United States, the 1952 ocean liner that still holds the transatlantic speed record, was sunk off Florida's Gulf Coast Wednesday to become the world's largest artificial reef.",
+   "detail": "The 1,000-foot ship was scuttled without explosives in an hourslong operation about 20 nautical miles offshore between Destin-Fort Walton Beach and Pensacola. Okaloosa County bought it for about $1 million in 2024 and paid for the roughly $13 million reef project with tourist-tax revenue, after a year of cleanup in Mobile, Ala.",
+   "why": "It ends a decades-long fight over the fate of America's most famous ocean liner.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/ss-united-states-sinking-ocean-floor-largest-artificial-reef-world-florida-gulf-coast/",
+   "tags": [
+    "ss-united-states",
+    "florida"
+   ],
+   "added_at": "2026-11-12T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-11-houthi-missiles-mecca-debris",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 2,
+   "thread": "iran-war",
+   "time": "2026-11-11T18:00:00-05:00",
+   "time_known": false,
+   "text": "Saudi Arabia said debris from two intercepted ballistic missiles fell in the Mecca region, the latest in an escalating exchange of attacks with Yemen's Houthis.",
+   "detail": "Saudi state TV said debris fell in the village of Sabouha, about 35 km northeast of Mecca's Grand Mosque, and in Wadi al-Maghamas, about 21 km east of it. The Saudi Civil Defence called it a \"flagrant violation of international humanitarian law.\" The Houthis have denied targeting Mecca and Medina and had not commented.",
+   "why": "Strikes near Islam's holiest site raise the stakes in the Saudi-Houthi fighting tied to the Iran war.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/saudi-arabia-says-debris-intercepted-missiles-falls-mecca-region-2026-11-12/",
+   "notes": "Reuters blocks fetch; verified against Reuters-based copy on Middle East Monitor.",
+   "tags": [
+    "saudi-arabia",
+    "houthis",
+    "yemen",
+    "missiles"
+   ],
+   "added_at": "2026-11-12T05:40:00-05:00"
   }
  ]
 }

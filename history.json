@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updated": "2026-11-04",
+  "updated": "2026-11-12",
   "events": [
     {
       "date": "2026-01-03",
@@ -295,6 +295,13 @@
       "topic": "capitol",
       "text": "Democrats won control of both the House and the Senate in the midterm elections, flipping at least seven Republican-held Senate seats in a rebuke of President Trump.",
       "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+    },
+    {
+      "date": "2026-11-11",
+      "impact": 4,
+      "topic": "ballot",
+      "text": "Democrat Scott Colom unseated Sen. Cindy Hyde-Smith to become Mississippi's first Black U.S. senator since Reconstruction, giving Democrats 55 Senate seats.",
+      "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
     }
   ]
 }

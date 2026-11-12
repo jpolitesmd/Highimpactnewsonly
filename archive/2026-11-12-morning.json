@@ -1,0 +1,196 @@
+{
+ "date": "2026-11-12",
+ "edition": "morning",
+ "subject": "Thursday, Nov 12 - Morning edition",
+ "published": "2026-11-12T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-11-colom-wins-mississippi-senate",
+   "section": "news",
+   "text": "Democrat Scott Colom won Mississippi's U.S. Senate race, defeating Republican Sen. Cindy Hyde-Smith and becoming the state's first Black senator since Reconstruction.",
+   "detail": "The AP called the race just before 6 p.m. ET Wednesday, after a Jackson County update put Colom ahead by 4,669 votes of 962,237 counted, about half a percentage point. Hyde-Smith conceded in a video: \"While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters.\" Mississippi has no recount law, and counties must certify results by Friday. The AP says the win gives Democrats 55 Senate seats in the new Congress, a net gain of eight. Alaska is the last uncalled Senate race.",
+   "why": "It widens the Democrats' Senate majority and is the first Democratic Senate win in Mississippi since 1982.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-11T17:55:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
+  },
+  {
+   "id": "2026-11-12-nvidia-board-weighs-huang-ouster",
+   "section": "tech",
+   "text": "Nvidia's board met late Wednesday to decide whether to remove CEO Jensen Huang, and its shares fell about 6% before the market opened Thursday.",
+   "detail": "CNBC confirmed the meeting after The Wall Street Journal reported the board was preparing to oust Huang; no decision had been announced by early Thursday. The New York Times reported Wednesday that Huang had a second extramarital relationship, with an Nvidia executive who reports to him; Huang admitted on Sunday to an affair with a Megaspeed executive whom U.S. intelligence officials believe is a Chinese spy, and the board opened an investigation. Nvidia's bylaws let a majority of its 11 directors remove the CEO. Shares were down 6.3% in premarket trading at 4:34 a.m. ET, after falling more than 8% after hours Wednesday; Bernstein cut its price target to $200 from $400.",
+   "why": "Nvidia is the world's most valuable chipmaker and the center of the AI boom, and Huang has led it since founding it in 1993.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T04:34:00-05:00",
+   "time_known": true,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "id": "2026-11-11-ss-united-states-reef",
+   "section": "news",
+   "text": "The SS United States, the 1952 ocean liner that still holds the transatlantic speed record, was sunk off Florida's Gulf Coast Wednesday to become the world's largest artificial reef.",
+   "detail": "The 1,000-foot ship was scuttled without explosives in an hourslong operation about 20 nautical miles offshore between Destin-Fort Walton Beach and Pensacola. Okaloosa County bought it for about $1 million in 2024 and paid for the roughly $13 million reef project with tourist-tax revenue, after a year of cleanup in Mobile, Ala.",
+   "why": "It ends a decades-long fight over the fate of America's most famous ocean liner.",
+   "impact": 2,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-11-11T19:00:00-05:00",
+   "time_known": false,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/ss-united-states-sinking-ocean-floor-largest-artificial-reef-world-florida-gulf-coast/"
+  },
+  {
+   "id": "2026-11-11-houthi-missiles-mecca-debris",
+   "section": "news",
+   "text": "Saudi Arabia said debris from two intercepted ballistic missiles fell in the Mecca region, the latest in an escalating exchange of attacks with Yemen's Houthis.",
+   "detail": "Saudi state TV said debris fell in the village of Sabouha, about 35 km northeast of Mecca's Grand Mosque, and in Wadi al-Maghamas, about 21 km east of it. The Saudi Civil Defence called it a \"flagrant violation of international humanitarian law.\" The Houthis have denied targeting Mecca and Medina and had not commented.",
+   "why": "Strikes near Islam's holiest site raise the stakes in the Saudi-Houthi fighting tied to the Iran war.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-11T18:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/saudi-arabia-says-debris-intercepted-missiles-falls-mecca-region-2026-11-12/"
+  },
+  {
+   "id": "2026-11-11-stocks-ai-rebound-close",
+   "section": "money",
+   "text": "U.S. stocks rose Wednesday as AI shares rebounded, with the S&P 500 up 1.3% and nearly back from last week's AI-driven sell-off.",
+   "detail": "The Associated Press reported the S&P 500 rose 98.45 points to 7,619.38, within 2.6% of its October record. The Nasdaq rose 1.6% to 25,466.19 and the Dow rose 254.60 points, or 0.5%, to 52,486.49. CoreWeave led the gains after reporting stronger summer results than analysts expected. The bond market was closed for Veterans Day, and oil prices rose.",
+   "why": "The rebound came a day after hotter October inflation raised bets on a December Fed rate hike.",
+   "impact": 3,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-11T16:00:00-05:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://www.seattletimes.com/business/how-major-us-stock-indexes-fared-wednesday-11-11-2026/"
+  },
+  {
+   "id": "2026-11-11-bessent-moves-military-base",
+   "section": "news",
+   "text": "Treasury Secretary Scott Bessent has moved from his Washington home to a U.S. military base after Iranian threats against his life, people familiar with the move told Reuters.",
+   "detail": "The New York Times first reported the move; the base was not named. A Treasury spokesperson said Bessent \"will not be deterred by the Iranian regime's threats and remains committed to executing Operation Economic Outcast and maintaining the blockade.\" A source said concerns grew because a published aerial photo let his Georgetown home be located. The Times said at least a half dozen top officials have moved to bases or secure housing over the past year. Iran has previously denied plotting to attack officials on U.S. soil. The move follows Tuesday's federal indictment of three Iran-backed operatives over nearly 20 attacks and attempted attacks in Europe and the U.S.",
+   "why": "Bessent runs the U.S. economic pressure campaign against Iran, and the move shows how seriously officials are treating Iranian threats on U.S. soil.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-11-11T11:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-nyt-reports-2026-11-11/"
+  },
+  {
+   "id": "2026-11-11-white-house-warns-garcia-oversight",
+   "section": "news",
+   "text": "The White House's top lawyer warned incoming House Oversight chair Robert Garcia that Democrats' planned investigations of the administration \"may cross the line into blatant criminality.\"",
+   "detail": "In a three-page letter dated Monday, White House counsel Will Scharf wrote that congressional investigations need a \"legitimate legislative purpose\" and that \"issuing unlawful subpoenas with the intention of depriving citizens of their constitutional rights and privileges may warrant further investigation.\" The letter announced no charges or probe. Garcia, a California Democrat expected to lead the committee when Democrats take the House in January, replied that \"Congress' authority comes from Article I of the Constitution, not from the permission of the White House.\"",
+   "why": "It previews a fight over subpoenas between the administration and the new Democratic House.",
+   "impact": 3,
+   "topic": "capitol",
+   "region": "US",
+   "time": "2026-11-11T09:00:00-05:00",
+   "time_known": false,
+   "source": "PBS News (letter text)",
+   "url": "https://www.pbs.org/newshour/politics/read-the-letter-the-white-houses-top-lawyer-sent-rep-garcia-over-threats-to-investigate-trump"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 3
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-11-10-house-refers-hegseth-impeachment",
+   "section": "news",
+   "text": "The resolution to impeach Defense Secretary Pete Hegseth was sent to the House Judiciary Committee on a 211-204 vote, blocking a floor vote on removing him.",
+   "detail": "The House voted Tuesday at 6:02 p.m. ET on a motion to refer Rep. Thomas Massie's resolution (H. Res. 1655) to committee: 210 Republicans and one independent voted yes; 203 Democrats and Massie, a Kentucky Republican, voted no; 18 members did not vote (7 Republicans, 11 Democrats), the House Clerk's roll call shows. The articles accused Hegseth over his conduct in office and his handling of the Iran war. The committee is not required to act, and Democrats take control of the House and Senate in January.",
+   "why": "It ends, for now, the first impeachment push against a sitting defense secretary in wartime.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T18:02:00-05:00",
+   "time_known": true,
+   "source": "House Clerk (Roll Call 317)",
+   "url": "https://clerk.house.gov/Votes/2026317?RollCallNum=317"
+  },
+  {
+   "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
+   "section": "news",
+   "text": "Jim Jordan will lead House Republicans in the minority after beating Steve Scalise 106-73, while Senate Republicans kept John Thune as their leader.",
+   "detail": "Jordan, the Ohio Republican who chairs the Judiciary Committee and co-founded the Freedom Caucus, won a secret-ballot vote of Republicans who will serve in the next Congress over Majority Leader Steve Scalise of Louisiana; Speaker Mike Johnson did not run. Tom Emmer of Minnesota beat August Pfluger of Texas for whip, the No. 2 minority post, and Lisa McClain of Michigan kept the conference chair job. In the Senate, Republicans first voted 31-15 to hold elections Tuesday rather than delay them, then re-elected Thune as leader, John Barrasso as whip and Tom Cotton as conference chair by acclamation. Both parties' leaders take their new minority roles when the new Congress convenes in January.",
+   "why": "These are the Republicans who will face the new Democratic majorities in both chambers starting in January.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T14:22:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/republicans-minority-leader-scalise-jordan-election-9452bdcf8c16ba84b44fe537ebce0de8"
+  },
+  {
+   "id": "2026-11-10-hegseth-calls-impeachment-farce",
+   "section": "news",
+   "text": "Defense Secretary Pete Hegseth called the effort to impeach him \"a farce\" in his first Pentagon news conference in six months, hours before a scheduled House vote.",
+   "detail": "Hegseth said the operations cited in Rep. Thomas Massie's eight articles, including the Iran war, strikes on suspected drug boats and actions in Venezuela and Yemen, were lawful orders from the commander in chief and called the charges \"partisan policy disagreements.\" The House scheduled a procedural vote for about 5:30 p.m. ET Tuesday on whether to block or refer the resolution; if that fails, Massie said he will seek a separate vote on each article. Removal would require a House impeachment and a two-thirds Senate vote; retiring Sen. Thom Tillis said he is \"likely to vote against Hegseth\" if a trial comes.",
+   "why": "A House vote to impeach a sitting defense secretary in wartime would be nearly without precedent.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "executive",
+   "region": "US",
+   "time": "2026-11-10T10:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/hegseth-impeachment-briefing-trump-massie-87a78193502f716e6fb8eee5aef06ac0"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-12",
+   "when": "2:00 a.m. ET",
+   "text": "UK third-quarter GDP first estimate (and September monthly GDP), 7:00 a.m. London time.",
+   "detail": "Release listed on the Office for National Statistics calendar for Nov. 12, 2026.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "After the close",
+   "text": "Cisco reports fiscal first-quarter results after the close; call 4:30 p.m. ET.",
+   "detail": "Date and call time (1:30 p.m. Pacific) per Cisco's Nov. 3 newsroom announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "when": "After the close",
+   "text": "Applied Materials reports fiscal fourth-quarter and full-year results; call 4:30 p.m. ET.",
+   "detail": "Date and call time (1:30 p.m. Pacific) per Applied Materials' Oct. 22 GlobeNewswire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

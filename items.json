@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T05:38:00-05:00",
+ "updated": "2026-11-13T16:55:00-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -14512,6 +14512,212 @@
     "collapse"
    ],
    "added_at": "2026-11-13T05:38:00-05:00"
+  },
+  {
+   "id": "2026-11-13-faa-nationwide-ground-stop",
+   "section": "news",
+   "topic": "agency",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-13T15:53:00-05:00",
+   "time_known": true,
+   "text": "All U.S. airports were ordered to stop departures Friday afternoon after a communications failure hit the FAA's air traffic control centers.",
+   "detail": "The FAA's Air Traffic Control System Command Center ordered a national ground stop at 3:53 p.m. ET \"due to extraordinary circumstances and for reasons of safety,\" telling all departing traffic to stay on the ground until further notice; inbound international flights are handled case by case and planes already in the air may land. Transportation Secretary Sean Duffy said a communication issue was affecting all Air Route Traffic Control Centers and FAA technicians were investigating. No cause or restart time had been given as of about 4:45 p.m. ET. The last nationwide ground stop was in January 2023, when a pilot-notice system failed.",
+   "why": "A nationwide halt of departures strands travelers across the country on a Friday evening and raises questions about the air traffic system's reliability.",
+   "source": "FAA Air Traffic Control System Command Center advisory",
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?advn=111&adv_date=11132026",
+   "tags": [
+    "faa",
+    "aviation",
+    "outage"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-new-orleans-tanker-hits-cruise-ship",
+   "section": "news",
+   "topic": "ship",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-13T13:30:00-05:00",
+   "time_known": true,
+   "text": "A river cruise ship with about 129 passengers rolled onto its side in New Orleans after a tanker struck it at the dock.",
+   "detail": "The tanker Atlantic Asphalt hit American Cruise Lines' paddlewheeler American Heritage at about 12:30 p.m. CT Friday on the Mississippi River near the Port of New Orleans administration building, about two hours after it docked to let passengers off, the port said. Rescuers pulled people from the water; the mayor's office said about a dozen people were taken to hospitals and search-and-rescue work was continuing. The cruise line said guests and crew were evacuated. The Coast Guard closed the river between mile markers 93 and 96. Officials have not confirmed the number of injuries or the cause.",
+   "why": "It is a major maritime accident on the nation's busiest commercial river, with many passengers aboard.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/",
+   "notes": "Trending: hard on X (+1). Casualty figures not yet official; next edition should report Coast Guard/NTSB counts and cause.",
+   "tags": [
+    "new-orleans",
+    "maritime",
+    "coast-guard"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-october-ppi",
+   "section": "money",
+   "money_beat": "prices",
+   "topic": "economy",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T08:30:00-05:00",
+   "time_known": true,
+   "text": "Wholesale prices rose 0.3% in October, and their 6.5% gain over the past year is the largest since 2022, the Labor Department said.",
+   "detail": "The Producer Price Index for final demand rose 0.3% after a revised 1.4% jump in September. Goods prices rose 0.5%, led by a 1.3% rise in food, while energy edged down 0.1%; services rose 0.2%. Over 12 months the index is up 6.5%, the most since November 2022. Prices excluding food, energy and trade services rose 0.5% for the month and 4.9% over the year. The Fed meets Dec. 8-9.",
+   "why": "Rising wholesale costs tend to reach store shelves and weigh on the Fed's next rate decision.",
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+   "thread": "rates-inflation",
+   "tags": [
+    "ppi",
+    "inflation"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-laubacher-unseats-boebert",
+   "section": "news",
+   "topic": "election",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T14:53:00-05:00",
+   "time_known": true,
+   "text": "Rep. Lauren Boebert lost her Colorado seat to Democrat Eileen Laubacher, a retired Navy rear admiral, the AP projected Friday.",
+   "detail": "AP called Colorado's 4th District at 12:53 p.m. MT with Laubacher at 48.8% to Boebert's 47.9% and about 99% of votes counted. The district voted for President Trump by 18 points in 2024. Boebert has not conceded; she said earlier she would not run again in 2028 if she lost. Colorado's House delegation will be 7-1 Democratic.",
+   "why": "Losing one of the most Republican districts in the state shows how far the midterm wave reached.",
+   "source": "AP (via Colorado Newsline)",
+   "url": "https://coloradonewsline.com/2026/11/13/laubacher-defeats-boebert-4th-district/",
+   "thread": "midterms-2026",
+   "notes": "Trending: hard on X (+1). AP race call; no AP story URL found.",
+   "tags": [
+    "colorado",
+    "house"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-bessent-blames-commerce-megaspeed",
+   "section": "news",
+   "topic": "trade",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T08:00:00-05:00",
+   "time_known": false,
+   "text": "Treasury Secretary Scott Bessent publicly blamed Commerce Secretary Howard Lutnick's department for not blacklisting chip buyer Megaspeed.",
+   "detail": "On CNBC Friday, Bessent said Treasury, State, the Pentagon and the U.S. trade representative had favored putting Megaspeed on the export blacklist for months but that \"Commerce has the pen,\" and said he was frustrated by advanced chips leaking to China. The dispute follows Nvidia CEO Jensen Huang's resignation on Thursday. Commerce had not commented.",
+   "why": "An open cabinet split over China chip controls could reshape who sets export policy.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+   "notes": "Trending: hard (+1). Follow-on to 2026-11-12-huang-resigns-nvidia-ceo. CNN-sourced Lutnick ouster talk not run (unconfirmed).",
+   "tags": [
+    "nvidia",
+    "export-controls",
+    "china"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-raf-lakenheath-drone-alert",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T14:00:00-05:00",
+   "time_known": false,
+   "text": "U.S. Air Force personnel at Britain's RAF Lakenheath responded to suspected unauthorized drone activity Friday, and the base sheltered in place.",
+   "detail": "An Air Force spokesperson said security forces responded Friday evening U.K. time and that no personnel, aircraft or infrastructure were affected. The local member of Parliament said the incident was resolved with no threat to the public. On Monday the U.S. moved more than a dozen aircraft from nearby RAF Mildenhall over a reported Iran-linked threat.",
+   "why": "It is another security scare at U.S. bases in Britain during the Iran war.",
+   "source": "The Telegraph",
+   "url": "https://www.telegraph.co.uk/news/2026/11/13/raf-lakenheath-suffolk-drone-alert-us-air-base/",
+   "thread": "iran-war",
+   "notes": "Trending: hard (+1). Air Force statement also reported by Reuters and Sky News.",
+   "tags": [
+    "air-force",
+    "uk",
+    "drones"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-iaea-isfahan-concern",
+   "section": "news",
+   "topic": "nuclear",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "time": "2026-11-13T10:00:00-05:00",
+   "time_known": false,
+   "text": "The U.N. nuclear watchdog said it does not know the location or status of Iran's Isfahan enrichment plant and called that a serious proliferation concern.",
+   "detail": "A confidential IAEA report to member states, seen by Reuters, said the agency does not know the plant's exact location or whether it contains nuclear material, and that the lack of access must be fixed \"with the utmost urgency.\" Iran says normal inspections cannot resume until the \"root causes\" are addressed. Separately, Iran's Assembly of Experts called a review of the nuclear Non-Proliferation Treaty an \"unavoidable necessity.\"",
+   "why": "Losing track of enrichment work raises the risk of a wider nuclear crisis during the war.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/china/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says-2026-11-13/",
+   "thread": "iran-war",
+   "tags": [
+    "iaea",
+    "iran",
+    "nuclear"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-wisconsin-measles-second-death",
+   "section": "health",
+   "health_beat": "public",
+   "topic": "measles",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T13:00:00-05:00",
+   "time_known": false,
+   "text": "Wisconsin reported a second child death in its measles outbreak as confirmed cases reached 651.",
+   "detail": "The state health department reported the death of a child in Grant County; its outbreak page lists 651 confirmed cases as of Nov. 13, the state's highest count in about 35 years. Reuters also reported Pennsylvania's seventh measles-linked death.",
+   "why": "Deaths of children from a vaccine-preventable disease are rising as the outbreak spreads.",
+   "source": "Wisconsin Department of Health Services",
+   "url": "https://www.dhs.wisconsin.gov/outbreaks/index.htm",
+   "tags": [
+    "measles",
+    "wisconsin"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-chatgpt-wallet",
+   "section": "tech",
+   "topic": "tech",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-13T12:00:00-05:00",
+   "time_known": false,
+   "text": "OpenAI launched ChatGPT Wallet, which lets its AI agents buy things for users with card-network tokens.",
+   "detail": "OpenAI built it with American Express, Mastercard and Visa; agents pay with tokens instead of real card numbers, and each purchase needs the user's review and a security check such as Face ID. It starts with U.S. ChatGPT Pro subscribers 18 and older.",
+   "why": "It is a major step toward AI agents spending money on people's behalf.",
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+   "tags": [
+    "openai",
+    "payments"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-13-brennan-son-charged",
+   "section": "news",
+   "topic": "justice",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-13T12:00:00-05:00",
+   "time_known": false,
+   "text": "Kyle Brennan, son of former CIA Director John Brennan, was charged in federal court with transporting child sexual abuse images.",
+   "detail": "A criminal complaint filed Friday in the Eastern District of Virginia charges one count of transporting child pornography. Reuters reported the probe began from a 2024 tip and is separate from the Justice Department's investigation of John Brennan. Kyle Brennan was arrested Friday; a charge is not a conviction. John Brennan had not commented.",
+   "why": "It touches a national figure already under federal investigation.",
+   "source": "U.S. District Court, E.D. Va. (criminal complaint)",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.610107/gov.uscourts.vaed.610107.1.0_1.pdf",
+   "tags": [
+    "doj",
+    "brennan"
+   ],
+   "added_at": "2026-11-13T16:55:00-05:00"
   }
  ]
 }

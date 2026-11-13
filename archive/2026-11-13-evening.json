@@ -1,0 +1,175 @@
+{
+ "date": "2026-11-13",
+ "edition": "evening",
+ "subject": "Friday, Nov 13 - Evening edition",
+ "published": "2026-11-13T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-13-faa-nationwide-ground-stop",
+   "section": "news",
+   "text": "All U.S. airports were ordered to stop departures Friday afternoon after a communications failure hit the FAA's air traffic control centers.",
+   "detail": "The FAA's Air Traffic Control System Command Center ordered a national ground stop at 3:53 p.m. ET \"due to extraordinary circumstances and for reasons of safety,\" telling all departing traffic to stay on the ground until further notice; inbound international flights are handled case by case and planes already in the air may land. Transportation Secretary Sean Duffy said a communication issue was affecting all Air Route Traffic Control Centers and FAA technicians were investigating. No cause or restart time had been given as of about 4:45 p.m. ET. The last nationwide ground stop was in January 2023, when a pilot-notice system failed.",
+   "why": "A nationwide halt of departures strands travelers across the country on a Friday evening and raises questions about the air traffic system's reliability.",
+   "impact": 4,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-11-13T15:53:00-05:00",
+   "time_known": true,
+   "source": "FAA Air Traffic Control System Command Center advisory",
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?advn=111&adv_date=11132026"
+  },
+  {
+   "id": "2026-11-13-new-orleans-tanker-hits-cruise-ship",
+   "section": "news",
+   "text": "A river cruise ship with about 129 passengers rolled onto its side in New Orleans after a tanker struck it at the dock.",
+   "detail": "The tanker Atlantic Asphalt hit American Cruise Lines' paddlewheeler American Heritage at about 12:30 p.m. CT Friday on the Mississippi River near the Port of New Orleans administration building, about two hours after it docked to let passengers off, the port said. Rescuers pulled people from the water; the mayor's office said about a dozen people were taken to hospitals and search-and-rescue work was continuing. The cruise line said guests and crew were evacuated. The Coast Guard closed the river between mile markers 93 and 96. Officials have not confirmed the number of injuries or the cause.",
+   "why": "It is a major maritime accident on the nation's busiest commercial river, with many passengers aboard.",
+   "impact": 4,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-11-13T13:30:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/"
+  },
+  {
+   "id": "2026-11-13-laubacher-unseats-boebert",
+   "section": "news",
+   "text": "Rep. Lauren Boebert lost her Colorado seat to Democrat Eileen Laubacher, a retired Navy rear admiral, the AP projected Friday.",
+   "detail": "AP called Colorado's 4th District at 12:53 p.m. MT with Laubacher at 48.8% to Boebert's 47.9% and about 99% of votes counted. The district voted for President Trump by 18 points in 2024. Boebert has not conceded; she said earlier she would not run again in 2028 if she lost. Colorado's House delegation will be 7-1 Democratic.",
+   "why": "Losing one of the most Republican districts in the state shows how far the midterm wave reached.",
+   "impact": 3,
+   "topic": "election",
+   "region": "US",
+   "time": "2026-11-13T14:53:00-05:00",
+   "time_known": true,
+   "source": "AP (via Colorado Newsline)",
+   "url": "https://coloradonewsline.com/2026/11/13/laubacher-defeats-boebert-4th-district/"
+  },
+  {
+   "id": "2026-11-13-raf-lakenheath-drone-alert",
+   "section": "news",
+   "text": "U.S. Air Force personnel at Britain's RAF Lakenheath responded to suspected unauthorized drone activity Friday, and the base sheltered in place.",
+   "detail": "An Air Force spokesperson said security forces responded Friday evening U.K. time and that no personnel, aircraft or infrastructure were affected. The local member of Parliament said the incident was resolved with no threat to the public. On Monday the U.S. moved more than a dozen aircraft from nearby RAF Mildenhall over a reported Iran-linked threat.",
+   "why": "It is another security scare at U.S. bases in Britain during the Iran war.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-11-13T14:00:00-05:00",
+   "time_known": false,
+   "source": "The Telegraph",
+   "url": "https://www.telegraph.co.uk/news/2026/11/13/raf-lakenheath-suffolk-drone-alert-us-air-base/"
+  },
+  {
+   "id": "2026-11-13-wisconsin-measles-second-death",
+   "section": "health",
+   "text": "Wisconsin reported a second child death in its measles outbreak as confirmed cases reached 651.",
+   "detail": "The state health department reported the death of a child in Grant County; its outbreak page lists 651 confirmed cases as of Nov. 13, the state's highest count in about 35 years. Reuters also reported Pennsylvania's seventh measles-linked death.",
+   "why": "Deaths of children from a vaccine-preventable disease are rising as the outbreak spreads.",
+   "impact": 3,
+   "topic": "measles",
+   "region": "US",
+   "time": "2026-11-13T13:00:00-05:00",
+   "time_known": false,
+   "source": "Wisconsin Department of Health Services",
+   "url": "https://www.dhs.wisconsin.gov/outbreaks/index.htm"
+  },
+  {
+   "id": "2026-11-13-iaea-isfahan-concern",
+   "section": "news",
+   "text": "The U.N. nuclear watchdog said it does not know the location or status of Iran's Isfahan enrichment plant and called that a serious proliferation concern.",
+   "detail": "A confidential IAEA report to member states, seen by Reuters, said the agency does not know the plant's exact location or whether it contains nuclear material, and that the lack of access must be fixed \"with the utmost urgency.\" Iran says normal inspections cannot resume until the \"root causes\" are addressed. Separately, Iran's Assembly of Experts called a review of the nuclear Non-Proliferation Treaty an \"unavoidable necessity.\"",
+   "why": "Losing track of enrichment work raises the risk of a wider nuclear crisis during the war.",
+   "impact": 3,
+   "topic": "nuclear",
+   "region": "World",
+   "time": "2026-11-13T10:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/china/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says-2026-11-13/"
+  },
+  {
+   "id": "2026-11-13-october-ppi",
+   "section": "money",
+   "text": "Wholesale prices rose 0.3% in October, and their 6.5% gain over the past year is the largest since 2022, the Labor Department said.",
+   "detail": "The Producer Price Index for final demand rose 0.3% after a revised 1.4% jump in September. Goods prices rose 0.5%, led by a 1.3% rise in food, while energy edged down 0.1%; services rose 0.2%. Over 12 months the index is up 6.5%, the most since November 2022. Prices excluding food, energy and trade services rose 0.5% for the month and 4.9% over the year. The Fed meets Dec. 8-9.",
+   "why": "Rising wholesale costs tend to reach store shelves and weigh on the Fed's next rate decision.",
+   "impact": 3,
+   "topic": "economy",
+   "region": "US",
+   "time": "2026-11-13T08:30:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Labor Statistics",
+   "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+  },
+  {
+   "id": "2026-11-13-bessent-blames-commerce-megaspeed",
+   "section": "news",
+   "text": "Treasury Secretary Scott Bessent publicly blamed Commerce Secretary Howard Lutnick's department for not blacklisting chip buyer Megaspeed.",
+   "detail": "On CNBC Friday, Bessent said Treasury, State, the Pentagon and the U.S. trade representative had favored putting Megaspeed on the export blacklist for months but that \"Commerce has the pen,\" and said he was frustrated by advanced chips leaking to China. The dispute follows Nvidia CEO Jensen Huang's resignation on Thursday. Commerce had not commented.",
+   "why": "An open cabinet split over China chip controls could reshape who sets export policy.",
+   "impact": 3,
+   "topic": "trade",
+   "region": "US",
+   "time": "2026-11-13T08:00:00-05:00",
+   "time_known": false,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-13-chatgpt-wallet",
+   "section": "tech",
+   "text": "OpenAI launched ChatGPT Wallet, which lets its AI agents buy things for users with card-network tokens.",
+   "detail": "OpenAI built it with American Express, Mastercard and Visa; agents pay with tokens instead of real card numbers, and each purchase needs the user's review and a security check such as Face ID. It starts with U.S. ChatGPT Pro subscribers 18 and older.",
+   "why": "It is a major step toward AI agents spending money on people's behalf.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-13T12:00:00-05:00",
+   "time_known": false,
+   "source": "OpenAI",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-13",
+   "when": "8:30 a.m. ET",
+   "text": "October Producer Price Index (PPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS PPI release schedule. In September, final-demand producer prices rose 1.3% for the month and 6.3% over 12 months, the largest 12-month gain since December 2022, per BLS.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "8:30 a.m. ET",
+   "text": "October retail sales, 8:30 a.m. ET.",
+   "detail": "Advance Monthly Sales for Retail and Food Services, per the Census Bureau economic indicator calendar.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "After the close",
+   "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
+   "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

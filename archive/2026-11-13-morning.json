@@ -1,0 +1,237 @@
+{
+ "date": "2026-11-13",
+ "edition": "morning",
+ "subject": "Friday, Nov 13 - Morning edition",
+ "published": "2026-11-13T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-13-microsoft-365-outage-second-day",
+   "section": "tech",
+   "text": "Microsoft's Outlook and Teams outage ran into a second day Friday, with fixes failing and governments and companies worldwide still affected.",
+   "detail": "The disruption began about 11:17 a.m. ET Thursday, according to Microsoft's service health dashboard, and more than 130,000 users reported problems that day. Microsoft said overnight its latest fixes were \"not taking as expected\" and that some restored servers became unresponsive again once traffic returned; it has given no time for full recovery. Exchange Online mail was hit hardest, with Exchange-dependent Teams calendar and scheduling features also failing. Officials in Singapore, Japan and Australia reported impacts, and Microsoft said there was no indication of malicious activity.",
+   "why": "Outlook and Teams carry the workday for hundreds of millions of people, and a second day of outage hits Friday business.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-13T04:50:00-05:00",
+   "time_known": false,
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a"
+  },
+  {
+   "id": "2026-11-13-irgc-claims-bahrain-radar-strike",
+   "section": "news",
+   "text": "Iran's Revolutionary Guards said they struck a U.S. early-warning radar in Bahrain, their first claimed attack on a Gulf country since September.",
+   "detail": "The Guards said the strike, reported by Iranian state media Friday, retaliated for what they called an air attack on a telecommunications tower in Sirik in southern Hormozgan province, and called it a \"serious warning\" to the U.S. The Guards also said a liquefied petroleum gas tanker hit a mine in the Strait of Hormuz after ignoring warnings. Neither claim could be independently verified, and the U.S. and Bahrain, home of the Navy's 5th Fleet, had not commented. The claims come during a fragile lull in the war that began Feb. 28.",
+   "why": "A confirmed hit on a U.S. asset would break the lull in the Iran war.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-12T21:51:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/irans-guards-say-they-targeted-us-early-warning-radar-bahrain-2026-11-13/"
+  },
+  {
+   "id": "2026-11-13-van-hollen-challenges-schumer",
+   "section": "news",
+   "text": "Sen. Chris Van Hollen said he will challenge Chuck Schumer to lead the new Democratic Senate majority, calling for \"new leadership.\"",
+   "detail": "The Maryland Democrat announced Thursday night that he will run for majority leader in a closed-door, secret-ballot caucus vote next month (Dec. 1, per CNN). \"It's now on us to meet this moment, and to do that we need new leadership,\" he said. Schumer, Democratic leader since 2017, said he has \"the votes to continue serving as Democratic Leader.\" Van Hollen said he has more than 10 commitments and called himself the underdog; Sen. Bernie Sanders and Sen.-elect Abdul El-Sayed back him, and Sen. Angus King backs Schumer. Democrats will hold at least 55 seats.",
+   "why": "The winner sets the agenda of the Senate majority that takes over in January.",
+   "impact": 3,
+   "topic": "congress",
+   "region": "US",
+   "time": "2026-11-12T21:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/chris-van-hollen-announces-run-us-senate-majority-leader-challenging-schumer-2026-11-13/"
+  },
+  {
+   "id": "2026-11-13-holscher-wins-kansas-governor",
+   "section": "news",
+   "text": "Democrat Cindy Holscher won the Kansas governor's race, AP projected Thursday, keeping the office in her party's hands.",
+   "detail": "Holscher, a state senator, led Republican Ty Masterson, the Trump-endorsed state Senate president, 50.3% to 49.7% with 98% of votes counted when AP called the race at 5:43 p.m. ET, nine days after the election. It was the state's closest governor's race since 1974, and Kansas had never before elected back-to-back Democratic governors; she succeeds term-limited Gov. Laura Kelly. Masterson conceded in a statement. Democrats had already secured a majority of U.S. governorships for the first time in two decades.",
+   "why": "It adds to the Democrats' midterm wave in a state that usually votes Republican.",
+   "impact": 3,
+   "topic": "election",
+   "region": "US",
+   "time": "2026-11-12T17:43:00-05:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/kansas-governor-midterm-election-cindy-holscher-c9bb46dfd593fa7182a6bc93722ce552"
+  },
+  {
+   "id": "2026-11-12-brooklyn-collapse-toll-eight",
+   "section": "news",
+   "text": "The Brooklyn apartment building collapse killed eight people, including two children, New York's mayor said as the search for victims ended.",
+   "detail": "The toll rose from two on Wednesday. Mayor Zohran Mamdani said two of the dead were construction workers and 18 people were hurt in the collapse and rescue. The three-story building on Flatbush Avenue gave way Wednesday afternoon while workers were digging at a neighboring lot; the cause is under investigation. The fire department ended rescue operations Thursday, and Mamdani ordered safety inspections at about 100 building sites tied to the companies involved in the construction project.",
+   "why": "It is New York's deadliest building collapse in years and puts excavation next to occupied buildings under scrutiny.",
+   "impact": 3,
+   "topic": "disaster",
+   "region": "US",
+   "time": "2026-11-12T17:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/new-york-city-building-collapse-kills-8-mayor-expands-probe-2026-11-12/"
+  },
+  {
+   "id": "2026-11-12-huang-resigns-nvidia-ceo",
+   "section": "tech",
+   "text": "Nvidia CEO Jensen Huang resigned effective immediately, and finance chief Colette Kress will serve as interim CEO while the board searches for a successor.",
+   "detail": "Nvidia's board said Thursday it accepted Huang's resignation as president, CEO and director; it will consider internal and external candidates. Kress, CFO since 2013, keeps that job while serving as interim CEO. Harvey C. Jones, a former Synopsys CEO on the board since 1993, was named Nvidia's first-ever board chair. The resignation follows Huang's admission Sunday of an affair with a Megaspeed executive whom U.S. officials believe is a Chinese spy, and a New York Times report of a second relationship with an Nvidia executive who reports to him. Nvidia shares fell as much as 14% Thursday before recovering about half of that loss, the Associated Press reported. Nvidia still plans to report quarterly results Tuesday, Nov. 17.",
+   "why": "Huang founded Nvidia in 1993 and led it to the center of the AI boom as the world's most valuable chipmaker.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T08:00:00-05:00",
+   "time_known": false,
+   "source": "NVIDIA (company release)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
+  },
+  {
+   "id": "2026-11-12-nvidia-board-weighs-huang-ouster",
+   "section": "tech",
+   "text": "Nvidia's board met late Wednesday to decide whether to remove CEO Jensen Huang, and its shares fell about 6% before the market opened Thursday.",
+   "detail": "CNBC confirmed the meeting after The Wall Street Journal reported the board was preparing to oust Huang; no decision had been announced by early Thursday. The New York Times reported Wednesday that Huang had a second extramarital relationship, with an Nvidia executive who reports to him; Huang admitted on Sunday to an affair with a Megaspeed executive whom U.S. intelligence officials believe is a Chinese spy, and the board opened an investigation. Nvidia's bylaws let a majority of its 11 directors remove the CEO. Shares were down 6.3% in premarket trading at 4:34 a.m. ET, after falling more than 8% after hours Wednesday; Bernstein cut its price target to $200 from $400.",
+   "why": "Nvidia is the world's most valuable chipmaker and the center of the AI boom, and Huang has led it since founding it in 1993.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T04:34:00-05:00",
+   "time_known": true,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "id": "2026-11-12-microsoft-365-outage",
+   "section": "tech",
+   "text": "Microsoft's Outlook, Teams and other 365 services went down for hours Thursday, with more than 130,000 Outlook problem reports at the peak.",
+   "detail": "Downdetector logged more than 130,000 Outlook reports at 1:27 p.m. ET, Reuters reported. Microsoft said a large number of servers became unexpectedly unavailable after failing automated health checks, pushing load onto the rest of its systems; it paused all deployments and configuration changes and restarted servers. Exchange Online, Teams, SharePoint Online, Microsoft 365 Copilot and Defender XDR were listed as affected. As of about 4 p.m. ET Microsoft said a new health-check method was returning servers to service and was being applied more broadly, and that recent configuration updates were a potential cause still under investigation.",
+   "why": "Hundreds of millions of workers rely on Outlook and Teams for email and meetings.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T13:27:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/"
+  },
+  {
+   "id": "2026-11-12-trump-no-iran-deal-needed",
+   "section": "news",
+   "text": "President Trump said the U.S. does not need a deal with Iran, days after saying talks to end the war were progressing; oil prices rose.",
+   "detail": "\"We don't need a deal with Iran. Those days have long since passed. We've got their money, Hundreds of Billions of Dollars, and we've got their Strait!\" Trump wrote on Truth Social Thursday. On Sunday he had said new strikes were highly unlikely as talks progressed. Brent crude rose 1.9% to $94.48 a barrel and U.S. crude 2% to $88.19 during the day, CNBC reported; both had fallen sharply in November on hopes the war was ending.",
+   "why": "The post casts doubt on talks to end the U.S.-Iran war and the shipping disruption in the Strait of Hormuz.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-12T08:00:00-05:00",
+   "time_known": false,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+  },
+  {
+   "id": "2026-11-12-indonesia-vp-gibran-resigns",
+   "section": "news",
+   "text": "Indonesia's Vice President Gibran Rakabuming Raka resigned after court rulings found his overseas high-school credentials fell short of legal requirements.",
+   "detail": "Gibran, 39, the son of former President Joko Widodo, handed his resignation letter to the People's Consultative Assembly on Thursday, a day after 120 lawmakers began an impeachment push. President Prabowo Subianto said he accepted it \"with a heavy heart.\" Gibran said the decision was personal and his documents were complete. The assembly must elect a replacement within 60 days from two candidates the president nominates. The rupiah hit a record low of 18,255 per dollar, Reuters reported.",
+   "why": "It is Indonesia's highest-profile resignation since President Suharto quit in 1998.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-12T00:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/asia-pacific/indonesia-vp-gibran-hands-his-resignation-upper-house-2026-11-12/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-11-11-colom-wins-mississippi-senate",
+   "section": "news",
+   "text": "Democrat Scott Colom won Mississippi's U.S. Senate race, defeating Republican Sen. Cindy Hyde-Smith and becoming the state's first Black senator since Reconstruction.",
+   "detail": "The AP called the race just before 6 p.m. ET Wednesday, after a Jackson County update put Colom ahead by 4,669 votes of 962,237 counted, about half a percentage point. Hyde-Smith conceded in a video: \"While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters.\" Mississippi has no recount law, and counties must certify results by Friday. The AP says the win gives Democrats 55 Senate seats in the new Congress, a net gain of eight. Alaska is the last uncalled Senate race.",
+   "why": "It widens the Democrats' Senate majority and is the first Democratic Senate win in Mississippi since 1982.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-11T17:55:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
+  },
+  {
+   "id": "2026-11-10-house-refers-hegseth-impeachment",
+   "section": "news",
+   "text": "The resolution to impeach Defense Secretary Pete Hegseth was sent to the House Judiciary Committee on a 211-204 vote, blocking a floor vote on removing him.",
+   "detail": "The House voted Tuesday at 6:02 p.m. ET on a motion to refer Rep. Thomas Massie's resolution (H. Res. 1655) to committee: 210 Republicans and one independent voted yes; 203 Democrats and Massie, a Kentucky Republican, voted no; 18 members did not vote (7 Republicans, 11 Democrats), the House Clerk's roll call shows. The articles accused Hegseth over his conduct in office and his handling of the Iran war. The committee is not required to act, and Democrats take control of the House and Senate in January.",
+   "why": "It ends, for now, the first impeachment push against a sitting defense secretary in wartime.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T18:02:00-05:00",
+   "time_known": true,
+   "source": "House Clerk (Roll Call 317)",
+   "url": "https://clerk.house.gov/Votes/2026317?RollCallNum=317"
+  },
+  {
+   "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
+   "section": "news",
+   "text": "Jim Jordan will lead House Republicans in the minority after beating Steve Scalise 106-73, while Senate Republicans kept John Thune as their leader.",
+   "detail": "Jordan, the Ohio Republican who chairs the Judiciary Committee and co-founded the Freedom Caucus, won a secret-ballot vote of Republicans who will serve in the next Congress over Majority Leader Steve Scalise of Louisiana; Speaker Mike Johnson did not run. Tom Emmer of Minnesota beat August Pfluger of Texas for whip, the No. 2 minority post, and Lisa McClain of Michigan kept the conference chair job. In the Senate, Republicans first voted 31-15 to hold elections Tuesday rather than delay them, then re-elected Thune as leader, John Barrasso as whip and Tom Cotton as conference chair by acclamation. Both parties' leaders take their new minority roles when the new Congress convenes in January.",
+   "why": "These are the Republicans who will face the new Democratic majorities in both chambers starting in January.",
+   "impact": 4,
+   "topic": "capitol",
+   "branch": "legislative",
+   "region": "US",
+   "time": "2026-11-10T14:22:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/republicans-minority-leader-scalise-jordan-election-9452bdcf8c16ba84b44fe537ebce0de8"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-13",
+   "when": "8:30 a.m. ET",
+   "text": "October Producer Price Index (PPI), 8:30 a.m. ET.",
+   "detail": "Date and time per the BLS PPI release schedule. In September, final-demand producer prices rose 1.3% for the month and 6.3% over 12 months, the largest 12-month gain since December 2022, per BLS.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "8:30 a.m. ET",
+   "text": "October retail sales, 8:30 a.m. ET.",
+   "detail": "Advance Monthly Sales for Retail and Food Services, per the Census Bureau economic indicator calendar.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "After the close",
+   "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
+   "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

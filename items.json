@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:05:00-05:00",
+ "updated": "2026-11-13T05:38:00-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -14408,6 +14408,110 @@
    "url": "https://www.stamfordadvocate.com/business/article/how-major-us-stock-indexes-fared-thursday-22527877.php",
    "thread": "rates-inflation",
    "added_at": "2026-11-12T17:05:00-05:00"
+  },
+  {
+   "id": "2026-11-13-microsoft-365-outage-second-day",
+   "section": "tech",
+   "topic": "tech",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T04:50:00-05:00",
+   "time_known": false,
+   "text": "Microsoft's Outlook and Teams outage ran into a second day Friday, with fixes failing and governments and companies worldwide still affected.",
+   "detail": "The disruption began about 11:17 a.m. ET Thursday, according to Microsoft's service health dashboard, and more than 130,000 users reported problems that day. Microsoft said overnight its latest fixes were \"not taking as expected\" and that some restored servers became unresponsive again once traffic returned; it has given no time for full recovery. Exchange Online mail was hit hardest, with Exchange-dependent Teams calendar and scheduling features also failing. Officials in Singapore, Japan and Australia reported impacts, and Microsoft said there was no indication of malicious activity.",
+   "why": "Outlook and Teams carry the workday for hundreds of millions of people, and a second day of outage hits Friday business.",
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a",
+   "notes": "Update to 2026-11-12-microsoft-365-outage. AP via union-bulletin member copy; Microsoft quotes via CIO citing Microsoft 365 status (EX1550543, MO1550821). Trending: hard (+1).",
+   "tags": [
+    "microsoft",
+    "outage"
+   ],
+   "added_at": "2026-11-13T05:38:00-05:00"
+  },
+  {
+   "id": "2026-11-13-van-hollen-challenges-schumer",
+   "section": "news",
+   "topic": "congress",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-12T21:00:00-05:00",
+   "time_known": false,
+   "text": "Sen. Chris Van Hollen said he will challenge Chuck Schumer to lead the new Democratic Senate majority, calling for \"new leadership.\"",
+   "detail": "The Maryland Democrat announced Thursday night that he will run for majority leader in a closed-door, secret-ballot caucus vote next month (Dec. 1, per CNN). \"It's now on us to meet this moment, and to do that we need new leadership,\" he said. Schumer, Democratic leader since 2017, said he has \"the votes to continue serving as Democratic Leader.\" Van Hollen said he has more than 10 commitments and called himself the underdog; Sen. Bernie Sanders and Sen.-elect Abdul El-Sayed back him, and Sen. Angus King backs Schumer. Democrats will hold at least 55 seats.",
+   "why": "The winner sets the agenda of the Senate majority that takes over in January.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/chris-van-hollen-announces-run-us-senate-majority-leader-challenging-schumer-2026-11-13/",
+   "thread": "midterms-2026",
+   "notes": "Cross-checked CNN, Roll Call, NBC. Trending: hard (+1).",
+   "tags": [
+    "senate",
+    "democrats"
+   ],
+   "added_at": "2026-11-13T05:38:00-05:00"
+  },
+  {
+   "id": "2026-11-13-holscher-wins-kansas-governor",
+   "section": "news",
+   "topic": "election",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-12T17:43:00-05:00",
+   "time_known": true,
+   "text": "Democrat Cindy Holscher won the Kansas governor's race, AP projected Thursday, keeping the office in her party's hands.",
+   "detail": "Holscher, a state senator, led Republican Ty Masterson, the Trump-endorsed state Senate president, 50.3% to 49.7% with 98% of votes counted when AP called the race at 5:43 p.m. ET, nine days after the election. It was the state's closest governor's race since 1974, and Kansas had never before elected back-to-back Democratic governors; she succeeds term-limited Gov. Laura Kelly. Masterson conceded in a statement. Democrats had already secured a majority of U.S. governorships for the first time in two decades.",
+   "why": "It adds to the Democrats' midterm wave in a state that usually votes Republican.",
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/kansas-governor-midterm-election-cindy-holscher-c9bb46dfd593fa7182a6bc93722ce552",
+   "thread": "midterms-2026",
+   "notes": "AP results page and AP story via member copy; Masterson statement via KSNT.",
+   "tags": [
+    "kansas",
+    "governor"
+   ],
+   "added_at": "2026-11-13T05:38:00-05:00"
+  },
+  {
+   "id": "2026-11-13-irgc-claims-bahrain-radar-strike",
+   "section": "news",
+   "topic": "war",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "time": "2026-11-12T21:51:00-05:00",
+   "time_known": false,
+   "text": "Iran's Revolutionary Guards said they struck a U.S. early-warning radar in Bahrain, their first claimed attack on a Gulf country since September.",
+   "detail": "The Guards said the strike, reported by Iranian state media Friday, retaliated for what they called an air attack on a telecommunications tower in Sirik in southern Hormozgan province, and called it a \"serious warning\" to the U.S. The Guards also said a liquefied petroleum gas tanker hit a mine in the Strait of Hormuz after ignoring warnings. Neither claim could be independently verified, and the U.S. and Bahrain, home of the Navy's 5th Fleet, had not commented. The claims come during a fragile lull in the war that began Feb. 28.",
+   "why": "A confirmed hit on a U.S. asset would break the lull in the Iran war.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/irans-guards-say-they-targeted-us-early-warning-radar-bahrain-2026-11-13/",
+   "thread": "iran-war",
+   "notes": "Iran claim only; AP (via Irish Examiner) carries tanker-mine claim, not verified, no UKMTO report.",
+   "tags": [
+    "iran",
+    "bahrain"
+   ],
+   "added_at": "2026-11-13T05:38:00-05:00"
+  },
+  {
+   "id": "2026-11-12-brooklyn-collapse-toll-eight",
+   "section": "news",
+   "topic": "disaster",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-12T17:00:00-05:00",
+   "time_known": false,
+   "text": "The Brooklyn apartment building collapse killed eight people, including two children, New York's mayor said as the search for victims ended.",
+   "detail": "The toll rose from two on Wednesday. Mayor Zohran Mamdani said two of the dead were construction workers and 18 people were hurt in the collapse and rescue. The three-story building on Flatbush Avenue gave way Wednesday afternoon while workers were digging at a neighboring lot; the cause is under investigation. The fire department ended rescue operations Thursday, and Mamdani ordered safety inspections at about 100 building sites tied to the companies involved in the construction project.",
+   "why": "It is New York's deadliest building collapse in years and puts excavation next to occupied buildings under scrutiny.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/new-york-city-building-collapse-kills-8-mayor-expands-probe-2026-11-12/",
+   "notes": "Update to 2026-11-11-brooklyn-building-collapse (coverage-audit catch-up). Facts per AP Top News via member copies (Inquirer, union-bulletin); NYT confirms rescue ended.",
+   "tags": [
+    "new-york",
+    "collapse"
+   ],
+   "added_at": "2026-11-13T05:38:00-05:00"
   }
  ]
 }

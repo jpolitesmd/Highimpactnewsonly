@@ -14915,7 +14915,7 @@
    "section": "tech",
    "topic": "rocket",
    "region": "US",
-   "impact": 3,
+   "impact": 4,
    "time": "2026-11-14T16:21:00-05:00",
    "time_known": true,
    "text": "SpaceX's Starship upper stage was caught by its launch tower's arms Saturday, the first time a ship returning from orbit has been recovered that way.",
@@ -14923,7 +14923,7 @@
    "why": "Catching the ship is a key step toward a fully reusable rocket, which SpaceX says is needed to cut launch costs and fly to the Moon and Mars.",
    "source": "SpaceX",
    "url": "https://www.spacex.com/launches/starship-flight-15",
-   "notes": "Update to 2026-11-14-starship-flight-15-orbit. Catch confirmed by SpaceX's live coverage; wire write-ups not yet posted at lock.",
+   "notes": "Update to 2026-11-14-starship-flight-15-orbit. Catch confirmed by SpaceX's live coverage; wire write-ups not yet posted at lock. Trending: hard (+1).",
    "tags": [
     "spacex",
     "starship"
@@ -15021,7 +15021,7 @@
    "section": "news",
    "topic": "security",
    "region": "US",
-   "impact": 2,
+   "impact": 3,
    "time": "2026-11-14T14:00:00-05:00",
    "time_known": true,
    "text": "Peoria's evacuation order was lifted Saturday after a search of the ethanol plant where a bomb was found turned up no other devices.",
@@ -15029,7 +15029,7 @@
    "why": "The immediate danger is over, but whoever planted the bomb has not been found.",
    "source": "CNN",
    "url": "https://www.cnn.com/2026/11/14/us/peoria-bomb-threat-fbi-ethanol-plant-evacuations-hnk",
-   "notes": "Update to 2026-11-14-peoria-bomb-ethanol-plant.",
+   "notes": "Update to 2026-11-14-peoria-bomb-ethanol-plant. Trending: hard (+1).",
    "tags": [
     "peoria",
     "fbi",

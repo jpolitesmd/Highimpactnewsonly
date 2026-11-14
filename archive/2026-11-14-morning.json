@@ -1,0 +1,264 @@
+{
+ "date": "2026-11-14",
+ "edition": "morning",
+ "subject": "Saturday, Nov 14 - Morning edition",
+ "published": "2026-11-14T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-14-faa-ground-stop-lifted",
+   "section": "news",
+   "text": "The FAA's nationwide ground stop ended at 8:15 p.m. Friday after more than four hours, and officials blamed overloaded, decades-old network equipment.",
+   "detail": "Transportation Secretary Sean Duffy said radar and communications at air traffic control centers began showing \"instability\" shortly after 3:30 p.m. ET, and the FAA halted departures nationwide at 3:54 p.m. \"Our switches, our routers, actually got overloaded with data ... and because of that, we shut the system down,\" he said at a White House briefing, blaming \"an incredibly old air traffic control system\" and asking Congress for billions to overhaul it. AP reported officials said new technology being added to the system overloaded the antiquated equipment, causing intermittent communications and radar gaps. Homeland Security Secretary Markwayne Mullin said nothing so far pointed to a cyberattack. It was the longest nationwide ground stop in 25 years; more than 2,000 flights were canceled Saturday, and Duffy said operations should be back to normal by Thanksgiving travel.",
+   "why": "It stranded travelers nationwide and puts the aging air traffic system and its funding at the center of Congress's agenda.",
+   "impact": 4,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-11-13T20:15:00-05:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
+  },
+  {
+   "id": "2026-11-14-kreiss-tomkins-wins-alaska-governor",
+   "section": "news",
+   "text": "Democrat Jonathan Kreiss-Tomkins won Alaska's governor's race, the AP projected, the first Democrat elected to the office since 1998.",
+   "detail": "The former state lawmaker defeated three Republicans, including Trump-endorsed Bernadette Wilson; AP called the race at 12:01 a.m. EST Saturday. He succeeds term-limited Republican Gov. Mike Dunleavy and was endorsed by Republican Sen. Lisa Murkowski. His win means Democrats will hold 30 governorships. Alaska voters also rejected a ballot measure to repeal the state's open primaries and ranked-choice general elections.",
+   "why": "It extends the Democrats' midterm sweep of state governments to a long-Republican state.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-14T00:01:00-05:00",
+   "time_known": true,
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/kreiss-tomkins-wins-alaska-governor-a0ea2adfd3b94fba848fb69d2d15e782"
+  },
+  {
+   "id": "2026-11-14-peoria-bomb-ethanol-plant",
+   "section": "news",
+   "text": "A bomb found at an ethanol plant in Peoria, Ill., forced more than 5,000 people to evacuate, and the FBI is hunting whoever planted it.",
+   "detail": "BioUrja Renewables, the former ADM plant, reported a bomb threat to police just after 1 p.m. CT Friday. Authorities judged a package there a credible threat, set a one-mile blast radius and evacuated more than 5,000 residents and workers in Peoria and East Peoria. Police Chief Brad Dixon said the device was \"rendered safe\" Friday night, but the evacuation order stayed in effect while the large facility is searched. \"We're not considering this a hoax,\" he said. No arrests or injuries have been reported.",
+   "why": "A real bomb at an industrial plant emptied parts of two cities and opened a federal investigation.",
+   "impact": 3,
+   "topic": "security",
+   "region": "US",
+   "time": "2026-11-13T22:15:00-05:00",
+   "time_known": true,
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/14/us/peoria-bomb-threat-fbi-ethanol-plant-evacuations-hnk"
+  },
+  {
+   "id": "2026-11-14-medicaid-work-rule-delay",
+   "section": "health",
+   "text": "States can wait until July 1 to drop people from Medicaid for not meeting the new work requirement, the Trump administration said.",
+   "detail": "The Centers for Medicare and Medicaid Services told state Medicaid directors Friday that the requirement still starts Jan. 1 and states must still check whether enrollees and applicants are working, in school or volunteering, but they may choose not to remove anyone or deny coverage for failing it until July 1. CMS said states are making progress but face implementation challenges. Democrats taking control of Congress in January want to roll the requirement back.",
+   "why": "It gives millions of low-income enrollees six more months before they can lose coverage over paperwork or work rules.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-11-13T18:35:00-05:00",
+   "time_known": false,
+   "source": "Associated Press",
+   "url": "https://apnews.com/680a36383fbcb2c615408a34ad41785a"
+  },
+  {
+   "id": "2026-11-14-trump-xi-putin-meeting",
+   "section": "news",
+   "text": "President Trump will hold a three-way meeting with China's Xi Jinping and Russia's Vladimir Putin in Shenzhen next week, the White House said.",
+   "detail": "Spokeswoman Olivia Wales said Trump will end his China visit for the Asia-Pacific Economic Cooperation summit with the trilateral meeting and will discuss reducing nuclear weapons, among other topics; Iran may also come up. A senior U.S. official said no agreement is expected. Trump attends an ASEAN summit in the Philippines on Tuesday and meets Xi one-on-one Thursday. Moscow and Beijing had not confirmed the three-way talks. The last U.S.-Russia nuclear arms treaty expired in February.",
+   "why": "It would be the first joint meeting of the leaders of the world's three biggest nuclear powers.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-13T18:00:00-05:00",
+   "time_known": false,
+   "source": "BBC News",
+   "url": "https://www.bbc.com/news/articles/ckz74jzpy18do"
+  },
+  {
+   "id": "2026-11-13-faa-nationwide-ground-stop",
+   "section": "news",
+   "text": "All U.S. airports were ordered to stop departures Friday afternoon after a communications failure hit the FAA's air traffic control centers.",
+   "detail": "The FAA's Air Traffic Control System Command Center ordered a national ground stop at 3:53 p.m. ET \"due to extraordinary circumstances and for reasons of safety,\" telling all departing traffic to stay on the ground until further notice; inbound international flights are handled case by case and planes already in the air may land. Transportation Secretary Sean Duffy said a communication issue was affecting all Air Route Traffic Control Centers and FAA technicians were investigating. No cause or restart time had been given as of about 4:45 p.m. ET. The last nationwide ground stop was in January 2023, when a pilot-notice system failed.",
+   "why": "A nationwide halt of departures strands travelers across the country on a Friday evening and raises questions about the air traffic system's reliability.",
+   "impact": 4,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-11-13T15:53:00-05:00",
+   "time_known": true,
+   "source": "FAA Air Traffic Control System Command Center advisory",
+   "url": "https://www.fly.faa.gov/adv/adv_otherdis?advn=111&adv_date=11132026"
+  },
+  {
+   "id": "2026-11-13-new-orleans-tanker-hits-cruise-ship",
+   "section": "news",
+   "text": "A river cruise ship with about 129 passengers rolled onto its side in New Orleans after a tanker struck it at the dock.",
+   "detail": "The tanker Atlantic Asphalt hit American Cruise Lines' paddlewheeler American Heritage at about 12:30 p.m. CT Friday on the Mississippi River near the Port of New Orleans administration building, about two hours after it docked to let passengers off, the port said. Rescuers pulled people from the water; the mayor's office said about a dozen people were taken to hospitals and search-and-rescue work was continuing. The cruise line said guests and crew were evacuated. The Coast Guard closed the river between mile markers 93 and 96. Officials have not confirmed the number of injuries or the cause.",
+   "why": "It is a major maritime accident on the nation's busiest commercial river, with many passengers aboard.",
+   "impact": 4,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-11-13T13:30:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/freighter-collides-with-cruise-ship-new-orleans-passengers-water-2026-11-13/"
+  },
+  {
+   "id": "2026-11-14-new-orleans-collision-all-accounted",
+   "section": "news",
+   "text": "Everyone aboard the New Orleans river cruise ship hit by a tanker was accounted for, with 32 people hospitalized and none critically hurt, officials said.",
+   "detail": "Mayor Helena Moreno said 30 people from the American Heritage and two Harbor Police officers who joined the rescue were taken to hospitals, mostly with bumps and bruises; no one on the tanker was hurt. Coast Guard Capt. Melanie Burnham said the tanker Atlantic Asphalt appeared to have had \"some type of loss of steering\" but the exact cause is not known. The National Transportation Safety Board is investigating, with investigators sent by ground after Friday's flight halt. The Coast Guard ended the search and is working to reopen the river and salvage the capsized paddlewheeler.",
+   "why": "A deadly outcome was avoided, and the NTSB probe will focus on why a tanker lost control on the nation's busiest commercial river.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-11-13T17:15:00-05:00",
+   "time_known": false,
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans"
+  },
+  {
+   "id": "2026-11-14-workday-outage",
+   "section": "tech",
+   "text": "Workday, the payroll and HR software used by thousands of employers, went down Friday, locking workers out of timecards, pay information and benefits enrollment.",
+   "detail": "The Pleasanton, Calif., company said a problem found while testing its backup systems left some data in an inconsistent state, and it put some systems into maintenance mode while it works on a fix, promising updates every 30 minutes. It gave no time for full restoration. Workday says more than 11,500 organizations use it, including Walmart and Target, though it has said only some customers were affected. Separately, Microsoft said Saturday its Outlook and Teams services were fully restored after an outage that began Thursday.",
+   "why": "Workers at major employers could not clock in, check pay or finish open enrollment.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-13T17:15:00-05:00",
+   "time_known": false,
+   "source": "San Francisco Chronicle",
+   "url": "https://www.sfchronicle.com/tech/article/workday-outage-employees-accounts-22529939.php"
+  },
+  {
+   "id": "2026-11-13-laubacher-unseats-boebert",
+   "section": "news",
+   "text": "Rep. Lauren Boebert lost her Colorado seat to Democrat Eileen Laubacher, a retired Navy rear admiral, the AP projected Friday.",
+   "detail": "AP called Colorado's 4th District at 12:53 p.m. MT with Laubacher at 48.8% to Boebert's 47.9% and about 99% of votes counted. The district voted for President Trump by 18 points in 2024. Boebert has not conceded; she said earlier she would not run again in 2028 if she lost. Colorado's House delegation will be 7-1 Democratic.",
+   "why": "Losing one of the most Republican districts in the state shows how far the midterm wave reached.",
+   "impact": 3,
+   "topic": "election",
+   "region": "US",
+   "time": "2026-11-13T14:53:00-05:00",
+   "time_known": true,
+   "source": "AP (via Colorado Newsline)",
+   "url": "https://coloradonewsline.com/2026/11/13/laubacher-defeats-boebert-4th-district/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-13-wisconsin-measles-second-death",
+   "section": "health",
+   "text": "Wisconsin reported a second child death in its measles outbreak as confirmed cases reached 651.",
+   "detail": "The state health department reported the death of a child in Grant County; its outbreak page lists 651 confirmed cases as of Nov. 13, the state's highest count in about 35 years. Reuters also reported Pennsylvania's seventh measles-linked death.",
+   "why": "Deaths of children from a vaccine-preventable disease are rising as the outbreak spreads.",
+   "impact": 3,
+   "topic": "measles",
+   "region": "US",
+   "time": "2026-11-13T13:00:00-05:00",
+   "time_known": false,
+   "source": "Wisconsin Department of Health Services",
+   "url": "https://www.dhs.wisconsin.gov/outbreaks/index.htm"
+  },
+  {
+   "id": "2026-11-13-microsoft-365-outage-second-day",
+   "section": "tech",
+   "text": "Microsoft's Outlook and Teams outage ran into a second day Friday, with fixes failing and governments and companies worldwide still affected.",
+   "detail": "The disruption began about 11:17 a.m. ET Thursday, according to Microsoft's service health dashboard, and more than 130,000 users reported problems that day. Microsoft said overnight its latest fixes were \"not taking as expected\" and that some restored servers became unresponsive again once traffic returned; it has given no time for full recovery. Exchange Online mail was hit hardest, with Exchange-dependent Teams calendar and scheduling features also failing. Officials in Singapore, Japan and Australia reported impacts, and Microsoft said there was no indication of malicious activity.",
+   "why": "Outlook and Teams carry the workday for hundreds of millions of people, and a second day of outage hits Friday business.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-13T04:50:00-05:00",
+   "time_known": false,
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-status-down-d92547a821930290db2964388016979a"
+  }
+ ],
+ "week": [
+  {
+   "id": "2026-11-12-huang-resigns-nvidia-ceo",
+   "section": "tech",
+   "text": "Nvidia CEO Jensen Huang resigned effective immediately, and finance chief Colette Kress will serve as interim CEO while the board searches for a successor.",
+   "detail": "Nvidia's board said Thursday it accepted Huang's resignation as president, CEO and director; it will consider internal and external candidates. Kress, CFO since 2013, keeps that job while serving as interim CEO. Harvey C. Jones, a former Synopsys CEO on the board since 1993, was named Nvidia's first-ever board chair. The resignation follows Huang's admission Sunday of an affair with a Megaspeed executive whom U.S. officials believe is a Chinese spy, and a New York Times report of a second relationship with an Nvidia executive who reports to him. Nvidia shares fell as much as 14% Thursday before recovering about half of that loss, the Associated Press reported. Nvidia still plans to report quarterly results Tuesday, Nov. 17.",
+   "why": "Huang founded Nvidia in 1993 and led it to the center of the AI boom as the world's most valuable chipmaker.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T08:00:00-05:00",
+   "time_known": false,
+   "source": "NVIDIA (company release)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
+  },
+  {
+   "id": "2026-11-12-nvidia-board-weighs-huang-ouster",
+   "section": "tech",
+   "text": "Nvidia's board met late Wednesday to decide whether to remove CEO Jensen Huang, and its shares fell about 6% before the market opened Thursday.",
+   "detail": "CNBC confirmed the meeting after The Wall Street Journal reported the board was preparing to oust Huang; no decision had been announced by early Thursday. The New York Times reported Wednesday that Huang had a second extramarital relationship, with an Nvidia executive who reports to him; Huang admitted on Sunday to an affair with a Megaspeed executive whom U.S. intelligence officials believe is a Chinese spy, and the board opened an investigation. Nvidia's bylaws let a majority of its 11 directors remove the CEO. Shares were down 6.3% in premarket trading at 4:34 a.m. ET, after falling more than 8% after hours Wednesday; Bernstein cut its price target to $200 from $400.",
+   "why": "Nvidia is the world's most valuable chipmaker and the center of the AI boom, and Huang has led it since founding it in 1993.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-12T04:34:00-05:00",
+   "time_known": true,
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "id": "2026-11-11-colom-wins-mississippi-senate",
+   "section": "news",
+   "text": "Democrat Scott Colom won Mississippi's U.S. Senate race, defeating Republican Sen. Cindy Hyde-Smith and becoming the state's first Black senator since Reconstruction.",
+   "detail": "The AP called the race just before 6 p.m. ET Wednesday, after a Jackson County update put Colom ahead by 4,669 votes of 962,237 counted, about half a percentage point. Hyde-Smith conceded in a video: \"While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters.\" Mississippi has no recount law, and counties must certify results by Friday. The AP says the win gives Democrats 55 Senate seats in the new Congress, a net gain of eight. Alaska is the last uncalled Senate race.",
+   "why": "It widens the Democrats' Senate majority and is the first Democratic Senate win in Mississippi since 1982.",
+   "impact": 4,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-11T17:55:00-05:00",
+   "time_known": true,
+   "source": "AP",
+   "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-11-17",
+   "when": "8:30 a.m. ET",
+   "text": "October retail sales, 8:30 a.m. ET.",
+   "detail": "Advance Monthly Sales for Retail and Food Services, per the Census Bureau economic indicator calendar.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "After the close",
+   "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
+   "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "Before the open",
+   "text": "Disney reports fiscal fourth-quarter and full-year results before the open; webcast 8:30 a.m. ET.",
+   "detail": "Date and webcast time per Disney's Oct. 12 Business Wire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

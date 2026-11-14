@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:55:00-05:00",
+ "updated": "2026-11-14T05:40:00-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -14718,6 +14718,197 @@
     "brennan"
    ],
    "added_at": "2026-11-13T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-14-faa-ground-stop-lifted",
+   "section": "news",
+   "topic": "agency",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-13T20:15:00-05:00",
+   "time_known": true,
+   "text": "The FAA's nationwide ground stop ended at 8:15 p.m. Friday after more than four hours, and officials blamed overloaded, decades-old network equipment.",
+   "detail": "Transportation Secretary Sean Duffy said radar and communications at air traffic control centers began showing \"instability\" shortly after 3:30 p.m. ET, and the FAA halted departures nationwide at 3:54 p.m. \"Our switches, our routers, actually got overloaded with data ... and because of that, we shut the system down,\" he said at a White House briefing, blaming \"an incredibly old air traffic control system\" and asking Congress for billions to overhaul it. AP reported officials said new technology being added to the system overloaded the antiquated equipment, causing intermittent communications and radar gaps. Homeland Security Secretary Markwayne Mullin said nothing so far pointed to a cyberattack. It was the longest nationwide ground stop in 25 years; more than 2,000 flights were canceled Saturday, and Duffy said operations should be back to normal by Thanksgiving travel.",
+   "why": "It stranded travelers nationwide and puts the aging air traffic system and its funding at the center of Congress's agenda.",
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291",
+   "notes": "Update to 2026-11-13-faa-nationwide-ground-stop. AP verified via dnronline member copy; Duffy/Mullin quotes from ABC News full text. Trending: hard (+1, capped 4).",
+   "tags": [
+    "faa",
+    "aviation",
+    "outage"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-new-orleans-collision-all-accounted",
+   "section": "news",
+   "topic": "ship",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T17:15:00-05:00",
+   "time_known": false,
+   "text": "Everyone aboard the New Orleans river cruise ship hit by a tanker was accounted for, with 32 people hospitalized and none critically hurt, officials said.",
+   "detail": "Mayor Helena Moreno said 30 people from the American Heritage and two Harbor Police officers who joined the rescue were taken to hospitals, mostly with bumps and bruises; no one on the tanker was hurt. Coast Guard Capt. Melanie Burnham said the tanker Atlantic Asphalt appeared to have had \"some type of loss of steering\" but the exact cause is not known. The National Transportation Safety Board is investigating, with investigators sent by ground after Friday's flight halt. The Coast Guard ended the search and is working to reopen the river and salvage the capsized paddlewheeler.",
+   "why": "A deadly outcome was avoided, and the NTSB probe will focus on why a tanker lost control on the nation's busiest commercial river.",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+   "notes": "Update to 2026-11-13-new-orleans-tanker-hits-cruise-ship. Passenger counts vary by source; omitted.",
+   "tags": [
+    "new-orleans",
+    "maritime",
+    "ntsb"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-peoria-bomb-ethanol-plant",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T22:15:00-05:00",
+   "time_known": true,
+   "text": "A bomb found at an ethanol plant in Peoria, Ill., forced more than 5,000 people to evacuate, and the FBI is hunting whoever planted it.",
+   "detail": "BioUrja Renewables, the former ADM plant, reported a bomb threat to police just after 1 p.m. CT Friday. Authorities judged a package there a credible threat, set a one-mile blast radius and evacuated more than 5,000 residents and workers in Peoria and East Peoria. Police Chief Brad Dixon said the device was \"rendered safe\" Friday night, but the evacuation order stayed in effect while the large facility is searched. \"We're not considering this a hoax,\" he said. No arrests or injuries have been reported.",
+   "why": "A real bomb at an industrial plant emptied parts of two cities and opened a federal investigation.",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/14/us/peoria-bomb-threat-fbi-ethanol-plant-evacuations-hnk",
+   "notes": "Trending: hard (+1). Reports of additional devices unconfirmed; not printed.",
+   "tags": [
+    "peoria",
+    "fbi",
+    "bomb"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-kreiss-tomkins-wins-alaska-governor",
+   "section": "news",
+   "topic": "ballot",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-14T00:01:00-05:00",
+   "time_known": true,
+   "text": "Democrat Jonathan Kreiss-Tomkins won Alaska's governor's race, the AP projected, the first Democrat elected to the office since 1998.",
+   "detail": "The former state lawmaker defeated three Republicans, including Trump-endorsed Bernadette Wilson; AP called the race at 12:01 a.m. EST Saturday. He succeeds term-limited Republican Gov. Mike Dunleavy and was endorsed by Republican Sen. Lisa Murkowski. His win means Democrats will hold 30 governorships. Alaska voters also rejected a ballot measure to repeal the state's open primaries and ranked-choice general elections.",
+   "why": "It extends the Democrats' midterm sweep of state governments to a long-Republican state.",
+   "source": "Associated Press",
+   "url": "https://apnews.com/article/kreiss-tomkins-wins-alaska-governor-a0ea2adfd3b94fba848fb69d2d15e782",
+   "thread": "midterms-2026",
+   "notes": "AP verified via dnronline member copy.",
+   "tags": [
+    "alaska",
+    "governor",
+    "midterms"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-trump-xi-putin-meeting",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T18:00:00-05:00",
+   "time_known": false,
+   "text": "President Trump will hold a three-way meeting with China's Xi Jinping and Russia's Vladimir Putin in Shenzhen next week, the White House said.",
+   "detail": "Spokeswoman Olivia Wales said Trump will end his China visit for the Asia-Pacific Economic Cooperation summit with the trilateral meeting and will discuss reducing nuclear weapons, among other topics; Iran may also come up. A senior U.S. official said no agreement is expected. Trump attends an ASEAN summit in the Philippines on Tuesday and meets Xi one-on-one Thursday. Moscow and Beijing had not confirmed the three-way talks. The last U.S.-Russia nuclear arms treaty expired in February.",
+   "why": "It would be the first joint meeting of the leaders of the world's three biggest nuclear powers.",
+   "source": "BBC News",
+   "url": "https://www.bbc.com/news/articles/ckz74jzpy18do",
+   "notes": "AP carries the same (dnronline member copy); AP article URL not found.",
+   "tags": [
+    "apec",
+    "china",
+    "russia",
+    "nuclear"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-medicaid-work-rule-delay",
+   "section": "health",
+   "health_beat": "policy",
+   "topic": "health",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T18:35:00-05:00",
+   "time_known": false,
+   "text": "States can wait until July 1 to drop people from Medicaid for not meeting the new work requirement, the Trump administration said.",
+   "detail": "The Centers for Medicare and Medicaid Services told state Medicaid directors Friday that the requirement still starts Jan. 1 and states must still check whether enrollees and applicants are working, in school or volunteering, but they may choose not to remove anyone or deny coverage for failing it until July 1. CMS said states are making progress but face implementation challenges. Democrats taking control of Congress in January want to roll the requirement back.",
+   "why": "It gives millions of low-income enrollees six more months before they can lose coverage over paperwork or work rules.",
+   "source": "Associated Press",
+   "url": "https://apnews.com/680a36383fbcb2c615408a34ad41785a",
+   "notes": "AP verified via dnronline member copy.",
+   "tags": [
+    "medicaid",
+    "cms"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-13-scotus-asylum-ban-review",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T14:00:00-05:00",
+   "time_known": false,
+   "text": "The Supreme Court agreed to decide whether President Trump can bar migrants at the southern border from applying for asylum.",
+   "detail": "The justices took up Mullin v. Refugee and Immigrant Center for Education and Legal Services, over Trump's Jan. 20, 2025, \"invasion\" proclamation and Homeland Security guidance. A federal appeals court in Washington largely ruled them unlawful but kept its ruling on hold, so the restrictions remain in effect. The court will also review the scope of the lower court's class-wide order but declined to take up whether the class itself was proper. Arguments are expected early next year, with a decision by July. The court also agreed to hear Robinhood Markets v. Sodha, a securities-disclosure case.",
+   "why": "The ruling will settle whether a president can shut off asylum at the border, a core piece of Trump's immigration agenda.",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/13/politics/supreme-court-trump-asylum-policy",
+   "thread": "deportations-courts",
+   "notes": "Missed by Nov 13 evening (CNN 2:06 p.m.). Details cross-checked with SCOTUSblog. supremecourt.gov order list not reachable.",
+   "tags": [
+    "scotus",
+    "asylum",
+    "immigration"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-workday-outage",
+   "section": "tech",
+   "topic": "tech",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-13T17:15:00-05:00",
+   "time_known": false,
+   "text": "Workday, the payroll and HR software used by thousands of employers, went down Friday, locking workers out of timecards, pay information and benefits enrollment.",
+   "detail": "The Pleasanton, Calif., company said a problem found while testing its backup systems left some data in an inconsistent state, and it put some systems into maintenance mode while it works on a fix, promising updates every 30 minutes. It gave no time for full restoration. Workday says more than 11,500 organizations use it, including Walmart and Target, though it has said only some customers were affected. Separately, Microsoft said Saturday its Outlook and Teams services were fully restored after an outage that began Thursday.",
+   "why": "Workers at major employers could not clock in, check pay or finish open enrollment.",
+   "source": "San Francisco Chronicle",
+   "url": "https://www.sfchronicle.com/tech/article/workday-outage-employees-accounts-22529939.php",
+   "notes": "Trending: hard (+1). No wire or Workday status page found; still down early Saturday per UC Today. Microsoft aside from AP (dnronline member copy).",
+   "tags": [
+    "workday",
+    "microsoft",
+    "outage"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-14-starship-flight-15-orbit",
+   "section": "tech",
+   "topic": "rocket",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-13T18:30:00-05:00",
+   "time_known": false,
+   "text": "SpaceX's Starship reached orbit Friday and released 26 Starlink satellites, but its booster missed a planned tower catch and was diverted into the Gulf.",
+   "detail": "The Super Heavy booster was commanded to divert offshore over an unspecified issue rather than return to the Starbase launch tower, and broke apart. The upper stage reached an orbit about 275 kilometers up and deployed all 26 Starlink V3 satellites about 40 minutes into the flight. SpaceX plans to try the first-ever tower catch of the ship itself Saturday afternoon, about 3:15 p.m. CT, if health checks allow.",
+   "why": "Catching both stages is key to SpaceX's goal of a fully reusable rocket.",
+   "source": "Ars Technica",
+   "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+   "notes": "Evening edition should report the ship catch result.",
+   "tags": [
+    "spacex",
+    "starship"
+   ],
+   "added_at": "2026-11-14T05:40:00-05:00"
   }
  ]
 }

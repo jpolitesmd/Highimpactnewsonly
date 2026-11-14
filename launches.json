@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T05:38:00-05:00",
+  "updated": "2026-11-14T05:40:00-05:00",
   "block": {
     "start": "2026-11-09",
     "end": "2026-11-22",
@@ -7,16 +7,6 @@
   },
   "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
   "launches": [
-    {
-      "date": "2026-11-13",
-      "sort": "17:45",
-      "time": "5:45–7:00 p.m. window",
-      "rocket": "Starship",
-      "mission": "Starship Flight 15",
-      "site": "Starbase, Texas",
-      "url": "https://www.spacex.com/launches/starship-flight-15",
-      "note": "Pending regulatory approval; first attempt to catch both booster and ship"
-    },
     {
       "date": "2026-11-17",
       "sort": "22:14",

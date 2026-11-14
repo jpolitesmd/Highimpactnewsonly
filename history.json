@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updated": "2026-11-12",
+  "updated": "2026-11-14",
   "events": [
     {
       "date": "2026-01-03",
@@ -309,6 +309,13 @@
       "topic": "factory",
       "text": "Nvidia founder Jensen Huang resigned as CEO of the world's most valuable chipmaker after 33 years, following revelations of an affair with a suspected Chinese intelligence asset.",
       "url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
+    },
+    {
+      "date": "2026-11-13",
+      "impact": 4,
+      "topic": "agency",
+      "text": "The FAA halted all departures nationwide for more than four hours, the longest U.S. ground stop in 25 years, after overloaded, decades-old air traffic network equipment failed.",
+      "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
     }
   ]
 }

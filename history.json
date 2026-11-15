@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "events": [
     {
       "date": "2026-01-03",
@@ -316,6 +316,13 @@
       "topic": "agency",
       "text": "The FAA halted all departures nationwide for more than four hours, the longest U.S. ground stop in 25 years, after overloaded, decades-old air traffic network equipment failed.",
       "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
+    },
+    {
+      "date": "2026-11-14",
+      "impact": 4,
+      "topic": "rocket",
+      "text": "SpaceX's Starship upper stage returned from orbit and was caught by its launch tower's mechanical arms in Texas, the first catch of a spacecraft coming back from orbit.",
+      "url": "https://apnews.com/df394c1b5a0f85e11194f9ff7db9ee6b"
     }
   ]
 }

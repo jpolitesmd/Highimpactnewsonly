@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-15-morning",
+   "date": "2026-11-15",
+   "edition": "morning",
+   "count": 9,
+   "lead": "SpaceX's Starship upper stage was caught by its launch tower's arms Saturday, the first time a ship returning from orbit has been recovered that way."
+  },
+  {
    "key": "2026-11-14-evening",
    "date": "2026-11-14",
    "edition": "evening",
@@ -659,5 +666,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-14T16:30:22-05:00"
+ "updated": "2026-11-15T05:29:17-05:00"
 }

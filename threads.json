@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:31:11-05:00",
+  "updated": "2026-11-15T05:50:00-05:00",
   "threads": [
     {
       "id": "iran-war",
@@ -53,7 +53,7 @@
       "id": "cornell-assault-case",
       "title": "The Cornell fraternity assault case",
       "summary": "Criminal and campus reviews of a 2024 Cornell fraternity sexual-assault case after a civil lawsuit and the local prosecutor’s earlier decision not to charge.",
-      "status": "active"
+      "status": "closed"
     },
     {
       "id": "flydubai-cockpit",
@@ -77,7 +77,7 @@
       "id": "france-protests",
       "title": "France's protests",
       "summary": "Nationwide protests in France over living costs and school conditions, and the government's response.",
-      "status": "active"
+      "status": "closed"
     },
     {
       "id": "kenya-ebola",
@@ -95,12 +95,18 @@
       "id": "brazil-election",
       "title": "Brazil's election and Flávio Bolsonaro",
       "summary": "Lula's runoff win over Flávio Bolsonaro, who refused to concede and left Brazil for the United States while under criminal investigation.",
-      "status": "active"
+      "status": "closed"
     },
     {
       "id": "trump-arch",
       "title": "Trump's Memorial Circle arch",
       "summary": "Lawsuits and approvals over the 250-foot arch President Trump wants to build at Memorial Circle near Arlington National Cemetery.",
+      "status": "active"
+    },
+    {
+      "id": "east-potomac-golf",
+      "title": "East Potomac golf course",
+      "summary": "The court fight over President Trump's plan to close and rebuild Washington's public East Potomac golf course.",
       "status": "active"
     }
   ]

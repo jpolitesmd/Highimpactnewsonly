@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T05:40:00-05:00",
+  "updated": "2026-11-15T05:50:00-05:00",
   "block": {
     "start": "2026-11-09",
     "end": "2026-11-22",
@@ -18,23 +18,14 @@
       "note": "Backup: Wed., Nov. 18 at 11:54 p.m."
     },
     {
-      "date": "2026-11-18",
-      "sort": "11:49",
-      "time": "11:49 a.m.–3:49 p.m. window",
-      "rocket": "Falcon 9",
-      "mission": "USSF-266",
-      "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
-      "url": "https://www.spacex.com/launches/ussf266",
-      "note": "Backup: Thu., Nov. 19 at 11:40 a.m."
-    },
-    {
       "date": "2026-11-21",
-      "sort": "99",
-      "time": "Time TBD",
+      "sort": "07:30",
+      "time": "7:30–8:00 a.m. window",
       "rocket": "Falcon 9",
       "mission": "NROL-136",
       "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
-      "url": "https://www.spacex.com/launches/nrol136"
+      "url": "https://www.spacex.com/launches/nrol136",
+      "note": "Backup: Sun., Nov. 22 at 7:16 a.m."
     }
   ]
 }

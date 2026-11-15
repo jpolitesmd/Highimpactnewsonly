@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T16:45:00-05:00",
+ "updated": "2026-11-15T05:50:00-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -13631,7 +13631,8 @@
     "court",
     "reyes"
    ],
-   "added_at": "2026-11-07T16:47:55-05:00"
+   "added_at": "2026-11-07T16:47:55-05:00",
+   "thread": "east-potomac-golf"
   },
   {
    "id": "2026-11-07-gaza-rain-floods-tents",
@@ -14921,8 +14922,8 @@
    "text": "SpaceX's Starship upper stage was caught by its launch tower's arms Saturday, the first time a ship returning from orbit has been recovered that way.",
    "detail": "Ship 42 came back to Starbase, Texas, after about 14 orbits and nearly a day in space on Flight 15, which lifted off Friday and released 26 Starlink V3 satellites. SpaceX confirmed the catch at about 3:21 p.m. CT. The other half of the planned double recovery failed Friday: the Super Heavy booster aborted its own tower catch and was sent to a splashdown in the Gulf. SpaceX had caught boosters on three earlier flights but had never tried to catch the ship.",
    "why": "Catching the ship is a key step toward a fully reusable rocket, which SpaceX says is needed to cut launch costs and fly to the Moon and Mars.",
-   "source": "SpaceX",
-   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "source": "AP",
+   "url": "https://apnews.com/df394c1b5a0f85e11194f9ff7db9ee6b",
    "notes": "Update to 2026-11-14-starship-flight-15-orbit. Catch confirmed by SpaceX's live coverage; wire write-ups not yet posted at lock. Trending: hard (+1).",
    "tags": [
     "spacex",
@@ -15096,6 +15097,111 @@
     "immigration"
    ],
    "added_at": "2026-11-14T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-15-bahrain-intercepts-iran-attacks",
+   "section": "news",
+   "topic": "war",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "time": "2026-11-15T02:27:00-05:00",
+   "time_known": false,
+   "text": "Bahrain's military said it shot down several Iranian aerial attacks Sunday, as Iran's Revolutionary Guards claimed they hit a U.S. base there.",
+   "detail": "It was the first time since September that Bahraini air defenses had to intercept attacks; the Interior Ministry twice warned residents to take shelter. The Guards said they launched six drones at a U.S. air-defense radar at the Al-Rifaa helicopter base in retaliation for \"hostile U.S. actions,\" Iranian state media reported. There was no immediate comment from the U.S. military. Two days earlier the U.S. denied an Iranian claim of hitting a radar in Bahrain, saying it intercepted two drones without damage. Separately, Saudi-backed Yemeni government forces said they were pulling back from the area overlooking the Bab el-Mandeb Strait, leaving the Houthis in control of it.",
+   "why": "Bahrain hosts the U.S. Navy's Fifth Fleet, and new attacks there strain a fragile lull in the Iran war.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+   "thread": "iran-war",
+   "notes": "Verified against full Reuters copy carried by The Irish Times.",
+   "tags": [
+    "iran",
+    "bahrain",
+    "yemen"
+   ],
+   "added_at": "2026-11-15T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-15-judge-blocks-east-potomac-closure",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-14T20:30:00-05:00",
+   "time_known": false,
+   "text": "East Potomac Park and its public golf course in Washington can't be closed for now, a federal judge ruled Saturday, hours before Trump's planned shutdown.",
+   "detail": "U.S. District Judge Ana Reyes issued a temporary restraining order through Nov. 28 barring the government from closing the park and course during their usual hours; the course was due to close Sunday for a 15-month rebuild into a championship venue. She cited Trump's own social media posts on the closure date and said the government's reasons appeared to be after-the-fact justifications, but she did not order it to actively manage the park. The suit was brought by the DC Preservation League and two local golfers. Trump criticized the judge on social media Saturday.",
+   "why": "It keeps a heavily used public park open while the court weighs Trump's redevelopment plan.",
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-washington-golf-course-east-potomac-injunction-df0f89f28f2a216faf09b3d63cdb6f9a",
+   "thread": "east-potomac-golf",
+   "tags": [
+    "east-potomac",
+    "golf",
+    "court",
+    "reyes"
+   ],
+   "added_at": "2026-11-15T05:50:00-05:00",
+   "notes": "Verified against full AP copy carried by the Boston Globe; ruling time not given (CBS first posted 8:54 p.m. ET)."
+  },
+  {
+   "id": "2026-11-15-miami-airport-planes-collide",
+   "section": "news",
+   "topic": "disaster",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-14T21:15:00-05:00",
+   "time_known": true,
+   "text": "A Copa Airlines jet and a UPS cargo plane collided while taxiing at Miami International Airport Saturday night, leaving two people with minor injuries.",
+   "detail": "The FAA said the wingtip of the Copa Boeing 737, which had just landed from Panama City, struck the nose of the UPS Boeing 767 around 9:15 p.m.; controllers had told the UPS crew to give way to the Copa flight. All 166 passengers and six crew members got off the Copa plane. The two injured people were treated at the scene. The FAA is investigating. It came a day after the nationwide ground stop.",
+   "why": "It is another safety scare in a week of air travel disruption.",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/14/us/miami-airport-planes-collide-ups-copa-hnk",
+   "tags": [
+    "faa",
+    "miami",
+    "aviation"
+   ],
+   "added_at": "2026-11-15T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-15-new-orleans-ntsb-data-recorder",
+   "section": "news",
+   "topic": "ship",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-14T18:43:00-05:00",
+   "time_known": false,
+   "text": "The tanker's voyage data recorder from Friday's New Orleans cruise ship collision has been recovered, the NTSB said, with a preliminary report due within 30 days.",
+   "detail": "The recorder captures the ship's speed, direction and course plus audio from the bridge. NTSB member John DeLeeuw said 16 investigators are on site for about a week and plan interviews; a final report is expected in 18 to 24 months. The cause of the Atlantic Asphalt's apparent steering loss is still unknown. Mayor Helena Moreno said it could take weeks to remove the sunken American Heritage.",
+   "why": "The data recorder is the key evidence for what made the tanker veer into the docked ship.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/data-recorder-recovered-tanker-new-orleans-cruise-ship-collision-ntsb-says-2026-11-14/",
+   "tags": [
+    "ntsb",
+    "new-orleans",
+    "mississippi-river"
+   ],
+   "added_at": "2026-11-15T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-15-workday-restored",
+   "section": "tech",
+   "topic": "tech",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-14T11:00:00-05:00",
+   "time_known": true,
+   "text": "Workday's payroll and HR service was restored by 11 a.m. ET Saturday after Friday's outage, the company said.",
+   "detail": "A Workday spokesperson said customers were coming back online and apologized. The company said the disruption began after a problem found while testing its backup systems left some data in an inconsistent state. Some employers warned updates between systems could lag while cleanup finishes.",
+   "why": "Workers at thousands of employers can again reach timecards and pay information.",
+   "source": "San Francisco Chronicle",
+   "url": "https://www.sfchronicle.com/tech/article/workday-outage-employees-accounts-22529939.php",
+   "tags": [
+    "workday",
+    "outage"
+   ],
+   "added_at": "2026-11-15T05:50:00-05:00"
   }
  ]
 }

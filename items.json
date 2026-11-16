@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:55:00-05:00",
+ "updated": "2026-11-16T05:27:00-05:00",
  "items": [
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
@@ -15333,6 +15333,150 @@
     "cancer"
    ],
    "added_at": "2026-11-15T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-16-second-tanker-hit-hormuz",
+   "section": "news",
+   "topic": "ship",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "time": "2026-11-15T17:24:00-05:00",
+   "time_known": false,
+   "text": "A tanker leaving the Strait of Hormuz caught fire in its engine room after an unknown projectile hit it, Britain's maritime security agency said.",
+   "detail": "UKMTO said the ship's company security officer reported the strike as the tanker headed out through the strait early Monday local time (Sunday evening ET); no one was hurt and all crew were accounted for. It is a separate incident from Sunday's attack on an eastbound tanker. Iran's Revolutionary Guards said, via state media, that an oil tanker hit naval mines east of the strait and caught fire, but named no ship and gave no images; that claim has not been independently confirmed. ABC News, citing a U.S. official, reported that the USS Theodore Roosevelt carrier strike group has entered the Central Command area, joining the USS George H.W. Bush and USS George Washington. CENTCOM had not commented on the Iranian claims.",
+   "why": "A second tanker hit in two days raises the risk to oil shipping and of a wider U.S.-Iran clash.",
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/recent-incidents",
+   "thread": "iran-war",
+   "tags": [
+    "iran",
+    "hormuz",
+    "shipping"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
+  },
+  {
+   "id": "2026-11-16-new-orleans-tanker-steering-failure",
+   "section": "news",
+   "topic": "ship",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-15T16:00:00-05:00",
+   "time_known": false,
+   "text": "The tanker that capsized a New Orleans cruise ship had a steering failure that left its rudder stuck to the right, the NTSB said.",
+   "detail": "The NTSB said the Atlantic Asphalt's stuck rudder sent it toward the Mississippi River's east bank, and it hit the docked American Heritage two minutes later; the cruise ship capsized in 22 minutes. Investigator Bart Barnum said the cause of the steering failure is not yet known. The data recorder captured the ship's whistle, radio calls for help, orders to drop anchor and emergency steering commands. Six of the 32 people taken to hospitals were still there Sunday. A preliminary report is due within 30 days.",
+   "why": "It is the first official word on why Friday's crash happened.",
+   "source": "AP",
+   "url": "https://apnews.com/91f78337d4c4617beb6c207c45e7233a",
+   "tags": [
+    "ntsb",
+    "new-orleans",
+    "mississippi-river"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
+  },
+  {
+   "id": "2026-11-16-asia-chip-stocks-japan-gdp",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "chart",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 2,
+   "time": "2026-11-16T02:05:00-05:00",
+   "time_known": false,
+   "text": "Asian stock markets fell Monday, with Taiwan down 6% and South Korea 3.6%, as the AI chip sell-off after Jensen Huang's Nvidia exit spread.",
+   "detail": "TSMC fell 5.7%, SK Hynix 7.9% and Samsung Electronics 4.5%. Japan's Nikkei 225 fell 2.4%. U.S. stock futures were lower ahead of Nvidia's earnings Tuesday. Brent crude rose 0.6% to $96.40. Separately, Japan's Cabinet Office said real GDP fell 0.02% in July–September from the prior quarter (0.1% annualized), its first contraction in four quarters, as private consumption fell 0.3%.",
+   "why": "AI chip stocks are a large share of many Americans' index and retirement funds, and the slide sets the tone before Nvidia reports.",
+   "source": "AP",
+   "url": "https://apnews.com/35786b8f539ec95f16ae0500f71cfcc7",
+   "tags": [
+    "markets",
+    "nvidia",
+    "japan"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
+  },
+  {
+   "id": "2026-11-16-international-students-drop",
+   "section": "news",
+   "topic": "government",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-16T00:01:00-05:00",
+   "time_known": false,
+   "text": "International student enrollment at U.S. colleges fell 9% this fall, and new foreign students dropped 15%, a survey released Monday found.",
+   "detail": "The Institute of International Education surveyed more than 800 colleges. Graduate enrollment of international students fell 15% and undergraduate 3%, with fewer students from India. Participation in the OPT post-graduation work program fell 6%. Of colleges surveyed, 88% cited visa processing and 70% travel restrictions. NAFSA estimated the decline cut foreign students' contribution to the U.S. economy by $2.4 billion.",
+   "why": "It shows how federal visa policy is hitting college budgets and local economies.",
+   "source": "AP",
+   "url": "https://apnews.com/article/international-students-decrease-american-universities-a34e862e97509e25b93d9f2234234416",
+   "tags": [
+    "education",
+    "immigration"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
+  },
+  {
+   "id": "2026-11-16-california-huge-waves",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-15T18:35:00-05:00",
+   "time_known": false,
+   "text": "Huge waves flooded California beaches for a second day Sunday, closing piers from Ventura to San Diego and prompting an evacuation warning near Capitola.",
+   "detail": "The National Weather Service warned of surf up to 35 feet in the Bay Area, plus rip currents and sneaker waves; waves above 50 feet were recorded Saturday in San Mateo County. Piers in Ventura, Manhattan Beach, Huntington Beach and Pacific Beach closed, and water flooded beachfront homes in Seal Beach. Large surf is expected all week.",
+   "why": "It is a continuing coastal safety hazard for millions of Californians.",
+   "source": "AP",
+   "url": "https://apnews.com/a17af23f100b3ee73c853da50cce22d1",
+   "tags": [
+    "california",
+    "weather"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
+  },
+  {
+   "id": "2026-11-16-ukraine-hits-crimean-bridge",
+   "section": "news",
+   "topic": "war",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 2,
+   "time": "2026-11-15T18:22:00-05:00",
+   "time_known": false,
+   "text": "The Crimean bridge linking Russia to occupied Crimea was hit by Ukraine overnight, halting traffic until about midday, its Russian-installed governor said.",
+   "detail": "Sergei Aksyonov said traffic would be restricted; damage appeared minor and no casualties were reported. Traffic stopped at about 2:22 a.m. Moscow time (6:22 p.m. ET Sunday), and four passenger trains were delayed. Russia's Defense Ministry said Ukraine launched 1,336 drones overnight; Moscow's mayor said about 600 headed toward the capital.",
+   "why": "The bridge is Russia's main supply link to Crimea.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/",
+   "thread": "russia-ukraine",
+   "tags": [
+    "ukraine",
+    "russia",
+    "crimea"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
+  },
+  {
+   "id": "2026-11-16-phuket-fire-kills-11",
+   "section": "news",
+   "topic": "disaster",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 2,
+   "time": "2026-11-15T15:17:00-05:00",
+   "time_known": true,
+   "text": "A fire in Phuket's Patong tourist district in Thailand killed 11 people and injured 16, police said.",
+   "detail": "The fire began at about 3:17 a.m. Monday local time in a building with a restaurant, rented rooms and a motorcycle rental shop, then spread to nearby buildings. Police said a nearby transformer exploded shortly before, and ruled out arson. Officials said no tourists were among the dead or injured.",
+   "why": "Phuket is a major destination for American travelers.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/asia-pacific/fire-phuket-shophouse-kills-11-injures-16-police-say-2026-11-16/",
+   "tags": [
+    "thailand",
+    "fire"
+   ],
+   "added_at": "2026-11-16T05:27:00-05:00"
   }
  ]
 }

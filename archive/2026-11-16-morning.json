@@ -1,0 +1,221 @@
+{
+ "date": "2026-11-16",
+ "edition": "morning",
+ "subject": "Monday, Nov 16 - Morning edition",
+ "published": "2026-11-16T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-16-second-tanker-hit-hormuz",
+   "section": "news",
+   "text": "A tanker leaving the Strait of Hormuz caught fire in its engine room after an unknown projectile hit it, Britain's maritime security agency said.",
+   "detail": "UKMTO said the ship's company security officer reported the strike as the tanker headed out through the strait early Monday local time (Sunday evening ET); no one was hurt and all crew were accounted for. It is a separate incident from Sunday's attack on an eastbound tanker. Iran's Revolutionary Guards said, via state media, that an oil tanker hit naval mines east of the strait and caught fire, but named no ship and gave no images; that claim has not been independently confirmed. ABC News, citing a U.S. official, reported that the USS Theodore Roosevelt carrier strike group has entered the Central Command area, joining the USS George H.W. Bush and USS George Washington. CENTCOM had not commented on the Iranian claims.",
+   "why": "A second tanker hit in two days raises the risk to oil shipping and of a wider U.S.-Iran clash.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-11-15T17:24:00-05:00",
+   "time_known": false,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/recent-incidents"
+  },
+  {
+   "id": "2026-11-16-asia-chip-stocks-japan-gdp",
+   "section": "money",
+   "text": "Asian stock markets fell Monday, with Taiwan down 6% and South Korea 3.6%, as the AI chip sell-off after Jensen Huang's Nvidia exit spread.",
+   "detail": "TSMC fell 5.7%, SK Hynix 7.9% and Samsung Electronics 4.5%. Japan's Nikkei 225 fell 2.4%. U.S. stock futures were lower ahead of Nvidia's earnings Tuesday. Brent crude rose 0.6% to $96.40. Separately, Japan's Cabinet Office said real GDP fell 0.02% in July–September from the prior quarter (0.1% annualized), its first contraction in four quarters, as private consumption fell 0.3%.",
+   "why": "AI chip stocks are a large share of many Americans' index and retirement funds, and the slide sets the tone before Nvidia reports.",
+   "impact": 2,
+   "topic": "chart",
+   "region": "World",
+   "time": "2026-11-16T02:05:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/35786b8f539ec95f16ae0500f71cfcc7"
+  },
+  {
+   "id": "2026-11-16-international-students-drop",
+   "section": "news",
+   "text": "International student enrollment at U.S. colleges fell 9% this fall, and new foreign students dropped 15%, a survey released Monday found.",
+   "detail": "The Institute of International Education surveyed more than 800 colleges. Graduate enrollment of international students fell 15% and undergraduate 3%, with fewer students from India. Participation in the OPT post-graduation work program fell 6%. Of colleges surveyed, 88% cited visa processing and 70% travel restrictions. NAFSA estimated the decline cut foreign students' contribution to the U.S. economy by $2.4 billion.",
+   "why": "It shows how federal visa policy is hitting college budgets and local economies.",
+   "impact": 2,
+   "topic": "government",
+   "region": "US",
+   "time": "2026-11-16T00:01:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/international-students-decrease-american-universities-a34e862e97509e25b93d9f2234234416"
+  },
+  {
+   "id": "2026-11-16-california-huge-waves",
+   "section": "news",
+   "text": "Huge waves flooded California beaches for a second day Sunday, closing piers from Ventura to San Diego and prompting an evacuation warning near Capitola.",
+   "detail": "The National Weather Service warned of surf up to 35 feet in the Bay Area, plus rip currents and sneaker waves; waves above 50 feet were recorded Saturday in San Mateo County. Piers in Ventura, Manhattan Beach, Huntington Beach and Pacific Beach closed, and water flooded beachfront homes in Seal Beach. Large surf is expected all week.",
+   "why": "It is a continuing coastal safety hazard for millions of Californians.",
+   "impact": 2,
+   "topic": "weather",
+   "region": "US",
+   "time": "2026-11-15T18:35:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/a17af23f100b3ee73c853da50cce22d1"
+  },
+  {
+   "id": "2026-11-16-ukraine-hits-crimean-bridge",
+   "section": "news",
+   "text": "The Crimean bridge linking Russia to occupied Crimea was hit by Ukraine overnight, halting traffic until about midday, its Russian-installed governor said.",
+   "detail": "Sergei Aksyonov said traffic would be restricted; damage appeared minor and no casualties were reported. Traffic stopped at about 2:22 a.m. Moscow time (6:22 p.m. ET Sunday), and four passenger trains were delayed. Russia's Defense Ministry said Ukraine launched 1,336 drones overnight; Moscow's mayor said about 600 headed toward the capital.",
+   "why": "The bridge is Russia's main supply link to Crimea.",
+   "impact": 2,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-15T18:22:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/"
+  },
+  {
+   "id": "2026-11-15-estonia-closes-russia-border",
+   "section": "news",
+   "text": "Estonia will close all its border crossings with Russia on Dec. 1 after a foiled arson attack on a drone maker it blames on Russian military intelligence.",
+   "detail": "Eight people were detained over the attempted overnight arson at defense firm Threod Systems; no one was hurt. Estonian security services said the GRU ordered it. Prime Minister Kristen Michal said closing the three crossings would reduce the threat and signal that attacks on Estonia's defense industry are unacceptable; he did not say when they would reopen. Foreign Minister Margus Tsahkna said he expects new EU sanctions on Russian individuals and entities at a meeting in Brussels on Monday. Russia's Foreign Ministry called the move \"Russophobia.\"",
+   "why": "A NATO member sealing its border with Russia marks a sharp escalation over sabotage attacks in Europe.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-15T11:30:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/estonia-close-russian-border-crossings-after-attempted-arson-attack-2026-11-15/"
+  },
+  {
+   "id": "2026-11-15-tanker-attacked-near-hormuz",
+   "section": "news",
+   "text": "A tanker was attacked in the Gulf just before entering the Strait of Hormuz Sunday, Britain's maritime security agency said; its crew is safe.",
+   "detail": "UKMTO said Indian shipping authorities reported the attack on the eastbound tanker and that the damage and any environmental harm were not yet known. Separately, Iran's Revolutionary Guards said two tankers using an \"unauthorised route\" in the southern strait hit naval mines and that one, a supertanker carrying more than 2 million barrels of crude, sank; they named neither ship. That claim has not been independently confirmed, and UKMTO said it was unclear whether its report was the same incident. The U.S. military recently said it had cleared mines from the strait's main routes, and the U.S. had not commented on Sunday's claims.",
+   "why": "Attacks on tankers near Hormuz threaten oil flows and raise the risk of a wider clash with the U.S. Navy escorting ships there.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-11-15T11:00:00-05:00",
+   "time_known": false,
+   "source": "UKMTO",
+   "url": "https://www.ukmto.org/recent-incidents"
+  },
+  {
+   "id": "2026-11-15-faa-routers-under-investigation",
+   "section": "news",
+   "text": "The FAA ground-stop investigation is focused on two newly installed routers in Arkansas and Texas, Transportation Secretary Sean Duffy said Sunday.",
+   "detail": "Duffy said on Sunday news shows that a router switched on during a copper-to-fiber upgrade in El Dorado, Ark., and one installed about three weeks ago in Amarillo, Texas, flooded the air traffic network with data; both are being examined at contractor L3Harris's lab in Florida with the FBI's help. He said the broadcast function has been turned off on all 69 routers of that type and that there is no sign of a hack or sabotage, but the root cause is not yet known. President Trump, in his first comments on Friday's 4 1/2-hour halt, posted that Congress must approve the money for a new air traffic control system \"FAST.\" Duffy says the $12.5 billion Congress gave the FAA last year cannot pay for new telecom networks; House Transportation Democrats said most of that money is still unspent. The FAA expected flight schedules to be back to normal by the end of Sunday.",
+   "why": "Air travelers head into Thanksgiving week with the cause still unknown and Congress facing a request for up to $50 billion more.",
+   "impact": 3,
+   "topic": "agency",
+   "region": "US",
+   "time": "2026-11-15T10:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-ground-stop-air-travel-faa-duffy-1a308c557552b2ce24a0532fee0be191"
+  },
+  {
+   "id": "2026-11-15-drones-hit-ships-off-romania",
+   "section": "news",
+   "text": "Drones struck three commercial ships near Romania's Sulina canal late Saturday, two inside Romanian waters, and Romania scrambled fighter jets, its government said.",
+   "detail": "Defense Minister Stefan Radu Oprea said the Greek-flagged tanker Evia Petrol V, the bulk carrier Marsol and the tanker Ali Najafov were hit; crews put out fires and no one was hurt. A fourth ship was hit Friday. Prime Minister Luca Niculescu called the strikes unacceptable and a violation of international law but did not say who launched the drones; Russia denies targeting Ukraine's neighbors. The canal links the Danube to the Black Sea and carries Ukrainian exports. Romania is asking NATO allies for more patrols and counter-drone gear.",
+   "why": "The strikes bring the Russia-Ukraine sea war into a NATO member's territorial waters.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-15T07:30:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/aerospace-defense/three-ships-struck-by-drones-black-sea-near-romanian-shipping-canal-pm-says-2026-11-15/"
+  },
+  {
+   "id": "2026-11-15-bahrain-intercepts-iran-attacks",
+   "section": "news",
+   "text": "Bahrain's military said it shot down several Iranian aerial attacks Sunday, as Iran's Revolutionary Guards claimed they hit a U.S. base there.",
+   "detail": "It was the first time since September that Bahraini air defenses had to intercept attacks; the Interior Ministry twice warned residents to take shelter. The Guards said they launched six drones at a U.S. air-defense radar at the Al-Rifaa helicopter base in retaliation for \"hostile U.S. actions,\" Iranian state media reported. There was no immediate comment from the U.S. military. Two days earlier the U.S. denied an Iranian claim of hitting a radar in Bahrain, saying it intercepted two drones without damage. Separately, Saudi-backed Yemeni government forces said they were pulling back from the area overlooking the Bab el-Mandeb Strait, leaving the Houthis in control of it.",
+   "why": "Bahrain hosts the U.S. Navy's Fifth Fleet, and new attacks there strain a fragile lull in the Iran war.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-15T02:27:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 5
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [
+  {
+   "id": "2026-11-15-fda-rejects-summit-ivonescimab",
+   "section": "health",
+   "text": "Summit Therapeutics' lung-cancer drug ivonescimab was turned down by the FDA because its trial did not show patients lived longer, the company said.",
+   "detail": "The FDA's complete response letter said slowing tumor growth without a statistically significant overall survival gain does not support approval for ivonescimab plus chemotherapy in EGFR-mutated advanced non-small cell lung cancer after earlier targeted therapy. The HARMONi trial met its progression-free survival goal but missed on survival. Summit said it will keep developing the drug, a PD-1 x VEGF antibody, in other cancers.",
+   "why": "It was one of the most closely watched new cancer drugs, and the FDA is holding the line on proof of longer survival.",
+   "impact": 2,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-11-15T07:00:00-05:00",
+   "time_known": false,
+   "source": "Summit Therapeutics",
+   "url": "https://s206.q4cdn.com/652410165/files/doc_news/Summit-Therapeutics-Provides-Update-Regarding-Ivonescimab-Biologics-License-Application-2026.pdf"
+  },
+  {
+   "id": "2026-11-15-mcilroy-race-to-dubai",
+   "section": "sports",
+   "text": "Rory McIlroy won the European tour's season-long Race to Dubai title for a record-tying eighth time Sunday; Tyrrell Hatton won the final event.",
+   "detail": "McIlroy shot a bogey-free 67 to finish second at the DP World Tour Championship, holding off Spain's Eugenio Chacarra by about 125 points in the standings. He ties Colin Montgomerie's record and has won the title five years in a row. Hatton won the tournament by five strokes at 15 under. McIlroy dedicated the title to his father, who has been hospitalized for two months.",
+   "why": "It is the season championship of golf's European tour.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "World",
+   "time": "2026-11-15T09:30:00-05:00",
+   "time_known": false,
+   "source": "PGA Tour",
+   "url": "https://www.pgatour.com/article/news/latest/2026/11/15/rory-mcilroy-round-4-dp-world-tour-championship-recap-race-to-dubai"
+  }
+ ],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-17",
+   "when": "8:30 a.m. ET",
+   "text": "October retail sales, 8:30 a.m. ET.",
+   "detail": "Advance Monthly Sales for Retail and Food Services, per the Census Bureau economic indicator calendar.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "After the close",
+   "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
+   "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "Before the open",
+   "text": "Disney reports fiscal fourth-quarter and full-year results before the open; webcast 8:30 a.m. ET.",
+   "detail": "Date and webcast time per Disney's Oct. 12 Business Wire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

@@ -1,41 +1,37 @@
 # X big-story leads
 
-Scan: Sunday, Nov. 15, 2026, about 4:30 p.m. EST (pre-evening scan). X is an idea source only: every lead below traces to a primary or wire source. Stories must link only those sources, never X. Trending labels rest on X's U.S. trends and news feeds plus narrow-term post counts over the last 12 hours. Counts are floors, not totals.
+Scan: Monday, Nov. 16, 2026, about 4:30 a.m. EST (pre-morning scan). X is an idea source only: every lead below traces to a primary or wire source. Stories must link only those sources, never X. Trending labels rest on X's news feed plus narrow-term post counts over the last 12 hours (counts are floors). U.S. trends were not checked this run, so no lead is "Trending: hard" and none gets the trending bump.
 
-Already in items.json (not repeated as new leads): everything through the Nov. 15 morning edition, including 2026-11-14-us-loses-measles-elimination (PAHO; X is buzzing about it again today, but it is already run) and 2026-11-12-usda-snap-categorical-eligibility-rule (the "6.3 million SNAP cuts" X story is that same rule).
-
-U.S. trends at about 4:25 p.m.: all NFL Sunday games (Packers, Texans, Browns, Mahomes and others). There are no news trends, so no lead below is "Trending: hard," and none gets the trending bump.
+Already in items.json (not repeated as new leads): everything through the Nov. 15 evening edition, including 2026-11-15-bahrain-intercepts-iran-attacks (the X "second drone attack on Al-Riffa" story is that same Nov. 15 attack), 2026-11-13-van-hollen-challenges-schumer, and 2026-11-15-fda-rejects-summit-ivonescimab.
 
 ## New this scan
 
-- **New (Health/Business): FDA declines to approve Summit Therapeutics' lung-cancer drug ivonescimab.** The FDA issued a complete response letter on the application for ivonescimab, a PD-1 x VEGF bispecific antibody, in EGFR-mutated advanced non-small cell lung cancer after prior therapy; Reuters reports the trial missed its key overall-survival goal. Sources: Reuters, https://www.reuters.com/legal/litigation/us-fda-declines-approve-summit-lung-cancer-drug-after-trial-misses-key-survival-2026-11-15/ ; link Summit's own press release (summittxinc.com / SEC 8-K) as the primary source when you can. Section: Health. Impact 2. Trending: low (about 340 posts in 12 hours; X news story). Seen ~4:20 p.m. EST.
+- **New (World): Ukraine strikes the Crimean (Kerch) bridge; traffic halted.** Russian-installed Crimea head Sergei Aksyonov said Ukrainian forces struck the bridge linking the peninsula to Russia and that vehicle traffic would be restricted until about midday; the bridge's operations channel said traffic was closed from about 2 a.m. Moscow time (6 p.m. EST Sunday). Bloomberg calls it part of a record overnight drone strike on Russia. Source: Reuters, https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/ (also Meduza, https://meduza.io/en/news/2026/11/16/ukraine-strikes-crimea-bridge-traffic-suspended ). Check the extent of damage before rating it; under the Russia-Ukraine rule, only a damaging hit (spans down, long closure) is above routine. Section: World. Impact 2–3. Trending: moderate (about 3,400 posts in 12 hours; X news story). Seen ~4:25 a.m. EST.
 
-- **New (Government/Transportation): After Friday's nationwide ground stop, Transportation Secretary Duffy raises his FAA modernization request to about $50 billion; Trump urges Congress to "give the money, FAST!"; Democrats say the FAA already has $12.5 billion it has not spent.** Duffy said on CNN's "State of the Union" (Nov. 15) that none of the $12.5 billion can pay for new telecom architecture, software or towers. Source: CNN, https://www.cnn.com/2026/11/15/politics/congress-additional-funding-request-faa-duffy (prefer an AP/Reuters match; link Trump's post only via a news report, never X). An X news story also says Trump threatened to put ICE officers at airports in the funding fight; that part is not confirmed by a wire or official source, so do not run it without one. This follows the Nov. 13–14 ground-stop items. Section: Government. Impact 2. Trending: moderate (about 565 posts in 12 hours; X news story; not on trends). Seen ~4:20 p.m. EST.
+- **New (Economy/World): Japan's economy shrank in July–September, its first contraction in four quarters.** The Cabinet Office's preliminary report shows real GDP down 0.02% from the prior quarter (an annualized 0.1%), against a forecast of 0.2% growth; private consumption fell 0.3%. Asian stocks fell on the release. Source: Japan Cabinet Office (esri.cao.go.jp) via Kyodo, https://english.kyodonews.net/articles/-/91510 (prefer a Reuters/AP match). Section: Economy. Impact 2. Trending: low (about 700 posts in 12 hours). Seen ~4:25 a.m. EST.
 
-## Still open from the midday scan (confirmed, not yet run; see the 12:30 p.m. file in git history for full notes)
+- **New (World): Fire in Phuket's Patong district kills 11 and injures 16.** Police said the fire started at about 3:17 a.m. Monday local time (3:17 p.m. EST Sunday) in a building with a motorcycle rental shop, a restaurant and rented rooms, then spread to nearby buildings; an initial investigation found a nearby transformer exploded first, and arson was ruled out. Source: Reuters, https://www.reuters.com/world/asia-pacific/fire-phuket-shophouse-kills-11-injures-16-police-say-2026-11-16/ (also Al Jazeera, citing AFP and Reuters, https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11 ). Section: World. Impact 2. Trending: low (about 600 posts in 12 hours). Seen ~4:25 a.m. EST.
 
-- UKMTO Warning 205-26: tanker attacked heading toward the Strait of Hormuz, crew safe; IRGC's mine and supertanker-sinking claims stay unconfirmed claims (UKMTO, https://www.ukmto.org/recent-incidents ). World, impact 3, Trending: moderate.
-- Drones hit three merchant ships in Romania's Black Sea waters near Sulina; Romania scrambled jets (Reuters, https://www.reuters.com/business/aerospace-defense/three-ships-struck-by-drones-black-sea-near-romanian-shipping-canal-pm-says-2026-11-15/ ). World, impact 3, Trending: low.
-- WSJ: U.S. intelligence estimates Iran keeps 1,500–2,500 ballistic missiles (https://www.wsj.com/world/middle-east/u-s-figures-iran-still-has-up-to-2-500-missiles-countering-trump-assertions-4c6f4d67 ). World, impact 2, Trending: moderate.
-- NYT: Lutnick pushed to loosen AI-chip export rules for Southeast Asian data centers tied to Cantor clients (https://www.nytimes.com/2026/11/15/us/politics/trump-lutnick-ai-chips-cantor-fitzgerald.html ). Government, impact 2, Trending: moderate.
-- Judge lets the DRAM price-fixing class action against Micron, Samsung and SK hynix proceed (Tom's Hardware; link the CourtListener order). Business, impact 2, Trending: low.
-- From the 4 a.m. scan: Cuba vows to repel any U.S. attack (dpa); DOJ "English only" memo RFI (Federal Register); Florida AG bump-stock opinion; Hungary's €20 million cash find. All impact 2, Trending: low.
+- **Update to Hold (Iranian drone plot against Trump): DHS Secretary Mullin comments.** On Fox News's "The Sunday Briefing" (Nov. 15), Mullin said presidential briefings receive "aspirational threats from Iran" every day and that Trump and his family are "target number one"; he said DHS set up a new counter-drone office. He did not confirm the specific Israel Hayom Mossad-to-CIA report. Source: Fox News, https://www.foxnews.com/media/dhs-chief-mullin-says-iran-poses-daily-threat-trump-his-family-amid-drone-concerns . If it runs, run it as Mullin's attributed statement, not as a confirmed plot; still no Reuters/AP confirmation of the Israel Hayom account. Section: Government. Impact 2. Trending: low (about 430 posts in 12 hours; X news story). Seen ~4:25 a.m. EST.
+
+## Still open from Nov. 15 scans (confirmed, not yet run; see git history for full notes)
+
+- Duffy raises his FAA modernization request to about $50 billion (CNN, https://www.cnn.com/2026/11/15/politics/congress-additional-funding-request-faa-duffy ); check whether 2026-11-15-faa-routers-under-investigation already covers it. Government, impact 2, Trending: moderate.
+- WSJ: U.S. intelligence estimates Iran keeps 1,500–2,500 ballistic missiles. World, impact 2.
+- NYT: Lutnick pushed to loosen AI-chip export rules tied to Cantor clients. Government, impact 2.
+- DRAM price-fixing class action against Micron, Samsung and SK hynix allowed to proceed. Business, impact 2.
 
 ## Hold (not confirmed by a wire or official source)
 
-- **Israel Hayom: Mossad warned the CIA of an Iranian drone plot against Trump and senior officials, said to have led to curtailed public appearances.** Source: Israel Hayom, Nov. 14, https://www.israelhayom.com/2026/11/14/israeli-intelligence-warns-of-iranian-plot-to-target-trump-top-us-officials-with-drones/ , citing unnamed senior Israeli and U.S. officials. Reuters reported in August that the U.S. could not verify earlier Israeli warnings of this kind. Run it only if a wire (Reuters/AP) confirms it or the White House, Secret Service or CIA comments, and then attribute it. Trending: moderate (about 700 posts in 12 hours; X news story).
+- X reports of U.S. strikes on Qeshm Island, Sirik and Bandar Lengeh in Hormozgan and an Iranian claim of a strike on a school in Minab: local and social reports only; no CENTCOM/Pentagon statement or wire confirmation found. Hold.
+- IRGC claims (Al-Rifaa radar, Hormuz mines, supertanker sinking): still no CENTCOM/Pentagon response found. Hold.
 
-## Updates to existing items (verify before running)
+## Watch (morning)
 
-- **2026-11-13-irgc-claims-bahrain-radar-strike / 2026-11-15-bahrain-intercepts-iran-attacks:** Iran's claim of downing an "Orbiter 4" drone over Hamedan and the Qeshm explosion posts are still Iranian or social claims only, with no CENTCOM/Pentagon response. Hold.
-- **2026-11-14-zelensky-us-floated-donbas-nato:** Still no Reuters/AP account of Kushner's "new ideas." Hold.
-
-## Watch (evening)
-
-- From the morning notes: a CENTCOM/Pentagon response to the IRGC Al-Rifaa claim, any Peoria arrest or motive, the New Orleans cause and river reopening (Coast Guard), and the Sunday corrections check.
-- Large surf on the Northern California coast (Point Reyes buoy 31 ft per local reports): run only if NWS or officials report deaths, evacuations or major damage.
-- Fed Chair Warsh speaks Mon. Nov. 16; Nvidia earnings Tue. Nov. 17; FEMA/FCC EAS test Nov. 17; APEC Shenzhen Nov. 18–19.
+- From the evening notes: CENTCOM/Pentagon response to the IRGC Al-Rifaa claim, Peoria bomb arrest or motive (FBI leads), New Orleans cause or river reopening, FAA root cause or $50B funding progress.
+- Fed Chair Warsh speaks today (Nov. 16); Nvidia earnings Tue. Nov. 17; FEMA/FCC EAS test Nov. 17; APEC Shenzhen Nov. 18–19.
+- China's October activity data (NBS) showed further weakness per X; confirm with NBS/Reuters before running.
 
 ## Dropped this scan
 
-- "Jensen Huang resigns" X story (already run as 2026-11-12-huang-resigns-nvidia-ceo; nothing new confirmed); Bessent warning the Fed off a December hike (repeat of his Nov. 13 remarks, already reported by Reuters); Russia's Abu Dhabi demands document (a rehash of earlier reporting); Ukraine drone strikes on Tatarstan and Akhtubinsk and Zelensky's casualty tallies (routine war updates under the Russia-Ukraine rule); Chutkan foreign-donor injunction (an Oct. 2 ruling resurfacing); Nairobi building collapses, Gaza flooding, cyclone Akvan forecast, Philippines M5.5 quake (no new major-casualty threshold met); viral, celebrity and resurfaced-clip items (no trending bump; unconfirmed).
+- Celebrity, sports, viral and prayer-post stories (no trending bump; not news); EU €45 billion Ukraine loan (a Nov. 10 report, nothing newly proposed confirmed); Bessent on the Fed and Iran's economy (repeat remarks); Thune re-election (Nov. 10, already run); Brooklyn building collapse (Nov. 11, older); "gold and silver lose $400 billion in 30 minutes" (unsourced); Queensland storms, Hindu Kush quakes, Cyclone Akvan (no major-casualty threshold met).

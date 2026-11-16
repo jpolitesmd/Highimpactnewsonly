@@ -1,6 +1,130 @@
 {
- "updated": "2026-11-16T05:27:00-05:00",
+ "updated": "2026-11-16T16:45:00-05:00",
  "items": [
+  {
+   "id": "2026-11-16-bank-outages-chase",
+   "section": "news",
+   "topic": "banks",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-16T14:40:00-05:00",
+   "time_known": true,
+   "text": "Online banking at Chase, Bank of America, Wells Fargo and other big U.S. banks failed for thousands of customers Monday; Chase blamed a technical issue, not a cyberattack.",
+   "detail": "Customers began reporting trouble Monday morning, and by 2 p.m. ET nearly 4,800 users had reported problems with Chase on Downdetector, the most of any bank, including balances, transfers, wires and check deposits. Bank of America, U.S. Bank, Wells Fargo, Truist and Capital One customers also reported problems. \"Due to a technical issue, some transactions are taking longer than usual to complete but customers still have access to their accounts and funds,\" Chase said. U.S. Bank said its systems were not directly hit but Zelle transfers with other banks could be delayed; Capital One said it was operating normally; Zelle said its network was working and that a problem at Chase may be delaying payments. A Justice Department official told MS NOW there was no evidence of an attack. No full restoration had been announced by publish time.",
+   "why": "Millions of Americans rely on these banks for paychecks, bills and transfers, days after FAA and Microsoft outages.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
+   "tags": [
+    "banks",
+    "outage",
+    "chase",
+    "zelle"
+   ],
+   "added_at": "2026-11-16T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-16-scotus-uc-grants-maryland-guns",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-16T09:30:00-05:00",
+   "time_known": true,
+   "text": "The Supreme Court turned away the Trump administration's bid to revive canceled University of California research grants, and a challenge to Maryland's limits on guns in sensitive places.",
+   "detail": "In Monday's order list, the justices declined the administration's appeal of a 9th Circuit ruling that canceling about $150 million in NSF and NEH grants to UC researchers over diversity-related work likely violated the First Amendment; the grants keep flowing while the case continues in district court. The Court also refused to hear gun-rights groups' challenge to Maryland's bans on carrying guns in places such as schools, parks, public transit, hospitals, bars and government buildings, leaving in place a 4th Circuit ruling upholding them; Justice Clarence Thomas wrote that he is skeptical of such laws and would take up a narrower case. The Court separately ended Custodia Bank's bid to force the Federal Reserve to give it a master account.",
+   "why": "Federal research money to UC stays on, and Maryland's broad gun-free zones stand as similar laws spread.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/supreme-court-rejects-trump-appeal-defending-diversity-related-grant-cuts-2026-11-16/",
+   "tags": [
+    "supreme-court",
+    "grants",
+    "guns",
+    "second-amendment"
+   ],
+   "added_at": "2026-11-16T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-16-white-house-testimony-memo",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-16T12:00:00-05:00",
+   "time_known": false,
+   "text": "Federal agency officials must now get White House approval before testifying to or briefing Congress, under a memo from White House Counsel William Scharf.",
+   "detail": "The Nov. 16 memo directs all executive agencies to clear congressional testimony and briefings with the White House Counsel's office and the Office of Legislative Affairs in advance. Axios first reported the memo; PBS NewsHour published its full text.",
+   "why": "It gives the White House tighter control over what lawmakers hear from agencies as the new Congress takes shape.",
+   "source": "PBS NewsHour",
+   "url": "https://www.pbs.org/newshour/politics/read-the-full-white-house-memo-requiring-agencies-to-get-approval-before-testifying-in-front-of-congress",
+   "tags": [
+    "white-house",
+    "congress",
+    "oversight"
+   ],
+   "added_at": "2026-11-16T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-16-stocks-fall-nvidia",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "chart",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-16T16:00:00-05:00",
+   "time_known": true,
+   "text": "U.S. stocks had their worst day in more than a week Monday, with the Nasdaq down 2.5% and the Dow off 737 points, as Nvidia slid before earnings.",
+   "detail": "The S&P 500 fell about 1.9%; chipmakers led the drop as the AI-chip sell-off that hit Asia on Monday spread to Wall Street, while defensive stocks such as Procter & Gamble and McDonald's rose. Nvidia reports quarterly results Tuesday.",
+   "why": "Tech-heavy retirement and index funds took another hit ahead of a closely watched Nvidia report.",
+   "source": "MarketWatch",
+   "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-investors-nvidia-results-anthropic-ipo",
+   "tags": [
+    "stocks",
+    "nvidia",
+    "markets"
+   ],
+   "added_at": "2026-11-16T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-16-peoria-bomb-suspect-arrested",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-16T14:00:00-05:00",
+   "time_known": false,
+   "text": "A suspect was arrested Monday in the explosive device found at a Peoria, Ill., ethanol plant, a law enforcement official told CNN; the FBI has not confirmed it.",
+   "detail": "Peoria Mayor Rita Ali said plant leadership told her a suspect is in custody and that the FBI, which leads the case, will release more. The official said others who may have been involved are still under investigation and there is no suspected foreign-terrorism link. Peoria police retracted an earlier statement about a person in custody; the FBI confirmed only \"law enforcement activity\" and said any charges would appear in federal court records. No motive has been released. Friday's find at BioUrja Renewables forced a roughly day-long evacuation of a one-mile area including downtown Peoria.",
+   "why": "Investigators may soon say who planted a device police said could have had a one-mile blast radius.",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/16/us/illinois-ethanol-plant-explosive-arrest",
+   "tags": [
+    "peoria",
+    "fbi",
+    "explosive"
+   ],
+   "added_at": "2026-11-16T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-16-bahrain-clerics-life-sentences",
+   "section": "news",
+   "topic": "court",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 2,
+   "time": "2026-11-16T08:00:00-05:00",
+   "time_known": false,
+   "text": "Dozens of Bahraini Shiite clerics were sentenced to life in prison on charges of forming a terrorist group tied to Iran's Revolutionary Guards, Bahrain's prosecutor said.",
+   "detail": "The rights group BIRD says 64 people, most of them clerics, got life terms, 13 of them in absentia, and five got 15 years. The verdicts come as Iran has targeted Bahrain, home to the U.S. Navy's Fifth Fleet, with drone attacks in recent days.",
+   "why": "Bahrain is cracking down on suspected Iran links while it is under Iranian fire.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/scores-bahraini-shiite-clerics-get-life-prison-plotting-with-iran-2026-11-16/",
+   "thread": "iran-war",
+   "tags": [
+    "bahrain",
+    "iran"
+   ],
+   "added_at": "2026-11-16T16:45:00-05:00"
+  },
   {
    "id": "2026-11-10-jordan-house-gop-leader-thune-kept",
    "section": "news",

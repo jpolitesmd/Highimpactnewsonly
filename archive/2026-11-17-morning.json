@@ -1,0 +1,164 @@
+{
+ "date": "2026-11-17",
+ "edition": "morning",
+ "subject": "Tuesday, Nov 17 - Morning edition",
+ "published": "2026-11-17T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-17-bank-outages-restored",
+   "section": "news",
+   "text": "Online banking at Chase and other big U.S. banks was back to normal early Tuesday; Chase blamed a software bug in its own hardware, not a cyberattack.",
+   "detail": "Downdetector showed service back to normal at the banks and Zelle early Tuesday, CBS News reported. JPMorgan Chase told Reuters on Monday it had \"a temporary issue related to a software bug in on-premise hardware systems\" with no evidence it was cyber-related, and that other banks were affected only when they were party to a transaction with Chase: \"This is not a systemic issue.\" Chase had nearly 4,800 Downdetector reports by 2 p.m. ET Monday. Separately, United Airlines said Monday evening it had resolved a widespread system outage that delayed departing flights.",
+   "why": "It confirms Monday's disruption for millions of bank customers was a Chase software failure, not an attack.",
+   "impact": 3,
+   "topic": "banks",
+   "region": "US",
+   "time": "2026-11-17T03:12:00-05:00",
+   "time_known": false,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/"
+  },
+  {
+   "id": "2026-11-17-ukraine-hits-crimean-bridge-again",
+   "section": "news",
+   "text": "The Crimean bridge was hit by Ukraine for a second straight day, halting traffic, and two people were killed in the attack on Crimea, its Russian-installed governor said.",
+   "detail": "Sergei Aksyonov said traffic across the 12-mile road and rail bridge was suspended. Unverified video appeared to show the bridge's road arch span collapsed into the Kerch Strait; Reuters could not verify it, and there was no official word on the extent of damage. President Volodymyr Zelenskiy confirmed the attack, calling it a response to Russian strikes on Ukrainian infrastructure. Russia's Defense Ministry said it shot down 1,441 Ukrainian drones over 22 regions, a record for the war. Russian strikes overnight hit Kyiv's bridges and caused power outages in eight Ukrainian regions. The Kremlin said Putin was informed ahead of his trip to China for a three-way summit with President Trump and Xi Jinping.",
+   "why": "The bridge is Russia's main land link to Crimea, and the strike comes on the eve of Trump's summit with Putin and Xi.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-17T01:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/ukraine-strikes-crimean-bridge-second-day-russia-pounds-kyiv-bridges-2026-11-17/"
+  },
+  {
+   "id": "2026-11-17-bahrain-intercepts-drones-again",
+   "section": "news",
+   "text": "Bahrain's air defenses intercepted Iranian drone attacks early Tuesday, the third in five days; Iran's Revolutionary Guards claimed they targeted a U.S. radar.",
+   "detail": "Blasts were heard over Manama after Bahrain's Interior Ministry sent a \"possible threat\" alert, later followed by an all-clear; state television said the armed forces intercepted \"Iranian aerial attacks.\" The Revolutionary Guards said their drones targeted a U.S.-operated radar at Sheikh Isa Air Base in response to U.S. drone flights over Iran; no damage has been confirmed. U.S. Central Command had not commented. After Friday's attack, CENTCOM said it shot down two Iranian drones with no damage or injuries.",
+   "why": "Bahrain hosts the U.S. Navy's Fifth Fleet, and Iran's attacks there are picking up after weeks of quiet.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-16T21:30:00-05:00",
+   "time_known": false,
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/11/17/iran-claims-drone-attack-on-us-radar-system-at-sheikh-isa-air-base-in-bahrain"
+  },
+  {
+   "id": "2026-11-17-third-carrier-middle-east",
+   "section": "news",
+   "text": "The USS Theodore Roosevelt arrived in the Middle East, giving the U.S. three aircraft carriers in the region, U.S. Central Command said Monday.",
+   "detail": "The Roosevelt and its strike group, which left San Diego in September, join the USS George H.W. Bush and USS George Washington, there to keep up the naval blockade of Iranian shipping. The flotilla in the Arabian Sea now includes 13 destroyers, two cruisers and a littoral combat ship, with two more destroyers in the Red Sea, the Navy said. President Trump has alternated between threatening new large-scale strikes on Iran and saying the war is \"militarily effectively over.\"",
+   "why": "Thousands more U.S. troops are now in the region as Iran steps up attacks on ships and Gulf bases.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-11-16T18:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://www.pbs.org/newshour/world/third-u-s-aircraft-carrier-in-middle-east-as-trump-keeps-options-open-in-iran-war"
+  },
+  {
+   "id": "2026-11-16-bank-outages-chase",
+   "section": "news",
+   "text": "Online banking at Chase, Bank of America, Wells Fargo and other big U.S. banks failed for thousands of customers Monday; Chase blamed a technical issue, not a cyberattack.",
+   "detail": "Customers began reporting trouble Monday morning, and by 2 p.m. ET nearly 4,800 users had reported problems with Chase on Downdetector, the most of any bank, including balances, transfers, wires and check deposits. Bank of America, U.S. Bank, Wells Fargo, Truist and Capital One customers also reported problems. \"Due to a technical issue, some transactions are taking longer than usual to complete but customers still have access to their accounts and funds,\" Chase said. U.S. Bank said its systems were not directly hit but Zelle transfers with other banks could be delayed; Capital One said it was operating normally; Zelle said its network was working and that a problem at Chase may be delaying payments. A Justice Department official told MS NOW there was no evidence of an attack. No full restoration had been announced by publish time.",
+   "why": "Millions of Americans rely on these banks for paychecks, bills and transfers, days after FAA and Microsoft outages.",
+   "impact": 4,
+   "topic": "banks",
+   "region": "US",
+   "time": "2026-11-16T14:40:00-05:00",
+   "time_known": true,
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/"
+  },
+  {
+   "id": "2026-11-17-chip-remote-access-rule",
+   "section": "tech",
+   "text": "A new Commerce Department rule bars China and other restricted countries from reaching advanced U.S. AI chips remotely through data centers abroad.",
+   "detail": "The Bureau of Industry and Security issued the interim final rule Monday, saying it was written by and at the direction of the Treasury Department and the National Security Council. Companies now need licenses to export, reexport or transfer advanced AI chips and servers to data centers anywhere that may provide computing power to companies based in China, Russia, Iran, North Korea or other embargoed (D:5) countries, including through brokers; it covers sites above about 12 million TPP, roughly 750 Nvidia H100-class chips. It also adds license requirements for advanced chip shipments to Malaysia, Singapore, Indonesia, Thailand and Brazil, except to U.S.-based companies, gives existing data-center operators 90 days to get licenses, and formally rescinds the Biden-era AI Diffusion Rule. It comes days after Nvidia co-founder Jensen Huang resigned as CEO.",
+   "why": "It closes the main loophole Chinese AI firms used to tap American chips and puts new paperwork on data centers worldwide.",
+   "impact": 4,
+   "topic": "trade",
+   "region": "US",
+   "time": "2026-11-16T10:00:00-05:00",
+   "time_known": false,
+   "source": "Bureau of Industry and Security",
+   "url": "https://media.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf"
+  },
+  {
+   "id": "2026-11-16-white-house-testimony-memo",
+   "section": "news",
+   "text": "Federal agency officials must now get White House approval before testifying to or briefing Congress, under a memo from White House Counsel William Scharf.",
+   "detail": "The Nov. 16 memo directs all executive agencies to clear congressional testimony and briefings with the White House Counsel's office and the Office of Legislative Affairs in advance. Axios first reported the memo; PBS NewsHour published its full text.",
+   "why": "It gives the White House tighter control over what lawmakers hear from agencies as the new Congress takes shape.",
+   "impact": 3,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-16T12:00:00-05:00",
+   "time_known": false,
+   "source": "PBS NewsHour",
+   "url": "https://www.pbs.org/newshour/politics/read-the-full-white-house-memo-requiring-agencies-to-get-approval-before-testifying-in-front-of-congress"
+  },
+  {
+   "id": "2026-11-16-scotus-uc-grants-maryland-guns",
+   "section": "news",
+   "text": "The Supreme Court turned away the Trump administration's bid to revive canceled University of California research grants, and a challenge to Maryland's limits on guns in sensitive places.",
+   "detail": "In Monday's order list, the justices declined the administration's appeal of a 9th Circuit ruling that canceling about $150 million in NSF and NEH grants to UC researchers over diversity-related work likely violated the First Amendment; the grants keep flowing while the case continues in district court. The Court also refused to hear gun-rights groups' challenge to Maryland's bans on carrying guns in places such as schools, parks, public transit, hospitals, bars and government buildings, leaving in place a 4th Circuit ruling upholding them; Justice Clarence Thomas wrote that he is skeptical of such laws and would take up a narrower case. The Court separately ended Custodia Bank's bid to force the Federal Reserve to give it a master account.",
+   "why": "Federal research money to UC stays on, and Maryland's broad gun-free zones stand as similar laws spread.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-16T09:30:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/supreme-court-rejects-trump-appeal-defending-diversity-related-grant-cuts-2026-11-16/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 4
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-17",
+   "when": "8:30 a.m. ET",
+   "text": "October retail sales, 8:30 a.m. ET.",
+   "detail": "Advance Monthly Sales for Retail and Food Services, per the Census Bureau economic indicator calendar.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "After the close",
+   "text": "Nvidia reports fiscal third-quarter results; conference call that afternoon.",
+   "detail": "Date per Nvidia's Aug. 26 earnings call, where the company said the third-quarter call is scheduled for Nov. 17.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "when": "Before the open",
+   "text": "Disney reports fiscal fourth-quarter and full-year results before the open; webcast 8:30 a.m. ET.",
+   "detail": "Date and webcast time per Disney's Oct. 12 Business Wire announcement.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

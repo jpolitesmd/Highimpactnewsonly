@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T11:50:00-05:00",
+ "updated": "2026-11-19T16:50:00-05:00",
  "items": [
   {
    "id": "2026-11-16-bank-outages-chase",
@@ -16220,6 +16220,160 @@
     "fbi"
    ],
    "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-anthropic-debut-stocks-slide",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "chart",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-19T16:00:00-05:00",
+   "time_known": true,
+   "text": "Anthropic's stock closed its first trading day about 17% above its $83 IPO price, but the wider market fell about 2% as AI shares slid.",
+   "detail": "Anthropic opened at $111.50 shortly before noon, briefly valuing the company above $2 trillion and topping $115, before fading to close near $97. The S&P 500 erased an early 1.3% gain and fell about 2% for a sixth straight loss, its longest losing streak since April 2024; the Dow fell about 1,100 points (2.2%) to back below 50,000 and the Nasdaq lost about 2.3%. AMD dropped about 10% after investigative outlet Hunterbrook disclosed a short position citing its China dealings; AMD denied wrongdoing.",
+   "why": "The record IPO was seen as a test of investor faith in AI, and it did not stop a weeks-long slide in tech stocks.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+   "tags": [
+    "anthropic",
+    "ipo",
+    "ai",
+    "stocks",
+    "nasdaq"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-senate-rejects-iran-war-powers",
+   "section": "news",
+   "topic": "congress",
+   "region": "US",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-19T14:42:00-05:00",
+   "time_known": true,
+   "text": "A resolution directing President Trump to pull U.S. forces out of the Iran war failed in the Senate, 48-51, in Congress's first war vote since the midterms.",
+   "detail": "Republicans Susan Collins, Lisa Murkowski and Rand Paul voted for the House-passed measure (H.Con.Res. 93); Democrat John Fetterman voted against it, and Republican Thom Tillis, who backed an earlier attempt, also voted no. As a concurrent resolution it would not have gone to the president. Democrats say they will keep pushing war-powers votes and use spending bills to end the war once they control Congress in January. The Pentagon lists 23 U.S. service members killed in the conflict.",
+   "why": "It shows Senate Republicans still backing the war weeks after voters punished the party over it.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us-senate-rejects-resolution-curbing-trumps-iran-war-powers-2026-11-19/",
+   "tags": [
+    "iran",
+    "war-powers",
+    "senate"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-houthi-strike-pif-tower-riyadh",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "middle-east",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-19T08:00:00-05:00",
+   "time_known": false,
+   "text": "Riyadh's tallest skyscraper, home of Saudi Arabia's sovereign wealth fund, was damaged in a Houthi missile attack early Thursday; no injuries were reported.",
+   "detail": "Saudi civil defense said the attack damaged several floors of a tower in the King Abdullah Financial District and nearby buildings, state news agency SPA said; its photo showed the PIF Tower, where windows were blown out across seven to eight floors. The district was closed to visitors. It is the second Houthi hit on a Riyadh landmark in under two weeks, after the Aramco building on Nov. 8. The Saudi foreign ministry said it reserves the right to take \"all necessary measures\"; Houthi-run media reported Saudi airstrikes on Sanaa.",
+   "why": "Strikes on the heart of Saudi Arabia's economy widen the regional war tied to Iran.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says-2026-11-19/",
+   "tags": [
+    "houthis",
+    "saudi-arabia",
+    "riyadh",
+    "yemen"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-kushner-russia-security-guarantees",
+   "section": "news",
+   "topic": "diplomacy",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 3,
+   "thread": "russia-ukraine",
+   "time": "2026-11-19T13:00:00-05:00",
+   "time_known": false,
+   "text": "Russia is \"comfortable\" with NATO-like security guarantees for Ukraine after the war, U.S. envoy Jared Kushner said after talks with European leaders in Berlin.",
+   "detail": "Kushner and Steve Witkoff met Ukrainian President Volodymyr Zelenskyy and dozens of European leaders; Trump called into the meeting after his talks with Xi and Putin in China. Kushner said an Article 5-style U.S. guarantee is \"a really, really big deal\" that Trump is open to if it serves U.S. interests, and that Russia agreed to talks that include Europe. No date is set for the next round. Putin, speaking in Shenzhen, vowed to respond to Ukraine's strikes on the Kerch Bridge and said he would not be negotiating ceasefires.",
+   "why": "Security guarantees are a key sticking point in any deal to end the nearly five-year war.",
+   "source": "AP",
+   "url": "https://apnews.com/article/3d0f8ed366d6084e1cfe12a4d8020c55",
+   "tags": [
+    "ukraine",
+    "russia",
+    "kushner",
+    "peace-talks"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-treasury-sanctions-comancheros-ndrangheta",
+   "section": "news",
+   "topic": "sanctions",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-19T11:00:00-05:00",
+   "time_known": false,
+   "text": "The Comanchero motorcycle gang and Italy's 'Ndrangheta mafia were sanctioned by the Treasury Department Thursday for helping drug cartels move cocaine and launder money.",
+   "detail": "OFAC said the Australia-based Comancheros worked with the Sinaloa Cartel, CJNG and other cartels on multi-hundred-kilogram cocaine shipments, and named 'Ndrangheta leaders and funeral-home and limousine businesses in Ontario, Canada. The action was coordinated with police in Australia, New Zealand, Italy and Canada. In a separate action the same day, Treasury sanctioned cyber-scam operators in Cambodia and facilitators tied to an armed group in Myanmar's Karen State.",
+   "why": "It extends the administration's anti-cartel sanctions to the global gangs that supply and finance them.",
+   "source": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0696",
+   "tags": [
+    "sanctions",
+    "ofac",
+    "cartels",
+    "drugs"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-jpmorgan-visa-mastercard-vendor-breach",
+   "section": "money",
+   "money_beat": "business",
+   "topic": "business",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-19T11:00:00-05:00",
+   "time_known": false,
+   "text": "JPMorgan Chase, Visa and Mastercard said outside vendors were hit by a cyberattack that exposed some customers' names and email addresses, but no card numbers.",
+   "detail": "A ransomware group leaked marketing data including about 16,000 email addresses tied to JPMorgan's invitation-only Reserve program, Cybernews reported. JPMorgan said its own systems and services were not disrupted, it will offer affected customers free credit monitoring, and the breach has no connection to its outage earlier this week. Visa said there is no sign card numbers were affected; Mastercard said a limited number of emails from one benefit program were exposed.",
+   "why": "It touches customers of the biggest U.S. bank and card networks in a week of bank system failures.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/",
+   "tags": [
+    "jpmorgan",
+    "visa",
+    "mastercard",
+    "data-breach",
+    "cybersecurity"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-nsa-network-still-down",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 2,
+   "thread": "us-outages",
+   "time": "2026-11-19T14:26:00-05:00",
+   "time_known": false,
+   "text": "The NSA's classified internal network was still down Thursday, a third day, with some staff told to work from home, NBC News reported.",
+   "detail": "Two sources told NBC the outage, which began during maintenance Tuesday, has not affected intelligence collection and shows no sign of a cyberattack. It also hit an NSA site in Georgia that handles Middle East work.",
+   "why": "A days-long outage at a top spy agency is unusual and part of a week of major U.S. system failures.",
+   "source": "NBC News",
+   "url": "https://www.nbcnews.com/politics/national-security/classified-nsa-network-still-leaving-staff-working-home-rcna610261",
+   "tags": [
+    "nsa",
+    "outage"
+   ],
+   "added_at": "2026-11-19T16:50:00-05:00"
   }
  ]
 }

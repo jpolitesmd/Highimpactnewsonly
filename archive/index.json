@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-19-evening",
+   "date": "2026-11-19",
+   "edition": "evening",
+   "count": 8,
+   "lead": "Anthropic's stock closed its first trading day about 17% above its $83 IPO price, but the wider market fell about 2% as AI shares slid."
+  },
+  {
    "key": "2026-11-19-morning",
    "date": "2026-11-19",
    "edition": "morning",
@@ -701,5 +708,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-19T11:48:25-05:00"
+ "updated": "2026-11-19T16:28:58-05:00"
 }

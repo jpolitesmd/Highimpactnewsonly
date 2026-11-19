@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T05:45:00-05:00",
+ "updated": "2026-11-19T11:50:00-05:00",
  "items": [
   {
    "id": "2026-11-16-bank-outages-chase",
@@ -20,7 +20,8 @@
     "chase",
     "zelle"
    ],
-   "added_at": "2026-11-16T16:45:00-05:00"
+   "added_at": "2026-11-16T16:45:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-16-scotus-uc-grants-maryland-guns",
@@ -14293,7 +14294,8 @@
     "nvidia",
     "stocks"
    ],
-   "added_at": "2026-11-12T05:40:00-05:00"
+   "added_at": "2026-11-12T05:40:00-05:00",
+   "thread": "nvidia-huang"
   },
   {
    "id": "2026-11-11-white-house-warns-garcia-oversight",
@@ -14398,7 +14400,8 @@
     "nvidia",
     "stocks"
    ],
-   "added_at": "2026-11-12T17:05:00-05:00"
+   "added_at": "2026-11-12T17:05:00-05:00",
+   "thread": "nvidia-huang"
   },
   {
    "id": "2026-11-12-microsoft-365-outage",
@@ -14418,7 +14421,8 @@
     "microsoft",
     "outage"
    ],
-   "added_at": "2026-11-12T17:05:00-05:00"
+   "added_at": "2026-11-12T17:05:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-12-trump-no-iran-deal-needed",
@@ -14552,7 +14556,8 @@
     "microsoft",
     "outage"
    ],
-   "added_at": "2026-11-13T05:38:00-05:00"
+   "added_at": "2026-11-13T05:38:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-13-van-hollen-challenges-schumer",
@@ -14656,7 +14661,8 @@
     "aviation",
     "outage"
    ],
-   "added_at": "2026-11-13T16:55:00-05:00"
+   "added_at": "2026-11-13T16:55:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-13-new-orleans-tanker-hits-cruise-ship",
@@ -14863,7 +14869,8 @@
     "aviation",
     "outage"
    ],
-   "added_at": "2026-11-14T05:40:00-05:00"
+   "added_at": "2026-11-14T05:40:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-14-new-orleans-collision-all-accounted",
@@ -15013,7 +15020,8 @@
     "microsoft",
     "outage"
    ],
-   "added_at": "2026-11-14T05:40:00-05:00"
+   "added_at": "2026-11-14T05:40:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-14-starship-flight-15-orbit",
@@ -15096,7 +15104,8 @@
     "air-travel",
     "duffy"
    ],
-   "added_at": "2026-11-14T16:45:00-05:00"
+   "added_at": "2026-11-14T16:45:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-14-zelensky-us-floated-donbas-nato",
@@ -15325,7 +15334,8 @@
     "workday",
     "outage"
    ],
-   "added_at": "2026-11-15T05:50:00-05:00"
+   "added_at": "2026-11-15T05:50:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-15-faa-routers-under-investigation",
@@ -15348,7 +15358,8 @@
     "air-travel",
     "duffy"
    ],
-   "added_at": "2026-11-15T16:55:00-05:00"
+   "added_at": "2026-11-15T16:55:00-05:00",
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-15-tanker-attacked-near-hormuz",
@@ -15668,7 +15679,8 @@
    ],
    "added_at": "2026-11-17T05:45:00-05:00",
    "pin": "2026-11-17 morning",
-   "pin_order": 1
+   "pin_order": 1,
+   "thread": "us-outages"
   },
   {
    "id": "2026-11-17-bahrain-intercepts-drones-again",
@@ -15713,6 +15725,501 @@
     "aircraft-carrier"
    ],
    "added_at": "2026-11-17T05:45:00-05:00"
+  },
+  {
+   "id": "2026-11-18-trump-xi-putin-peace-declaration",
+   "section": "news",
+   "topic": "globe",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-18T17:00:00-05:00",
+   "time_known": false,
+   "text": "Trump, Xi and Putin issued a joint \"peace declaration\" after their first three-way meeting, pledging U.N. reform and that nuclear war \"must never be fought,\" with no arms-control deal.",
+   "detail": "The leaders of the world's three largest nuclear powers met for about 90 minutes in Shenzhen, China, on Thursday local time (Wednesday evening ET) on the sidelines of the APEC summit, after Trump held separate meetings with Xi and Putin. The four-point declaration, posted by the White House, says the three will reform the U.N., increase production and supply of refined petroleum products, respect the immunity of state officials (saying the International Criminal Court and similar bodies \"must not abuse their jurisdiction\"), and hold a dialogue on reducing nuclear risks and preventing the spread of nuclear weapons. It sets no limits on any country's arsenal. Putin did not commit to attending the G20 summit in Miami next month, Reuters reported. Trump then left China for Washington.",
+   "why": "It is the first summit of the three nuclear superpowers' leaders, but it produced pledges rather than binding commitments.",
+   "source": "The White House",
+   "url": "https://www.whitehouse.gov/briefings-statements/2026/11/u-s-russia-china-heads-of-state-declaration-toward-peace/",
+   "tags": [
+    "trump",
+    "china",
+    "russia",
+    "xi",
+    "putin",
+    "nuclear"
+   ],
+   "pin": "2026-11-19 morning",
+   "pin_order": 1,
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-icj-myanmar-genocide",
+   "section": "news",
+   "topic": "court",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 4,
+   "time": "2026-11-19T04:00:00-05:00",
+   "time_known": false,
+   "text": "Myanmar committed genocide against the Rohingya, the U.N.'s top court ruled Thursday, the first time it has found a country itself responsible for genocide.",
+   "detail": "The International Court of Justice found that Myanmar's security forces intentionally killed Rohingya, caused them serious bodily or mental harm and imposed measures meant to prevent births during the 2017 \"clearance operations\" in northern Rakhine state, and that Myanmar failed to prevent and punish genocide. The court cited an estimated 10,000 Rohingya killed; about 700,000 fled to Bangladesh. It ordered Myanmar to investigate and prosecute those responsible, allow safe return of displaced Rohingya, and compensate them, with the amount to be set later; Myanmar must report back within two years. The judgment in the case brought by The Gambia in 2019 is final, binding and without appeal. U.N. Secretary-General António Guterres welcomed it.",
+   "why": "It is the first time the world court has held a state directly responsible for committing genocide.",
+   "source": "UN News",
+   "url": "https://news.un.org/en/story/2026/11/1168836",
+   "tags": [
+    "icj",
+    "myanmar",
+    "rohingya",
+    "genocide"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-denmark-ratifies-greenland-pact",
+   "section": "news",
+   "topic": "globe",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 3,
+   "time": "2026-11-19T06:30:00-05:00",
+   "time_known": false,
+   "text": "Denmark's parliament unanimously approved the U.S.-Denmark-Greenland security pact Thursday, opening the way to a bigger U.S. military role in Greenland.",
+   "detail": "The vote was 109-0, U.S. Ambassador Ken Howery said. The deal, signed in September by Trump and the Danish and Greenlandic prime ministers and already approved by Greenland's parliament, updates a 1951 defense agreement to give the U.S. underwater access and permission to build a missile-defense system, and says Greenland would stay in NATO if it became independent. Danish Foreign Minister Lars Løkke Rasmussen said the last step before it takes effect is a U.S. notification to Congress, and that the U.S. has not yet told Denmark of plans for new bases. Trump had threatened earlier this year to take control of the island.",
+   "why": "It settles months of conflict between the U.S. and a NATO ally over Trump's demands for Greenland.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/5f374b32b07b/world/denmark-expected-ratify-trump-deal-over-greenland-thursday-2026-11-19/",
+   "tags": [
+    "greenland",
+    "denmark",
+    "nato",
+    "arctic"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-trump-iran-after-january",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-19T07:11:00-05:00",
+   "time_known": false,
+   "text": "President Trump said the U.S. will \"see what happens\" with Iran after Jan. 1, a day after warning \"we'll wipe them out\" if Iran set off a dirty bomb in Washington.",
+   "detail": "Trump did not explain the significance of Jan. 1 in the interview broadcast Thursday, Reuters reported. On Wednesday, asked about a reported Iranian dirty-bomb plot, he said residents of Washington need not panic but that the U.S. would \"wipe them out\" if it happened, and said there was an indication Iran was \"looking at\" gases and biological weapons, without giving evidence. Trump has alternated between threatening escalation and suggesting he could wind down the nine-month war. Israel has passed intelligence to the U.S. on Iran's military buildup, officials told Reuters.",
+   "why": "Trump is signaling a possible deadline in a war that has U.S. forces trading fire with Iran again.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/3fec1b0a85a0/world/trump-says-us-will-see-what-happens-conflict-with-iran-after-january-1-2026-11-19/",
+   "tags": [
+    "iran",
+    "trump",
+    "dirty-bomb"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-anthropic-record-ipo",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "chart",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-18T20:00:00-05:00",
+   "time_known": false,
+   "text": "Anthropic priced its IPO at $83 a share, raising about $81 billion in the largest stock offering ever and valuing the AI company near $1.5 trillion.",
+   "detail": "The maker of the Claude AI models sold 980 million shares, above its planned $70-$78 range and more than the 825 million first offered, AP reported; the proceeds top SpaceX's roughly $75 billion IPO in June. Shares begin trading Thursday on the Nasdaq under the ticker ANT. Anthropic said it had $33.24 billion in revenue in the first nine months of 2026, and a net loss of $104 billion, most of it from accounting changes on convertible notes and other instruments, CNBC reported.",
+   "why": "The size of the debut is a test of investor appetite for AI after weeks of selling in chip and tech stocks.",
+   "source": "Anthropic",
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "tags": [
+    "anthropic",
+    "ipo",
+    "ai",
+    "nasdaq"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-kerch-bridge-third-strike",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 2,
+   "thread": "russia-ukraine",
+   "time": "2026-11-19T03:00:00-05:00",
+   "time_known": false,
+   "text": "The Crimean bridge was hit by Ukraine for the third time this week Thursday, halting rail traffic for several hours, Russian officials said.",
+   "detail": "Crimea's Russian-installed head Sergei Aksyonov said rail traffic was suspended while damage was assessed and set to resume around 4 p.m. local time; Ukraine's military said its forces carried out the attack. Tuesday's missile and drone strike destroyed the steel arch over the bridge's road section, Ukraine's SBU said, and Russia's deputy prime minister Marat Khusnullin said some sections may take months to restore, TASS reported. The bridge is the only one linking mainland Russia with occupied Crimea.",
+   "why": "The bridge is a main supply route for Russian forces in southern Ukraine.",
+   "source": "AP",
+   "url": "https://apnews.com/article/russia-ukraine-war-kerch-bridge-putin-crimea-7b4a86809dcd466bba97d374045a1a78",
+   "tags": [
+    "ukraine",
+    "russia",
+    "crimea",
+    "kerch-bridge"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-walmart-raises-outlook",
+   "section": "money",
+   "money_beat": "prices",
+   "topic": "chart",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-19T07:00:00-05:00",
+   "time_known": false,
+   "text": "Walmart raised its full-year sales and profit forecast for the third time this year after third-quarter revenue rose 5.2% to $188.8 billion.",
+   "detail": "The nation's largest retailer now expects net sales to grow 4.9% to 5.2% this fiscal year and adjusted earnings of $2.84 to $2.89 a share, both in constant currency, according to its earnings release. Adjusted earnings were 65 cents a share for the quarter. Reuters reported the company warned of rising fuel costs heading into the holiday season.",
+   "why": "Walmart's results are a read on how American shoppers are holding up heading into the holidays.",
+   "source": "Walmart",
+   "url": "https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2026/11/q3-fy27-earnings/q3-fy27-earnings-release.pdf",
+   "tags": [
+    "walmart",
+    "retail",
+    "earnings"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-jobless-claims",
+   "section": "money",
+   "money_beat": "jobs",
+   "topic": "chart",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-19T08:30:00-05:00",
+   "time_known": true,
+   "text": "Weekly applications for unemployment benefits rose by 1,000 to 203,000, still low by historical standards, the Labor Department said.",
+   "detail": "Initial claims for the week ending Nov. 14 were 203,000, seasonally adjusted; the four-week average rose 2,000 to 197,750. Continuing claims rose 70,000 to 1.763 million in the week ending Nov. 7, with the insured unemployment rate unchanged at 1.1%.",
+   "why": "Layoffs remain low even as the Fed weighs raising rates.",
+   "source": "U.S. Department of Labor",
+   "url": "https://oui.doleta.gov/press/2026/111926.pdf",
+   "tags": [
+    "jobless-claims",
+    "labor",
+    "jobs"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-fed-minutes-more-hikes",
+   "section": "money",
+   "money_beat": "rates",
+   "topic": "chart",
+   "region": "US",
+   "impact": 3,
+   "thread": "rates-inflation",
+   "time": "2026-11-18T14:00:00-05:00",
+   "time_known": true,
+   "text": "Almost all Fed officials expect more interest-rate increases will likely be needed, minutes of their October meeting showed.",
+   "detail": "At the Oct. 27-28 meeting, 10 members voted to hold the federal funds rate at 3.75% to 4%; Lisa Cook and Beth Hammack dissented in favor of a quarter-point increase. Almost all participants judged that further increases would likely be appropriate to bring inflation back to 2%, and a couple said a hike larger than a quarter point could be considered at the Dec. 8-9 meeting if inflation data were unfavorable. Almost all also discussed the risk that returns on AI investment disappoint investors. The S&P 500 fell for a fifth straight day Wednesday, its longest losing streak since June, and the Dow dropped 561 points, AP reported.",
+   "why": "Higher rates would raise borrowing costs on mortgages, car loans and credit cards.",
+   "source": "Federal Reserve",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+   "tags": [
+    "fed",
+    "interest-rates",
+    "inflation",
+    "fomc"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-us-venezuela-military-pact",
+   "section": "news",
+   "topic": "globe",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-18T12:00:00-05:00",
+   "time_known": false,
+   "text": "The U.S. and Venezuela signed a deal restoring military ties for the first time in 21 years, Defense Secretary Pete Hegseth said in Caracas.",
+   "detail": "Hegseth, the highest-ranking U.S. official to visit since U.S. forces captured Nicolás Maduro on Jan. 3, met acting President Delcy Rodríguez. He said the agreement covers joint training, intelligence sharing, equipment and efforts to strengthen Venezuela's military, and cooperation against criminal and terrorist groups. Officials did not say whether it allows U.S. bases or permanent troop deployments, and its full terms were not released. Hugo Chávez cut defense ties with Washington in 2005.",
+   "why": "It turns a former adversary into a U.S. security partner less than a year after Maduro's removal.",
+   "source": "AP",
+   "url": "https://apnews.com/article/hegseth-venezuela-maduro-trump-e02dd6173e575c644a37dd417d84296d",
+   "tags": [
+    "venezuela",
+    "hegseth",
+    "military"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-south-florida-flooding",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-18T08:00:00-05:00",
+   "time_known": false,
+   "text": "Flooding from more than 15 inches of rain swamped parts of South Florida, collapsing a synagogue roof and closing schools in Broward and Miami-Dade.",
+   "detail": "Hollywood, Sunrise and Plantation in Broward County got more than 15 inches over 72 hours. The roof of Temple Sinai in Hollywood collapsed early Wednesday; no one was hurt. State wildlife officers rescued more than 70 residents from a flooded Hollywood apartment complex, and I-95 ramps and Florida's Turnpike flooded. Broward and Miami-Dade public schools were closed Thursday, and a flood watch with 2 to 4 more inches possible ran through Thursday evening, CBS Miami reported.",
+   "why": "Residents across the Miami-Fort Lauderdale area faced flooded roads and homes and closed schools.",
+   "source": "AP",
+   "url": "https://apnews.com/article/extreme-weather-flooding-florida-california-a2eb0ab46c06ff3e6809c395466bf949",
+   "tags": [
+    "florida",
+    "flooding",
+    "weather"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-jeffries-nominated-speaker",
+   "section": "news",
+   "topic": "capitol",
+   "region": "US",
+   "impact": 2,
+   "thread": "midterms-2026",
+   "time": "2026-11-18T12:00:00-05:00",
+   "time_known": false,
+   "text": "Hakeem Jeffries was nominated for House speaker by Democrats, 251-11, putting him on track to be the first Black speaker when the new Congress meets in January.",
+   "detail": "Jeffries ran unopposed in the closed-door vote; the full House votes Jan. 3. Democrats won the House majority in the midterms.",
+   "why": "Jeffries is set to lead the new Democratic House majority.",
+   "source": "AP",
+   "url": "https://apnews.com/article/hakeem-jeffries-house-leadership-speaker-democrats-260433358f776473f29151992569f81d",
+   "tags": [
+    "jeffries",
+    "house",
+    "speaker"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-russian-agent-palantir-indicted",
+   "section": "news",
+   "topic": "doj",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-18T13:00:00-05:00",
+   "time_known": false,
+   "text": "A Russian man was indicted on charges of acting as a Russian government agent while spying on employees of a Silicon Valley defense-tech company, the Justice Department said.",
+   "detail": "Igor D'iu, arrested in California, is charged with acting as an agent of a foreign government, interstate stalking and identity-document fraud. Sources told NBC News the company is Palantir. The charges are allegations.",
+   "why": "It is a rare U.S. case alleging Russian surveillance of American defense-tech workers.",
+   "source": "U.S. Department of Justice",
+   "url": "https://www.justice.gov/opa/pr/russian-national-indicted-acting-foreign-agent-russia-target-silicon-valley-technology-and",
+   "tags": [
+    "russia",
+    "espionage",
+    "doj",
+    "palantir"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-18-trump-arch-order-extended",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 2,
+   "thread": "trump-arch",
+   "time": "2026-11-18T15:00:00-05:00",
+   "time_known": false,
+   "text": "Construction of Trump's memorial arch in Washington stays blocked until at least Dec. 3 after a federal judge extended her order Wednesday.",
+   "detail": "U.S. District Judge Tanya Chutkan extended the temporary restraining order by 14 days while she weighs a longer preliminary injunction, saying there was good reason to preserve the status quo at the site across the Potomac from the Lincoln Memorial.",
+   "why": "The arch cannot break ground while the lawsuit continues.",
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-arch-lawsuit-washington-judge-7cfad78a644cb6470c1234e94f688f8a",
+   "tags": [
+    "trump-arch",
+    "courts"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-paho-measles-elimination-lost",
+   "section": "health",
+   "health_beat": "public",
+   "topic": "measles",
+   "region": "US",
+   "impact": 4,
+   "time": "2026-11-17T11:00:00-05:00",
+   "time_known": false,
+   "text": "Measles is formally no longer eliminated in the U.S., Mexico and Bolivia, the Pan American Health Organization announced Tuesday, after a year of nonstop spread.",
+   "detail": "PAHO Director Jarbas Barbosa accepted the finding of the regional commission that met Nov. 10-13: the same measles strain circulated for 12 months or more in each country, with the U.S. reaching that mark on Jan. 20, 2026, Mexico on Feb. 1 and Bolivia on April 16. The U.S. had held elimination status for 26 years. The Americas have reported 58,213 confirmed cases and 82 deaths this year through Nov. 13, versus 12,806 cases a year earlier; the U.S. has more than 5,400 cases, its highest annual total since the 1989-91 resurgence, UNICEF said, 96% in unvaccinated people or those of unknown status. Canada lost its status in November 2025. HHS Secretary Robert F. Kennedy Jr. said the U.S. will work to regain the status and that he recommends the MMR vaccine.",
+   "why": "It is official recognition that measles is again spreading continuously in the U.S.",
+   "source": "Pan American Health Organization",
+   "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+   "tags": [
+    "measles",
+    "paho",
+    "vaccines",
+    "public-health"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-us-strikes-qeshm-iran-hits-kuwait",
+   "section": "news",
+   "topic": "conflict",
+   "region": "US",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-17T15:00:00-05:00",
+   "time_known": false,
+   "text": "U.S. warplanes struck an Iranian missile launch site on Qeshm Island, and Iran then fired drones at a U.S.-hosting air base in Kuwait, its first attack there in two months.",
+   "detail": "U.S. military officials said fighter jets hit the site with precision munitions Tuesday night in response to Iranian \"aggression targeting US personnel and assets.\" Kuwait said its air defenses repelled the drones with no damage reported; Iran's army said it targeted Patriot systems and launch platforms at Ali Al Salem Air Base. Bahrain said Wednesday it intercepted more Iranian attacks, its fourth in six days. U.S. Central Command called false an earlier Revolutionary Guards claim that drones hit a U.S. radar in Bahrain, saying the drones were intercepted without damage or injuries. Tankers were struck by projectiles near Oman's Khasab on Tuesday, when an ADNOC crew member went missing, and Wednesday, Britain's UKMTO said. Iranian military claims are unverified.",
+   "why": "It is the sharpest direct U.S.-Iran exchange in two months, raising fears of a wider war.",
+   "source": "AP",
+   "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72",
+   "tags": [
+    "iran",
+    "kuwait",
+    "bahrain",
+    "qeshm",
+    "centcom"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-nvidia-q3-board-rejects-huang",
+   "section": "tech",
+   "topic": "factory",
+   "region": "US",
+   "impact": 3,
+   "thread": "nvidia-huang",
+   "time": "2026-11-17T16:30:00-05:00",
+   "time_known": false,
+   "text": "Nvidia's revenue doubled to $115.8 billion last quarter, and its chairman said the board \"does not intend to reinstate\" ousted CEO Jensen Huang.",
+   "detail": "Revenue for the quarter ended Oct. 25 rose 103% from a year earlier, with data-center sales of $107.6 billion; net income was $65.3 billion. Nvidia forecast about $130 billion this quarter, above analysts' estimates, CNBC reported. Huang said Tuesday he would be \"honored\" to return if the board wanted; Chairman Harvey Jones said Huang had resigned voluntarily and interim CEO Colette Kress called it \"business as usual.\" Earlier Tuesday the board created a National Security and Export Control Oversight Committee to oversee export-control compliance. Huang agreed to transcribed interviews with three House committees in early December, the Guardian reported.",
+   "why": "Nvidia's chips power the AI boom, and its leadership turmoil has shaken markets.",
+   "source": "Nvidia",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+   "tags": [
+    "nvidia",
+    "earnings",
+    "jensen-huang",
+    "export-controls"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-nsa-network-outage",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "thread": "us-outages",
+   "time": "2026-11-17T09:00:00-05:00",
+   "time_known": false,
+   "text": "The NSA's classified internal network went down Tuesday during maintenance, and the intelligence director said rushed software patching, not a cyberattack, caused it.",
+   "detail": "The NSA said it had a \"temporary degradation during scheduled routine maintenance\" and that mission-critical capabilities stayed fully operational. Director of National Intelligence Jay Clayton linked it to patching of critical flaws in the PHP programming language that federal agencies urged everyone to fix last month. Staggered arrivals at Fort Meade continued Wednesday. Testifying to the House Homeland Security Committee Wednesday, Clayton said the recent outages at Microsoft, the FAA, banks and the NSA are \"not a coordinated or state-sponsored attack.\"",
+   "why": "It is the latest in a week of major U.S. system failures, now reaching a top intelligence agency.",
+   "source": "AP",
+   "url": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
+   "tags": [
+    "nsa",
+    "outage",
+    "cybersecurity"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-peltola-wins-alaska-senate",
+   "section": "news",
+   "topic": "ballot",
+   "region": "US",
+   "impact": 3,
+   "thread": "midterms-2026",
+   "time": "2026-11-17T22:28:00-05:00",
+   "time_known": false,
+   "text": "Democrat Mary Peltola beat Republican Sen. Dan Sullivan in Alaska, AP projected, giving Democrats a 56-44 Senate majority in the last race called.",
+   "detail": "Peltola passed 50% of first-choice votes, avoiding a ranked-choice tabulation; she led 144,302 to 131,844 in Tuesday's count. Turnout of about 290,000 was a record for an Alaska midterm. The result has not been certified.",
+   "why": "It sets the size of the new Democratic Senate majority that takes over in January.",
+   "source": "AP",
+   "url": "https://apnews.com/article/alaska-senate-peltola-sullivan-congress-f1fd4d243bf764ec46ff94db4c792953",
+   "tags": [
+    "alaska",
+    "senate",
+    "midterms",
+    "peltola"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-duffy-50-billion-atc",
+   "section": "news",
+   "topic": "agency",
+   "region": "US",
+   "impact": 2,
+   "thread": "us-outages",
+   "time": "2026-11-17T13:00:00-05:00",
+   "time_known": false,
+   "text": "Transportation Secretary Sean Duffy formally asked Congress for $50.1 billion to rebuild air traffic control after Friday's nationwide ground stop, drawing skepticism from both parties.",
+   "detail": "The request, up from $30 billion, came in a letter also signed by the FAA chief and the White House budget director. Lawmakers noted $12.5 billion approved last year has not been fully spent; Majority Leader John Thune said the amount is a \"discussion to be had,\" NBC News reported. The FAA also paused installing routers like the one officials believe contributed to the ground stop.",
+   "why": "Congress will decide whether to pay for an overhaul of the system that halted U.S. flights.",
+   "source": "U.S. Department of Transportation",
+   "url": "https://www.transportation.gov/briefing-room/trump-administration-calls-congress-fully-fund-air-traffic-control-modernization-501",
+   "tags": [
+    "faa",
+    "air-traffic-control",
+    "duffy"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-hung-cao-navy-hearing",
+   "section": "news",
+   "topic": "capitol",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-17T09:30:00-05:00",
+   "time_known": false,
+   "text": "Hung Cao, Trump's pick for Navy secretary, acknowledged at his Senate hearing that the Iran war is straining the Navy, as Democrats criticized his record.",
+   "detail": "Cao, acting secretary since April, faced questions from Senate Armed Services Democrats over long deployments and eight suicide attempts aboard the USS Abraham Lincoln, which he called suicide \"mitigations.\" A former Navy captain, he needs a waiver from both chambers because he left the service less than seven years ago. Chairman Roger Wicker backed him; no vote was held.",
+   "why": "The Navy's civilian leader faces a deadline before Democrats take the Senate in January.",
+   "source": "AP",
+   "url": "https://apnews.com/article/navy-secretary-senate-nomination-cao-trump-c8857280ee38c402a81d5e58987fad06",
+   "tags": [
+    "navy",
+    "hung-cao",
+    "senate"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-kyiv-bridges-struck",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 2,
+   "thread": "russia-ukraine",
+   "time": "2026-11-17T01:00:00-05:00",
+   "time_known": false,
+   "text": "Kyiv's two main bridges over the Dnipro were hit by Russian ballistic missiles overnight Tuesday, shutting traffic and cutting water and heat in parts of the city.",
+   "detail": "Zelensky said four missiles targeted the Southern Bridge and three the Northern Bridge. Mayor Vitali Klitschko said the Southern Bridge partly reopened for lighter vehicles that afternoon. Strikes also hit Zaporizhzhia, where two people were killed and 31 injured, and left about 700,000 households without power in Dnipropetrovsk region.",
+   "why": "The bridges carry much of the traffic in a city of 3 million.",
+   "source": "Kyiv Independent",
+   "url": "https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/",
+   "tags": [
+    "ukraine",
+    "russia",
+    "kyiv"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
+  },
+  {
+   "id": "2026-11-17-peoria-suspect-indicted",
+   "section": "news",
+   "topic": "doj",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-17T15:00:00-05:00",
+   "time_known": false,
+   "text": "An ethanol plant trainee was indicted on federal threat charges over the Peoria, Ill., bomb scare that forced thousands from their homes.",
+   "detail": "Andrew M. Kozak, 41, of Chillicothe, is accused of emailing a threat that explosives had been placed at the BioUrja plant. The indictment does not accuse him of planting the device found there. He pleaded not guilty and is held until a Nov. 20 detention hearing; the charges carry up to 10 years in prison.",
+   "why": "It names a suspect in the threat that emptied part of Peoria for nearly a day.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/chicago/news/peoria-bomb-threat-indictment-federal-charges/",
+   "tags": [
+    "peoria",
+    "bomb-threat",
+    "fbi"
+   ],
+   "added_at": "2026-11-19T11:50:00-05:00"
   }
  ]
 }

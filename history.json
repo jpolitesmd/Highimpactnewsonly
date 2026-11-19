@@ -1,328 +1,342 @@
 {
-  "year": 2026,
-  "updated": "2026-11-15",
-  "events": [
-    {
-      "date": "2026-01-03",
-      "impact": 5,
-      "topic": "conflict",
-      "text": "U.S. forces struck Venezuela and captured President Nicolás Maduro and his wife, Cilia Flores.",
-      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-    },
-    {
-      "date": "2026-01-22",
-      "impact": 4,
-      "topic": "globe",
-      "text": "The United States formally withdrew from the World Health Organization.",
-      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-    },
-    {
-      "date": "2026-01-23",
-      "impact": 3,
-      "topic": "globe",
-      "text": "A winter storm across more than 30 states killed at least 85 people over four days.",
-      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-    },
-    {
-      "date": "2026-01-31",
-      "impact": 3,
-      "topic": "capitol",
-      "text": "A lapse in funding shut down parts of the federal government; it ended Feb. 3.",
-      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-    },
-    {
-      "date": "2026-02-14",
-      "impact": 3,
-      "topic": "capitol",
-      "text": "A second partial shutdown began, centered on Homeland Security funding.",
-      "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
-    },
-    {
-      "date": "2026-02-20",
-      "impact": 4,
-      "topic": "court",
-      "text": "The Supreme Court ruled the President exceeded his authority in imposing tariffs under the International Emergency Economic Powers Act.",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
-    },
-    {
-      "date": "2026-02-28",
-      "impact": 5,
-      "topic": "conflict",
-      "text": "The U.S. and Israel launched strikes on Iran, killing Supreme Leader Ali Khamenei; Iran retaliated against bases across the Gulf.",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "date": "2026-03-04",
-      "impact": 3,
-      "topic": "ship",
-      "text": "A U.S. submarine sank the Iranian frigate IRIS Dena in the Indian Ocean.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-03-08",
-      "impact": 4,
-      "topic": "globe",
-      "text": "Mojtaba Khamenei was named Iran's new Supreme Leader.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-03-11",
-      "impact": 4,
-      "topic": "conflict",
-      "text": "A strike on a girls' elementary school in Minab, Iran, killed 168–180 people; a preliminary U.S. military review found the U.S. responsible.",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
-    },
-    {
-      "date": "2026-03-17",
-      "impact": 3,
-      "topic": "conflict",
-      "text": "Israel began a ground invasion of southern Lebanon.",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "date": "2026-04-01",
-      "impact": 3,
-      "topic": "globe",
-      "text": "NASA's Artemis II carried four astronauts around the Moon, the first crewed flight beyond low Earth orbit since 1972; it returned April 10.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-04-12",
-      "impact": 3,
-      "topic": "ballot",
-      "text": "Hungary's Viktor Orbán lost power after 16 years as Péter Magyar's Tisza Party won the election.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-04-13",
-      "impact": 4,
-      "topic": "ship",
-      "text": "After a ceasefire collapsed and talks in Islamabad failed, the U.S. began a naval blockade of Iranian ports.",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "date": "2026-05-01",
-      "impact": 3,
-      "topic": "trade",
-      "text": "The United Arab Emirates left OPEC after about six decades of membership.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-05-14",
-      "impact": 4,
-      "topic": "court",
-      "text": "The Supreme Court ruled patients can keep accessing the abortion pill mifepristone (Danco Laboratories v. Louisiana).",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
-    },
-    {
-      "date": "2026-06-10",
-      "impact": 4,
-      "topic": "capitol",
-      "text": "The President signed the Secure America Act, providing $70 billion for immigration enforcement.",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
-    },
-    {
-      "date": "2026-06-17",
-      "impact": 4,
-      "topic": "globe",
-      "text": "The U.S. and Iran signed the Islamabad Memorandum, lifting both sides' blockades; they agreed on June 28 to stop attacks.",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "date": "2026-06-30",
-      "impact": 4,
-      "topic": "court",
-      "text": "In end-of-term rulings, the Supreme Court upheld state transgender sports bans, affirmed birthright citizenship and struck down campaign finance limits.",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
-    },
-    {
-      "date": "2026-07-08",
-      "impact": 4,
-      "topic": "conflict",
-      "text": "The U.S.-Iran ceasefire collapsed after Iran attacked commercial vessels in the Strait of Hormuz.",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    {
-      "date": "2026-07-13",
-      "impact": 3,
-      "topic": "ship",
-      "text": "The U.S. announced 20% fees on Strait of Hormuz cargo and restarted its blockade of Iranian ports.",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
-    },
-    {
-      "date": "2026-07-19",
-      "impact": 2,
-      "topic": "sports",
-      "text": "Spain beat Argentina 1-0 to win the FIFA World Cup, hosted by the U.S., Canada and Mexico.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-07-20",
-      "impact": 3,
-      "topic": "trade",
-      "text": "The U.S. announced 50% tariffs on Canadian goods; they took effect on $28 billion of goods Aug. 22.",
-      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
-    },
-    {
-      "date": "2026-08-20",
-      "impact": 2,
-      "topic": "globe",
-      "text": "The Syrian Democratic Forces merged into the Syrian Army.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-08-28",
-      "impact": 2,
-      "topic": "globe",
-      "text": "King Harald V of Norway died; his son became King Haakon VIII.",
-      "url": "https://en.wikipedia.org/wiki/2026"
-    },
-    {
-      "date": "2026-09-01",
-      "impact": 4,
-      "topic": "capitol",
-      "text": "Congress passed a stopgap bill funding the government through Dec. 11, avoiding an Oct. 1 shutdown.",
-      "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
-    },
-    {
-      "date": "2026-09-24",
-      "impact": 3,
-      "topic": "capitol",
-      "text": "The Senate rejected, 49-50, a resolution directing U.S. forces out of hostilities with Iran.",
-      "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm"
-    },
-    {
-      "date": "2026-09-25",
-      "impact": 4,
-      "topic": "court",
-      "text": "The Supreme Court ruled 7-2 the administration can use its expanded SAVE database to help states check voters' citizenship.",
-      "url": "https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/"
-    },
-    {
-      "date": "2026-09-26",
-      "impact": 4,
-      "topic": "trade",
-      "text": "After a Trump-Xi summit in Washington, the U.S. and China extended their trade truce to Jan. 10, 2027 and agreed to $60 billion in tariff cuts.",
-      "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says"
-    },
-    {
-      "date": "2026-09-29",
-      "impact": 3,
-      "topic": "court",
-      "text": "The Supreme Court let the administration resume deportations to third countries while it hears the case in December.",
-      "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/"
-    },
-    {
-      "date": "2026-09-29",
-      "impact": 4,
-      "topic": "factory",
-      "text": "The Transportation Department cut fuel economy standards to 34.9 mpg by model year 2031, down from about 50 mpg.",
-      "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/"
-    },
-    {
-      "date": "2026-09-30",
-      "impact": 4,
-      "topic": "conflict",
-      "text": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades.",
-      "url": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/"
-    },
-    {
-      "date": "2026-10-01",
-      "impact": 4,
-      "topic": "pulse",
-      "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants as a provision of the 2025 Working Families Tax Cut law took effect.",
-      "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens"
-    },
-    {
-      "date": "2026-10-09",
-      "impact": 4,
-      "topic": "court",
-      "text": "The United States placed sanctions on the International Criminal Court itself, freezing its U.S.-linked assets and barring most American dealings with it.",
-      "url": "https://ofac.treasury.gov/recent-actions/20261009"
-    },
-    {
-      "date": "2026-10-13",
-      "impact": 4,
-      "topic": "pulse",
-      "text": "A federal ban on Medicaid and CHIP funding for puberty blockers, hormones and gender surgery for minors took effect nationwide.",
-      "url": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for"
-    },
-    {
-      "date": "2026-10-16",
-      "impact": 4,
-      "topic": "trade",
-      "text": "President Trump waived the tariffs and most sanctions of the Russia sanctions law he had signed in September, a week after easing sanctions on Russian diesel.",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
-    },
-    {
-      "date": "2026-10-19",
-      "impact": 4,
-      "topic": "court",
-      "text": "The Supreme Court left the 9/11 plea deals voided, keeping the death penalty possible for Khalid Sheikh Mohammed and two co-defendants.",
-      "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
-    },
-    {
-      "date": "2026-10-21",
-      "impact": 3,
-      "topic": "conflict",
-      "text": "The United States ordered non-emergency diplomats and their families out of Saudi Arabia as Houthi missile and drone attacks on the kingdom escalated.",
-      "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
-    },
-    {
-      "date": "2026-10-25",
-      "impact": 4,
-      "topic": "ballot",
-      "text": "Brazil's Luiz Inácio Lula da Silva won a fourth presidential term, defeating Flávio Bolsonaro 51.8% to 48.2% in a runoff that Bolsonaro refused to concede.",
-      "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
-    },
-    {
-      "date": "2026-10-28",
-      "impact": 4,
-      "topic": "sports",
-      "text": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays four games to one.",
-      "url": "https://apnews.com/article/brewers-rays-world-series-game-5-971f9fb8cad75042fc7f9919dd91c159"
-    },
-    {
-      "date": "2026-10-31",
-      "impact": 4,
-      "topic": "sports",
-      "text": "The Golden State Valkyries won the WNBA championship in their second season, beating the Atlanta Dream 68-63 in the first Game 7 in Finals history.",
-      "url": "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4"
-    },
-    {
-      "date": "2026-11-03",
-      "impact": 5,
-      "topic": "capitol",
-      "text": "Democrats won control of both the House and the Senate in the midterm elections, flipping at least seven Republican-held Senate seats in a rebuke of President Trump.",
-      "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
-    },
-    {
-      "date": "2026-11-11",
-      "impact": 4,
-      "topic": "ballot",
-      "text": "Democrat Scott Colom unseated Sen. Cindy Hyde-Smith to become Mississippi's first Black U.S. senator since Reconstruction, giving Democrats 55 Senate seats.",
-      "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
-    },
-    {
-      "date": "2026-11-12",
-      "impact": 4,
-      "topic": "factory",
-      "text": "Nvidia founder Jensen Huang resigned as CEO of the world's most valuable chipmaker after 33 years, following revelations of an affair with a suspected Chinese intelligence asset.",
-      "url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
-    },
-    {
-      "date": "2026-11-13",
-      "impact": 4,
-      "topic": "agency",
-      "text": "The FAA halted all departures nationwide for more than four hours, the longest U.S. ground stop in 25 years, after overloaded, decades-old air traffic network equipment failed.",
-      "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
-    },
-    {
-      "date": "2026-11-14",
-      "impact": 4,
-      "topic": "rocket",
-      "text": "SpaceX's Starship upper stage returned from orbit and was caught by its launch tower's mechanical arms in Texas, the first catch of a spacecraft coming back from orbit.",
-      "url": "https://apnews.com/df394c1b5a0f85e11194f9ff7db9ee6b"
-    }
-  ]
+ "year": 2026,
+ "updated": "2026-11-19",
+ "events": [
+  {
+   "date": "2026-01-03",
+   "impact": 5,
+   "topic": "conflict",
+   "text": "U.S. forces struck Venezuela and captured President Nicolás Maduro and his wife, Cilia Flores.",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+  },
+  {
+   "date": "2026-01-22",
+   "impact": 4,
+   "topic": "globe",
+   "text": "The United States formally withdrew from the World Health Organization.",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+  },
+  {
+   "date": "2026-01-23",
+   "impact": 3,
+   "topic": "globe",
+   "text": "A winter storm across more than 30 states killed at least 85 people over four days.",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+  },
+  {
+   "date": "2026-01-31",
+   "impact": 3,
+   "topic": "capitol",
+   "text": "A lapse in funding shut down parts of the federal government; it ended Feb. 3.",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+  },
+  {
+   "date": "2026-02-14",
+   "impact": 3,
+   "topic": "capitol",
+   "text": "A second partial shutdown began, centered on Homeland Security funding.",
+   "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+  },
+  {
+   "date": "2026-02-20",
+   "impact": 4,
+   "topic": "court",
+   "text": "The Supreme Court ruled the President exceeded his authority in imposing tariffs under the International Emergency Economic Powers Act.",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
+  },
+  {
+   "date": "2026-02-28",
+   "impact": 5,
+   "topic": "conflict",
+   "text": "The U.S. and Israel launched strikes on Iran, killing Supreme Leader Ali Khamenei; Iran retaliated against bases across the Gulf.",
+   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+  },
+  {
+   "date": "2026-03-04",
+   "impact": 3,
+   "topic": "ship",
+   "text": "A U.S. submarine sank the Iranian frigate IRIS Dena in the Indian Ocean.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-03-08",
+   "impact": 4,
+   "topic": "globe",
+   "text": "Mojtaba Khamenei was named Iran's new Supreme Leader.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-03-11",
+   "impact": 4,
+   "topic": "conflict",
+   "text": "A strike on a girls' elementary school in Minab, Iran, killed 168–180 people; a preliminary U.S. military review found the U.S. responsible.",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q1)"
+  },
+  {
+   "date": "2026-03-17",
+   "impact": 3,
+   "topic": "conflict",
+   "text": "Israel began a ground invasion of southern Lebanon.",
+   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+  },
+  {
+   "date": "2026-04-01",
+   "impact": 3,
+   "topic": "globe",
+   "text": "NASA's Artemis II carried four astronauts around the Moon, the first crewed flight beyond low Earth orbit since 1972; it returned April 10.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-04-12",
+   "impact": 3,
+   "topic": "ballot",
+   "text": "Hungary's Viktor Orbán lost power after 16 years as Péter Magyar's Tisza Party won the election.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-04-13",
+   "impact": 4,
+   "topic": "ship",
+   "text": "After a ceasefire collapsed and talks in Islamabad failed, the U.S. began a naval blockade of Iranian ports.",
+   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+  },
+  {
+   "date": "2026-05-01",
+   "impact": 3,
+   "topic": "trade",
+   "text": "The United Arab Emirates left OPEC after about six decades of membership.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-05-14",
+   "impact": 4,
+   "topic": "court",
+   "text": "The Supreme Court ruled patients can keep accessing the abortion pill mifepristone (Danco Laboratories v. Louisiana).",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
+  },
+  {
+   "date": "2026-06-10",
+   "impact": 4,
+   "topic": "capitol",
+   "text": "The President signed the Secure America Act, providing $70 billion for immigration enforcement.",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
+  },
+  {
+   "date": "2026-06-17",
+   "impact": 4,
+   "topic": "globe",
+   "text": "The U.S. and Iran signed the Islamabad Memorandum, lifting both sides' blockades; they agreed on June 28 to stop attacks.",
+   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+  },
+  {
+   "date": "2026-06-30",
+   "impact": 4,
+   "topic": "court",
+   "text": "In end-of-term rulings, the Supreme Court upheld state transgender sports bans, affirmed birthright citizenship and struck down campaign finance limits.",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q2)"
+  },
+  {
+   "date": "2026-07-08",
+   "impact": 4,
+   "topic": "conflict",
+   "text": "The U.S.-Iran ceasefire collapsed after Iran attacked commercial vessels in the Strait of Hormuz.",
+   "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+  },
+  {
+   "date": "2026-07-13",
+   "impact": 3,
+   "topic": "ship",
+   "text": "The U.S. announced 20% fees on Strait of Hormuz cargo and restarted its blockade of Iranian ports.",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
+  },
+  {
+   "date": "2026-07-19",
+   "impact": 2,
+   "topic": "sports",
+   "text": "Spain beat Argentina 1-0 to win the FIFA World Cup, hosted by the U.S., Canada and Mexico.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-07-20",
+   "impact": 3,
+   "topic": "trade",
+   "text": "The U.S. announced 50% tariffs on Canadian goods; they took effect on $28 billion of goods Aug. 22.",
+   "url": "https://en.wikipedia.org/wiki/Timeline_of_the_second_Trump_presidency_(2026_Q3)"
+  },
+  {
+   "date": "2026-08-20",
+   "impact": 2,
+   "topic": "globe",
+   "text": "The Syrian Democratic Forces merged into the Syrian Army.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-08-28",
+   "impact": 2,
+   "topic": "globe",
+   "text": "King Harald V of Norway died; his son became King Haakon VIII.",
+   "url": "https://en.wikipedia.org/wiki/2026"
+  },
+  {
+   "date": "2026-09-01",
+   "impact": 4,
+   "topic": "capitol",
+   "text": "Congress passed a stopgap bill funding the government through Dec. 11, avoiding an Oct. 1 shutdown.",
+   "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
+  },
+  {
+   "date": "2026-09-24",
+   "impact": 3,
+   "topic": "capitol",
+   "text": "The Senate rejected, 49-50, a resolution directing U.S. forces out of hostilities with Iran.",
+   "url": "https://www.senate.gov/legislative/LIS/floor_activity/floor_activity.htm"
+  },
+  {
+   "date": "2026-09-25",
+   "impact": 4,
+   "topic": "court",
+   "text": "The Supreme Court ruled 7-2 the administration can use its expanded SAVE database to help states check voters' citizenship.",
+   "url": "https://www.scotusblog.com/2026/09/supreme-court-clears-way-for-trump-administration-to-use-modified-voter-verification-database/"
+  },
+  {
+   "date": "2026-09-26",
+   "impact": 4,
+   "topic": "trade",
+   "text": "After a Trump-Xi summit in Washington, the U.S. and China extended their trade truce to Jan. 10, 2027 and agreed to $60 billion in tariff cuts.",
+   "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says"
+  },
+  {
+   "date": "2026-09-29",
+   "impact": 3,
+   "topic": "court",
+   "text": "The Supreme Court let the administration resume deportations to third countries while it hears the case in December.",
+   "url": "https://www.cbsnews.com/news/supreme-court-trump-third-country-deportation-policy/"
+  },
+  {
+   "date": "2026-09-29",
+   "impact": 4,
+   "topic": "factory",
+   "text": "The Transportation Department cut fuel economy standards to 34.9 mpg by model year 2031, down from about 50 mpg.",
+   "url": "https://www.repairerdrivennews.com/2026/09/29/usdot-releases-final-corporate-average-fuel-economy-standards-rule-for-model-years-2022-2031/"
+  },
+  {
+   "date": "2026-09-30",
+   "impact": 4,
+   "topic": "conflict",
+   "text": "The United States ended its anti-ISIS military mission in Iraq, withdrawing the last U.S. troops after more than two decades.",
+   "url": "https://www.cbsnews.com/news/us-military-iraq-withdrawal-isis-operation-inherent-resolve-over/"
+  },
+  {
+   "date": "2026-10-01",
+   "impact": 4,
+   "topic": "pulse",
+   "text": "Federal Medicaid and CHIP funding ended for many refugees, asylees and other legal immigrants as a provision of the 2025 Working Families Tax Cut law took effect.",
+   "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-guidance-implement-new-limits-federal-medicaid-chip-funding-certain-noncitizens"
+  },
+  {
+   "date": "2026-10-09",
+   "impact": 4,
+   "topic": "court",
+   "text": "The United States placed sanctions on the International Criminal Court itself, freezing its U.S.-linked assets and barring most American dealings with it.",
+   "url": "https://ofac.treasury.gov/recent-actions/20261009"
+  },
+  {
+   "date": "2026-10-13",
+   "impact": 4,
+   "topic": "pulse",
+   "text": "A federal ban on Medicaid and CHIP funding for puberty blockers, hormones and gender surgery for minors took effect nationwide.",
+   "url": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for"
+  },
+  {
+   "date": "2026-10-16",
+   "impact": 4,
+   "topic": "trade",
+   "text": "President Trump waived the tariffs and most sanctions of the Russia sanctions law he had signed in September, a week after easing sanctions on Russian diesel.",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
+  },
+  {
+   "date": "2026-10-19",
+   "impact": 4,
+   "topic": "court",
+   "text": "The Supreme Court left the 9/11 plea deals voided, keeping the death penalty possible for Khalid Sheikh Mohammed and two co-defendants.",
+   "url": "https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf"
+  },
+  {
+   "date": "2026-10-21",
+   "impact": 3,
+   "topic": "conflict",
+   "text": "The United States ordered non-emergency diplomats and their families out of Saudi Arabia as Houthi missile and drone attacks on the kingdom escalated.",
+   "url": "https://apnews.com/article/us-saudi-arabia-yemen-houthis-fa9a4806bff404a23a16a8c209afbd2b"
+  },
+  {
+   "date": "2026-10-25",
+   "impact": 4,
+   "topic": "ballot",
+   "text": "Brazil's Luiz Inácio Lula da Silva won a fourth presidential term, defeating Flávio Bolsonaro 51.8% to 48.2% in a runoff that Bolsonaro refused to concede.",
+   "url": "https://apnews.com/article/brazil-election-lula-bolsonaro-runoff-vote-president-e2c9fe8fc4aa3e3675b9a8ec15405d93"
+  },
+  {
+   "date": "2026-10-28",
+   "impact": 4,
+   "topic": "sports",
+   "text": "The Milwaukee Brewers won the first World Series title in franchise history, beating the Tampa Bay Rays four games to one.",
+   "url": "https://apnews.com/article/brewers-rays-world-series-game-5-971f9fb8cad75042fc7f9919dd91c159"
+  },
+  {
+   "date": "2026-10-31",
+   "impact": 4,
+   "topic": "sports",
+   "text": "The Golden State Valkyries won the WNBA championship in their second season, beating the Atlanta Dream 68-63 in the first Game 7 in Finals history.",
+   "url": "https://apnews.com/article/wnba-finals-game-7-valkyries-dream-189aa4b8ecb1d1fd8ddfacde3a9d6ac4"
+  },
+  {
+   "date": "2026-11-03",
+   "impact": 5,
+   "topic": "capitol",
+   "text": "Democrats won control of both the House and the Senate in the midterm elections, flipping at least seven Republican-held Senate seats in a rebuke of President Trump.",
+   "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226"
+  },
+  {
+   "date": "2026-11-11",
+   "impact": 4,
+   "topic": "ballot",
+   "text": "Democrat Scott Colom unseated Sen. Cindy Hyde-Smith to become Mississippi's first Black U.S. senator since Reconstruction, giving Democrats 55 Senate seats.",
+   "url": "https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346"
+  },
+  {
+   "date": "2026-11-12",
+   "impact": 4,
+   "topic": "factory",
+   "text": "Nvidia founder Jensen Huang resigned as CEO of the world's most valuable chipmaker after 33 years, following revelations of an affair with a suspected Chinese intelligence asset.",
+   "url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
+  },
+  {
+   "date": "2026-11-13",
+   "impact": 4,
+   "topic": "agency",
+   "text": "The FAA halted all departures nationwide for more than four hours, the longest U.S. ground stop in 25 years, after overloaded, decades-old air traffic network equipment failed.",
+   "url": "https://apnews.com/article/ground-stop-flights-airlines-cancellations-faa-1fbf4992f0ddaa4c463b0e4990b6e291"
+  },
+  {
+   "date": "2026-11-14",
+   "impact": 4,
+   "topic": "rocket",
+   "text": "SpaceX's Starship upper stage returned from orbit and was caught by its launch tower's mechanical arms in Texas, the first catch of a spacecraft coming back from orbit.",
+   "url": "https://apnews.com/df394c1b5a0f85e11194f9ff7db9ee6b"
+  },
+  {
+   "date": "2026-11-17",
+   "impact": 4,
+   "topic": "pulse",
+   "text": "The Pan American Health Organization declared that measles was no longer eliminated in the United States, Mexico and Bolivia after a year of continuous spread, ending 26 years of U.S. elimination status.",
+   "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+  },
+  {
+   "date": "2026-11-19",
+   "impact": 4,
+   "topic": "court",
+   "text": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya, the first time the world court found a state itself responsible for genocide.",
+   "url": "https://news.un.org/en/story/2026/11/1168836"
+  }
+ ]
 }

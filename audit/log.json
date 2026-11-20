@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T21:40:00-05:00",
+  "updated": "2026-11-19T21:45:00-05:00",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -372,6 +372,29 @@
       "checklist_changes": [
         "Treasury/OFAC line generalized to State FTO designations",
         "District-courts line adds IMLS miss and litigation tracker"
+      ]
+    },
+    {
+      "run": "2026-11-19T21:45:00-05:00",
+      "day": "2026-11-16/2026-11-19",
+      "reference_events": 10,
+      "missed": [
+        {
+          "id": "2026-11-16-dhs-duration-of-status-vacated",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "D. Mass. Judge F. Dennis Saylor vacated DHS's July 2026 final rule setting fixed admission periods for F, J and I visa holders (students, exchange visitors, foreign journalists) on Nov 16 (AP via ANI, Garfinkel Immigration alert); no edition ran it."
+        },
+        {
+          "id": "2026-11-18-overton-fda-nomination-withdrawn",
+          "impact": 3,
+          "should_have_caught": "morning",
+          "reason": "Trump withdrew Heidi Overton's nomination to lead the FDA on Nov 18 ahead of a HELP Committee vote, citing insufficient Senate support (Reuters); the Nov 19 catch-up edition covering Nov 17-19 did not run it."
+        }
+      ],
+      "checklist_changes": [
+        "District-courts line adds APA vacatur search and the duration-of-status miss; older examples condensed",
+        "Departure-waves line adds withdrawn nominations and a rule that catch-up editions search every skipped date"
       ]
     }
   ]

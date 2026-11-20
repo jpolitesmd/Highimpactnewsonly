@@ -1,0 +1,129 @@
+{
+ "date": "2026-11-20",
+ "edition": "evening",
+ "subject": "Friday, Nov 20 - Evening edition",
+ "published": "2026-11-20T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-20-sp500-dow-correction",
+   "section": "money",
+   "text": "The S&P 500 and the Dow both fell into a correction Friday, more than 10% below their record highs, as the AI stock sell-off deepened.",
+   "detail": "By preliminary closing figures, the S&P 500 fell 3.59% to 6,918.45, its seventh straight loss and longest losing streak since February 2020. The Nasdaq dropped 5.13% to 22,654.15 and turned negative for 2026, and the Dow lost 1.85% to 48,188.18. All three had their worst week since April 2025. Nvidia fell about 14% and Micron about 14%; Anthropic's shares posted a steep loss on their second day of trading. Bitcoin dropped below $60,000. Traders are pricing a near-certain quarter-point Fed rate hike in December.",
+   "why": "The slide hits the 401(k)s and retirement savings of tens of millions of Americans, and it came a day after Anthropic's record IPO failed to steady AI shares.",
+   "impact": 4,
+   "topic": "markets",
+   "region": "US",
+   "time": "2026-11-20T16:00:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/"
+  },
+  {
+   "id": "2026-11-20-riemann-hypothesis-ai-proof-claim",
+   "section": "tech",
+   "text": "An Anthropic mathematician, Levent Alpöge, says he and the company's Claude AI found a proof of the Riemann Hypothesis, math's most famous unsolved problem; experts have not confirmed it.",
+   "detail": "Alpöge posted the proof in the Lean language, which checks each step by computer, and said it covers the broader Generalized Riemann Hypothesis. MIT mathematician Andrew Sutherland told Scientific American he compiled the Lean code independently and called it \"an historic moment,\" but said much work remains to understand the proof. The 1859 problem, about the pattern of prime numbers, carries a $1 million Clay Mathematics Institute prize.",
+   "why": "If it holds up, it would be the biggest result in mathematics in generations and was done largely by AI.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-20T12:00:00-05:00",
+   "time_known": false,
+   "source": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+  },
+  {
+   "id": "2026-11-20-hormuz-tanker-fire-iran-sanctions",
+   "section": "news",
+   "text": "A tanker leaving the Strait of Hormuz caught fire Friday after being hit by an unknown projectile, the British navy's UKMTO center said; no one was hurt.",
+   "detail": "The strike happened about 8 nautical miles north of Khasab, Oman, at 1500 GMT. Iran's Revolutionary Guards said the tanker hit a mine. It is at least the third tanker reported hit near Khasab since Monday. Separately, the Treasury Department sanctioned four Iranian regime insiders it said sell oil for the government, including a former Revolutionary Guards intelligence officer.",
+   "why": "Attacks on ships in the strait, which carried about a fifth of the world's oil before the war, keep fuel prices and the war on edge.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-20T10:00:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/fire-reported-tanker-after-projectile-strike-off-oman-ukmto-says-2026-11-20/"
+  },
+  {
+   "id": "2026-11-20-russia-mass-strike-ukraine",
+   "section": "news",
+   "text": "Russia fired more than 400 drones and about 110 missiles at Ukraine overnight, killing at least eight people, after Putin vowed revenge for strikes on the Crimea bridge.",
+   "detail": "President Volodymyr Zelenskyy said 27 of the missiles were ballistic and that the attack targeted energy, railway and logistics sites. Six people died in Kyiv, three of them water-utility workers, and two at a railway station in Lviv. Three bridges over the Dnipro in Kyiv were hit, and emergency power cuts hit western Ukraine. Ukraine's air force said it downed 380 drones, 79 cruise missiles and three ballistic missiles.",
+   "why": "It is one of the largest air attacks of the war, a day after the Trump-Xi-Putin meeting in China.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-20T08:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/fire-broke-out-ukraines-kyiv-after-missile-strike-mayor-says-2026-11-20/"
+  },
+  {
+   "id": "2026-11-20-trump-data-center-tax-threat",
+   "section": "news",
+   "text": "U.S. tech companies that build AI data centers in other countries will face a \"tremendous tax\" or be blocked, President Trump said Friday, giving no details.",
+   "detail": "Trump said at a nearly two-hour White House news conference that he had not yet discussed the idea with his own officials; Congress, not the president, has the power to set federal taxes, and he did not say whether he would seek new law. At the same news conference he said Iran wants a deal but \"not a deal that's acceptable to me,\" and called last week's air-travel, bank and NSA outages \"all separate events.\"",
+   "why": "Amazon, Microsoft, Google and other U.S. firms are spending hundreds of billions on data centers, many of them abroad.",
+   "impact": 2,
+   "topic": "whitehouse",
+   "region": "US",
+   "time": "2026-11-20T12:45:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879"
+  },
+  {
+   "id": "2026-11-20-judge-blocks-trump-arch",
+   "section": "news",
+   "text": "President Trump's planned 250-foot arch near Arlington National Cemetery was blocked indefinitely by a second federal judge Friday.",
+   "detail": "U.S. District Judge Leonie Brinkema in Alexandria, Va., ruled from the bench in a suit by the Arlington County Board, calling the project a \"rushed job\" that lacks congressional approval. A separate order by Judge Tanya Chutkan in Washington already blocks construction until Dec. 3. The White House said it is confident it will be vindicated.",
+   "why": "The arch would stand twice as tall as the Lincoln Memorial, in the flight path of Reagan National Airport.",
+   "impact": 2,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-20T11:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/f7b9b0a0480481505038d007bf270cd9"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 6
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-24",
+   "when": "10:00 a.m. ET",
+   "text": "November Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
+   "detail": "Release date per the Conference Board. The index rose 7.5 points to 91.7 in October, up from 84.2 in September.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "when": "8:30 a.m. ET",
+   "text": "Third-quarter GDP (second estimate) and October personal income and spending, including the PCE inflation gauge, 8:30 a.m. ET.",
+   "detail": "Both releases scheduled for the same morning, per the BEA news release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "when": "December",
+   "branch": "judicial",
+   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+  }
+ ]
+}

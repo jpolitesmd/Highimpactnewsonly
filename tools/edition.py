@@ -82,10 +82,15 @@ def select(items, edition, now):
             ids |= {i["id"] for i in overnight + recap}
             recap += rank([i for i in items if t(i) and now - t(i) <= datetime.timedelta(hours=72)
                            and eligible(i) and i["id"] not in ids])[:5 - len(overnight) - len(recap)]
+        # 3) Owner-approved one-time catch-ups: items whose "catchup" equals "YYYY-MM-DD morning"
+        # (stories the coverage audit found we missed) run once, in their own group, whatever their date.
+        listed = {i["id"] for i in overnight + recap}
+        catchup = rank([i for i in items if i.get("catchup") == PIN and i["id"] not in listed])
         groups = []
         if overnight: groups.append(("Overnight", len(overnight)))
         if recap: groups.append(("Yesterday's biggest stories" if overnight else None, len(recap)))
-        return overnight + recap, datetime.timedelta(hours=36), groups
+        if catchup: groups.append(("Catching up", len(catchup)))
+        return overnight + recap + catchup, datetime.timedelta(hours=36), groups
     # Evening (every day, including Saturday and Sunday): only what happened since the morning
     # edition (about 5 a.m. Eastern), nothing from yesterday.
     since = datetime.datetime.combine(today, MORNING_SWEEP, ET)

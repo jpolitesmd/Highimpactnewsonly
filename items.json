@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T16:50:00-05:00",
+ "updated": "2026-11-20T05:55:00-05:00",
  "items": [
   {
    "id": "2026-11-16-bank-outages-chase",
@@ -16374,6 +16374,156 @@
     "outage"
    ],
    "added_at": "2026-11-19T16:50:00-05:00"
+  },
+  {
+   "id": "2026-11-19-senate-passes-permitting-bill",
+   "section": "news",
+   "topic": "capitol",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-19T21:45:00-05:00",
+   "time_known": false,
+   "pin": "2026-11-20 morning",
+   "pin_order": 1,
+   "text": "A sweeping bill to speed up federal permits for power lines, pipelines, mines and wind and solar farms passed the Senate Thursday night and now goes to the House.",
+   "detail": "The Bipartisan American Affordability and Jobs Act (H.R. 2347 as amended) passed 62-33. Fifteen members of the Democratic caucus voted yes along with nearly all Republicans; 31 Democrats and Republican Sens. Josh Hawley and Mike Rounds voted no, many Democrats citing weaker environmental protections. The bill shortens reviews under the National Environmental Policy Act, Endangered Species Act and Clean Water Act, gives federal regulators new authority over interstate transmission lines, and aims to keep power customers from paying for grid hookups to data centers. President Trump backs the deal; the House is expected to take it up after Thanksgiving.",
+   "why": "It is the biggest change in years to how energy and infrastructure projects get approved, with backers saying it will lower power bills.",
+   "source": "U.S. Senate roll call",
+   "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.htm",
+   "tags": [
+    "permitting",
+    "energy",
+    "senate",
+    "infrastructure"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
+  },
+  {
+   "id": "2026-11-19-cyber-director-cairncross-fired",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "thread": "us-outages",
+   "time": "2026-11-19T18:25:00-05:00",
+   "time_known": false,
+   "text": "The White House national cyber director, Sean Cairncross, was fired after a week of outages hit air travel, banks and the NSA, a person close to the White House said.",
+   "detail": "The source said the president \"fully supported\" the firing; Defense Department chief information officer Kirsten Davies takes the job temporarily. Cairncross, confirmed in August 2025, said it was the \"honor of a lifetime\" to serve. The top U.S. intelligence official said Wednesday the outages were separate maintenance and technical failures, not a coordinated or state-sponsored attack. A permanent successor needs Senate confirmation; Democrats take control of the Senate in January.",
+   "why": "It is the administration's first personnel move after outages that grounded flights and froze bank accounts.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/white-house-national-cyber-director-cairncross-leaving-his-post-axios-reports-2026-11-19/",
+   "tags": [
+    "cybersecurity",
+    "white-house",
+    "outage"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
+  },
+  {
+   "id": "2026-11-20-global-stocks-ai-selloff",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "markets",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 3,
+   "time": "2026-11-20T05:12:00-05:00",
+   "time_known": false,
+   "text": "Stock markets fell around the world Friday as the AI sell-off deepened, putting Asian shares on track for their worst week since March 2020.",
+   "detail": "Japan's Nikkei fell 5%, and Taiwan's market was down 17% for the week, its biggest weekly drop since 1990. MSCI's index of Asia-Pacific shares outside Japan is down 8% this week. Europe's STOXX 600 fell 1.5% and Nasdaq 100 futures fell 1.5%; MSCI's world index fell for a seventh straight session, its longest losing streak since 2023. Investors bought bonds, pushing the 10-year Treasury yield below 5%. Anthropic's record IPO Thursday did not restore confidence in AI spending, analysts told Reuters.",
+   "why": "A global slide in AI stocks hits retirement accounts and could weigh on the economy.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+   "tags": [
+    "stocks",
+    "ai",
+    "markets",
+    "asia"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
+  },
+  {
+   "id": "2026-11-19-florida-record-20th-execution",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-19T18:19:00-05:00",
+   "time_known": true,
+   "text": "Florida executed Thomas Overton for the 1991 murders of a Florida Keys couple, the state's 20th execution this year, a record.",
+   "detail": "Overton, 71, was pronounced dead at 6:19 p.m. at Florida State Prison after the U.S. Supreme Court denied a stay; his last words were \"I never killed anyone.\" He was convicted of raping and killing Missy MacIvor, who was eight months pregnant, and killing her husband, Michael. Florida executed 19 people in 2025; two more executions are scheduled in December. Later Thursday, Texas executed Reinaldo Dennes, 70, in a procedure that took over an hour as staff struggled to find a vein, AP reported.",
+   "why": "Florida now carries out more executions than the rest of the country combined.",
+   "source": "Palm Beach Post (USA TODAY Network)",
+   "url": "https://www.palmbeachpost.com/story/news/crime/2026/11/19/florida-execution-today-thomas-overton-murder-missy-michael-macivor--live/92693355007/",
+   "tags": [
+    "death-penalty",
+    "florida",
+    "texas"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
+  },
+  {
+   "id": "2026-11-19-trump-pardons-pete-rose",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-19T17:00:00-05:00",
+   "time_known": false,
+   "text": "Baseball's career hits leader Pete Rose was posthumously pardoned by President Trump for his 1990 tax crimes.",
+   "detail": "Trump announced the \"Complete and Total Pardon\" on social media Thursday. Rose, who died in 2024 with 4,256 hits, pleaded guilty in 1990 to filing false tax returns, months after accepting a lifetime ban from baseball over betting. Major League Baseball reinstated him last year.",
+   "why": "It clears the record of one of baseball's most famous and divisive figures.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/sports/trump-pardons-late-baseball-legend-pete-rose-tax-crimes-2026-11-19/",
+   "tags": [
+    "pardon",
+    "baseball",
+    "pete-rose"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
+  },
+  {
+   "id": "2026-11-16-dhs-duration-of-status-vacated",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "catchup": "2026-11-20 morning",
+   "time": "2026-11-16T15:00:00-05:00",
+   "time_known": false,
+   "text": "A Homeland Security rule capping how long foreign students, exchange visitors and foreign journalists can stay in the U.S. was struck down by a federal judge in Boston Monday.",
+   "detail": "U.S. District Judge F. Dennis Saylor vacated the July rule nationwide, finding it \"arbitrary and capricious\" and beyond DHS's authority. It would have replaced open-ended \"duration of status\" admission for F, J and I visa holders with fixed stays of up to four years, required many to apply for extensions, and limited some PhD, joint-degree and program changes. \"DHS is seeking to prevent or discourage the very activity... that Congress sought to permit and encourage,\" Saylor wrote. The rule never took effect after he blocked it in September; the government's appeal of that order is pending. (Missed in our Nov. 16-17 editions.)",
+   "why": "It keeps the decades-old rules for more than a million international students and visiting journalists.",
+   "source": "POLITICO",
+   "url": "https://www.politico.com/news/2026/11/16/judge-tosses-limits-foreign-students-study-us-01168681",
+   "tags": [
+    "immigration",
+    "students",
+    "visas",
+    "courts"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
+  },
+  {
+   "id": "2026-11-17-overton-fda-nomination-withdrawn",
+   "section": "news",
+   "topic": "health",
+   "region": "US",
+   "impact": 3,
+   "catchup": "2026-11-20 morning",
+   "time": "2026-11-17T19:30:00-05:00",
+   "time_known": false,
+   "text": "Heidi Overton's nomination to lead the Food and Drug Administration was withdrawn by President Trump the night before a key Senate committee vote, citing too little support.",
+   "detail": "A White House official said the nomination lacked enough support in Congress; the Senate health committee, where Republicans hold a one-seat edge, was due to vote Wednesday. Committee chair Bill Cassidy said the White House \"abandoned a viable confirmation path.\" Overton, a physician and White House domestic policy aide, faced criticism over her views on vaccines and abortion. Sen. Roger Marshall of Kansas is being weighed as a replacement, sources told Reuters. The FDA has had no Senate-confirmed leader since Marty Makary left in May. (Missed in our Nov. 18-19 editions.)",
+   "why": "The agency that approves drugs and oversees food safety will likely go without a confirmed chief into next year.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/litigation/trump-withdraws-heidi-overton-nominee-lead-food-drug-administration-sources-say-2026-11-18/",
+   "tags": [
+    "fda",
+    "nominations",
+    "senate"
+   ],
+   "added_at": "2026-11-20T05:55:00-05:00"
   }
  ]
 }

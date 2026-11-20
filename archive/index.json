@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-20-morning",
+   "date": "2026-11-20",
+   "edition": "morning",
+   "count": 12,
+   "lead": "A sweeping bill to speed up federal permits for power lines, pipelines, mines and wind and solar farms passed the Senate Thursday night and now goes to the House."
+  },
+  {
    "key": "2026-11-19-evening",
    "date": "2026-11-19",
    "edition": "evening",
@@ -708,5 +715,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-19T16:28:58-05:00"
+ "updated": "2026-11-20T05:32:21-05:00"
 }

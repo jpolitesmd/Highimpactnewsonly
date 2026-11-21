@@ -1,0 +1,115 @@
+{
+ "date": "2026-11-21",
+ "edition": "evening",
+ "subject": "Saturday, Nov 21 - Evening edition",
+ "published": "2026-11-21T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-21-el-chapo-isidro-captured",
+   "section": "news",
+   "text": "Fausto Isidro Meza Flores, the cartel boss called \"El Chapo Isidro\" and one of the FBI's 10 most wanted, was captured in Mexico, officials confirmed Saturday.",
+   "detail": "Mexico's security chief said Saturday morning that army and National Guard special forces captured Meza Flores and two other leaders of his organization Friday night in Guasave, Sinaloa, in an operation the defense ministry said was coordinated with U.S. intelligence. He was flown to Mexico City to face prosecutors; Mexico says he faces a U.S. extradition order on drug-trafficking charges. The U.S. offered up to $5 million for him and says his group smuggled heroin, methamphetamine, cocaine and marijuana into the United States for more than 20 years. The raid set off firefights and burning roadblocks across northern Sinaloa; Mexico's Defense Cabinet said Saturday afternoon that seven suspected cartel gunmen and four soldiers were killed.",
+   "why": "It removes one of the top suppliers of drugs to the U.S. as Washington presses Mexico to act against the cartels.",
+   "impact": 4,
+   "topic": "security",
+   "region": "World",
+   "time": "2026-11-21T09:50:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/americas/mexico-captures-top-drug-lord-el-chapo-isidro-latest-string-captures-2026-11-21/"
+  },
+  {
+   "id": "2026-11-21-centcom-denies-iran-f16-claim",
+   "section": "news",
+   "text": "U.S. Central Command denied Saturday an Iranian claim that Iran's air defenses hit a U.S. F-16 over the Gulf and forced it to make an emergency landing.",
+   "detail": "Iranian state media said air defenses targeted the jet Friday evening, causing it to abort its mission and land at a nearby airport. \"Iran did not attack a US F-16 fighter aircraft yesterday — at all,\" Central Command said, adding that all U.S. fighter jets in the Middle East were safe and accounted for. Iran has made similar claims during the war that the U.S. military has denied.",
+   "why": "Competing claims about attacks on U.S. aircraft come as tankers keep getting hit near the Strait of Hormuz.",
+   "impact": 3,
+   "topic": "war",
+   "region": "World",
+   "time": "2026-11-21T10:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/aerospace-defense/us-denies-iranian-account-that-missile-damaged-f-16-over-gulf-2026-11-21/"
+  },
+  {
+   "id": "2026-11-21-poland-confirms-russian-missile-rutte",
+   "section": "news",
+   "text": "Polish prosecutors confirmed Saturday that a missile that crashed in Poland was a Russian Kh-101 built this year, as NATO's chief vowed to defend \"every inch\" of Polish territory.",
+   "detail": "Investigators in Lublin said propulsion and guidance parts recovered at Nowy Lipowiec, about 60 km from the Ukrainian border, came from a Russian-made missile manufactured in the fourth quarter of 2026; work continues at the other two crash sites. NATO Secretary General Mark Rutte met Prime Minister Donald Tusk in Warsaw, called the incursion \"clearly dangerous\" and said NATO commanders are assessing deterrence and defense. Poland has asked for more NATO support on the eastern flank but has not invoked Article 4 consultations. No one was hurt; Russia has not commented.",
+   "why": "Confirmation that Russian weapons hit NATO soil raises pressure on the alliance to respond.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-21T08:00:00-05:00",
+   "time_known": false,
+   "source": "dpa",
+   "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261121-930-31477/"
+  },
+  {
+   "id": "2026-11-21-sparta-ii-drone-strike-gulf-of-finland",
+   "section": "news",
+   "text": "A Russian cargo ship bound for Kaliningrad, the Sparta II, caught fire after a drone strike in the Gulf of Finland Saturday; Finland's military said Ukraine was likely behind it.",
+   "detail": "Finland's coast guard was alerted at about 8:50 a.m. local time (1:50 a.m. ET), about 50 km west of Suursaari island; the burning ship drifted into Finnish waters and its crew was evacuated to a Russian vessel. Kaliningrad's governor said two drones were used. The ship, run by a company tied to Russia's defense ministry, is under U.S. and Ukrainian sanctions. Finland set temporary air and sea restrictions and said a Russian helicopter may have violated its airspace. Prime Minister Petteri Orpo said \"war is spilling over into our immediate vicinity.\" Kyiv has not commented. No environmental damage was found.",
+   "why": "The strike brings the war into busy Baltic shipping lanes next to NATO members.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "World",
+   "time": "2026-11-21T01:50:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/"
+  },
+  {
+   "id": "2026-11-21-bolsonaro-icu",
+   "section": "news",
+   "text": "Brazil's former President Jair Bolsonaro was moved to intensive care Saturday with an intestinal obstruction while serving a 27-year prison sentence.",
+   "detail": "Bolsonaro was hospitalized Friday with abdominal pain and diagnosed with an acute intestinal obstruction, his son said. The hospital said Saturday he is in the ICU in stable condition with no discharge date. He has had several surgeries tied to a 2018 stabbing. He is serving a 27-year sentence for plotting a coup after his 2022 election loss.",
+   "why": "Bolsonaro remains the leading figure of Brazil's right, and his health shapes its politics.",
+   "impact": 2,
+   "topic": "health",
+   "region": "World",
+   "time": "2026-11-21T14:30:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/americas/brazil-ex-president-jair-bolsonaro-taken-icu-2026-11-21/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-24",
+   "when": "10:00 a.m. ET",
+   "text": "November Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
+   "detail": "Release date per the Conference Board. The index rose 7.5 points to 91.7 in October, up from 84.2 in September.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "when": "8:30 a.m. ET",
+   "text": "Third-quarter GDP (second estimate) and October personal income and spending, including the PCE inflation gauge, 8:30 a.m. ET.",
+   "detail": "Both releases scheduled for the same morning, per the BEA news release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "when": "December",
+   "branch": "judicial",
+   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+  }
+ ]
+}

@@ -1,6 +1,158 @@
 {
- "updated": "2026-11-21T05:45:00-05:00",
+ "updated": "2026-11-21T16:38:25-05:00",
  "items": [
+  {
+   "id": "2026-11-21-el-chapo-isidro-captured",
+   "section": "news",
+   "topic": "security",
+   "region": "World",
+   "world_region": "americas",
+   "impact": 4,
+   "time": "2026-11-21T09:50:00-05:00",
+   "time_known": false,
+   "text": "Fausto Isidro Meza Flores, the cartel boss called \"El Chapo Isidro\" and one of the FBI's 10 most wanted, was captured in Mexico, officials confirmed Saturday.",
+   "detail": "Mexico's security chief said Saturday morning that army and National Guard special forces captured Meza Flores and two other leaders of his organization Friday night in Guasave, Sinaloa, in an operation the defense ministry said was coordinated with U.S. intelligence. He was flown to Mexico City to face prosecutors; Mexico says he faces a U.S. extradition order on drug-trafficking charges. The U.S. offered up to $5 million for him and says his group smuggled heroin, methamphetamine, cocaine and marijuana into the United States for more than 20 years. The raid set off firefights and burning roadblocks across northern Sinaloa; Mexico's Defense Cabinet said Saturday afternoon that seven suspected cartel gunmen and four soldiers were killed.",
+   "why": "It removes one of the top suppliers of drugs to the U.S. as Washington presses Mexico to act against the cartels.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/americas/mexico-captures-top-drug-lord-el-chapo-isidro-latest-string-captures-2026-11-21/",
+   "tags": [
+    "mexico",
+    "cartels",
+    "fbi",
+    "sinaloa"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
+  {
+   "id": "2026-11-21-centcom-denies-iran-f16-claim",
+   "section": "news",
+   "topic": "war",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-21T10:00:00-05:00",
+   "time_known": false,
+   "text": "U.S. Central Command denied Saturday an Iranian claim that Iran's air defenses hit a U.S. F-16 over the Gulf and forced it to make an emergency landing.",
+   "detail": "Iranian state media said air defenses targeted the jet Friday evening, causing it to abort its mission and land at a nearby airport. \"Iran did not attack a US F-16 fighter aircraft yesterday — at all,\" Central Command said, adding that all U.S. fighter jets in the Middle East were safe and accounted for. Iran has made similar claims during the war that the U.S. military has denied.",
+   "why": "Competing claims about attacks on U.S. aircraft come as tankers keep getting hit near the Strait of Hormuz.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/aerospace-defense/us-denies-iranian-account-that-missile-damaged-f-16-over-gulf-2026-11-21/",
+   "tags": [
+    "iran",
+    "centcom",
+    "f-16"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
+  {
+   "id": "2026-11-21-poland-confirms-russian-missile-rutte",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 3,
+   "thread": "russia-ukraine",
+   "time": "2026-11-21T08:00:00-05:00",
+   "time_known": false,
+   "text": "Polish prosecutors confirmed Saturday that a missile that crashed in Poland was a Russian Kh-101 built this year, as NATO's chief vowed to defend \"every inch\" of Polish territory.",
+   "detail": "Investigators in Lublin said propulsion and guidance parts recovered at Nowy Lipowiec, about 60 km from the Ukrainian border, came from a Russian-made missile manufactured in the fourth quarter of 2026; work continues at the other two crash sites. NATO Secretary General Mark Rutte met Prime Minister Donald Tusk in Warsaw, called the incursion \"clearly dangerous\" and said NATO commanders are assessing deterrence and defense. Poland has asked for more NATO support on the eastern flank but has not invoked Article 4 consultations. No one was hurt; Russia has not commented.",
+   "why": "Confirmation that Russian weapons hit NATO soil raises pressure on the alliance to respond.",
+   "source": "dpa",
+   "url": "https://dpa-international.com/politics/urn:newsml:dpa.com:20090101:261121-930-31477/",
+   "tags": [
+    "poland",
+    "nato",
+    "russia",
+    "rutte"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
+  {
+   "id": "2026-11-21-sparta-ii-drone-strike-gulf-of-finland",
+   "section": "news",
+   "topic": "ship",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 3,
+   "thread": "russia-ukraine",
+   "time": "2026-11-21T01:50:00-05:00",
+   "time_known": true,
+   "text": "A Russian cargo ship bound for Kaliningrad, the Sparta II, caught fire after a drone strike in the Gulf of Finland Saturday; Finland's military said Ukraine was likely behind it.",
+   "detail": "Finland's coast guard was alerted at about 8:50 a.m. local time (1:50 a.m. ET), about 50 km west of Suursaari island; the burning ship drifted into Finnish waters and its crew was evacuated to a Russian vessel. Kaliningrad's governor said two drones were used. The ship, run by a company tied to Russia's defense ministry, is under U.S. and Ukrainian sanctions. Finland set temporary air and sea restrictions and said a Russian helicopter may have violated its airspace. Prime Minister Petteri Orpo said \"war is spilling over into our immediate vicinity.\" Kyiv has not commented. No environmental damage was found.",
+   "why": "The strike brings the war into busy Baltic shipping lanes next to NATO members.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/",
+   "tags": [
+    "finland",
+    "baltic",
+    "russia",
+    "ukraine",
+    "drones"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
+  {
+   "id": "2026-11-21-bolsonaro-icu",
+   "section": "news",
+   "topic": "health",
+   "region": "World",
+   "world_region": "americas",
+   "impact": 2,
+   "time": "2026-11-21T14:30:00-05:00",
+   "time_known": false,
+   "text": "Brazil's former President Jair Bolsonaro was moved to intensive care Saturday with an intestinal obstruction while serving a 27-year prison sentence.",
+   "detail": "Bolsonaro was hospitalized Friday with abdominal pain and diagnosed with an acute intestinal obstruction, his son said. The hospital said Saturday he is in the ICU in stable condition with no discharge date. He has had several surgeries tied to a 2018 stabbing. He is serving a 27-year sentence for plotting a coup after his 2022 election loss.",
+   "why": "Bolsonaro remains the leading figure of Brazil's right, and his health shapes its politics.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/americas/brazil-ex-president-jair-bolsonaro-taken-icu-2026-11-21/",
+   "tags": [
+    "brazil",
+    "bolsonaro"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
+  {
+   "id": "2026-11-20-trump-eo-contractors-congress",
+   "section": "news",
+   "topic": "whitehouse",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-20T21:00:00-05:00",
+   "time_known": false,
+   "text": "Federal contractors must now alert the White House to any congressional request for information and follow its instructions on withholding material, under an order Trump signed Friday.",
+   "detail": "Executive Order 14438 covers contractors and subcontractors and says they must \"immediately\" notify the White House and their contracting agencies and abide by instructions on communications the administration deems protected by executive privilege; firms that do not comply could lose contracts, Reuters reported. It follows a White House counsel memo this week requiring approval before federal employees testify to Congress. Rep. Jamie Raskin, expected to chair House Judiciary when Democrats take control in January, called the order \"unprecedented and blatantly unlawful.\"",
+   "why": "It sets up a fight over Congress's power to investigate the administration once Democrats take over.",
+   "source": "White House",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting/",
+   "tags": [
+    "executive order",
+    "congress",
+    "contractors",
+    "oversight"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
+  {
+   "id": "2026-11-20-fifth-circuit-proxy-vote-pwfa",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-20T16:00:00-05:00",
+   "time_known": false,
+   "text": "The 2022 $1.7 trillion spending law was unconstitutionally passed by the House using proxy votes, the full 5th U.S. Circuit Court of Appeals ruled 9-8.",
+   "detail": "In Texas v. Blanche, Judge Cory Wilson wrote for the majority that the House's pandemic-era rule counting absent members as present by proxy broke the Constitution's Quorum Clause. The ruling upholds an injunction blocking enforcement of only the Pregnant Workers Fairness Act against Texas as an employer; the rest of the law is untouched. Judges Graves and Haynes dissented. The case is likely headed to the Supreme Court.",
+   "why": "It questions laws passed by proxy voting and keeps pregnant-worker protections blocked for Texas state employees.",
+   "source": "U.S. Court of Appeals for the 5th Circuit",
+   "url": "https://www.ca5.uscourts.gov/opinions/pub/24/24-10386-CV1.pdf",
+   "tags": [
+    "5th circuit",
+    "proxy voting",
+    "pregnant workers"
+   ],
+   "added_at": "2026-11-21T16:38:25-05:00"
+  },
   {
    "id": "2026-11-16-bank-outages-chase",
    "section": "news",

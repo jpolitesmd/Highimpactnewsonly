@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-21-evening",
+   "date": "2026-11-21",
+   "edition": "evening",
+   "count": 5,
+   "lead": "Fausto Isidro Meza Flores, the cartel boss called \"El Chapo Isidro\" and one of the FBI's 10 most wanted, was captured in Mexico, officials confirmed Saturday."
+  },
+  {
    "key": "2026-11-21-morning",
    "date": "2026-11-21",
    "edition": "morning",
@@ -729,5 +736,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-21T05:26:14-05:00"
+ "updated": "2026-11-21T16:38:38-05:00"
 }

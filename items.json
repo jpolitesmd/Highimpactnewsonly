@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T16:45:00-05:00",
+ "updated": "2026-11-21T05:45:00-05:00",
  "items": [
   {
    "id": "2026-11-16-bank-outages-chase",
@@ -16672,6 +16672,95 @@
     "claude"
    ],
    "added_at": "2026-11-20T16:45:00-05:00"
+  },
+  {
+   "id": "2026-11-21-fbi-ncic-database-breach",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "thread": "us-outages",
+   "time": "2026-11-20T21:12:00-05:00",
+   "time_known": false,
+   "text": "The FBI's national crime database, which police use to check warrants and run background checks, was apparently breached by hackers, CNN reported Friday night.",
+   "detail": "The FBI is investigating the suspected intrusion into the National Crime Information Center, which federal, state and local agencies use to share warrants, criminal histories and background-check data, according to two people briefed on the probe, CNN reported; Reuters and NBC News carried the report. The FBI did not comment. It would be the second breach of an FBI system in recent months, after a September hack of an FBI jobs website exposed data on employees. Separately, NBC News reported that a U.S. Department of Agriculture system used to pay farmers was hit by a cyberattack this week; USDA has not commented publicly.",
+   "why": "Officers nationwide rely on the database on every traffic stop and arrest, and it follows a week of outages at banks, air traffic control and the NSA.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/fbis-criminal-information-database-hacked-cnn-reports-2026-11-21/",
+   "tags": [
+    "fbi",
+    "cyber",
+    "ncic",
+    "usda"
+   ],
+   "added_at": "2026-11-21T05:45:00-05:00",
+   "pin": "2026-11-21 morning"
+  },
+  {
+   "id": "2026-11-21-hormuz-two-tankers-hit",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "middle-east",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-21T00:00:00-05:00",
+   "time_known": true,
+   "text": "Two more tankers leaving the Strait of Hormuz were hit by unidentified projectiles off Oman early Saturday, less than an hour apart, the British navy's UKMTO center said.",
+   "detail": "The first tanker was struck on its stern about 11 nautical miles north of Khasab, Oman, at about 0500 GMT (midnight ET); about 50 minutes later a second outbound tanker was hit in its engine room about 17 nautical miles east of Khasab. No one was reported hurt, and any environmental damage was not yet known, UKMTO said. The attacks follow Friday's strike that set a tanker on fire about 8 nautical miles north of Khasab. The ships were not named.",
+   "why": "Strikes on ships in the strait, which carried about a fifth of the world's oil before the war, keep oil prices and the Iran war on edge.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+   "tags": [
+    "iran",
+    "hormuz",
+    "tanker"
+   ],
+   "added_at": "2026-11-21T05:45:00-05:00"
+  },
+  {
+   "id": "2026-11-20-hud-homelessness-overhaul-unlawful",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-20T18:30:00-05:00",
+   "time_known": false,
+   "text": "The Trump administration's overhaul of a $4 billion homelessness program was unlawful, a federal judge ruled Friday, blocking a shift of money away from permanent housing.",
+   "detail": "U.S. District Judge Mary McElroy in Providence, R.I., ruled in a suit by 22 states, the District of Columbia and housing groups that the Department of Housing and Urban Development broke the McKinney-Vento Homeless Assistance Act by adding grant criteria for the Continuum of Care program, including a plan to set aside $1.3 billion for transitional housing and services-only grants. She also struck limits on needle-exchange work and a \"self-sufficiency\" test. HUD must let applicants revise applications until Dec. 1 and award the money by Dec. 31. HUD Secretary Scott Turner said the ruling disrupts funding days before awards and that HUD may appeal. An appeals court had overturned her earlier order on different grounds.",
+   "why": "The program funds housing for homeless veterans, families and people with disabilities in nearly every community.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/government/us-judge-rejects-trump-administrations-homelessness-program-revamp-2026-11-20/",
+   "tags": [
+    "housing",
+    "homelessness",
+    "courts",
+    "hud"
+   ],
+   "added_at": "2026-11-21T05:45:00-05:00"
+  },
+  {
+   "id": "2026-11-20-russian-missiles-land-in-poland",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 3,
+   "thread": "russia-ukraine",
+   "time": "2026-11-20T07:00:00-05:00",
+   "time_known": false,
+   "text": "Two Russian missiles and a drone crashed in Poland during Friday's barrage on Ukraine, and NATO's chief visits Warsaw Saturday; Poland called it a deliberate provocation.",
+   "detail": "Polish Defense Minister Władysław Kosiniak-Kamysz said a Kh-101 cruise missile fell near Nowy Lipowiec, a second object believed to be a missile near Rudnik nad Sanem and a jet-powered drone near Mołodycz, all in southeastern Poland. No one was hurt. Prime Minister Donald Tusk said the objects were certainly Russian and the timing, during a British- and French-led Coalition of the Willing drill in Poland, looked intentional. Poland will ask NATO for more support on its eastern flank; NATO Secretary General Mark Rutte called the incident \"clearly dangerous.\" Russia has not commented.",
+   "why": "Russian weapons landing on NATO territory raises the risk of the war spilling into the alliance.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/aerospace-defense/polish-army-investigates-report-unknown-objects-near-ukraine-border-2026-11-20/",
+   "tags": [
+    "poland",
+    "nato",
+    "russia",
+    "ukraine"
+   ],
+   "added_at": "2026-11-21T05:45:00-05:00"
   }
  ]
 }

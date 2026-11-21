@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-21-morning",
+   "date": "2026-11-21",
+   "edition": "morning",
+   "count": 8,
+   "lead": "The FBI's national crime database, which police use to check warrants and run background checks, was apparently breached by hackers, CNN reported Friday night."
+  },
+  {
    "key": "2026-11-20-evening",
    "date": "2026-11-20",
    "edition": "evening",
@@ -722,5 +729,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-20T16:31:12-05:00"
+ "updated": "2026-11-21T05:26:14-05:00"
 }

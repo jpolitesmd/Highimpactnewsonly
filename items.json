@@ -1,6 +1,71 @@
 {
- "updated": "2026-11-21T16:38:25-05:00",
+ "updated": "2026-11-22T05:40:00-05:00",
  "items": [
+  {
+   "id": "2026-11-21-bahrain-iranian-attack-industrial-site",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "middle-east",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-21T16:35:00-05:00",
+   "time_known": false,
+   "text": "Bahrain said an Iranian attack late Saturday hit a civilian industrial facility and set it on fire; no one was hurt.",
+   "detail": "Bahrain's Interior Ministry did not name the site; residents told AFP they saw smoke over Sitra Island, home to state oil company Bapco's refinery. The Bahrain Defence Force said air defenses intercepted several Iranian attacks and that falling shrapnel caused damage but no casualties. Iran's Revolutionary Guards said they fired missiles and drones at U.S. positions at the Al-Riffa and Awali bases in retaliation for U.S. drone flights over Iran, and claimed two Patriot radars were hit; U.S. Central Command did not immediately respond. Bahrain hosts the U.S. Navy's Fifth Fleet and has reported several Iranian attacks this week after a lull of several weeks.",
+   "why": "Iran is again striking a Gulf ally that hosts a major U.S. base, widening the war beyond the Strait of Hormuz.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+   "tags": [
+    "iran",
+    "bahrain",
+    "gulf"
+   ],
+   "added_at": "2026-11-22T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-22-dymer-drone-apartment-collapse",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 2,
+   "thread": "russia-ukraine",
+   "time": "2026-11-22T01:00:00-05:00",
+   "time_known": false,
+   "text": "A Russian drone collapsed much of a five-story apartment building in Dymer, north of Kyiv, early Sunday; at least 14 people may be trapped, Zelenskyy said.",
+   "detail": "Ukraine's State Emergency Service said the strike destroyed apartments from the ground to the upper floors; rescuers evacuated nine people, including a child, and a teenager was hospitalized with shrapnel wounds. Kyiv regional chief Tymur Tkachenko said the blast also damaged a kindergarten and a shop. The search of the rubble was continuing.",
+   "why": "Russia's strikes on homes are continuing even as U.S.-led peace talks go on.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/least-14-people-missing-after-russian-drone-hit-building-kyiv-region-zelenskiy-2026-11-22/",
+   "tags": [
+    "ukraine",
+    "russia",
+    "kyiv"
+   ],
+   "added_at": "2026-11-22T05:40:00-05:00"
+  },
+  {
+   "id": "2026-11-21-ice-arrests-seattle-airport-jetway",
+   "section": "news",
+   "topic": "immigration",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-21T11:10:00-05:00",
+   "time_known": false,
+   "text": "Two passengers boarding an Alaska Airlines flight at Seattle's airport were arrested by ICE officers on the jetway Saturday, drawing condemnation from Washington's governor.",
+   "detail": "ICE said it targeted a Mexican man who had overstayed his visa and also arrested a woman it said threw hot coffee on officers and was in the U.S. illegally; she could be charged with assaulting a federal officer. Flight 1306 was delayed. Alaska Airlines said ICE gave no advance notice, and the Port of Seattle called the scene distressing. Gov. Bob Ferguson called the video \"horrific\" and said he believes the masked officers violated a state law limiting face coverings for law enforcement. ICE has stepped up arrests at airports since the summer.",
+   "why": "Arrests at the boarding gate come as millions prepare to fly for Thanksgiving.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/litigation/washington-governor-union-denounce-ice-arrests-travelers-seattle-airport-2026-11-22/",
+   "tags": [
+    "ice",
+    "immigration",
+    "airports",
+    "washington"
+   ],
+   "added_at": "2026-11-22T05:40:00-05:00"
+  },
   {
    "id": "2026-11-21-el-chapo-isidro-captured",
    "section": "news",

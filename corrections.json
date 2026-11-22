@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T16:55:00-05:00",
+  "updated": "2026-11-22T16:37:46-05:00",
   "corrections": [
     {
       "date": "2026-10-11T16:52:00-04:00",
@@ -42,6 +42,13 @@
       "was": "At least 27 killed and 36 wounded, per the Houthi-run health ministry",
       "now": "At least 33 killed and 39 wounded, per the ministry (Reuters could not verify)",
       "why": "The ministry raised its toll, Reuters reported"
+    },
+    {
+      "date": "2026-11-22T16:37:46-05:00",
+      "item_id": "2026-11-20-russian-missiles-land-in-poland",
+      "was": "Two Russian missiles and a jet-powered drone crashed in Poland",
+      "now": "All three objects were Russian Kh-101 cruise missiles, Polish prosecutors said Nov. 22",
+      "why": "Prosecutors revised the military's initial identification"
     }
   ]
 }

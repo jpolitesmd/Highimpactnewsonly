@@ -1,0 +1,157 @@
+{
+ "date": "2026-11-22",
+ "edition": "evening",
+ "subject": "Sunday, Nov 22 - Evening edition",
+ "published": "2026-11-22T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-22-democrats-258-house-seats",
+   "section": "news",
+   "text": "House Democrats reached at least 258 seats Sunday, their largest majority since 1992, after Rep. Virginia Foxx conceded her North Carolina race following a recount.",
+   "detail": "Democrat Chuck Hubbard, a longtime local newspaper journalist, defeated Foxx, the 11-term chair of the House Rules Committee, by about 330 votes out of roughly 287,000 cast in North Carolina's 5th District; the AP called the race Sunday afternoon after the recount. The 258 seats top the 257 Democrats won in 2008 and match their 1992 total; a few races are still uncalled. With the Senate also in Democratic hands, Hakeem Jeffries is on track to become the first Black House speaker in January, facing a Republican president who has vowed to veto Democratic bills.",
+   "why": "A majority this large lets House Democrats pass bills and run oversight of the Trump administration without relying on a handful of swing votes.",
+   "impact": 3,
+   "topic": "ballot",
+   "region": "US",
+   "time": "2026-11-22T14:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/721096a4d9ba2cd68683692361798cdb"
+  },
+  {
+   "id": "2026-11-22-poland-three-kh101-missiles",
+   "section": "news",
+   "text": "All three objects that crashed in Poland on Friday were Russian Kh-101 cruise missiles, Polish prosecutors said Sunday, not two missiles and a drone as first reported.",
+   "detail": "The Lublin regional prosecutor's office said wreckage at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz in southeastern Poland all came from Kh-101s, which preliminary findings show were built in the fourth quarter of 2026 in Dubna, near Moscow; lab tests are not finished. Work at Mołodycz resumes Monday. NATO's North Atlantic Council meets in Brussels Monday to discuss the incursions. No one was hurt; Russia has not commented.",
+   "why": "Three Russian cruise missiles landing on NATO soil is a more serious breach than first thought and raises pressure for an alliance response.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-22T11:00:00-05:00",
+   "time_known": false,
+   "source": "Lublin Regional Prosecutor's Office",
+   "url": "https://www.gov.pl/web/po-lublin/aktualny-stan-czynnosci-procesowych-w-sprawie-ujawnienia-obiektow-latajacych-na-na-terenie-wojewodztwa-lubelskiego-i-podkarpackiego-22112026-r"
+  },
+  {
+   "id": "2026-11-22-alcaraz-wins-atp-finals",
+   "section": "sports",
+   "text": "Carlos Alcaraz won his first ATP Finals title Sunday in Turin, beating world No. 1 Alexander Zverev 6-2, 7-6.",
+   "detail": "The 23-year-old Spaniard saved three straight set points in the second-set tiebreaker and went 5-0 for the week, earning a record $5.17 million. He joins Andre Agassi, Roger Federer and Novak Djokovic as the only men to win all four majors and the season-ending championships. Zverev stays No. 1.",
+   "why": "It caps a comeback season for tennis's biggest star after a four-month injury layoff.",
+   "impact": 3,
+   "topic": "sports",
+   "region": "World",
+   "time": "2026-11-22T11:00:00-05:00",
+   "time_known": false,
+   "source": "ATP Tour",
+   "url": "https://www.atptour.com/en/news/alcaraz-zverev-nitto-atp-finals-2026-sunday"
+  },
+  {
+   "id": "2026-11-22-cop31-climate-talks-collapse",
+   "section": "news",
+   "text": "The UN's COP31 climate talks in Turkey collapsed Sunday without a final agreement after the European Union and others rejected a deal that did not mention fossil fuels.",
+   "detail": "Summit president Murat Kurum, Turkey's environment minister, told the closing session in Antalya that the main decisions were not adopted for lack of consensus. Ireland's climate minister, speaking for the EU, said the bloc would not endorse an \"Antalya Pact\" that does not even mention fossil fuels; an earlier draft had called for a faster phase-out before later versions dropped the language. UN Secretary-General António Guterres said he was \"deeply disappointed.\" The summit ran two days past its scheduled end, the longest UN climate conference on record.",
+   "why": "It is a rare outright failure of the yearly UN climate process, leaving no new global commitments on cutting fossil fuel use.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-22T09:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/"
+  },
+  {
+   "id": "2026-11-22-delta-automation-outage-delays",
+   "section": "news",
+   "text": "Delta Air Lines flights were delayed nationwide Sunday after its weight-and-balance computer system failed, forcing an FAA ground stop at Atlanta days before Thanksgiving.",
+   "detail": "The FAA said the problem was with Delta's automated system for calculating aircraft weight and balance, not air traffic control; it issued a ground stop and then a ground delay at Hartsfield-Jackson at Delta's request. Delta used manual workarounds and said Sunday afternoon the system was working again. About 1,650 Delta flights, roughly half the day's schedule, were delayed by 4 p.m. ET, about 70% of them from the outage, but only a few dozen were canceled. Separately, Director of National Intelligence Jay Clayton said Sunday Americans should expect more technology outages as companies and agencies replace aging systems.",
+   "why": "It snarled one of the biggest U.S. airlines at the start of the busiest travel week of the year, after a string of bank, FAA and government system failures.",
+   "impact": 3,
+   "topic": "ship",
+   "region": "US",
+   "time": "2026-11-22T08:00:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/d4bdb732da930205ec3453d35c28daa2"
+  },
+  {
+   "id": "2026-11-22-kyiv-region-drone-strikes-toll",
+   "section": "news",
+   "text": "Russian drones killed at least seven people in the Kyiv region Sunday: four in the collapsed Dymer apartment block and three at a Vyshneve supermarket.",
+   "detail": "Zelenskyy said in his evening address that four people are confirmed dead in Dymer and ten are still unaccounted for; a boy was pulled alive from the rubble, and more than 130 rescuers are at the scene, though searches were halted by new air-raid alerts. In Vyshneve, southwest of Kyiv, a Shahed drone hit a NOVUS supermarket Sunday evening while shoppers were inside; Mayor Illia Dikov said three were killed and 15 injured, including three children.",
+   "why": "Strikes on homes and a grocery store near the capital show Russia's air campaign hitting civilians as peace efforts continue.",
+   "impact": 2,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-22T13:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/least-14-people-missing-after-russian-drone-hit-building-kyiv-region-zelenskiy-2026-11-22/"
+  },
+  {
+   "id": "2026-11-22-houthis-claim-rabigh-refinery",
+   "section": "news",
+   "text": "Yemen's Houthis said Sunday they attacked Saudi Arabia's Rabigh oil refinery on the Red Sea coast; Saudi authorities did not immediately comment.",
+   "detail": "The Iran-aligned group claimed a direct hit but gave no evidence of damage. Rabigh, about 165 km north of Jeddah, is home to Petro Rabigh, a refining and petrochemical complex built by Saudi Aramco and Japan's Sumitomo Chemical. The Houthis have claimed several attacks on Saudi energy sites in recent months; Saudi Arabia has not confirmed hits on any refinery. Separately, Iran's Revolutionary Guards navy claimed two unnamed supertankers hit mines and stopped near the Strait of Hormuz; the claim has not been independently confirmed.",
+   "why": "Attacks on Saudi oil sites and Hormuz shipping threaten global oil supplies and fuel prices.",
+   "impact": 2,
+   "topic": "energy",
+   "region": "World",
+   "time": "2026-11-22T12:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-rabigh-oil-refinery-2026-11-22/"
+  },
+  {
+   "id": "2026-11-22-bessent-nvidia-china-answers",
+   "section": "tech",
+   "text": "Nvidia must explain its chip sales to China and who handled compliance, Treasury Secretary Scott Bessent said Sunday on CBS's \"Face the Nation.\"",
+   "detail": "Bessent said the administration has been in touch with Nvidia's interim management, lead directors and lawyers: \"We do need to see who was in charge of compliance there... Did it go all the way to the top?\" Asked about President Trump's call for ousted CEO Jensen Huang to apologize and return, Bessent said, \"we have to see where the buck stops.\" Nvidia's board chairman has said the board will not rehire Huang, who resigned after reports of an affair with a woman U.S. intelligence suspects is a Chinese spy.",
+   "why": "It signals the administration's scrutiny of the world's top AI chipmaker is widening from Huang to the company's export controls.",
+   "impact": 2,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-22T10:30:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/china/us-seeks-answers-nvidias-sale-chips-china-bessent-says-2026-11-22/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-24",
+   "when": "10:00 a.m. ET",
+   "text": "November Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
+   "detail": "Release date per the Conference Board. The index rose 7.5 points to 91.7 in October, up from 84.2 in September.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "when": "8:30 a.m. ET",
+   "text": "Third-quarter GDP (second estimate) and October personal income and spending, including the PCE inflation gauge, 8:30 a.m. ET.",
+   "detail": "Both releases scheduled for the same morning, per the BEA news release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "when": "December",
+   "branch": "judicial",
+   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+  }
+ ]
+}

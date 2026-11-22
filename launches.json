@@ -1,20 +1,10 @@
 {
- "updated": "2026-11-21T16:38:25-05:00",
+ "updated": "2026-11-22T16:37:46-05:00",
  "block": {
   "start": "2026-11-09",
   "end": "2026-11-22",
   "refreshed": "2026-11-09"
  },
  "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
- "launches": [
-  {
-   "date": "2026-11-22",
-   "sort": "07:16",
-   "time": "7:16 a.m. window",
-   "rocket": "Falcon 9",
-   "mission": "NROL-136",
-   "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
-   "url": "https://www.spacex.com/launches/nrol136"
-  }
- ]
+ "launches": []
 }

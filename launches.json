@@ -1,10 +1,41 @@
 {
- "updated": "2026-11-22T16:37:46-05:00",
- "block": {
-  "start": "2026-11-09",
-  "end": "2026-11-22",
-  "refreshed": "2026-11-09"
- },
- "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
- "launches": []
+  "updated": "2026-11-23T04:28:35-05:00",
+  "block": {
+    "start": "2026-11-23",
+    "end": "2026-12-06",
+    "refreshed": "2026-11-23"
+  },
+  "source": "SpaceX launch schedule (spacex.com/launches) and SpaceX mission pages; NASA launch schedule",
+  "launches": [
+    {
+      "date": "2026-11-24",
+      "sort": "10:55",
+      "time": "10:55 a.m.–2:55 p.m. window",
+      "rocket": "Falcon 9",
+      "mission": "USSF-266",
+      "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+      "url": "https://www.spacex.com/launches/ussf266",
+      "note": "Backup: Wed., Nov. 25 at 10:46 a.m."
+    },
+    {
+      "date": "2026-11-28",
+      "sort": "23:39",
+      "time": "11:39 p.m.–3:39 a.m. window",
+      "rocket": "Falcon 9",
+      "mission": "USSF-380",
+      "site": "SLC-4E, Vandenberg Space Force Base, Calif.",
+      "url": "https://www.spacex.com/launches/ussf380",
+      "note": "Backup: Sun., Nov. 29 at 9:26 p.m."
+    },
+    {
+      "date": "2026-11-29",
+      "sort": "10:40",
+      "time": "10:40–11:00 a.m. window",
+      "rocket": "Falcon 9",
+      "mission": "NG-25",
+      "site": "SLC-40, Cape Canaveral Space Force Station, Fla.",
+      "url": "https://www.spacex.com/launches/ng25",
+      "note": "Backup: Mon., Nov. 30 at 10:24 a.m."
+    }
+  ]
 }

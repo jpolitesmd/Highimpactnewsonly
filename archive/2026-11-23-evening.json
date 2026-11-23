@@ -1,0 +1,157 @@
+{
+ "date": "2026-11-23",
+ "edition": "evening",
+ "subject": "Monday, Nov 23 - Evening edition",
+ "published": "2026-11-23T17:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-23-nvidia-reinstates-huang-ceo",
+   "section": "tech",
+   "text": "Jensen Huang was reinstated as Nvidia's CEO and president Monday, effective immediately, less than two weeks after he resigned; the company's shares jumped about 31%.",
+   "detail": "Nvidia's board voted unanimously to bring Huang back, and to his board seat, after meetings in which it said it was satisfied with his \"candor and ability to lead.\" The board said it received input from \"senior levels of the United States government\" and is confident his return \"poses no national security risk.\" Huang resigned Nov. 12 after reports of extramarital affairs, including one with a woman U.S. officials suspected of working for Chinese intelligence; board chair Harvey Jones said on the Nov. 17 earnings call that the board did not intend to reinstate him. President Trump called it \"the correct and proper decision\" on Truth Social and said the attorney general has no evidence Huang broke the law. Colette Kress, interim CEO since Nov. 12, returns to her finance role. Nvidia closed up about 31.5%, its best day since 2000, adding roughly $900 billion in market value.",
+   "why": "The return of the head of the world's most valuable chipmaker, with the government's blessing, reset the AI trade that dragged stocks into a correction last week.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-23T08:58:00-05:00",
+   "time_known": true,
+   "source": "Nvidia",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+  },
+  {
+   "id": "2026-11-23-stocks-soar-best-day-since-2025",
+   "section": "money",
+   "text": "The S&P 500 jumped 4.7% Monday, its best day since April 2025, as Huang's return to Nvidia ended a seven-day slide in U.S. stocks.",
+   "detail": "The S&P 500 closed at 7,237.17, the Nasdaq Composite rose 6.5% to 24,089.56 and the Dow gained about 1,448 points, or 3%, to 49,595.31, recovering more than half of last week's plunge that pushed the S&P and Dow into a correction. Chip stocks led: the Philadelphia semiconductor index rose 14%, with Micron up 19% and TSMC up 15%. Nasdaq 100 futures rose so fast before the open that a rare circuit breaker was triggered, Bloomberg reported. The VIX fear gauge fell about 25%. Separately, New York Fed President John Williams said Monday the Fed has \"work to do\" on inflation and must act \"over time\" to reach its 2% goal; markets fully price a quarter-point rate increase at the Dec. 8-9 meeting.",
+   "why": "Last week's AI rout hit retirement accounts across the country; Monday clawed back much of it ahead of Wednesday's PCE inflation report.",
+   "impact": 3,
+   "topic": "markets",
+   "region": "US",
+   "time": "2026-11-23T16:00:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
+  },
+  {
+   "id": "2026-11-23-trump-pauses-iowa-detonation",
+   "section": "news",
+   "text": "The Army's planned detonation of nearly five tons of unstable explosive in Iowa is on hold after President Trump ordered it paused Monday until a court allows it.",
+   "detail": "Trump said the military will not blow up the 68 barrels of lead azide at the Iowa Army Ammunition Plant in Middletown until the 8th Circuit lets it proceed, and made it \"fully subject\" to Iowa Governor-elect Rob Sand agreeing. He said a controlled blast would be safer and that he would hold Sand responsible for any harm if the material is not destroyed. The Army had planned the detonation for Wednesday despite the court's pause of the EPA emergency permit, and the Justice Department asked judges Sunday to lift that pause. Environmental groups sued over health and pollution risks to nearby residents.",
+   "why": "It removes, for now, the threat of a blast that neighbors feared would spread lead over their homes.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-23T14:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us/trump-orders-us-army-pause-lead-azide-detonation-iowa-2026-11-23/"
+  },
+  {
+   "id": "2026-11-23-nato-awacs-poland-missiles",
+   "section": "news",
+   "text": "NATO is sending an AWACS early-warning aircraft to Poland after three Russian cruise missiles crashed there Friday, alliance and Polish officials said Monday.",
+   "detail": "Polish Deputy Defense Minister Pawel Zalewski announced the deployment after an emergency North Atlantic Council meeting in Brussels; a NATO spokesperson said the alliance's top commander, Gen. Alexus Grynkewich, authorized it and is examining additional assets. Poland asked allies for stronger air defenses on the eastern flank but did not invoke Article 4. Polish prosecutors say all three objects were Kh-101 missiles; Zalewski called the incursion an \"obvious provocation.\"",
+   "why": "It is NATO's first concrete military response to Russian missiles landing on alliance soil.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-23T12:52:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/aerospace-defense/nato-send-early-warning-system-aircraft-poland-after-missiles-incident-2026-11-23/"
+  },
+  {
+   "id": "2026-11-23-fda-approves-giredestrant",
+   "section": "health",
+   "text": "Giredestrant, a daily pill from Genentech, was approved by the FDA Monday to help keep common early-stage breast cancer from coming back after surgery.",
+   "detail": "The FDA approved giredestrant (Wilserdly), an oral estrogen-receptor blocker, as a single agent for adults with ER-positive, HER2-negative Stage I to III breast cancer at intermediate to high risk of recurrence. ER-positive, HER2-negative tumors are the most common type of breast cancer; Genentech calls it the first new hormone therapy for this setting in over 20 years.",
+   "why": "Hundreds of thousands of women take years of hormone pills after breast cancer surgery; this adds a new option.",
+   "impact": 3,
+   "topic": "health",
+   "region": "US",
+   "time": "2026-11-23T12:00:00-05:00",
+   "time_known": false,
+   "source": "FDA",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-adjuvant-treatment-er-positive-her2-negative-stage-i-ii-and-iii-breast"
+  },
+  {
+   "id": "2026-11-23-virginia-oregon-sue-xai-grok-images",
+   "section": "tech",
+   "text": "Grok, Elon Musk's AI chatbot, let users make sexualized images of real people, including children, without consent, Virginia and Oregon charged in lawsuits Monday.",
+   "detail": "Virginia Attorney General Jay Jones sued SpaceX, which now runs X and xAI, saying the companies failed to stop Grok from generating non-consensual intimate images and child sexual abuse material while promoting the platform as safe; Oregon Attorney General Dan Rayfield filed a separate, similar suit. The states seek penalties and new consumer protections. Virginia says Grok could fabricate sexual images from a single existing photo.",
+   "why": "It is the first state legal action over AI-made sexual deepfakes on one of the biggest social platforms.",
+   "impact": 3,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-23T11:00:00-05:00",
+   "time_known": false,
+   "source": "Virginia Attorney General",
+   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+  },
+  {
+   "id": "2026-11-23-fourth-circuit-virginia-ice-mask-law",
+   "section": "news",
+   "text": "Virginia's law banning masks for ICE officers stays blocked, a federal appeals court ruled Monday, but the state may limit local police cooperation with immigration agents.",
+   "detail": "A 4th Circuit panel upheld Judge Robert Payne's order blocking Virginia from enforcing its law requiring federal immigration officers to show their faces and identify themselves, finding the state cannot directly regulate federal agents. But it vacated his block on a second law restricting localities' 287(g) agreements with ICE, saying states need not help with federal enforcement. Judge Toby Heytens wrote the opinion, joined by Judge DeAndrea Benjamin; Judge Robert King concurred in part and dissented in part. A federal judge blocked Connecticut's similar mask law on Nov. 20.",
+   "why": "It sets the rules in five states for how far states can go in curbing ICE tactics as more pass mask bans.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-23T11:00:00-05:00",
+   "time_known": false,
+   "source": "U.S. Court of Appeals for the 4th Circuit",
+   "url": "https://www.ca4.uscourts.gov/opinions/261874.P.pdf"
+  },
+  {
+   "id": "2026-11-23-ny-court-social-media-buffalo-shooting",
+   "section": "news",
+   "text": "Social media companies cannot be held liable for the 2022 Buffalo supermarket massacre, New York's highest court ruled Monday, 4-3.",
+   "detail": "The Court of Appeals upheld dismissal of suits by survivors and victims' families against YouTube, Reddit, Twitch, Discord, 4chan and others, which argued the platforms radicalized the white supremacist gunman who killed 10 Black people at a Tops market. The majority said the shooter's conduct was so extraordinary that it was not a foreseeable result of the platforms' design, so the companies were not the legal cause of the injuries.",
+   "why": "It is a major test of whether tech platforms can be sued for violence linked to what users see on them.",
+   "impact": 3,
+   "topic": "court",
+   "region": "US",
+   "time": "2026-11-23T11:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/government/social-media-companies-not-liable-buffalo-mass-shooting-new-yorks-highest-court-2026-11-23/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": null,
+   "count": 8
+  }
+ ],
+ "also": [],
+ "week": [],
+ "upcoming": [
+  {
+   "date": "2026-11-24",
+   "when": "10:00 a.m. ET",
+   "text": "November Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
+   "detail": "Release date per the Conference Board. The index rose 7.5 points to 91.7 in October, up from 84.2 in September.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "when": "8:30 a.m. ET",
+   "text": "Third-quarter GDP (second estimate) and October personal income and spending, including the PCE inflation gauge, 8:30 a.m. ET.",
+   "detail": "Both releases scheduled for the same morning, per the BEA news release schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-12-01",
+   "when": "December",
+   "branch": "judicial",
+   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+  }
+ ]
+}

@@ -1,6 +1,137 @@
 {
- "updated": "2026-11-23T16:29:55-05:00",
+ "updated": "2026-11-24T05:29:09-05:00",
  "items": [
+  {
+   "id": "2026-11-24-army-iowa-detonation-cleared",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "thread": "iowa-detonation",
+   "pin": "2026-11-24 morning",
+   "pin_order": 1,
+   "time": "2026-11-23T21:00:00-05:00",
+   "time_known": false,
+   "text": "The Army will blow up nearly five tons of unstable explosive in Iowa on Wednesday morning, it said, after a federal appeals court cleared the plan Monday night.",
+   "detail": "A three-judge 8th Circuit panel denied the Iowa Environmental Council and Sierra Club's emergency request to keep the EPA's permit on hold, saying the groups were unlikely to win and that the degraded lead azide risks \"an uncontrolled and unplanned explosion\" without the permit's safeguards; the underlying challenge continues. Earlier Monday, President Trump said the detonation of 68 drums at the Middletown plant would wait for the court and be \"fully subject\" to Gov.-elect Rob Sand agreeing. Sand did not say yes or no, saying the administration \"should make this decision\" on the information from its own experts and urging it to share that information with the public. Acting Army Secretary Adam Telle said every agency involved agreed the Army should proceed with a \"carefully controlled detonation\" Wednesday morning, and the Army said Gov. Kim Reynolds supports it.",
+   "why": "The blast could spread lead dust over farms and towns in Iowa and Illinois, and the Army says waiting risks a bigger, uncontrolled explosion as temperatures fall.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/army-iowa-explosives-trump-appeals-court/",
+   "tags": [
+    "iowa",
+    "army",
+    "lead-azide",
+    "8th-circuit",
+    "epa"
+   ],
+   "added_at": "2026-11-24T05:29:09-05:00"
+  },
+  {
+   "id": "2026-11-24-trump-iran-strikes-new-year-ghalibaf",
+   "section": "news",
+   "topic": "conflict",
+   "region": "US",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-24T01:50:00-05:00",
+   "time_known": false,
+   "text": "New U.S. strikes on Iran may come after the New Year if talks fail, President Trump told Fox News; Iran's top negotiator said Tuesday it will not talk until its conditions are met.",
+   "detail": "In comments to Fox News on Sunday, Trump said he is inclined to order strikes after the new year without a deal, called Iran's negotiators \"professional tap dancers\" and said Iran is \"more aggressive now than before the election.\" He dared Iran to challenge the U.S. naval blockade of its ports. On Tuesday, Parliament Speaker Mohammad Bagher Ghalibaf, Iran's lead negotiator, told parliament Iran will not negotiate with the United States until its \"seven conditions\" are met, state-affiliated Mehr News Agency reported. Iran has demanded an end to the blockade, sanctions relief and the release of frozen assets before formal talks.",
+   "why": "It sets a rough timeline for a possible return to full-scale war as indirect talks through Qatar stall.",
+   "source": "Fox News",
+   "url": "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
+   "tags": [
+    "iran",
+    "trump",
+    "strikes",
+    "ghalibaf",
+    "blockade"
+   ],
+   "added_at": "2026-11-24T05:29:09-05:00"
+  },
+  {
+   "id": "2026-11-24-omar-search-records-unsealed",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-23T18:00:00-05:00",
+   "time_known": false,
+   "text": "Rep. Ilhan Omar could claim the privacy protections of a sitting member of Congress during the federal search of her home, unsealed court records show.",
+   "detail": "Magistrate Judge Matthew Sharbaugh, who approved the Oct. 12 search of the Minnesota Democrat's Washington home, rejected the Justice Department's view that the Speech or Debate Clause privilege covers only official offices and some devices; the government agreed to a protocol letting Omar assert the privilege before agents searched. Chief Judge James Boasberg ordered the partial unsealing after more than a dozen news organizations sued, but kept the 67-page search warrant affidavit sealed. The heavily redacted filings shed no new light on why the search happened or what it found. Omar has not been charged and denies wrongdoing; the AP has reported investigators are examining her family's immigration paperwork.",
+   "why": "It is the first public look at how a court weighed the rare search of a sitting member of Congress's home weeks before an election.",
+   "source": "AP",
+   "url": "https://apnews.com/article/ilhan-omar-home-search-unsealed-judge-c595095e8adb6559dc397619ba20a8c0",
+   "tags": [
+    "ilhan-omar",
+    "doj",
+    "search-warrant",
+    "congress"
+   ],
+   "added_at": "2026-11-24T05:29:09-05:00"
+  },
+  {
+   "id": "2026-11-24-fda-approves-welgemda-lgmd",
+   "section": "health",
+   "health_beat": "drugs",
+   "topic": "health",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-23T12:00:00-05:00",
+   "time_known": false,
+   "text": "Welgemda, a twice-daily oral drug, is the first FDA-approved treatment for any form of limb-girdle muscular dystrophy, the agency said Monday.",
+   "detail": "The FDA approved Welgemda (ribitol) for limb-girdle muscular dystrophy type 2I/R9, an inherited muscle-wasting disease caused by FKRP gene mutations, for adults and children weighing at least 30 kg. In a 112-patient placebo-controlled trial, patients on the drug improved in walking speed and lung function after 12 months. Common side effects were diarrhea, stomach pain and joint pain. It is made by ML Bio Solutions and distributed by BridgeBio Pharma.",
+   "why": "Patients with this progressive disease, which can take away walking and breathing, had no approved treatment.",
+   "source": "FDA",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-limb-girdle-muscular-dystrophy-type-2ir9",
+   "tags": [
+    "fda",
+    "rare-disease",
+    "muscular-dystrophy"
+   ],
+   "added_at": "2026-11-24T05:29:09-05:00"
+  },
+  {
+   "id": "2026-11-24-colombia-car-bomb-meta-governor",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "americas",
+   "impact": 2,
+   "time": "2026-11-23T21:30:00-05:00",
+   "time_known": false,
+   "text": "A car bomb outside the Meta state governor's office in Villavicencio, Colombia, wounded 21 people Monday night, local health officials said.",
+   "detail": "Meta's health department said 21 people were hurt, including five security guards at the building; police reported no deaths. The blast heavily damaged the government building on the city's central park and nearby buildings. President Abelardo de la Espriella blamed \"narcoterrorism\" and said his government will not negotiate with armed groups; no group has claimed the attack.",
+   "why": "It is one of the most serious urban bombings in Colombia since the new government vowed to crush armed groups.",
+   "source": "El Espectador",
+   "url": "https://www.elespectador.com/judicial/gobernacion-del-meta-fue-atacada-con-explosivos/",
+   "tags": [
+    "colombia",
+    "car-bomb",
+    "villavicencio"
+   ],
+   "added_at": "2026-11-24T05:29:09-05:00"
+  },
+  {
+   "id": "2026-11-24-hanoi-eatery-blast",
+   "section": "news",
+   "topic": "disaster",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 2,
+   "time": "2026-11-23T19:00:00-05:00",
+   "time_known": false,
+   "text": "An explosion at a crowded hot pot restaurant in Hanoi, Vietnam, killed six people and injured more than a dozen Tuesday morning, local time.",
+   "detail": "Police said preliminary findings point to a gas explosion that brought down part of the building; more than 14 people were hospitalized, one with a traumatic brain injury, and rescuers searched the rubble for anyone trapped. Nearby houses were damaged and residents of unsafe buildings were moved.",
+   "why": "It is one of the deadliest accidental blasts in Vietnam's capital in years.",
+   "source": "AP",
+   "url": "https://apnews.com/article/vietnam-hanoi-eatery-explosion-suspected-gas-leak-cb339f6ed24c5c751124ae9916bf4bc7",
+   "tags": [
+    "vietnam",
+    "explosion"
+   ],
+   "added_at": "2026-11-24T05:29:09-05:00"
+  },
   {
    "id": "2026-11-23-virginia-oregon-sue-xai-grok-images",
    "section": "tech",
@@ -175,7 +306,8 @@
     "lead-azide",
     "epa"
    ],
-   "added_at": "2026-11-23T16:29:04-05:00"
+   "added_at": "2026-11-23T16:29:04-05:00",
+   "thread": "iowa-detonation"
   },
   {
    "id": "2026-11-23-ny-court-social-media-buffalo-shooting",
@@ -282,7 +414,8 @@
     "courts",
     "epa"
    ],
-   "added_at": "2026-11-23T05:50:00-05:00"
+   "added_at": "2026-11-23T05:50:00-05:00",
+   "thread": "iowa-detonation"
   },
   {
    "id": "2026-11-23-dymer-toll-rises-to-11",

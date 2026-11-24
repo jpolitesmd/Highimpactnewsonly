@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-24",
  "threads": [
   {
    "id": "iran-war",
@@ -23,7 +23,7 @@
    "id": "trade-tariffs",
    "title": "Tariffs and trade deals",
    "summary": "U.S. tariff actions and trade agreements with China, Canada and others.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "deportations-courts",
@@ -83,13 +83,13 @@
    "id": "kenya-ebola",
    "title": "Ebola in Kenya",
    "summary": "Kenya's outbreak of the Bundibugyo strain of Ebola, which has no licensed vaccine, centered on Nairobi.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "israel-election",
    "title": "Israel's election",
    "summary": "Israel's Oct. 27, 2026 national election, the vote count and the talks to form a government.",
-   "status": "active"
+   "status": "closed"
   },
   {
    "id": "brazil-election",
@@ -119,6 +119,12 @@
    "id": "nvidia-huang",
    "title": "Jensen Huang's exit from Nvidia",
    "summary": "Nvidia's leadership crisis after CEO Jensen Huang resigned over an affair with a suspected Chinese intelligence asset.",
+   "status": "active"
+  },
+  {
+   "id": "iowa-detonation",
+   "title": "Iowa Army explosives detonation",
+   "summary": "The Army's plan to blow up degraded lead azide at the Iowa Army Ammunition Plant and the court and political fight over it.",
    "status": "active"
   }
  ]

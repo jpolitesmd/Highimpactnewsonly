@@ -1,16 +1,6 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-24",
  "events": [
-  {
-   "date": "2026-11-24",
-   "when": "10:00 a.m. ET",
-   "text": "November Consumer Confidence Index (Conference Board), 10:00 a.m. ET.",
-   "detail": "Release date per the Conference Board. The index rose 7.5 points to 91.7 in October, up from 84.2 in September.",
-   "buzz": true,
-   "tags": [
-    "markets"
-   ]
-  },
   {
    "date": "2026-11-25",
    "when": "8:30 a.m. ET",
@@ -36,10 +26,30 @@
    "buzz": true
   },
   {
+   "date": "2026-12-04",
+   "when": "8:30 a.m. ET",
+   "text": "November jobs report (Employment Situation), 8:30 a.m. ET.",
+   "detail": "Release date per the BLS December 2026 schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
    "date": "2026-12-09",
    "when": "2:00 p.m. ET",
    "text": "Fed interest-rate decision and new economic projections, ending the Dec. 8-9 meeting.",
    "detail": "Meeting dates per the Fed's FOMC calendar; this meeting includes a Summary of Economic Projections.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  },
+  {
+   "date": "2026-12-10",
+   "when": "8:30 a.m. ET",
+   "text": "November Consumer Price Index, 8:30 a.m. ET.",
+   "detail": "Release date per the BLS December 2026 schedule; the day after the Fed decision begins its window on Dec. 9.",
    "buzz": true,
    "tags": [
     "markets"

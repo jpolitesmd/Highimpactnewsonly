@@ -1,6 +1,117 @@
 {
- "updated": "2026-11-24T16:34:18-05:00",
+ "updated": "2026-11-25T05:33:00-05:00",
  "items": [
+  {
+   "id": "2026-11-25-thanksgiving-east-coast-storm",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T05:00:00-05:00",
+   "time_known": false,
+   "text": "A fast-strengthening coastal storm will bring strong wind, heavy rain and coastal flooding to the East Coast Wednesday and Thanksgiving Day, the National Weather Service says.",
+   "detail": "The Weather Prediction Center said low pressure off the Southeast coast will intensify and track north. Coastal flooding is the biggest concern Wednesday and Thursday, from Georgia and the Carolinas to the Northeast, with high tides and onshore winds. Rain of 1 to 4 inches is forecast for the Carolinas and Mid-Atlantic and 1 to 2 inches for southern New England. Gusts of 50 mph or more are likely along the coast, with 45 mph or more inland to the I-95 corridor, and power outages and tree damage are possible. High Wind Warnings cover parts of New Jersey, Maryland's Eastern Shore, Delaware and Pennsylvania. A Slight Risk of excessive rainfall covers the Carolina coast Wednesday and the northern Mid-Atlantic Thursday.",
+   "why": "The storm lands on the busiest travel days of the year, so delays, outages and flooded roads are likely.",
+   "source": "National Weather Service",
+   "url": "https://forecast.weather.gov/product.php?site=BTV&issuedby=SPD&product=PMD&format=TXT&version=2&glossary=0",
+   "tags": [
+    "nws",
+    "nor'easter",
+    "thanksgiving",
+    "coastal-flooding"
+   ],
+   "added_at": "2026-11-25T05:33:00-05:00"
+  },
+  {
+   "id": "2026-11-25-ramaphosa-phala-phala-report-set-aside",
+   "section": "news",
+   "topic": "court",
+   "region": "World",
+   "world_region": "africa",
+   "impact": 3,
+   "time": "2026-11-25T05:00:00-05:00",
+   "time_known": false,
+   "text": "South Africa's Western Cape High Court on Wednesday set aside the Phala Phala panel report that had revived impeachment proceedings against President Cyril Ramaphosa.",
+   "detail": "The court said the independent panel \"fundamentally misconstrued its functions\" and made errors of law, and declared invalid all proceedings arising from the report, which effectively ends Parliament's impeachment process for now, Daily Maverick reported. Opposition parties including the ATM, EFF and MK party are expected to appeal. The report concerned the theft of $580,000 from Ramaphosa's farm in 2020; the Constitutional Court revived the process in May 2026. Full reasons for the ruling have not been released, and Speaker Thoko Didiza said she would study it.",
+   "why": "The ruling removes, at least until any appeal, the most direct threat to Ramaphosa's presidency.",
+   "source": "Daily Maverick",
+   "url": "https://www.dailymaverick.co.za/article/2026-11-25-ramaphosa-succeeds-in-setting-aside-impeachment-report/",
+   "tags": [
+    "south-africa",
+    "ramaphosa",
+    "phala-phala"
+   ],
+   "added_at": "2026-11-25T05:33:00-05:00"
+  },
+  {
+   "id": "2026-11-25-chen-jining-investigated",
+   "section": "news",
+   "topic": "globe",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 3,
+   "time": "2026-11-24T07:12:00-05:00",
+   "time_known": true,
+   "text": "China's anti-corruption agency is investigating Shanghai party chief Chen Jining, a member of the ruling Politburo, state news agency Xinhua said Tuesday.",
+   "detail": "Xinhua said Chen is suspected of \"severe violations of discipline and laws,\" a phrase that usually means corruption. Reuters reported he is the fourth member of the Politburo to be investigated since 2025, after He Weidong, Zhang Youxia and Ma Xingrui. Chen, 62, a former Tsinghua University president, environmental protection minister and Beijing mayor, had been seen as a possible contender for higher office. Analysts quoted by Reuters said the announcement was a surprise.",
+   "why": "Chen led China's financial hub and was viewed as a future top leader, so his fall points to further turmoil at the top of Xi Jinping's government.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/china-investigates-politburo-member-chen-jining-xinhua-says-2026-11-24/",
+   "tags": [
+    "china",
+    "chen-jining",
+    "politburo",
+    "xi-jinping"
+   ],
+   "added_at": "2026-11-25T05:33:00-05:00"
+  },
+  {
+   "id": "2026-11-25-kospi-drops-6-percent",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "markets",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 3,
+   "time": "2026-11-25T03:30:00-05:00",
+   "time_known": false,
+   "text": "South Korea's stock index fell 6.16% Wednesday to 4,697.51, dropping below 5,000 as the AI trade stumbled again, Yonhap reported.",
+   "detail": "Trading was briefly halted when the Korea Exchange triggered a five-minute sell-side sidecar on program buying, which applies when KOSPI 200 futures drop at least 5%. Samsung Electronics lost 9.87% and SK hynix 11.05%. Yonhap tied the drop to Tuesday's U.S. tech selloff, when Nvidia gave back part of its previous-day jump and concerns over new U.S. tariffs weighed on tech shares. The index had rallied the day before.",
+   "why": "A drop this size in one of the world's biggest chip-making markets shows how jumpy investors are about AI stocks and the threat of new tariffs.",
+   "source": "Yonhap News Agency",
+   "url": "https://en.yna.co.kr/view/AEN20261125006252320",
+   "tags": [
+    "kospi",
+    "south-korea",
+    "ai-stocks",
+    "samsung"
+   ],
+   "added_at": "2026-11-25T05:33:00-05:00"
+  },
+  {
+   "id": "2026-11-25-abrego-garcia-leaves-us-spain",
+   "section": "news",
+   "topic": "immigration",
+   "region": "US",
+   "impact": 3,
+   "thread": "deportations-courts",
+   "time": "2026-11-24T22:00:00-05:00",
+   "time_known": false,
+   "text": "Kilmar Abrego Garcia left the United States for Spain Tuesday night, ending a 20-month fight over his deportation, the Department of Homeland Security said.",
+   "detail": "Reuters reported that DHS said he \"has self-deported\" to Spain, while his lawyers said he left \"on his terms.\" The Washington Post, citing two people briefed, said the departure was part of a negotiated agreement between his attorneys and government lawyers; its terms have not been made public. His flight left just after 10 p.m. Eastern from Dulles after a mechanical delay, and officials removed his ankle GPS monitor beforehand. Abrego Garcia, 31, was wrongly sent to a Salvadoran prison in March 2025 despite a court order, and returned in June 2025 after a Supreme Court order that the government facilitate his return. The administration had sought to deport him to African countries; he had asked to go to Costa Rica. Sen. Chris Van Hollen said the deal respects his will and his due process rights.",
+   "why": "The case, which reached the Supreme Court, was a test of how far the government can go in removing immigrants despite a court order.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/americas/salvadoran-migrant-kilmar-abrego-garcia-leave-us-voluntarily-us-media-reports-2026-11-24/",
+   "tags": [
+    "abrego-garcia",
+    "dhs",
+    "deportation",
+    "spain"
+   ],
+   "added_at": "2026-11-25T05:33:00-05:00",
+   "pin": "2026-11-25 morning",
+   "pin_order": 1
+  },
   {
    "id": "2026-11-24-huawei-convicted-brooklyn",
    "section": "news",

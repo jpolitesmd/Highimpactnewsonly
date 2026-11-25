@@ -1,6 +1,192 @@
 {
- "updated": "2026-11-25T05:33:00-05:00",
+ "updated": "2026-11-25T16:55:00-05:00",
  "items": [
+  {
+   "id": "2026-11-25-pce-inflation-3-8-gdp-revised",
+   "section": "money",
+   "money_beat": "prices",
+   "topic": "chart",
+   "region": "US",
+   "impact": 4,
+   "thread": "rates-inflation",
+   "time": "2026-11-25T08:30:00-05:00",
+   "time_known": true,
+   "text": "Inflation rose to 3.8% in October by the Fed's preferred gauge, nearly double its 2% goal, the Commerce Department said Wednesday.",
+   "detail": "The personal consumption expenditures price index rose 0.3% from September and 3.8% from a year earlier, up from 3.6% in September. Core prices, excluding food and energy, rose 3.3% from a year ago. Personal income jumped 0.7% and spending rose 0.3%; the saving rate was 4.1%. A separate Commerce report revised third-quarter growth up to a 4.3% annual rate, the fastest in three years. Markets fully price a quarter-point Fed rate hike at the Dec. 8-9 meeting. Jobless claims fell to 189,000, near the lowest since the late 1960s.",
+   "why": "Hotter inflation with a strong economy makes a December rate hike, and higher borrowing costs, very likely.",
+   "source": "Bureau of Economic Analysis",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "tags": [
+    "pce",
+    "inflation",
+    "gdp",
+    "fed"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-judge-blocks-birthright-order-two",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T14:30:00-05:00",
+   "time_known": false,
+   "text": "President Trump's second birthright-citizenship order was blocked Wednesday by a federal judge in Washington for a nationwide class of affected children.",
+   "detail": "U.S. District Judge Christopher Cooper certified a class of children \"who are or will be unlawfully denied citizenship\" under the August order and granted a classwide preliminary injunction in Nathan v. Trump, brought by the ACLU and other groups. The order sought to deny citizenship to some U.S.-born children of foreign government or international-organization employees without diplomatic immunity, children born through commercial surrogacy, and children with a parent suspected of gang or terrorist membership. \"The President cannot carve out new exceptions to birthright citizenship,\" Cooper wrote in a 67-page opinion, noting the Supreme Court struck down the first order in June. He also denied the government's request for a stay pending appeal. A Maryland judge blocked the order for a separate class in September. The White House called it a ruling from \"an activist judge.\"",
+   "why": "Children covered by the class keep their citizenship while the case goes on; an appeal is likely.",
+   "source": "U.S. District Court for D.C. (opinion)",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.297026/gov.uscourts.dcd.297026.52.0.pdf",
+   "tags": [
+    "birthright-citizenship",
+    "14th-amendment"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-ustr-section-301-tariffs-14-economies",
+   "section": "money",
+   "money_beat": "prices",
+   "topic": "trade",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T08:00:00-05:00",
+   "time_known": false,
+   "text": "New tariffs of up to 35% on goods from China, the EU, Japan, India and 10 other economies were proposed Wednesday by the U.S. trade representative.",
+   "detail": "USTR Jamieson Greer found that 14 economies' industrial policies create \"structural excess capacity\" that burdens U.S. commerce under Section 301. Proposed rates, on top of existing duties, include up to 20% for China, 15% for the EU, up to 15% for Japan and Taiwan, up to 25% for India, up to 18% for Thailand and up to 35% for Vietnam, with some goods exempt. Mexico and Norway were investigated but not covered. Comments are due Jan. 5, 2027, with hearings starting Jan. 25, so no new tariffs take effect before then. The duties would partly replace emergency tariffs the Supreme Court struck down in February.",
+   "why": "Tariffs on most imports from major trading partners would raise costs for U.S. buyers if adopted.",
+   "source": "U.S. Trade Representative",
+   "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "tags": [
+    "tariffs",
+    "section-301",
+    "trade"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-stocks-recover-early-plunge",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "markets",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T16:00:00-05:00",
+   "time_known": true,
+   "text": "U.S. stocks recovered most of a steep early drop Wednesday, with the S&P 500 closing down 0.3% after falling as much as 3.2%, AP reported.",
+   "detail": "The Dow rose 164 points, or 0.3%, after falling more than 1,000 points early, and the Nasdaq slipped 0.6% after being down as much as 4.6%. AI stocks fell for a second day after Monday's Huang rally, as hot inflation data and new tariff proposals weighed early; Nvidia fell about 5%. The 10-year Treasury yield fell to 4.85%, and Brent crude rose 3.5% to $94.61. The S&P 500 is down about 5.5% for November. Markets are closed Thursday for Thanksgiving and close at 1 p.m. Friday.",
+   "why": "Wild swings show how nervous investors are about AI spending, inflation and tariffs heading into the holiday.",
+   "source": "AP",
+   "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-10044b4fb55d3ff20fde9ba9e9acaab1",
+   "thread": "nvidia-huang",
+   "tags": [
+    "stocks",
+    "ai",
+    "nasdaq"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-fincen-cyber-incident",
+   "section": "news",
+   "topic": "security",
+   "region": "US",
+   "impact": 3,
+   "thread": "us-outages",
+   "time": "2026-11-25T09:42:00-05:00",
+   "time_known": false,
+   "text": "FinCEN, the Treasury's financial-crimes unit, took some systems offline after an intruder reached part of its network, an agency official said Wednesday.",
+   "detail": "The official said Treasury is working with the FBI, CISA and outside forensic examiners to find the scope of the incident, and there is no evidence so far of a breach of the Bank Secrecy Act or beneficial-ownership databases. FinCEN gave filers relief: reports due Nov. 18 through Dec. 29 can be filed by Dec. 30. It follows this month's string of federal system problems, including a breach of an unclassified CIA and ODNI analysis system and a brief NSA network outage.",
+   "why": "FinCEN holds banks' suspicious-activity reports used in money-laundering, tax and terrorism cases.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/us-fincen-takes-some-systems-offline-after-cyber-incident-official-says-2026-11-25/",
+   "tags": [
+    "fincen",
+    "cyber",
+    "treasury"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-macys-parade-postponed-nj-emergency",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T15:00:00-05:00",
+   "time_known": false,
+   "text": "Macy's Thanksgiving Day Parade was postponed to Saturday because of the coming nor'easter, as New Jersey declared a statewide emergency, AP reported.",
+   "detail": "Macy's moved its 100th parade to Saturday, Nov. 28, at 8:30 a.m. after consulting city and agency partners, with gusts forecast to exceed balloon safety limits Thursday. New Jersey Gov. Mikie Sherrill declared a state of emergency in all 21 counties from 6 p.m. Wednesday, citing gusts of 50 to 70 mph, 1 to 4 inches of rain and moderate to major coastal flooding through Friday; the order does not restrict travel. The National Weather Service has high wind warnings for 17 New Jersey counties and coastal flood warnings for 12.",
+   "why": "The storm hits on Thanksgiving, with flooding, power outages and travel delays likely across the Northeast.",
+   "source": "AP",
+   "url": "https://apnews.com/article/macys-thanksgiving-parade-postponed-weather-cdc870899c8dc2d32a0ac3d86119b3ba",
+   "tags": [
+    "nor'easter",
+    "thanksgiving",
+    "macys"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-netanyahu-judges-doubt-bribery-case",
+   "section": "news",
+   "topic": "court",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "time": "2026-11-25T11:00:00-05:00",
+   "time_known": false,
+   "text": "Benjamin Netanyahu's trial judges told Israel's attorney general Wednesday that a bribery conviction in the main case against him is unlikely and urged a rethink.",
+   "detail": "At an unusual Jerusalem District Court hearing, Judge Rivka Friedman-Feldman said the chances of conviction in Case 4000, on bribery, fraud and breach of trust, \"are low — to an extent that warrants reconsidering the matter.\" The judges indicated Case 2000 may not involve a crime, leaving Case 1000, over gifts from Arnon Milchan and James Packer, as the realistic remaining charge, and suggested a quick wrap-up. Attorney General Gali Baharav-Miara said prosecutors would consider the recommendations; no charges have been dropped. Netanyahu, indicted in 2020, denies all charges.",
+   "why": "The prime minister's seven-year trial could shrink to one lesser charge.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/legal/government/israeli-judges-recommend-prosecutors-drop-one-bribery-case-against-netanyahu-2026-11-25/",
+   "tags": [
+    "israel",
+    "netanyahu"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-iowa-detonation-no-lead-detected",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 2,
+   "thread": "iowa-detonation",
+   "time": "2026-11-25T10:00:00-05:00",
+   "time_known": false,
+   "text": "The Army's detonation of nearly five tons of lead azide in Iowa went ahead Wednesday, and EPA air monitors found no airborne lead hours later, officials said.",
+   "detail": "Officials called the controlled blast at the Iowa Army Ammunition Plant near Middletown a success but said soil and surface testing will continue for days. About 21 people evacuated voluntarily; FEMA told people within 20 miles who stayed home to shelter in place until an all-clear. NASA aircraft flew air-sampling passes over the area.",
+   "why": "Nearby families in Iowa and northeast Missouri had feared toxic lead dust.",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/25/us/live-news/iowa-lead-azide-detonation",
+   "tags": [
+    "iowa",
+    "lead-azide",
+    "army"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
+  {
+   "id": "2026-11-25-1password-backend-breach",
+   "section": "tech",
+   "topic": "security",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-25T12:00:00-05:00",
+   "time_known": false,
+   "text": "1Password, the password manager, said Wednesday an attacker reached some backend systems and copied customer names and sign-in emails; vaults were not affected.",
+   "detail": "The company said vault data and the keys protecting it were safe, it contained the intrusion, restored clean services and rotated internal credentials. Customers do not need to change anything but should watch for phishing emails posing as 1Password invitations or account-recovery requests.",
+   "why": "Millions use 1Password; stolen emails can fuel targeted phishing.",
+   "source": "1Password",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "tags": [
+    "cyber",
+    "1password"
+   ],
+   "added_at": "2026-11-25T16:55:00-05:00"
+  },
   {
    "id": "2026-11-25-thanksgiving-east-coast-storm",
    "section": "news",

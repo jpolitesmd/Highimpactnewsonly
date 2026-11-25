@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-25-evening",
+   "date": "2026-11-25",
+   "edition": "evening",
+   "count": 8,
+   "lead": "Inflation rose to 3.8% in October by the Fed's preferred gauge, nearly double its 2% goal, the Commerce Department said Wednesday."
+  },
+  {
    "key": "2026-11-25-morning",
    "date": "2026-11-25",
    "edition": "morning",
@@ -785,5 +792,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-25T05:33:19-05:00"
+ "updated": "2026-11-25T16:33:53-05:00"
 }

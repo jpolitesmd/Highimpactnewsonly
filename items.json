@@ -1,6 +1,185 @@
 {
- "updated": "2026-11-25T16:55:00-05:00",
+ "updated": "2026-11-26T05:50:00-05:00",
  "items": [
+  {
+   "id": "2026-11-26-noreaster-thanksgiving-outages",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-26T04:36:00-05:00",
+   "time_known": true,
+   "pin": "2026-11-26 morning",
+   "text": "The Thanksgiving nor'easter left more than 250,000 U.S. homes and businesses without power early Thursday as it pushed up the East Coast, CNN reported.",
+   "detail": "North Carolina and Virginia had nearly 130,000 customers out combined, with gusts up to 45 mph, and Missouri more than 78,000 as heavy, wet snow fell, according to PowerOutage.us. Gusts up to 70 mph are possible near the coast. FlightAware showed 328 U.S. flights canceled early Thursday after more than 6,000 were delayed Wednesday. New York City is under a high wind warning from 10 a.m. Thursday to 1 a.m. Friday, with gusts up to 65 mph expected, and the East Coast could see its highest water levels since Superstorm Sandy in 2012. The Macy's parade moves to Saturday at 8:30 a.m.; Philadelphia's parade was canceled and replaced with a TV event. In California, king tides and waves tore down part of a pier in Pacifica.",
+   "why": "Tens of millions along the East Coast face outages, flooding and travel trouble on the holiday.",
+   "source": "CNN",
+   "url": "https://www.cnn.com/2026/11/24/us/live-news/thanksgiving-travel",
+   "tags": [
+    "storm",
+    "noreaster",
+    "thanksgiving",
+    "power-outages",
+    "travel"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-26-china-japan-respond-us-tariffs",
+   "section": "news",
+   "topic": "trade",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 3,
+   "time": "2026-11-26T03:00:00-05:00",
+   "time_known": false,
+   "thread": "trade-tariffs",
+   "text": "China said Thursday it reserves the right to take \"necessary measures\" against the new U.S. tariff plan, and Japan called its proposed 15% rate regrettable.",
+   "detail": "Commerce Ministry spokesman He Yadong called the U.S. \"overcapacity\" finding a \"pretext for protectionism\" and urged Washington to \"correct its erroneous practices\" and return to dialogue. The U.S. trade representative on Wednesday proposed tariffs on 14 economies, including 20% on China, in line with a trade truce that expires in January; Jamieson Greer told CNBC the rate fits China's understanding and that about $30 billion of Chinese goods would be exempt. Japan's chief cabinet secretary, Minoru Kihara, said Japan has no structural excess production capacity. The EU has said it expects the U.S. to honor their deal's 15% ceiling. European stocks rose about 1.6% Thursday as investors judged the plan milder than feared, Reuters reported.",
+   "why": "Beijing's warning puts the U.S.-China trade truce at risk before it expires in January.",
+   "source": "CNA",
+   "url": "https://www.channelnewsasia.com/east-asia/china-threaten-measures-after-new-us-tariffs-6584526",
+   "tags": [
+    "tariffs",
+    "china",
+    "japan",
+    "section-301",
+    "trade"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-25-houthis-attack-ras-tanura-saudi-ports",
+   "section": "news",
+   "topic": "energy",
+   "region": "World",
+   "world_region": "mideast",
+   "impact": 3,
+   "time": "2026-11-25T02:24:00-05:00",
+   "time_known": false,
+   "thread": "iran-war",
+   "text": "Saudi Arabia's largest oil refinery, Ras Tanura, was attacked by Yemen's Houthis Wednesday, and the group later said it also hit the Red Sea ports of Jeddah and Jizan.",
+   "detail": "The Saudi-led coalition said air defenses destroyed four drones over Ras Tanura but did not say the refinery was struck; a source confirmed the attack to Reuters, and NASA and Planet Labs satellite images showed thick black smoke. The refinery can process 550,000 barrels a day and sits beside one of the world's largest crude export terminals. The coalition later said a Houthi projectile fell at Jizan port, causing minor damage and no civilian injuries. Brent crude rose about 0.9% to $93.8 a barrel Thursday. Separately, Iran's Revolutionary Guards said Wednesday that two oil tankers struck mines and caught fire in the Strait of Hormuz while using an unauthorized route; the ships were not named.",
+   "why": "Repeated strikes on Saudi oil sites keep pressure on oil and gasoline prices.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/",
+   "tags": [
+    "houthis",
+    "saudi-arabia",
+    "oil",
+    "ras-tanura",
+    "hormuz"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-25-sp-nvidia-creditwatch-negative",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "chart",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T17:30:00-05:00",
+   "time_known": false,
+   "thread": "nvidia-huang",
+   "text": "Nvidia's AA credit rating was put on watch for a possible downgrade by S&P Global Ratings, which cited weak board oversight and no credible succession plan.",
+   "detail": "S&P said in a Wednesday note that news about the CEO and questions over possible export-control violations exposed weaknesses in Nvidia's board structure and effectiveness, and that the long tenure of some directors may compromise their independence. Any cut would likely be one notch, to AA-, within about 90 days, unless investigations show wider harm. S&P plans to meet the board and management. Moody's lowered its Nvidia outlook to stable on Nov. 18. Nvidia shares closed down 3.9% at $149.30 Wednesday.",
+   "why": "A downgrade could raise borrowing costs for the world's most important AI chipmaker.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "tags": [
+    "nvidia",
+    "credit-rating",
+    "s&p",
+    "governance"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-25-musk-two-spacex-shares-every-child",
+   "section": "money",
+   "money_beat": "taxes",
+   "topic": "rocket",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T23:00:00-05:00",
+   "time_known": false,
+   "text": "Every U.S. child will get two SpaceX shares, one from the company and one from him, Elon Musk pledged Wednesday, a gift Axios values at about $18 billion.",
+   "detail": "Musk doubled an Oct. 19 promise of one share per child next year. With about 72 million U.S. minors and SpaceX's Wednesday closing price, the gift would be worth about $18.35 billion, roughly triple Michael Dell's gift to the Trump accounts for children. SpaceX shares have fallen about 13% since the first pledge. Musk gave no timing for the distribution.",
+   "why": "It would put stock worth hundreds of dollars into the accounts of nearly every American child.",
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts",
+   "tags": [
+    "spacex",
+    "musk",
+    "trump-accounts"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-26-congo-ebola-tops-12000",
+   "section": "news",
+   "topic": "health",
+   "region": "World",
+   "world_region": "africa",
+   "impact": 3,
+   "time": "2026-11-26T03:00:00-05:00",
+   "time_known": false,
+   "text": "Congo's Ebola outbreak, the fastest-growing on record, has passed 12,000 confirmed cases, government data showed Thursday, as fighting disrupts the response.",
+   "detail": "Nearly half of the 12,021 confirmed patients have died, Congo's Health Ministry data show, making it the deadliest of the country's 17 outbreaks. The outbreak, declared in May, is caused by the Bundibugyo virus, which has no approved vaccine or treatment. Fighting between the army and CRP rebels resumed Thursday near Bunia, the response hub, and the WHO said clashes this week kept teams from some communities.",
+   "why": "The outbreak is on track to rival the 2014-16 West African epidemic that killed 11,000.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-cases-exceed-12000-responders-struggle-contain-outbreak-2026-11-26/",
+   "tags": [
+    "ebola",
+    "congo",
+    "outbreak"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-25-judge-declines-ban-pro-trump-ads",
+   "section": "news",
+   "topic": "court",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-25T18:30:00-05:00",
+   "time_known": false,
+   "text": "Taxpayer-funded government ads that promoted President Trump will not face a longer ban, a federal judge in Washington ruled Wednesday, siding against Democrats.",
+   "detail": "U.S. District Judge Loren AliKhan declined a preliminary injunction, saying the DNC had not shown it was likely to win and that the midterm elections are over. Her earlier order had blocked some of the ads through Nov. 25. The DNC challenged at least 11 ads paid for at least partly by a $20 million Homeland Security contract. A separate judge in New York earlier also declined a long-term ban but ordered three ads pulled. The DNC said it would keep fighting.",
+   "why": "The ruling ends the court block on the administration's ad campaign for now.",
+   "source": "AP",
+   "url": "https://abcnews.com/Business/wireStory/judge-declines-issue-long-term-ban-taxpayer-funded-138456353",
+   "tags": [
+    "courts",
+    "ads",
+    "dnc",
+    "dhs"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-25-neuralink-fda-pivotal-study-als",
+   "section": "health",
+   "health_beat": "drugs",
+   "topic": "health",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T16:00:00-05:00",
+   "time_known": false,
+   "text": "Neuralink's brain implant cleared the FDA to start a pivotal trial in people paralyzed by ALS, the company said, calling it the first U.S. pivotal brain-computer interface study.",
+   "detail": "The LINK Pivotal Study will test whether the implant safely and effectively lets participants control digital devices by thought. Neuralink says more than 30 people have been implanted in its early studies in the U.S., Canada and Britain. Enrollment is open. A pivotal trial is the last stage before a company can seek FDA marketing approval; the device is not approved.",
+   "why": "It moves brain implants a step closer to becoming an approved treatment for paralysis.",
+   "source": "Neuralink",
+   "url": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/",
+   "tags": [
+    "neuralink",
+    "fda",
+    "als",
+    "bci"
+   ],
+   "added_at": "2026-11-26T05:50:00-05:00"
+  },
   {
    "id": "2026-11-25-pce-inflation-3-8-gdp-revised",
    "section": "money",
@@ -62,7 +241,8 @@
     "section-301",
     "trade"
    ],
-   "added_at": "2026-11-25T16:55:00-05:00"
+   "added_at": "2026-11-25T16:55:00-05:00",
+   "thread": "trade-tariffs"
   },
   {
    "id": "2026-11-25-stocks-recover-early-plunge",

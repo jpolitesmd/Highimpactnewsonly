@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "threads": [
   {
    "id": "iran-war",
@@ -23,7 +23,7 @@
    "id": "trade-tariffs",
    "title": "Tariffs and trade deals",
    "summary": "U.S. tariff actions and trade agreements with China, Canada and others.",
-   "status": "closed"
+   "status": "active"
   },
   {
    "id": "deportations-courts",

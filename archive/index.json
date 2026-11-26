@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-26-morning",
+   "date": "2026-11-26",
+   "edition": "morning",
+   "count": 10,
+   "lead": "The Thanksgiving nor'easter left more than 250,000 U.S. homes and businesses without power early Thursday as it pushed up the East Coast, CNN reported."
+  },
+  {
    "key": "2026-11-25-evening",
    "date": "2026-11-25",
    "edition": "evening",
@@ -792,5 +799,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-25T16:33:53-05:00"
+ "updated": "2026-11-26T05:36:27-05:00"
 }

@@ -1,6 +1,121 @@
 {
- "updated": "2026-11-26T05:50:00-05:00",
+ "updated": "2026-11-26T16:58:00-05:00",
  "items": [
+  {
+   "id": "2026-11-26-thanksgiving-storm-outages-top-600000",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-26T15:30:00-05:00",
+   "time_known": false,
+   "pin": "2026-11-26 evening",
+   "text": "The Thanksgiving storm's power outages more than doubled to over 600,000 homes and businesses Thursday afternoon as coastal flooding shut highways from North Carolina to New Jersey, AP reported.",
+   "detail": "Most of the outages were in East Coast states, according to PowerOutage.us; the count was about 250,000 early Thursday. Floodwaters swamped coastal towns from North Carolina through New Jersey at high tide. The 18-mile Chesapeake Bay Bridge-Tunnel in Virginia closed for several hours because of high winds, and NC 12, the only highway linking Hatteras Island on the Outer Banks to the mainland, closed after seawater breached the dunes again. Tornado warnings sounded around Norfolk, Va. All of New Jersey and parts of New York are under states of emergency. The National Weather Service expected the storm to hamper flights at eastern airports into Friday morning, and up to 13 inches of snow was forecast around St. Louis. On the West Coast, king tides and strong winds flooded communities and knocked out part of a pier. Macy's 100th parade is now Saturday at 8:30 a.m.",
+   "why": "Hundreds of thousands lost power on the holiday, and flooding and closed roads and bridges are snarling travel into Friday.",
+   "source": "AP",
+   "url": "https://apnews.com/article/thanksgiving-weather-storm-macys-king-tides-e8bc9bc454c933dacffe89b1139c4d3c",
+   "tags": [
+    "storm",
+    "noreaster",
+    "thanksgiving",
+    "power-outages",
+    "flooding"
+   ],
+   "added_at": "2026-11-26T16:58:00-05:00"
+  },
+  {
+   "id": "2026-11-26-trump-calls-gdp-figures-fake",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "economy",
+   "region": "US",
+   "impact": 3,
+   "thread": "rates-inflation",
+   "time": "2026-11-26T10:30:00-05:00",
+   "time_known": false,
+   "text": "The government's upward revision of third-quarter growth was called \"FAKE\" by President Trump Thursday, who demanded an investigation of the Commerce Department without offering evidence, AP reported.",
+   "detail": "The Commerce Department's Bureau of Economic Analysis on Wednesday revised third-quarter GDP growth to a 4.3% annual rate from 3.4%. Trump posted that the pre-election numbers were \"FAKE\" and a \"massive, and purposeful, error,\" asking why the correct number was not issued before the Nov. 3 midterms, which gave Democrats control of both houses of Congress. BEA revises data on a preset schedule regardless of politics. Commerce did not immediately comment; the government is largely closed for Thanksgiving. In August 2025 Trump fired the head of the Bureau of Labor Statistics after a weak jobs report.",
+   "why": "Attacks on official statistics can erode trust in data that businesses, markets and the Fed rely on.",
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e",
+   "tags": [
+    "gdp",
+    "bea",
+    "economic-data",
+    "trump"
+   ],
+   "added_at": "2026-11-26T16:58:00-05:00"
+  },
+  {
+   "id": "2026-11-26-hormuz-tanker-struck-irgc-mine-claim",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "middle-east",
+   "impact": 3,
+   "thread": "iran-war",
+   "time": "2026-11-26T06:05:00-05:00",
+   "time_known": true,
+   "text": "A tanker leaving the Strait of Hormuz was struck by an unknown projectile east of Oman's Khasab, Britain's UKMTO said, as Iran's Guards claimed two tankers hit sea mines.",
+   "detail": "UKMTO said the outbound tanker was hit Wednesday about 18 nautical miles east of Khasab; the crew are accounted for and no environmental impact was reported. It separately reported a projectile exploding near a tanker about 50 nautical miles west of Dubai. Iran's Revolutionary Guards said Thursday, via Tasnim, that two tankers exploded and caught fire after hitting mines north of Khasab while using an \"unauthorised route,\" one a supertanker carrying more than 2 million barrels; that claim is not independently confirmed and the ships were not named. A Guards spokesman said the force was using heavy firepower to keep the strait closed to pressure the U.S. economy.",
+   "why": "Attacks on outbound tankers keep pressure on Gulf oil flows and prices.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-2026-11-26/",
+   "tags": [
+    "hormuz",
+    "tankers",
+    "iran",
+    "ukmto"
+   ],
+   "added_at": "2026-11-26T16:58:00-05:00",
+   "notes": "Reuters page 401 to fetch; facts checked against search excerpt of Reuters copy and UKMTO-citing reports."
+  },
+  {
+   "id": "2026-11-26-argentina-senate-suspends-primaries",
+   "section": "news",
+   "topic": "election",
+   "region": "World",
+   "world_region": "americas",
+   "impact": 3,
+   "time": "2026-11-26T16:08:00-05:00",
+   "time_known": true,
+   "text": "Argentina's 2027 presidential primaries would be suspended under an electoral overhaul the Senate passed 43-29 Thursday, a win for President Javier Milei; the lower house votes next.",
+   "detail": "The bill also bars candidates convicted on appeal of intentional corruption crimes (\"ficha limpia\"), ends mandatory presidential debates and scraps the pre-election blackout period. Milei's government argues dropping the PASO primaries will reduce election-year volatility and lower Argentina's country-risk premium. The Senate gave general approval after more than five hours of debate, with article-by-article votes continuing.",
+   "why": "Removing the primaries reshapes Argentina's 2027 race and is aimed at calming investors.",
+   "source": "TN (Todo Noticias)",
+   "url": "https://tn.com.ar/politica/2026/11/26/en-la-previa-a-la-sesion-en-el-senado-santilli-anticipo-que-el-gobierno-tiene-los-votos-asegurados-para-suspender-las-paso/",
+   "tags": [
+    "argentina",
+    "milei",
+    "elections",
+    "paso"
+   ],
+   "added_at": "2026-11-26T16:58:00-05:00"
+  },
+  {
+   "id": "2026-11-26-russia-hits-grain-ships-odesa",
+   "section": "news",
+   "topic": "conflict",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 3,
+   "thread": "russia-ukraine",
+   "time": "2026-11-26T05:50:00-05:00",
+   "time_known": false,
+   "text": "Two foreign cargo ships carrying more than 100,000 metric tons of grain were hit by Russia overnight near Odesa, Ukrainian Prime Minister Serhii Koretskyi said Thursday.",
+   "detail": "Russia's Defense Ministry separately said it struck a dry cargo vessel carrying \"dual-purpose cargo\" for Ukraine's military south of Odesa. Shipments from the Odesa ports, which handled about 90% of Ukraine's farm and metal exports, have largely stopped since late July as Russia stepped up attacks on terminals and ships. Separately, Trump and NATO Secretary-General Mark Rutte said after meeting at Mar-a-Lago late Wednesday that Russia must avoid actions that \"expand the war.\"",
+   "why": "Attacks on grain ships threaten Ukraine's exports and global food supplies.",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/ukraine-says-russia-hits-two-grain-ships-near-odesa-ports-2026-11-26/",
+   "tags": [
+    "ukraine",
+    "russia",
+    "black-sea",
+    "grain"
+   ],
+   "added_at": "2026-11-26T16:58:00-05:00"
+  },
   {
    "id": "2026-11-26-noreaster-thanksgiving-outages",
    "section": "news",

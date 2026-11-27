@@ -1,0 +1,215 @@
+{
+ "date": "2026-11-27",
+ "edition": "morning",
+ "subject": "Friday, Nov 27 - Morning edition",
+ "published": "2026-11-27T06:00:00-05:00",
+ "items": [
+  {
+   "id": "2026-11-26-thanksgiving-storm-outages-peak-near-million",
+   "section": "news",
+   "text": "The Thanksgiving storm's power outages peaked near 1 million U.S. homes and businesses Thursday night, up from 600,000 that afternoon; more than 800,000 were still out early Friday.",
+   "detail": "More than 961,000 customers were without power at 7:30 p.m. ET Thursday, according to PowerOutage.us data cited by Reuters, including more than 235,000 in Pennsylvania, 180,000 in New Jersey, 156,000 in Maryland, 132,000 in Virginia and about 106,000 in Missouri. More than 800,000 were still out as of about 12:30 a.m. Friday, AP reported. FlightAware counted more than 460 U.S. flight cancellations and more than 2,500 delays Thursday. Avalon, N.J., saw one of the worst floods in its history (\"Not quite Hurricane Sandy,\" an official said), and U.S. Route 30 into Atlantic City closed. The Washington Suburban Sanitary Commission asked all 1.9 million customers to conserve water because outages threatened its two filtration plants. St. Louis got 7.3 inches of snow and Ste. Genevieve, Mo., 14 inches; the roof of an empty ice arena collapsed in Wentzville, Mo. All of New Jersey and parts of New York remain under states of emergency. The National Weather Service expected conditions to improve, with gusts of 25-35 mph Friday.",
+   "why": "Hundreds of thousands are still without power as people travel home from the holiday.",
+   "impact": 3,
+   "topic": "weather",
+   "region": "US",
+   "time": "2026-11-26T19:30:00-05:00",
+   "time_known": true,
+   "source": "Reuters; AP",
+   "url": "https://www.reuters.com/business/environment/thanksgiving-storm-knocks-out-power-disrupts-flights-us-east-coast-2026-11-26/"
+  },
+  {
+   "id": "2026-11-27-china-stocks-surge-state-council",
+   "section": "money",
+   "text": "China's stock markets jumped Friday, the Shanghai index rising 3.73%, after the State Council promised more state-fund buying to steady prices.",
+   "detail": "The Shanghai Composite closed up 3.73% at 3,606.49, back above 3,600; the Shenzhen Component rose 7.24% to 10,814.02, the ChiNext board 11.61% and the STAR Composite 14.21%, Xinhua reported. Chip and electronics stocks led and banks lagged. A State Council executive meeting Friday called for stronger market-stabilizing mechanisms, more dividends and buybacks from listed companies, a bigger role for state-backed funds including Central Huijin Investment as a quasi-\"stabilization fund,\" and steering insurance, annuity and social-security money into stocks. Reuters said it was the biggest daily gain since the October 2024 stimulus, after the market had fallen to 16-month lows. Separately, the National Bureau of Statistics said Friday that industrial profits rose 20.1% in October from a year earlier, and 16.0% in January-October.",
+   "why": "It is Beijing's most direct move yet to stop a slide in the world's No. 2 stock market as tariff threats and the AI-stock sell-off weigh on markets.",
+   "impact": 3,
+   "topic": "markets",
+   "region": "World",
+   "time": "2026-11-27T02:00:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/markets/europe/china-stocks-shoot-up-after-beijing-vows-support-2026-11-27/"
+  },
+  {
+   "id": "2026-11-26-eu-summit-no-budget-deal-ukraine-loan",
+   "section": "news",
+   "text": "European Union leaders ended a special Brussels summit Thursday without agreeing on the 2028-2034 budget, pushing it and a new Ukraine loan to December.",
+   "detail": "\"We did not reach an agreement,\" European Council President António Costa said; leaders cut short a second day planned for Friday, and both issues move to the Dec. 17-18 summit, the last before their own end-2026 deadline. Costa's proposal is about €1.78 trillion, more than €200 billion below the Commission's plan of almost €2 trillion; seven net contributors led by Germany want it smaller. Costa said 24 of 27 states back a loan of up to €45 billion for Ukraine in 2027, up to €25 billion military and €20 billion budget support, repaid only if Ukraine receives Russian war reparations. Hungary, Slovakia and Czechia are staying out, and Bulgaria will join only the non-military part. German Chancellor Friedrich Merz has tied Germany's budget approval to all 27 states funding Ukraine.",
+   "why": "Ukraine's 2027 war funding stays unsettled heading into winter.",
+   "impact": 3,
+   "topic": "globe",
+   "region": "World",
+   "time": "2026-11-26T19:30:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/eu-leaders-wrestle-with-seven-year-budget-ukraine-financing-they-seek-december-2026-11-26/"
+  },
+  {
+   "id": "2026-11-26-de-cos-recommended-ecb-president",
+   "section": "money",
+   "text": "Pablo Hernández de Cos of Spain was recommended Thursday to succeed Christine Lagarde as European Central Bank president, EU Council President António Costa said.",
+   "detail": "EU leaders received the eurozone recommendation at Thursday's summit and opened consultations with the European Parliament and the ECB Governing Council; a final decision is expected at the Dec. 17-18 summit. Lagarde steps down early on Feb. 7, 2027. De Cos, a former Bank of Spain governor, is general manager of the Bank for International Settlements and would be the first Spaniard to lead the ECB. He won after the Netherlands dropped its candidate, Klaas Knot. France's Laurence Boone and Germany's Markus Brunnermeier were recommended for the ECB Executive Board.",
+   "why": "The ECB sets interest rates for the 20-country euro area, which move global markets and the dollar.",
+   "impact": 3,
+   "topic": "banks",
+   "region": "World",
+   "time": "2026-11-26T19:30:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/euro-countries-pick-spains-de-cos-ecb-chief-costa-says-2026-11-26/"
+  },
+  {
+   "id": "2026-11-26-argentina-senate-suspends-primaries",
+   "section": "news",
+   "text": "Argentina's 2027 presidential primaries would be suspended under an electoral overhaul the Senate passed 43-29 Thursday, a win for President Javier Milei; the lower house votes next.",
+   "detail": "The bill also bars candidates convicted on appeal of intentional corruption crimes (\"ficha limpia\"), ends mandatory presidential debates and scraps the pre-election blackout period. Milei's government argues dropping the PASO primaries will reduce election-year volatility and lower Argentina's country-risk premium. The Senate gave general approval after more than five hours of debate, with article-by-article votes continuing.",
+   "why": "Removing the primaries reshapes Argentina's 2027 race and is aimed at calming investors.",
+   "impact": 3,
+   "topic": "election",
+   "region": "World",
+   "time": "2026-11-26T16:08:00-05:00",
+   "time_known": true,
+   "source": "TN (Todo Noticias)",
+   "url": "https://tn.com.ar/politica/2026/11/26/en-la-previa-a-la-sesion-en-el-senado-santilli-anticipo-que-el-gobierno-tiene-los-votos-asegurados-para-suspender-las-paso/"
+  },
+  {
+   "id": "2026-11-26-thanksgiving-storm-outages-top-600000",
+   "section": "news",
+   "text": "The Thanksgiving storm's power outages more than doubled to over 600,000 homes and businesses Thursday afternoon as coastal flooding shut highways from North Carolina to New Jersey, AP reported.",
+   "detail": "Most of the outages were in East Coast states, according to PowerOutage.us; the count was about 250,000 early Thursday. Floodwaters swamped coastal towns from North Carolina through New Jersey at high tide. The 18-mile Chesapeake Bay Bridge-Tunnel in Virginia closed for several hours because of high winds, and NC 12, the only highway linking Hatteras Island on the Outer Banks to the mainland, closed after seawater breached the dunes again. Tornado warnings sounded around Norfolk, Va. All of New Jersey and parts of New York are under states of emergency. The National Weather Service expected the storm to hamper flights at eastern airports into Friday morning, and up to 13 inches of snow was forecast around St. Louis. On the West Coast, king tides and strong winds flooded communities and knocked out part of a pier. Macy's 100th parade is now Saturday at 8:30 a.m.",
+   "why": "Hundreds of thousands lost power on the holiday, and flooding and closed roads and bridges are snarling travel into Friday.",
+   "impact": 3,
+   "topic": "weather",
+   "region": "US",
+   "time": "2026-11-26T15:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/thanksgiving-weather-storm-macys-king-tides-e8bc9bc454c933dacffe89b1139c4d3c"
+  },
+  {
+   "id": "2026-11-26-jazan-refinery-strike-worker-killed",
+   "section": "news",
+   "text": "Saudi Aramco's Jazan refinery was hit by a projectile Thursday, killing a Nepalese worker and halting some operations, Saudi Arabia's Energy Ministry said.",
+   "detail": "The ministry said the strike set off a fire, later brought under control, and wounded several people of various nationalities; it did not name the attacker. The Saudi-led coalition said earlier Thursday that Yemen's Houthis had attacked the refinery, which sits near the Yemeni border and can process up to 400,000 barrels a day. The coalition later said it destroyed a ballistic missile launch platform in Hodeidah it said was used in the attack, and spokesman Turki al-Maliki warned that attacks on civilian infrastructure \"would be met with a firm military response.\" The strike came a day after the Houthis claimed an attack on Ras Tanura.",
+   "why": "It is the first death in the new wave of Houthi strikes on Saudi oil sites, adding pressure on oil supplies and prices.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-26T14:00:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-says-houthis-attacked-aramcos-jazan-refinery-2026-11-26/"
+  },
+  {
+   "id": "2026-11-26-trump-calls-gdp-figures-fake",
+   "section": "money",
+   "text": "The government's upward revision of third-quarter growth was called \"FAKE\" by President Trump Thursday, who demanded an investigation of the Commerce Department without offering evidence, AP reported.",
+   "detail": "The Commerce Department's Bureau of Economic Analysis on Wednesday revised third-quarter GDP growth to a 4.3% annual rate from 3.4%. Trump posted that the pre-election numbers were \"FAKE\" and a \"massive, and purposeful, error,\" asking why the correct number was not issued before the Nov. 3 midterms, which gave Democrats control of both houses of Congress. BEA revises data on a preset schedule regardless of politics. Commerce did not immediately comment; the government is largely closed for Thanksgiving. In August 2025 Trump fired the head of the Bureau of Labor Statistics after a weak jobs report.",
+   "why": "Attacks on official statistics can erode trust in data that businesses, markets and the Fed rely on.",
+   "impact": 3,
+   "topic": "economy",
+   "region": "US",
+   "time": "2026-11-26T10:30:00-05:00",
+   "time_known": false,
+   "source": "AP",
+   "url": "https://apnews.com/article/trump-gdp-economy-midterms-4fd800b44005ae11f950f96ff62f876e"
+  },
+  {
+   "id": "2026-11-26-hormuz-tanker-struck-irgc-mine-claim",
+   "section": "news",
+   "text": "A tanker leaving the Strait of Hormuz was struck by an unknown projectile east of Oman's Khasab, Britain's UKMTO said, as Iran's Guards claimed two tankers hit sea mines.",
+   "detail": "UKMTO said the outbound tanker was hit Wednesday about 18 nautical miles east of Khasab; the crew are accounted for and no environmental impact was reported. It separately reported a projectile exploding near a tanker about 50 nautical miles west of Dubai. Iran's Revolutionary Guards said Thursday, via Tasnim, that two tankers exploded and caught fire after hitting mines north of Khasab while using an \"unauthorised route,\" one a supertanker carrying more than 2 million barrels; that claim is not independently confirmed and the ships were not named. A Guards spokesman said the force was using heavy firepower to keep the strait closed to pressure the U.S. economy.",
+   "why": "Attacks on outbound tankers keep pressure on Gulf oil flows and prices.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-26T06:05:00-05:00",
+   "time_known": true,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-2026-11-26/"
+  }
+ ],
+ "groups": [
+  {
+   "heading": "Overnight",
+   "count": 4
+  },
+  {
+   "heading": "Yesterday's biggest stories",
+   "count": 5
+  }
+ ],
+ "also": [],
+ "week": [
+  {
+   "id": "2026-11-25-pce-inflation-3-8-gdp-revised",
+   "section": "money",
+   "text": "Inflation rose to 3.8% in October by the Fed's preferred gauge, nearly double its 2% goal, the Commerce Department said Wednesday.",
+   "detail": "The personal consumption expenditures price index rose 0.3% from September and 3.8% from a year earlier, up from 3.6% in September. Core prices, excluding food and energy, rose 3.3% from a year ago. Personal income jumped 0.7% and spending rose 0.3%; the saving rate was 4.1%. A separate Commerce report revised third-quarter growth up to a 4.3% annual rate, the fastest in three years. Markets fully price a quarter-point Fed rate hike at the Dec. 8-9 meeting. Jobless claims fell to 189,000, near the lowest since the late 1960s.",
+   "why": "Hotter inflation with a strong economy makes a December rate hike, and higher borrowing costs, very likely.",
+   "impact": 4,
+   "topic": "chart",
+   "region": "US",
+   "time": "2026-11-25T08:30:00-05:00",
+   "time_known": true,
+   "source": "Bureau of Economic Analysis",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+  },
+  {
+   "id": "2026-11-23-nvidia-reinstates-huang-ceo",
+   "section": "tech",
+   "text": "Jensen Huang was reinstated as Nvidia's CEO and president Monday, effective immediately, less than two weeks after he resigned; the company's shares jumped about 31%.",
+   "detail": "Nvidia's board voted unanimously to bring Huang back, and to his board seat, after meetings in which it said it was satisfied with his \"candor and ability to lead.\" The board said it received input from \"senior levels of the United States government\" and is confident his return \"poses no national security risk.\" Huang resigned Nov. 12 after reports of extramarital affairs, including one with a woman U.S. officials suspected of working for Chinese intelligence; board chair Harvey Jones said on the Nov. 17 earnings call that the board did not intend to reinstate him. President Trump called it \"the correct and proper decision\" on Truth Social and said the attorney general has no evidence Huang broke the law. Colette Kress, interim CEO since Nov. 12, returns to her finance role. Nvidia closed up about 31.5%, its best day since 2000, adding roughly $900 billion in market value.",
+   "why": "The return of the head of the world's most valuable chipmaker, with the government's blessing, reset the AI trade that dragged stocks into a correction last week.",
+   "impact": 4,
+   "topic": "tech",
+   "region": "US",
+   "time": "2026-11-23T08:58:00-05:00",
+   "time_known": true,
+   "source": "Nvidia",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+  },
+  {
+   "id": "2026-11-26-russia-hits-grain-ships-odesa",
+   "section": "news",
+   "text": "Two foreign cargo ships carrying more than 100,000 metric tons of grain were hit by Russia overnight near Odesa, Ukrainian Prime Minister Serhii Koretskyi said Thursday.",
+   "detail": "Russia's Defense Ministry separately said it struck a dry cargo vessel carrying \"dual-purpose cargo\" for Ukraine's military south of Odesa. Shipments from the Odesa ports, which handled about 90% of Ukraine's farm and metal exports, have largely stopped since late July as Russia stepped up attacks on terminals and ships. Separately, Trump and NATO Secretary-General Mark Rutte said after meeting at Mar-a-Lago late Wednesday that Russia must avoid actions that \"expand the war.\"",
+   "why": "Attacks on grain ships threaten Ukraine's exports and global food supplies.",
+   "impact": 3,
+   "topic": "conflict",
+   "region": "World",
+   "time": "2026-11-26T05:50:00-05:00",
+   "time_known": false,
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/europe/ukraine-says-russia-hits-two-grain-ships-near-odesa-ports-2026-11-26/"
+  }
+ ],
+ "upcoming": [
+  {
+   "date": "2026-12-01",
+   "when": "December",
+   "branch": "judicial",
+   "text": "Supreme Court hears the challenge to third-country deportations (date to be set).",
+   "detail": "Deportations can continue in the meantime; a decision is expected by summer 2027."
+  },
+  {
+   "date": "2026-12-01",
+   "when": "Secret ballot",
+   "text": "Senate Democrats vote on their leader for the new majority: Chuck Schumer vs. Chris Van Hollen.",
+   "detail": "Leadership election date per the Washington Post and Los Angeles Times; Schumer says he has the votes.",
+   "buzz": true
+  },
+  {
+   "date": "2026-12-04",
+   "when": "8:30 a.m. ET",
+   "text": "November jobs report (Employment Situation), 8:30 a.m. ET.",
+   "detail": "Release date per the BLS December 2026 schedule.",
+   "buzz": true,
+   "tags": [
+    "markets"
+   ]
+  }
+ ]
+}

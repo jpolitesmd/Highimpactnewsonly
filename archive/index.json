@@ -1,6 +1,13 @@
 {
  "editions": [
   {
+   "key": "2026-11-27-morning",
+   "date": "2026-11-27",
+   "edition": "morning",
+   "count": 9,
+   "lead": "The Thanksgiving storm's power outages peaked near 1 million U.S. homes and businesses Thursday night, up from 600,000 that afternoon; more than 800,000 were still out early Friday."
+  },
+  {
    "key": "2026-11-26-evening",
    "date": "2026-11-26",
    "edition": "evening",
@@ -806,5 +813,5 @@
    "lead": "President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and end the war."
   }
  ],
- "updated": "2026-11-26T16:35:00-05:00"
+ "updated": "2026-11-27T05:36:26-05:00"
 }

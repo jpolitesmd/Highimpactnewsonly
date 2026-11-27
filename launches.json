@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T16:34:18-05:00",
+  "updated": "2026-11-27T05:48:00-05:00",
   "block": {
     "start": "2026-11-23",
     "end": "2026-12-06",
@@ -19,13 +19,23 @@
     },
     {
       "date": "2026-11-29",
-      "sort": "10:40",
-      "time": "10:40–11:00 a.m. window",
+      "sort": "10:47",
+      "time": "10:47 a.m. target",
       "rocket": "Falcon 9",
       "mission": "NG-25",
       "site": "SLC-40, Cape Canaveral Space Force Station, Fla.",
       "url": "https://www.spacex.com/launches/ng25",
       "note": "Backup: Mon., Nov. 30 at 10:24 a.m."
+    },
+    {
+      "date": "2026-12-04",
+      "sort": "07:55",
+      "time": "7:55–8:24 a.m. window",
+      "rocket": "Falcon 9",
+      "mission": "MDA CHORUS",
+      "site": "SLC-40, Cape Canaveral Space Force Station, Fla.",
+      "url": "https://www.spacex.com/launches/mdachorus",
+      "note": "Backup: Sat., Dec. 5, same window"
     }
   ]
 }

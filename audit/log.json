@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T21:45:00-05:00",
+  "updated": "2026-11-26T21:35:00-05:00",
   "audits": [
     {
       "run": "2026-09-29T21:41:09-04:00",
@@ -426,6 +426,36 @@
         }
       ],
       "notes": "Abrego Garcia leaving for Spain broke after the Nov 24 evening lock (Nov 25 morning item, not a miss). SCOTUS deferring Cook County AR-15 mootness bid and Pentagon criticism of Canada judged impact 2."
+    },
+    {
+      "run": "2026-11-26T21:35:00-05:00",
+      "day": "2026-11-25/2026-11-26",
+      "reference_events": 12,
+      "missed": [
+        {
+          "id": "2026-11-25-cairo-tanker-fire",
+          "impact": 3,
+          "should_have_caught": "morning",
+          "reason": "Fuel tanker overturned and exploded on Cairo's Ring Road Nov 25, killing 31; driver detained Nov 26 (AP via WRAL, Guardian, France 24, Ahram). Not in either Nov 26 edition."
+        },
+        {
+          "id": "2026-11-25-australia-solomons-treaty",
+          "impact": 3,
+          "should_have_caught": "morning",
+          "reason": "Australia and Solomon Islands signed a treaty naming Australia primary security partner and barring Chinese military bases, after Honiara ended its 2022 China pact (pm.gov.au joint statement, Reuters, Nov 25). Not in either Nov 25 edition."
+        },
+        {
+          "id": "2026-11-25-fcc-abc-injunction",
+          "impact": 3,
+          "should_have_caught": "evening",
+          "reason": "Judge AliKhan barred the FCC from early review of ABC station licenses (Reuters, CNN, POLITICO, Nov 25). Already flagged by the Nov 26 evening edition as a catch-up candidate."
+        }
+      ],
+      "notes": "Ras Tanura Houthi strike (follow-on in a running thread), Iraq Federal Supreme Court Kurdistan oil ruling, EU/UK fragrance cartel fines, first Pakistani astronaut judged impact 2.",
+      "checklist_changes": [
+        "Wars/attacks line widened to mass-casualty accidents with Wikipedia Current events cross-check (Cairo tanker fire)",
+        "Leaders line adds security-treaty check via pm.gov.au/Reuters Asia-Pacific (Australia-Solomons treaty)"
+      ]
     }
   ]
 }

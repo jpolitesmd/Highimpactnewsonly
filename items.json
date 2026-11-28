@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:29:00-05:00",
+ "updated": "2026-11-28T05:50:00-05:00",
  "items": [
   {
    "id": "2026-11-27-us-disables-pacific-archer-blockade",
@@ -18844,6 +18844,163 @@
     "ukraine"
    ],
    "added_at": "2026-11-21T05:45:00-05:00"
+  },
+  {
+   "id": "2026-11-27-united-fidelity-bank-failure",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "banks",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-27T18:00:00-05:00",
+   "time_known": false,
+   "text": "United Fidelity Bank of Evansville, Ind., was shut down by federal regulators Friday, the biggest U.S. bank failure in more than two years; depositors are protected.",
+   "detail": "The Office of the Comptroller of the Currency closed the $5.9 billion-asset lender, saying it was in an \"unsafe or unsound condition,\" and named the FDIC receiver. First Citizens Bank of Raleigh, N.C., agreed to take over substantially all deposits and assets, so customers keep their money and insurance coverage without doing anything; United Fidelity's 22 branches in Indiana, Illinois, Florida, Colorado and the U.S. Virgin Islands reopen as First Citizens branches Saturday or Monday. The FDIC estimates the failure will cost its Deposit Insurance Fund $1.83 billion. It is the largest failure since Philadelphia's Republic First Bank closed in April 2024 with about $6 billion in assets, Reuters reported.",
+   "why": "A multibillion-dollar bank failure tests the deposit-insurance fund and draws attention to strains in regional lenders.",
+   "source": "FDIC; Reuters",
+   "url": "https://www.fdic.gov/news/press-releases/2026/first-citizens-bank-trust-company-raleigh-north-carolina-assumes",
+   "tags": [
+    "bank-failure",
+    "fdic",
+    "first-citizens",
+    "occ"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00",
+   "notes": "FDIC release Nov 27 (full text read); Reuters https://www.reuters.com/sustainability/boards-policy-regulation/united-fidelity-bank-shut-biggest-us-bank-failure-2-years-first-citizens-buys-2026-11-28/ for 'biggest in 2 years' and OCC quote."
+  },
+  {
+   "id": "2026-11-25-cdc-measles-6039-cases",
+   "section": "health",
+   "health_beat": "public",
+   "topic": "measles",
+   "region": "US",
+   "impact": 3,
+   "time": "2026-11-25T12:00:00-05:00",
+   "time_known": false,
+   "text": "U.S. measles cases reached 6,039 this year as of Nov. 24, the CDC said, nearly triple 2025's full-year total of 2,289.",
+   "detail": "Cases have been reported in 47 jurisdictions, and 43 new outbreaks have been recorded in 2026; 97% of cases (5,829) are tied to outbreaks, including 1,385 from outbreaks that began in 2025. The CDC posted the count Wednesday because of the holiday; its next update is Dec. 4. The total is the highest since 1991. The Pan American Health Organization declared on Nov. 17 that the U.S. had lost its measles elimination status.",
+   "why": "The count shows measles spreading at a pace the U.S. has not seen in a generation, after the country lost its elimination status.",
+   "source": "CDC",
+   "url": "https://www.cdc.gov/measles/data-research/index.html",
+   "tags": [
+    "measles",
+    "cdc",
+    "outbreak"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00",
+   "notes": "CDC page updated Nov 25 (data as of Nov 24); not previously in items.json. Highest since 1991 per CDC historical chart on the same page."
+  },
+  {
+   "id": "2026-11-27-centcom-rejects-iran-navy-claims",
+   "section": "news",
+   "topic": "ship",
+   "region": "US",
+   "impact": 2,
+   "thread": "iran-war",
+   "time": "2026-11-27T19:05:00-05:00",
+   "time_known": true,
+   "text": "Iran's claims that its navy retook two tankers seized by U.S. forces and once struck the carrier USS Abraham Lincoln are false, U.S. Central Command said.",
+   "detail": "Iranian navy commander Shahram Irani had said, according to Iran's semi-official Fars news agency, that Iranian forces boarded two oil tankers \"stolen\" by the U.S. while American troops slept, and Tehran also said the U.S. charges ships $2.5 million to pass through the Strait of Hormuz. CENTCOM called the tanker account \"another fabricated lie,\" said \"Iran no longer has a navy,\" said the Lincoln strike group was never hit and returned home last month, and said there is no toll for ships in the strait. Neither side's claims could be independently verified. The exchange came a day after CENTCOM said it disabled the cargo ship Pacific Archer for trying to run the U.S. blockade of Iranian ports.",
+   "why": "Dueling claims over the Strait of Hormuz show how tense the standoff at sea remains as Iran vows to break the U.S. blockade.",
+   "source": "U.S. Central Command (via Anadolu)",
+   "url": "https://tribune.com.pk/story/2642786/us-central-command-denies-iranian-commanders-claims-about-seized-tankers-carrier-strike-hormuz-toll",
+   "tags": [
+    "iran",
+    "centcom",
+    "hormuz",
+    "blockade"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00",
+   "notes": "CENTCOM statement posted on X 00:05 UTC Nov 28 (7:05 p.m. ET Nov 27); no centcom.mil release or AP/Reuters copy found; linking Anadolu text as carried by Express Tribune. X not cited."
+  },
+  {
+   "id": "2026-11-28-afghanistan-school-blast-kunar",
+   "section": "news",
+   "topic": "disaster",
+   "region": "World",
+   "world_region": "asia",
+   "impact": 2,
+   "time": "2026-11-28T00:30:00-05:00",
+   "time_known": true,
+   "text": "An explosion at a school in Afghanistan's Kunar province killed seven people and wounded more than 90 Saturday morning, a provincial official said.",
+   "detail": "Sami ul Haq Bayan, Kunar's culture and information director, said the 10 a.m. blast on the outskirts of the provincial capital, Asadabad, appeared to start in a neighboring depot storing explosives for mining companies and that early information pointed to negligence there; an investigation is underway. Up to 15 of the wounded remained in the hospital. Part of the school building appeared to collapse.",
+   "why": "Children were among the victims of a blast officials tie to poorly guarded mining explosives.",
+   "source": "AP",
+   "url": "https://apnews.com/article/afghanistan-school-explosion-843fe51fe82d739eab076b2fbd4d8eb0",
+   "tags": [
+    "afghanistan",
+    "explosion",
+    "school"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00",
+   "notes": "AP full text via News4JAX (updated 5:23 a.m. ET); BBC/Reuters say seven students killed, up to 99 hurt."
+  },
+  {
+   "id": "2026-11-27-france-gdp-shrinks-q3",
+   "section": "money",
+   "money_beat": "markets",
+   "topic": "chart",
+   "region": "World",
+   "world_region": "europe",
+   "impact": 2,
+   "time": "2026-11-27T02:45:00-05:00",
+   "time_known": true,
+   "text": "France's economy shrank 0.2% in the third quarter, worse than first reported, the statistics agency INSEE said Friday.",
+   "detail": "INSEE cut its estimate by 0.1 point as construction investment fell further; exports dropped 1.6%. Output was flat in the second quarter and fell 0.2% in the first, leaving growth for 2026 so far at 0.1%. Reuters reported the revision puts France in a technical recession on unrounded figures. The government's borrowing need rose to 5.6% of GDP in the quarter.",
+   "why": "A shrinking French economy weighs on Europe's growth and on a government already under pressure over its budget deficit.",
+   "source": "INSEE",
+   "url": "https://www.insee.fr/fr/statistiques/9165918",
+   "tags": [
+    "france",
+    "gdp",
+    "economy"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00",
+   "notes": "INSEE Informations rapides no. 292 (Nov 27, 8:45 a.m. Paris). Reuters headline: France in technical recession after quarterly revisions."
+  },
+  {
+   "id": "2026-11-27-epa-iowa-detonation-water-no-lead",
+   "section": "news",
+   "topic": "agency",
+   "region": "US",
+   "impact": 2,
+   "thread": "iowa-detonation",
+   "time": "2026-11-27T21:00:00-05:00",
+   "time_known": false,
+   "text": "The Army's detonation of degraded lead azide in Iowa did not raise lead in drinking-water sources, the EPA said in its first post-blast lab results.",
+   "detail": "EPA found no lead in 38 water samples taken after Wednesday's blast at public water supplies, both treated and untreated. Air monitors had read zero airborne lead for 30 straight hours. The agency has collected more than 3,200 air, water, soil and dust samples and has resampled 88% of homes tested beforehand; results for tap water, soil and dust will be posted at epa.gov/IowaData as they are validated.",
+   "why": "Nearby residents in Iowa, Illinois and Missouri had feared lead fallout from the detonation.",
+   "source": "EPA",
+   "url": "https://www.epa.gov/newsreleases/epa-releases-initial-water-source-lab-results-indicating-wednesdays-controlled",
+   "tags": [
+    "iowa",
+    "lead-azide",
+    "epa",
+    "army"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00"
+  },
+  {
+   "id": "2026-11-27-virginia-storm-state-of-emergency",
+   "section": "news",
+   "topic": "weather",
+   "region": "US",
+   "impact": 2,
+   "time": "2026-11-27T15:00:00-05:00",
+   "time_known": false,
+   "text": "Virginia declared a state of emergency for recovery from the Thanksgiving coastal storm as power was slowly restored across the East Coast.",
+   "detail": "Gov. Abigail Spanberger's Executive Order 23 frees state resources and aid; state officials are assessing damage to see whether Virginia qualifies for federal help. AP reported Saturday that heavy rain was winding down and power was being restored to hundreds of thousands of customers after flooding, downed trees and water rescues from New York to Virginia. Macy's Thanksgiving Day Parade, postponed by the storm, is scheduled for Saturday at 8:30 a.m. in New York.",
+   "why": "The emergency order opens the door to state and possibly federal help for storm-hit communities.",
+   "source": "Office of the Governor of Virginia; AP",
+   "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/november-releases/name-1130229-en.html",
+   "tags": [
+    "storm",
+    "thanksgiving",
+    "virginia",
+    "power-outages"
+   ],
+   "added_at": "2026-11-28T05:50:00-05:00",
+   "notes": "Update to 2026-11-27-storm-outages-halved-macys-parade-saturday; AP News Summary 5:15 a.m. ET via Union-Bulletin."
   }
  ]
 }
